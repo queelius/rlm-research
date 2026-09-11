@@ -1,0 +1,7 @@
+# CPU qualification history
+
+The initial three-arm native fixture (`qualification-001`) ran all seven authored transport calls, including the optional child. Its post-run prefix check failed because the qualifier reconstructed tools from recursively key-sorted JSON instead of the retained `native_tools_ordered_json` string. Actual prompt messages matched; the reconstructed token sequence differed in JSON tool-key ordering. This was a qualifier-only error: the scientific collector already uses ordered tool JSON. No science endpoint was launched.
+
+The qualifier now uses the actual ordered tool string. Its authored file-byte assertions also use SHA256 equality rather than repeating both full evidence literals, keeping the fixture action short. `qualification-002` passes seven actual CPU-native calls, three actual file/observation checks, one optional native child, equal tool inventory, all three exact native initial prefixes and three authenticated final branches. Fixture likelihoods and `[]` answers are synthetic—not model or join-success measurements. Both qualification directories are retained; no prior source or output was overwritten.
+
+Test-first interface tests initially failed because implementation modules did not exist. Subsequent focused tests cover all facts/order, exact paired slots, native final availability, service/config/composed launch interception, actual collector CLI and all-NULL transport-failure inventory. Final source hashes and exact output are in CPU_TESTS.json and READY.json after sealing.

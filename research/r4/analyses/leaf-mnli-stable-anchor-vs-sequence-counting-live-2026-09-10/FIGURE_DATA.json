@@ -1,0 +1,844 @@
+{
+  "cluster_unit": "16 paired contexts; calls, records, and labels within context are dependent",
+  "late_accuracy_pooled_references": {
+    "labels_only": {
+      "known_late_labels": 1536,
+      "late_accuracy_known": 0.341796875,
+      "late_accuracy_planned_bounds": [
+        0.341796875,
+        0.341796875
+      ],
+      "late_correct": 525,
+      "late_correct_bounds": [
+        525,
+        525
+      ],
+      "planned_late_labels": 1536
+    },
+    "opaque": {
+      "known_late_labels": 1536,
+      "late_accuracy_known": 0.8489583333333334,
+      "late_accuracy_planned_bounds": [
+        0.8489583333333334,
+        0.8489583333333334
+      ],
+      "late_correct": 1304,
+      "late_correct_bounds": [
+        1304,
+        1304
+      ],
+      "planned_late_labels": 1536
+    },
+    "permuted_numeric": {
+      "known_late_labels": 1536,
+      "late_accuracy_known": 0.861328125,
+      "late_accuracy_planned_bounds": [
+        0.861328125,
+        0.861328125
+      ],
+      "late_correct": 1323,
+      "late_correct_bounds": [
+        1323,
+        1323
+      ],
+      "planned_late_labels": 1536
+    },
+    "sequential_numeric": {
+      "known_late_labels": 1536,
+      "late_accuracy_known": 0.8541666666666666,
+      "late_accuracy_planned_bounds": [
+        0.8541666666666666,
+        0.8541666666666666
+      ],
+      "late_correct": 1312,
+      "late_correct_bounds": [
+        1312,
+        1312
+      ],
+      "planned_late_labels": 1536
+    }
+  },
+  "opaque_gate": {
+    "all_cells_at_least_15_available": true,
+    "contexts": {
+      "0": {
+        "bounds": [
+          41,
+          41
+        ],
+        "known_difference": 41,
+        "known_pairs": 3
+      },
+      "1": {
+        "bounds": [
+          47,
+          47
+        ],
+        "known_difference": 47,
+        "known_pairs": 3
+      },
+      "10": {
+        "bounds": [
+          53,
+          53
+        ],
+        "known_difference": 53,
+        "known_pairs": 3
+      },
+      "11": {
+        "bounds": [
+          52,
+          52
+        ],
+        "known_difference": 52,
+        "known_pairs": 3
+      },
+      "12": {
+        "bounds": [
+          50,
+          50
+        ],
+        "known_difference": 50,
+        "known_pairs": 3
+      },
+      "13": {
+        "bounds": [
+          46,
+          46
+        ],
+        "known_difference": 46,
+        "known_pairs": 3
+      },
+      "14": {
+        "bounds": [
+          46,
+          46
+        ],
+        "known_difference": 46,
+        "known_pairs": 3
+      },
+      "15": {
+        "bounds": [
+          49,
+          49
+        ],
+        "known_difference": 49,
+        "known_pairs": 3
+      },
+      "2": {
+        "bounds": [
+          52,
+          52
+        ],
+        "known_difference": 52,
+        "known_pairs": 3
+      },
+      "3": {
+        "bounds": [
+          46,
+          46
+        ],
+        "known_difference": 46,
+        "known_pairs": 3
+      },
+      "4": {
+        "bounds": [
+          61,
+          61
+        ],
+        "known_difference": 61,
+        "known_pairs": 3
+      },
+      "5": {
+        "bounds": [
+          27,
+          27
+        ],
+        "known_difference": 27,
+        "known_pairs": 3
+      },
+      "6": {
+        "bounds": [
+          46,
+          46
+        ],
+        "known_difference": 46,
+        "known_pairs": 3
+      },
+      "7": {
+        "bounds": [
+          53,
+          53
+        ],
+        "known_difference": 53,
+        "known_pairs": 3
+      },
+      "8": {
+        "bounds": [
+          55,
+          55
+        ],
+        "known_difference": 55,
+        "known_pairs": 3
+      },
+      "9": {
+        "bounds": [
+          55,
+          55
+        ],
+        "known_difference": 55,
+        "known_pairs": 3
+      }
+    },
+    "no_contract_or_availability_disadvantage": true,
+    "paired_known_denominator": 1536,
+    "paired_known_gain_correct": 779,
+    "paired_known_gain_pp": 50.716145833333336,
+    "paired_known_pairs": 48,
+    "planned_denominator": 1536,
+    "planned_gain_correct_bounds": [
+      779,
+      779
+    ],
+    "planned_gain_pp_bounds": [
+      50.716145833333336,
+      50.716145833333336
+    ],
+    "positive_contexts_by_lower_bound": 16,
+    "promote": true,
+    "relative_to_sequential_pp_bounds": [
+      -0.5208333333333334,
+      -0.5208333333333334
+    ]
+  },
+  "per_context": [
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            41,
+            41
+          ],
+          "known_difference": 41,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            41,
+            41
+          ],
+          "known_difference": 41,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            42,
+            42
+          ],
+          "known_difference": 42,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 0
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            47,
+            47
+          ],
+          "known_difference": 47,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            47,
+            47
+          ],
+          "known_difference": 47,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            43,
+            43
+          ],
+          "known_difference": 43,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 1
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            52,
+            52
+          ],
+          "known_difference": 52,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            55,
+            55
+          ],
+          "known_difference": 55,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            52,
+            52
+          ],
+          "known_difference": 52,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 2
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            46,
+            46
+          ],
+          "known_difference": 46,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            52,
+            52
+          ],
+          "known_difference": 52,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            51,
+            51
+          ],
+          "known_difference": 51,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 3
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            61,
+            61
+          ],
+          "known_difference": 61,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            56,
+            56
+          ],
+          "known_difference": 56,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            59,
+            59
+          ],
+          "known_difference": 59,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 4
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            27,
+            27
+          ],
+          "known_difference": 27,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            28,
+            28
+          ],
+          "known_difference": 28,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            27,
+            27
+          ],
+          "known_difference": 27,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 5
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            46,
+            46
+          ],
+          "known_difference": 46,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            42,
+            42
+          ],
+          "known_difference": 42,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            46,
+            46
+          ],
+          "known_difference": 46,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 6
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            53,
+            53
+          ],
+          "known_difference": 53,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            57,
+            57
+          ],
+          "known_difference": 57,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            55,
+            55
+          ],
+          "known_difference": 55,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 7
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            55,
+            55
+          ],
+          "known_difference": 55,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            55,
+            55
+          ],
+          "known_difference": 55,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            50,
+            50
+          ],
+          "known_difference": 50,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 8
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            55,
+            55
+          ],
+          "known_difference": 55,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            52,
+            52
+          ],
+          "known_difference": 52,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            59,
+            59
+          ],
+          "known_difference": 59,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 9
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            53,
+            53
+          ],
+          "known_difference": 53,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            59,
+            59
+          ],
+          "known_difference": 59,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            53,
+            53
+          ],
+          "known_difference": 53,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 10
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            52,
+            52
+          ],
+          "known_difference": 52,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            54,
+            54
+          ],
+          "known_difference": 54,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            53,
+            53
+          ],
+          "known_difference": 53,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 11
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            50,
+            50
+          ],
+          "known_difference": 50,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            54,
+            54
+          ],
+          "known_difference": 54,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            52,
+            52
+          ],
+          "known_difference": 52,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 12
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            46,
+            46
+          ],
+          "known_difference": 46,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            49,
+            49
+          ],
+          "known_difference": 49,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            48,
+            48
+          ],
+          "known_difference": 48,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 13
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            46,
+            46
+          ],
+          "known_difference": 46,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            48,
+            48
+          ],
+          "known_difference": 48,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            48,
+            48
+          ],
+          "known_difference": 48,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 14
+    },
+    {
+      "anchor_effects": {
+        "opaque": {
+          "bounds": [
+            49,
+            49
+          ],
+          "known_difference": 49,
+          "known_pairs": 3
+        },
+        "permuted_numeric": {
+          "bounds": [
+            49,
+            49
+          ],
+          "known_difference": 49,
+          "known_pairs": 3
+        },
+        "sequential_numeric": {
+          "bounds": [
+            49,
+            49
+          ],
+          "known_difference": 49,
+          "known_pairs": 3
+        }
+      },
+      "context_index": 15
+    }
+  ],
+  "permuted_numeric_gate": {
+    "all_cells_at_least_15_available": true,
+    "contexts": {
+      "0": {
+        "bounds": [
+          41,
+          41
+        ],
+        "known_difference": 41,
+        "known_pairs": 3
+      },
+      "1": {
+        "bounds": [
+          47,
+          47
+        ],
+        "known_difference": 47,
+        "known_pairs": 3
+      },
+      "10": {
+        "bounds": [
+          59,
+          59
+        ],
+        "known_difference": 59,
+        "known_pairs": 3
+      },
+      "11": {
+        "bounds": [
+          54,
+          54
+        ],
+        "known_difference": 54,
+        "known_pairs": 3
+      },
+      "12": {
+        "bounds": [
+          54,
+          54
+        ],
+        "known_difference": 54,
+        "known_pairs": 3
+      },
+      "13": {
+        "bounds": [
+          49,
+          49
+        ],
+        "known_difference": 49,
+        "known_pairs": 3
+      },
+      "14": {
+        "bounds": [
+          48,
+          48
+        ],
+        "known_difference": 48,
+        "known_pairs": 3
+      },
+      "15": {
+        "bounds": [
+          49,
+          49
+        ],
+        "known_difference": 49,
+        "known_pairs": 3
+      },
+      "2": {
+        "bounds": [
+          55,
+          55
+        ],
+        "known_difference": 55,
+        "known_pairs": 3
+      },
+      "3": {
+        "bounds": [
+          52,
+          52
+        ],
+        "known_difference": 52,
+        "known_pairs": 3
+      },
+      "4": {
+        "bounds": [
+          56,
+          56
+        ],
+        "known_difference": 56,
+        "known_pairs": 3
+      },
+      "5": {
+        "bounds": [
+          28,
+          28
+        ],
+        "known_difference": 28,
+        "known_pairs": 3
+      },
+      "6": {
+        "bounds": [
+          42,
+          42
+        ],
+        "known_difference": 42,
+        "known_pairs": 3
+      },
+      "7": {
+        "bounds": [
+          57,
+          57
+        ],
+        "known_difference": 57,
+        "known_pairs": 3
+      },
+      "8": {
+        "bounds": [
+          55,
+          55
+        ],
+        "known_difference": 55,
+        "known_pairs": 3
+      },
+      "9": {
+        "bounds": [
+          52,
+          52
+        ],
+        "known_difference": 52,
+        "known_pairs": 3
+      }
+    },
+    "no_contract_or_availability_disadvantage": true,
+    "paired_known_denominator": 1536,
+    "paired_known_gain_correct": 798,
+    "paired_known_gain_pp": 51.953125,
+    "paired_known_pairs": 48,
+    "planned_denominator": 1536,
+    "planned_gain_correct_bounds": [
+      798,
+      798
+    ],
+    "planned_gain_pp_bounds": [
+      51.953125,
+      51.953125
+    ],
+    "positive_contexts_by_lower_bound": 16,
+    "promote": true,
+    "relative_to_sequential_pp_bounds": [
+      0.7161458333333334,
+      0.7161458333333334
+    ]
+  },
+  "primary_descriptive": {
+    "pooled_stable_gain_pp_bounds": [
+      51.33463541666667,
+      51.33463541666667
+    ],
+    "pooled_stable_retention_vs_sequential_pp_bounds": [
+      0.09765625,
+      0.09765625
+    ]
+  },
+  "schema": "stable-anchor192-meeting-figure-data-v1"
+}

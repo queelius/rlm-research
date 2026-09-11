@@ -1,0 +1,69 @@
+"""Owner composition only; external service/process boundaries never launch."""
+import importlib.util
+from pathlib import Path
+
+import pytest
+
+
+def owner():
+    path = Path(__file__).with_name('owner.py')
+    assert path.exists(), 'owner wrapper missing'
+    spec = importlib.util.spec_from_file_location('diagnostic_owner_test', path)
+    value = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(value)
+    return value
+
+
+def test_missing_credential_does_not_create_output(tmp_path, monkeypatch):
+    value = owner()
+    output = tmp_path / 'attempt-001'
+    monkeypatch.delenv('STRICT_RLM_CALIBRATION_API_KEY', raising=False)
+    monkeypatch.setattr(value, 'ATTEMPT', output)
+    with pytest.raises(ValueError, match='STRICT_RLM_CALIBRATION_API_KEY'):
+        value.execute(output)
+    assert not output.exists()
+
+
+@pytest.mark.parametrize('collector_failure', [False, True])
+def test_shared_deadline_exact_commands_and_release_on_collector_failure(tmp_path, monkeypatch, collector_failure):
+    value = owner()
+    output = tmp_path / 'attempt-001'
+    events = []
+
+    class Suite:
+        def start_service(self, directory, binding, deadline):
+            events.append(('start', directory, binding, deadline))
+
+        def command(self, directory, label, argv, cap, deadline):
+            events.append(('command', directory, label, argv, cap, deadline))
+            if collector_failure:
+                raise RuntimeError('controlled collector failure')
+            value.s.write(output / 'rollout/TERMINAL.json', {'planned': 32, 'recorded': 32, 'available': 31})
+
+        def release_service(self, directory):
+            events.append(('release', directory))
+
+    monkeypatch.setenv('STRICT_RLM_CALIBRATION_API_KEY', 'cpu-fixture-value-not-production')
+    monkeypatch.setenv('CUDA_VISIBLE_DEVICES', '0')
+    monkeypatch.setattr(value, 'ATTEMPT', output)
+    monkeypatch.setattr(value, 'verify', lambda: {'identity': 'cpu-owner'})
+    monkeypatch.setattr(value, 'dependencies', lambda: Suite())
+    monkeypatch.setattr(value, 'runtime_preflight', lambda: None)
+    monkeypatch.setattr(value.time, 'time', lambda: 1000.0)
+    monkeypatch.setattr(value.signal, 'signal', lambda *args: None)
+    monkeypatch.setattr(value.signal, 'setitimer', lambda *args: None)
+    result = value.execute(output)
+    assert [event[0] for event in events] == ['start', 'command', 'release']
+    start, command, release = events
+    assert start[3] == 1180.0
+    assert command[4:] == (1200, 2200.0)
+    argv = command[3]
+    assert argv[1] == str(value.s.ROOT / 'collect.py')
+    assert argv[argv.index('--output') + 1] == str(output / 'rollout')
+    assert argv[argv.index('--deadline') + 1] == '2200.0'
+    assert argv[argv.index('--endpoint') + 1] == str(output / 'owned-service/service/endpoint-original.json')
+    assert 'cpu-fixture-value-not-production' not in repr(argv)
+    assert result['complete'] is (not collector_failure)
+    assert result['released'] is True
+    assert result['work_deadline_epoch'] == 2200.0
+    assert result['owned_deadline_epoch'] == 2320.0

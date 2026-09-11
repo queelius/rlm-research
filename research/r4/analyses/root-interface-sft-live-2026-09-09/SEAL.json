@@ -1,0 +1,25 @@
+{
+  "status": "SEALED_INDEPENDENT_SFT_AUDIT_WITH_COMMON_HARNESS_AUTHORSHIP_DISCLOSED",
+  "files_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/READOUT_METRICS.json": "62f28ab87afd75ae3ca7bf2765ba94ec6598bb636d9c1643df54d5348609d110",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/REPORT.md": "959ac7ce7ed3ee82b134d0acc5a1963e8077519358e82ac40e01682dad3b991d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/GRAPH_AND_TARGET_CHECK.json": "3030acaccd6a3cc646c46d6d59b63fd7c8520367743ef6845f2c376c7bf48ce4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/READOUT_SOURCES.json": "90e027dc87e705b5a1bfe0ae0254a82810596939920b7328f1ec45ac521d6e1f",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/graph_and_target_check.py": "1d4d997d5290c8deb42b7a0969b877f3ffcb7b561598033ca4edbf49d8981cf6",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/early_audit.py": "91c471108a640eec8fb3c48b800e4351c07025c6e16e72cbd057bfaf7fc2ee9a",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/METHOD.md": "2ad3c21f9d8f3ac8c238078b90b382a429a0901d7debdbecd70e7c4de832dadc",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/seal_audit.py": "3260fd169aa75e09074d5fd5d41ad8ce54e547e0be69142495b23855612f9e8c",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/readout_audit.py": "d83c7271eb6a3c4425bfaa7e8900c6203278b0491ef910dbd1aa86bbd10daf22",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/EARLY_SOURCES.json": "78c9f0bce04d7ea93cf335260f9c7f0320a794359604e92aeac2e0025bca7dff",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/PRIMARY_LEDGER.json": "969bd5f85d37108ac671d4e18783f97c444ce24d4b13397135a05f0a3470cf67",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/TRAINING_AUDIT.json": "5264a7b359ec95609b83e7bb153781cdd65060982b2d68cb6d46991dc347f4e6",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-interface-sft-live-2026-09-09/METRICS.json": "3c0f02734a702b050c8c1c1480bbb39e987e17721ce64764e8b9eff5276adb1e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-interface-sft-local-runtime-v1/outputs/attempt-001/TERMINAL.json": "2be668136f19d52c373a5caee3afdf17abe79feb578075eabfca8899a583f1f0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-interface-sft-local-runtime-v1/outputs/attempt-001/initial/SERVICE_STOPPED.json": "d91d5e7822adf408dd9471cff7cb0f6f45b0854eafd9c938ea7a5cf172f66e06",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-interface-sft-local-runtime-v1/outputs/attempt-001/final/SERVICE_STOPPED.json": "dc6a00567c3d35d846d52550b56fe30e31bc4dcb8feec3e9beaefcd5fa06b297",
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-09-after-operators24-interface-sft/attempt-001/interface-sft/EXIT.json": "d22e1a8abcdf95bfc26014768cb33804c187b154ffec8c9e3090228a848e1361"
+  },
+  "checks": "All32 masks/targets,4optimizer states/checkpoints,48raw endpoints,198full native graphs/calls,50typed maps; final consistency passed.",
+  "new_model_calls": 0,
+  "source_or_outcome_mutations": 0
+}

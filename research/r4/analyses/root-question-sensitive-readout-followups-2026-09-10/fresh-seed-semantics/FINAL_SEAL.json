@@ -1,0 +1,33 @@
+{
+  "schema": "fresh_seed_qs_semantic_audit_final_seal_v1",
+  "created_utc": "2026-09-10T18:08:28Z",
+  "study": "root-question-sensitive-seed-replication-v1",
+  "status": "complete",
+  "artifact_sha256": {
+    "REPORT.md": "b767057594b31fbb6f76dff8c38ecf4bbe4f269246772c3c1740023dbb3b8bd3",
+    "SEMANTICS.json": "0676e3f32605897d214da78b1359df8f29a3bf7b61de3e26f2507434223b560f",
+    "merge_semantics.py": "da2fd07d13b9587a92ad11d65fe1ac01f3ef143e9c47b679ba45770d18ce4eb0",
+    "segment-000-071.json": "b2216a3b93320d9a1a5d4fa8e9cbd80313567d064f737c8647fd303ea4c3f9dd",
+    "segment-000-071.md": "757615e8a8c1b2e291cc2185c1bcc643992c4fc3b8aa6b539270e7a4cda36b51",
+    "segment-072-143.json": "563cec10dc1ecf51b83dddf60644825ecd2feaaa902181ed9d90088382d9e6be",
+    "segment-072-143.md": "2bd7d6ddc9ee64cdd43ddc12eb9c7d6b45d3d38a4ed1e9ccbff8af535d54566b",
+    "test_semantics.py": "f086b0beafafdcd525983407e988a30622db9bf6e13618eba5d1833827a0baf0"
+  },
+  "upstream_sha256": {
+    "METHOD.md": "208ed6a52606bdad8fd55f2c43b776d944eef0ea80d7b06aed8c7c67070926b7",
+    "readout_audit.py": "812f2b468d5bdbfccb55cd0ffb40e53314cba2711aaa2443be09036676a8de1e",
+    "root-question-sensitive-seed-replication-v1-AUDIT.json": "c680125c138079d485eb16a063b86757398c3a5ecf553821c9064e0e6d839374",
+    "science_READY.json": "4a4e7a4812bec003d42123ce08530c3d721cebe6629c2126ac08f7ec36f6119d",
+    "OWNER_TERMINAL.json": "16a04cb1d0423a091b8e9ee7f8b59fd9478c391127c9c8cfa759f181b365e7b2",
+    "parent_EXIT.json": "2f16c37690d85a1be02a4dfea4d4997bb4b13a04fecdd084b7b90836f6e957cd"
+  },
+  "verification": {
+    "command": "python -m pytest -q -p no:cacheprovider test_semantics.py; rebuild SEMANTICS.json and byte-compare",
+    "tests": 3,
+    "passed": 3,
+    "rebuild_byte_equal": true,
+    "planned": 144,
+    "observed": 132,
+    "null": 12
+  }
+}

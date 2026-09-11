@@ -1,0 +1,15 @@
+# Original corrective free: executed state-use ruling
+
+All 90 unique programs in the 27 retained episode records were manually inspected, alongside their actual observations. FINAL_ACCOUNTING.json additionally catalogs every returned root tool program from the five missing-episode slots; those programs were manually inspected without execution. No faithful actual-child-map, actual-user-scoped scalar category reduction is executed in any original corrective free slot. This is an observable action claim, not a claim about unobserved internal reasoning or general root capability.
+
+Four successful sampled programs do perform actual user-scoped child acquisition and category selection into a list: code SHA prefixes 97f06cbd, 7bf94db6, 5b9e6a4f, 2d1dfd85. Their recorded observations are respectively ['numeric value'], [], [], []. These are genuine scoped evidence operations, not scalar count executions; they must not be erased by the stricter zero scalar-reduction result. Other actions inspect files, acquire batches, repeat acquisitions, repair missing imports, or try shell tools. The taught fresh-name visible_maps/by_id/requested_ids/count correction is not emitted. Training assumes an existing producer/import history that is absent at a fresh free root; this supports a reachable-state/action-selection mismatch interpretation, not an isolated proof of its cause.
+
+Seven frozen native-final NULLs have distinct mechanisms:
+
+- abf2e37f: 53 returned root setup actions, including 25 apt-get and 21 pip attempts. The 54th physical request has 8,238 input tokens and is rejected for context length; downstream400 manifests as proxy500, then episode timeout. It is not a 54th established sampled/paid completion.
+- 286b6750: repeated four-batch acquisitions, 92 physical requests, 91 returned native completions; final 8,222-token request rejected, then timeout.
+- 7200c99f and 67011f66: repeated batch acquisition; final root messages retain tool calls and finish length at input lengths8,158 and8,108. These are native nonfinals, not malformed available scalar answers.
+- 129ed9a9 and 4d98e9a9: repeated batch acquisition canceled at the shared450-second stage limit. Respectively92 and75 physical attempts; the latter has75 retained provider completions but only74 role-returned native completions because cancellation occurs after a provider return.
+- 0c2d9a8d: canceled at the same shared deadline after only13 attempts. It scopes actual records, tries four child calls with a mismatched Answer:N contract before strict_map, and explores hand-written keyword classifiers. This is censored exploratory action, not established long context exhaustion. No correct scalar reduction is demonstrated, but its failure must not be attributed solely to intrinsic looping.
+
+The first six show repeated actions; the last exposes stage-budget interference. All seven are unsuccessful under the separate bounded operational metric, while the frozen native-final primary remains NULL. The16 original corrective controlled slots were never run; no controlled-state capability conclusion is possible from their absence.

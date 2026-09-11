@@ -1,0 +1,36 @@
+{
+  "schema": "qwen8b-stable-anchor-deck-figure-v1",
+  "metric": "late 32-record label accuracy pooled across three reference relations",
+  "denominator_per_model_arm": 1536,
+  "models": {
+    "qwen3_8b": {
+      "labels_only": {"correct": 484, "accuracy": 0.3151041666666667},
+      "sequential_numeric": {"correct": 1313, "accuracy": 0.8548177083333334},
+      "opaque": {"correct": 1245, "accuracy": 0.810546875}
+    },
+    "qwen3_4b_reused": {
+      "labels_only": {"correct": 525, "accuracy": 0.341796875},
+      "sequential_numeric": {"correct": 1312, "accuracy": 0.8541666666666666},
+      "opaque": {"correct": 1304, "accuracy": 0.8489583333333334}
+    }
+  },
+  "within_8b_gain_percentage_points": {
+    "sequential_numeric_minus_labels_only": 53.971354166666664,
+    "opaque_minus_labels_only": 49.544270833333336,
+    "opaque_minus_sequential_numeric": -4.427083333333333
+  },
+  "within_4b_reused_gain_percentage_points": {
+    "sequential_numeric_minus_labels_only": 51.236979166666664,
+    "opaque_minus_labels_only": 50.716145833333336
+  },
+  "change_in_gain_8b_minus_4b_percentage_points": {
+    "sequential_numeric": 2.734375,
+    "opaque": -1.171875
+  },
+  "positive_8b_contexts_out_of_16": {
+    "sequential_numeric_minus_labels_only": 16,
+    "opaque_minus_labels_only": 16
+  },
+  "availability": {"planned": 144, "native_authenticated": 144, "null": 0},
+  "interpretation": "Cross-model results are descriptive because weights and tokenizer/rendering differ; the 4B calls are reused."
+}

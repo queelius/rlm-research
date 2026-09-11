@@ -1,0 +1,27 @@
+# CPU-ready post-SFT suite
+
+Frozen suite identity `6aed87ef5c92e47b1074f1cea68bad7dc2226f09530012d0e5fda4cd1b94ee9e`. No GPU service, inference request, model download or training launched during preparation. Three focused CPU tests passed; frozen source closure and lifecycle amendment verification passed in the native interpreter. Parent owns the actual launch after its campaign releases the device.
+
+## Exact work and lifecycle
+
+Stage original_old: inherited exact original857a7ce6/oldSFTc32de dualLoRA binding, old-weight representation24 and rotation32, SST original120/old120. Stage mixed_ab: actual A/B fixed-final checkpoints206/204, SST A120/B120. Both services use the unchanged qualified leaf-role-routing-v1/source/serve.py, BF16 base/auto inference LoRA cast, complete endpoint descriptors. There are536 primary calls total.
+
+Parent's optional additional mixed-size schema control is a frozen startup seam, not a scheduler: read leaf-mixed-size-schema-control-v1/READY.json once before any service/model calls. If present, authenticate its driver SHA, snapshot READY/source hashes, then use its exact bind/run interface after each corresponding SST job while that alias is warm (original,old_sft,Afinal,Bfinal;16calls each). Missing READY is an explicit skipped-not-ready status, not a wait or retry. The optional driver independently authenticates its research/spec closure at bind/run. Total600calls if all64optional calls are included. No later mid-suite optional discovery.
+
+The actual A/B decision is written to suite output/FIXED_FINAL_DECISION.json only after the SST helper authenticates both completed RESULT/SELECTION/checkpoint/state/optimizer/RNG/recipe/data/source closures. Its rule and binding schema explicitly say fixed final epoch2, NOT validation-selected. The frozen serving helper accepts this as an authenticated selection-path artifact; its stale generic error wording is not adopted as scientific selection semantics. A/B aliases are strict-rlm-qwen3-4b-leaf-mixed-a-final-v1 and strict-rlm-qwen3-4b-leaf-mixed-b-final-v1. First pair retains original role aliases required by existing controls. No outcome-based checkpoint choice.
+
+Reuse qualified campaign_lifecycle_v2 directly, without invoking its campaign install/run logic or editing campaign sources. Its complete frozen campaign/pilot dependencies are authenticated; read-only CPU import and amendment verification succeeded. Claim/stop retain exact PID/start_ticks/UID/group identity, known PRL::Inference title support, descendant ownership evidence and detached-worker handling. Suite snapshots descendants during readiness and every CPU command polling cycle, not merely at startup. Cleanup signals only recorded owned process identities/groups. It rejects changed PID identities and refuses unrelated cleanup even when ports remain occupied. Shared campaign COORDINATOR.lock prevents this suite from overlapping the campaign coordinator.
+
+Each stage has finally cleanup: bounded termination of its own still-live launcher, then V2 owned-service/worker release proof and free-port check. Collector commands are separate process groups with empty CUDA_VISIBLE_DEVICES and identity-checked termination. Source/commands/start/end/exit logs, partial research outputs, STAGE_ERROR/RELEASE_ERROR and suite STATUS are retained. Any command error ends the suite; no retry, overwritten attempts, or filler. An unprovable identity intentionally refuses arbitrary signals; SIGKILL/machine loss cannot promise finally execution.
+
+Fresh live preflight checks vLLM0.28.0, adapter root/base parent for both aliases, max_model_len8192 and lora_dtype auto before research dispatch. Per-request/scoring/cost/prompt-ID behavior remains in the unchanged bound research drivers. The suite changes only process scheduling/binding, not prompts, schema, seeds or scorers.
+
+## Caps and readiness
+
+7200-second global envelope:7080seconds for work,120seconds reserved for last cleanup. Service readiness600seconds each; bind120seconds; representation/rotation330seconds each (internal300); SST1230seconds each (internal1200); optional mixed schema630seconds each (internal600). Every command additionally uses remaining global work time; exhausting it ends work and enters cleanup. Worst-case independent stage caps do not all fit: the global envelope takes priority and preserves partial results.
+
+Three focused tests verify ordered stage/optional weight mappings and fixed-final binding semantics, finally release after scorer failure with retained error, and reused Prime-title acceptance/PID-reuse rejection. Test-first red→green observed. Actual GPU lifecycle is not requalified here; prior qualified V2 implementation is reused unchanged. B's RESULT was not yet present during preparation, so a completed two-arm real binding is deliberately deferred to run start. This is not represented as successful A/B runtime qualification.
+
+Correspondence authoritative READY SHAac4e7bfe3033615af0ec4a3d796765861394e49d4a339621e6e4f388efcacf00; driver6fa2846b144f863cea79f2c82ee9e6d07d00104aba4f01dc8d95ec51fd1a49c8. Runtime-order-v2 specs are used; original pre-READY artifacts are not runnable inputs. Optional READY did not need to exist to finish this suite's CPU preparation.
+
+Using the bounded-design/test-first skills kept this to two stages and three focused tests. No production scheduler, new GPU test suite, Git integration or source refactor was introduced. Source/MANIFEST are frozen; READY is the final publication operation.

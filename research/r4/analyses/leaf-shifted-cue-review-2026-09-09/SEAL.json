@@ -1,0 +1,13 @@
+{
+  "schema": "independent-material-source-review-v1",
+  "clock_observed_utc": "2026-09-09 16:31:30 UTC",
+  "verdict": "no_material_blocker_found",
+  "ready_sha256": "51e9f51aeddbdaad9de792f65b0563552fccaf5e0344cd81d6a9a02763a0b980",
+  "new_outcomes_read": false,
+  "gpu_calls": 0,
+  "frozen_source_edits": 0,
+  "files_sha256": {
+    "REPORT.md": "959b3fafd4baf29a50e6c86cf69c876729c625ebdc14cbbfdc3c727c153265a6",
+    "CHECKS.json": "1586a3a5a631b3806996832de0d5d940a95b4ca441bcd4755f96cb2b2a3e8bcc"
+  }
+}

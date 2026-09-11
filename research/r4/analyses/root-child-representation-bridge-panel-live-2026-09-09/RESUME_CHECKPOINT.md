@@ -1,0 +1,24 @@
+# Audit handoff — September9,2026
+
+No GPU/model/service/queue actions were taken by this analyst. Do not relaunch any completed experiment. MAIN reported both new bridge variants terminal; their outcomes remain unopened by this analyst. This file records a deliberate bounded handoff, not inference failure.
+
+## Complete and sealed
+
+- Original low-SFT bridge32: `analyses/root-child-representation-bridge-live-2026-09-09/REPORT.md`, SHAb07584134aeac387328f557c2dd976b25a1e3d9e345363dee8397ca2df64f206. FINAL_MANIFESTada5f372f26d39c52b2ae12323857e8ab7ce3417af287b5895f8b3994fc658d8. Full744-call native/wire and354 projected-delivery corroboration audit. Checksum0/8 both, count1/8 both; checksum paired uptake3/8. Count map label agreement593/628 versus array567/628 without endpoint improvement. One concrete root accumulates128 labels but dedented reduction uses only the last batch and faithfully reports1.
+- Local teacher-forced cue replay: `analyses/leaf-local-cue-replay-live-2026-09-09/REPORT.md`, SHA6db99a0a2e2c8d267250bb25925a7f3853457f31fcf29b44029672334a457fe9. FINAL_MANIFESTa9ae9fa1143d6e8316063a9f004c9eb10f3f15e0f8c2f8fa82cf3c018dbc9282. All32/96/288 completed and audited. Matching−constant finite-set displayed probability+.49684 AG,+.27689 SST; not sampled accuracy/attention evidence. Three fresh focused CPU tests pass; full token reconstruction uses tokenizer only, no model.
+
+## Frozen, not yet scored
+
+This directory METHOD0c3a64291e6247e1fb079c49d94211a4997162d63aa3bfcce98c264ef049a788, METHOD_READYfc5a79b9dde19e661f3f8630590f67bff1c792ca59566cdaf978ad64e4590331, PANEL1033451800b4570408c43e0455b6406d5a555223d4dc20d48067a17fe0b8f403.58 direct source/input hashes cached; original32 coordinates/spec/public prompt inputs exactly equal across three roots except root binding. The stale low8 alias is intentionally reused. Parent READY/acceptance authenticates larger closures; this audit did not redundantly rehash them.
+
+RL4: `sidecars/root-child-representation-bridge-rl4-v1/outputs/attempt-001`; fixed root2286be3f7c0c9cc0e22c8ef8e3473b7d8eb6ec4b7a789ca380a0af9d3b944c71. Operation `operations/2026-09-09-after-replay-bridge-rl4/attempt-001/bridge_rl4`. MAIN reports exit0/no timeout536.035119230s and GPU empty. TERMINAL51d4f89467dfb468e98f3bba5d5561399d58081c048c072f96ff17993374c9b2; rollout/STATUSfaedaf5f2c00001c1828c7eca8da35fe6c299314699ef6c05c067d7db384a245.
+
+Higher-rate SFT8: `sidecars/root-child-representation-bridge-highlr-v1/outputs/attempt-001`; root0ba42364183a311a8f5b67e4bac4e9294924c1dfb73f152a209811df09b78773. Operation `operations/2026-09-09-after-bridge-rl4-highlr/attempt-001/bridge_highlr`. MAIN reports exit0/no timeout506.365313606s, GPU empty, ended17:37:29.4825904UTC. TERMINAL644533b3ebb0244efc12cc4c23e7d3ae57ce44c1207512333c0e9df8f2297ec2; rollout/STATUS80dbd379458a4745e4f375c11d5860239b204b3bf1c3c53a093ebbb7f26b00fe. The bound METADATA_CORRECTION.md fixes descriptive READY prose only.
+
+## Smallest next CPU step
+
+Read this METHOD and verify its seal. Add a new local endpoint auditor; no variant endpoint script has yet been implemented or qualified. Reuse `actual_endpoint` and `paired_bounds` from the source-pinned `analyses/root-plan-sft-live-2026-09-09/native_endpoints.py` (SHA5bfc79a6bb7097d97c5d0564f75e8895122d8806761299f25a228a14357d6f7f), not author results.py. Locate each raw episode via rollout/rows, final native root capture via internal request_id (filenames can differ), and independently recompute count/checksum gold from original inputs. Preserve all32 slots per variant and actual unavailable/NULL distinctions. Bind actual service/ENDPOINT/LIVE_MODELS/model hashes; alias spelling is not weight evidence. Publish preliminary checksum/count pairs explicitly before claiming full graph/coverage/cost completion.
+
+For the full follow-up, reuse functions from the sealed original `audit_terminal.py` and `primitives.py` through a new private analysis adapter. Do not rerun original main: it hard-pins original paths/terminal hashes and exclusive-creates original outputs. Its cached graph_views builds each WireTrace once and slices maximal branches through each call node; semantic parents are not physical message ancestry. Reuse that corrected seam, retain root-writable claims and multiple matches, and do not reinterpret prior static AST nulls as marker absence. No frozen parser/source edits.
+
+Qualified CPU interpreter: `/project/alex_phd/envs/prime-rl-5990b1b/bin/python`, with CUDA_VISIBLE_DEVICES empty, PYTHONDONTWRITEBYTECODE=1, OMP_NUM_THREADS=1, OPENBLAS_NUM_THREADS=1. All actions stay in this analysis namespace. No model load, inference, generated-code execution, broad tests or GPU lifecycle locks are needed. Handoff to the user's new allocation should not wait for these remaining independent CPU audits.

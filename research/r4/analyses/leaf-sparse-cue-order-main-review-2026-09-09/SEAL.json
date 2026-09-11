@@ -1,0 +1,17 @@
+{
+  "schema": "independent-main-cue96-analysis-seal-v1",
+  "sealed_epoch": 1788966206.5234113,
+  "files_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-sparse-cue-order-main-review-2026-09-09/FIGURE_PROVENANCE.json": "0b7663bf0739fa30990ede750500b338ea665898476807e75221dbae3c3994aa",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-sparse-cue-order-main-review-2026-09-09/METHOD.md": "fa912f4fec3517d2aaa10d43ca0f9521a1054f46e1cda6eee30f012b71f6e407",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-sparse-cue-order-main-review-2026-09-09/METRICS.json": "194fb7b9988013f741c5909ffbc12d0fc17853010af2657162929f4df7c409bb",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-sparse-cue-order-main-review-2026-09-09/REPORT.md": "d8920def25a3f4174d6e3ec1eb7e7a5d0fd3adc26b8a9f8e3cdc1a12fa251f37",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-sparse-cue-order-main-review-2026-09-09/SOURCES.json": "634a2171e2617a1c8ae29ddfe0b2b18ddf5e26d6609c1e0a322018e4b51a55ad",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-sparse-cue-order-main-review-2026-09-09/id-order-shifts-benefit.png": "18476aabafa0a7e14ee37ae8ac92d2b31e7e3f7a943dde16323dd578cb7d5b55",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-sparse-cue-order-main-review-2026-09-09/id-order-shifts-benefit.svg": "0f8fa012f7fa6791899124c679207474beb659487ad86b0ffe673f0907cc6e0e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-sparse-cue-order-main-review-2026-09-09/plot_results.py": "c70a7dbf077381d4a51db9a6874924d97aa1703984c7b5d1450cdb2ac878c74d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-sparse-cue-order-main-review-2026-09-09/review.py": "17d539c38dcfca3a14d99d87bd74c9e9400e872b86c701bb424b2406840e3d8b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-sparse-cue-order-main-review-2026-09-09/test_review.py": "c2bc20c35bb76459565491f00fd037c1887dd58645584e9e70c13a5c99306a60"
+  },
+  "method": "Post-collection independent raw parser, MAIN implementation reviewer; not blinded. Ten focused tests and all96 actual raw reconstructions agree. No raw source mutation. Figure data-native, visually inspected before sealing."
+}

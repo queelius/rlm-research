@@ -1,0 +1,14 @@
+{
+  "schema": "leaf-adapter-by-granularity-audit-final-seal-v1",
+  "status": "complete",
+  "artifacts": {
+    "REPORT.md": "acfd26928821d4cad22ca0a7636255c6fed1ba79f5f569dc6fc75af063b7f29e",
+    "AUDIT.json": "787a6c6d5227e426e5d99ef16e832b70170677f09084becbca0e8846e1c4ea50",
+    "audit.py": "1b1f41bc6f4cecefd4d9230921c00b689c9a6ce065cf7f195f585f8c7c0d403c",
+    "test_audit.py": "5bc4f5d222525e13a12a9e92077f68357c45c8b1a61f20820fb399d1dcd75a64"
+  },
+  "source_ready_sha256": "96fbd27f17b8a979ddc52016459dfced7f3a8f9aaa7389f1bc80de72c5828435",
+  "owner_terminal_sha256": "5b55d1fdc43ca3e911918a726f4c7bc9594efa3e4b1534f9a902da996afdb378",
+  "parent_exit_sha256": "879b57acc7dac38968be9b165881d62a7d5d13624c6bcb816d00d537511f3e9c",
+  "outcome_pin_count": 645
+}

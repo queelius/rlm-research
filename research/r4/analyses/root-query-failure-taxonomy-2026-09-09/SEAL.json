@@ -1,0 +1,20 @@
+{
+  "schema": "read_only_posthoc_query_taxonomy_seal_v1",
+  "seal_clock_observation_utc": "2026-09-09T16:52:10Z",
+  "scope": "All 32 completed-study query coordinates only; no active plan-SFT outcomes, GPU, services, source changes, or evaluation-derived training.",
+  "artifacts_sha256": {
+    "METHOD.md": "754eef36e18f90a024af5f5475380316f12563068db6e7096b1c00c3b2815a1c",
+    "project.py": "fd32df7c916096e33a5e05e82f8f07a06d272577b256a1a6817e181bb1a1f9d4",
+    "classify.py": "2ff413f55c2ad31aa0b58bf939efff5a96eb141a938a002ebf5756097a47e73e",
+    "PROJECTION.json": "52df84912c30aac7af82a11fbbbf822d274a48fb32a89d5c507023c89cb9bd3f",
+    "PROJECTION_ORDERED.json": "e918812b947a40f248b066e8faaaeadc330822c9413c1546f70f65d3fd18a529",
+    "TAXONOMY.json": "cbbb806688f9adb0f450fe338dd044e8185e4359a60b85449f31972ccd2dd170",
+    "REPORT.md": "6eefa1b9b583c622df2b0b1c28c210eeecb49178abe5deca2c766c6992935cda"
+  },
+  "raw_source_manifest": "PROJECTION_ORDERED.json",
+  "prior_reports_preserved": true,
+  "generated_code_executed": false,
+  "independent_semantic_adjudication_of_trec_label": false,
+  "reported_scalar_fidelity": "19 of 19 displayed integers copied faithfully; zero demonstrated correct-scalar/wrong-restatement cases",
+  "availability_amendment": "One historically scored-empty high-LR-low query endpoint is unavailable after a broker timeout; original score/report remains intact."
+}

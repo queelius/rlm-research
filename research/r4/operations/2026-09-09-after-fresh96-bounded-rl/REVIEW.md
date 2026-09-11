@@ -1,0 +1,9 @@
+# MAIN acceptance: bounded-refill RL
+
+September9,2026 ~15:41UTC. Fixed low-LR complete-success SFT8 (66cce), fresh RL Adam0; not the higher-LR readout winner. Four ordered candidate windows admit mandatory two groups, refill to at most four while fewer than two mixed groups, and train every admitted episode in mixed groups. Uniform windows are genuine no-ops. Maximum128 training rollouts and48 paired baseline/final readouts; last committed policy0–4, not best validation checkpoint.
+
+MAIN read all production source, preparation, tests and runbook. All684 READY-bound paths freshly hashed and match. Initial tool transfer truncated a large JSON string while preserving JSON validity; on-disk hashes were never wrong. Authority was refetched in small chunks with strict64hex and full cardinality validation. Independent reviewer found no material blocker:42 critical hashes, numerical/admission/coordinator review and focused prefix/NOOP fixtures pass. Author13 CPU tests include actual tiny Adam1→NOOP→Adam2 and native three-call reconstruction; not GPU/model evidence. MAIN reruns native focused tests before launch.
+
+3630s external command,3600s owned alarm,3480s shared work; training cutoff2820 reserves final660+cleanup120. No partial-window training, retry, timer reset or midrun objective change. Allocation ends19:07:17UTC. Start follows exact failed fresh96 parent exit and empty-device check. Original failure had no readouts; its recorded owned inference group4119052/start1077170473 was independently authenticated and released. All failed artifacts retained. Early empty-device observation was insufficient because asynchronous startup continued.
+
+This is exploratory support acquisition, not randomized refill/no-refill causal evidence. MAIN owns GPU launch and cleanup. Fresh96 lifecycle recovery and paired authored-plan SFT are being prepared as successors.

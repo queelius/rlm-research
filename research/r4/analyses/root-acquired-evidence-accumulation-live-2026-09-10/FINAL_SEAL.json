@@ -1,0 +1,43 @@
+{
+  "analysis_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/AUDIT.json": "b76ce00923ad015bd1eafb3dc25615245e0e5146ab116133cc6e246050fe8a5d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/AUDIT_v2.json": "ac4bcaec52a7d23d1a1c29acd92f54405092a22b359ec3e7fa0211b950f2ae82",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/AUDIT_v3.json": "31108f6106c141ca5caff095042809a6a0a8d103d0fffe74ed2228a4530b12c4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/CPU_REPORT.json": "fbeb7be15dfecccdb53c4ad39944aad6c5df529409a200948a6e23ab486af4f8",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/CUMULATIVE_DIAGNOSTIC_CHECK.json": "9c21a4ad8014d6127bce3e46c8a5824be83af236a0fa7eba991c2ad30eb3029d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/MECHANISMS.json": "527ecbd628fa90f3ffc786370b27221aaa4648cf761d9bba648e928ee8135ab7",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/METHOD.md": "de1226a2b123574abe38a641e8af6683debb1081c9340952806df79d40599d62",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/METHOD_READY.json": "67b7b8ddb9c54001339d9956a4266a2c9f7b9099c1abd5127fc9576d0632ca2c",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/OUTCOME_PINS.json": "0cf594e2961c956b4a1d593b1c111bae5db98c77b29436523ecb1e3fa1ca4378",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/RAW_DIAGNOSTICS.json": "b45d704e6ab83fef245420f5d16636453e7cdec39c8d3f9a7d145da0c52118b5",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/REPORT.md": "9192c4c4276a5002969b631d8b4c5ed22af54ff21df1aacacb79d5e507e893b0",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/audit.py": "08db3d35a9b19d97a3243070aee29ed8b939965e770d012705f32f17f0b4b239",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/complete.py": "31e770636742f4e299bc0599890dda3c47ceb1eaaa7796725fdca8f1d7241853",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/raw_diagnostics.py": "ce74bf74322d29897f6ca9f3a660d88c5ce9e719280bc2c34ba30c2f11284516",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/seal.py": "86cca8f8d31259f4059f6b0f90f91698bcf9136c35050a4138367a3d5790ec38",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-acquired-evidence-accumulation-live-2026-09-10/test_audit.py": "c28bb3cebd260705230b064467a86137a17e14fa06a0a93d1581fec52635cb7f"
+  },
+  "authoritative_table": "AUDIT_v3.json",
+  "independent_new_study_author": false,
+  "method_prospective": true,
+  "no_metric_change": true,
+  "no_original_mutation": true,
+  "parent_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-10-after-warm-accumulation-requeue/attempt-001/acquired_evidence_accumulation32/COMMAND.json": "3973fa0084a0cb20947ee023549f599bf39823656bd0f188421a71018e7f9ac7",
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-10-after-warm-accumulation-requeue/attempt-001/acquired_evidence_accumulation32/EXIT.json": "90de267b99960d953e9887cccb8f696a95c83b412fc9440af82e04292dc54726",
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-10-after-warm-accumulation-requeue/attempt-001/acquired_evidence_accumulation32/OWNER.json": "9b8966e9abb559f98ebf2e0ddbccb2c80908e9378b69b0ee88e76df5eb13ee2f",
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-10-after-warm-accumulation-requeue/attempt-001/acquired_evidence_accumulation32/stdout.log": "ef7808aad592ca19e0079d9f3b94db895b84577b92608e246e3efa89e245357a"
+  },
+  "parser_and_manual_annotations_post_outcome": true,
+  "report_sha256": "9192c4c4276a5002969b631d8b4c5ed22af54ff21df1aacacb79d5e507e893b0",
+  "scientific_output_count": 3566,
+  "scientific_output_pin_file": "OUTCOME_PINS.json",
+  "sealed_utc": "2026-09-10T09:37:27.334097+00:00",
+  "shared_inherited_runtime_contribution": true,
+  "source_identity": "d7727c26572295084d5f01a8374c1ee09da41fe79be97d2fa88ddcada38bf74e",
+  "source_receipts_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-fixed-policy-transfer-live-2026-09-09/primitives.py": "a4a65af63b411ccdaf8769c3224a4991b532a749e9168508293282d5faefe87b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-composition-transfer-live-2026-09-10/audit.py": "40628054242434a4869a9cf8c64f1db954bb82244660751ad8ee14f0ae53b37c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-acquired-evidence-accumulation-v1/READY.json": "ca0210997b73190f010ea56d7c40361ba6360e605f00d97b75f573364eb040a8"
+  }
+}

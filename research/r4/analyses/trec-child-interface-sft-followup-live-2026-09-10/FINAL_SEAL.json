@@ -1,0 +1,17 @@
+{
+  "schema": "trec-child-interface-sft-followup-final-seal-v1",
+  "date": "2026-09-10",
+  "status": "complete_with_post_terminal_amendments",
+  "files_sha256": {
+    "REPORT.md": "04a0a39698565e48d9d4dcc6c69958a745328d679f78d4f0e8c2bad200448a86",
+    "AUDIT.json": "b1590af88302035e58a19492b62dce9ed51d3d5e1d5f90be164cf27c67400739",
+    "NATIVE_RECOUNT.json": "f970611d6d79a8622777d1c987e26951aba6b2f241b4b9d0fdef14031918a96a",
+    "CHECKPOINT_RECOUNT.json": "61182a3816991d6995b2fabd5ffbe58723e13e1b0d494c2a3bf5dc569cf43ff3",
+    "audit.py": "1ef9a84c6f10a9b0b6a6e775c1ff0ce60b7f05703a86ed6a1ef148faba484241",
+    "native_recount.py": "dcccbade9ea2be28a26352bb76c96e4605d33ea1210521f067c512fd88dab757",
+    "checkpoint_recount.py": "381ff404befcadf17e437e0fa9e44e7b3974b2d8c7213cc014d38490924bbea6",
+    "AUDIT_AMENDMENT.md": "337401ad58f34ee8897df3b0860174c3873d350a1ca4c2d79f49a066aef6734d"
+  },
+  "producer_terminal_sha256": "c56b8361b34afbdf2b096c0ecbe8466b87f46bc2c8b89b8cd7c2bec4cfd79f66",
+  "parent_exit_sha256": "753b6afa1a0e27f622d68f5146fc07bf74540b7aa87d5994cfaabb91af95ce25"
+}

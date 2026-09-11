@@ -1,0 +1,8 @@
+{
+  "schema": "fresh-positional-anchor192-audit-erratum-seal-v1",
+  "erratum_sha256": "a10f76116f7d4a2787a4607d85d99ecc34074cd7a74dc3f30d936d035f51b45b",
+  "preserved_report_sha256": "2e0599eb47f2e8bbb73e8ddf7c504763798d089b5e2f507a35696ad1bf9684e5",
+  "preserved_final_seal_sha256": "49f0f7b6160af37849214350a4cc36a50822c3e96716c9f5e7282078e2e78d17",
+  "correction": "per-cell early denominator 256 and late denominator 512, not 384 each",
+  "metrics_changed": false
+}

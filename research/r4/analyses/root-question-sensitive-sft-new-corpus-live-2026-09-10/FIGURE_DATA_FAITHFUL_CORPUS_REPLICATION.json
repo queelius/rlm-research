@@ -1,0 +1,33 @@
+{
+  "schema": "advisor-three-bar-faithful-corpus-replication-v1",
+  "metric": "faithful_and_strict",
+  "metric_definition": "Authenticated final equals gold, and the requested operator/category/scope/threshold executed successfully on returned child labels and supplied the final scalar.",
+  "planned_denominator_each": 72,
+  "bars": [
+    {
+      "label": "Shared fixed24 start",
+      "correct": 12,
+      "unknown": 17,
+      "bounds": [12, 29],
+      "training_corpus": null
+    },
+    {
+      "label": "Original-corpus QS6",
+      "correct": 50,
+      "unknown": 0,
+      "bounds": [50, 50],
+      "training_corpus": "original 72-example corpus"
+    },
+    {
+      "label": "New-corpus QS6",
+      "correct": 55,
+      "unknown": 2,
+      "bounds": [55, 57],
+      "training_corpus": "separately captured 72-example corpus"
+    }
+  ],
+  "evaluation_panel": "one shared research-exposed panel: 72 questions in 8 context clusters",
+  "claim_limit": "bounded replication across two training corpora; not two independent evaluation panels and not evidence that the new corpus is superior",
+  "source_report": "REPORT_RECOVERY_V2.md",
+  "source_erratum": "ERRATUM_START_AND_CLAIM.md"
+}

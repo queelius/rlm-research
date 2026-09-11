@@ -1,0 +1,17 @@
+{
+  "schema": "read-only-actual-RLVR-validity-audit-v1",
+  "date_utc": "2026-09-09",
+  "committed_rounds_audited": [1, 2, 3],
+  "exception_diagnosed": "round04 completed child HTTP400 context-length rejection",
+  "gpu_calls": 0,
+  "live_or_frozen_source_changes": 0,
+  "optimizer_loss_issue_established": false,
+  "material_failure_classification_issue_established": true,
+  "files_sha256": {
+    "audit_cpu.py": "8f9df6a940b9276a06a07b65e6dd8f9b1fa3a82f50f642d8852e20e0ccabb9ac",
+    "CPU_RESULTS.json": "0b14e6956b2d48dd70bcde552ecdac32d2cdb5a4ffd5f2c2b5516de9a1e455c1",
+    "round04_failure_cpu.py": "4857cd307d38708e7e188e14406437bc2240c6669c09c4484826bf754347eb1d",
+    "ROUND04_FAILURE.json": "728d008f584b191fd66c15260dcfb6ec366e8d598cd91876dc7e4b9c1cea878b",
+    "REPORT.md": "db12df28fc61d073274dfc6cdee400eb24e355df1dd1172644c1c88ee375ae3e"
+  }
+}

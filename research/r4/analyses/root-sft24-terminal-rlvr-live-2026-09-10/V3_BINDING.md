@@ -1,0 +1,28 @@
+# Prospective V3 continuation binding and authorship amendment
+
+Written 2026-09-10 at approximately 09:20 UTC, after MAIN accepted the V3 waiter and before `outputs/attempt-003` existed (read-only absence check passed). Original METHOD.md, METHOD_READY.json and V2_BINDING/METHOD_READY remain unchanged. This adds source/attempt/operational binding, not new efficacy or admission metrics.
+
+## Scope and independence
+
+Combined science consists of the exact original 24 window-1 trajectories under `sidecars/root-sft24-terminal-rlvr-v1/outputs/attempt-002/window-01/collection` and continuation `outputs/attempt-003`. Window 1's exact GROUP/GENERATION is reused once for training; it is not reacquired or counted as a second 24-episode collection. Remaining original windows 2–8 permit at most 168 fresh slots. The combined denominator remains **192 training slots plus 96 final endpoints**, with no replacements. Attempt-002's failed release, zero optimizer updates, original missing final slots and incorrect zero-cost harvest remain immutable historical records. The original-attempt report and combined continuation report are separately labeled; the latter does not rewrite the former or count its unrun final inventory twice.
+
+runtime_port independently reviewed the original V1/V2 scientist implementation, but **authored V3 runtime/resume/accounting changes**. Any later V3 analysis by runtime_port is therefore author-assisted, not an independent V3 audit. MAIN/question_cards provide independent V3 review. Shared native/lifecycle contributions were already disclosed. This role change does not modify the predeclared metrics. The separate accumulation32 audit remains independent of its new implementation, with runtime_port's inherited scale/common-runtime contribution disclosed.
+
+Before this binding, original window-1 aggregate evidence was known: 18 producer-written strict successes among 20 available of 24 slots and 13 mixed selected replay episodes. These are not newly authenticated mechanism findings or evidence that 18 trajectories used faithful operators. All remaining-window and paired-final outcomes are unread; attempt-003 is not yet present. No efficacy-based selection, source reroll, metric change or checkpoint selection is authorized.
+
+## Exact V3 binding
+
+- READY_v3 SHA256 `ae31dc8a3515da6a87a1cee8ac184ba15338062113766c9fee228851afcc1a9f`; identity `7ad4aad2f7fc6182ab0667b0fe1869343c076380b7f8bb1aceca91aa7471d972`.
+- RESUME_BINDING_v3 SHA256 `64a0e00343dc4c0d5ab8a9e8313ab07270e789aa3406b4f0ef03bb573e411f67` binds immutable old GROUP/GENERATION and complete source closure; exact owner verification passed before acceptance.
+- Accepted parent: `operations/2026-09-10-after-card-warm-resume`, WAIT epoch 1789031964.9779146 (09:19:24.978 UTC), PTY 4029. WAIT is not a scientific COMMAND; add the actual MAIN launch/exit receipt later.
+- Exact entry point: `/project/alex_phd/envs/prime-rl-5990b1b/bin/python /project/alex_phd/runs/rlm-research-r4/sidecars/root-sft24-terminal-rlvr-v1/warm_owner_v3.py run --output /project/alex_phd/runs/rlm-research-r4/sidecars/root-sft24-terminal-rlvr-v1/outputs/attempt-003`.
+
+Fixed SFT24/c32, fresh RL Adam0, original training/final queries and seeds, native replay, root-only current-action masks, TIS/PPO/episode weighting, terminal reward, mixed-group admission and last-committed readout remain unchanged. Record scheduled/collected/consumed windows separately from committed optimizer steps. Reused window 1 consumes its cursor only after update or declared noop. Source verification rejects prior readout dispatch artifacts; the original final 96 coordinates may be attempted once in V3 without reroll. Missing primary exports/artifacts remain source NULL; separately authenticated raw finals are diagnostics only, never primary salvage.
+
+## Active budget and physical union
+
+Charge ceil(380.0108866) = **381 seconds** of original execution against the unchanged combined 10800-second active cap. V3 outer/owned/work are **10419/10299/10119**; training-side is **5019**, with protected final reserve **5100**. Fresh windows require at least 1380 seconds; the unchanged qualified release escalation is allowed 90 seconds. Verify actual transitions, no later service after failed release, optimizer commit lineage and no replay of a committed update. Report calendar stopover, external cleanup and queue/idle separately; they are not erased because excluded from active execution.
+
+Deduplicate all original and continuation physical wire records by scientific stage and request identity. Original role-audit request/result records are primary wire evidence; typed-audit records mirror those calls and must not inflate totals. Original 286 observed attempts (215 root/71 child), 283 native successful transports, three HTTP400 responses, known 830188 input/31926 output/796496 cache tokens and three unknown usage entries per field are carried once into the combined ledger. They are not zero because the original legacy harvest searched the wrong directory schema. Include failed/NULL/unexported/late work and unresolved request intents; no missing usage zero-imputation or provider-billing claim. Verify these counts from pinned wire artifacts, not this prose alone.
+
+All original METHOD rules for native final identity, strict malformed-final zero versus native NULL, endpoint versus training admission, eight context clusters, primitive/composed and zero/nonzero strata, paired uncertainty bounds, operator coincidences and observed execution mechanisms remain in force. Never execute sampled code. Final source/output closure and operational release are sealed only after MAIN's terminal relay.

@@ -1,0 +1,20 @@
+{
+  "artifact_count": 11,
+  "artifacts": {
+    "METHOD.md": "de057dc6eebe8dd5283eb827ec5f0db5ea4b78839f9b84cacbc40ca7f746b24e",
+    "REPORT.md": "cc77b86e0f0be15b848138cf62576ff5a6e41848c7cebb4292548fe6e54b786d",
+    "SEMANTICS_V2.json": "7fd6dedf1895527e937a503a789fe713716c92333f9d8efad382bb4c5c3e17ab",
+    "SEMANTIC_PACK.json": "090e9f52951ddf5db8fc0e4117820f9f129d21a14708ea4c4cc6d0fdce201a03",
+    "analyze.py": "40f336699968138f40b9e3dd81cdcfc95c77df72e87ca9b17acdf2a6499d0817",
+    "semantic_pack.py": "03b2bba441a03eb68f8f3d8923f23b6df06f305086e8b748337561e9caf32820",
+    "test_semantics.py": "348e15e687e3817d7eca9eaaac24c1763760e823f3b2133a71e78bd7671dab04",
+    "../root-question-sensitive-metadata-transfer-v1-AUDIT.json": "3be3c63cd769a5bf43e3ca2209e50fb3a2b5321de5d116b377bc63cb5b7ffa47",
+    "../../../sidecars/root-question-sensitive-metadata-transfer-v1/outputs/attempt-001/OWNER_TERMINAL.json": "77cf5cba5af4bd05804dcbd249de949475014d7d1671a661f3272ff7302e0498",
+    "../../../sidecars/root-question-sensitive-metadata-transfer-v1/outputs/attempt-001/COST_LEDGER.json": "f772ed435e3d82208277e30487dbdea66547fc50e8a05c89848af7f214d6db5d",
+    "../../../operations/2026-09-10-after-qs-seed-metadata/attempt-001/question_sensitive_metadata144/EXIT.json": "45cdb262437715c0778e15b69d7b891adbd0937ed05e1e1de7f86018bac41b9d"
+  },
+  "authoritative_semantics": "SEMANTICS_V2.json",
+  "date": "2026-09-10",
+  "historical_unsealed_draft_excluded": "SEMANTICS.json",
+  "status": "complete_independent_retrospective"
+}

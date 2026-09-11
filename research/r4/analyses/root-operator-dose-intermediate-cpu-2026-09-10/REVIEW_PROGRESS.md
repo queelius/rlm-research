@@ -1,0 +1,7 @@
+# Intermediate checkpoint readout: independent CPU review in progress
+
+Reviewer bridge_audit did not author this study. MAIN requested read-only review during published8B execution; full8B terminal audit takes priority. No GPU/service actions or author-file edits.
+
+Approved MD/YAML read fully. Stable id_study/id_prepare and existing input files reviewed; new collector/probe/owner were explicitly under development, not READY. Independent check_inputs.py validates all16 truths directly from actual public records and host labels, exact prior-question/prompt preservation,64four-policy pairs,48teacher-prefix coordinates, fresh paired seeds, policy rotations and12context multiplicities. Result:13nonzero/3zero; four contexts have two questions and eight one, requiring both16-slot primary and12-context descriptive results. Gold-zero selection is expressly disclosed, not outcome-blind or new-data transfer.
+
+Reported preseal issues to author: inherited48-slot BASELINES copied into new16-panel namespace; inherited binding prose says6/24only despite actual correct12/18 tensors; new collector Namespace initially lacks mode='free' needed by qualified run. Historical PROVENANCE must be identified as source history, not current selection. Author is resolving these while completing owner/entry tests. No checkpoint hash, selected-source, pairing or oracle mismatch found. No runnable verdict until owner/collector/probe and final fixtures are complete.

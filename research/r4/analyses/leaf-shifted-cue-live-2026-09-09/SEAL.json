@@ -1,0 +1,29 @@
+{
+  "authority": "MAIN terminal trigger September9 2026 16:55UTC",
+  "gpu_model_calls": 0,
+  "null": 0,
+  "planned": 72,
+  "primary_unchanged": true,
+  "raw_source_closure_sha256": "ddec846eeae7d7e7abaa1f20ab000c7f956d953bf7a2477792c53f4e503cf50a",
+  "scientific_outputs_edited": false,
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/CACHE_SUPPLEMENT.json": "8e72d17c3eb4d204e672892a06268ffed0148f7efe001d7300d63045bced0f7b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/CPU_TESTS.json": "e44e52a05edf6c372d5b082a2ab4d4259df39cfe454041656c4ab5087af635f2",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/EARLY_PRIMARY.json": "8049b53905b6bba619998f301c7d3d6f89c75c71347b1bca772b14568f2f455f",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/METHOD.md": "9d72d9bad440767f52b636fea4dba970d6eb2413fec0f3f62c4b8cd0c684ee1e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/METRICS.json": "aa4bc3e3d0db0745b477cfdcaa16504b4f2193a1a3c2b3e13965dd448eb0824a",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/POSITION_LEDGER.json": "135bf9d7aff9534e9c2ac372569231fb426185ee52a813d8df5426f32e790e93",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/PREOUTCOME_AUTH.json": "cacbe7d5a8323930d338bab0d291773434d2a25a7878cb261b6b7e03a5ce7db5",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/PREOUTCOME_SEAL.json": "0335f402255c6c4b511a524f7b3f7fed1c3716dd9c11c73e9339f1d41c7d0777",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/RAW_SOURCES.json": "ddec846eeae7d7e7abaa1f20ab000c7f956d953bf7a2477792c53f4e503cf50a",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/REPORT.md": "37bcb4cf4ca381760d9ab1fe188321eff40461ad91f066cad09358ff99bde492",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/ROW_LEDGER.json": "c0397d71a47990232ea2255389010953fbd240b9157ee4a7e2bee4f4bfc53c7d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/TERMINAL_TESTS.json": "3c19b257c88479a6e3de0b78d5dba5dc950773acd7f44b6a394df636a7ffddf9",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/audit.py": "269eea1ff01d56257cf2667710ac6c9514db6c4d425e10c4e09bca252db4592e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/authenticate.py": "dfbd5ef5b66f6022b61c04184cb384b73fc49752f2379f67b01fd924ab0eac1c",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/finalize.py": "16357e4d134ea6e68e56868e22f90a7734193d8bb09ceda720314bc94fc0d5cf",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/parser.py": "4380060677610db0abbd4ec7474eb90c4f9ffd6554bf235f766b63d88f2ea5f0",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/test_parser.py": "aef9ae73ff54764e2e24602484dd84ea8f148c3dbc83aa41f13a44d2a8f6e2ec"
+  },
+  "status": "INDEPENDENT_TERMINAL_AUDIT_COMPLETE"
+}

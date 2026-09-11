@@ -1,0 +1,26 @@
+{
+  "schema": "stable-anchor192-independent-review-final-seal-v1",
+  "date": "2026-09-10",
+  "status": "ready_for_main_review_not_accepted",
+  "producer_ready_sha256": "c1ee76c7bc4681aa1b54afd2b11ef7129ae197f21d2d75753cb8d7364d7653a9",
+  "producer_identity": "654f743485c09ae6d736de7c36753d19cb4fb22dfe41ce18eb86ab6f33dada01",
+  "review_files": {
+    "REVIEW.md": "730df1b214b7fb7d29c25c1ed3e8bd20d2ee81f236e9b084e40e8b24c21a6add",
+    "REVIEW.json": "e3fb48333abd717b5a099108ffe5d617eecc4528951de282f20c075293d84030"
+  },
+  "producer_files": {
+    "scoring.py": "7f24a53c62544a48881b880a982497c00bccf9e4b78014654121ceb3dc7311eb",
+    "test_science.py": "835e862966c33d8f3f4ea8dacc7a6b417b66c935d718648cc10f8c96ce800fb2",
+    "CPU_TESTS.json": "6582282b2352ebb392cc7c8e3c31696e50a3b09f8c3c57651ea384490b79ddb5",
+    "SCORING_NULL_BOUNDS_AMENDMENT.md": "daa32f14b9e4e7c0fb4fe91fb1133c0b818bf712457439300155d7b968bebf53",
+    "SUPERSEDED_SOURCE_MAP.json": "1ff357af07bc62fb6f93a2fe2356684e5e7547750b0aaddcbca788c1a88ed6ad"
+  },
+  "verification": {
+    "focused_suite": "14 passed, 2 warnings in 5.80s",
+    "request_reconstruction": "192/192",
+    "canonical_score_mapping": "192/192",
+    "unchanged_scientific_inputs": "13/13 byte-identical",
+    "gpu_calls": 0,
+    "service_calls": 0
+  }
+}

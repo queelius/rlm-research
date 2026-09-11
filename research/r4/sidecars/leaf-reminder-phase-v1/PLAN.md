@@ -1,0 +1,6 @@
+# Bounded implementation plan
+
+1. Focused RED tests: all192 coordinates/24 units and Williams positions; fixed61-record phase-distance bijection and left boundary; schema-only prompt difference; strict wrong-phase/order/tag/duplicate handling; primary positive/zero/NULL cases; actual192-request fake HTTP unit order/overlap/cancellation settlement; owned cap arithmetic.
+2. Implement study.py with pinned source data, phase-aware schema/scoring and equal-context primary. Reuse exact qualified collector body in a private namespace with eight-call dispatch_units; no scheduler or request/capture/error changes.
+3. Implement driver.py native grammar/renderer qualification and provenance using pinned native helper/run source. Compile60 distinct phase schemas, prove all8 prompt vectors identical/context/seed; bind full token arrays. Implement tiny owned.py over existing lifecycle with750/870 bounds and observer absence wrapper.
+4. Run focused tests, bounded seed-manifest check, CPU qualification with CUDA hidden. Preserve preparation errors. Freeze DATA/DISPATCH/REQUESTS/PROMPT_IDS/WEIGHTS/CPU records and complete source closure; SPEC then READY last. Parent accepts and launches separately. No broad tests, GPU calls, environment/image mutation, scientific retries or old outcome reads.

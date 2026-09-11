@@ -1,0 +1,5 @@
+# Additive missing-node harvest correction
+
+After prospective METHOD and pre-outcome PARSER seals, first actual harvest failed at `audit.py:43` with KeyError node while inventorying root calls. A retained failed native call has no graph node. The original parser, four-test receipt, source seal and first OUTCOME_PINS are preserved unchanged; no AUDIT result had been written and no aggregate had been exposed by this failed invocation.
+
+`audit_v2.py` applies one counted analysis-source substitution: only calls with a node index enter the program-node inventory. Every logical/physical call remains in the native checks/cost ledger; the last root call still determines final availability. A missing final node therefore cannot become an authenticated final; row-level authentication failure remains NULL, while earlier actual programs/observations are retained. No scientific output or admission rule is modified. Existing output hashes must match before continuing; the first OUTCOME_PINS is not overwritten. This is an explicitly post-raw-read parser correction, not part of the original pre-outcome qualification.

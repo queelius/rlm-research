@@ -1,0 +1,9 @@
+# Approved coverage-first48
+
+Implement exactly ideas/2026-09-09-coverage-first-root-options.md (b4fad61fca07dd3f1babd6d94618cba8ea4856be5098ea56ed2f0c1c9f663ecf) and the separate MAIN approval. Two availability-fixed roots (success_sft8 then efab), three summary policies, four exposed global contexts, two new common seeds:48 episodes. Primary coverage_first−always_counts within root; map controls and root interaction are exploratory. Preserve all NULL/invalid/unrun distinctions and four context clusters.
+
+Only the added suffix projection changes: coverage_first omits all histogram bins until complete unconflicted source coverage; thereafter its suffix equals always_counts byte-for-byte. The common source-bound delivered-map tracker, broker seam, deduplication/conflicts, original truncation and native masks remain unchanged. Original tool text is never redacted. Internal runtime-writable ledger logs retain the full state for corroborated audit; this is prompt presentation, not an access-control boundary.
+
+Use exact old tasks/public contexts/host-only gold, c32 child, typed child grammar, root-native Qwen3 thinking renderer, .5/full support/max2048, old per-episode limits and no study retries. New roots are authenticated efab2913 and fixed final8 66cce400; no checkpoint selection from evaluation outcomes. Sequential weight services imply order/service confounding. Rotated sequential arm triples run in four workers; no multi-root service changes.
+
+Caps:900s collection per root,2550 shared work from before verification,2670 owned/120 final cleanup reserve,2700 parent envelope. MAIN alone approves READY and launches. No GPU/model calls during preparation. A single small CPU fake-provider rootless fixture exercises partial then complete summary at the actual native observation seam; synthetic probabilities are parser scaffolding only.

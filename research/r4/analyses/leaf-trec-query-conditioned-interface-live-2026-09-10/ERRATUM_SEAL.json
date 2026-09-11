@@ -1,0 +1,9 @@
+{
+  "schema": "query-conditioned-trec192-additive-erratum-seal-v1",
+  "sha256": {
+    "AUDIT.json": "becc5abdcf4d2f6775aca946191802ab5f195acecf79392a6ce425006bfb8912",
+    "ERRATUM.md": "09790a3566360128b241b35d8d3adefa9b00e4a7795ca5bc9b93701b644a4ac8",
+    "FINAL_SEAL.json": "904d3bfad29cc7e762de4ff72f2f09d232ec7679984f81273fe7dcc6b16c3221",
+    "REPORT.md": "d9fcb94b007b099a0d7bc8e82556d51e9a95c3a131264c55e87593f156ae0548"
+  }
+}

@@ -1,0 +1,43 @@
+# Broad16 is CPU-qualified; parent acceptance and launch remain separate
+
+Prepared2026-09-09 under the approved main brief. No research model calls, GPU operations, service cleanup/signals, acceptance, or launch were performed. The sole launched runtime was a trusted CPU rootless fixture with deterministic fake provider outputs and explicitly synthetic likelihoods.
+
+## Ready experiment
+
+Original root857a7ce6907c759a8c1b478eb53029d3b700b81c3094d8edb3394e52def9fcb6, empty initial Adam, training seed981268001; fixed childc32de1293c01bba5104eb1f123867649c71dd38e5194661ace4b17dcbbe66ba3.16 fresh updates ×24 trajectories=384; validation16×5=80; final48 paired coordinates=96 episodes. Primary final is update16, never substituted by the descriptive validation winner. All checkpoint/data masks/loss math and persistent Adam mechanics come from the authenticated qualified sources.
+
+The registry contains80 tasks over47 disjoint contexts:24 training,8 validation,6 composition,6 length,3 leaf-test-exposed. Only16/32/64 sizes train;128/256 transfer. Optional SST/child-validation strata are absent. Two of48 scheduled training task groups have zero gold counts; one of12 composition-transfer tasks has zero gold. No answer-dependent filtering or regeneration occurred.
+
+See [RUNBOOK.md](RUNBOOK.md) and final [READY.json](../../../../ARTIFACTS.md#unpublished-files "Not published: READY.json") for exact parent argv, inherited MIG/LD environment and closure. Caps:18000 work/18120 inclusive exception/18150 parent outer; collection1800, optimization600, service180, validation900, shared final-panel3600 seconds. Parent alone checks an adequate remaining allocation window and exclusive-device handoff. The campaign itself rejects existing output directories; no implicit resume or rerolls.
+
+## Bounded source changes
+
+`campaign_common.py` privately authenticates original common/train/native/coordinator sources and count-checks transformations. Generation upper bound becomes16; hashes, previous root, fixed child, Adam cursor and contiguous commitment rules stay intact. PREPARED authenticates the frozen campaign during CPU qualification; final READY is an additional run gate published last.
+
+`campaign_train.py` changes only32→24 collection admission and verifies exactly24 distinct IDs with the declared task/seed/split (three groups of eight). The original numerical update, root-only validator, native replay, adapter load audit, Adam/RNG restore and atomic checkpoint mechanism remain unchanged.
+
+`campaign.py` adapts only the16-round loop, validation0/4/8/12/16, validation denominator16, fixed-final policy decision and final phase naming. Earliest maximum validation is saved descriptively. The qualified lifecyclev2 handles actual PRL::Inference titles and owned descendants. The observed ProcessLookupError/FileNotFoundError absence wrapper is imported unchanged from root-seed-lifecycle-continuation-v1; no broad process matching or unrelated cleanup is added.
+
+`campaign_native.py` replaces task construction with the approved80-task registry, preserving exact candidate context bytes and public task question text plus the existing strict definitions/example wrapper. The qualified native collector/exporter and narrow unsampled-child-overflow exclusion are reused. New source/role/generation lineage is authenticated in capture specs and checkpoints. All original artifacts remain untouched.
+
+## Evidence and focused qualification
+
+- Initial five regression checks failed with “adapter not implemented.” The native public-prefix regression then caught a literal-escaped-newline error, corrected before input publication. Eight native CPU tests subsequently passed:16-bound generation/stale checks, exact24 row admission, seed/cardinality/pairing, fixed-final selection, unchanged recipe math, process absence, native public/host boundary, and actual adapted coordinator7→16 with only external model/process boundaries faked.
+- The real tiny PEFT test completed16 actual CPU Adam steps; exact adapter tensors and optimizer cursor restored at7/8/9/15/16. Recovery did not step twice. A child-depth turn and unmasked observation were rejected before step9, and base tensors were unchanged. This is a tiny FP32 fixture, not fresh four-billion-parameter BF16 verification. Its only warning is PEFT's expected missing-original-config notice for a randomly initialized toy model.
+- [qualification/native-rootless/RESULT.json](../../../../ARTIFACTS.md#unpublished-files "Not published: qualification/native-rootless/RESULT.json") proves the actual TrainClient/renderer/rootless route on a new training task:3 provider calls,2 credited root turns,1 uncredited child, exact native physical prefix/wire checks. Actual aliases were current original-root then fixed child then root. Input token counts were1230/586/1289, each with2048 completion cap. This fixture is never supplied as a research training group.
+- [qualification/SEED_AUDIT.json](../../../../ARTIFACTS.md#unpublished-files "Not published: qualification/SEED_AUDIT.json"):448 distinct fresh train/validation/original-panel coordinates, no collisions against665 seed values from six named root plans. Transfer pairing and repeated validation intentionally reuse their streams. This is not a global-history collision audit.
+- [qualification/TASK_TOKEN_COUNTS.json](../../../../ARTIFACTS.md#unpublished-files "Not published: qualification/TASK_TOKEN_COUNTS.json"): all80 tasks rebuilt; external context text498–8465 tokens, public question+definitions at most568 text tokens. These are tokenizer diagnostics, not full provider prompt lengths for every future trajectory. The8465-token256-record file exceeds a single8192-token request intentionally; the policy must inspect/chunk external context. No truncation or request-cap increase was introduced.
+
+Exact stdout: [qualification-resume.stdout.log](../../../../ARTIFACTS.md#unpublished-files "Not published: qualification-resume.stdout.log"), [qualification-resume.stderr.log](../../../../ARTIFACTS.md#unpublished-files "Not published: qualification-resume.stderr.log"). [CPU_TESTS.json](../../../../ARTIFACTS.md#unpublished-files "Not published: CPU_TESTS.json") preserves initial red/green commands; final rerun output is recorded in `qualification/FINAL_TESTS.json` before READY.
+
+## Preserved preparation failure
+
+The first qualification stopped before attempting rootless calls because its version inventory queried PEFT in the native serving interpreter. That interpreter intentionally lacks PEFT; the training interpreter has it. The source/CAMPAIGN seal was not changed. [QUALIFICATION_FAILURE.json](../../../../ARTIFACTS.md#unpublished-files "Not published: QUALIFICATION_FAILURE.json") retains the cause and partial CPU artifacts. The small additive `qualify_metadata_resume.py` wrapper records only absent native PEFT, propagates other missing-package failures, verifies/reuses the two identical completed CPU audits, and runs the previously unattempted rootless fixture. Its focused test failed before implementation and passed afterward. There was no model retry, installation, or global environment mutation.
+
+Actual native versions: Python3.12, torch2.13.0+cu130, transformers5.6.2, vLLM0.28.0, tokenizers0.22.2; PEFT absent. Actual training interpreter: Python3.12.12, torch2.13.0+cu130, transformers5.15.1, PEFT0.20.0, safetensors0.8.0. Full values are in [qualification/RESULT.json](../../../../ARTIFACTS.md#unpublished-files "Not published: qualification/RESULT.json").
+
+## Immutable identities and limitations
+
+Campaign identity475600bacdcc07ec48edae3c0d58b723a1622b70d9bf79bcbcbe215c40d1012f; CAMPAIGN SHA c2f52b6765ed63bea50c7b3da6a9be2ac9988ac2486a1f22aa38c9cafd765369. Sources were frozen before the native qualification; the metadata-only wrapper and report are additionally bound by final READY. Parent receives final READY hash separately; it is not self-referential.
+
+Broader data, extra updates and attempted trajectory count change together; no breadth-only causal claim. Candidate provenance excludes named prior root groups but not unknown historical/pretraining/paraphrase exposure. All training-supported transfer strata overlap child gradient-training questions; the separate96-question test stratum has prior leaf-evaluation exposure. Reserved requested categories are not unseen labels. Validation is small/developmental. Serial original→final serving and repeated stochastic seeds are not deterministic replay. Known overflow exclusions remain policy-induced censoring; unknown integrity failures stop. No full-label coverage criterion, forced-recursion reward, answer repair, or sampler-probability fabrication is added.

@@ -1,0 +1,334 @@
+{
+  "explicit_files": [
+    {
+      "bytes": 1931,
+      "path": "/project/alex_phd/research-cache/models/Qwen--Qwen3-4B-Instruct-2507--cdbee75f17c01a7cc42f958dc650907174af0554/local-research-manifest.json",
+      "sha256": "19619b44b0bd30bf5debe0960e6dfd6acc5be8287c581727456aa5d17699c18f"
+    },
+    {
+      "bytes": 11422654,
+      "path": "/project/alex_phd/research-cache/models/Qwen--Qwen3-4B-Instruct-2507--cdbee75f17c01a7cc42f958dc650907174af0554/tokenizer.json",
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "bytes": 458747,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-batch-shape-2026-09-08/OUTPUT_DIAGNOSTICS.json",
+      "sha256": "db353617454d49c51fc0a37cdaa37370adebc91548e8e7fe49ca5fd9e451aa56"
+    },
+    {
+      "bytes": 248525,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-batch-shape-2026-09-08/PAIRED_QUESTION_DISAGREEMENTS.json",
+      "sha256": "d9fcd42a80efb4f90861c0ace76e2d6268a9b8c251cae3e9148eb52c929658dd"
+    },
+    {
+      "bytes": 303234,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-batch-shape-2026-09-08/PREDICTION_MATRICES.json",
+      "sha256": "80420ba34b8e11b184f94bcd060dc973e5b18f4ec4013e875d1d26275627db7c"
+    },
+    {
+      "bytes": 12393,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-batch-shape-2026-09-08/REPORT.md",
+      "sha256": "8271561771b1d1cd8b45625cad4719956417f90d08bb4f4e3f0d0b0a9a41ad9d"
+    },
+    {
+      "bytes": 294770,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-batch-shape-2026-09-08/SUMMARY.json",
+      "sha256": "c3062b3c3d851660e0a16f30cac757551447c90d1a98d4f9b55cd230340d4b04"
+    },
+    {
+      "bytes": 1694,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-batch-shape-2026-09-08/VERIFICATION.json",
+      "sha256": "4f64bbca4a05829f285c0c8b62f7fefd2e2857fb92f9b84c5699f5a29eea2334"
+    },
+    {
+      "bytes": 21136,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-batch-shape-2026-09-08/audit.py",
+      "sha256": "27427a1d21b75121f7972fcaab56c8e6e37423a04aaa2a0f62e69c248544bd7a"
+    },
+    {
+      "bytes": 6489,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-batch-shape-2026-09-08/bundle.py",
+      "sha256": "f46c2507e24a80b0518bdbd22bb36c8ea0202f64ee0108595acba50666ee3f8e"
+    },
+    {
+      "bytes": 7645,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-batch-shape-2026-09-08/verify.py",
+      "sha256": "bf9bb6a45e8b0bd2f3af1b0352b051e069910740ece8ae1c4a38212d9d692c62"
+    },
+    {
+      "bytes": 11989,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-role-composition-fixed-2026-09-08/REPORT.md",
+      "sha256": "930678fdeb886e4de1e5700ea96e7bd2ce59de2918e92d96a8e2a427633973f0"
+    },
+    {
+      "bytes": 695444,
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-role-composition-fixed-2026-09-08/RESULT_SEAL.json",
+      "sha256": "768339a519254edb761bf8a5099b77f36959404911d2cabf8f9392b717644244"
+    },
+    {
+      "bytes": 2811,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-extremes-v1/DESIGN.md",
+      "sha256": "a2e47443d215ae7daffe401d9d83c7075d62aa1d6475c9525a06fde2d3e22119"
+    },
+    {
+      "bytes": 2603026,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-extremes-v1/SPEC-B001.json",
+      "sha256": "6df7e55fd29eb7f26f9d6ce2d5d83b80b6199e55aa3b2dec6a1fcec6ea3273ee"
+    },
+    {
+      "bytes": 408332,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-extremes-v1/SPEC-B064.json",
+      "sha256": "ed3056e2e9e058ea26ed73309de8963a288ecf813ea47ac5a0bf807f1fa7e297"
+    },
+    {
+      "bytes": 4284,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-extremes-v1/driver.py",
+      "sha256": "d6337c556e2c27ce14e40c1047d37238e448076f3783ea4283726758871f933d"
+    },
+    {
+      "bytes": 1485,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-extremes-v1/test_driver.py",
+      "sha256": "ca67458dac7aea4172970422d0828790ded6c0a5500c34fe17e48e772282f3b8"
+    },
+    {
+      "bytes": 1876,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-schema-v1/DESIGN.md",
+      "sha256": "b6ae33d300f758e1564e33946057ba832961891e0e12415dc4cdb649ac2340c4"
+    },
+    {
+      "bytes": 2603706,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-schema-v1/SPEC-B001.json",
+      "sha256": "043ed01c8265824e35ed4173d32e16e4b60e6709e4d83aef1f875a2280987f1a"
+    },
+    {
+      "bytes": 409011,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-schema-v1/SPEC-B064.json",
+      "sha256": "a22660de31c1ef355b8d6489f72e4df7574eb91d0f138d21a172f961371bb64b"
+    },
+    {
+      "bytes": 3526,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-schema-v1/driver.py",
+      "sha256": "2fb6cf09511bbc8db25031e6fc6f56534521a143e74f3c10ea776421185b5313"
+    },
+    {
+      "bytes": 2693,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-schema-v1/test_driver.py",
+      "sha256": "07ab0a3ef6fc14e981e56718a1f2dbf01c8dbbc8e5f876572ecd8f7621ceaf0f"
+    },
+    {
+      "bytes": 1269,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch16-v1/DESIGN.md",
+      "sha256": "4116faac256f28faf3bcc2beecf7ac2119cd896d51ddb48f857279c1f5bdba1d"
+    },
+    {
+      "bytes": 512548,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch16-v1/SPEC.json",
+      "sha256": "06942b0d49f392836c460973e2f6baa829e430a9747104f0b8170a3e77abda05"
+    },
+    {
+      "bytes": 3639,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch16-v1/driver.py",
+      "sha256": "405e1a87536c6be8871f7e5faa8c5e2222847b7cef3812ff7fb5033e14a2287a"
+    },
+    {
+      "bytes": 954,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch16-v1/test_driver.py",
+      "sha256": "907dca75e2a65b56ec59c216eb3db92adcdb487e0847d79d5d93278ae1fda441"
+    },
+    {
+      "bytes": 4054,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-composition-v1/DESIGN.md",
+      "sha256": "54f72f103a631949756cdb5d0f8e3537f90a6633810103ac8904ae3c564c6d12"
+    },
+    {
+      "bytes": 879,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-composition-v1/PLAN.md",
+      "sha256": "4c1b3aaeaaad9037a61650dd23fd4029f08c017d25a247a11cf0f9ed7a3f0787"
+    },
+    {
+      "bytes": 808585,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-composition-v1/SPEC.json",
+      "sha256": "7fd1c7ae11a5f9d5185328bcdb095f5ae4a070318e6e97fde5e5c5c40eb86f81"
+    },
+    {
+      "bytes": 28465,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-composition-v1/driver.py",
+      "sha256": "9afd6c5d5219a6705c79839e99a87ca45e50c84fc7bdff197c97482f6cd8387a"
+    },
+    {
+      "bytes": 9477,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-composition-v1/test_driver.py",
+      "sha256": "561a5c670517a8c658317faaade505e5d88e292ec2274eaed22f1b010cea1082"
+    },
+    {
+      "bytes": 2471,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-composition-transfer-v1/DESIGN.md",
+      "sha256": "a7a1168a2cf2f50144f54fa56ed5822fd1cf90dd567fe3136cfe60b04c76de91"
+    },
+    {
+      "bytes": 6473,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-composition-transfer-v1/prepare.py",
+      "sha256": "6beca62df5f73471df2f8a2ed4dc9808850c298b484a941159c46415f76877bf"
+    },
+    {
+      "bytes": 289911,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-composition-transfer-v1/prepared-v1/DATA.json",
+      "sha256": "1ea4640da5a8e3e305bee7f79d5abeecb02507d6bcc33d709d1c7209fd47bfc2"
+    },
+    {
+      "bytes": 1303,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-composition-transfer-v1/prepared-v1/MANIFEST.json",
+      "sha256": "7e4b19621d424fd23cd1f286e9d1aefbf8b84bf233070b172ecce5d4439903c0"
+    },
+    {
+      "bytes": 2805,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-composition-transfer-v1/test_prepare.py",
+      "sha256": "34c5a4ed32325be31ee8aadf4475a9e2279edf84e743d0798b0a1dfd38ad1af7"
+    },
+    {
+      "bytes": 1277,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-role-routing-v1/BOUND_WEIGHTS.json",
+      "sha256": "a468f158cc81d5ee8a31ae3d03dfce9fb4faa567dcfc64445fd59c325b1c0e15"
+    },
+    {
+      "bytes": 1277,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-role-routing-v1/service-attempt-001/BINDING.json",
+      "sha256": "a468f158cc81d5ee8a31ae3d03dfce9fb4faa567dcfc64445fd59c325b1c0e15"
+    },
+    {
+      "bytes": 270,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-role-routing-v1/service-attempt-001/SERVER_READY.json",
+      "sha256": "aa3fb3a9ec8fd3bf12ed63e02ba02a39610c173b1232a887f5deadef51c342ad"
+    },
+    {
+      "bytes": 396,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-role-routing-v1/service-attempt-001/SERVER_START.json",
+      "sha256": "34cc13fca5a8f967161b092fd82d616f3edf7b527fdc7c32df747e5c379bd127"
+    },
+    {
+      "bytes": 1532,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-role-routing-v1/service-attempt-001/endpoint-original.json",
+      "sha256": "16b2f222e0cb043c046a14b39bec88a28f7cdc0ee9b47ca3158dcff6d24407df"
+    },
+    {
+      "bytes": 1522,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-role-routing-v1/service-attempt-001/endpoint-selected.json",
+      "sha256": "d74749169f6a208472ef9628f717c64d6399d2b58dc144fefb7084aefbc3da10"
+    },
+    {
+      "bytes": 1258,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-role-routing-v1/service-attempt-001/inference.json",
+      "sha256": "fccb84cebcb343b51aa832d9749697e906ccb3e856e02d21a9cae909a118d19a"
+    },
+    {
+      "bytes": 427,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/single-gpu-self-sft-control-v1/inputs/step0-peft-key-conversion-v2/adapter_config.json",
+      "sha256": "e6828a7cbb97028a871958e71ba6b8a75ac4887c25008ac4dbf7366bd298fbc4"
+    },
+    {
+      "bytes": 66126768,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/single-gpu-self-sft-control-v1/inputs/step0-peft-key-conversion-v2/adapter_model.safetensors",
+      "sha256": "857a7ce6907c759a8c1b478eb53029d3b700b81c3094d8edb3394e52def9fcb6"
+    },
+    {
+      "bytes": 4496,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-contract-probe-v1/CONTRACT.json",
+      "sha256": "cb50c6fddff7ea62a96936a7fcb58da84307248028adb420d7b1ab971a74bea7"
+    },
+    {
+      "bytes": 18564,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-contract-probe-v1/driver.py",
+      "sha256": "a82baf0d9be7f5cbc756ced908c405f6aba4497b46a4ca56e15c8900798c8bce"
+    },
+    {
+      "bytes": 9778,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/RECIPE.json",
+      "sha256": "556a69539f4d90df2c6b97341c343fbfb80d135dfcf3f92f17427dbb8bdab702"
+    },
+    {
+      "bytes": 5948,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/outputs/attempt-001/SELECTION.json",
+      "sha256": "46025168d985242c4d237fb7691ea94aa6658b7b8647fdf2771c21c00b48f0ed"
+    },
+    {
+      "bytes": 1243,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/outputs/attempt-001/checkpoint-0128/adapter_config.json",
+      "sha256": "ec773bc3b9de58af98a7c4dce9a40af795a4d05cd47284dbbfb27eac99b74174"
+    },
+    {
+      "bytes": 66126768,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/outputs/attempt-001/checkpoint-0128/adapter_model.safetensors",
+      "sha256": "c32de1293c01bba5104eb1f123867649c71dd38e5194661ace4b17dcbbe66ba3"
+    },
+    {
+      "bytes": 13878,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/source/data.py",
+      "sha256": "b5aa353e2173c3fd48ecc36ce0596c9c3328767a7d82c8d22c57b4e0a32f0b8f"
+    },
+    {
+      "bytes": 24695,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/source/experiment.py",
+      "sha256": "c4a66731f544c57821b8f0bf81eb6f5785f12f943b61b8bc4e3916a1dcef041c"
+    },
+    {
+      "bytes": 341652,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-split-provenance-v1/INVENTORY.json",
+      "sha256": "5ad3bc2e9d2e440500a918b3ed7d41d163a29dceaf26cc31b41c2f488ffd660b"
+    },
+    {
+      "bytes": 1093393,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-split-provenance-v1/PROPOSED_SPLIT.json",
+      "sha256": "3f5f648488d512d2052b9f3d57c02e030af8e939ca363998c07a556a47d7f457"
+    }
+  ],
+  "inventory_algorithm": "For each output root, recursively collect files only; sort by full path; JSON-encode [[relative_posix_path, size_bytes, sha256_hex], ...] with ensure_ascii=False,separators=(',',':'); hash UTF-8 bytes with SHA-256. Explicit files are listed individually below. RESULT_SEAL itself is excluded.",
+  "old_joint_seal_sha256": "768339a519254edb761bf8a5099b77f36959404911d2cabf8f9392b717644244",
+  "output_inventories": {
+    "b16_free": {
+      "call_artifacts": 192,
+      "file_count": 247,
+      "inventory_sha256": "df31eef31d2d3a5726e718926acc86fa9f45eddabd1f477d282d7e8488390dd2",
+      "root": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch16-v1/outputs/attempt-001",
+      "total_bytes": 7147575
+    },
+    "b1_free": {
+      "call_artifacts": 3072,
+      "file_count": 3127,
+      "inventory_sha256": "1170989df6922aecf89286782dbefd59bf710a44178bc606c4dac85cc1b82dd5",
+      "root": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-extremes-v1/outputs/batch001-attempt-001",
+      "total_bytes": 64254619
+    },
+    "b1_schema": {
+      "call_artifacts": 3072,
+      "file_count": 3127,
+      "inventory_sha256": "d197bf15bf189d37548719fb19bbd9b97d16ec018fc737853996f654b4f19823",
+      "root": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-schema-v1/outputs/batch001-attempt-001",
+      "total_bytes": 65464393
+    },
+    "b5_free": {
+      "call_artifacts": 624,
+      "file_count": 679,
+      "inventory_sha256": "c5d6a77387d9030e95272c88a8968f5066013d3709457c9ef8be590bfc606956",
+      "root": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-composition-v1/outputs/attempt-001",
+      "total_bytes": 15692409
+    },
+    "b64_free": {
+      "call_artifacts": 48,
+      "file_count": 103,
+      "inventory_sha256": "d2fad48174dbbdc944c1ea5e86f7f08125666b62963d3ef20f9c75a59421e340",
+      "root": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-extremes-v1/outputs/batch064-attempt-001",
+      "total_bytes": 5172680
+    },
+    "b64_schema": {
+      "call_artifacts": 48,
+      "file_count": 103,
+      "inventory_sha256": "d3195e87bd9f2eb4fe033d7d142bd95b7f64ede66bd14e34b3e62163c8bc3b44",
+      "root": "/project/alex_phd/runs/rlm-research-r4/sidecars/fixed-leaf-batch-schema-v1/outputs/batch064-attempt-001",
+      "total_bytes": 4349436
+    }
+  },
+  "raw_call_artifacts": 7056,
+  "schema": "leaf-batch-shape-result-seal-v1",
+  "scope": "Additive analysis, all six completed fixed-leaf output trees, and actual frozen input files; no live service logs or model-cache trees.",
+  "verify_command": "CUDA_VISIBLE_DEVICES='' PYTHONDONTWRITEBYTECODE=1 /project/alex_phd/envs/prime-rl-5990b1b/bin/python /project/alex_phd/runs/rlm-research-r4/analyses/leaf-batch-shape-2026-09-08/verify.py --check-seal"
+}

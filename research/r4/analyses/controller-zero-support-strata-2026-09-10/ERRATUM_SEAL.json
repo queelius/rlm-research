@@ -1,0 +1,11 @@
+{
+  "schema": "controller-zero-support-strata-erratum-seal-v1",
+  "erratum_sha256": "99fa227e2a0d8bdd686353e76811ac39ccf272047dd75c0d0979fd235a817241",
+  "preserved_artifacts_sha256": {
+    "REPORT.md": "d550dd2df5fa13189e14168969fecec4e2851e6bf4ffe8b781a3dd826b7e6507",
+    "RESULTS.json": "f2df17340784fc184e5aba2b064ad7ec072dd14c2a8a6f2069fbb3072536db56",
+    "reproduce.py": "0866a4bf67981b71bfe1edb1f028ffa62d01a2c7104dc1224e2f259217b96968",
+    "SEAL.json": "548eb6d4bdacc3416b49551aedda69410bbf94345c238648f7116d0a3790f0c3"
+  },
+  "changes_metrics_or_rows": false
+}

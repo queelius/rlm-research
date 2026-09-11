@@ -1,0 +1,17 @@
+{
+  "artifact_count": 10,
+  "artifacts": {
+    "METHOD.md": "0e4ff84fbbc9a76037f6d1b045cb420e2968dcee6f800f712820454b40b9c3f9",
+    "METHOD_READY.json": "2a36f1b70b5ebd7b4e0a531b14112e0b8fd24a7f887af7730a222dae2cad76f1",
+    "ATTEMPT002_METHOD_BINDING.md": "2e0a633b586895d50bd49a65d45622c3de1a5684c903844febc139a78a60ae12",
+    "audit.py": "31b2e343695ea27fdeee93729f39bdc87679c7565d1c25df4ec5fad1c8a2d4d4",
+    "AUDIT.json": "f2f5ec4d616a06ba393f5e89bf7fd5f37944b9ba73f2a5dd871a45e10dc361ba",
+    "REPORT.md": "c3452e74f115ed0c484713b00da77ad4ea3a7ca8a1c4a2b9ee5c8568603796a1",
+    "test_audit.py": "4b44c1cb1af0dc0c2e915661aef98d90ee34e89e3db60dc65392b005fa29d538",
+    "../../sidecars/leaf-mnli-positional-anchor-binding-v1/READY_RECOVERY.json": "d02f4deec95ac6b4e31d5e5dd02c8f2857eff64cd17cb09f6bb30bb402526c22",
+    "../../sidecars/leaf-mnli-positional-anchor-binding-v1/outputs/attempt-002/OWNER_TERMINAL.json": "a9c46ee4a4f677edfa9d1f3676ee16cef985975fa515e4f6a376b5baf5dcd5a2",
+    "../../operations/2026-09-10-after-composed-rlvr-ordinal-recovery/attempt-001/mnli_ordinal_recovery96/EXIT.json": "12a494b87c40c103db8b1ebe02a3b7ecb899c108fc1cca03a828c2516e68ec46"
+  },
+  "date": "2026-09-10",
+  "status": "complete_raw_native_audit"
+}

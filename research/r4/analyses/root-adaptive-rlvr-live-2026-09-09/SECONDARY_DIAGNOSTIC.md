@@ -1,0 +1,9 @@
+# Posthoc map-to-count diagnostic
+
+Added after validation four, motivated by the source-linked case in `CASE_VALIDATION4_MAP_COUNT.json`. This is descriptive and outcome-informed, not a newly prespecified primary endpoint or a policy repair. It must not change any stored strict/admission score.
+
+Scope: completed validation 0/4/8 and transfer 0/8 only. For an admitted trajectory, use the official physical branch ending at the last root response and authenticate it against saved native/wire tokens. Inspect tool-observation text as data, never execute sampled code. Recognize only whole dictionary observations with public source IDs and canonical label values, and require their ID/value pairs to agree with source-authenticated typed-child results for that coordinate. Repeated conflicting values make the diagnostic unavailable. Partial or unparsable observations are not silently completed using host labels or child responses that were not visible to the root.
+
+If the resulting unambiguous root-visible map covers every query-relevant source record, compute its implied count from public user metadata and the requested category. Compare that count with host gold and the unchanged raw root answer. Report separately: map-implied aggregate correct/incorrect; exact root numeric answer faithful/unfaithful; syntax failure; missing/ambiguous/unsupported coverage. Child-map aggregate error and root aggregation/final-format error can coexist. Structural eligibility is not proof that the model internally consumed the map. No absent-map trajectory becomes a failed model example.
+
+One stage is processed once and cached. Cross-policy diagnostic rates describe selected observable subpopulations, not causal mediation or general planner competence. Prefer a small linked example to a broad prevalence claim when this conservative parser leaves many trajectories unavailable.

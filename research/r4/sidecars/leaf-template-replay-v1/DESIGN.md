@@ -1,0 +1,18 @@
+# B-only physical-template replay
+
+Parent-approved fresh HF control: six existing frozen transfer64 contexts ×two saved physical-template conditions =12 new greedy calls. No historical completion is reused. B is fixed epoch2/checkpoint0204, SHA59ad854293142161f6b5e613dd5d1e3630fed600637106d5eae2cbcd764e9200. This follows known B outcomes and a known train/eval serialization difference; it does not assume the latter caused failure.
+
+Conditions: probe uses each PROBE_SPEC.request.hf_prompt_ids and saved B transfer64.prompt_ids; training uses saved B transfer64.training_template_prompt_ids. Reconstruct the latter with the original authenticated data.render function and original frozen training tool dictionary order. Reconstruct probe via its exact messages/tools and tokenizer. Check semantic messages/tools equality, identical non-tool prompt text, and type/function versus function/type tool-key order. No changed task, question grouping, labels, definitions, cap, decoding policy or checkpoint choice.
+
+One model load only: original trained Python3.12.12 environment, Torch2.13.0+cu130, Transformers5.15.1, PEFT0.20.0, safetensors0.8.0. Base BF16, SDPA, PEFT autocast_adapter_dtype=true, inference-only adapter with exact loaded FP32 tensor/value audit. No training, optimizer restore, vLLM or LoRA merge. Parent assigns one exclusively released A100.
+
+Each two-row microbatch pairs the two templates for one context; within-pair order alternates by context index. Same left-padding helper and EOS continuation handling as frozen mixed evaluate_long, max_new_tokens1024, do_sample=false, use_cache=true. Six microbatches total, no retry/resume, fresh output directory. Fifteen-minute global cap includes input verification, model load and generation. A process alarm enforces the cap at Python boundaries; parent should also bound the owned process externally because uninterruptible device/system work is not guaranteed interruptible.
+
+New outer spec and per-row IDs bind template name, exact input token IDs, source context/group IDs, B checkpoint, environment and decode recipe. Intercept each actual HF generate call to verify/log its exact padded input IDs, attention mask and unchanged sampling arguments. Frozen evaluate_long writes each completed row immediately; outer batch records retain generation duration, prompt/padded-input/completion cost, partial failures and unrun cells. Never overwrite or reuse prior HF outputs.
+
+Primary: whole64 canonical contract validity, full-array exact correctness, and semantic item accuracy only for aligned outputs; record raw array length and EOS/truncation separately. Preserve inherited strict score without repair. Invalid arrays are not64 known semantic errors. Per-position and per-question paired comparisons use the six context units and384 repeated question groups; no new heldout claim. Report actual load/cast/dtype and peak memory. Historical B results are contextual only, not one treatment arm.
+
+Promotion: a consistent paired improvement under training-key order would support sensitivity to this exact physical serialization at fixed B weights, not prove it explains all batching failures or compare HF to vLLM. Similar failures under both weaken this specific explanation. Mixed or opposite effects motivate caution, not prompt tuning. No changes to sealed correspondence, mixed-schema, curricula or suite files.
+
+CPU preparation only; parent launches later. Reuse authenticated load audit, generation_batch/continuations and evaluate_long in a fresh wrapper; focused CPU reconstruction, ID binding, strict score and real-generate-boundary fake tests. READY is written last.
+

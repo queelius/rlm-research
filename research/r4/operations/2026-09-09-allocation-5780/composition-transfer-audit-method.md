@@ -1,0 +1,13 @@
+# Composition96 prospective independent outcome audit
+
+Analysis namespace: `analyses/root-operator-composition-transfer-live-2026-09-10` relative to `/project/alex_phd/runs/rlm-research-r4`.
+
+METHOD_READY SHA `a1a4dd0309800ddc32465a3409e2ad6b8132588ac23313630bfcb25404beadde` (5,009 pins); PARSER_READY SHA `ac0ece858089f1a597890a15a0e9cc6a1af41108ba329b6e266acf6a5147ec6d` (5,016 pins). Both freeze routines verified the exact scientific attempt directory was absent. Exact science READY `9cfd1febd1101ece4fd1f69d4a1e64909a7822f83ea0299cbc78d8e2284398b1`. No new scientific outcomes have been read.
+
+`METHOD.md` plus prospective `METHOD_AMENDMENT.md` govern. Primitive/composition panels each24 planned/policy, eight paired context clusters, six families, zero/nonzero and NULL bounds remain separate. Actual native first/final branch, physical tokens, final text, role/model and no outstanding tools authenticate existing endpoint claims. Authenticated malformed final is strict0. Missing/unavailable per-episode RESULT remains primary NULL; any reconstructable native final is diagnostic only. Aggregate omission never erases existing per-episode results or physical costs. Source values/disagreements remain explicit and unchanged.
+
+`audit.py` harvests all96 coordinates plus all physical files, including unplanned directories; known/unknown usage and unmatched role dispatch intents are separate. Confirmed physical dispatch is not equated with GPU work or billing. Manual observed-dataflow annotations will be a separate post-outcome artifact; parser code/observation extraction is not mechanism scoring. No sampled-code execution or map/gold repair.
+
+Final focused parser qualification: **6 passed in4.56s**, `CPU_TESTS_FINAL.xml`; prior pre-amendment receipts retained. Includes retained genuine authored native root→child→C3→final evidence, malformed0/missingNULL, token mismatch, unresolved tools, costs with unknowns, and missing/unavailable endpoint RESULT with authenticated diagnostic-only final. The prior CPU review independently checked128 raw-source records and all48 truths/native prefixes. Shared ancestor implementation contributions are disclosed; new study author is bridge, not this auditor.
+
+Await MAIN's exact terminal/release relay before running: `/project/alex_phd/envs/prime-rl-5990b1b/bin/python analyses/root-operator-composition-transfer-live-2026-09-10/audit.py` (absolute path in use). An explicit `--parent-exit` is allowed only for MAIN-relayed failed-owner closure; it does not permit launch, retry, source edits or completion salvage. MAIN retains all GPU/service/queue authority.

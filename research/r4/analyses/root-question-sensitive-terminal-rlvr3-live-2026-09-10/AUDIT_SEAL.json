@@ -1,0 +1,21 @@
+{
+  "schema": "qs-terminal-rlvr3-audit-seal-v1",
+  "method_ready_identity": "33b76b51d5a77b7ca3a86af11bf141efac46840fe5a74b01e2960bcc61af143a",
+  "method_ready_sha256": "bba1ca97d891876f6b29b2012942d16e6a07145a4af740c955e1fb13485291c8",
+  "audit_sha256": "e9f837d59fdfd1087d4cc3294ecf94c6dd7f32e68210a717fdcf20185f954f3c",
+  "manual_pack_sha256": "6036b0d22e201b1e3cce91d3e3fa51958faa4008e5a8a674454e4ba1aeaa1352",
+  "owner_terminal_sha256": "9c781c746a16c4be9daf1732a5272a560d09eda8650ae3aedc7e5174f99ac637",
+  "parent_exit_sha256": "9eb217ec1f52c73486c46f9e6f2a5282f9259fc76c984c17245aac1740211323",
+  "source_sha256": {
+    "METHOD.md": "e6683e96c995616ba47eed241bb19f9e5e83b0c95f8cd77d4ab767974383fe54",
+    "audit.py": "1e8a4f4f5ae5847909218b9afb1be5cc8ab267893015a62438ac1be07ecedf08",
+    "test_audit.py": "c37ea8421768008b53902f29d6ee6a871d976726030b486cac51d10d56d5159f",
+    "freeze.py": "a72771a979be5ee2461c363794ed70531bd61da2d036a1769c6c3be54fc8ea97"
+  },
+  "terminal_gate_passed": true,
+  "planned_inventory": 336,
+  "manual_pack_planned": 96,
+  "manual_pack_observed": 94,
+  "actual_optimizer_updates": 1,
+  "gpu_calls": 0
+}

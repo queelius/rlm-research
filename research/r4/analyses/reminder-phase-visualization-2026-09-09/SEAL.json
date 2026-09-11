@@ -1,0 +1,21 @@
+{
+  "schema": "same-record-reminder-visualization-v1",
+  "source_sha256": "69a9dd008323844589c5ada24f44b1b33a6c23f0927cd2802212f7dd580ac32f",
+  "files_sha256": {
+    "DATA.json": "20cfd08374a1da5d6bfc76caa2f936c054092364963ac4529ce23a54c1448951",
+    "DATA_V2.json": "20cfd08374a1da5d6bfc76caa2f936c054092364963ac4529ce23a54c1448951",
+    "PLAN.md": "9ef91ac407cb56f2e6c9915b53d03dc4e6fcda779218fdd171af203326377d10",
+    "REPORT.md": "447739481c0c2d85a8ef4d036693aa3579cc36afbf42aba893e018f85b1088f4",
+    "plot_phase.py": "824cf56086310264b071fb0d5fb1738b4c419be0fd6ed27369e5de77aa5639d2",
+    "same-record-reminders-v2.png": "654b44293ba973b91578d3f27fc3b8dd16b55ef829822310924acc35b7ad46c9",
+    "same-record-reminders-v2.svg": "223def66bd5a8941ed5785405d15616168d40ebc1f588fd3a86feb277c8d763d",
+    "same-record-reminders.png": "179e1e39e693532a8786f572c85ac92555a8752cd85fa1c35783ba79b21ffae4",
+    "same-record-reminders.svg": "0ce11513d2d73eac3fdd94df44691098f1159e4699b6af399f3ca76128fc32f7",
+    "test_plot_phase.py": "43d0c91bd293696fdb8f47a78d31250568f5884676665a315bb7521c5656410f"
+  },
+  "canonical_plot": "same-record-reminders-v2.svg",
+  "png_visually_checked": true,
+  "data_versions_identical": true,
+  "numeric_tests": "2passed0.02s",
+  "scientific_source_unchanged": true
+}

@@ -1,0 +1,25 @@
+{
+  "artifacts": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/EVIDENCE.json": "a696ee93e230ef198bbff69e606b42a4f31d8f0b9eae8ce46a79f14c9a381adb",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/METHOD.md": "a5ad9a6720c208f3cdc245d9cb78abad524526ee9f144a6c2be378afab2cdb76",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/METHOD_READY.json": "ecbc1a8694a72cd50a18c3009a8b7ebb5ad50d9f07e2f94bfbc7d466e8e93f08",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/NATIVE_AUDIT.json": "02ccb2da96d9a6bd17c13d22cf13c0176fcd5eb01877cee1dbae6a16846e5fb9",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/OUTCOME_PINS.json": "f92e723d894909a9d2c08ed2988dff990c1e34bb1c42924af5a166bf75b88648",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/REPORT.md": "5a5cdfcb0809bdf81e0fb47f2af51012f011853b1a9c7aa2dead2d84ea832351",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/REVIEWER_ADOPTION.json": "f2d51a5d796bfc972766fc9331b3cb36abb98dc9e7addbb212395ce4c78c4cd0",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/REVIEWER_ADOPTION.md": "f7c01cfaf3dc1b511a724d31938eeb7f2ca6c47f4a04a52379ca365ef55aa832",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/audit.py": "4aaf2fb1929c970bd265b00af7021dbf157f1c4ec3fc1aff92b54cded6f035d0",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/evidence.py": "239afa4dbeea0073cf4a9b5de77f0f481e3d8046bc811d01b6b33038cdff93c9",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-counterfactual-card-signatures-live-2026-09-10/seal.py": "2f238b170c3ad898a6d4cae167ac962c576697a1b106d9fa61f374cd489b0ce8",
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-09-allocation-5780/counterfactual-card-signatures-audit-report.md": "eae7454c0ce0fcb605bc724cfd63596f2392e9d054723df9c9b017341872b1a3",
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-09-allocation-5780/counterfactual96-independent-review.json": "262f6a3bc6602c877d47c3813700edec4bf7bddaecadb66233d59142dc8ebe9a",
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-09-allocation-5780/counterfactual96-independent-review.md": "adf021791017273d8500bebe169a897ac4dab0c798bc10d15a6c96b9e038378a"
+  },
+  "manual_available_reviewed": 61,
+  "owner_terminal_sha256": "876894e90a3b9893d06dbfa07ab203b94a6298f59684cedf74fe77064906b874",
+  "planned_endpoints": 96,
+  "raw_outcome_pins_sha256": "f92e723d894909a9d2c08ed2988dff990c1e34bb1c42924af5a166bf75b88648",
+  "sampled_code_reexecuted": false,
+  "sealed_at_utc": "2026-09-10T11:11:32Z",
+  "status": "SEALED_INDEPENDENT_AUDIT"
+}

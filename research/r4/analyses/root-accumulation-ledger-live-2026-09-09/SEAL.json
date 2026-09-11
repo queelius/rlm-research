@@ -1,0 +1,28 @@
+{
+  "authoritative_observation_projection": "OBSERVATION_PROJECTION_V2.json",
+  "files_sha256": {
+    "EARLY.json": "19c805a782ef79f5bd792c8e1148fa4a69e4dad6969e14a0a8452343d938a7f3",
+    "METHOD.md": "b1edd2b2e24e8143f4a1ef051ade63304158ff7349957b72ccc61e689ee7658d",
+    "METHOD_INPUTS.json": "124f5bde0ee7127773d050628abedb13520e7d45d5bfc0b11869b44743c28671",
+    "METHOD_READY.json": "7d25a870b56fb78c5ffeebb11b8de6ba430a7a43f0c9dd04d384c4b68d5d3497",
+    "METRICS.json": "f7df02ae1fc868353fb7bd98d69d4d71e874c8e4fce9946c9ffc617b9046c49a",
+    "OBSERVATION_PROJECTION_V2.json": "23178f2bbb12aaf95a47d812715014b1c80e6fc937a34becc51e9f1ec2541c1e",
+    "PROJECTION_AMENDMENT.md": "998b4dddabf6dad7e823dab087401d00f24915b5fbd20199a7c0f4290ef49044",
+    "REPORT.md": "b79913417b991037aa9fc4c09515601aa67682f2d2edd11400cd7fe02cf3dd36",
+    "SOURCES.json": "efb5c64498d9a97a227274e446fc39670b13e21325bc5cfc707bb3739a736158",
+    "SOURCES_V2.json": "3e2f5e55558ee88af0552fd8cdfdba226a1f7c456df1ea73161f2cce66ea4714",
+    "audit.py": "7047bcae1476c52dc61ba7a1bf3406f2364667f5668075c3a532ffb1801bbae5",
+    "freeze_method.py": "42c5f14d3f344ff83cb786b67da420cfbe614a13d6b8fd03302adf6504c96edf",
+    "primitives.py": "2ea7c1bf9ce6b46fdc05bb1d98dee4afd7839c76ce97691a952c5ba6c9717f79",
+    "seal_report.py": "52ff61a412749816f001cccc9e2e662030c6c6f1e3db134d044ca915ce9ecfb2",
+    "suffix_projection_v2.py": "cf51aa71ff11b287b92f7ba061b90e1476d6c9eb6c1376df4bfa85d9d9acfa12",
+    "test_primitives.py": "f3b0d4c9dee14038d286defcd998407bd32b601d7b5b1dc0a30c933bbc2c778a",
+    "test_suffix_projection.py": "ce7889d88215e8e7bb83b6038ae98382f711700699bb7c2f922bf577c25cf1db"
+  },
+  "outcome_authority": "MAIN terminal notification, after METHOD_READY pre-outcome seal",
+  "primary_scores_unchanged": true,
+  "schema": "ledger-independent-audit-seal-v1",
+  "sealed_epoch": 1788962336.448675,
+  "source_closure_reauthenticated_per_episode": false,
+  "status": "complete"
+}

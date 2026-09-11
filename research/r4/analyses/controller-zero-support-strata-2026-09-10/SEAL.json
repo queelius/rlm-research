@@ -1,0 +1,16 @@
+{
+  "artifacts_sha256": {
+    "REPORT.md": "d550dd2df5fa13189e14168969fecec4e2851e6bf4ffe8b781a3dd826b7e6507",
+    "RESULTS.json": "f2df17340784fc184e5aba2b064ad7ec072dd14c2a8a6f2069fbb3072536db56",
+    "reproduce.py": "0866a4bf67981b71bfe1edb1f028ffa62d01a2c7104dc1224e2f259217b96968"
+  },
+  "input_source_sha256": {
+    "fresh_semantics": "0676e3f32605897d214da78b1359df8f29a3bf7b61de3e26f2507434223b560f",
+    "metadata_semantics": "7fd6dedf1895527e937a503a789fe713716c92333f9d8efad382bb4c5c3e17ab",
+    "original_gold": "7961622d0247332be4c48c06a4dffb8b839dfa205b390ac5e9d773cac4652a9b",
+    "original_plan": "54e8d1baddf51994d841360c1b425efb9e3d590e969ab9f00d063dab70399bc4",
+    "original_semantics": "43b368dce2b22c5ad9fd19b93ef5d62cc61bfb1fbd6a2472dd8c4fe03cfb550e"
+  },
+  "replay": "python reproduce.py --out /tmp/controller-zero-support-replay",
+  "schema": "controller-zero-support-strata-seal-v1"
+}

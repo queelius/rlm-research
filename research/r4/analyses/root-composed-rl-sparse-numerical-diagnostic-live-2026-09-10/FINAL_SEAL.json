@@ -1,0 +1,11 @@
+{
+  "schema": "sparse-head-gradient-independent-audit-seal-v1",
+  "artifacts": {
+    "AUDIT.json": "f7e8c210da7d9f99b5c2f8c4c80e13ade31a1bb66f2dc69590fd912c536b390e",
+    "REPORT.md": "49c7c59e8e1833a822ceb60a4d75fa8cb8c171fdc1642ae082f81b1728bd4656",
+    "analyze.py": "e114be6086a954a9ab3c38a1acab8747335cd14bf34db108d5bb033dd24dc005"
+  },
+  "producer_owner_terminal_sha256": "5f9dcaa9c7a4292b56b44322303e5414b9a8a48c087a3098957c07dea95dba28",
+  "parent_exit_sha256": "e9ebcc7871238cf08d37ec4024d84503b8a17639b8f319d1f9df759c4fe313db",
+  "gpu_calls_by_auditor": 0
+}

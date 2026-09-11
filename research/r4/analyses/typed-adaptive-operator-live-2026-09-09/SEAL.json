@@ -1,0 +1,21 @@
+{
+  "status": "IMPLEMENTER_ANALYSIS_SEALED_INDEPENDENT_PRIMARY_REVIEW_REQUIRED",
+  "files_sha256": {
+    "METHOD.md": "69ec83d889de0d977d70704d88ada7a2db7d4dc2f95a3bd3eac76c7105c66f3e",
+    "PRE_OUTCOME_AUTHENTICATION.json": "185484d4f947efdafc4740b3062cf483e04d53c5d6a1a9d6f926ce87f1c3bd02",
+    "ROW_LEDGER.json": "915e1a2b87e462bb851cddef2324971eacdc9367b5244daf4129cb029cfad79a",
+    "METRICS.json": "22b82af2d6ae23a5461c1ca5d91d4127cd605d38b32a5c9f94030e21c071dfd9",
+    "RAW_MANIFEST.json": "9348a95ff30b50e5eb50ef9641a682a7e59bb551ffa024aa91f805fbdc3245cd",
+    "INFRASTRUCTURE_AND_GROUPS.json": "4a7adf9a548e2e84c8a802b218ecd310420ca05e424658a7467ff3d204e7be70",
+    "REPORT.md": "3ba5edfd437e261ce7f4517f55a1d07523c6a1ebfbe74bc2c1e8401efd911461",
+    "primary.py": "3781e1f46ce7c3446efe5466e90bdab8dcb6adb231bc1f4c5f2a566398d115ef",
+    "audit.py": "e41fe86d27cfd62eda3481225ccd2814f83cbf70858101c4cf8d292fae23d6ee",
+    "supplement.py": "4522345a0611fe6e8ed5d761a38da302f6681cb7c85a080061d557700f20f901"
+  },
+  "frozen_projection_sha256": "8c43c36db64ffbe1179bb27ff74ef140e33993f840b657e53765cb10c7890c7c",
+  "raw_files_bound": 515,
+  "final_consistency_checks": "PASS:24 physical rows,120 native calls/maps,22 raw-observable replies,6 episode.ok,6 jointly correct user pairs.",
+  "scientific_reruns": 0,
+  "gpu_calls": 0,
+  "independent_validation_claim": false
+}

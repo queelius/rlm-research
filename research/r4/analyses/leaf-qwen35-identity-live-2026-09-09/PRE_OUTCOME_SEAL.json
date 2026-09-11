@@ -1,0 +1,17 @@
+{
+  "status": "METHOD_AND_PARSER_READY_WAITING_MAIN_TERMINAL_TRIGGER",
+  "outcomes_read": 0,
+  "gpu_or_service_actions": 0,
+  "small_source_files_authenticated": 194,
+  "weight_shards_stat_checked_against_pinned_prior_hash_observations": 5,
+  "fresh_full_weight_byte_scan": false,
+  "cross_model_request_pairs_equal_except_alias": 72,
+  "independent_parser_tests": {"passed": 9, "failed": 0, "seconds": 0.004},
+  "files": {
+    "METHOD.md": "a48340221acce2a7a20f0fa7e7144b71fc8053e1389a969c55752d6b51f0f22b",
+    "parser.py": "1c228de1153e65671e592dd1d3d83ef8da3a94047ba12ac6ce2d6802b408eaef",
+    "test_parser.py": "a649aedc7d5099105fba4c0e33c9c464b696103e47ea74e5104a5f5bafada2e4",
+    "authenticate.py": "9c2fabd13a6c8860e8d83661f16984e6b3f2331a8a1087fb526e45532ed6fbbc",
+    "PRE_OUTCOME_AUTH.json": "b02a3a3352b177c21f7daef0a536207e1a168c014529ecd55eea94529972961a"
+  }
+}

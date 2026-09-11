@@ -1,0 +1,68 @@
+# Next root experiment: separate label disagreements, reduction and supervision completeness
+
+September9,2026. **Outcome-informed decision/feasibility memo only; no study implementation, source reservation or launch.** MAIN supplied the newly terminal plan-SFT first projection; its final audit was not independently repeated here. No active-study outputs were opened.
+
+## Decision in one paragraph
+
+Do not train a “correct scalar → corrected final restatement” fix: the completed query taxonomy found all19 displayed integer scalars copied faithfully. First run a small new-root-source diagnostic if the question is what still limits query performance. A matched complete-demonstration SFT comparison is sensible if the immediate objective is learning: ask whether **adding native-aligned terminal supervision to the same authored action targets** improves competence, not whether it proves adaptive planning. Avoid another large TREC curriculum falsely called fresh: only46 helper-training-supported groups remain under the named conservative exclusion union.
+
+## Evidence that changes the choice
+
+- [Bounded RL](../analyses/root-bounded-refill-rl-live-2026-09-09/REPORT.md):7→11/24, but query0→0/8. Four real updates, no additional refill or NOOP. One error-produced empty endpoint requires the separately reported availability sensitivity.
+- [Query taxonomy](../analyses/root-query-failure-taxonomy-2026-09-09/REPORT.md), SHA`6eefa1b9b583c622df2b0b1c28c210eeecb49178abe5deca2c766c6992935cda`:15/32 trajectories share one q0009 dataset-label disagreement;14 correctly reduce its returned map. Six other failures display complete scoped maps but never execute a count. All19 displayed scalars are copied. These32 trajectories reuse only two source contexts; they are not broad query-generalization evidence. Do not exclude, relabel, or train to memorize the evaluation q0009.
+- MAIN's newly terminal plan-SFT first projection: unchanged4/16 (one runtime-unavailable sensitivity pending), canonical1/16, filter-first1/16, same sole trained success; formats10→4/3. Both trained arms requested all32 query/all128 length records despite the intended filter-first demonstrations. Four actual updates/9,888 action targets per arm. This does not show filtering learned; it motivates a completeness/control question rather than more of the same action-only training. See the unchanged [prospective plan design](../sidecars/root-plan-sft-v1/DESIGN.md); final independent report remains authoritative when published.
+
+## Exact available TREC headroom
+
+Recomputed from original grouped partitions, legacy root contexts, root-only PUBLIC, both root-campaign transfer PUBLIC files, the six selected composition contexts, all root-curriculum GROUPS including unrun reservations, adaptive512 membership and interface-SFT896 PUBLIC. Only actual context `group_ids` were included; composition DATA's105 *excluded_group_ids* are not used records. A generic recursive scan would wrongly consume those and report no remaining test groups.
+
+| Original helper partition | Total | Remaining outside named root/reservation union | Exposure interpretation |
+|---|---:|---:|---|
+|Helper training|5,065|46|Known helper-training exposure allowed|
+|Helper validation|300|44|Helper-training-heldout, but validation/selection exposed|
+|Helper test|489|9|Helper-training-heldout, but historical evaluation exposed|
+|Total|5,854|99|Not globally research-fresh or pretraining-clean|
+
+Remaining training group-set SHA`f6d38d2cacfe6a916033a512d8daa5241d17f30ad8df20aaaa3e65b4641ee080`; validation`da1f1a61cbde83c14a9dedbe4d12f0a30a3d73c9897b33d99d2520ebb47f9e13`; test`dfc0dcf9c0f869ef60c85fb2eebca0d8a15fb82833d9e095ae3b4ab5209a6205` (newline-joined sorted groups). The46 training remainder contains DESC16,ENTY6,HUM14,LOC1,NUM9,ABBR0; retain this skew, never resample for nonzero answers. Global TREC freshness remains exhausted as established in the earlier feasibility report.
+
+Four32 contexts need128 groups and do **not** fit. Four16 contexts fit64 groups as two helper-training contexts(32) plus two helper-validation contexts(32); keep those strata separate. For a wholly helper-training-supported new-root train/eval screen, two8-record train contexts plus three8-record heldout contexts use40/46 groups, but this is tiny and short-context only. No meaningful new64/128 length-generalization curriculum fits this pool.
+
+These are exact counts against the named files in the companion [feasibility JSON](../../../ARTIFACTS.md#unpublished-files "Not published: 2026-09-09-post-refill-root-feasibility.json"), not a universal nonexposure certificate. Before selecting anything, reconcile any subsequent MAIN reservation. Membership must be hash-selected without labels/model outcomes, with original group lineage and deterministic synthetic metadata. All underlying dataset licenses remain unconfirmed; fixed-helper exposure is explicit, not a defect silently removed by re-labelling the claim.
+
+## Option1 — ranked first for identifying the bottleneck: controlled map/reducer diagnostic
+
+**Question:** when query scope and labels are separable, how much failure remains in root reduction rather than the helper's disagreement with dataset labels?
+
+Use four new16-record contexts as above. Freeze one single-user and one two-user-union query per context, with target category and user assignment from context index/hash, not computed answers. Use one fixed already trained root (propose last bounded-RL4, not a validation-selected winner). Obtain one complete native typed c32 map per context, preserving semantic errors; missing maps remain unavailable, not replaced.
+
+Run a2×2 **post-label-stage diagnostic**: supplied actual child map versus supplied authoritative dataset map; ordinary Python versus additionally documented pure `count_labels(map, requested_ids, target)` reducer. Four contexts×two queries×four conditions×one fresh seed =32 root episodes, plus four real child-map collection calls. Root receives identical records/user metadata and a clearly supplied map file; there are no invented root/child calls, ancestry or sampled likelihoods for that file. The oracle-map cells are explicitly privileged **upper bounds**, never training data or evidence of ordinary end-to-end RLM performance. Actual-map source files cite real child calls; oracle source files cite host gold. No map is repaired.
+
+Primary displayed task correctness is accompanied by map-consistent query-count correctness, exact requested scope, complete-map coverage, actual executed scalar and strict terminal syntax. Real-versus-oracle at fixed API localizes dataset-label dependence; ordinary-versus-reducer at fixed map measures the reducer/API package, not a pure arithmetic faculty. The host never executes model-authored programs during analysis; native owned runtime executes normal root actions. No automatic submission, label correction or gold-aware reducer.
+
+Feasible seams: existing typed batch matcher for four live maps; root-interface native task/file setup with explicitly new task identity and supplied-map provenance; existing qualified collector/lifecycle and strict endpoint parser. This requires a small new setup, not a new trainer. Approximately10–20 A100 minutes, proposed1,200s work/1,350s outer including release;32 roots bounded at four workers. Readiness: design-feasible, **not implemented**. If oracle/reducer remains poor, retire a semantic-helper-only explanation; if real/oracle differs but reducer does not, prioritize label/reward interpretation instead of final-format SFT.
+
+## Option2 — preferred learning comparison: add complete terminal supervision, matched to action-only
+
+**Question:** does observing the real execution boundary and training the correct terminal form rescue the same action-teaching intervention? This is more precise than “complete demonstrations are better” and does not predict filtering will necessarily improve.
+
+Reuse the existing16 **canonical** authored training actions from the384 training-only groups and exact low66c start; do not add evaluation examples or choose canonical/filter-first after their tied results. Execute those fixed operator-authored programs through the owned native runtime and actual c32 child once per training task. Retain every execution outcome. Require a successfully executed scalar to author a terminal target; an unavailable execution is a preparation failure/partial corpus, not permission to reroll or invent a map. The final `Answer: N` reflects the **actual computed child-map scalar**, even if it disagrees with host dataset gold; expose that discrepancy rather than writing an observation-inconsistent answer. No child tokens, observations or prior actions receive loss.
+
+Train two fresh-Adam fixed4 arms from the same initial root: action-only and action-plus-terminal. Same16 action strings, same native first prefixes, same example order and LR. Preserve the shared action-loss coefficient exactly across arms: for example `L_action` versus `L_action + L_terminal`, each term averaged over its own target tokens then examples. This isolates adding terminal supervision with fixed shared-action contribution, **not equal total gradient magnitude or compute**. Record actual action/terminal token exposure and gradient/delta norms. Do not reuse the old four-pass action-only model as if an altered weighting recipe were identical. A small common terminal-target coefficient must be frozen before any new readout; no label-length padding trick.
+
+All model prefixes for terminal targets contain the actual executed action/tool observation under native serialization. Operator-authored examples are valid SFT, but have no behavior-policy logprobs, admission or advantages. This cannot be fed to the native RL exporter. Raw observations are masked, and current-target probabilities must use preceding logits; native graph/token qualification and tiny PEFT restore tests suffice.
+
+Readout: the four new16 contexts (two helper-train/two helper-validation), single-user/union, two fresh seeds =16 coordinates×two fixed4 arms =32 episodes. Unchanged-start calibration adds16 only if budget allows and is declared before calls; do not choose after seeing either trained arm. This tests new-root question handling at short length, not64/128 extrapolation. If source novelty is less important, a separately declared old-context anchor can be added, but not pooled as fresh.
+
+Reuse root-plan-SFT input/PEFT/save code with private terminal-row rendering from root-interface-SFT/success-trajectory-SFT. Need operator capture before final corpus freeze and a two-arm loss adapter, not a new training framework. Estimated35–55 A100 minutes including16 operator executions, eight total updates and32 readouts; proposed3,300s work/3,450s outer. Readiness: feasible but **not READY**. Promote only if terminal syntax and new-context strict task accuracy improve without destroying source scope/coverage. If syntax improves but dataset accuracy does not, retain it as format supervision only; if neither improves, retire this small completeness recipe rather than adding more epochs by default.
+
+## Option3 — broader RLVR, but change domain honestly
+
+A useful larger new-source curriculum is feasible from SST-2 public train:66,973 nonconflicting groups minus the256 fresh96 selections leaves66,717 exact eligible groups under the known crosswalk (near-duplicate/subphrase/pretraining overlap unresolved). Four16+four32 training contexts use192 groups; four32 validation contexts128; two64 length-transfer contexts128:448 disjoint groups, selected once without label filtering. Root task is sentiment-count by synthetic user, not TREC query transfer. c32 is a fixed helper but was not sentiment-trained by us; its new-domain competence must be measured separately. Short phrase/text units remain eligible and explicitly reported.
+
+Four fresh-policy root-only updates, two prompts×eight rollouts/update =64 training episodes, plus16 paired initial/final coordinates=32 readout episodes. Use single-user/global training and union/64-length transfer, varied positive/negative targets chosen by schedule. Keep terminal-only dataset reward, fresh Adam, real native root likelihoods, typed child actions uncredited, homogeneous windows true-noop/last-committed selection and full NULL accounting. Do not convert the oracle cells from option1 into training. A new two-label contract/matcher and native qualification are necessary; existing six-label TREC contract must not leak through.
+
+Existing bounded-RL/native trainer is reusable; data/contract adapters are the real work. Estimated45–70 A100 minutes, proposed4,200s work/4,350s outer, not compute-matched to prior TREC RL. In the remaining allocation this is lower-readiness than options1/2 and should not displace already accepted useful jobs. Promote only on source-disjoint, held-query improvement beyond unchanged sampling noise, with actual mixed support; retire if child sentiment errors dominate or no mixed/root-admissible data are obtained. No automatic reward redesign or rerolls.
+
+## Immediate recommendation
+
+If MAIN wants **the next learning job**, implement option2 with its real-observation corpus gate and explicit loss-coefficient accounting; complete-demonstration success elsewhere is motivation, not a matched result. If MAIN wants **the shortest decisive mechanism answer**, option1 is cheaper and directly tests the current taxonomy. Neither should be advertised as repairing a demonstrated final-scalar copying bug. No new data are reserved by this memo and no launch command is provided.

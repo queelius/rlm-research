@@ -1,0 +1,5 @@
+# Post-outcome observation binding clarification
+
+The pre-outcome static inventory helper matches tool_call_id in subsequent full histories. Actual native actions reuse `call_0` on different turns, so the helper retains previous observations as well as the current one when histories contain multiple actions. Nothing in the strict/native/cost audit uses that helper for scoring; its original source/output remain preserved.
+
+For final mechanism adjudication, `verify_observations.py` instead authenticates the immediate following request's final assistant replay and tool message, including exact name/arguments and turn-local tool ID. For physically attempted continuations it also checks unchanged native historical prefix and decodes the exact appended observation token suffix. Pretransport-overflow observations remain genuine retained tool outputs but are not falsely claimed to have reached the provider. This is an additive post-outcome analysis correction, not a changed scientific protocol, outcome repair or sampled-code execution.

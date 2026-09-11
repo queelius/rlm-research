@@ -1,0 +1,3 @@
+# Pre-outcome prior-evidence clarification
+
+After METHOD_READY, the original join report and its erratum were read fully. Correct the shorthand sentence in METHOD.md: the erratum's **4/8** refers to world/partition **report packages retaining every query-product triple**, not direct Python cases using relevant facts. The four packages are world1/co-located,world2/cross,world3/co-located,world3/cross. Original direct Python outcomes remain2/8correct; all eight had code-plus-observation aggregation, no file opens, and no child calls. The report packages were all gated under the original all-record contract. This correction changes no audit metric, source, new result or primary denominator. Original METHOD_READY and METHOD.md remain intact.

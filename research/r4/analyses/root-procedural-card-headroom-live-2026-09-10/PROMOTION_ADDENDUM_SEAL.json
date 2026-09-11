@@ -1,0 +1,11 @@
+{
+  "status": "additive_interpretation_correction_no_score_change",
+  "author_disclosed": true,
+  "original_report_sha256": "2eed9bb2bf8bfe5314ea89d4bdef2ee45a5f4b8e1c6c2308909a28619aa0c6a4",
+  "original_final_sha256": "a476bf7468aecff29bf94f9496496c10938219a374f0fa5b09561c7d0d56b5b8",
+  "prelaunch_design_sha256": "13cc1b4c54cfa31ee2a81e164d776e0e64c258ea857e3157a9878d56585a8b3e",
+  "addendum_sha256": "0e84191149c87e8e3cde68c253497098cc8a76ce48ee1722f12bd495777344dc",
+  "full_practical_promotion_gate_met": false,
+  "failed_condition": "no_availability_loss: P16 versus U18",
+  "new_diagnostic_motivation_only": true
+}

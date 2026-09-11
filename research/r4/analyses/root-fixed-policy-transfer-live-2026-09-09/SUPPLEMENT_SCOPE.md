@@ -1,0 +1,7 @@
+# Post-outcome implementation supplement
+
+This adds execution of checks already declared in METHOD.md, not a change to endpoint rules: actual full sampling fields, outstanding tool calls on authentic final branches, and raw cached-usage/source-ledger reconciliation. Native tool IDs repeat `call_0` across turns: execution matching must require BOTH graph parent and tool ID, never tool ID alone. The frozen raw parser retains both fields, so raw artifacts and prior scores need no rewrite. Supplementary per-action receipts will use the paired identity. All mechanism notes are checked against actual parent-linked returned observations; no sampled code executes.
+
+The supplement is written after released-phase outcomes were inspected and before whole-owner closure. It preserves all prior parser/method seals and raw scores, and reports any validation contradiction explicitly rather than modifying original study outputs.
+
+Subsequent operational closure amendment, explicitly authorized by MAIN: original owner exited1 after all scientific phases and releases because `from collect import ledger` resolved the older joint collector. OWNER_TERMINAL is absent and will remain absent. `audit_closed_v2.py` changes only the closure precondition and receipt field from the preserved `audit.py`: use exact parent EXIT/stdout/COMMAND hashes, require exit1/empty GPU and the retained import error, and independently check all three service releases. Native scoring and planned denominators are unchanged. This is an independent harvest, not a repaired owner success.

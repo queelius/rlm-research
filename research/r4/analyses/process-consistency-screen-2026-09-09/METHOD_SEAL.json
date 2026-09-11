@@ -1,0 +1,12 @@
+{
+  "new_raw_readout_scoring_started": false,
+  "prior_exposure_caveat": "This is not scientifically unopened: earlier research audited the six composition contexts, and reading existing root_integration.py before this freeze exposed hard-coded examples. No new readout raw outcomes have been scored for this method. This rule is frozen before new raw readout scoring; prior exposure remains a limitation.",
+  "sealed_utc": "2026-09-09T02:19:29.257646+00:00",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/process-consistency-screen-2026-09-09/PLAN.md": "affbcac61c24028202a59952411f94c39787e89934f6ee7c53c5543e34ea1faa",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/process-consistency-screen-2026-09-09/SPEC.json": "30c0a90a5a830e53bfc42b944b5a6c664c281124af42f60eec02621fab76d0ee",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/process-consistency-screen-2026-09-09/TESTS.json": "be9290e43b7b9528b163724856395a6e2c555cadf85e1cdb4a8f837f958c34fe",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/process-consistency-screen-2026-09-09/screen.py": "02e7d6bd813271ee542b16d1421a30899adbf22b79de785a46390ca63bcd567d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/process-consistency-screen-2026-09-09/test_screen.py": "941e982907ddc688cd3c74d9de5f12e5426bc43e1cba33caefcc47f6ac44a517"
+  }
+}

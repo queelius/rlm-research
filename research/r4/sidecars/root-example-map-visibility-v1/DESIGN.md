@@ -1,0 +1,37 @@
+# Root example anchoring × map visibility (exploratory, fixed RL4)
+
+Approved by MAIN on 2026-09-09. This sidecar owns only a new 32-endpoint readout; it does not train, acquire new maps, change a running service, or edit historical artifacts. CPU preparation is authorized; MAIN alone launches under its independently owned GPU/lock.
+
+## Question and matched comparison
+
+Does removing the optional first-four-record API example and/or making an already available actual child map visible in the task prompt change the fixed root's dataset correctness and its evidence use? This tests example anchoring versus evidence visibility, not an intrinsic root capability ceiling.
+
+Use the same four completed 16-record public contexts and the same two query families per context as root-supplied-map-reducer-v1: single u00 and union u00/u01. Eight blocks receive four treatments each: optional first-four-record example present/removed × labels.json mentioned only/same actual map also inline. All arms receive identical records.json/context.txt, identical labels.json bytes, category definitions and API documentation, and retain ordinary Python and child access. No counting helper is supplied. There are no oracle arms, gold prompt fields, gold-conditioned admission, answer repairs, retries, or replacement trajectories.
+
+Common clarification explicitly names id/user/text fields and says labels.json holds previously completed c32 child predictions, not authoritative dataset labels. This is a NEW MATCHED BASELINE, not an exact replication of prior prompts. Example removal changes both instructions and length; inline presentation changes visibility, salience, duplication, and length. Do not claim a pure attention effect. No dummy padding is introduced. Files remain available in inline arms, so inline-map consistency alone does not establish actual file loading.
+
+## Immutable data, maps, models and seeds
+
+Reuse the accepted source MAPS_READY.json (SHA e9774cabd25640a747436f4f8e1174c3a72ca536693e5e242b3ef926d8f98632) and its full acquisition JSON closure. Each map has exactly the original 16 IDs and one authentic native c32 acquisition; errors are preserved. labels.json uses exactly the previous task serialization, json.dumps(labels, sort_keys=True).encode(); its same UTF-8 bytes are inline where requested. Raw child captures remain pinned, not rewritten. MAP_PROVENANCE.json and MAPS.json retain source file hashes, exact payload hashes, and historical acquisition costs.
+
+Fixed root is the actually served RL4 model from models[role_map.root] (adapter SHA 2286be…); fixed child is c32. BINDING campaign_policy is inherited historical metadata and is not training ancestry: its stale round8/473210… label must never replace actual model/config checks. Native service descriptor and /v1/models must authenticate real served directories and base parent. No policy update, optimizer state, SFT targets or action/terminal loss masks are created. Existing role/typed captures remain available for actual child eligibility and sampling audit; synthetic acquisition wrapper likelihoods are never policy/RL samples.
+
+MASTER=981342001. Eight fresh paired sampling seeds are 981342201–981342208, temperature .5. Before creating this source, rg981342[0-9]{3} found no collision in relevant sidecars/ideas outside outputs/qualification. A frozen hash ordering rotates the four cells within each block; each cell occupies each nominal launch position twice. Four workers consume the fixed queue; completion order remains runtime-dependent. One seed per block does not estimate sampling variance or make the eight queries statistically independent (four shared contexts).
+
+## Native endpoint and analysis contract
+
+Primary: strict dataset correctness, whole stripped ASCII `Answer: N`, from the authentic final root physical capture with stop/length finish, no outstanding tool calls, reply equality, and exact final-branch prompt/completion token agreement. Invalid final format is incorrect when a valid native text endpoint exists. Missing/unrun/error/native tool endpoints are NULL, never zero-imputed or salvaged from last tool output. Report planned/available/format/correct separately by all four cells and the eight matched blocks; show conditional correctness and success/planned together. Retain all planned 32 rows even at the cap.
+
+Secondary: strict supplied-map-consistent final using the original map and requested-user subset, kept separate from dataset correctness. Retain actual child requests and final-branch root code/tool observations. Manual source/trace audit must determine actual map loading, scope selection, reduction, overwriting/reclassification, and copying the four-record example. Static filename/user-key markers, answer agreement, or a scalar tool value alone are NOT proof of executed state use. Inspect code as text/AST only; never execute model-generated code on the host. Report map accuracy/errors descriptively, with no corrections to inputs.
+
+Estimate paired removal and inline contrasts at each other factor level; report the descriptive difference-of-differences. Rank mechanism followups only after complete outcomes. A benefit confined to inline arms supports evidence availability/salience as a bottleneck; a removal benefit supports example anchoring/instruction interference; residual wrong-map-consistent answers reflect upstream label errors. Failure in all arms is not evidence of a fixed capability ceiling.
+
+## Costs and availability
+
+Zero new map acquisitions. Every hypothetical standalone endpoint pipeline is charged its entire relevant historical actual c32 acquisition PLUS all new root/child calls. Do not amortize across the eight hypothetical endpoints per context or claim that historical acquisition was newly paid. Report physical new study totals separately from per-endpoint standalone totals. Historical authored root-wrapper calls are synthetic transport (two/context), with token-ID counts and unavailable billed usage separately; they are not paid policy samples. Raw native wire prompt/completion/cache usage is authoritative. Unknown usage stays unknown; missing requests/results remain visible. New runtime durations exclude historical acquisition; historical acquisition elapsed time is recorded separately, not a promise of future latency.
+
+## Runtime, bounds, artifacts and readiness
+
+Reuse allocation-an27 native runtime adaptation, private environment-only credential preflight and qualified lifecycle adapter. Four workers; at most 180 seconds per episode, all clipped to the single owner work deadline. Work budget1200s includes service readiness (at most180s); owned inclusive1320s includes120s cleanup; MAIN outer cap1350s. No retry/overwrite; exact outputs/attempt-001 only. Owner verifies readiness, requires credential before creating output, authenticates one assigned GPU, and releases its exact service in finally. No services/GPU during preparation or tests.
+
+Scientific READY.json pins new sources, exact rendered native prompts/task hashes, public and host-only gold, inherited accepted source closure, actual maps and runtime correspondence. OWNER_READY.json separately pins lifecycle/credential composition and scientific READY. CPU_TESTS.json records focused protocol, native rendering/injection and mocked owner boundary checks. Actual future outputs nest under outputs/attempt-001/rollout with raw episodes, role/typed audits, planned NULLs, rows, TERMINAL and inventory. No checkpoint is created: inference-only fixed adapters.

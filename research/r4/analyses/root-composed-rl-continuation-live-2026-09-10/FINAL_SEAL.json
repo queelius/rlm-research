@@ -1,0 +1,30 @@
+{
+  "schema": "sparse-continuation-independent-audit-final-seal-v1",
+  "created_utc": "2026-09-10T22:48:00Z",
+  "status": "complete",
+  "artifact_sha256": {
+    "METHOD.md": "3007f2102b6f53832aa9124e6636cc8608399e86a7d41f498354eb27570bf4c3",
+    "TRAINING_AUDIT.json": "25cb10982ab1961096e2c8cdddaef12ed3df52aa85a35657796720df46eb9688",
+    "SEMANTIC_READER_READY.json": "2e6938e83f002105c3262412bcb6d5ebc95dcfe9ef438179cbe02e919b36b29c",
+    "FINAL_AUDIT.json": "6e088d5a02ad04cdd4e6f20ee00a2203f48286bac192a3ec7f26529672ffc5a3",
+    "SEMANTIC_PACK.json": "a628c7233f9918ba20c170eb532ed00e60a499db32e263679bdaf75d134f958a",
+    "SEMANTIC_REVIEW.json": "fb6358a9afd941466f6d5cc113d1d699024d67bd6809100bd1cca964b2bb9c4e",
+    "REPORT.md": "c7317d3f14a7fd6b5c32e735548fc72da85a63257c95aa22c703e9961df8b4d1",
+    "ADVISOR_TAKEAWAYS.md": "f1716b684b874208728fc3dfda9f3b5619558de3c512c4d662416ae4873d7e62",
+    "analysis.py": "f8a48fac3291e720814071ef2d1188e48161790dd691432b9d13f23d2169b183",
+    "semantic_pack.py": "7d3ea32c527a97e59438da274945e02ad568dde71a1cbdd4e3d727450ca3deb2",
+    "semantic_review.py": "2e7d98f6b5089be50215aee39f7a182a3bce8c7d1b6d8581e81d762b3b0f9a4a",
+    "test_analysis.py": "93d809c1ca64b903ed71604717bf77369c5a4416a405ffb8cec26c23673e1e30",
+    "test_semantic_pack.py": "0c9d769a0860d5e97969528b0b8b045ddbcaf07cf68df332771ad2399a7cebe1",
+    "test_semantic_review.py": "0adfa7959856b93052432e61e44454da28e0bb0ded5a8a359bd84a2cee1e1b76"
+  },
+  "terminal_sha256": {
+    "readout_OWNER_TERMINAL.json": "d0c53e1be57a4fa13068139ef1ed2a51427413f455fc0e536b906edde24df4eb",
+    "readout_parent_EXIT.json": "57cde6982792d4920c1fcc14062192efb20aad299a079aa01b745a81a58cc128"
+  },
+  "verification": {
+    "command": "CUDA_VISIBLE_DEVICES='' /project/alex_phd/envs/prime-rl-5990b1b/bin/python -m pytest -q -p no:cacheprovider test_analysis.py test_semantic_pack.py test_semantic_review.py",
+    "result": "5 passed in 0.03s",
+    "sampled_model_code_executed": false
+  }
+}

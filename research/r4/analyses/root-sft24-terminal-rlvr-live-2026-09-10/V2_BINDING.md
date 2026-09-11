@@ -1,0 +1,9 @@
+# Additive prelaunch V2 binding
+
+This amendment supersedes only the original METHOD's scientific attempt path. The audit targets **`sidecars/root-sft24-terminal-rlvr-v1/outputs/attempt-002`**, launched only by MAIN using `warm_owner_v2.py`. Original attempt-001 was never launched; no scientific outputs from either attempt were read when this amendment was written. Neither attempt existed at final independent verification. Do not merge attempts or treat V1 CPU fixtures as science.
+
+Frozen V2 READY SHA `da234f8ecca5e12b4af086935efd4dff88818662ae30f1723342372afba45e4f`, identity `6477f9ebb099764dfa502cff2484ef7435f446ab3e0afce952781f494da7939e`; V2_QUALIFICATION SHA `fceddc39cac7493bde03e298b7c01072b56a7c944c3ccd89d43a76a3bc2d3156`. Source closure includes original READY/campaign and all additive runtime/verifier/qualification files. The final owner verification matched849 union pins with zero mismatches.
+
+The accepted runtime repairs missing replay CLI, lazy module alias lifetime, collection/export alarm handoff, and absent ancestor task_hash lookup using the existing exact native prefix. No data, scientific question, seed, model/checkpoint, objective, reward, planned192+96 inventory or cap change. All METHOD endpoint/admission, missing-artifact primary NULL, update ancestry, paired/context/zero/operator-coincidence, mechanism and physical-ledger rules remain unchanged.
+
+Exact scientific argv: `/project/alex_phd/envs/prime-rl-5990b1b/bin/python /project/alex_phd/runs/rlm-research-r4/sidecars/root-sft24-terminal-rlvr-v1/warm_owner_v2.py run --output /project/alex_phd/runs/rlm-research-r4/sidecars/root-sft24-terminal-rlvr-v1/outputs/attempt-002`. Outer10800, owned10680, work10500 seconds. Parent operation identity will be recorded from MAIN's launch relay. This binding is prospective, not launch authority; outcome reads await MAIN relay.

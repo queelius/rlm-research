@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE_INDEPENDENT_OUTCOME_RECONSTRUCTION",
+  "sealed_epoch": 1788961555.113066,
+  "gpu_service_calls": 0,
+  "planned": 144,
+  "observed": 144,
+  "valid": 143,
+  "null": 0,
+  "files": {
+    "METHOD.md": "a48340221acce2a7a20f0fa7e7144b71fc8053e1389a969c55752d6b51f0f22b",
+    "parser.py": "1c228de1153e65671e592dd1d3d83ef8da3a94047ba12ac6ce2d6802b408eaef",
+    "test_parser.py": "a649aedc7d5099105fba4c0e33c9c464b696103e47ea74e5104a5f5bafada2e4",
+    "PRE_OUTCOME_AUTH.json": "b02a3a3352b177c21f7daef0a536207e1a168c014529ecd55eea94529972961a",
+    "PRE_OUTCOME_SEAL.json": "84344cacbdac049af16e7d148e2cc3c77a46542896bb60b490de439981bdb471",
+    "audit.py": "aaf9a21bb8dd8d4158cff341a18388cefc2817403add6bd376bacf09816d7c8c",
+    "supplement.py": "6ae045ba850cb94547dbd0450a7976ef4006df9746f48f646e5b4be59a26f957",
+    "REPORT.md": "f9dbe12e9fc85d3491f77199344c958aa05379eb726a9e81063122d2e46cbf0a",
+    "ROW_LEDGER.json": "27db1842674fc977b830ed6d4d0c40433f3d8aa45d69c979c63256fb0048a175",
+    "POSITION_LEDGER.json": "676acc967410c46c883dc7f5c3933a45aa5d7a8f7369a3a71535da0f95e449f3",
+    "METRICS.json": "05bc5c3705a03b4de8bdbe5b6a496dcdbb4e3a880345cfd419c4aab89ba0f88f",
+    "SOURCES.json": "a46d07650c05f9aa3ee8513e0ca5069d7f4d99cbc05b4571a3b3cd5d0eab41b0",
+    "SUPPLEMENT.json": "1cec2bd98981516a7290042a545405e2ebc6ce8a970abeacdb4a356c3a3f0464",
+    "SUPPLEMENT_SOURCES.json": "8f2b421c275f245aa80f27642166fa98c6bf3b891feff1917634447b5bf9cfc8"
+  }
+}

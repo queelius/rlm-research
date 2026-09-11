@@ -1,0 +1,24 @@
+# Counterfactual-card96 CPU handoff
+
+CPU READY, MAIN acceptance/launch only. New isolated source: `sidecars/root-counterfactual-card-signatures-v1`. No ancestor, accepted output, GPU, service, queue, lock or environment mutation. Author is bridge_audit; any later author analysis must disclose overlap.
+
+READY SHA `cc4067934f518f98477fcfda50a185dc9e892e0f87cde644540ac39083d2be22`; identity `7e3da8c1ce229f530356b95c72af125ef0b0b1b4677709f8c6c0a5b3c0cbf040`. Final focused10 tests passed112.88s (two dependency deprecation warnings); seal121.07s,1414 source and4116 input pins. Separate actual `cf_owner.py verify` exited0 with the same identity. CPU_REPORT SHA `a5c42f2c90bd35f56a218e1b40aeef630c7514eec70b6226f35465a24849ff88`.
+
+All96 preplanned:8 exposed parent contexts×3 compositions×original/counterfactual×U/P. Frozen GATE `ce10e939b210bcc11c14d47cdf27a2ab57799146f9c1670f503bb006b9c16880` and original183-token card unchanged. No reranking or model-outcome selection. Counterfactual query selection is gold-conditioned diagnostic challenge; weights were fixed label-blind hash. Not an unconditioned accuracy/new-context/learned generalization test. Zero-gold original4/24 and counterfactual6/24; bestconstant6/24 in each; pairbestconstant1/24. All24 counterfactuals separate all four frozen confusers.
+
+Exact original U query/files/native prefixes preserved; counterfactual records.json/context.txt mirror the same selected weights and query.txt/native question agree. U/P files identical within variant; only P appends the exact card. Host labels/answers/selection receipts never become task files. All96 actual native first prefixes qualified; largest1261 tokens. Root2048 action/8192 context, fixed24+c32, unchanged native role/optional typed-child behavior, no helper/map/forced batching. Twenty-four distinct new seeds are shared across four matched cells; dispatch uses each cyclic cell order six times. Seed/context-ID collision inventory and selected-source pins are frozen in PROVENANCE.
+
+Independent integer oracle edges and all selected truths pass, including actual variable threshold rather than inherited5. All four CPU native cells run authored record loading, one typed child response, observed decoded map, executed grouping and strict native final. Counterfactual fixtures use threshold !=5 through the actual collector scorer. These12 root/4 child fixture responses are synthetic qualification, not scientific model evidence. Actual owner→qualified service wrapper→intercepted inference Popen exercised; model/alias/8192/two-LoRA config checked. Terminating BaseException releases service and retains96 NULL slots. Raw physical-union fixture preserves failed/missing RESULT costs and unknown usage. No sampled program was reexecuted.
+
+Clocks:3600 outer/3450 work/3570 owned; startup≤180, collection≤3240, harvest≤30, cleanup≤120, outer margin30. Shared inclusive clock; early advance, no retry/cell-specific extension. Worst-case96×180/4 exceeds collection, so unreturned slots remain primaryNULL with operational0; attempted versus not-started distinction retained. Physical attempts/returned completions/known and unknown usage remain distinct, billing unknown. Practical gate tests counterfactual P native availability≥counterfactual U; original direction separately, never cross-pool substituted. Original card48 practical gate remains failed.
+
+Source files (443 Python lines): `cf_problem.py`, `cf_study.py`, `cf_collect.py`, `cf_owner.py`, `prepare.py`, `seal.py`, `test_task.py`, `test_inputs.py`, `test_native.py`, `test_owner.py`; full DESIGN/PLAN/CARD beside them. PLAN is the original checklist, not a retroactively rewritten receipt; this handoff and CPU_REPORT record completed tasks. Preparation RED receipts preserved; no superseded READY. Qualified active PH runtime closure inherited transparently, no installed-source edits or historical manifest repair. Verification-before-completion skill determined fresh tests and exact entry verification; requesting-review handed independent review to MAIN/question_cards as authorized rather than spawning an agent.
+
+Exact commands (MAIN runs scientific entry):
+
+```text
+/project/alex_phd/envs/prime-rl-5990b1b/bin/python /project/alex_phd/runs/rlm-research-r4/sidecars/root-counterfactual-card-signatures-v1/cf_owner.py verify
+/project/alex_phd/envs/prime-rl-5990b1b/bin/python /project/alex_phd/runs/rlm-research-r4/sidecars/root-counterfactual-card-signatures-v1/cf_owner.py run --output /project/alex_phd/runs/rlm-research-r4/sidecars/root-counterfactual-card-signatures-v1/outputs/attempt-001
+```
+
+No further source changes after READY. Future analysis must examine actual requested operation/scope on all available finals, not promote host scalar agreement into execution fidelity. All96/8cluster uncertainty, NULL bounds, both-variant signatures, faithful-wrong child errors and physical costs remain required.

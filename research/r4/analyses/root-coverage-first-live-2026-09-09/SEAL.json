@@ -1,0 +1,27 @@
+{
+  "gpu_calls": 0,
+  "independence": "did not author coverage-specific projection/collector; authored inherited native/ledger harness",
+  "physical_calls": 352,
+  "planned": 48,
+  "raw_files": 1171,
+  "science_writes": 0,
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/CALLS.json": "f801d5888608bcd6e2a504abd60049f520ac1888f6acb6d30263bf645f66915e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/METHOD.md": "b42e4ee778baa7dd67f2471353775054d0f2b8b70a59ab7b6bb09eb76a57f178",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/METRICS.json": "4e628d1a1d1184b0b787b84ae7a98f2a3a69add5ca1e786e033fc4e3e781928b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/PREOUTCOME_REVIEW.md": "db7c6ca2ce2e58843dd9ecf9b941955485464ccf4424604fea4c82614f0227f4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/PREOUTCOME_SEAL.json": "4c500fa82a674a027cab6e3a548b9c3ccd9f970710f08523e875b08a2b9121e8",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/PREOUTCOME_SOURCES.json": "e4d47da34497443e4ad30297b5cf84eac5a027337ce4513e114534bd20507b95",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/QUALIFICATION_AUDIT.json": "2b771253f0bd114af1110ef86dc01459837e398ef31659f7961237136b5ea65b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/RAW_SOURCES.json": "79ec78200279911e74ae8ef52f21d2a4a706e674c258dce4f4fb8761fc66356e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/REPORT.md": "935be163fc0a471669e0e24c5dfc0f0028355523d3daacccdb34b6c9c2481c98",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/ROWS.json": "933944afc43d3191a48c4562c781325bef68564ba62358e532cb6c11e8e17d61",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/TESTS.json": "4c5bf5df93d48a330f797ad5afe3d43f7d85c51d0e6b638672629d170f4c0eb1",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/audit.py": "077928a7cfe947a384ccf3ce1756b65ffbdd501261a3c86df573bf6f277b46e9",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/enrich.py": "5b1a04f63cde0153cfae18fd82b11e5681158cab5b55cb9412daee1841df6164",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/finalize.py": "080e8fb178f53db0c7ca4b9b1e73c8e9419b6ba6e9818767ec1776bcceb2e448",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/score.py": "70e7ac83697f0214333f3647728888f9605b3d53bdee59d163bb68377aae9215",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/test_score.py": "e8d848304b0b1da13f8043a17bca03e711795eb13271ee67407aae0e6bc37d5d"
+  },
+  "status": "SEALED_INDEPENDENT_COVERAGE_OUTCOME_AUDIT"
+}

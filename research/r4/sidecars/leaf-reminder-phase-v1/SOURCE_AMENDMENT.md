@@ -1,0 +1,7 @@
+# Private reuse boundary
+
+No historical/active source is edited. The new study imports the pinned sparse-cue source graph privately for established data/native primitives, without reading its outputs. The collector body from the qualified original individual-row source was already privately adapted into a sequential unit loop; this new study reuses that body byte-for-byte and supplies a validating eight-row dispatch_units callback. It does not claim the historical collector natively used pairs or octets. Fixed make_request/scoring callbacks point to the new phase contract; network/capture/error/cancellation-finally behavior is unchanged. Focused fake HTTP tests execute actual192-request coverage/order/overlap and wait for in-flight cancellation writes before counting records.
+
+The owned wrapper reuses the pinned identity-counter lifecycle with counted study-name,750-work/870-owned and192-call metadata replacements, plus the existing pinned disappearing-process observer. The collection run function receives only launch870/work750 cap replacements. Structured phase behavior, strict scoring and native CPU qualification are new source-owned code, not mutations of accepted modules/files. All original/adapted hashes and replacement counts are written in SOURCE_ADAPTERS.json.
+
+This is preparation provenance, not scientific acceptance or proof of unseen runtime success. MAIN alone accepts/launches. The seed amendment changes981308 to981310 before inference because MAIN identified a current-study collision; bounded manifest search is required before READY.

@@ -1,0 +1,16 @@
+{
+  "status": "METHOD_AND_CPU_QUALIFICATION_REVIEW_SEALED_BEFORE_EXPERIMENTAL_OUTCOMES",
+  "date": "2026-09-09",
+  "experimental_outputs_read": false,
+  "gpu_calls": 0,
+  "tests": {"passed": 13, "seconds": 0.05, "command": "/project/alex_phd/envs/rlm/bin/python -m pytest -q /project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/test_score.py"},
+  "artifact_sha256": {
+    "METHOD.md": "b42e4ee778baa7dd67f2471353775054d0f2b8b70a59ab7b6bb09eb76a57f178",
+    "PREOUTCOME_REVIEW.md": "db7c6ca2ce2e58843dd9ecf9b941955485464ccf4424604fea4c82614f0227f4",
+    "QUALIFICATION_AUDIT.json": "2b771253f0bd114af1110ef86dc01459837e398ef31659f7961237136b5ea65b",
+    "PREOUTCOME_SOURCES.json": "e4d47da34497443e4ad30297b5cf84eac5a027337ce4513e114534bd20507b95",
+    "score.py": "70e7ac83697f0214333f3647728888f9605b3d53bdee59d163bb68377aae9215",
+    "test_score.py": "e8d848304b0b1da13f8043a17bca03e711795eb13271ee67407aae0e6bc37d5d",
+    "qualification_audit.py": "bcfeba8cf3de644d90c49a522710985a105bff87fec36a9eaa9f64bb0eaf94cf"
+  }
+}

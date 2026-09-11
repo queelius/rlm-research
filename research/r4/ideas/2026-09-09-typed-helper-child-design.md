@@ -1,0 +1,102 @@
+# Contract-matched typed children: bounded whole-RLM proposal
+
+2026-09-09 10:26 UTC. Design/CPU feasibility only; no study implementation, freeze, model call, GPU action, container launch, or accepted-source change. This uses the brainstorming/design process to resolve the intervention before implementation. Main chooses acceptance later.
+
+## Decision
+
+The installed native transport **can carry an exact requested-ID JSON schema**. Prefer a 36-episode exploratory comparison of familiar unchanged U, restored raw R, and identical restored raw R with **contract-matched typed child execution** T. Fix historical step8 root and c32de child. Use the newly CPU-qualified private image symmetrically for all three arms; do not change any accepted job or image53a.
+
+This is an actual child action-space intervention: matching children must emit a complete canonical map in requested-ID order, instead of being free to emit prose, tool calls, or other answers. It is not harmless wording, a semantic validator, a root training intervention, or a guaranteed repair for empty answers. Root prompts, helper source, actions available to the root, renderer, weights, sampling configuration, and root-only credit rules remain unchanged between R and T. Subsequent sampled root actions/probabilities can naturally differ after child results differ.
+
+Motivation is the parent's preliminary uptake evidence, not a newly inspected outcome slice: 127 source-valid/native-matched request claims across 27 episodes, 126 result claims, 61 complete canonical maps, 65 empty malformed answers, one missing result. These counts do not identify the cause of empty answers. No episode or child request is selected for the new study using those outcomes.
+
+## Exact seams and transport
+
+Paths below use R=`/project/alex_phd/runs/rlm-research-r4`, P=`/project/alex_phd/research-cache/repos/prime-rl`, V=`/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm`.
+
+1. `R/sidecars/root-receipt-ablation-v1/receipt_api.py:build_request` constructs the public source-bound request. `rlm_records` calls unchanged `rlm.api.run(prompt)` and preserves raw answer/native metadata. `R/sidecars/root-receipt-uptake-v1/experiment.py:with_prompt` supplies the existing U/R prompts; use `unchanged` and `restored_raw`, never the receipt-exposing arm. R and T must have identical prompt/setup bytes.
+2. Exact nano commit `4ef3438d55fdd39b18d34035833c73e13b006733`: `api.py:7` accepts only `run(prompt)`. `broker.py:42` has a strict extra-forbidden BrokerRunRequest carrying op/capability/scope_id/prompt. There is **no existing helper-specific grammar argument**. `supervisor.py:253,320` authenticates recursion capability/scope, derives child depth, and registers parent/invocation/request ancestry. These installed sources were read from the immutable private image layer checkout, not src/rlm in the working repository.
+3. `R/sidecars/root-only-credit-v1/native_routing.py:installed_hooks/get_response`, with the unchanged `leaf-role-routing-v1/source/routing.py:route`, is the narrow host-owned intervention boundary. Trusted instrumentation supplies depth, invocation, request ID and kind; the router changes only the bound model alias. Use a new study-owned wrapper around this seam, not a global child-alias grammar and not an HTTP text substitution. Make a fresh `SamplingConfig.model_copy(update=...)` for each qualifying call; never mutate the shared original sampling object.
+4. `P/deps/verifiers/verifiers/v1/types.py:256` SamplingConfig permits provider extras; `wire_args()` flattens extra_body. `clients/train.py:324,364,434` forwards these sampling arguments to `renderers.client.generate`. `P/deps/renderers/renderers/client.py:310–339` nests them under `sampling_params` and posts to **`/inference/v1/generate`**. `generate_tokens` names the route's handler helper, not a literal `/generate_tokens` HTTP endpoint. The renderer continues to set stop_token_ids, logprobs=1 and skip_special_tokens=False exactly as before.
+5. `V/entrypoints/scale_out/token_in_token_out/protocol.py:GenerateRequest` types sampling_params as vLLM SamplingParams. `serving.py:132,241` passes it to engine_client.generate. `V/sampling_params.py:88,956` supports `StructuredOutputsParams(json=...)` and validates it. `V/v1/structured_output/backend_xgrammar.py:86` compiles JSON schemas. Installed versions: vLLM **0.28.0**, xgrammar **0.2.1**; Prime HEAD `5990b1b9bad63bf78640f45175e02eea04dbb30f` plus exact edited-source pins below.
+
+There is no native transport blocker. Do not send OpenAI response_format or top-level structured_outputs to this native endpoint. The correct wire delta is:
+
+```json
+{"sampling_params":{"structured_outputs":{"json":{"type":"object","properties":{"q0001":{"type":"string","enum":["human being","location","abbreviation","entity","description and abstract concept","numeric value"]},"q0017":{"type":"string","enum":["human being","location","abbreviation","entity","description and abstract concept","numeric value"]}},"required":["q0001","q0017"],"additionalProperties":false}}}}
+```
+
+This is a partial wire example: all original sampling fields remain present. Properties/required preserve actually requested ID order. Host gold never enters the request, matcher or grammar.
+
+## Contract matching, not Python-origin attribution
+
+For each first native child invocation, locate its original child task request as a complete typed-message text segment—not substring containment anywhere in the conversation and not a root-writable helper log. Require trusted depth=1, ordinary kind, expected child alias, unambiguous initial invocation, and an exact public helper-contract round trip. Parse selected records/IDs/query/allowed_values; require unique nonempty known IDs, exact public text bytes for each ID, and exactly the fixed six canonical label strings (unique, set equality; caller order may differ). Reconstruct using the pinned public `build_request` and require entire request-text equality. Reject ambiguous delimiter parses, changed record bytes, unknown IDs, duplicate IDs and incomplete source bindings as **nonmatching**, with reasons. Never repair or expand the request.
+
+Declare one immutable decision per `(episode, trusted invocation)` before its first dispatched model call: grammar digest and requested IDs, or nonmatch reason. Reuse that same decision on subsequent calls of that invocation; do not learn it from the first answer, silently change schema mid-session, or choose a different grammar after failure. Root depth=0 is always untouched, even if its messages contain the exact helper example/request. Ordinary nonmatching child sessions remain untouched, including binary, subset-label, custom-vocabulary, and arbitrary free rlm requests. Missing/invalid trusted role metadata remains the inherited hard routing error, not an opportunity to fall back.
+
+A root can issue the exact same contract through ordinary `rlm(prompt)`, without invoking the Python helper. That is legitimately contract-matched treatment, **not proof of helper function origin**. Root-writable `receipt_audit.jsonl` is secondary corroboration only. This explicitly scoped matching approach was agreed by main during design. A more authentic new broker op/capability-based helper interface would change nano/API schemas and requires broader qualification; defer it. Global grammar by child alias would constrain unrelated children and is unsuitable.
+
+The installed JSON compiler forces schema-property key order: arbitrary valid-map order is not preserved. Therefore the treatment is an ordered exact-ID canonical map action space. It also suppresses child tool-call output from the first response. Keep tools/messages and child rendering unchanged; do not hide this effective action restriction. Grammar completeness still cannot prevent runtime nulls, context overflow, EOS/cap errors or truncation, and cannot establish label correctness.
+
+Existing service configuration has reasoning_parser=null, tokenizer initialization enabled, and return_sampling_mask=false. The structured-output manager applies masks from the first generated token when no reasoner is configured. Preserve that reasoning behavior; do not add a reasoning prefix/parser. The Qwen3 renderer with enable_thinking=True does not prefill an opening think token and accepts plain JSON as content. Pin/record the effective backend; current auto selection validates to xgrammar for this schema. A future new-study service may explicitly select xgrammar symmetrically if required, but may not silently switch/fallback. Keep return_sampling_mask and root likelihood/export behavior unchanged; do not invent an unavailable returned child grammar mask or call synthetic fixture logprobs model likelihoods. Children receive no RL credit; this study has no optimizer updates.
+
+## CPU feasibility actually checked
+
+Native Python with CUDA_VISIBLE_DEVICES empty; local tokenizer only, trust_remote_code=False; no downloads/installs. Checks completed 10:22–10:26 UTC:
+
+- Real SamplingConfig → GenerateRequest.model_validate preserved the schema as typed StructuredOutputsParams; an ordinary sampling object had no new field.
+- Real vLLM structured validation selected xgrammar. Real tokenizer-backed GrammarCompiler(max_threads=1) compiled 2-ID and 64-ID schemas. A complete requested-order map was accepted; reversed order, missing ID, unknown ID, duplicate ID, invalid label and array were rejected. Empty text was an accepted prefix but **not a completed map**. Compilation plus eight checks took 0.00348 s and 0.02889 s. Schema SHA256s: 2-ID `fc7b682639cab328adb83e4907bfb8e8fd649ea2d3a3b5bd83c191bdfa8a1f2c`; 64-ID `390dd43d6e31b5365fda3cddc6dee52831818c6d921cc50c39095d993d4713c5` (fixture IDs sequential, fixed six labels). A 64-ID all-long-label JSON example encoded to 832 tokens, below unchanged 2048 output cap; this is feasibility, not a bound on arbitrary whitespace.
+- Qwen3Renderer(enable_thinking=True).parse_response preserved valid JSON content for both sizes.
+- Actual `renderers.client.generate` through httpx.MockTransport emitted two native requests to `http://fixture.invalid/inference/v1/generate`; both parsed the fixture response. Full wire bodies were identical after removing only `sampling_params.structured_outputs` from the typed request; nested schema matched exactly. Same 13 prompt token IDs, digest `f0da8146455d77751a21f2abbc218bc1cd5f724326dd384bedbe8ae2e9d826cb`. No HTTP network/provider call occurred. Response token logprobs were explicitly synthetic fixture values, not trained behavior evidence.
+- Actual unchanged role.route fake cases retained root alias at depth0, selected child alias at depth1, preserved messages in both, and rejected depth2/missing depth. This proves the inherited boundary, not the not-yet-implemented study matcher.
+
+Two local probe-authoring failures were observed and corrected, not suppressed: direct parse_qwen3 was initially called with text instead of its tokenizer/token-ID signature; initial mock native response incorrectly used logprobs=null and was strictly rejected. Corrected checks above passed. No scientific episode existed or was retried. Installed imports printed no-CUDA-runtime warnings; no GPU calls were made.
+
+Before a future READY, require focused matcher negatives and an owned native fake-broker proof that exercises the **actual new hook**: root with a helper-looking prompt gets no schema; exact child gets precisely one schema; nonmatching child/vocabulary gets none; parallel invocations cannot cross-contaminate. Capture full raw wire/token IDs/aliases/sampling and graph ancestry. Compare R/T initial root requests exactly and same fixture child requests exactly apart from schema, including after fixture output delivery. That qualification has not been implemented or claimed here.
+
+## Preferred 36-episode whole-RLM pilot
+
+Use all existing 12 task identities `root-campaign-transfer:00:0` through `:05:1`, six exposed 64-record contexts/window IDs1200–1205, both existing count queries each. Inputs/public catalogs are exactly those authenticated by uptake SPEC; no new context selection or screening on helper uptake. These are developmental, previously evaluated, fixed-child source-train-supported examples, not held-out confirmation.
+
+One fresh coordinate seed per task, shared across U/R/T: 12 distinct seeds × 3 arms = **36 distinct episodes**, not two repetitions per task. Candidate seed master981291600, coordinate seeds master+1…12 in sorted task-name order, subject only to a pre-outcome collision check against declared prior seeds. Assign all six triple permutations twice, deterministic order seed981291620; one whole triple is a queue unit. If genuine two-repeat replication is wanted later, it is 72 episodes and a separate decision, not the present proposal.
+
+Fix root checkpoint `R/sidecars/root-recovered-child-continuation-v1/outputs/attempt-001/round-08/training/checkpoint-8`, adapter SHA `473210b18c4be163cd46a894614cb14934a7908e45bd97f96720928a7770ccdd`; child checkpoint `R/sidecars/trec-leaf-sft-v1/outputs/attempt-001/checkpoint-0128`, adapter SHA `c32de1293c01bba5104eb1f123867649c71dd38e5194661ace4b17dcbbe66ba3`. No current broad checkpoint, no outcome-selected weight. Same Qwen3-4B-Instruct-2507 base revision cdbee75f17c01a7cc42f958dc650907174af0554, manifest SHA19619b44b0bd30bf5debe0960e6dfd6acc5be8287c581727456aa5d17699c18f.
+
+U is ordinary familiar calibration, not an isolated grammar contrast. Primary treatment contrast is T−R, within context/query/seed. Initial prompts/input/tool schemas and initial root token IDs must be identical R/T, but matched seeds are only variance-reduction intent: observed role16 evidence already shows different first sampled root actions despite equal request prefixes. Record initial decoded/token equality, actual first eligible treatment time and first divergent root action; do not promise deterministic counterfactual trajectories. Divergent adaptive child calls are not paired component samples. No new coverage reward, repair, forced helper use, selection of only matching episodes, or training export repair.
+
+Use one service, same original per-episode/native limits (temperature0.5, top_p1, top_k−1, min_p0, max_tokens2048, model context8192, existing recursion/action limits), up to four concurrent triple queue workers, at most one active episode per worker. Tentative cumulative collection cap1800 s within work2280 s, inclusive owned2400 s and outer2430 s. Service ready≤180 s; reserve120 s for owned cleanup; startup, compile/collection/export/cleanup all share original absolute deadline, no phase reset. Existing per-episode deadline is further bounded by remaining collection/work time. One collection pass, no replacement episode or grammar-to-free fallback. Inherited nano transient API retries remain counted within the same cap; retain all physical attempts. The cap is deliberately conservative versus prior 72-episode receipt wall time473 s and does not assume installer savings guarantee throughput. Return partial planned denominators at deadline.
+
+New-study runtime in **all arms**: image `8cfe5976b347e0201e52035256537a7cc90fca5004a0bf48cbd42b282498838c`, OCI manifest `sha256:a4c710e9f52317d0d2a6f84413ba39654425a13f586dbf068c32fbeb5ec50352`, private store `/project/alex_phd/research-cache/runtime-images/rpi-v2.kCaOH4`, qualified wrapper `R/sidecars/runtime-preinstalled-image-v1/attempt-002/bin/docker`. Base53a, nano4ef, real .ready and PEP723/ACP offline-boundary proof are bound by CPU_READY below. This is a symmetric new-study environment change; comparison with historical studies is not environment-identical. Existing image proof is CPU-only (three fresh fixtures: two passes, one preserved local bytes-boundary failure); actual new hook needs its own qualification. Do not move, mutate, retag or replace an accepted runtime.
+
+## Outcomes, nulls and decision use
+
+Primary: strict final task success T−R on all12 planned episodes/arm, with completed-valid/raw-observable and graph-valid denominators separately; missing/invalid/capped/unanswered categories remain separately explicit, with pessimistic all-planned success reported rather than silently dropping nulls. U reports calibration separately. Record paired wins/losses, context/count breakdown and unpaired/null pairs; tiny clustered exploratory uncertainty, no confirmatory threshold.
+
+Mechanism ladder, separately from final accuracy: any exact contract request, matching child invocation count, actual nested-wire grammar count, physical child requests/turns, any returned raw answer, empty raw answers, complete strict six-label maps, per-request source coverage/selected IDs, and root continuation after delivery. Raw/helper logs do not prove semantic consumption; use observable root actions/code/native followup as evidence where available and label ambiguity. Semantic label scoring is host-only and secondary, not a runtime constraint. Keep per-record occurrence and unique-ID denominators separate when root requests overlap. Untreated custom/vocabulary requests and no-child episodes remain valid policy behavior, not protocol failures.
+
+Physical cost: wall/service/installer/compile/cleanup, physical native root versus child requests including retries, input/completion token IDs and counts, helper claims versus distinct invocations versus model turns, output finish reasons, schema/request/source/alias provenance. Raw responses and token IDs precede strict projection. Do not substitute requested token budgets for realized compute, or exporter-returned root turns for all physical attempts.
+
+If typed children improve map completion but not whole-RLM success, distinguish semantic errors, subset/aggregation mistakes and unused results before proposing root SFT. If maps and final success improve with sufficient uptake, prioritize replication of this constrained helper interface over generic root-only API teaching. If most requests are ineligible or absent, this trial does not test broad helper repair. If empty answers persist despite authenticated schema-bearing requests, inspect native finish/transport/renderer/limits; do not conclude grammar lacks semantic benefit from infrastructure nulls. A 24-episode R/T-only version is the cheaper alternative but loses contemporaneous familiar calibration; no larger component grid is warranted now.
+
+## Source pins inspected once (SHA256)
+
+```text
+89cc87f17da8223c0467361d89daa0eb74d2647a896af88682a061c4e0c39e0d V/entrypoints/scale_out/token_in_token_out/protocol.py
+9e840e76e30863769ca653eabfa89c1e0e17c998751cd29da5313192404419ce V/entrypoints/scale_out/token_in_token_out/serving.py
+a0d5c3601e9cf6ef3df110aeebc18e55351d4447b67210356bc8035ecb89ab0c V/entrypoints/scale_out/token_in_token_out/api_router.py
+73e5bf250cb13803e4ce390407ae059b497898c8b81f9985d2b5c055d4db8f7d V/sampling_params.py
+cdaebca794c8aa919097ee250f1bc0fa87f8fe52a026eee4877605e18134752e V/v1/structured_output/backend_xgrammar.py
+edf44aca2adb99b6803ece0d4b73357659e0c957b2d962359f7a6684e21c03e8 P/deps/renderers/renderers/client.py
+75c4d4a96c7fe930b0fe80d83df894133e1319b364b033cf97fbea2d84e8e146 P/deps/renderers/renderers/qwen3.py
+87356166967c2cd283e6212dc32f955590e6722bc7636f2af13df301f6e53705 P/deps/verifiers/verifiers/v1/clients/train.py
+3c7d52c515973a33c28100fd69980cd7cfdb102bc548d436e609026ee9664ca5 P/deps/verifiers/verifiers/v1/types.py
+5ea35866be87662372ca1b312ddabbbab9ce009915fbfaa31353455ec702e841 R/sidecars/root-only-credit-v1/native_routing.py
+8575081694a6ceea8d5f4058d4f625eb81d34f617a680f94bc06968e3a3ca78f R/sidecars/leaf-role-routing-v1/source/routing.py
+4ffaccc9ad15ee088ab1f6d50545a8d9bf269cf2481febaf5bf5d42e333706a6 R/sidecars/root-receipt-ablation-v1/receipt_api.py
+29df4de005ac7157149a3cfdca7730f001e0f3d2f5a4661b1e7acca81ea2a104 R/sidecars/root-receipt-uptake-v1/experiment.py
+5e38f7cc87e1fcad30e1c5264d88e413e79efb08215b0c8c287b7408b6aedeb5 R/sidecars/root-receipt-uptake-v1/READY.json
+26b7358937d3966a41a4d74538b0e14fedc3723399fe8454c97ccc4d37f203c4 R/sidecars/root-receipt-uptake-v1/SPEC.json
+d2ef5f42b0f98523e638ed5fcbd14217a8db39bbd7652bde93d3edc51f4a10b3 R/sidecars/runtime-preinstalled-image-v1/attempt-002/CPU_READY.json
+```
+
+This document is a proposal and bounded source-derived feasibility result, not a READY, accepted study, complete new hook proof, model outcome audit, or exhaustive environment audit.

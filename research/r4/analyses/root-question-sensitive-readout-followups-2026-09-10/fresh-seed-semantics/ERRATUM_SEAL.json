@@ -1,0 +1,13 @@
+{
+  "schema": "fresh_seed_qs_semantic_audit_additive_erratum_seal_v1",
+  "created_utc": "2026-09-10T18:15:17Z",
+  "preserved_report_sha256": "b767057594b31fbb6f76dff8c38ecf4bbe4f269246772c3c1740023dbb3b8bd3",
+  "preserved_semantics_sha256": "0676e3f32605897d214da78b1359df8f29a3bf7b61de3e26f2507434223b560f",
+  "preserved_final_seal_sha256": "6ca57a66579e1d70cdf055a20f98a24d82e5b3581866ea0e44b4b46c10b41de1",
+  "erratum_sha256": "b3bc0f76d2a2f1cd2db2ae96f447c93fb12ecc10578b98c11ff0b8522b6f3b58",
+  "changes_scores": false,
+  "corrections": [
+    "follow-up wrapper method was post-execution but pre-outcome-read",
+    "actual-performed metric excludes unchanged indices 90, 92, and 124"
+  ]
+}

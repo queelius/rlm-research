@@ -1,0 +1,5 @@
+# Prospective CPU implementation approval
+
+Recorded 2026-09-10 03:40 UTC, before auditor/implementer reads any new-alien48 outcome. MAIN explicitly approved isolated CPU implementation of the fixed-output visible-reference48 design in ideas/2026-09-10-schema-wording-constraint-tax.md (SHA8d6890193ec8ba251fa7167e213d51dff6c8ad8d982359ca287daff6655221cf) and matching YAML (SHA7d7432d6bfedac3e287db787c7ba6800b0501bb331be91310405c271bd35b252).
+
+All16 frozen new-alien contexts; existing shift17 requested_tag vector; identical per-position output grammar across aligned/wrong/unrelated; only visible record IDs differ. A−W primary, W−U secondary with repetition caveat. New seeds/collision inventory/actual token-length checks; 1200s outer,1080work,1170owned,90cleanup,30margin,90s request,4workers. Reuse qualified native model service and collector. No old sidecar or independent audit edits. MAIN alone accepts and launches; scheduling/promotion conditional on pending replication and queue. Implementation pauses for independent audit at MAIN terminal relay.

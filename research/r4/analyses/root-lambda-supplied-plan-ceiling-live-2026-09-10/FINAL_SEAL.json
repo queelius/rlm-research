@@ -1,0 +1,21 @@
+{
+  "schema": "supplied-plan-ceiling-audit-final-seal-v1",
+  "artifacts": {
+    "AUDIT.json": "a68c97bf290d4abaa88b668899cecd9e0ad12b8db53d8ccf4389abc8929d360e",
+    "METHOD.md": "74a2e0eda71081dfd1e701ec5337835587abec1017719fef606fba1f16ef3462",
+    "METHOD_READY.json": "83f75ab4bd4d0e200ef0aede8c5d8e8317df228e2eec1300bd9d486c5c43fd45",
+    "REPORT.md": "4ccb7a60082d0bc76e8de88f5500514efca7ba61cf4afd42931a6c7ec04f892e",
+    "audit.py": "2e20edbf507778ee8158d953571fde62c6f9f95f419d6b6c99049d6a9ca4b8c2"
+  },
+  "producer": {
+    "owner_terminal_sha256": "0b6034ac31854444f1bb2101a13ca88f86ff5ef0faeaa3b342aeb5efbd6bffd7",
+    "parent_exit_sha256": "9160822abd3bf910025f8debe82b8fa4cb3e5fee470ecfcc7588486cfb34e8d3",
+    "ready_sha256": "33feec97b7ed3e1238acb7b750441ceac5caceaf67f370222e697bc861d834e7"
+  },
+  "planned_calls": 40,
+  "native_calls": 40,
+  "planned_episodes": 8,
+  "strict_episodes": 0,
+  "null_episodes": 0,
+  "oracle_reducer_matches": 8
+}

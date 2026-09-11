@@ -1,0 +1,27 @@
+{
+  "artifact_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-task-aware-selective-recheck-live-2026-09-10/AUDIT.json": "437faa08a6b9a2684b48ee992bf502aa21e8293363e919d8ab0e26b2274c3ce4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-task-aware-selective-recheck-live-2026-09-10/METHOD.md": "a658bd02974d33a1778d5f4b21f21b91e72259d192ec82ca51e367ca2349baa5",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-task-aware-selective-recheck-live-2026-09-10/REPORT.md": "f9a8dec737268348ec299ed449e4c30fd2d48c537c4370052bc7687951d8e50b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-task-aware-selective-recheck-live-2026-09-10/audit.py": "347ab8429a5b215f76fb745bd4321c80001d683dc0cfb2b6d0c95fbb8c41176e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-task-aware-selective-recheck-live-2026-09-10/test_audit.py": "45f99367c7864fe4585da889355ec6f3f8759f127254847f39f4797abc869363"
+  },
+  "promotion_gate_passed": false,
+  "replay": "python audit.py --output /tmp/task-aware-audit",
+  "schema": "root-task-aware-selective-recheck-final-seal-v1",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-task-aware-selective-recheck-v1/READY.json": "18f3e37594f216ec17cc0052c881758a995c3f4ff3fe34f3db42711b6067f7b5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-task-aware-selective-recheck-v1/inputs/BASELINE.json": "e5002277299768d394cbca927752afdde3f17fc429e8738e29189e3c3c265e43",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-task-aware-selective-recheck-v1/inputs/CONFIDENCE.json": "8aa6bdcb78a9d6ce4cc375233259d70b9647e7a27d47a11047d0711407676534",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-task-aware-selective-recheck-v1/inputs/HOST_GOLD.json": "8c3adf6f1eec3432cfe97ed53351967494d5ab159a5076c97526defee0f0ef3b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-task-aware-selective-recheck-v1/inputs/PLAN.json": "692b690a3a85adfa06a5e8c1ddac31f91c0ba02d5e2af57756b0253ecd8dcbb9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-task-aware-selective-recheck-v1/inputs/PUBLIC.json": "5702916def4d24effbe6f3d7f5d9cd99146a1994a84ade1f63dbf2425eb31c58",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-task-aware-selective-recheck-v1/inputs/REQUESTS.json": "609c482853d6940e394c70bbbad3f40b56e09466f14d72ed8f3d9dfe44947775",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-task-aware-selective-recheck-v1/inputs/SELECTIONS.json": "a6d77522a0a2bcff3f72f7378e74e515c087c0e643e221f1e9c34a1e84541ba9"
+  },
+  "status": "complete",
+  "terminal_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-10-after-readout-env-failure-task-aware48/attempt-001/task_aware_recheck48/EXIT.json": "08d6262ace8fe088bf2ed8de0aca36b87f1488767bef08bc31c5766487a8ad9c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-task-aware-selective-recheck-v1/outputs/attempt-001/OWNER_TERMINAL.json": "ae151be81398be7ac2d759e0c312e88da83aafee8c8831b10068a96d7ba5f5ee"
+  }
+}

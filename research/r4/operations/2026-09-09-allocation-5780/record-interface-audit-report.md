@@ -1,0 +1,9 @@
+# Independent record-interface24 audit
+
+T sentence inline/file: **0/8 correct,5/8 native finals**. F sentence inline/JSON file: **2/8,7/8 finals**. I JSON inline/file: **3/8,7/8 finals**. Strict-valid counts5,7,6; five NULLs preserved. Operational F−T+2/8 and I−F+1/8 are exploratory differences on four exposed worlds, not independent24-case confirmation.
+
+**No file use:** all24 roots copied inline evidence into42 Python actions. All five correct finals follow observed correct reductions. Both F successes parse sentences, so F−T does not demonstrate typed-file uptake.39/42 copies faithfully retain all48 ordered triples. One I trajectory correctly decodes/reduces only45 copied facts, missing a decisive purchase and returning2/3 gold. Sentence delimiters/periods and typed-literal escaping dominate failures. Four NULLs follow repeated parsing errors then bounded cancellation; one follows malformed copied JSON and a local8484>8192 pretransport rejection. These are policy-associated failures, not silently excluded exogenous dropout.
+
+All61 returned completions are independently token-decoded/authenticated;19 strict native finals and41 preserved-history/tool-observation continuations verified.65 transport attempts/66 logical requests; observed input171,074/output57,902, four unknown-usage requests, no children/acquisitions. Billing unknown. Parent exit0/no timeout/released after514.0912s; OWNER SHA`15f67186141d807703599a76766c84db7a192a304b52d35d4a14d636a6219f30`.
+
+Full report, per-context pairs, NULL bounds, mechanism evidence, exact source/model provenance and complete cost accounting: [REPORT.md](../../analyses/root-record-interface-live-2026-09-09/REPORT.md). Frozen method/parser were prospective; all accepted sources and old outputs remain unchanged. Recommended next diagnostic is matched JSON inline+file versus file-only, with no algorithm or forced file use—not more epochs or a root capability-ceiling claim.

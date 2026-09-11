@@ -1,0 +1,14 @@
+{
+  "schema": "root-supplied-plan-selective-recheck-design-seal-v1",
+  "status": "conditional_design_only_no_producer",
+  "artifact_sha256": {
+    "DESIGN.md": "cfbeba041ed5353dc2eaaf97ae574eb1ee2bc0ff0ce2e10c56dfa7f0c9f436ec",
+    "PLAN.md": "79ab724a77eab20589eb3a5cf7494594cd027921aaf64a7a6bf6801ef2727fbe",
+    "SOURCE_PINS.json": "b07259db22fcbd9ac425e0cd3320c6c2c1705017addd20a35891b9f1e7c788fd"
+  },
+  "planned_new_calls": 24,
+  "planned_rechecked_labels_per_arm": 320,
+  "gpu_authorized": false,
+  "implementation_present": false,
+  "conditional_on_completed_ceiling_adoption": true
+}

@@ -1,0 +1,8 @@
+{
+  "artifact_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-task-spec-interface-live-2026-09-10/RECOMMENDATION_CORRECTION.md": "8461b6bc18a10a4be38d1755373f847ade3a3182aa8d9c84b37665941d944d97"
+  },
+  "corrects_semantic_seal_sha256": "98a2781712312697718f4a8c2cb03ae30e8ff36b5e8eb56bd6b1e5e1a9700ad6",
+  "original_seal_unchanged": true,
+  "scores_changed": false
+}

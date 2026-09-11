@@ -1,0 +1,3 @@
+# Known reader-ID correction applied after terminal relay
+
+The frozen scale parser inherits the intermediate reader's known transport-UUID versus provider-request-ID error. Its PRELIMINARY and NESTED_PRELIMINARY outputs are preserved but rejected for native availability. The scale source/method/score contract is unchanged. The additive closure requires unique exact native wire body plus complete token/logprob match, retaining the two ID namespaces separately. Missing endpoint RESULT remains NULL. This is the same independently tested correction used in the completed intermediate audit, not a relaxed score or answer recovery.

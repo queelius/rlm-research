@@ -1,0 +1,20 @@
+{
+  "status": "complete_training_only_feasibility_screen",
+  "snapshot_rounds": [1, 2, 3, 4, 5],
+  "planned_training_attempts": 80,
+  "confirmed_candidates": 27,
+  "provisional_successes": 2,
+  "training_input_exported": false,
+  "gpu_calls": 0,
+  "artifact_sha256": {
+    "METHOD.md": "1ebbf4fb16551caf0bc2a94b447bdce3f740a50264bac48427b878691cfb4e79",
+    "audit.py": "cd595f3f3b306812a7e5c15dfb57a581022f735428b729d03f61b49cbd12c6d3",
+    "finalize.py": "e9d7120f9fbd5255ed08aaf0c2cd3aea8e6112cfc54daebb99c5cc5979b2f9f1",
+    "SCREEN.json": "7fa7f7d77378a70e52e75c5bdc73266c734cdc899faaf5fb0cad030df7e598b3",
+    "SOURCES.json": "5a09dd78722dd8491abb426896528aa23ac6958e0b0d19129c36a481127362ad",
+    "CANDIDATES.json": "7586a082fba7259287bb3433d95d6026636ac3f97136a5226a015ce72d2de5c3",
+    "METRICS.json": "712485fe555096694bff9aadd5ce4536bd0979eeaad731e77fafb346c3368f35",
+    "STATIC_REVIEW_SOURCES.json": "4e8bfe0106b534bb686567aa17d71a22c405ed8ec7bfbadc20a7518980910785",
+    "REPORT.md": "4d22d7499f0931c670018b8e4447f1a02526ce898869be43978bb79ede8fe2fd"
+  }
+}

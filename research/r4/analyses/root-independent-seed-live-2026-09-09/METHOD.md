@@ -1,0 +1,31 @@
+# Independent root-seed terminal audit method and execution plan
+
+**Goal:** Independently describe committed learning, validation, operational termination and any available paired transfer for root-rlvr-independent-seed-v1 without affecting its GPU lifecycle.
+
+**Architecture:** Read immutable manifests and committed state once, cache authenticated bytes/hashes by exact path, and project only the recorded evidence. Analyze completed stages; explicitly distinguish unavailable, partial, unobservable and excluded observations. Produce additive analysis artifacts only.
+
+**Tech stack:** Existing CPU Python, JSON/hashlib, safetensors/torch on CPU for exact checkpoint deltas. No model inference, generated-code execution, new dependencies or GPU queries.
+
+**Spec:** Parent assignment of2026-09-09 plus the frozen independent-seed recipe, CAMPAIGN and QUALIFIED_READY. Existing source review is background; do not repeat its broad review or the finished root96 audit.
+
+## Prior exposure and freezing boundary
+
+At method declaration, the parent had disclosed five committed updates and validation0=2/8,2=2/8,4=1/8. Before this method file was written, a further parent message disclosed terminal STOP after six committed updates, elapsed3432.94s, `ProcessLookupError` during step06 service descendant observation before validation06; child exit1, parent session exit0, no timeout, GPU empty and no FINAL/SELECTION. These are prior exposure, not independently verified findings. No new attempt files or episode outcomes have yet been read by this analyst. Prior root96 results were read for a separate completed assignment, not used to change this recipe or select outcomes here.
+
+## Frozen analyses
+
+1. **Identity and readiness.** Authenticate final prepared source/input closure once, then cache it. Check campaign ID/namespace, seed981265001, original857a7 step0 with null Adam/RNG/state, fixed c32de child, zero inherited steps, exact frozen plans and seed disjointness. For this live/terminal snapshot, inventory actual RUN, COMMIT, checkpoint state, export MANIFEST, STATUS, STOP/FINAL/SELECTION and owned service-release files. Missing files are unavailable, not zero outcomes or failed inference by default.
+2. **Committed updates.** Require contiguous generations from this original, each binding current campaign, exact fresh32 plan, preceding policy and exported group. Authenticate checkpoint state/member hashes, INPUTS and correction capture once per committed step; retain claimed and recomputed tensor-change norms, finite nonzero gradient, exactly one Adam step increment and saved RNG identity. Compare exact adapter key/dtype sets on CPU; do not load child weights into a training model. A checkpoint without later presentation files remains distinct from a fully committed coordinator step.
+3. **Fresh data and root-only credit.** For completed training exports compare planned/raw/exported coordinate IDs, source hashes, seeds, rewards and population-standardized within-task mixed-group selection. Verify current root aliases/weights/depth, root suffix labels/masks, finite aligned native old logprobs and physical request/response evidence. Retain all child-role evidence with zero credited child actions and zero observation-label targets. This bounded audit does not claim to independently reimplement the entire native causal graph; saved native-proof identity is recorded distinctly from checks performed here.
+4. **Outcome coverage and exclusions.** Report planned/recorded/observable/strict endpoint successes/admitted successes/mixed-group episodes by training generation and validation checkpoint. Keep binary endpoint score distinct from admitted training reward. Report every exclusion and exact authenticated unsampled-child-overflow metadata; preserve nulls and unknown/infrastructure failure classes rather than manufacture negative rewards. Inspect the terminal traceback and owned readiness/release chronology to distinguish a launcher/process-observation race from model failure.
+5. **Costs.** Use retained native wire usage and physical token IDs per call, including excluded and failed calls. Record logical prompt, known cached subset, uncached remainder and action tokens; absent cache is null. Failed unsampled requests can have known attempted prompt length but no generated action; do not equate that with billable successful usage. Sum concurrent call latency only as summed work, not wall time. Separately report training time, service startup/release, collection elapsed, campaign elapsed, process exit code and any measured post-release scheduling tail. Never infer useful GPU utilization from a mere running PID.
+6. **Selection/transfer only if present.** Authenticate the earliest-max validation selection among0/2/4/6/8 and exact source state. Compare original/selected on24 matched task/seed coordinates in six exposed contexts, with missing outcomes null, paired improvements/regressions/ties and context summaries. If termination prevents selection/transfer, publish those estimands as unavailable. No replication claim from intermediate validation or training reward; exposed source tasks, selection and serial service-order limits remain.
+
+## Execution checklist
+
+- [ ] Freeze METHOD.json and this plan before reading new attempt files; retain the parent-disclosed exposure above.
+- [ ] Add focused tests for immutable one-read caching/change detection, root-only suffix masks and paired null handling; observe expected failure, then implement only these small audit helpers.
+- [ ] Authenticate once and take a bounded filesystem-ready snapshot. Project complete stages and committed updates; never acquire a GPU/service/scheduler lock or call a lifecycle helper.
+- [ ] Verify arithmetic, source identities, checkpoint chain and mask/cost claims. Publish METRICS.json, SOURCES.json and a clearly labeled INTERIM_REPORT or terminal REPORT with exact cutoff and limitations.
+
+No source/input/live-output edits, signals, installs, retries, new subagents or reward changes. All writes are confined to this new analysis namespace. Existing snapshots and method remain immutable; later terminal work, if needed, is additive and reuses cached immutable authentication rather than rehashing a closure per episode.

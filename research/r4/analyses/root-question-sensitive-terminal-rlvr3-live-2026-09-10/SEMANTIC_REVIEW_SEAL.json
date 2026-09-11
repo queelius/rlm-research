@@ -1,0 +1,25 @@
+{
+  "schema": "qs-terminal-rlvr3-manual-semantic-review-seal-v1",
+  "planned": 96,
+  "observed": 94,
+  "null": 2,
+  "semantic_review_sha256": "7e19f4642b50dc81a3f8e49003d8f67d2696339aad4b93652d5664a9ce07ab2f",
+  "semantic_review_source_sha256": "d095d6c8a36cf01ccf74f083edfcd7b93f7ab6229c9ff37bb7a2852694627006",
+  "semantic_paired_sha256": "bd9c8e3808f825714fbef0b48e48943d67f523b062bf30d728de3f58d97e1fe4",
+  "manual_pack_sha256": "6036b0d22e201b1e3cce91d3e3fa51958faa4008e5a8a674454e4ba1aeaa1352",
+  "qs_problem_sha256": "054029d750c464a0ae8a928ca08d5906a39f4f9334a04d105f65d5bb05a11a4c",
+  "start": {
+    "observed": 47,
+    "strict": 36,
+    "operator_faithful": 42,
+    "grounded_faithful_and_strict": 36
+  },
+  "rl_last": {
+    "observed": 47,
+    "strict": 35,
+    "operator_faithful": 39,
+    "grounded_faithful_and_strict": 32
+  },
+  "interpretation": "One actual RL update did not improve protected composed execution. Among 46 known pairs: strict difference -2, operator-faithful -3, grounded faithful-and-strict -5. Two pairs remain NULL and are bounded, not zero-filled.",
+  "gpu_calls": 0
+}

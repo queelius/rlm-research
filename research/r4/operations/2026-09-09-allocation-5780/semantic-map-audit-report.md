@@ -1,0 +1,11 @@
+# Semantic-map48 independent audit
+
+Full report: [REPORT](../../analyses/root-semantic-map-externalization-live-2026-09-10/REPORT.md). Auditor did not implement this experiment; some reused ancestors are auditor-authored. Prospective METHOD_READY `a6089c7400f883174299cf0bb871d1aed7163ae06c84240dc7551d689fab683a` predates launch and outcome exposure.
+
+INLINE5/24 versus FILE7/24 strict dataset success; native availability18/24 versus22/24. Available-only accuracy5/18 versus7/22 is separate from operational20.83% versus29.17%. All eight NULLs are sampled malformed tool envelopes, not exogenous missingness; operational failures are known. Eight exposed context clusters,24 query pairs: four FILE-only and two INLINE-only successes, three both. No inferential or fresh-generalization claim.
+
+Observed map-file reads7 versus19, but faithful executed reduction only9 versus11. All20 faithful reductions yield strict map-consistent finals; nine are wrong against dataset truth because source predictions are wrong. Source maps all8 valid,115/128 labels correct,13 errors retained. FILE's additional correct zero is broken map parsing, not faithful state use. Two INLINE reductions faithfully reconstruct relevant literal map data. Several FILE paths read state then mishandle/ignore it or loop through shell errors. No optional child calls.
+
+All113 physical requests returned: eight source acquisitions plus105 root completions (34 INLINE,71 FILE). Total240,059 input/38,600 output tokens,198,288 cached input; usage known, billing unknown. Sources are physically reused, not charged as48 new acquisitions. Full hypothetical per-endpoint pipeline accounting is separate. Parent exit0/no timeout/GPU empty,469.193983s outer; OWNER `dd1bae83cf4aa34a81613eaaba4995d76c2485c7e46bf079aa0de0aa8f9d6652`.
+
+Recommended next narrow diagnostic: current optional native tool transport versus syntax-only valid tool-envelope constraint, all other inputs/semantics/final contract fixed, prospective new paired seeds/full panel. No automatic parser repair, helper, gold grammar or source repair. It tests action serialization, not blanket operator incapacity. File-only is not a demonstrated universal reuse/cost improvement. See report for immutable source/exposure caveat, all per-context results, mechanisms, bounds and retained superseded checker artifacts.

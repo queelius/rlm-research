@@ -1,0 +1,9 @@
+# Bounded read-only completion watcher
+
+Question: does eight-generation root-only RLVR improve orchestration with the fixed capable child, beyond small-sample endpoint luck? Parent authorizes CPU analysis only; no experiment/core edits, GPU calls, model network requests, cleanup, or launch decisions.
+
+Reuse the pinned first-two analyzer's source/role/export/checkpoint authentication and the immutable first-two milestone audit. Cache each completed stage/update once. Poll only small completion-marker existence and uncached stages; no repeated old tensor loads. Authenticate native exports on MANIFEST publication, committed tensors on state publication, selection after all required validations, and FINAL only after authenticated paired transfer. On STOP, retain partial native captures explicitly censored/unadmitted; never turn missing outcomes or recovered provider errors into policy negatives.
+
+Validate additional current-action masks, root alias/depth/weight, predecessor optimizer/RNG chain, validation-only earliest-maximum selection, final-step8 distinction, and matching transfer inputs. Frozen new-context transfer is root-held-out but child-SFT-train-supported; do not call it universal unseen-data transfer. Training rounds have fresh seeds and are unpaired. Validation/transfer fixed seeds do not guarantee identical sampled trajectories. Terminal validity, recursion usage, parse/length/call/token cost are separate from correctness and do not prove complete record coverage.
+
+Write immutable per-stage/update cache artifacts and change-triggered snapshots with their hashes; freeze watcher before starting. Deadline: campaign RUN.deadline_epoch (04:25:39 UTC) plus 180 seconds read-only cleanup grace. Three focused CPU tests: cache-once behavior; paired null preservation; selection earliest tie and wrong-policy rejection. Parent receives new validation milestones and terminal synthesis. Preserve all first-two artifacts untouched.

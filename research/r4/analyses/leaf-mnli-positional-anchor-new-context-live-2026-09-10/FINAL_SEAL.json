@@ -1,0 +1,20 @@
+{
+  "schema": "fresh-positional-anchor192-audit-final-seal-v1",
+  "artifacts": {
+    "AUDIT.json": "09bd2921c9100491012bb3198235b6473273635dfd1c880e97713c3488c1ace9",
+    "METHOD.md": "90a6c56d70722f3f65f57e9232bb3fcf49256013aa51622b98cbe51bc693e4d9",
+    "METHOD_READY.json": "4211e5ad429e0daf1a221766d098f0b140f94ddfbdbbeaa50c0471e7af115df5",
+    "REPORT.md": "2e0599eb47f2e8bbb73e8ddf7c504763798d089b5e2f507a35696ad1bf9684e5",
+    "audit.py": "c1a9f58cb611fdaf48762c4f0d2c1ff5eced9d05de6ad80a36d29d276cdc0cd7"
+  },
+  "producer": {
+    "owner_terminal_sha256": "ed26e44e8dff2c2e0f020ac05703727af479125c38b704c727b2632f50add393",
+    "parent_exit_sha256": "b3fd7d5a58cabd245d1e3c5fd58d07f3dfd775c46eeaf3f44ec6f0ca01a68bbb",
+    "ready_sha256": "5ae8a97ce267b6f8918ea01562d162cde596cd38aea113a1e7b531fdb0a29db6"
+  },
+  "planned": 192,
+  "native_available": 192,
+  "null": 0,
+  "primary_interaction_percentage_points": 42.7734375,
+  "promotion_threshold_met": true
+}

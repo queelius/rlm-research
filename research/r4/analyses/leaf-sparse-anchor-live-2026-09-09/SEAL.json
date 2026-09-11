@@ -1,0 +1,30 @@
+{
+  "schema": "independent-sparse144-outcome-audit-v1",
+  "status": "complete",
+  "method_timing": "postterminal, before current outcomes opened",
+  "auditor_boundary": "Independent of sparse scientific author/scorer/collector; shared research harness contributor disclosed.",
+  "raw_reconstruction_exit_code": 0,
+  "supplement_exit_code": 0,
+  "focused_parser_tests": {"passed": 9, "failed": 0, "command": "/project/alex_phd/envs/rlm/bin/python -m unittest -v test_audit.py"},
+  "planned_calls": 144,
+  "observed_calls": 144,
+  "full_schema_valid_calls": 144,
+  "null_calls": 0,
+  "raw_labels": 9216,
+  "source_closure_paths_authenticated_once": 152,
+  "scientific_sources_or_outputs_modified": false,
+  "gpu_or_service_actions": 0,
+  "artifacts": {
+    "METHOD.md": "5b4fa6fcc21aae0c650a35c579392fe5cd736e2f04002826dd47f38d14ac051f",
+    "REPORT.md": "316683e51faa4d19cb789f992c67fe20a2788d58ec1af3f2c68fc5d66a207ae9",
+    "audit.py": "0c734a2f7c1945ad9c6505b8707cdb86a0d0063bcff975091ee87e5d9b79a65e",
+    "test_audit.py": "6974d182b387eb182da5dfbec6dceddf96bebf09e938f67148c2f896633fb331",
+    "supplement.py": "22dc1a149817c42099ae1421b837cacd4902fe14dfe4e7e47abaf61686ce35d5",
+    "ROW_LEDGER.json": "26308adfe58160ca40eb25bc40036e1409459a131ceb5d0ec671b0507df357fa",
+    "POSITION_LEDGER.json": "916eed3f08f9246cccfb6e61f56bb2b8fdb281a298222d445abd36c3c93095dc",
+    "METRICS.json": "95c305b3aeb01bf4410e2d7c700ad3860e08e64a2f8b29023e854f144ea35042",
+    "SUPPLEMENT.json": "e16bd692b9f31097a1ab0d8aa6a9a39e4249c63b29f71dd44f264e336a221305",
+    "SOURCES.json": "7d7768db2a35a165a49d241e6dd4981903ede140e15127d67d86ef676d3418e5",
+    "SUPPLEMENT_SOURCES.json": "b703205395dae5efe3bbf23297440b87a6a58ea7b97957d10e4512ec084795a8"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "leaf_trec_test_adapter_granularity_final_seal_v1",
+  "created_utc": "2026-09-10T18:41:23Z",
+  "status": "complete",
+  "artifact_sha256": {
+    "REPORT.md": "ba8b83e92af1afcedcd912e1e10ca10b1bb442d4c97e7659b1a3174a527479c7",
+    "AUDIT.json": "1953a24a9e5cd8988b599e8ad5d0d36f4d712f42944853fe604a7e9aee817ebc",
+    "METHOD.md": "f38d636009a816b4f5ec55ebf78dca65bb0f4da0116925ef737079b8ff5c7306",
+    "METHOD_READY.json": "8018765927bc451fefaa58e02f90a133eeae33b49d65a698e14762f1e5b8b07d",
+    "PRE_OUTCOME_RECEIPT.json": "02b0f2ed343bff7e1305452506a001b85761039dde6d485c17bd99418a798cfa",
+    "audit.py": "522673258ea8bec7901bc6103194daf8ecbcdd0aa62b0bfce29afaaa8ee9d551",
+    "preflight.py": "c27d8e88ce09d22e2215dc9213ba6a43348a9045d27354c5d6faf28b1e966c58",
+    "test_audit.py": "55ace3c028807689605dbc388e6d561028377140ac75c8974a4c1d3523a8ac5a"
+  },
+  "lifecycle_sha256": {
+    "READY.json": "584d54accec7fb8234cf745dab2f65f6d80c2f839ea3253af9b4f9b10b0559b5",
+    "OWNER_TERMINAL.json": "04c9a038ff97da3404ab392f7f9035a02a7898d24a8e1b301f906f9a69e02bec",
+    "EXIT.json": "d1c68b6e3ecabdc367f57cf7e0baeb5f9a8423ba9da4ac5ba998fffcfe9f6a64"
+  },
+  "verification": {
+    "focused_tests": 3,
+    "passed": 3,
+    "planned_calls": 148,
+    "native_available": 148,
+    "contract_valid": 148,
+    "records": 4000,
+    "optimizer_intersection": 0
+  }
+}

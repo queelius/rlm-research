@@ -1,0 +1,17 @@
+{
+  "available": 192,
+  "null": 0,
+  "planned": 192,
+  "schema": "query-conditioned-trec192-final-audit-seal-v1",
+  "sha256": {
+    "AUDIT.json": "becc5abdcf4d2f6775aca946191802ab5f195acecf79392a6ce425006bfb8912",
+    "METHOD.md": "b1ed4a38bbb170ab89452b7e1c9fde236c3f72cb5e9c782f1929305920ee4f4a",
+    "METHOD_READY.json": "d5f79317b877f4292650c63512c9da5a76e395eb13eaab520589eb6c267c8c97",
+    "REPORT.md": "d9fcb94b007b099a0d7bc8e82556d51e9a95c3a131264c55e87593f156ae0548",
+    "audit.py": "9798922487fed83155b87a047453bd0db9ee90360c349615c4bde2a81719cc5b",
+    "producer/OWNER_TERMINAL.json": "8c2380ec18e590d2c25e8e1656eefd3ff8d56bb3774e68257cc58e70f795a75d",
+    "producer/READY.json": "a3441efe1b69b846dae0f9195425d56b4504239a1966e1441da6ae96493d8e36",
+    "scheduler/EXIT.json": "ab0114f7d61e0e183d6d484c5e76ff5945f336f4777d8e06b2ea0211bf0aa831",
+    "test_audit.py": "8bc2b5f2b14ad92850a66cc3697d75505d253da4db19e8b6e83503b3f833e6bc"
+  }
+}

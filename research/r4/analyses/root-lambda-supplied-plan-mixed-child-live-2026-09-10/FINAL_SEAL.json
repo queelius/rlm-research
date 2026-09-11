@@ -1,0 +1,19 @@
+{
+  "schema": "supplied-plan-mixed-child-audit-final-seal-v1",
+  "date": "2026-09-10",
+  "status": "complete",
+  "owner_terminal_sha256": "6dfbefa0dfc0623b7f7568d5370906f5c579d4b2ebf6f10684b2a28c499f0fa5",
+  "parent_exit_sha256": "5708230d69255c3177d9ecd656bf73c0e982a5a818e2c3521de90ee04d5e6e06",
+  "files": {
+    "METHOD.md": "2bb1e243f2e3e04d51f52a440918aa563d8e9795ac5c4b3dcb615cc43d167bf5",
+    "METHOD_READY.json": "29f694d21eddb0f13ef43fdf4af142ab7b985dfda2507a4a543f73d151718149",
+    "audit.py": "2e9cd742f285b309fb27f6ed6060013931054627b0b253d4d7922e0c53198553",
+    "test_audit.py": "1b5b6d0f2a22dd5d6017dd99694000645ea3035f43331daa4e792d002453911e",
+    "AUDIT.json": "2dae787a48810a15bad46816a655fb303914ad02ea527f72309e70c774ab2f94",
+    "REPORT.md": "fd757fb7f889cc20a4b8c5521cc91f02585c293cd7da7d477829983edd8662eb"
+  },
+  "verification": {
+    "command": "CUDA_VISIBLE_DEVICES='' python -m pytest -q test_audit.py",
+    "result": "2 passed in 0.01s"
+  }
+}

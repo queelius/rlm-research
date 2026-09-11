@@ -1,0 +1,1801 @@
+{
+  "schema_version": "rlm-research-evidence-catalog-v1",
+  "evidence_cutoff": "2026-09-09T17:32:51.282711+00:00",
+  "source_snapshot_date": "2026-09-09",
+  "scope": "Additive report-level slice of nine sealed reports plus user ideas. Not a full campaign catalog or a new raw audit.",
+  "coverage_boundaries": [
+    "The 01:35 fixed-cutoff CLAIMS catalog remains unchanged and uses its own C/E/S namespaces.",
+    "No pooling across overlapping context clusters, different training doses, exposure levels or endpoint availability rules.",
+    "Newer root-policy bridge outcomes and pending complete-demonstration studies are excluded, even if they finish during curation.",
+    "No global database, raw file, source, queue or user idea edits; no GPU operation."
+  ],
+  "relation_convention": "Only explicitly named *_id / *_ids fields are catalog relations. Historical prefixes/checkpoint abbreviations in descriptive strings are not entity references.",
+  "questions": [
+    {
+      "id": "rq:correspondence",
+      "question": "When do output source cues improve semantic alignment and survive full-RLM use?",
+      "motivation": "Large source-ID component gains now replicate on bounded new records and released models.",
+      "alternatives": [
+        "Varying token aid",
+        "Source-linked retrieval",
+        "Prompt/schema package"
+      ],
+      "status": "promising_exploratory",
+      "related_question_ids": [
+        "rq:reduction"
+      ],
+      "supporting_claim_ids": [
+        "claim:fresh-correspondence",
+        "claim:shifted-cue-following",
+        "claim:same-record-distance"
+      ],
+      "contrary_claim_ids": [
+        "claim:bridge-no-task-gain"
+      ],
+      "smallest_followup": "Use already authorized fixed-root bridge policy panel without changing its inputs; if useful, prospectively test high-width exposure on new groups, retaining no-uptake primary.",
+      "readiness": "Policy-panel sources prepared outside this catalog; new-width study not prepared",
+      "gpu_shape": {
+        "device": "single A100",
+        "cap_seconds": 1800,
+        "estimate_status": "Prospective estimate, not launch authority"
+      },
+      "promotion_revision_retirement": "Promote if gains reach whole-task outcomes across new context clusters; revise if small-batch/uptake bottleneck dominates; retire broad whole-RLM claim if adequate-exposure replications remain null.",
+      "priority_rank_within_broader_ideas": null
+    },
+    {
+      "id": "rq:controller",
+      "question": "Which limited root-training gains survive new query compositions and faithful native accounting?",
+      "motivation": "SFT/RL help some length outcomes but first-action strategy targets do not transfer.",
+      "alternatives": [
+        "Syntax/coverage recovery",
+        "Genuine planning",
+        "Repeated-example copying"
+      ],
+      "status": "promising_but_limited",
+      "related_question_ids": [
+        "rq:reduction",
+        "rq:sufficient-interface"
+      ],
+      "supporting_claim_ids": [
+        "claim:sft-dose-gain",
+        "claim:rl-limited-gain"
+      ],
+      "contrary_claim_ids": [
+        "claim:plan-negative",
+        "claim:query-diagnosis"
+      ],
+      "smallest_followup": "Use prospectively frozen new query groups for executed full-procedure demonstrations/readouts; compare fixed starts/finals and matched dose, not winning checkpoints.",
+      "readiness": "New-panel work independently prepared; this record grants no implementation",
+      "gpu_shape": {
+        "device": "single A100",
+        "cap_seconds": 1800,
+        "estimate_status": "Prospective estimate, not launch authority"
+      },
+      "promotion_revision_retirement": "Promote only replicated context-level query gains without excluding failures; revise target scope if copy/terminal syntax dominates; stop extending the same first-action dose without transfer.",
+      "priority_rank_within_broader_ideas": null
+    },
+    {
+      "id": "rq:reduction",
+      "question": "Can explicit reduction of actual supplied maps improve end-to-end answers without gold or automatic submission?",
+      "motivation": "Native traces identify map accumulation/reduction mistakes, not correct-scalar copying failure.",
+      "alternatives": [
+        "Wrong child semantics",
+        "Missing scope join",
+        "Missing/wrong reduction",
+        "Harmful partial-summary cue"
+      ],
+      "status": "followup_design_priority",
+      "related_question_ids": [
+        "rq:controller"
+      ],
+      "supporting_claim_ids": [
+        "claim:reduction-not-restatement",
+        "claim:coverage-relative"
+      ],
+      "contrary_claim_ids": [
+        "claim:bridge-no-task-gain"
+      ],
+      "smallest_followup": "Prioritize approved supplied-map versus pure reducer diagnostic on the leaf-owned new panel. Keep labels unchanged, strict final model-submitted, all planned tasks, actual scope/map/call costs.",
+      "readiness": "Panel available; exact consumer and acceptance remain separately owned",
+      "gpu_shape": {
+        "device": "single A100",
+        "cap_seconds": 1800,
+        "estimate_status": "Prospective estimate, not launch authority"
+      },
+      "promotion_revision_retirement": "Promote if root executes/uses reducer and gains correct finals on new contexts; revise if label disagreement dominates; retire automatic-finalization diagnosis unless an actual correct-scalar/wrong-final case appears.",
+      "priority_rank_within_broader_ideas": null
+    },
+    {
+      "id": "rq:sufficient-interface",
+      "question": "Can learned report choice preserve enough information for correct cross-partition composition on held-out query/structure combinations?",
+      "motivation": "User ideas1+5, supported by idea3, target an information boundary beyond typed validity.",
+      "alternatives": [
+        "Hand-designed sufficiency by construction",
+        "Ordinary reports suffice",
+        "Exact nonrecursive code explains gain",
+        "Extra report length/calls"
+      ],
+      "status": "proposed_no_result",
+      "related_question_ids": [
+        "rq:reduction",
+        "rq:continuation"
+      ],
+      "supporting_claim_ids": [
+        "claim:correspondence-boundary",
+        "claim:reduction-not-restatement"
+      ],
+      "contrary_claim_ids": [
+        "claim:bridge-no-task-gain",
+        "claim:plan-negative"
+      ],
+      "smallest_followup": "First one-level diagnostic:4worlds×2valid partitions×3chunks with full input visible to parent. Compare ordinary unconstrained child reports, a declared lossy local-winner negative control, and hand-designed incidence/evidence. Exact-program and compute-matched direct baselines. Then learned report/representation choice on held-out query×structure combinations; do not treat constructed contrast as discovery.",
+      "readiness": "Design refinement needed to add ordinary-report baseline and freeze generator/split; no pilot implementation authorized",
+      "gpu_shape": {
+        "device": "single A100",
+        "cap_seconds": 1800,
+        "estimate_status": "Prospective estimate, not launch authority"
+      },
+      "promotion_revision_retirement": "Promote interface feasibility only if ordinary reports lose cross-boundary information and sufficient reports improve correctness at measured cost; promote LEARNED claim only after held-out learned choice. Revise if exact code or report length explains gain; retire recursion claim if nonrecursive baseline matches.",
+      "priority_rank_within_broader_ideas": 1
+    },
+    {
+      "id": "rq:continuation",
+      "question": "Can a learned compact task-local state support reliable fresh-root continuation at lower total cost?",
+      "motivation": "User idea6 is separate from input decomposition.",
+      "alternatives": [
+        "Trace access shifts rather than saves cost",
+        "Missing unresolved dependencies",
+        "Prior Chained RLM already covers mechanism"
+      ],
+      "status": "separate_deferred_line",
+      "related_question_ids": [
+        "rq:sufficient-interface"
+      ],
+      "supporting_claim_ids": [
+        "claim:continuation-state"
+      ],
+      "contrary_claim_ids": [],
+      "smallest_followup": "Interrupt/resume held-out trajectories at frozen checkpoints: full history vs learned state plus accessible trace; charge reconstruction/retrieval and preserve failures.",
+      "readiness": "Needs bounded state contract and native resumption proof",
+      "gpu_shape": {
+        "device": "single A100",
+        "cap_seconds": null,
+        "estimate_status": "No bounded design yet"
+      },
+      "promotion_revision_retirement": "Promote if correct continuation is retained at lower total cost on new checkpoints; revise state content after training-only diagnosis; retire novelty based merely on restarting roots.",
+      "priority_rank_within_broader_ideas": 2
+    },
+    {
+      "id": "rq:adaptive-communication",
+      "question": "Do resumable task-local child handles buy useful information more cheaply than a comprehensive first return?",
+      "motivation": "User idea2; postpone until one-shot report sufficiency is understood.",
+      "alternatives": [
+        "Back-and-forth overhead",
+        "State reconstruction cost"
+      ],
+      "status": "deferred",
+      "related_question_ids": [
+        "rq:sufficient-interface"
+      ],
+      "supporting_claim_ids": [],
+      "contrary_claim_ids": [],
+      "smallest_followup": "Small/comprehensive/small-plus-followups under one global budget; exact ownership and no cross-episode persistence.",
+      "readiness": "Unprepared",
+      "gpu_shape": {
+        "device": "single A100",
+        "cap_seconds": null,
+        "estimate_status": "No bounded design yet"
+      },
+      "promotion_revision_retirement": "Promote only accuracy/cost benefit after charging every continuation; retire if comprehensive one-shot dominates.",
+      "priority_rank_within_broader_ideas": null
+    },
+    {
+      "id": "rq:counterfactual-credit",
+      "question": "Can decision-level counterfactuals improve training-data selection beyond ordinary success trajectories?",
+      "motivation": "User idea4; named OpenReview reference remains unverified.",
+      "alternatives": [
+        "Replay of fixed program is not resampled policy",
+        "Paired continuation noise",
+        "Extra training data rather than better credit"
+      ],
+      "status": "deferred",
+      "related_question_ids": [
+        "rq:controller"
+      ],
+      "supporting_claim_ids": [],
+      "contrary_claim_ids": [],
+      "smallest_followup": "Begin with training-only fixed-state alternative continuations; separate deterministic program replay from free root resampling; budget counterfactual cost.",
+      "readiness": "No implementation; literature claim unresolved",
+      "gpu_shape": {
+        "device": "single A100",
+        "cap_seconds": null,
+        "estimate_status": "No bounded design yet"
+      },
+      "promotion_revision_retirement": "Promote only matched-budget held-out improvement; revise if effect is ordinary additional sampling; do not claim citation is nonexistent.",
+      "priority_rank_within_broader_ideas": null
+    },
+    {
+      "id": "rq:latent-recursion",
+      "question": "When should a recurrent-depth backbone spend compute internally versus on external decomposition?",
+      "motivation": "User idea7 needs a backbone actually trained for recurrence.",
+      "alternatives": [
+        "Backbone capacity/training confounds",
+        "External tools alone suffice"
+      ],
+      "status": "deferred_architecture",
+      "related_question_ids": [
+        "rq:sufficient-interface"
+      ],
+      "supporting_claim_ids": [],
+      "contrary_claim_ids": [],
+      "smallest_followup": "Only after a pinned recurrence-capable model exists: equal-compute internal/external/mixed policy comparison.",
+      "readiness": "No qualified backbone; no experiment ready",
+      "gpu_shape": {
+        "device": "single A100",
+        "cap_seconds": null,
+        "estimate_status": "No bounded design yet"
+      },
+      "promotion_revision_retirement": "Promote only matched architecture/training-budget evidence; retire any proposal based on looping arbitrary vanilla layers.",
+      "priority_rank_within_broader_ideas": null
+    }
+  ],
+  "experiments": [
+    {
+      "id": "exp:fresh96",
+      "question_ids": [
+        "rq:correspondence"
+      ],
+      "comparison": "Two released models × AG/SST × matching IDs/constant/plain × four clusters/task × two seeds",
+      "status": "completed_sealed_report",
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-fresh-correspondence-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-fresh-correspondence-v1"
+      ],
+      "source_ids": [
+        "src:fresh96"
+      ],
+      "availability": {
+        "planned": 96,
+        "available": 96,
+        "unavailable": 0,
+        "denominator_kind": "physical planned executions",
+        "notes": [
+          "Original launch failed before model calls; additive lifecycle recovery retained science"
+        ]
+      },
+      "sampling_unit": "Eight 64-record context clusters; seeds repeated within cluster and models share records",
+      "exposure": "512 bounded-scan new selected normalized groups, not new pretraining data; AG test and SST train text units; 25 named selected/reserved inventories excluded; SST short phrases and near-duplicates remain possible; dataset licenses unresolved",
+      "checkpoint_and_split": "Released Qwen3-4B-Instruct-2507 cdbee75f17c01a7cc42f958dc650907174af0554 and Qwen3.5-4B 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a; neither uses research LoRA",
+      "time": {
+        "unit": "seconds",
+        "optimizer": {
+          "value": null,
+          "reason": "Not separately measured in cited report, or no optimizer in this evaluation"
+        },
+        "training": {
+          "value": null,
+          "reason": "No new training in this study, or no separable measurement"
+        },
+        "inference_collection": {
+          "value": null,
+          "reason": "Not extracted as a separate wall-clock measure here; summed concurrent call duration 2463.37 is not GPU wall time"
+        },
+        "outer": {
+          "value": 714.285384,
+          "reason": null
+        },
+        "idle": {
+          "value": null,
+          "reason": "Queue idle time not measured by this report; do not infer from collection or outer elapsed"
+        },
+        "owned_recovery": 713.754054,
+        "prior_failed_outer": 4.307307
+      },
+      "native_cost": {
+        "calls": 96,
+        "input_tokens": 327774,
+        "output_tokens": 79552,
+        "cached_input_tokens": 0,
+        "uncached_input_tokens": 327774
+      },
+      "metrics": {
+        "valid": 96,
+        "whole_array_exact": 0,
+        "label_denominator_per_cell": 512,
+        "cells": [
+          [
+            "Qwen3",
+            "AG",
+            417,
+            172,
+            191
+          ],
+          [
+            "Qwen3",
+            "SST",
+            468,
+            301,
+            304
+          ],
+          [
+            "Qwen3.5",
+            "AG",
+            425,
+            211,
+            199
+          ],
+          [
+            "Qwen3.5",
+            "SST",
+            471,
+            275,
+            305
+          ]
+        ],
+        "cell_columns": [
+          "model",
+          "task",
+          "matching_correct",
+          "constant_correct",
+          "plain_correct"
+        ],
+        "positive_matching_constant_context_means": 16
+      }
+    },
+    {
+      "id": "exp:shifted72",
+      "question_ids": [
+        "rq:correspondence"
+      ],
+      "comparison": "Matching vs constant vs forced source-ID shift17, fixed displayed record order",
+      "status": "completed_sealed_report",
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-shifted-cue-v1"
+      ],
+      "source_ids": [
+        "src:shifted72"
+      ],
+      "availability": {
+        "planned": 72,
+        "available": 72,
+        "unavailable": 0,
+        "denominator_kind": "physical planned executions",
+        "notes": [
+          "Named-record alignment is a separate diagnostic, never replacement primary"
+        ]
+      },
+      "sampling_unit": "12 exposed context clusters, four/task; two seeds 981327011/021 within each",
+      "exposure": "TREC/SST/AG exposed 64-record contexts; 1536 total record positions reused across arms",
+      "checkpoint_and_split": "Fixed c32de research-trained child; grammar provides tags rather than testing free ID retrieval",
+      "time": {
+        "unit": "seconds",
+        "optimizer": {
+          "value": null,
+          "reason": "Not separately measured in cited report, or no optimizer in this evaluation"
+        },
+        "training": {
+          "value": null,
+          "reason": "No new training in this study, or no separable measurement"
+        },
+        "inference_collection": {
+          "value": 227.654,
+          "reason": null
+        },
+        "outer": {
+          "value": 276.775,
+          "reason": null
+        },
+        "idle": {
+          "value": null,
+          "reason": "Queue idle time not measured by this report; do not infer from collection or outer elapsed"
+        },
+        "owned": 276.261,
+        "startup": 42.13
+      },
+      "native_cost": {
+        "calls": 72,
+        "input_tokens": 221010,
+        "output_tokens": 75827,
+        "cached_input_tokens": 191552,
+        "uncached_input_tokens": 29458
+      },
+      "metrics": {
+        "valid": 72,
+        "label_denominator_per_task_arm": 512,
+        "by_task": {
+          "TREC": {
+            "matching": 491,
+            "constant": 230,
+            "shifted_positional": 115,
+            "shifted_named": 487,
+            "disagree_subset": [
+              375,
+              3,
+              20
+            ]
+          },
+          "SST": {
+            "matching": 484,
+            "constant": 309,
+            "shifted_positional": 253,
+            "shifted_named": 483,
+            "disagree_subset": [
+              247,
+              17,
+              0
+            ]
+          },
+          "AG": {
+            "matching": 407,
+            "constant": 194,
+            "shifted_positional": 119,
+            "shifted_named": 415,
+            "disagree_subset": [
+              320,
+              24,
+              36
+            ]
+          }
+        },
+        "disagree_subset_columns": [
+          "named_correct",
+          "position_correct",
+          "neither"
+        ],
+        "whole_array_exact": 0
+      }
+    },
+    {
+      "id": "exp:phase192",
+      "question_ids": [
+        "rq:correspondence"
+      ],
+      "comparison": "Four anchor phases × matching/constant at cadence4; same61 records rotate through all distances",
+      "status": "completed_sealed_report",
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/reminder-phase-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-reminder-phase-v1"
+      ],
+      "source_ids": [
+        "src:phase192"
+      ],
+      "availability": {
+        "planned": 192,
+        "available": 192,
+        "unavailable": 0,
+        "denominator_kind": "physical planned executions",
+        "notes": [
+          "Original time-binding failure made zero calls; recovery also corrected planned cardinality metadata, preserving scientific inputs"
+        ]
+      },
+      "sampling_unit": "12 exposed clusters × two seeds 981310011/021; primary equal-context means",
+      "exposure": "Same exposed sparse-control contexts, no new records; primary positions4–64",
+      "checkpoint_and_split": "c32de fixed research child; phase/order/schema action-space change, identical input prompt",
+      "time": {
+        "unit": "seconds",
+        "optimizer": {
+          "value": null,
+          "reason": "Not separately measured in cited report, or no optimizer in this evaluation"
+        },
+        "training": {
+          "value": null,
+          "reason": "No new training in this study, or no separable measurement"
+        },
+        "inference_collection": {
+          "value": 303.827,
+          "reason": null
+        },
+        "outer": {
+          "value": 353.923,
+          "reason": null
+        },
+        "idle": {
+          "value": null,
+          "reason": "Queue idle time not measured by this report; do not infer from collection or outer elapsed"
+        },
+        "owned_recovery": 353.397,
+        "prior_failed_owned": 47.711
+      },
+      "native_cost": {
+        "calls": 192,
+        "input_tokens": 592816,
+        "output_tokens": 97486,
+        "cached_input_tokens": 562144,
+        "uncached_input_tokens": 30672
+      },
+      "metrics": {
+        "valid": 192,
+        "whole_array_exact": 0,
+        "matching_minus_constant_pp_by_distance": {
+          "TREC": [
+            61.27,
+            50.82,
+            22.75,
+            5.33
+          ],
+          "SST": [
+            39.96,
+            36.68,
+            23.16,
+            12.3
+          ],
+          "AG": [
+            52.05,
+            28.28,
+            6.56,
+            1.23
+          ]
+        },
+        "distance0_minus3_pp": {
+          "TREC": 55.94,
+          "SST": 27.66,
+          "AG": 50.82
+        },
+        "positive_context_means": 12
+      }
+    },
+    {
+      "id": "exp:sft-lr48",
+      "question_ids": [
+        "rq:controller"
+      ],
+      "comparison": "Fixed eight-update low-LR2e-5 vs high-LR1e-4, same 27 successful training episodes and efab start",
+      "status": "completed_sealed_report",
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/root-success-sft-lr-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/sidecars/root-success-sft-lr-v1"
+      ],
+      "source_ids": [
+        "src:sft-lr48"
+      ],
+      "availability": {
+        "planned": 48,
+        "available": 47,
+        "unavailable": 1,
+        "denominator_kind": "physical planned executions",
+        "notes": [
+          "Original report treated all48 as available; src:taxonomy32 later shows one low broker error without sampled final. Preserve frozen0 and separately mark47 available/1NULL. Query net sensitivity [-1,0]."
+        ]
+      },
+      "sampling_unit": "Eight exposed context clusters; 24 paired coordinates; one training realization, not independent training seeds",
+      "exposure": "Training27 episodes/114 root turns/15256 target tokens per pass; 8 passes; local fine-tuning split, helper/pretraining exposure remain distinct",
+      "checkpoint_and_split": "Low fixed8 66cce400… vs high fixed8 0ba42364183a311a8f5b67e4bac4e9294924c1dfb73f152a209811df09b78773; fresh Adam; root-only CE; episode→turn→token normalization",
+      "time": {
+        "unit": "seconds",
+        "optimizer": {
+          "value": null,
+          "reason": "Not separately measured in cited report, or no optimizer in this evaluation"
+        },
+        "training": {
+          "value": 589.929,
+          "reason": null
+        },
+        "inference_collection": {
+          "value": [
+            414.162,
+            289.748
+          ],
+          "reason": null
+        },
+        "outer": {
+          "value": 1399.63,
+          "reason": null
+        },
+        "idle": {
+          "value": null,
+          "reason": "Queue idle time not measured by this report; do not infer from collection or outer elapsed"
+        },
+        "scientific_work": 1399.086
+      },
+      "native_cost": {
+        "calls": 648,
+        "by_arm": {
+          "low": {
+            "calls": 489,
+            "input_tokens": 974674,
+            "output_tokens": 39158,
+            "cached_input_tokens": 938528,
+            "uncached_input_tokens": 36146
+          },
+          "high": {
+            "calls": 159,
+            "input_tokens": 213718,
+            "output_tokens": 22381,
+            "cached_input_tokens": 189408,
+            "uncached_input_tokens": 24310
+          }
+        }
+      },
+      "metrics": {
+        "frozen_correct": [
+          8,
+          14
+        ],
+        "planned_per_arm": 24,
+        "frozen_pairs": {
+          "wins": 9,
+          "losses": 3,
+          "ties": 12
+        },
+        "by_stratum_low_high": {
+          "validation": [
+            5,
+            6
+          ],
+          "query": [
+            2,
+            2
+          ],
+          "length": [
+            1,
+            6
+          ]
+        },
+        "syntax": [
+          16,
+          24
+        ],
+        "coverage": [
+          21,
+          24
+        ],
+        "adam_updates": 8
+      }
+    },
+    {
+      "id": "exp:rl48",
+      "question_ids": [
+        "rq:controller"
+      ],
+      "comparison": "Fixed low66c initial vs last bounded root-RL4; binary terminal reward and bounded mixed-group collection",
+      "status": "completed_sealed_report",
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/root-bounded-refill-rl-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/sidecars/root-bounded-refill-rl-v1"
+      ],
+      "source_ids": [
+        "src:rl48"
+      ],
+      "availability": {
+        "planned": 48,
+        "available": 47,
+        "unavailable": 1,
+        "denominator_kind": "physical planned executions",
+        "notes": [
+          "One before length branch ends in broker failure after55 HTTP200 calls; frozen0 retained, not a sampled wrong final. No extra refill or no-op was exercised."
+        ]
+      },
+      "sampling_unit": "Eight exposed context clusters, 24 paired readout coordinates; single four-update training campaign",
+      "exposure": "128 training candidate slots planned,64 sampled/admitted/selected,64 intentionally unused; no refill needed; 34116 selected root target tokens",
+      "checkpoint_and_split": "Initial low66c; final fixed4 2286be3f7c0c9cc0e22c8ef8e3473b7d8eb6ec4b7a789ca380a0af9d3b944c71; fresh Adam504 states steps1–4, native likelihood/root-only masks, child gets no RL credit",
+      "time": {
+        "unit": "seconds",
+        "optimizer": {
+          "value": 177.138,
+          "reason": null
+        },
+        "training": {
+          "value": null,
+          "reason": "No new training in this study, or no separable measurement"
+        },
+        "inference_collection": {
+          "value": null,
+          "reason": "Training and before/after collection separate wall times not extracted here"
+        },
+        "outer": {
+          "value": 2127.852,
+          "reason": null
+        },
+        "idle": {
+          "value": null,
+          "reason": "Queue idle time not measured by this report; do not infer from collection or outer elapsed"
+        },
+        "scientific_work": 2127.283
+      },
+      "native_cost": {
+        "all_campaign_calls": 1071,
+        "readout_calls": 547,
+        "by_arm": {
+          "before": {
+            "calls": 368,
+            "input_tokens": 674375,
+            "output_tokens": 33064,
+            "cached_input_tokens": 641520,
+            "uncached_input_tokens": 32855
+          },
+          "after": {
+            "calls": 179,
+            "input_tokens": 215468,
+            "output_tokens": 21206,
+            "cached_input_tokens": 189888,
+            "uncached_input_tokens": 25580
+          }
+        }
+      },
+      "metrics": {
+        "frozen_correct": [
+          7,
+          11
+        ],
+        "planned_per_arm": 24,
+        "frozen_pairs": {
+          "wins": 6,
+          "losses": 2,
+          "ties": 16
+        },
+        "available_pairs": {
+          "wins": 5,
+          "losses": 2,
+          "ties": 16,
+          "unknown": 1
+        },
+        "net_bounds": [
+          3,
+          4
+        ],
+        "by_stratum_before_after": {
+          "validation": [
+            5,
+            6
+          ],
+          "query": [
+            0,
+            0
+          ],
+          "length": [
+            2,
+            5
+          ]
+        },
+        "adam_updates": 4
+      }
+    },
+    {
+      "id": "exp:plan48",
+      "question_ids": [
+        "rq:controller",
+        "rq:sufficient-interface"
+      ],
+      "comparison": "Unchanged low66c vs authored canonical/filter-first first-action SFT4; equal global targets",
+      "status": "completed_sealed_report",
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/root-plan-sft-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/sidecars/root-plan-sft-v1"
+      ],
+      "source_ids": [
+        "src:plan48"
+      ],
+      "availability": {
+        "planned": 48,
+        "available": 47,
+        "unavailable": 1,
+        "denominator_kind": "physical planned executions",
+        "notes": [
+          "Unchanged seed981320303 last native response is a tool call before broker error, not sampled empty final; original projection retained separately"
+        ]
+      },
+      "sampling_unit": "Four exposed context clusters × two query families × two seeds;16 per root",
+      "exposure": "384 training /320 evaluation /192 unused validation groups locally disjoint; helper/research and pretraining exposures not thereby excluded",
+      "checkpoint_and_split": "Same66c start; each arm16 authored CE targets,2472 target tokens/pass,4passes, LR1e-4, fresh Adam; no fake fixture behavior probabilities; fixed final4 only",
+      "time": {
+        "unit": "seconds",
+        "optimizer": {
+          "value": null,
+          "reason": "Not separately measured in cited report, or no optimizer in this evaluation"
+        },
+        "training": {
+          "value": [
+            53.699,
+            53.752
+          ],
+          "reason": null
+        },
+        "inference_collection": {
+          "value": [
+            358.917,
+            373.53,
+            261.196
+          ],
+          "reason": null
+        },
+        "outer": {
+          "value": 1258.628,
+          "reason": null
+        },
+        "idle": {
+          "value": null,
+          "reason": "Queue idle time not measured by this report; do not infer from collection or outer elapsed"
+        }
+      },
+      "native_cost": {
+        "calls": 1252,
+        "input_tokens": 2444254,
+        "output_tokens": 95032,
+        "cached_input_tokens": 2360656,
+        "uncached_input_tokens": 83598,
+        "arm_calls": {
+          "canonical": 470,
+          "filter_first": 532,
+          "unchanged": 250
+        }
+      },
+      "metrics": {
+        "correct": {
+          "canonical": 1,
+          "filter_first": 1,
+          "unchanged_known": 4
+        },
+        "planned_per_arm": 16,
+        "trained_pair": {
+          "wins": 0,
+          "losses": 0,
+          "ties": 16
+        },
+        "trained_vs_unchanged": {
+          "wins": 1,
+          "losses": 4,
+          "ties": 10,
+          "unknown": 1,
+          "net_bounds": [
+            -4,
+            -3
+          ]
+        },
+        "adam_updates_per_trained_arm": 4
+      }
+    },
+    {
+      "id": "exp:taxonomy32",
+      "question_ids": [
+        "rq:controller",
+        "rq:reduction"
+      ],
+      "comparison": "Posthoc complete query-branch taxonomy across LR and RL before/after, not a new experiment",
+      "status": "completed_sealed_report",
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/root-query-failure-taxonomy-2026-09-09/REPORT.md"
+      ],
+      "source_ids": [
+        "src:taxonomy32"
+      ],
+      "availability": {
+        "planned": 32,
+        "available": 31,
+        "unavailable": 1,
+        "denominator_kind": "reused episodes, not additional executions",
+        "notes": [
+          "15 trajectories reuse the same q0009 label disagreement; do not treat as15 independent semantic errors or delete that evaluation item"
+        ]
+      },
+      "sampling_unit": "Two exposed32-record context clusters; four queries;32 reused trajectories; low root repeated with different seeds",
+      "exposure": "Subset of exp:sft-lr48 and exp:rl48, not additional independent evidence or training data",
+      "checkpoint_and_split": "Three distinct root weights and same c32 child; frozen TREC labels not independently adjudicated",
+      "time": {
+        "unit": "seconds",
+        "optimizer": {
+          "value": null,
+          "reason": "Not separately measured in cited report, or no optimizer in this evaluation"
+        },
+        "training": {
+          "value": null,
+          "reason": "No new training in this study, or no separable measurement"
+        },
+        "inference_collection": {
+          "value": null,
+          "reason": "No new inference; reanalysis of reused episodes"
+        },
+        "outer": {
+          "value": null,
+          "reason": "CPU reanalysis; no new GPU operation"
+        },
+        "idle": {
+          "value": null,
+          "reason": "Queue idle time not measured by this report; do not infer from collection or outer elapsed"
+        }
+      },
+      "native_cost": {
+        "new_calls": 0,
+        "reused_episode_count": 32
+      },
+      "metrics": {
+        "categories": {
+          "label_disagreement_correct_reduction": 14,
+          "label_disagreement_prose": 1,
+          "dict_key_value_bug": 1,
+          "correct_map_no_executed_count": 6,
+          "unexecuted_metadata_join": 1,
+          "incomplete_query_prose": 4,
+          "broker_no_final": 1,
+          "correct_scalar_and_final": 4
+        },
+        "displayed_integer_scalars": 19,
+        "faithfully_copied": 19,
+        "correct_scalar_wrong_restatement": 0
+      }
+    },
+    {
+      "id": "exp:coverage48",
+      "question_ids": [
+        "rq:reduction",
+        "rq:controller"
+      ],
+      "comparison": "Map-only vs always-counts ledger vs omit partial counts until coverage complete, two root weights",
+      "status": "completed_sealed_report",
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/sidecars/root-coverage-first-v1"
+      ],
+      "source_ids": [
+        "src:coverage48"
+      ],
+      "availability": {
+        "planned": 48,
+        "available": 48,
+        "unavailable": 0,
+        "denominator_kind": "physical planned executions",
+        "notes": [
+          "Frozen endpoint rule counts completed empty as0:48 endpoint observations/0 primaryNULL. One broker-failed coverage state is unknown, not behavioral evidence; this availability rule is not silently harmonized with later native-final audits."
+        ]
+      },
+      "sampling_unit": "Four exposed validation clusters × two paired seeds × three arms × two roots",
+      "exposure": "Counts3/6/14/11 on familiar NUM/HUM/ENTY/LOC validation tasks; not new-source replication",
+      "checkpoint_and_split": "Success66c and efab final4 roots, c32 child; no new training; original maps unchanged, complete summaries byte equal",
+      "time": {
+        "unit": "seconds",
+        "optimizer": {
+          "value": null,
+          "reason": "Not separately measured in cited report, or no optimizer in this evaluation"
+        },
+        "training": {
+          "value": null,
+          "reason": "No new training in this study, or no separable measurement"
+        },
+        "inference_collection": {
+          "value": [
+            336.68,
+            341.543
+          ],
+          "reason": null
+        },
+        "outer": {
+          "value": 780.31,
+          "reason": null
+        },
+        "idle": {
+          "value": null,
+          "reason": "Queue idle time not measured by this report; do not infer from collection or outer elapsed"
+        },
+        "scientific_work": 779.796
+      },
+      "native_cost": {
+        "calls": 352,
+        "input_tokens": 527568,
+        "output_tokens": 34201,
+        "cached_input_tokens": 495728,
+        "uncached_input_tokens": 31840
+      },
+      "metrics": {
+        "correct_map_always_coverage": {
+          "success": [
+            4,
+            2,
+            5
+          ],
+          "efab": [
+            2,
+            0,
+            2
+          ]
+        },
+        "planned_per_root_arm": 8,
+        "coverage_vs_always_wins": {
+          "success": 3,
+          "efab": 2
+        },
+        "coverage_vs_always_losses": 0,
+        "strict_final_equals_last_asked_count": 31,
+        "projected_observations": 125,
+        "partial": 104,
+        "complete": 21
+      }
+    },
+    {
+      "id": "exp:bridge32",
+      "question_ids": [
+        "rq:correspondence",
+        "rq:reduction"
+      ],
+      "comparison": "Same root-visible map API: child ordered label array mechanically mapped vs ID-map decoding; global count/checksum",
+      "status": "completed_sealed_report",
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/root-child-representation-bridge-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/sidecars/root-child-representation-bridge-v1"
+      ],
+      "source_ids": [
+        "src:bridge32"
+      ],
+      "availability": {
+        "planned": 32,
+        "available": 32,
+        "unavailable": 0,
+        "denominator_kind": "physical planned executions",
+        "notes": [
+          "Count request sequences matched8/8; checksum sequences/uptake differ. Config root-readable; literal-marker absence not treatment blindness. Initial outputs differ before eligibility in2 checksum pairs."
+        ]
+      },
+      "sampling_unit": "Four exposed clusters, two32/two128 records;2tasks×2seeds981326011/021×2representations",
+      "exposure": "Same exposed contexts; tasks global even where historical context names say query_transfer; no new-source/seed replication",
+      "checkpoint_and_split": "Fixed low66c root/c32 child; root unchanged within task, child prompt+grammar/action space differ; raw graph remains native, canonical projection only at broker",
+      "time": {
+        "unit": "seconds",
+        "optimizer": {
+          "value": null,
+          "reason": "Not separately measured in cited report, or no optimizer in this evaluation"
+        },
+        "training": {
+          "value": null,
+          "reason": "No new training in this study, or no separable measurement"
+        },
+        "inference_collection": {
+          "value": 509.47,
+          "reason": null
+        },
+        "outer": {
+          "value": 561.407,
+          "reason": null
+        },
+        "idle": {
+          "value": null,
+          "reason": "Queue idle time not measured by this report; do not infer from collection or outer elapsed"
+        }
+      },
+      "native_cost": {
+        "calls": 744,
+        "root_calls": 390,
+        "child_calls": 354,
+        "input_tokens": 1472633,
+        "output_tokens": 48854,
+        "cached_input_tokens": 1423600,
+        "uncached_input_tokens": 49033
+      },
+      "metrics": {
+        "planned_per_task_arm": 8,
+        "count_correct": [
+          1,
+          1
+        ],
+        "checksum_correct": [
+          0,
+          0
+        ],
+        "count_label_agreement": [
+          567,
+          593
+        ],
+        "count_label_denominator": 628,
+        "checksum_paired_uptake": 3,
+        "count_paired_uptake": 8,
+        "all_child_maps_valid": 354,
+        "maximum_child_width": 32,
+        "correct_scalar_wrong_final": 0
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:fresh-correspondence",
+      "kind": "fact",
+      "statement": "Matching source-ID outputs beat same-shaped constant outputs in every one of16 task/model/context means: AG gains245/512 and214/512 labels; SST gains167/512 and196/512 for released Qwen3 and Qwen3.5.",
+      "experiment_ids": [
+        "exp:fresh96"
+      ],
+      "counterevidence_claim_ids": [
+        "claim:bridge-no-task-gain"
+      ],
+      "denominator": "96 calls;8 distinct64-record clusters shared across models;512 label presentations/cell",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "All planned observations retained; see experiment-specific availability.",
+      "alternative_explanations": [
+        "Prompt/schema package and output-token differences; bounded dataset selection; unknown pretraining exposure"
+      ],
+      "not_justified": [
+        "Internal attention mechanism",
+        "Unconstrained ID retrieval",
+        "Whole-RLM benefit"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:fresh96",
+          "sha256": "58ae42f0d3c2702fc84d1ce62b9ae04712590ee79cb47536a0bac5a3720d1e7d"
+        }
+      ]
+    },
+    {
+      "id": "claim:shifted-cue-following",
+      "kind": "fact",
+      "statement": "Deliberately shifted source IDs pull labels toward the named record rather than the instructed displayed position: named alignment487/483/415 versus positional115/253/119 of512 in TREC/SST/AG.",
+      "experiment_ids": [
+        "exp:shifted72"
+      ],
+      "counterevidence_claim_ids": [],
+      "denominator": "24 shifted calls among72;12 exposed context clusters; disagreement diagnostics398/264/380 positions",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "All planned observations retained; see experiment-specific availability.",
+      "alternative_explanations": [
+        "Contradictory cue versus task instructions",
+        "Grammar supplies ID token; source retrieval not freely selected"
+      ],
+      "not_justified": [
+        "Rescored primary success",
+        "Neutral counter control",
+        "Hidden attention proof"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:shifted72",
+          "sha256": "37bcb4cf4ca381760d9ab1fe188321eff40461ad91f066cad09358ff99bde492"
+        }
+      ]
+    },
+    {
+      "id": "claim:same-record-distance",
+      "kind": "fact",
+      "statement": "Rotating cadence4 anchor phase over the same61 records yields positive distance0-minus3 matching advantage in all12 context means:55.94pp TREC,27.66pp SST,50.82pp AG.",
+      "experiment_ids": [
+        "exp:phase192"
+      ],
+      "counterevidence_claim_ids": [],
+      "denominator": "192 calls;12 contexts,2 paired seeds,61 repeated records per context",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "All planned observations retained; see experiment-specific availability.",
+      "alternative_explanations": [
+        "Phase changes generated prefix, object boundaries and constrained action space",
+        "Shared exposed source groups"
+      ],
+      "not_justified": [
+        "A causal attention mechanism",
+        "Fresh-data or depth generalization"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:phase192",
+          "sha256": "83ea70125f56942cda8400871ce240fb27f09da1c13c71f343ecd2d4d04b8f53"
+        }
+      ]
+    },
+    {
+      "id": "claim:correspondence-boundary",
+      "kind": "inference",
+      "statement": "The combined component evidence favors output-to-source correspondence over generic varying-tag novelty, while leaving the internal mechanism and full-system usefulness unresolved.",
+      "experiment_ids": [
+        "exp:fresh96",
+        "exp:shifted72",
+        "exp:phase192"
+      ],
+      "counterevidence_claim_ids": [
+        "claim:bridge-no-task-gain"
+      ],
+      "denominator": "Three distinct controls; overlapping contexts are not pooled as independent replications",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "All planned observations retained; see experiment-specific availability.",
+      "alternative_explanations": [
+        "Schema/instruction conventions and autoregressive retrieval can explain local cue effects"
+      ],
+      "not_justified": [
+        "A general recursion advantage",
+        "Equating standalone tag length with realized compute"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:fresh96",
+          "sha256": "58ae42f0d3c2702fc84d1ce62b9ae04712590ee79cb47536a0bac5a3720d1e7d"
+        },
+        {
+          "source_id": "src:shifted72",
+          "sha256": "37bcb4cf4ca381760d9ab1fe188321eff40461ad91f066cad09358ff99bde492"
+        },
+        {
+          "source_id": "src:phase192",
+          "sha256": "83ea70125f56942cda8400871ce240fb27f09da1c13c71f343ecd2d4d04b8f53"
+        }
+      ]
+    },
+    {
+      "id": "claim:sft-dose-gain",
+      "kind": "fact",
+      "statement": "Higher learning rate at the same eight-update successful-trajectory SFT recipe improves frozen strict totals8/24→14/24, chiefly length1/8→6/8; query totals remain2/8→2/8 before availability sensitivity.",
+      "experiment_ids": [
+        "exp:sft-lr48"
+      ],
+      "counterevidence_claim_ids": [
+        "claim:query-diagnosis",
+        "claim:plan-negative"
+      ],
+      "denominator": "24 paired coordinates clustered in8 exposed contexts; one training realization",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "One low query endpoint is later found unavailable; preserve frozen0, report query net bounds[-1,0], not complete behavioral parity.",
+      "alternative_explanations": [
+        "Dose/optimization change rather than diverse planning skill",
+        "Exposed contexts and syntax recovery"
+      ],
+      "not_justified": [
+        "General context-sensitive planning",
+        "Uniform cost savings",
+        "Independent training-seed replication"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:sft-lr48",
+          "sha256": "42c0f1275e59c0e7e0f59d6797c068cdaa130a3973cd8315e0699954ee057f6a"
+        }
+      ]
+    },
+    {
+      "id": "claim:rl-limited-gain",
+      "kind": "fact",
+      "statement": "Four root-only binary-reward updates improve frozen strict totals7/24→11/24; availability-safe net gain is bounded[3,4], with query0/8→0/8.",
+      "experiment_ids": [
+        "exp:rl48"
+      ],
+      "counterevidence_claim_ids": [
+        "claim:query-diagnosis"
+      ],
+      "denominator": "24 paired coordinates/8 exposed contexts;64 training rollouts selected in4 update windows",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "One before endpoint has no sampled final;5wins2losses16ties1unknown.",
+      "alternative_explanations": [
+        "Length/syntax improvements on exposed development support",
+        "Single start and training realization"
+      ],
+      "not_justified": [
+        "Refill efficacy, since no extra refill was exercised",
+        "General query planning"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:rl48",
+          "sha256": "0fc257ce8f09c72f900a035561cacc9780e1491210cbdd9f800c6c11f955fb75"
+        }
+      ]
+    },
+    {
+      "id": "claim:plan-negative",
+      "kind": "fact",
+      "statement": "Authored canonical versus filter-first first-action SFT4 yields1/16 each with zero paired difference; each trained arm underperforms the unchanged root by availability-safe net[-4,-3].",
+      "experiment_ids": [
+        "exp:plan48"
+      ],
+      "counterevidence_claim_ids": [
+        "claim:sft-dose-gain"
+      ],
+      "denominator": "16 coordinates clustered in4 contexts;2 taught strategies;16 authored targets each",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "Unchanged4 known correct,1NULL; trained vs unchanged1win4loss10ties1unknown.",
+      "alternative_explanations": [
+        "Dose, initial-action-only targets and weak terminal training",
+        "Literal worked-example copying",
+        "Evaluation reuse"
+      ],
+      "not_justified": [
+        "Filtering cannot be learned",
+        "All SFT harms planning"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:plan48",
+          "sha256": "88c7b9d0f10f4c7507a94851b74ee304d4630e7b84d66fca2980c60dfea81aa7"
+        }
+      ]
+    },
+    {
+      "id": "claim:query-diagnosis",
+      "kind": "fact",
+      "statement": "All19 displayed integer scalars in32 reused query trajectories are faithfully copied; six failures instead have a correct map without executed count, and15 reuse one dataset-label disagreement.",
+      "experiment_ids": [
+        "exp:taxonomy32"
+      ],
+      "counterevidence_claim_ids": [],
+      "denominator": "32 reused trajectories from2 contexts;4 queries,3 root weights; not32 independent tasks",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "31 sampled finals and1 broker-unavailable branch; later correction revises the high-LR blanket availability statement.",
+      "alternative_explanations": [
+        "Dataset labels are not independently adjudicated semantic truth",
+        "Only final physical branches support visibility claims"
+      ],
+      "not_justified": [
+        "A demonstrated correct-scalar restatement defect",
+        "Broad prevalence estimates"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:taxonomy32",
+          "sha256": "6eefa1b9b583c622df2b0b1c28c210eeecb49178abe5deca2c766c6992935cda"
+        }
+      ]
+    },
+    {
+      "id": "claim:coverage-relative",
+      "kind": "fact",
+      "statement": "Withholding partial ledger counts improves strict scores over always-counts by3/8 and2/8 for two roots, but improves over unchanged map-only by only1/8 and0/8.",
+      "experiment_ids": [
+        "exp:coverage48"
+      ],
+      "counterevidence_claim_ids": [
+        "claim:bridge-no-task-gain"
+      ],
+      "denominator": "48 episodes;4 context clusters×2seeds×3arms×2roots",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "Frozen completed-empty rule retained; one broker-affected coverage state is unknown despite no primary endpointNULL.",
+      "alternative_explanations": [
+        "Avoiding a harmful partial-summary cue rather than general planning",
+        "Added observation tokens alter later policy and calls"
+      ],
+      "not_justified": [
+        "Best interface",
+        "Fixed-trajectory final-answer mediation",
+        "Equal-cost improvement"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:coverage48",
+          "sha256": "935be163fc0a471669e0e24c5dfc0f0028355523d3daacccdb34b6c9c2481c98"
+        }
+      ]
+    },
+    {
+      "id": "claim:bridge-no-task-gain",
+      "kind": "fact",
+      "statement": "With the same map API, native ID-map decoding raises matched count-label agreement567→593/628 but leaves count1/8→1/8 and checksum0/8→0/8; checksum has paired eligible uptake only3/8.",
+      "experiment_ids": [
+        "exp:bridge32"
+      ],
+      "counterevidence_claim_ids": [
+        "claim:fresh-correspondence"
+      ],
+      "denominator": "32 episodes/4 exposed contexts; count628 physical label occurrences per arm, repeated IDs possible",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "All planned observations retained; see experiment-specific availability.",
+      "alternative_explanations": [
+        "Small child widths≤32, mostly4; limited checksum exposure",
+        "Root program errors and task novelty",
+        "Pre-treatment first-action variation in2checksum pairs"
+      ],
+      "not_justified": [
+        "Representations equivalent",
+        "Component effect refuted",
+        "Correct scalar ignored"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:bridge32",
+          "sha256": "b07584134aeac387328f557c2dd976b25a1e3d9e345363dee8397ca2df64f206"
+        }
+      ]
+    },
+    {
+      "id": "claim:reduction-not-restatement",
+      "kind": "inference",
+      "statement": "A supplied-map/executed-reducer diagnostic targets the observed missing or wrong reduction more directly than automatic finalization; it cannot repair child semantic disagreement.",
+      "experiment_ids": [
+        "exp:taxonomy32",
+        "exp:bridge32"
+      ],
+      "counterevidence_claim_ids": [
+        "claim:coverage-relative"
+      ],
+      "denominator": "Six map-only query cases plus one explicitly selected last-batch-versus-accumulator bug; selected example is not prevalence",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "All planned observations retained; see experiment-specific availability.",
+      "alternative_explanations": [
+        "Incomplete metadata joins and scope errors remain separate",
+        "A reducer API can change uptake/plans"
+      ],
+      "not_justified": [
+        "A proved treatment benefit",
+        "Host answer injection or automatic submission"
+      ],
+      "evidence_status": "exploratory_sealed_report",
+      "source_report_hashes": [
+        {
+          "source_id": "src:taxonomy32",
+          "sha256": "6eefa1b9b583c622df2b0b1c28c210eeecb49178abe5deca2c766c6992935cda"
+        },
+        {
+          "source_id": "src:bridge32",
+          "sha256": "b07584134aeac387328f557c2dd976b25a1e3d9e345363dee8397ca2df64f206"
+        }
+      ]
+    },
+    {
+      "id": "claim:sufficient-information",
+      "kind": "hypothesis",
+      "statement": "A learned choice of intermediate information may improve correct composition across valid partitions and held-out query/structure combinations.",
+      "experiment_ids": [],
+      "counterevidence_claim_ids": [
+        "claim:bridge-no-task-gain",
+        "claim:plan-negative"
+      ],
+      "denominator": "No new experiment result; proposed task-family question",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "All planned observations retained; see experiment-specific availability.",
+      "alternative_explanations": [
+        "Hand-designed full incidence wins over lossy local winners by construction",
+        "Exact Python, larger reports or extra calls may explain gains",
+        "Generator leaks and constant wrong invariance"
+      ],
+      "not_justified": [
+        "A learned contract from imposing JSON",
+        "A publishable discovery from a constructed information-loss contrast",
+        "Report-only replay equals whole RLM"
+      ],
+      "evidence_status": "proposed_no_result",
+      "source_report_hashes": []
+    },
+    {
+      "id": "claim:continuation-state",
+      "kind": "hypothesis",
+      "statement": "A task-local compact continuation state may preserve successful computation after fresh-root resumption while reducing total context cost.",
+      "experiment_ids": [],
+      "counterevidence_claim_ids": [],
+      "denominator": "No experiment in this snapshot",
+      "sampling_unit": "Context cluster, not repeated seed or per-token observation; details in experiments",
+      "availability_sensitivity": "All planned observations retained; see experiment-specific availability.",
+      "alternative_explanations": [
+        "Full trace retrieval merely shifts cost",
+        "Summary silently omits needed state",
+        "Existing Chained RLM overlap"
+      ],
+      "not_justified": [
+        "Novelty from fresh-root summaries alone"
+      ],
+      "evidence_status": "proposed_no_result",
+      "source_report_hashes": []
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:correspondence-scope",
+      "previous_interpretation": "Varying tags or easier records could explain earlier gains.",
+      "new_evidence": "Fresh released-model gains, contradictory shifted-ID alignment and same-record phase decay.",
+      "decision_changed": "Prioritize source-correspondence as a component question, not an attention or whole-RLM claim.",
+      "why": "Controls narrow alternatives but alter schema/prefix and do not remove end-to-end failures.",
+      "followup_question_id": "rq:correspondence",
+      "claim_ids": [
+        "claim:fresh-correspondence",
+        "claim:shifted-cue-following",
+        "claim:same-record-distance",
+        "claim:bridge-no-task-gain"
+      ],
+      "additive_correction": false
+    },
+    {
+      "id": "decision:availability-correction",
+      "previous_interpretation": "High-LR report said all48 behavioral outcomes were available.",
+      "new_evidence": "Query taxonomy finds one low broker error with last native tool response, not sampled final.",
+      "decision_changed": "Retain original strict0 totals and add native-final unavailable sensitivity; do not treat broker error as model failure.",
+      "why": "Additive correction changes the query contrast interpretation without erasing sealed reports.",
+      "followup_question_id": "rq:controller",
+      "claim_ids": [
+        "claim:query-diagnosis",
+        "claim:sft-dose-gain"
+      ],
+      "additive_correction": true
+    },
+    {
+      "id": "decision:refill-boundary",
+      "previous_interpretation": "Four-update RL gain might be credited to bounded refill.",
+      "new_evidence": "All four windows found mixed groups in mandatory collection; no additional refill occurred.",
+      "decision_changed": "Claim only this native root update recipe's limited gain, not refill efficacy.",
+      "why": "An unexercised mechanism cannot explain a tested treatment contrast.",
+      "followup_question_id": "rq:controller",
+      "claim_ids": [
+        "claim:rl-limited-gain"
+      ],
+      "additive_correction": false
+    },
+    {
+      "id": "decision:reduction-diagnosis",
+      "previous_interpretation": "Correct maps followed by wrong answers suggested final copying failure.",
+      "new_evidence": "19/19 displayed query integers copied; bridge selected bug reduces final batch instead of accumulated map.",
+      "decision_changed": "Prioritize executed reducer/state handling on new data; do not auto-submit or inject gold.",
+      "why": "A host-inferred correct scalar is not a scalar the model observed.",
+      "followup_question_id": "rq:reduction",
+      "claim_ids": [
+        "claim:query-diagnosis",
+        "claim:reduction-not-restatement"
+      ],
+      "additive_correction": true
+    },
+    {
+      "id": "decision:first-action-targets",
+      "previous_interpretation": "Teaching filter-first versus canonical first actions might improve query plans.",
+      "new_evidence": "Both fixed4 trained arms1/16; same first-probe imitation and more exhaustive classification.",
+      "decision_changed": "Do not extend the same narrow initial-action dose as if it taught transferred planning.",
+      "why": "Authored CE is genuine training but is not successful full native behavior or a learned contract.",
+      "followup_question_id": "rq:controller",
+      "claim_ids": [
+        "claim:plan-negative",
+        "claim:sft-dose-gain"
+      ],
+      "additive_correction": false
+    },
+    {
+      "id": "decision:composition-pilot",
+      "previous_interpretation": "A lossy local-winner versus full-incidence contrast seems decisive.",
+      "new_evidence": "The information loss is constructed; exact code and ordinary reports may explain performance.",
+      "decision_changed": "Require ordinary reports, exact nonrecursive baseline, valid partition controls, then learned choice on held-out structures.",
+      "why": "Use constructed contrast as a diagnostic/control, not publishable discovery; keep report-only replay separate.",
+      "followup_question_id": "rq:sufficient-interface",
+      "claim_ids": [
+        "claim:sufficient-information",
+        "claim:bridge-no-task-gain"
+      ],
+      "additive_correction": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "src:fresh96",
+      "kind": "sealed_report",
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-fresh-correspondence-live-2026-09-09/REPORT.md",
+      "sha256": "58ae42f0d3c2702fc84d1ce62b9ae04712590ee79cb47536a0bac5a3720d1e7d",
+      "bytes": 10746,
+      "read_scope": "Complete report read; report-level synthesis, not a new raw audit"
+    },
+    {
+      "id": "src:shifted72",
+      "kind": "sealed_report",
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/REPORT.md",
+      "sha256": "37bcb4cf4ca381760d9ab1fe188321eff40461ad91f066cad09358ff99bde492",
+      "bytes": 7996,
+      "read_scope": "Complete report read; report-level synthesis, not a new raw audit"
+    },
+    {
+      "id": "src:phase192",
+      "kind": "sealed_report",
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/reminder-phase-live-2026-09-09/REPORT.md",
+      "sha256": "83ea70125f56942cda8400871ce240fb27f09da1c13c71f343ecd2d4d04b8f53",
+      "bytes": 10126,
+      "read_scope": "Complete report read; report-level synthesis, not a new raw audit"
+    },
+    {
+      "id": "src:sft-lr48",
+      "kind": "sealed_report",
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/root-success-sft-lr-live-2026-09-09/REPORT.md",
+      "sha256": "42c0f1275e59c0e7e0f59d6797c068cdaa130a3973cd8315e0699954ee057f6a",
+      "bytes": 12206,
+      "read_scope": "Complete report read; report-level synthesis, not a new raw audit"
+    },
+    {
+      "id": "src:rl48",
+      "kind": "sealed_report",
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/root-bounded-refill-rl-live-2026-09-09/REPORT.md",
+      "sha256": "0fc257ce8f09c72f900a035561cacc9780e1491210cbdd9f800c6c11f955fb75",
+      "bytes": 9789,
+      "read_scope": "Complete report read; report-level synthesis, not a new raw audit"
+    },
+    {
+      "id": "src:plan48",
+      "kind": "sealed_report",
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/root-plan-sft-live-2026-09-09/REPORT.md",
+      "sha256": "88c7b9d0f10f4c7507a94851b74ee304d4630e7b84d66fca2980c60dfea81aa7",
+      "bytes": 10303,
+      "read_scope": "Complete report read; report-level synthesis, not a new raw audit"
+    },
+    {
+      "id": "src:taxonomy32",
+      "kind": "sealed_report",
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/root-query-failure-taxonomy-2026-09-09/REPORT.md",
+      "sha256": "6eefa1b9b583c622df2b0b1c28c210eeecb49178abe5deca2c766c6992935cda",
+      "bytes": 8552,
+      "read_scope": "Complete report read; report-level synthesis, not a new raw audit"
+    },
+    {
+      "id": "src:coverage48",
+      "kind": "sealed_report",
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/root-coverage-first-live-2026-09-09/REPORT.md",
+      "sha256": "935be163fc0a471669e0e24c5dfc0f0028355523d3daacccdb34b6c9c2481c98",
+      "bytes": 8138,
+      "read_scope": "Complete report read; report-level synthesis, not a new raw audit"
+    },
+    {
+      "id": "src:bridge32",
+      "kind": "sealed_report",
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/root-child-representation-bridge-live-2026-09-09/REPORT.md",
+      "sha256": "b07584134aeac387328f557c2dd976b25a1e3d9e345363dee8397ca2df64f206",
+      "bytes": 9153,
+      "read_scope": "Complete report read; report-level synthesis, not a new raw audit"
+    },
+    {
+      "id": "src:ideas",
+      "kind": "local_reference",
+      "path": "/project/alex_phd/repos/rlm/new-ideas/ideas.md",
+      "sha256": "52c8a89bdc99665d711c419c438440b246abb463e3a8f5514d0341f06654c9ed",
+      "bytes": 16206,
+      "read_scope": "Read-only source reference"
+    },
+    {
+      "id": "src:authority",
+      "kind": "local_reference",
+      "path": "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-09-research-factory-plan.md",
+      "sha256": "58c841ce30820e960c700dd4b57df425de21c8c9d6fa298cbbde853072f45151",
+      "bytes": 6199,
+      "read_scope": "Read-only source reference"
+    },
+    {
+      "id": "src:oldclaims",
+      "kind": "local_reference",
+      "path": "/project/alex_phd/runs/rlm-research-r4/analyses/cross-experiment-synthesis-2026-09-09/CLAIMS.json",
+      "sha256": "5e320aeebeea50050d1f79d6e3d7978b34a9f694a75bc88b376d37eed092278e",
+      "bytes": 14871,
+      "read_scope": "Schema/README compatibility inspection, not recuration of all earlier claims"
+    },
+    {
+      "id": "src:literature",
+      "kind": "local_reference",
+      "path": "/project/alex_phd/runs/rlm-research-r4/ideas/2026-09-09-core-harness-experiment-audit.sources.json",
+      "sha256": "454ff386a9ab13678673b17e7b1dd5542627d44bc60dc05d35a7a12d9a02b225",
+      "bytes": 7963,
+      "read_scope": "Read-only source reference"
+    },
+    {
+      "id": "src:benchmark",
+      "kind": "local_reference",
+      "path": "/project/alex_phd/repos/structured-decomposition-benchmark/STATUS.md",
+      "sha256": "2d2e5794e08ced53f688948ebe6272e6732ab7877049077ffbc5c975aadf6ee3",
+      "bytes": 26550,
+      "read_scope": "Bounded relevant STATUS findings; no complete historical raw audit"
+    },
+    {
+      "id": "src:contracts",
+      "kind": "local_reference",
+      "path": "/project/alex_phd/repos/structured-decomposition-benchmark/src/structured_decomposition_benchmark/contracts.py",
+      "sha256": "e5e6efb467906b92640f7dfdef9930f984831ade107a4e00effdb5915bfe2e0a",
+      "bytes": 2128,
+      "read_scope": "Read-only source reference"
+    },
+    {
+      "id": "src:rlm-v3",
+      "kind": "primary_literature_reference",
+      "title": "Recursive Language Models",
+      "url": "https://arxiv.org/abs/2512.24601v3",
+      "verification": "verified_primary_by_MAIN",
+      "publication_version_date": "2026-05-11",
+      "verification_scope": "MAIN reports primary-page checks on 2026-09-09; this curator did not independently refetch. No paper empirical result is imported.",
+      "sha256": null
+    },
+    {
+      "id": "src:lambda",
+      "kind": "primary_literature_reference",
+      "title": "The Y-Combinator for LLMs: Solving Long-Context Rot with lambda-Calculus",
+      "url": "https://arxiv.org/abs/2603.20105v1",
+      "verification": "verified_primary_by_MAIN",
+      "publication_version_date": null,
+      "verification_scope": "MAIN reports primary-page checks on 2026-09-09; this curator did not independently refetch. No paper empirical result is imported.",
+      "sha256": null
+    },
+    {
+      "id": "src:chained",
+      "kind": "primary_literature_reference",
+      "title": "Chained RLM",
+      "url": "https://arxiv.org/abs/2608.05124",
+      "verification": "verified_primary_by_MAIN",
+      "publication_version_date": null,
+      "verification_scope": "MAIN reports primary-page checks on 2026-09-09; this curator did not independently refetch. No paper empirical result is imported.",
+      "sha256": null
+    },
+    {
+      "id": "src:counterfactual",
+      "kind": "primary_literature_reference",
+      "title": "Python is the Counterfactual (user-supplied title)",
+      "url": "https://openreview.net/forum?id=k2NrIxm4Do",
+      "verification": "unverified_not_asserted_nonexistent",
+      "publication_version_date": null,
+      "verification_scope": "MAIN reports primary-page checks on 2026-09-09; this curator did not independently refetch. No paper empirical result is imported.",
+      "sha256": null
+    }
+  ],
+  "publication_candidates": [
+    {
+      "id": "pub:output-correspondence",
+      "status": "promising",
+      "organizing_hypothesis": "Output-source correspondence matters for batched classification, with local autoregressive timing sensitivity.",
+      "central_contribution": "A controlled empirical boundary: same-shaped constants, deliberately shifted cues, phase-rotated same records and bounded new-record/released-model checks.",
+      "supporting_claim_ids": [
+        "claim:fresh-correspondence",
+        "claim:shifted-cue-following",
+        "claim:same-record-distance"
+      ],
+      "contrary_claim_ids": [
+        "claim:bridge-no-task-gain"
+      ],
+      "literature_source_ids": [
+        "src:rlm-v3",
+        "src:lambda"
+      ],
+      "missing_decisive_experiments": [
+        "Adequately exposed end-to-end replication",
+        "New-source/locality or released-model locality replication",
+        "Independent contexts/model training seeds where relevant"
+      ],
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-fresh-correspondence-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/analyses/reminder-phase-live-2026-09-09/REPORT.md"
+      ],
+      "novelty_boundary": "Not generic ID novelty, unconstrained ID learning or direct attention measurement; forced grammar is part of the intervention."
+    },
+    {
+      "id": "pub:controller-boundaries",
+      "status": "exploratory",
+      "organizing_hypothesis": "Native-audited small root-training changes help some tasks but leave identifiable reduction and transfer bottlenecks.",
+      "central_contribution": "A bounded empirical map of useful updates, nulls and negative controls, with actual optimizer/mask/availability accounting.",
+      "supporting_claim_ids": [
+        "claim:sft-dose-gain",
+        "claim:rl-limited-gain",
+        "claim:query-diagnosis"
+      ],
+      "contrary_claim_ids": [
+        "claim:plan-negative",
+        "claim:bridge-no-task-gain"
+      ],
+      "literature_source_ids": [
+        "src:rlm-v3"
+      ],
+      "missing_decisive_experiments": [
+        "New query compositions and independent data",
+        "Matched-budget successful full-procedure targets or reducer readout",
+        "Independent training replication with meaningful stochastic/data variation"
+      ],
+      "artifact_paths": [
+        "/project/alex_phd/runs/rlm-research-r4/analyses/root-success-sft-lr-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/analyses/root-bounded-refill-rl-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/analyses/root-plan-sft-live-2026-09-09/REPORT.md",
+        "/project/alex_phd/runs/rlm-research-r4/analyses/root-query-failure-taxonomy-2026-09-09/REPORT.md"
+      ],
+      "novelty_boundary": "Not first RLM training; no general learned-planning or universal efficiency claim."
+    },
+    {
+      "id": "pub:sufficient-recursive-information",
+      "status": "exploratory",
+      "organizing_hypothesis": "Learned intermediate information supports correct composition across valid partitions and unseen query/structure combinations.",
+      "central_contribution": "Proposed, not measured: learn what must cross the boundary, not merely force a JSON form.",
+      "supporting_claim_ids": [
+        "claim:sufficient-information"
+      ],
+      "contrary_claim_ids": [
+        "claim:plan-negative",
+        "claim:bridge-no-task-gain"
+      ],
+      "literature_source_ids": [
+        "src:rlm-v3",
+        "src:lambda",
+        "src:chained",
+        "src:counterfactual"
+      ],
+      "missing_decisive_experiments": [
+        "Ordinary-report baseline plus constructed lossy control",
+        "Nonrecursive exact-program and compute/length controls",
+        "Held-out learned contract/representation selection, not imposed incidence",
+        "Separate partition robustness from depth generalization"
+      ],
+      "artifact_paths": [
+        "/project/alex_phd/repos/rlm/new-ideas/ideas.md",
+        "/project/alex_phd/repos/structured-decomposition-benchmark/src/structured_decomposition_benchmark/contracts.py"
+      ],
+      "novelty_boundary": "Hand-designed sufficient statistics beating deliberately insufficient reports is true by construction. The OpenReview citation is unverified, not disproven; continuation state is a separate line."
+    }
+  ]
+}
+

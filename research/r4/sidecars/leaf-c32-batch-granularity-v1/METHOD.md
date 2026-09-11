@@ -1,0 +1,9 @@
+# Prospective scoring and interruption method
+
+Frozen before all new76 outcomes. Follow DESIGN primary: missing/unverified call→NULL labels with bounds; authenticated return but incomplete map/wrong label type/duplicate or extra/missing ID/wrong route→strict0 for all current labels, not infrastructure failure. Valid full maps score original gold by ID without reordering/repair; key order is diagnostic only. Unknown provider usage never becomes0. A completed raw authenticated response without RESULT is retained as a separate diagnostic, not primary completion salvage; all physical dispatches/raw returns remain counted.
+
+All1024 labels per arm are planned across2contexts×2seed blocks; compare paired records within block, report each context and seed separately. The two source contexts were selected for prior failures after faithful accumulation. No population-generalization or causal internal-mechanism claim. Wide and small outputs are fresh; historical labels never enter either prompt or scorer as a control target. Host gold is scoring-only and label mutation must leave requests unchanged.
+
+Record availability, strict semantic count/bounds, full-map validity, canonical ID fidelity, category confusion, per-batch/input position; report output-order fidelity separately. Secondary host target aggregate requires complete256-label map. No root execution, no state-use success inference. Full known/unknown input/output/cache and wall/dispatch timings; provider billing, equal compute and pure attention effects are unmeasured.
+
+Interrupted owner reconstructs76 slots from per-call RESULT, never drops later REQUEST/RESPONSE because RESULT exists. A raw body is not executed. Final artifact/source hashes and exact service release/parent exit close the report; prospective METHOD does not authorize launch.

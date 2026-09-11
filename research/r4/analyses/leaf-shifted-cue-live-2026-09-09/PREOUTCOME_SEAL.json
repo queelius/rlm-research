@@ -1,0 +1,13 @@
+{
+  "outcomes_read": false,
+  "run_only_after_MAIN_terminal_trigger": true,
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/CPU_TESTS.json": "e44e52a05edf6c372d5b082a2ab4d4259df39cfe454041656c4ab5087af635f2",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/METHOD.md": "9d72d9bad440767f52b636fea4dba970d6eb2413fec0f3f62c4b8cd0c684ee1e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/PREOUTCOME_AUTH.json": "cacbe7d5a8323930d338bab0d291773434d2a25a7878cb261b6b7e03a5ce7db5",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/authenticate.py": "dfbd5ef5b66f6022b61c04184cb384b73fc49752f2379f67b01fd924ab0eac1c",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/parser.py": "4380060677610db0abbd4ec7474eb90c4f9ffd6554bf235f766b63d88f2ea5f0",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-shifted-cue-live-2026-09-09/test_parser.py": "aef9ae73ff54764e2e24602484dd84ea8f148c3dbc83aa41f13a44d2a8f6e2ec"
+  },
+  "status": "PREOUTCOME_METHOD_SEALED"
+}

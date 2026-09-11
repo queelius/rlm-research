@@ -1,0 +1,15 @@
+{
+  "artifact_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-scale-state-cpu-2026-09-10/CHECK.json": "9b9832b2564d47b80ae51fdf25de1691ed8443ab2b4496978ed742e920595610",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-scale-state-cpu-2026-09-10/REPORT.md": "d5d399bb405dc947741090ea702cb44905fa542a1042fbbc620547affef48d7c",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-scale-state-cpu-2026-09-10/TEST_RUNTIME.xml": "15178566ffa8f9d1d5ff1498de4c4ba5582007ddda79f25660f35ce66ab4aa2f",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-scale-state-cpu-2026-09-10/check.py": "06f5ac3136799e32dd31ed13a2b64039813c02abf02d69b01c36436a83d8046c",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-scale-state-cpu-2026-09-10/seal.py": "ebf4c8b048838f3e5dc8eda90a6b70561ba77b22582e172aba7022d0fcd59f69"
+  },
+  "no_gpu_actions": true,
+  "no_source_changes": true,
+  "report_sha256": "d5d399bb405dc947741090ea702cb44905fa542a1042fbbc620547affef48d7c",
+  "sealed_utc": "2026-09-10T05:50:24.189339+00:00",
+  "source_ready": "d10c9bb2b7a5f1e8e0d5f3146f2ccc6124d6bbda4373ca6692007af932e119ac",
+  "status": "independent_CPU_review_complete_ready_within_declared_scope"
+}

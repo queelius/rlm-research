@@ -1,0 +1,32 @@
+{
+  "author_scope": "runtime plumbing and other studies, not scientist clarity driver",
+  "available": 95,
+  "contexts": 4,
+  "correct": 58,
+  "files_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/AUDIT.json": "5f53a02b6f50a0a359ea443e0e71a18555fea9781f6b4a884dcaa6eda81fb97d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/CORROBORATION.json": "a5baffb6b693d22550aef8564cb1f0a6e92d07ec3e4bd13e57f265a63936240c",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/METHOD.md": "262a56c1a969da780edde7a9bb5c1b49c0447445276b504deadc8b5e1cd84af1",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/METHOD_READY.json": "812063cd2dbcdb7b93a39afa47e5f771764f3d3e32dff619faf4bbe972d9abde",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/OUTCOME_PINS.json": "207f9251e44c0165fe51a2d79d26d1a7c784d33c85ce839f815c4b9a027cc8a8",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/PROGRAM_GROUPS.json": "f1ba3e053acdafee032279408f7eb51944bb7abef063155888e4494035ed7c08",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/RAW_BRANCHES.md": "60be8ed4c7c486770c57d125d308afd1fc621753da3ef96904cfa1016dc550a0",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/REPORT.md": "ad8f2d939a2e76e921988e6cc7a4ba70ebce27a613497aec5c6cdd93e9391c2e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/STATE_USE.json": "38dadd2286203ab8e8832b3ead77712cd52da17d1e128a827d2d2e47b3356f77",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/STATE_USE_V2.json": "6529528213173226bc85bc85d78ca6824c555df6894743c182323897b4313c7a",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/VERIFICATION.json": "6ee5a7663e761da44362709519e1ed9477c0cc33144bba79dedc7b921a5cfe44",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/annotate.py": "b4e4357b6137ac8dc0bb4c971aaf3afff7a7504f5cec6a1a180f5c35c5e27c38",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/audit.py": "3f42c5f04cdf649a4dea148244ff3a07014e3736b6b802e4f6c2bdcb66e3a7bf",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/corroborate.py": "0433da54a8a2ae9de567f6093d85652d4dc21e3fda89d6385e557c674f608d0a",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/freeze.py": "abfc80d6b6ee5faa7f73da1e5bfc946aec5afa7797915f4f9399ccbf8db46627",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/primitives.py": "ef421063ba72c8150a8fc78d42d31cec790eed77663ae14755c09b188706a112",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/review_groups.py": "8626c4fa05fde2ee4c342d51473966f7581155a1675e239b4a626efd165c63f1",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/seal.py": "2b75e6ec7832af4c86eb8c9a91a1db70c75cc1bebe7c44b974ad4b8f60575921",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/test_primitives.py": "8527b1a9b53f65f359acd1b6dbf92deec40d8474b631db1d6464ea5013bd80ee"
+  },
+  "method_ready_sha256": "812063cd2dbcdb7b93a39afa47e5f771764f3d3e32dff619faf4bbe972d9abde",
+  "planned": 96,
+  "query_blocks": 8,
+  "report_sha256": "ad8f2d939a2e76e921988e6cc7a4ba70ebce27a613497aec5c6cdd93e9391c2e",
+  "seed_blocks": 24
+}

@@ -1,0 +1,9 @@
+# MAIN-only fresh96 launch
+
+CPU verification: `/project/alex_phd/envs/prime-rl-5990b1b/bin/python /project/alex_phd/runs/rlm-research-r4/sidecars/leaf-fresh-correspondence-v1/owned.py --verify` with CUDA_VISIBLE_DEVICES empty. Parent alone assigns one empty GPU and existing STRICT_RLM_CALIBRATION_API_KEY without printing it, then runs the same command without `--verify`, adding `--directory /project/alex_phd/runs/rlm-research-r4/sidecars/leaf-fresh-correspondence-v1/owned/attempt-001` under1800s outer cap.
+
+Exact released Qwen3 cdbee75f and Qwen3.5 851bf6e, no adapters; old fully hashed weight artifacts checked by immutable size/mtime/inode and same manifest. Native vLLM0.28 eagerBF16/prefixcacheoff/.5/fullsupport/nonthinking/max3072,8192 total context. Qwen3.5 language-model-only/GDN align settings unchanged. Two48-call services serial qwen3→qwen35. Frozen individual-row collector has four concurrent calls and no retries; physical ordered HTTP body capture and complete raw responses/IDs/usage retained.
+
+Work1650 starts before verification, collection600 each, startup≤300 clipped to work; first release consumes work, final120 reserve, owned1770/outer1800. Model startup/HTTP/cap failure preserves raw and unrun96 denominator. No source substitutions, text truncation, label-balanced selection or fallback after outcomes. Original sources unchanged; private driver cardinality48 and owned clock substitutions are counted. Full model GPU capability was previously qualified by completedQwen144, not newly smoke-tested on selected data.
+
+All record selection/provenance and benchmark-license/phrase/near-duplicate/pretraining caveats are in DATA/SELECTION_PROVENANCE and DESIGN/MAIN_AMENDMENT. Author projection remains an implementer report, not independent validation. Main should trigger raw audit after owned TERMINAL and service FINISH/release, outside GPU lock.

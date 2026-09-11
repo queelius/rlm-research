@@ -1,0 +1,10 @@
+{
+  "artifacts_sha256": {
+    "METHOD.md": "3b5a79dc293c5f7fa9b05011c7439a61f922fbb0ac836b5cbc122a6d0cd7e0df",
+    "REPORT.md": "4cd2686d57c4d67dd938fa1fc912b7eba741d45aeddfa7ac8cc159c85c161431",
+    "RESULTS.json": "3f923fedb33308193341a19e8f8ff31da1d2fe3126ce334501df50dc645eabd5",
+    "SOURCE_PINS.json": "9cb1fb85e94b3de2e1afc49369b18832d134807b8e8fdb47201fe78f9e429cf6",
+    "reproduce.py": "bb33861d009f712e37db764c698d932cc8c219abec3acbebfeea978955df041b"
+  },
+  "schema": "leaf-trec-native-confidence-seal-v1"
+}

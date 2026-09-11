@@ -1,0 +1,5 @@
+# Complete execution-observation binding
+
+The original graph-node inventory contains85 observation nodes for87 returned root tool actions. Two subsequent root calls failedHTTP400 after prompt overflow; their executed tool observations were present in the physical request history but not committed as graph nodes. `observations.py` binds every returned action to its immediate next request's exact assistant replay and tool observation and verifies the complete native token-prefix extension. All87 pass, including the two failedHTTP400 requests. No global call_0 lookup, replay, repair or sampled execution. This extends the promised all-observation audit and leaves all primary scores/NULLs unchanged; original AUDIT is preserved.
+
+The missing-node regression uses only the prior authored CPU fixture plus a synthetic failed call. Its first invocation failed because the mocked episode path was supplied to read/exists but not sha; the test mock was corrected to include the fixture hash boundary. No production/analysis admission change resulted from that test correction. Test output is recorded separately from the four pre-outcome tests.

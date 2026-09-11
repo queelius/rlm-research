@@ -1,0 +1,20 @@
+{
+  "schema": "root-composed-rl-checkpoint2-readout-audit-final-seal-v1",
+  "status": "complete",
+  "artifacts": {
+    "AUDIT.json": "2922a4099f49b24ac1064e8d1c2681cf654d120f36eeb810ec22cf9de4bac4e4",
+    "METHOD.md": "a6213e97422888dc7ad7ca3a42b138e5fffdb4c2da5a4847743c9886e626d033",
+    "METHOD_READY_V5.json": "5881a818a26f3ffc1cee58ce71537eb0b750465579ebd5b6e41a0c89deb67bab",
+    "METHOD_V5_AMENDMENT.md": "b2f8545efac267345a5a1ad3fb595405e19b25d2e0ddb7541e08e77feda423d3",
+    "READER_READY.json": "e1bf3861461cd71ac65fe5c237f08aa9865a8ef94d465507b5ea2e833272b5e4",
+    "REPORT.md": "d6a990ba0ae6262269cfd7a9b1087b8be92b311b5e14521e8355830ba7157316",
+    "SEMANTIC_PACK.json": "52aad7227e5d3937e58ec77e42cd677b681d35b2e23cc592067c20bbad6ba181",
+    "SEMANTIC_REVIEW.json": "868cf4ac7b84d49ff81be8072ccc248d143d35bf419dfdfd324616c41fc5c6d1",
+    "audit.py": "97aa1a73df86f57fe1cd415d3df00cfa330ca604781b97f56c4023e1aa4b2a37",
+    "semantic_pack.py": "699427cacbdbe92c525bce449bbf38fce8c0d9f80965a9aa1c64081f9585479e",
+    "semantic_review.py": "b9c0aa243c72c79e3084f7da7132df0162da6ba2f400d51c717020928300e2e5",
+    "test_audit.py": "1611e6b77b5354ac582ec169419df8ddf1d6ccc2bb2d9bebf2db0a7779fcae19"
+  },
+  "producer_terminal_sha256": "098632e16477d1d304a073b387a2c5d15164613b2ba34377ee3b9e47bc3cf987",
+  "parent_exit_sha256": "d8fed5076855c2264614489bd6809cb39871e6073b72935a2744ea324048b89c"
+}

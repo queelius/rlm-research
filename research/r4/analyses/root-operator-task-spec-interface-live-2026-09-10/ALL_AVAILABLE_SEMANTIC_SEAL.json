@@ -1,0 +1,12 @@
+{
+  "additive_to_final_audit_manifest_sha256": "d87ccb9dbc08a85761f495d66bf60d9bdd2e29108047ecc5adb6a623e231901f",
+  "artifacts_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-task-spec-interface-live-2026-09-10/ALL_AVAILABLE_SEMANTIC_RETROSPECTIVE.json": "ae20876822102c832f6633dda7da16a9761f34ac2b6eae2dda0e6a76ef3842d4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-task-spec-interface-live-2026-09-10/ALL_AVAILABLE_SEMANTIC_RETROSPECTIVE.md": "d9e51412dd379c9b7fb41d9720a715fd8b0e6002cf7a022c2f3fde2dd92025d4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-task-spec-interface-live-2026-09-10/SEMANTIC_CPU_TESTS.xml": "7c0fa1975306f0d17ddbc4de906f18bc4e75f55ed04a8456533fe625a2585fb2",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-task-spec-interface-live-2026-09-10/semantic_all_available.py": "8944ebb30a27add483ba29c1db516d25174f3334de7f716ea35a293b533750a7",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-task-spec-interface-live-2026-09-10/test_semantic_retrospective.py": "c0f1cec66cca9d37321796ad22679fff34e18a804dedd5c0a006036b53c4d64b"
+  },
+  "sampled_code_reexecuted": false,
+  "terminal_scores_changed": false
+}

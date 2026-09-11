@@ -1,0 +1,25 @@
+{
+  "schema": "qwen8b-stable-anchor-independent-audit-final-seal-v1",
+  "terminal": {
+    "owner_terminal_sha256": "4eb6a12bb8f2ebb196efe65efcff1d80f068ff505214fbf7653fe5c18a517fda",
+    "parent_exit_sha256": "e97ab8139bac3ee02556918cb78e8e87f0cc75cfbbb6d541ff782afa1a6245ad"
+  },
+  "producer_ready_sha256": "5a192017131ddeef07d61e0668b821597f60416fa0bc36c6d05ff4fd332b703f",
+  "artifacts": {
+    "AUDIT.json": "7871f8b4ea44dc207d39da607d05804ccbe037450380415d901fbceb5628535d",
+    "FIGURE_DATA.json": "0d9e27924d93fee72c085e8d61ddf1cbe5883a73dd244f0c647d97551dfec32b",
+    "METHOD.md": "3985cc2d3b0b6323d55a5a8e1d9731c234c1afe3c2c0fab5f60072f3eb7f3739",
+    "METHOD_READY.json": "211e8cd72dd22a5a99024d01ab388eddf5bbbf2a1e13bc222cbd5535dd79792a",
+    "REPORT.md": "e7ba139e12ef0aa0f490380085f1d31a2488172e6599a78536dbd0ccec5caa68",
+    "audit.py": "e2c8119029b088549c3330e26a54c468a11ee0f0d0f1e63f8d734abbac28795f",
+    "test_audit.py": "d034675aed502e3fc2382a1e10c4c60a55184ee4c0a2c4d0f2eb478fdc78ef0f"
+  },
+  "inventory": {
+    "planned": 144,
+    "native_authenticated": 144,
+    "contract_valid": 144,
+    "null": 0,
+    "qwen4b_joined": 144
+  },
+  "gpu_actions_by_auditor": 0
+}

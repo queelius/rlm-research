@@ -1,0 +1,12 @@
+# Composition96 independent audit sealed
+
+Report: `/project/alex_phd/runs/rlm-research-r4/analyses/root-operator-composition-transfer-live-2026-09-10/REPORT.md`, SHA256 `80a955add6e0964ba1ef1ccd4308bad1a37ab267458e693b1fa466dbc64bdb90`.
+FINAL_SEAL SHA256 `4c27e028b5c247d5f00614d8fabe3135cb46896d54c6eb4f134881321eac5824`;11528 pins verified, including6501 scientific files, original method/parser/source closure and parent EXIT.
+
+All96 independently rescored with zero source disagreements. SFT24 9/48 planned,28 available,20 NULL; SFT6 6/48,31 available,17 NULL. Primitive5/24 vs3/24; composition4/24 vs3/24; nonzero6/41 vs1/41. NULL bounds overlap. Eight context means and all48 paired outcomes are preserved.
+
+Manual full available-panel review materially narrows this: only SFT24 context03 count/weight are task-faithful correct nonzero reductions. All4 correct composed SFT24 answers use wrong operators that coincide with gold. Two correct distinct-user answers count records; another zero count excludes an authorized user. No SFT6 success uses valid semantic acquisition. One wrong SFT24 answer faithfully counts an actual erroneous child map (2 versus gold3); mixed scope/child errors are not mislabeled pure semantic failures. All59 available endpoints annotated after outcomes, separate from primary method.
+
+All1083 physical attempts retained:864 SFT24/219 SFT6;1072 returns authenticated against model/native tokens, zero integrity errors. Actual child calls233/35. Known total input3,353,659/output139,250/cached3,216,608 tokens;11 calls have unknown usage. Primary-NULL endpoints consumed854 physical calls. Missing RESULT9/2 remainsNULL, no diagnostic completion salvage. Two malformed authenticated scalar answers remain strict0. Parent EXIT0/1461.430546s/GPUempty; both policies released; OWNER_TERMINAL SHA f417fef5… retained.
+
+Do not promote9/48 as9 faithful solutions or compositional transfer. Primitive improvement in3/8 context means does not meet the prospective6/8 heuristic; faithful composed successes0. Observed acquisition-to-reduction routine is narrow and query binding fails; a matched task-spec/prose-control diagnostic is justified independently of any training continuation. No GPU, model calls, source changes, rerolls or sampled-program reexecution were performed by this audit. Author/reviewer independence is qualified by prior common-runtime contributions, as prospectively disclosed.

@@ -1,0 +1,9 @@
+{
+  "schema": "new-corpus-sft-attempt001-failure-seal-v1",
+  "status": "no_scientific_readout",
+  "pins": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-question-sensitive-sft-new-corpus-replication-v1/outputs/attempt-001/OWNER_TERMINAL.json": "19abba15d3eec906022fc131ea550c3efa24528c923d7b3a6d9fba6cbc268129",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-question-sensitive-sft-new-corpus-replication-v1/outputs/attempt-001/capture/CORPUS_READY.json": "7d49af0a75a15f8b085a7e8132dd3c1941c30c349fcc473797e1088956c7243e",
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-10-after-two-harness-bridges-new-corpus-sft6/attempt-001/new_corpus_sft6_metadata72/EXIT.json": "9626480037e914eaa943b40f3d8fd855738339f67388325f28624157e7fddcb4"
+  }
+}

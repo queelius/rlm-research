@@ -1,0 +1,37 @@
+# Implementation approval
+
+MAIN approved isolated CPU implementation/READY of the design below. Earlier pending-approval wording is historical. The original selected bytes and FEASIBILITY_V2 remain binding. No new resumable scheduler is needed: raw response reharvest is analysis-only; every physical attempt remains preserved and no retry/reroll is implemented. No GPU/service/lock/queue launch authority.
+
+# New-context MNLI matching/constant replication — decision-ready CPU feasibility
+
+**Question.** Does the fixed released classifier's matching-tag advantage extend beyond the repeatedly exposed eight MNLI contexts when output syntax/tag compliance is forced in both arms? This is a breadth replication of correspondence behavior, not a new unrelated-ID/diversity isolation and not a confirmatory claim selected independently of prior findings. It is independent of the ongoing SFT outcome and alien-ID experiment.
+
+## Concrete selection and token feasibility
+
+Keep the already selected16 contexts: four per government/slate/telephone/travel,16 unique premises/context and all three distinct hypotheses/premise. Thus256 premise groups/768 pairs, with no cross-context premise overlap or public-ID collision. The selected premise groups' raw premise text is identical across their three hypotheses. Select by deterministic public-text hashes with master981621001, not gold composition, answer difficulty, length or outcomes. All source rows have valid labels; no one-of-each-label filter. Per-row arbitrary valid-label reassignment leaves the public selection identical.
+
+The explicit existing MNLI inventory comprises original DATA/PUBLIC and four READY receipts covering original, shifted(V1/V2) and exact-tag studies; successors reference the same original128 premises. Exclude all512 normalized original premise/hypothesis texts plus the original bounded exposure receipt. Remaining eligible complete3-hypothesis groups: government581, slate593, telephone600, travel611. This is new context/premise exposure relative to these inventories, not globally research-unseen or pretraining-unseen data.
+
+Actual tokenizer inputs are3291–4088 tokens matching and3268–4069 constant. Maximum4088+3072 output=7160<8192: retain the qualified8192 context, no larger service reservation, cropping or reselection. Constant `mcaf4f357c8f7` is absent from all selected IDs and deterministically matches modal serialized tag-field length15 tokens. Across768 fields, matching11837 versus constant11520 gives a317-token deficit; not equal length/FLOPs. Source IDs are unchanged `m`+12hex hashes of normalized public premise/hypothesis, never original pairID suffixes.
+
+Frozen inputs: [SELECTED_INPUTS.json](../../../../ARTIFACTS.md#unpublished-files "Not published: /project/alex_phd/runs/rlm-research-r4/analyses/mnli-new-context-feasibility-2026-09-10/SELECTED_INPUTS.json"), SHA `402f5597796325aa80399f7e8a1f28141b86b6fd0166dbfcf9dd0d99af312372`. Corrected [FEASIBILITY_V2.json](../../../../ARTIFACTS.md#unpublished-files "Not published: /project/alex_phd/runs/rlm-research-r4/analyses/mnli-new-context-feasibility-2026-09-10/FEASIBILITY_V2.json"), SHA `0b32e370cccc1008b13dd2375014896ac46e372548671905270b7669062c04ff`. V1 counted BatchEncoding mapping keys rather than input_ids; preserved as an invalid prefix measurement, corrected without changing selected bytes.
+
+## Matched comparison and exact source boundary
+
+Thirty-two new calls:16 contexts×matching/constant, one fresh paired sample seed981621101+context_index. Hash-order contexts, alternate arm order by context parity, yielding balanced arm-first order within each genre. Four workers; completion order uncontrolled. All48 record texts, IDs/order and directional NLI semantics are identical within pairs. Common four-field records: id,premise,hypothesis,requested_tag. Only requested_tag is the record's own ID in matching versus the same constant in control.
+
+Reuse **verbatim** the current exact-tag classification role, instruction preamble and sampling from `leaf-mnli-exact-tag-correspondence-v1/protocol.py` (SHA `6ff27543e240e653c777391f836ef7b361e740265efe7d959971e516222f3b13`). Replace only its old context source/plan and shift17 expected-tags branch with the frozen new contexts/constant branch. Preserve exact positional JSON prefixItems grammar, per-position const tag, all three canonical label choices,48 items and no additional fields. Neither labels nor quotas depend on gold. There are no generic/free-decoder arms, singleton additions, tools, explanations or reasoning outputs.
+
+Released Qwen3-4B cdbee/noLoRA, native final-only transport, temperature.5/top_p1/top_k−1/min_p0, repetition1/presence0/frequency0, max3072, thinkingfalse, return_token_ids, new cache salt and frozen seeds. New input source, tags and seeds are the only scientific boundary changes from exact32. Original models/interfaces remain untouched. Matching versus constant still bundles source-ID correspondence with repeated-versus-diverse output dictionaries; unrelated-ID48 addresses that different question.
+
+## Metrics, persistence and cap
+
+Primary: whole48-item strict protocol/tag/order admission, then displayed-position semantic accuracy; authenticated malformed response contributes strict0, missing/unverified endpoint contributes NULL with0–48 bounds. Report shape-only semantic accuracy, item tag fidelity, whole-batch validity and native availability separately. No reordering/salvage. Sixteen paired context means are the primary units, four fixed genre strata, three hypotheses/premise nested within contexts—not768 independent examples. All32 planned slots/costs remain visible.
+
+Use the qualified exact32 owner/collector/service/authentication entrypoints additively.1200 outer,1080 work,1170 owned;180 startup inside work, four90-second request workers and30 collection/finalization reserve,90 cleanup+30 margin. Prior exact32 completed in221.2s, a planning reference not a performance guarantee. Every request, raw response and terminal score persists separately. Completed returned endpoints can be authenticated/reharvested without model calls; any separately authorized continuation must skip every already physically attempted slot, dispatch only never-attempted slots and retain the original absolute shared cap. No automatic retries, replacing failed responses or fresh cap reset. Preserve physical attempts, return/NULL branches, known/unknown usage and elapsed cost; provider billing unknown.
+
+## Readiness and implementation boundary
+
+Recommend implementation: input breadth is available, all prefixes fit, and no new model/runtime or context expansion is needed. Before READY, require exact composed owner→collector/service namespace, actual no-tools native prefix/token/schema fixture, constant/matching decoder compliance, arbitrary-label mutation, disjointness/collisions and raw-response recovery/no-repeat tests. No GPU/service/lock/launch has occurred; this note and CPU selection are not implementation/READY authority. MAIN approval is the remaining design decision.
+
+Source is the already cached MNLI validation_matched parquet at revision da70db2af9d09693783c3320c4249840212ee221, SHA350c26950b55f460b50d36c76aef87d64b49c78812d7abf7bf97e5fede10f186; acquisition receipt99f9482f…, retained carde9bafc4d…. Preserve original mixed/OANC source license, not blanket MIT. Full source selection/protocol files were read; actual CPU source selection, mutation and tokenization were run. No model outcomes informed which new contexts were selected.

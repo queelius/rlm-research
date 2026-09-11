@@ -1,0 +1,15 @@
+# Clarity96 independent audit handoff
+
+Full report: `/project/alex_phd/runs/rlm-research-r4/analyses/root-map-contract-clarity-live-2026-09-09/REPORT.md`; immutable closure `SEAL.json` beside it. This auditor authored runtime plumbing, not the clarity collector. Method was pinned before current outcomes were parsed, with one unavailable endpoint disclosed; MAIN had already seen aggregate availability/correctness and is not called outcome-blind.
+
+All96 coordinates audited:95 actual native finals,58 correct,79 strict,74 supplied-map-consistent. F0M0/F0M1/F1M0/F1M1 correct counts14/10/17/17; availability23/24/24/24. One genuine unreturned endpoint remains NULL (Jupyter `_queue.Empty` after an authenticated pending inspection tool); no zero imputation or scorer disagreement. All367 physical wire token/usage/model/sampling records and96 initial prompt rerenders verified;95 native final tokens decode to the exact final reply.
+
+F actual-field clarification: +2/23 paired at M0, +7/24 at M1; eliminates observed KeyError endpoints8/10 to0/0. M bundled map wording: −4/23 at F0,0/24 at F1, not a pure contradiction intervention. Net interaction lies entirely in one of the4 source contexts;24 paired seeds are nested8 queries, not independent source samples.
+
+Successful supplied-map loads11/1/18/18, but executed scoped supplied-map counts2/1/10/3 (plus1/0/1/0 scoped lists). Actual child-derived scoped counts15/9/10/17; new child calls30/31/25/21. Thus near-ceiling F1M1 map agreement mostly does not prove supplied-map reuse. All165 actions/88 normalized programs read with actual tool returns, no sampled-code execution.48 endpoints load the map; only18 use it for a scoped scalar/list. Loaded-then-overwritten maps and unused parallel variables are explicit, not counted as supplied-map reductions.
+
+Physical new spend367 calls (260root+107child),465663 input/36320 output tokens; F1M1 has69 calls versus85 F1M0 at identical17/24 dataset accuracy. Four historical acquisitions verified unchanged,4637 input/599 output, not newly paid. Each hypothetical endpoint charged its full one acquisition; across96 add96 historical calls/111288 input/14376 output. No amortization presented as standalone cost. All usage known.
+
+Ranked next tests: keep actual fieldnames common; isolate map guidance from explicit extra-child permission on disjoint compositions; interpret ongoing corrective-SFT free/controlled readout as an actual multi-observation learning question, without changing sealed sources; address classification-limited maps separately. This already exposed4-context panel does not establish held-out generalization. Both train-01 query maps remain wrong and every cell misses their6 repeats.
+
+Focused verification and source/output closure checks are retained in VERIFICATION.json. No GPU/service/lock/queue action and no old-source or outcome mutation. STATE_USE_V2 is authoritative (chronological action ordering); V1 scratch preserved with unchanged aggregate results. Runtime setup source pins guarantee the selected serialized map write, but overlays do not independently attest every runtime file hash; that limit is explicit.

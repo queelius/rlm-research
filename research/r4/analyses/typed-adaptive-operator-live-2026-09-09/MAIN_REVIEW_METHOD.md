@@ -1,0 +1,7 @@
+# Independent primary check by MAIN
+
+Recorded after terminal and before MAIN opens current outcome records or implementer metrics. Adopt METHOD69ec83d889de0d977d70704d88ada7a2db7d4dc2f95a3bd3eac76c7105c66f3e's frozen population/score/cost, which MAIN read completely. MAIN reviewed scientific code before launch but did not author operator/scoring implementation. No import of implementer scorer for this check.
+
+Independently parse exact planned24coordinates, raw episode root replies/completion and host-only gold; full ASCII Answer: ([0-9]+), completed nonblank malformed0, empty/incomplete/missingNULL. Verify source membership, no duplicate coordinates, pairs by fourcontext×twoseed, logical globalreferences countedonce. Produce every coordinate and pair rather than only favorable averages. Check runtime aggregation against raw selectedIDs/maps where present.
+
+Reconstruct actual unique native request/call identity and root/child/usage totals from raw trusted audits. Any uncertain request-only dispatch/unknownusage remains explicit. Shared globalcountonce. Compare all-planned usage and separately both-correct paired usage. Rehash only consumed files once in a manifest, including this method and prior frozen source authority. Broader native semantic/grammar audit from implementer remains labeled; this review does not claim independent reimplementation of every framework function. CPU-only, no model/generated-host-code/GPUownership.

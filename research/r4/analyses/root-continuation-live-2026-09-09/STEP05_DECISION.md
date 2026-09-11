@@ -1,0 +1,9 @@
+# Step-five milestone — 2026-09-09 02:00:57 UTC
+
+Actual Adam4→5 across504 states, exact predecessor checkpoint-member hashes and unchanged parameter names/options. The update uses16 mixed-group episodes,35 root turns and10,168 action tokens; child/observation credit0. Gradient0.12444438, deltaL2 0.09845165, optimization27.907s; all distribution guards pass. Cumulative inherited plus new:5 actual updates and74,131 root tokens. No step5 validation is prescribed; next scheduled evaluation is step6.
+
+Round05's32 fresh trajectories at root step4 give14 correct/18 wrong endpoints. Training admission retains14 correct/17 wrong and excludes one completed wrong. Independent record/provider audit confirms episode `88d2347ae65d3e8457fe619dc5397e3e5f1da9a952e0b5d3365def08e236c03c` (task00:1, seed208142182) sent9,169 tokens to the fixed c32de depth1 child, received the explicit HTTP400 max8192 rejection, and has no sampled node/response for that request. All85 request IDs are accounted by the frozen exporter, with84 successful model calls. This is the approved exclusion family, not an unknown identity event; no admission relaxation occurred.
+
+The excluded trajectory reports100,060 logical input and13,207 completion tokens,85 model calls,64 recursive subcalls and276.948s episode wall. Collection elapsed388.065s is distinct from this individual duration and from training. Policy-induced exclusion censoring remains visible. Do not treat14/32 versus earlier fresh-seed counts as a learning effect or tune the recipe; continue to the fixed validation6 milestone.
+
+Evidence: `step05-20260909T020057.427491Z.json` SHA256 `c2a66c7a40c9b0cd9af7535b04a2b094a6c080cc1bf5ce124ce96ce86680feef`; `EXCLUSION_round-05_collection.json` SHA256 `059805032ce58c36b0cb02dbc63d5d177336ef0b8b0ed5441fbc22933fcf0e54`. Checkpoint proofs are cached for subsequent snapshots; no GPU calls.

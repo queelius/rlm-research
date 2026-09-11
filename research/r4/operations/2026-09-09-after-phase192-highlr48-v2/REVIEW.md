@@ -1,0 +1,3 @@
+# Additive parent-schema repair
+
+The first parent wrapper was accepted but failed during schema authentication, before START or any owned training/service launch, because MAIN omitted the coordinator-required predecessor_evidence_sha256 mapping from PLAN. That operation and its acceptance remain unchanged. This v2 parent restores the exact predecessor evidence mapping; no scientific source, corpus, seed, weight, cap, or output target changes. Same fully reviewed six sources and five passing science tests; original MAIN review is pinned below. Verification must now exit0 before launch. No study outcome or GPU call exists from the failed parent.

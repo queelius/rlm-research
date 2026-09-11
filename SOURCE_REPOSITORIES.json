@@ -1,0 +1,30 @@
+[
+  {
+    "name": "rlm",
+    "commit": "83cd0269da9774aa2280cc3d3f462178ea894bf9",
+    "remote": "https://github.com/queelius/rlm.git",
+    "dirty": false,
+    "remote_commit_verified": true
+  },
+  {
+    "name": "rlm-bootstrap",
+    "commit": "7f79801073be7799a2318c414f29a764af1a1a0b",
+    "remote": "https://github.com/queelius/rlm-bootstrap.git",
+    "dirty": false,
+    "remote_commit_verified": false
+  },
+  {
+    "name": "structured-decomposition-benchmark",
+    "commit": "c7ee38127e5f37c327b77f518a21f0bab151ff33",
+    "remote": "https://github.com/queelius/structured-decomposition-benchmark.git",
+    "dirty": false,
+    "remote_commit_verified": false
+  },
+  {
+    "name": "evolved-integrators",
+    "commit": "3badcecba2d92486a4a5a2d6b21e55f4d8bd2128",
+    "remote": "https://github.com/queelius/evolved-integrators.git",
+    "dirty": false,
+    "remote_commit_verified": false
+  }
+]

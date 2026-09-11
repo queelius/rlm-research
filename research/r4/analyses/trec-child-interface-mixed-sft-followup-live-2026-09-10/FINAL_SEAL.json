@@ -1,0 +1,16 @@
+{
+  "schema": "trec-child-interface-mixed-sft-final-seal-v1",
+  "date": "2026-09-10",
+  "status": "complete_with_documented_reader_schema_repair",
+  "files_sha256": {
+    "REPORT.md": "c66201d836918caab6e726ef6976e08e59d5dce5e160bf3e95e0d7dfbe5eca6d",
+    "AUDIT.json": "dad21ba320ca6017882ab10b39ddef794c007c1d451c662c9f96434ff37dfd3e",
+    "METHOD_READY.json": "15a68c7c88cedea5dfab109a299e065404a258202d682a5bdfa33dafcc6fa045",
+    "METHOD.md": "007ef9c40695110d999fac0ee29e2259a8e21eb3522c60648eb9708e08adb7b2",
+    "audit.py": "5d2dc4bd991b0e00018f3cac1904d7efe7c46e4bbb861d1545eaa47cfc4c5cba",
+    "test_audit.py": "b04cdff168d803ab69fcc514fd29b69a141220de66caf40eec8437f5f591c27e",
+    "READER_ERRATUM.md": "fc69af50b6d3127dcc2e6b662efcd9b691a3d7c0715dafa1d77fb513a363d103"
+  },
+  "producer_terminal_sha256": "2f5eead81bfeedcc5878e82372c901a8bafa06b64c610bae56392e3e90ffcfe7",
+  "parent_exit_sha256": "6b9280aac4a76ffb6940ea26eebd78ec3740f73e4acde4bf6306d8f8a56e0024"
+}

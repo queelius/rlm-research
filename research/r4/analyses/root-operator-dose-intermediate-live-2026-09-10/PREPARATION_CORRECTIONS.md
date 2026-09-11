@@ -1,0 +1,5 @@
+# Prospective preparation corrections
+
+The first freeze stopped on a stale independent early-review BASELINES/PROVENANCE pin. Actual accepted V4 source/input closure had already verified; only these two metadata files differ from the early review. Their preacceptance corrections were already reviewed: selected16 baseline rather than inherited48, and explicit new selection versus historical provenance. All selected records/tasks/truths and teacher bodies remain unchanged. No scientific outcomes existed/read. Freeze now authenticates these metadata files against V4 and reuses early independent truth receipts only for unchanged scientific inputs.
+
+Before sealing, direct source check of the actual inherited `root-example-map-visibility-v1/metrics.py:10` also confirmed existing outer-whitespace stripping. The parser/method/test are corrected prospectively to preserve that contract; prose extraction remains forbidden. This is not an outcome-driven score change. Initial failed test/freeze artifacts are retained.

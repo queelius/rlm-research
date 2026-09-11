@@ -1,0 +1,7 @@
+# Paired learning-rate intervention
+
+Implements MAIN's approved `ideas/2026-09-09-success-sft-learning-rate-design.md`. Same immutable27 successful training episodes/114 native root turns/15256 action targets, efab start, fresh Adam, eight complete passes and shared981308002 orders. Only numerical training change: learning rate2e-5→1e-4. No source-output repair, new teacher extraction, child credit or objective change. Existing low-LR fixed8 is bound before new inference; it is not a selected intermediate checkpoint. Motivation is the now-exposed earlier readout signal stated by MAIN; fresh seeds are not new source holdouts.
+
+Two serial24-episode readouts, low versus high, same exposed validation/query/length contexts and native typed interface/private runtime. Fresh981314 seed namespace; phase order is SHA256(master:arm). Strict whole Answer correctness is primary, observed malformed/empty0 versus unavailableNULL. Coverage, copying and map-to-count are secondary; raw native caches and all failed costs retained. No old outcome pooling.
+
+Thin private imports preserve original sources. Trainer applies exactly two counted LR substitutions; launch applies exactly three inclusive-cap and one work-cap substitutions. New binding authenticates each fixed8 independently. Collector remains24 per arm, not48 in one invocation. Common child hooks/capture/lifecycle unchanged; inherited transient retries remain bounded, with no new study retries or replacement episodes.

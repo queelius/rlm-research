@@ -1,0 +1,20 @@
+{
+  "artifacts": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-mnli-host-identifier-join-live-2026-09-10/AUDIT.json": "c1aab9c8a6225ae68d8578eeb96a9a81de4a38cad17de9c5c0a37df87a1fb903",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-mnli-host-identifier-join-live-2026-09-10/OUTCOME_PINS.json": "71da80cf17a6c3850558bd746733b23ec647dd0fb8dbe6bfabe4d1a88795532b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-mnli-host-identifier-join-live-2026-09-10/REPORT.md": "6e7114da3b7c0271d1266913b91e6d67d41bb7bcd89ce85bc654c7e6d0d1770d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-mnli-host-identifier-join-live-2026-09-10/audit.py": "983d09bff0d0c283fba3c98e4c1bedb5ad477311759ca50e72ef63b2efe53493",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/leaf-mnli-host-identifier-join-live-2026-09-10/test_audit.py": "59394fafa8a00391a7aab764b2e205e0b3d96dce8908492832dae33b7519c804"
+  },
+  "frozen_advance_gate": true,
+  "native_authenticated": 48,
+  "outcome_pins_sha256": "71da80cf17a6c3850558bd746733b23ec647dd0fb8dbe6bfabe4d1a88795532b",
+  "owner_terminal_sha256": "75e704ee1651d18fa0e66d54aff0841aca5b8936b05e8a1ef52df483807f1576",
+  "parent_exit_sha256": "f099f1641d2dc9ac90ba7e172e3e1b220afeffc69a8e47a4d30f1098780fed33",
+  "planned_endpoints": 48,
+  "primary_mean_did": 0.484375,
+  "producer_score_disagreements": 0,
+  "sealed_at_utc": "2026-09-10T17:34:21Z",
+  "status": "SEALED_INDEPENDENT_RAW_NATIVE_AUDIT",
+  "unexpected_call_directories": 0
+}

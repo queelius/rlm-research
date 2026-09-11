@@ -1,0 +1,17 @@
+{
+  "arithmetic_matches": 12,
+  "faithful_cases": 12,
+  "identity": "a04d38b22a9a45156e97bc0ed153e2afcc46a4fa818fe8fad6ffdab7f8d73b4d",
+  "nonzero_gold": 6,
+  "schema": "scale64-adoption-addendum-seal-v1",
+  "source_sha256": {
+    "FAITHFUL_J1_ARITHMETIC.json": "38ae9da63661d4c7004df1f7e7717f10cd732a6c8f44ba0f79e08f12b01f339b",
+    "HOST_GOLD.json": "fc8a608bfbb6adca45d5eda65f37606efe5a7a00a9a71624bf7e141c4a27b3ec",
+    "PUBLIC.json": "25c8621a905745d80603258a5afdceae424f71840dabf15fd2a362007db4287a",
+    "SEMANTIC_AUDIT.json": "55c859318389ba8c62f95db86441755e8e21486764d6ac19cdfba7491a6c56b0",
+    "ZERO_SUPPORT_AND_ACQUISITION_NOTE.md": "494298cad416a41b28ef5ada86fcd07e0ade864aa717c0a5d1f3d11826f791e2"
+  },
+  "status": "complete_additive_no_sealed_result_changes",
+  "strict": 7,
+  "zero_gold": 6
+}

@@ -1,0 +1,7 @@
+# Additive endpoint implementation correction
+
+The frozen METHOD requires an actual native final response, not just a completed trace and a returned last model call. After the terminal trigger, the sealed auditor ran unchanged and its outputs remain intact. Its inherited endpoint helper admits a returned **tool call** followed by a broker failure as an observed empty answer. This affects unchanged seed981320303; the two trained arms have normal nonempty final responses in all32 cases.
+
+The separate native_endpoints.py checks the last causal root call against its physical response and exact final branch, distinguishes tool requests from final content, and keeps a valid sampled final available even if a later harness error occurs. It adds availability-safe outcomes and tight binary worst-case paired bounds without changing AUDIT, EARLY, collector scores or the METHOD. No parsing repair, float-to-integer answer conversion or inference rerun is permitted. Raw endpoint scores remain explicitly available for comparison.
+
+The same bounded pass records final-observation type, initial-action parity, complete physical-prefix agreement and root-visible literal maps corroborated against returned child maps. Corroboration is consistency with physical child values, not independent semantic truth or proof the model used them. Generated code is parsed as data only, never executed. This addition does not claim the new plans were learned merely because the supervised losses fell.

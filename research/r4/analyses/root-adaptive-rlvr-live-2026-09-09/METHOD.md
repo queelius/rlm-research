@@ -1,0 +1,12 @@
+# Adaptive terminal-reward training: main audit method
+
+Written September9,2026 around12:15UTC, after launch and before MAIN opens any new reward or checkpoint outcomes. MAIN has seen run authority, GPUprocess33828MiB/215.69W and validation0 STATUS8/8/43physicalattempts with no stop; not its answers. This is an exploratory audit, not a preregistration before model execution. Scientific CAMPAIGN51afee1b and MAIN START_BINDING52f2ac7b were fixed before all new model calls.
+
+Primary policy is fixedfinal8 from exact SFTfinal4 efab2913 with fresh Adam/RNG. Report all planned128training+24validation+32transfer episodes; repeated seeds are nested within context. Separate new query/length16transferpairs from validation8repeated at0/4/8. Strict final Answer:N is required, completed wrong/empty/malformed0, setup/provider/finalize/causal-graph failuresNULL. No numeric rescue, missing-as-failure, validation-best substitution or outcome-selected checkpoint. If training stops, state exact reason/update count; do not relabel a partial checkpoint as fixedfinal8.
+
+Reconstruct answers against host gold, actual traces and source-bound identities. Validate native causal graph/root masks and behavior likelihoods, typed-child schema separation, no child gradients, exact optimizer/checkpoint ancestry and fresh-generation states. Policy0 initializes weights only from SFT, not its Adam. Per-step input groups must follow immutable schedule; zero-variance groups do not silently contribute or get rerolled. Independently review live implementation via nonauthoragent while MAIN does other useful work; do not change frozen sources midrun.
+
+Secondary: syntax, actual helper uptake, query-relevant coverage, semantic child accuracy, faithful map→count→final transitions, native calls/prompt/cache/output and measured wall time. Cost comparisons condition on matched observable/success status explicitly; zero jointlycorrect=>successfulpairedratio undefined. Raw wire cached fields may be embedded JSON strings; normalizednull does not imply unknown. Keep totalattempts/admitted/trainingselected/independentcontext counts distinct. Label outcome-selected examples/posthoc screens explicitly.
+
+Save additive analysis sources/metrics and inherited closure hashes once per immutable milestone. Original outputs/checkpoints/STOP remain unchanged. This audit cannot establish general decomposition or novelty from these small exposed populations.
+

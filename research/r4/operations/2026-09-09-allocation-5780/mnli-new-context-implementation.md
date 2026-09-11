@@ -1,0 +1,26 @@
+# New-context MNLI32: CPU implementation handoff
+
+2026-09-10. CPU-only implementation complete; MAIN acceptance/launch remains separate. No GPU/service/lock/queue actions or edits to sealed ancestors. New sources and immutable inputs live in `sidecars/leaf-mnli-new-context-correspondence-v1` under the research store.
+
+READY SHA256 `ded939ace2bd6a40119cc192f9b316d3394592c3a665fcd5d941f47f0906fc78`; identity `472916fc7f26e5da77f70a885004119e5a8e34c7730227639228f3ef92fa1b6e`. Its 521-entry closure includes inherited runtime/model provenance, all new Python/design/input/test receipts, and the preserved invalid V1 feasibility measurement. Actual `owner.py verify` returned that identity with exit 0 after sealing.
+
+## Exact implementation and scientific boundary
+
+`mn_study.py` provides experiment-specific module names, scoped alias restoration, hash-bound loaders and verification. `mn_protocol.py` retains the exact32 directional NLI system/preamble, native sampling and positional requested-tag decoder, changing only the approved inputs, matching/constant contract, seed/order and namespace. `mn_scoring.py` authenticates the qualified native response and separately scores full-contract positional semantic accuracy, shape-only semantics, positional tag fidelity and whole-batch validity. Authenticated malformed/wrong-tool completions are strict zero without execution; unavailable/inconsistent native responses remain NULL. `collect.py` checkpoints all 32 planned coordinates and actual request/response/result artifacts; no retries, repair, reordering or resumed model calls. `owner.py` and `service_wrapper.py` reuse the pinned released-base/no-LoRA lifecycle through explicit aliases; teardown has a 90-second cleanup cap. `prepare.py` performs fixed selection requalification, native-prefix/schema qualification, focused tests and sealing. Three test modules exercise science, composed lifecycle and real collector transport code with authored mock responses.
+
+The selected DATA bytes are unchanged SHA `402f5597796325aa80399f7e8a1f28141b86b6fd0166dbfcf9dd0d99af312372`: 16 contexts, 256 premise groups, 768 pairs per arm, four contexts per genre. All three hypotheses are retained per premise; no gold balancing or post-length reselection. Actual arbitrary per-row valid-label mutation preserves selected public records and all native request prefixes. Public IDs are text-derived; original pair suffixes and host labels never enter requests. Newness means absent the explicitly pinned prior MNLI inventories, not pretraining-unseen. Constant-tag output diversity and its 317-field-token deficit remain bundled; no equal-token/FLOP claim.
+
+## CPU evidence
+
+- `CPU_NATIVE.json` SHA `53a50b380b4a61bde3dfa7eda6b6d7aefde8db5294cc8a1030e6b741db9228aa`: 32 actual typed vLLM requests/no tools, token-ID prefixes, exact ancestor request equality, host-label/suffix invariance; 32 xgrammar compilations accept every canonical label at every position and reject wrong tags/shape/order. Maximum input 4,088 + output 3,072 = 7,160 within the unchanged 8,192 context.
+- `CPU_REPORT_V2.json` SHA `b7f2eba646cb7d72f6257d54424505af0f1532d0722a7eb022742e23c5b62524`: **11 tests passed in 4.962 seconds**, whole subprocess exit 0. Includes actual owner→wrapper→configuration→intercepted Popen, owner→collector argv namespace, 32 actual async collector wire/native-response fixtures, authenticated tool-route zero, mismatched-native NULL, HTTP-failure NULL, valid length-capped scoring, and expired-clock all-NULL inventory.
+- Original `CPU_REPORT.json` SHA `581c3921ed118cf21b08a4f114d468e2d9aaa07136e82a0debbfd8a180a5bc1b` is retained: 10 passed/one test error because the second existing-output invocation escaped the test's verification mock before READY existed. Only mock scope was corrected; scientific/runtime behavior was not changed. Preparation records the passing V2 receipt explicitly. Systematic-debugging and verification-before-completion guidance determined this bounded correction and fresh verification.
+- `DESIGN.md` SHA `427fce38dca0cd3d748fc28e69be4b3e5fa46b90d6198469f13e836978d9c993`; `PLAN.md` SHA `b997869c8398187a94ed7bec91ff436ff7b4175c01040fd7f948bd31ab847d27`. Full per-file hashes are in READY.
+
+## Accepted-launch interface (not launched here)
+
+```
+/project/alex_phd/envs/prime-rl-5990b1b/bin/python /project/alex_phd/runs/rlm-research-r4/sidecars/leaf-mnli-new-context-correspondence-v1/owner.py run --output /project/alex_phd/runs/rlm-research-r4/sidecars/leaf-mnli-new-context-correspondence-v1/outputs/attempt-001
+```
+
+1,200-second outer / 1,080-second work / 1,170-second owned envelope, startup at most 180 within work, four workers, 90-second requests, final 30 seconds of work reserved for collector closure, cleanup at most 90, outer margin 30. Stages advance immediately. Private credential preflight remains inherited. Model-return availability is distinct from orchestrator inventory completion; 16 paired context units, not 768 independent trials, support the primary comparison. Physical requests/known token usage/unknown usage and provider-billing uncertainty remain explicit. Raw-response recovery, if needed later, is analysis-only; no new scheduler was added.

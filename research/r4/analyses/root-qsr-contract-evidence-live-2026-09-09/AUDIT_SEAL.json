@@ -1,0 +1,31 @@
+{
+  "analysis_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/FINAL_VALIDATION.json": "b3823b8b226a0b2d31d22dce1b8c6014cd66b836fa424ce1ba266b6e42f1a01e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/FIRST_OUTCOME_ACCESS.json": "b6dde2ff2873ac5494d4b7ce637c742c9d3cb84d19b4962b22a48fb1ad8a868d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/METHOD.md": "d4514df96e6ec9e645ac03febd97f7bda8812cb4fc6fd031032b029e6f15c75c",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/METHOD_SEAL.json": "8a663d99f14ee71ab9c1c210afc596a07f162d01185643a0a27f46ca43ecbf58",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/OUTPUT_MANIFEST.json": "89217ce0164a4f39b5a0d12990d2d1266534e291e0f9aeabc89f5dee8804e4ca",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/PARSER_AMENDMENT.md": "818a575c78f9234895effa21d17e58eaa3d7afe829a69575fdd978e095098b3d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/PARSER_READY.json": "7d7461dbcbb005616c2d37410694da5ec6c2aeb1d6c565d0b8c91a66b71d93bb",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/RAW_AUDIT.json": "02961870194ef1a934fe5111e5eda2a6fa762973dd29ff2648d0c6dcdf61eac1",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/REPORT.md": "d83387a9a7d6620391458092c75dfd703c845d07c624087ac689c794b35c7154",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/SOURCE_SNAPSHOT.json": "8e644015eb91ff428f1491b546e1ef5df241ade5eaa713046cc35e5f75d0dc1d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/SUPPLEMENT.json": "7c9e811d886c4480dc0e9ecaa9e05acf591c68c89049119d0046a2ea7ad3dcbe",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/audit.py": "42ddf5c97055c99457cc5e01970b752b43723b48cf428c697cecefa908160916",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/audit_v2.py": "5fe9b23a25b0f261b2fe2ae86eb2690f00c39b72a9bd53558eb290879d55730d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/native_auth.py": "5b978d0381b8592e816366ea91da2431da10ff5220dac7f980ca772c27c0eab1",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/seal_audit.py": "9dab5c3044f7fab2dab2e5b976370691c050534a284ea1badeaebf7450997d9c",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/source_snapshot.py": "2dcc7fe9a6a6d8b41ecf1b18d007e27957aafc0b3f785350b89cde622f27ab34",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/supplement.py": "c8f1e5f0dad34ed2d6542d4313b64d152aca4c15da5e1ca2234dbd6703341d2f",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/test_audit.py": "8ade9ebddbe5c56f4bc80e3f1dfee88c4fe9bd90d61777a38e109ee441416921",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-qsr-contract-evidence-live-2026-09-09/test_native_auth.py": "91914dacb23acd69fe12a1ed89a1b547f3b7cc842facd346a0e546e618133673"
+  },
+  "no_gpu_or_sampled_code_execution": true,
+  "original_sources_outputs_unchanged": true,
+  "output_manifest_sha256": "89217ce0164a4f39b5a0d12990d2d1266534e291e0f9aeabc89f5dee8804e4ca",
+  "owner_terminal_sha256": "b8802ea9c5b8d45656073092fdf97b52b3bfdf439d1d75576b78e2183632579b",
+  "release_sha256": "5163eea5bbb8e8f8aa74417da26982b402c524ae7ca2c83df3da783414dc6e47",
+  "report_sha256": "d83387a9a7d6620391458092c75dfd703c845d07c624087ac689c794b35c7154",
+  "sealed_utc": "2026-09-10T00:30:16.256041+00:00",
+  "source_method_sha256": "8a663d99f14ee71ab9c1c210afc596a07f162d01185643a0a27f46ca43ecbf58"
+}

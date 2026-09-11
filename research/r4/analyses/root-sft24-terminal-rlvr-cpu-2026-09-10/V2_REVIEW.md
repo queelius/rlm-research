@@ -1,0 +1,15 @@
+# Additive final V2 review
+
+2026-09-10, before attempt-002 existed. Decision: **no remaining material acceptance blocker found in the narrow changed paths**. MAIN retains launch authority. Original V1 REPORT/REVIEW_SEAL remain unchanged.
+
+READY_v2 SHA `da234f8ecca5e12b4af086935efd4dff88818662ae30f1723342372afba45e4f`, identity `6477f9ebb099764dfa502cff2484ef7435f446ab3e0afce952781f494da7939e`. V2_QUALIFICATION SHA `fceddc39cac7493bde03e298b7c01072b56a7c944c3ccd89d43a76a3bc2d3156`.
+
+Read all seven final V2 runtime/verification modules, amendment, focused tests and CPU report. The new native CLI calls the qualified export authenticator; the trainer makes exactly one counted substitution of the replay script path in the hash-checked QSR source. Export wrappers maintain collector/native aliases throughout lazy nested metric and replay calls. The owner re-arms collection and export deadlines, including after a consumed command timer. The additional collector correction compares actual first native prompt IDs with the frozen expected IDs instead of accessing the absent task_hash field. Public inputs, host truth, typed child transport, actual raw identity/replay and numerical admission checks remain bound; no training authentication bypass was introduced.
+
+The V2 verifier authenticates its qualified source/input receipt and the original V1 campaign; actual owner verify also checks READY_v2 and its qualification binding. Collector/exporter/trainer install the qualification verifier in their actual entry paths. SFT24/c32,192 training slots,96 final slots, seeds, root-only objective, fresh Adam0, checkpoint selection and10800/10680/10500 caps remain unchanged. New attempt-002 is explicitly declared; V1 was never launched. This is not an outcome reroll.
+
+Fresh independent evidence: actual `warm_owner_v2.py verify` exited0;849 union campaign/qualification/READY source/input pins had zero mismatches; exact READY SHA/identity matched; final `test_v2.py` passed4/4 in0.63 seconds with CUDA hidden and a separate temporary output directory. These tests exercise lazy export resolution, replay entry existence, actual timer transition (including after simulated fired timer), and exact no-overwrite attempt002 guard.
+
+Author qualification receipt reports22 passing/0 failing checks. Author relayed203.05 seconds for the complete authored mixed24 native collection→export→native replay→actual TRAIN preflight fixture and22.29 seconds for the other21 checks. I inspected the fixture and sealed receipt but did not rerun the203-second integration. It uses synthetic provider answers to exercise mixed24 admission and real subprocess replay/preflight, never scientific input or a model/GPU load. The prior independent tiny Adam/mask test still applies because numerical code is unchanged. CPU evidence does not promise successful model load, eight informative updates or complete final availability.
+
+No frozen-source edits, service/model/GPU launches, or outcome reads by this reviewer. Prospective audit binding is separately recorded under `analyses/root-sft24-terminal-rlvr-live-2026-09-10/V2_BINDING.md`.

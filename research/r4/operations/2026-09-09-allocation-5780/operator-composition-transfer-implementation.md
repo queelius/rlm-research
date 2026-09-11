@@ -1,0 +1,11 @@
+# Operator composition transfer96: CPU preparation
+
+MAIN approved isolated implementation under `sidecars/root-operator-composition-transfer-v1`; see APPROVAL.md/PLAN.md. Original design remains immutable. No GPU/service/queue action authorized to this agent.
+
+Full dose audit read before implementation: fixed24 has48/48 actual child-acquisition endpoints and75 physical child calls (53 was an interim snapshot);29 strict successes all faithfully use actual labels and display executed scalars, five incorrect finals faithfully reduce wrong child predictions. No robust multi-batch conclusion.
+
+CPU READY sealed: `sidecars/root-operator-composition-transfer-v1/READY.json` SHA9cfd1febd1101ece4fd1f69d4a1e64909a7822f83ea0299cbc78d8e2284398b1; identityad5529320691c3e05133209e8da58620ca256d700ad902c949f742f9b04db4ef.1345source and3763input pins freshly verified;11focused tests passed33.59s. Exact native Python authored fixture executes a nonzero C3 reduction through optional typed child and authentic final; real owner→service wrapper→intercepted inference launch and collector namespace checks passed. No GPU or scientific generation.
+
+Frozen128 label-blind groups from refreshed2128 pool, eight contexts,48 shared questions,96 endpoints; hash order24 then6. All remain child-training/prepared-exposed. All48firstprefixes≤1076, gold/file/policy invariance verified. Unique128 public q-IDs and8native IDs have no collisions against3740named historical IDs/139native IDs. No allocation change. Zero baselines3/24 primitive and4/24 composition, best constants6/24 in each; full histograms frozen. Complete physical ledger keeps attempted no-RESULT episodes separate from not-started slots; nativeNULL is not repaired.
+
+Owner: `/project/alex_phd/envs/prime-rl-5990b1b/bin/python /project/alex_phd/runs/rlm-research-r4/sidecars/root-operator-composition-transfer-v1/ct_owner.py run --output /project/alex_phd/runs/rlm-research-r4/sidecars/root-operator-composition-transfer-v1/outputs/attempt-001`.6480outer/6300work/6450owned unchanged. MAIN review/acceptance/launch only. Runtime_port independent CPU review is additive under analyses/root-operator-composition-transfer-cpu-2026-09-10; its initial128source/48truth/native/interrupt checks passed. Source is now immutable. Independent released-base8B audit resumed after READY; RLM outcome unread pending relay.

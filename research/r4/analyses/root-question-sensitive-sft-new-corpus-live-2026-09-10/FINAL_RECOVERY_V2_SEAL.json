@@ -1,0 +1,20 @@
+{
+  "schema": "new-corpus-sft6-recovery-v2-final-audit-seal-v1",
+  "status": "terminal_incomplete_readout_audited",
+  "sampled_code_executed": false,
+  "artifacts_sha256": {
+    "INCOMPLETE_READOUT_AMENDMENT.md": "8a8b312ab9222a96ae2ac334e3619524541102535ecb5dc6aae9e3f241ccbb79",
+    "RECOVERY_V2_INCOMPLETE_NATIVE_AUDIT.json": "72d4c3aea568d88f1e58a2c426aef5ab84dbf0897a2086a4d1e1eb20b76f8106",
+    "RECOVERY_V2_SEMANTIC_PACK.json": "cd2bbf4f2ef81628aa5cf77faf4e9a6c6c098621d23801ad8b028be5cfe9cf6b",
+    "RECOVERY_V2_SEMANTICS.json": "810e0c3229c34a9517d762a8a524d887d0758065efb985b4034c6659d56efb5f",
+    "REPORT_RECOVERY_V2.md": "c7e41fadecdb6a46c71ef7b40878058de2cd4f2f2e999babf518c79baefe5a43",
+    "audit_incomplete.py": "f4a4f7e5b28da2997ea552e869aad3218e7e63fa7102169e34268941c16327b4",
+    "semantic_review_v2.py": "f1bb2964e89b20c2907077e47c63735c221b030d6650f0c824e7d2d504bcbe6b",
+    "test_incomplete_semantics.py": "93ee6840fd940aa0d8549b6b430712bce5cb58c0daf92fa0fe94c674185c004f"
+  },
+  "terminal_sha256": {
+    "OWNER_TERMINAL.json": "15c949e60ba941b0c1ede6d6cbfd45d7da21cd2cf0bbd0181aa21a0aee7410b9",
+    "parent_EXIT.json": "f4771c7659e05e8f3ce58ddbf03572b01f1b8c8806569bc94cd75226c9e85b38"
+  },
+  "tests": "5 passed in 0.32 seconds"
+}

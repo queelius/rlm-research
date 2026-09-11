@@ -1,0 +1,15 @@
+{
+  "schema": "root-supplied-plan-selective-recheck-amendment-seal-v1",
+  "preserved_original_design_sha256": {
+    "DESIGN.md": "cfbeba041ed5353dc2eaaf97ae574eb1ee2bc0ff0ce2e10c56dfa7f0c9f436ec",
+    "PLAN.md": "79ab724a77eab20589eb3a5cf7494594cd027921aaf64a7a6bf6801ef2727fbe",
+    "SEAL.json": "cedd8ca19f353e07eadbd4d6b2c450d0c08444d079799a0e7123b50c55fc3d4e"
+  },
+  "additive_sha256": {
+    "DESIGN_AMENDMENT_NO_FALLBACK.md": "bbbd3cb9dae0d59b26d8baa41c627b01074888a5af68345f52471facb5388a7e",
+    "IMPLEMENTATION_PLAN.md": "e036e8ba7260536c8ed4cbfbaf2702aa83e9eac6c98c15ef3a52b0b3e7aff2da"
+  },
+  "runtime_fallback": false,
+  "implementation_authorized_cpu_only": true,
+  "gpu_authorized": false
+}

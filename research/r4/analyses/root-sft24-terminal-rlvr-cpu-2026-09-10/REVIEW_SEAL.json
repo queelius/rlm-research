@@ -1,0 +1,14 @@
+{
+  "decision": "V1 has three material integration blockers; V2 unreviewed",
+  "files": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-sft24-terminal-rlvr-cpu-2026-09-10/REPORT.md": "cd968d89590f5e6c3c289f0a6e61fa9bf895118f545fe93b0802cdb5cf64fd33",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-sft24-terminal-rlvr-cpu-2026-09-10/check_numerics.py": "9c6acf654a82946c09ff2fccbbf26dd040ad3837bd6fb8ae02df98af25ed4392",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-sft24-terminal-rlvr-cpu-2026-09-10/reproduce_v1.py": "70f5c20a0b375145cc8c34d0955e23ef67fc442b8a983e02cfaa0a2ab4106380"
+  },
+  "gpu_or_model_execution": false,
+  "original_pin_mismatches": 0,
+  "original_ready_sha256": "e1b36f1b1d6a1b8f298301faf665fe5cbdafc43955814de3ec5b516cfab8cbac",
+  "sealed_utc": "2026-09-10T08:23:45.468656+00:00",
+  "source_edits": false,
+  "verified_original_pin_count": 838
+}

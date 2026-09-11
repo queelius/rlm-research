@@ -1,0 +1,21 @@
+{
+  "actual_owner_verify_exit": 0,
+  "attempt_exists": false,
+  "decision": "no material acceptance blocker found",
+  "gpu_model_service_launches": 0,
+  "identity": "d7727c26572295084d5f01a8374c1ee09da41fe79be97d2fa88ddcada38bf74e",
+  "independent_tests": {
+    "failed": 0,
+    "passed": 10,
+    "seconds": 55.29,
+    "tmp": "/tmp/accumulation-independent-0853",
+    "warnings": 2
+  },
+  "mismatches": 0,
+  "outcomes_read": false,
+  "ready_sha256": "ca0210997b73190f010ea56d7c40361ba6360e605f00d97b75f573364eb040a8",
+  "report_sha256": "c9ee9a29d28730006429ebce81a50fb45a9120080055d7b74e824335dba19165",
+  "sealed_source_edits": 0,
+  "sealed_utc": "2026-09-10T08:53:58.177998+00:00",
+  "verified_pins": 5249
+}

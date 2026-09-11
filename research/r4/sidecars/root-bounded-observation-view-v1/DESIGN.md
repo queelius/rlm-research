@@ -1,0 +1,13 @@
+# Bounded native observation view: fixed32 2x2
+
+Question: when cumulative decoded maps enlarge IPython stdout, does a deterministic bounded model-visible view improve native availability and faithful accumulated reduction without changing full runtime state or adding solver information?
+
+Gate evidence is sealed in `analyses/root-acquired-evidence-accumulation-live-2026-09-10`: 13 missing episodes ended in authenticated over-context HTTP 400s (10 root requests relevant to this intervention and three child requests that clipping cannot address); six cumulative endpoints acquired growing snapshots; four placed their last correctly accumulated snapshots in rejected requests; zero executed accumulated reductions were observed. These facts motivate the intervention but do not establish efficacy.
+
+Use eight mechanically selected exposed large blocks, one per parent × {128,256}, balanced four count/four weight-sum. Cross BATCH/CUMULATIVE decoder return scope with unchanged 20,000-byte versus 4,096-byte deterministic head/tail IPython view. One fresh seed is shared by all four cells within a block; dispatch order rotates. Records, files, query, gold, fixed24 root, c32 child, sampling, 2048 action cap, 8192 context, decoder validation, execution state, child acquisition, and final scorer remain unchanged. No summary, reducer, gold, repair, extra call, context increase, or compaction change.
+
+The native engine must log the complete tool result before producing the visible view. A neutral per-turn ledger in all four cells retains raw and visible bytes, hashes, contents, cap and clipping status. The policy sees only the bounded view in its next request; full raw output is analysis-only. The 20 KB arm is an explicit contemporaneous control, not assumed bitwise identical to historical runs.
+
+Primary metrics are planned-denominator strict dataset score and native-final availability. Mechanisms are actual child acquisition, multi-batch coexistence in live state, requested operator/scope-faithful reduction and stop, per-turn prompt tokens, clipping encountered before later root actions, and raw/visible sizes. A completed wrong/malformed final is zero; true unavailable/missing is NULL with bounds. Availability without faithful reduction is interface robustness, not successful accumulation. Four parent clusters and eight paired blocks; no independent-record inference or causal novelty claim.
+
+One A100, four workers, 180-second episode cap, 1800-second outer = 1650 work + 120 release + 30 harvest, owned 1770, outer margin 30. All 32 rows are preplanned; no reroll. MAIN alone may accept or launch.

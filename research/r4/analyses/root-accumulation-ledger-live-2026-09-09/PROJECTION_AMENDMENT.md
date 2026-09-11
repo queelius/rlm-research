@@ -1,0 +1,7 @@
+# Additive audit projection correction
+
+The first terminal pass correctly reconstructs all primary scores, physical native token/role graphs, source-bound child maps, delivery-linked summaries and actual graph observation bytes. Its eight `suffix_exact=false` values are an **audit serialization-order defect**, not evidence of a changed runtime suffix. `primitives.accumulate` constructs the same summary values with `source_records` first, whereas executed `ledger.summary` places `counts` first. JSON persisted with sorted keys also changes the nested histogram order. Equality of mappings is not equality of their serialized strings.
+
+Keep METHOD, METHOD_READY, primitives, audit.py, EARLY, METRICS and SOURCES unchanged. The focused regression demonstrates unequal bytes for equal mappings in the two insertion orders and requires the exact frozen source order, including histogram order. OBSERVATION_PROJECTION_V2 authenticates each affected original episode hash and actual observation-content hash, then substitutes only this exact-source-order expected suffix. It links the already independently verified graph/physical exposure and correct summary values. It does not rescore, repair answers, alter runtime data, or rerun any model.
+
+The report uses V2 for exact suffix and last-visible-summary comparisons. V1's eight absent last-visible-ledger values follow only from its erroneous exact-suffix predicate; they are not scientific missingness. All original results remain available for audit.

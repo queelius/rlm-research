@@ -1,0 +1,9 @@
+# Exact-cardinality schema at batch extremes
+
+Prepared 2026-09-08 as an exploratory follow-up to the parent's batch64 alignment failure (0/24 valid arrays per arm;44/48 truncated calls) and singleton format failures. Question: does constrained decoding recover alignment and expose remaining semantic/count errors? Not a blinded confirmatory test.
+
+Compare original and validation-selected SFT children on the exact frozen six64-record contexts,48 paired coordinates, source group IDs, question order, seeds, temperature.5,1024 output cap, concurrency4 and900-second wall cap from fixed-leaf-batch-extremes-v1. Batch64 first (48 calls), singleton optionally next (3072 calls). The only request change from each corresponding unconstrained baseline is structured_outputs.json: array of six canonical enum strings, minItems=maxItems=batch cardinality. Reuse original leaf.make_request arm='both'; no prompt edits, retries, repair or offline fallbacks.
+
+Retain raw actual requests/responses, hashes, finish reason, usage, endpoint and weight bindings through authenticated existing fixed-leaf collector/scorer. Primary metric remains strict exact aggregate success across all64 records; separately report schema validity, alignment, canonical item accuracy, semantic false positives/negatives, truncation and infrastructure failures. Six contexts/384 unique questions, repeated coordinates are not independent. Native inference schema may still fail or exhaust length; record failures rather than assuming grammar guarantees success. GPU launch belongs to parent; preparation makes no live endpoint calls.
+
+Implementation plan: focused CPU test first for schema-only request differences at64/1 and actual dispatched-request capture; load authenticated frozen helper in an owned module instance; freeze both specs after tests; publish READY last. All parent files stay unchanged.

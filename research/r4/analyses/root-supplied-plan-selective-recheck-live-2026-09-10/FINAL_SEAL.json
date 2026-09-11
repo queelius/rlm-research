@@ -1,0 +1,28 @@
+{
+  "artifact_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-supplied-plan-selective-recheck-live-2026-09-10/AUDIT.json": "4a902c6b5b178203965a848aa0df8cca06e280fce6027ab984578baf4f9cfeb1",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-supplied-plan-selective-recheck-live-2026-09-10/METHOD.md": "c3132f1b36b5186f0318112d59d941552a35f07c05c8200033ce79b286e680b1",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-supplied-plan-selective-recheck-live-2026-09-10/REPORT.md": "8e7d00d18f2953f8cb8a5d7af24d3fe1469d8e1c4e2767461873082c569758e3",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-supplied-plan-selective-recheck-live-2026-09-10/audit.py": "7e304cad5ff28912ed2102d9552ac14b356cbd97531bb905109187b4fb0458cb",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/root-supplied-plan-selective-recheck-live-2026-09-10/test_audit.py": "01cfb81f06a07c9c92f7533b2ee97c21b471db5fe796542be84cb7b23e4a56be"
+  },
+  "promotion_gate_passed": false,
+  "replay": "python audit.py --output /tmp/recheck-audit",
+  "schema": "root-supplied-plan-selective-recheck-final-seal-v1",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-supplied-plan-selective-recheck-v1/READY.json": "cf788c968977a5202e6fe4246e97d04cc6488818cc194b53d6e5bab345b9d0ae",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-supplied-plan-selective-recheck-v1/inputs/BASELINE.json": "e5002277299768d394cbca927752afdde3f17fc429e8738e29189e3c3c265e43",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-supplied-plan-selective-recheck-v1/inputs/CEILING_CALL_PINS.json": "677f5c0d7ab5d769787914c7a33dc6e8fc1dc7b9c4fcabcdb9fa7fa2b0128694",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-supplied-plan-selective-recheck-v1/inputs/CONFIDENCE.json": "8aa6bdcb78a9d6ce4cc375233259d70b9647e7a27d47a11047d0711407676534",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-supplied-plan-selective-recheck-v1/inputs/HOST_GOLD.json": "8c3adf6f1eec3432cfe97ed53351967494d5ab159a5076c97526defee0f0ef3b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-supplied-plan-selective-recheck-v1/inputs/PLAN.json": "9693edb2758db4f6520cea0817da1f37c283bd9f1d9ec6f693809eb482fb3a89",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-supplied-plan-selective-recheck-v1/inputs/PUBLIC.json": "5702916def4d24effbe6f3d7f5d9cd99146a1994a84ade1f63dbf2425eb31c58",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-supplied-plan-selective-recheck-v1/inputs/REQUESTS.json": "22dc14d650ae16efe0f5675d348db09855bb58970d55abbb8a97a0eb081534fc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-supplied-plan-selective-recheck-v1/inputs/SELECTIONS.json": "0f51f7c874765c9df8e6eb84d4a64dfe2250b1d57ac0d557aaecc89e54fe91b1"
+  },
+  "status": "complete",
+  "terminal_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-10-after-sparse-gate-selective-recheck24/attempt-001/confidence_uniform_recheck24/EXIT.json": "60df6178e7a6b7ef927ea80629088e98012713e61d3b594150a43be684b0be9b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-supplied-plan-selective-recheck-v1/outputs/attempt-001/OWNER_TERMINAL.json": "2a37d219b6a36c36213b043f4ef64faa6e1f0e63e383a55dfd7da6c7cb85d33b"
+  }
+}

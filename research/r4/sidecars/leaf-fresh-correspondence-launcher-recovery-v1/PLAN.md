@@ -1,0 +1,9 @@
+# MAIN-approved lifecycle-only recovery
+
+The first accepted fresh96 attempt failed before any scientific client: its reused launcher recorded the inherited original source hash, while unchanged V2 ownership correctly expected the actual fresh wrapper. Launcher argv, inference argv, GPU binding and both BINDING objects matched. Original failure/provenance files remain immutable. MAIN authenticated and released the recorded orphan; this preparation has no cleanup authority.
+
+Implement one new lifecycle namespace. Keep all scientific modules, READY09e30718…, SPEC,96 request bodies, seeds, model order/configuration, token rendering, scorer and unused original outputs unchanged. The new source/serve.py sets inherited.__file__ to its own actual path before calling the exact old main. Rebind BOTH suite.SERVE and suite.c.ROLE to this namespace; retain every V2 command/hash/PID/start/UID/PGID/descendant check.
+
+Use a unique recovery owned/attempt-001. The original scientific outputs directory remains unused and is consumed once by the new attempt; a pre-existing output prevents launch. MAIN separately authorizes1800s outer,1770 owned/1650 shared work, not a reset of the failed attempt's timer. Reuse the exact frozen two-model execute function with its existing300s startup/600s per-model collection caps. No retry or admission/scoring change.
+
+TDD: run the actual inherited main with fakePopen/environment/readiness boundaries only, retaining real config validation and actual SERVER_START serialization. Old launcher provenance must fail the real wrapper-hash expectation; the additive wrapper must pass. Then verify actual private suite.SERVE/c.ROLE propagation and unchanged source/request closure. Publish CPU evidence, source/input hashes, runbook and READY last. MAIN inspects, accepts and launches; no GPU/service invocation here.
