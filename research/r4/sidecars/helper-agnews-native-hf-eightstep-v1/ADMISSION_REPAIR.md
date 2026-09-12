@@ -1,0 +1,7 @@
+# Additive admission import-scope repair
+
+V1 failed before GPU/model/output creation: `owner.check_admission` constructed the one-step evaluation qualifier under the `ag_study` alias, then released that alias before calling `qualify()`. The qualifier lazily imported `train_ag.py`, whose `import ag_study` then failed. A fresh CUDA-hidden process reproduced the exact ModuleNotFoundError at the nested `eval_owner.py:134` → `ag_study.py:76` → `train_ag.py:9` path.
+
+`owner_v2.py` keeps the exact original AG source object in a scoped `sys.modules['ag_study']` alias around the complete original admission function. It restores the previous alias afterward. The original admission, all likelihood/mask/optimizer checks, trainer, math, datasets, caps, source READY and MAIN admission are unchanged. `READY_V2.json` additionally authenticates this wrapper and the real CPU admission receipt. Checkpoint state identities continue to name the unchanged original training READY; `V2_LAUNCH_AFTER_000.json` records the additive launch provenance.
+
+The CPU regression is a **fresh process executing actual `check_admission` with the real qualified AG pilot**, not `owner verify`, a constructor-only test or a mocked qualifier. No GPU call or training output directory is created. MAIN alone retries with `owner_v2.py run --owner-seconds 5000 --admission-json ADMISSION.json` under the same shared lock and5200 external cap.

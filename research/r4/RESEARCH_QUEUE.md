@@ -1,5 +1,161 @@
 # Live GPU research queue
 
+### Live update September 12 13:01 UTC — SFT complete; working-task calibration live; broader RL queued
+
+SFT V2 completed all8 fixed updates,1024 articles,256 teacher maps,20591 answer
+tokens; training224.440s,owner236.254s, all8 adapter/Adam/RNG commits saved.
+RESULT SHA256 `6d8c704f42b3a884deb5c0b593f0939147da861ce8fb04ba9d9eb00eeee6c1a7`,
+cp8 state `356ec37443b4b98cd0e8f95143916d432495aec5fe209f4cbf5c3a4839ac155a`,
+cp8 commit `8ee836982b474791e6e765d2899503eab0376966434d924caa652ebfefa715bc`.
+No evaluation result yet. Wrapper `operations/2026-09-12-agnews-sft-broader-queue/run.py`,
+PTY53432; endpoint output `sidecars/helper-agnews-sft-eightstep-v1/outputs/attempt-001`.
+
+ACTIVE MRCR V5 PTY32310, started12:59:27.086UTC, wrapper
+`operations/2026-09-12-mrcr-task-setup-queue/run.py`,900/1000s caps.
+READY SHA256 `8562394d48d316aa2bfdbd378e8a9cbdf89709388775f3e8afbebae464635795`,
+identity `3508ed3b7b628657d68543e2bc80291c65b12e4073240c7ba3f775406df7d2c9`.
+Canonical task.setup now passed real allocation runtime smoke; exact V3 science
+unchanged. Attempt005 only; earlier attempts are preserved setup failures.
+
+WAITING broader8 RL repaired owner PTY67134, same shared flock, wrapper
+`operations/2026-09-12-agnews-broader-repaired-queue/run.py`,5000/5200s caps.
+READY_V2 SHA256 `e9dcccfdcb45a092d5ad85d4a161266f85c3f8f3cbe2f3a494aaec46edeaabb5`,
+identity `4c7cbc4b535edcd9a4ce7436437edf60ede13d018942595de687af9cdf014a79`.
+Original ADMISSION/source math intact; additive repair binds import throughout
+actual pilot qualification, which passed CPU in15.83s. Checkpoint identities
+retain original READY; V2_LAUNCH_AFTER_000 records launch repair provenance.
+
+CPU: local_rl_design prepares shared fresh512 final-only evaluator;
+learned_recursion_prior_art owns V5 outcome audit and conditional root-only RL
+preparation; postmeeting_gpu_pilot examines sampled-answer diversity and SFT
+label-versus-structure loss without touching fresh heldout512.
+Quota latest81% at12:52:32UTC. No further input needed from the user.
+
+### Live update September 12 12:54 UTC — replicated null; broader comparison admitted, launch repair
+
+Seed2 finished qualified: c32 211/256, seed1 212/256, seed2 211/256.
+Seed2 predictions exactly equal c32 on every item. Retire the one-win positive
+signal. Report SHA256 `fb66be60e7eb45be067b7a6cc7eb11f9a04125ed3671a11202cffea9744e4c0f`.
+MAIN admitted the independently frozen broader eight-step RL study, as a new
+data/dose versus supervised-signal question, not confirmation of the pilot.
+Its first launch PTY7331 stopped in 13.196 seconds before output/GPU/model
+loading: scoped module binding ended before the pilot eligibility call imported
+its trainer. Preserve operation receipts and all sealed V1 sources; agent
+local_rl_design owns a narrow V2 repair with a real CPU admission-path check.
+
+MRCR V4 also ended early: all32 task setups tried to read absent `/context.txt`,
+zero model calls. Its 178.135-second owner completion means a complete failure
+inventory. Agent learned_recursion_prior_art owns additive V5 with an actual
+task.setup/context materialization fixture. No model conclusion or root update
+is authorized from either failed calibration.
+
+GPU is temporarily idle. Immediate ready priority is repaired RL or same-data
+SFT (whichever clears its real entry check first); the other and MRCR V5 are
+follow-ons. SFT V1 gradient is valid but its diagnostic label-span loss counter
+includes quotation syntax; postmeeting_gpu_pilot is making a small additive
+V2 correction before admission, without changing training loss. Only about
+7.46% of its target tokens overlap label text, a documented limitation of
+ordinary full-output SFT, not a silent objective change.
+
+Shared codex quota 81% remaining at12:52:32 UTC. Reserve thresholds unchanged.
+Latest pushed commits remain notebook0e400f3 and RLM604ac4e. New completed
+results and runtime failures await the next meaningful source/document push.
+
+### Live update September 12 12:40 UTC — seed replication launched
+
+ACTIVE seed2 AG one-step train/eval chain PTY4193, started 12:39:30.527 UTC,
+wrapper `operations/2026-09-12-agnews-seed2-queue/run.py`, SHA256
+`0dfba1aaed6dcd3570effcf29ab93503a3465015269053176262442acbd15a05`.
+Train READY SHA256 `22e1eb0408b855d79d5dac768f4aac93f810263512363d5f918492cc037b7bdf`,
+identity `a47f369395937d0134a53e76b9534755c5424d3de726c22e7abc18e5f7f6fb24`;
+eval READY SHA256 `a263853837cd00e12d047192b5bcb1a5bb6e5177760badda7423744d17fafca1`,
+identity `21037068b43c4747c231a52409ed65e7975126030fdb47a41bd39e448a29aa9c`.
+MAIN reviewed the exact source delta and seed-only fixture; both owner verify
+commands passed. The inherited collector, masking, HF trainer and lifecycle
+are byte-identical to the qualified one-step source. Changes are seeds,
+coordinate namespace and output identity, not data or optimizer hyperparameters.
+Train1100/1200 and eval600/700-second caps. Conditional evaluator does not
+accept a failed or unqualified checkpoint. CPU outcome watcher is in preparation.
+
+Operations cost: after MRCR's early V3 terminal at 12:32:19.253 UTC, the next
+GPU owner began at 12:39:30.527 UTC, an avoidable approximately 431-second
+owner-to-owner gap, before ordinary new-service loading. Both accepted follow-ons
+had ended earlier than anticipated; the immediate recovery jobs were not ready.
+Preserve the failed runtime result, add a real allocation-local container check,
+and keep independent prepared jobs ahead of future short calibration batches.
+
+MRCR V4 is still CPU repair, not yet admitted; eight-step broader RL and standard
+same-record SFT are CPU implementation. Main account 82% remaining at
+12:39:51 UTC; shared-account reserve thresholds remain 20% wind-down/15% pause.
+
+### Live update September 12 12:35 UTC — seed replication preparing; MRCR environment repair
+
+GPU is temporarily IDLE following an unexpected early MRCR V3 terminal at
+12:32:19 UTC. All 32 episode records contain a runtime image lookup failure,
+with zero model calls and no available scores. Owner `complete=true` means
+complete record inventory, NOT successful science. The wrapper selected the
+old allocation's container store. A V4 repair is being prepared against the
+current successful root runtime, with an actual container write/read smoke;
+no scientific conclusion is drawn from the V3 failure. Avoidable admission
+without checking the live container binding is recorded as an operations cost.
+
+AG one-step is fully qualified: 211/256 baseline versus 212/256 updated,
+1 paired win and no losses. Training collected 128 actions, 403/512 correct
+label decisions, five mixed groups, then made one step in 257.138 owned seconds
+(HF phase 76.352 seconds). Report SHA256
+`f60238fa2411acc210e52db57d313a6bf9364b237c628c2f72aae2c396e1dc29`.
+The original positive-result rule is honored: new-seed replication is immediate
+CPU preparation, not a claim of meaningful gain. It will use the same 128
+articles, new native/HF seeds, fresh c32 and fresh Adam. Broader eight-step RL
+and a same-record supervised comparator are being prepared concurrently.
+
+Root-interface qualifier completed 12 records/101 model calls in 262.625
+owned seconds. Gate failed on repeated identical actions: no-child 0C/5W/1U,
+enabled 4C/2W/0U, longest loops 18 and 2. The exact old bad-import pattern
+disappeared, but other invalid imports remain. One correct enabled answer used
+an incorrect aggregation expression. See its `INTERPRETATION_ADDENDUM.md`;
+do not promote a larger run or describe 4/6 as faithful decomposition.
+
+### Live update September 12 12:24 UTC — new-domain RL active; root calibration admitted
+
+ACTIVE AG native/HF one-step owner, chain PTY87608. Fresh c32 AG256 baseline
+completed 64 calls, clean release, 111.255 owned seconds. Training began at
+12:19:32.958 UTC and collected all 128 new actions without errors; HF is now
+replaying them before any optimizer step. Actual output uses `attempt-001`
+(hyphen), not `attempt001`. Updated evaluation remains the next chain stage.
+
+WAITING root-interface qualifier PTY41864 is unchanged. A second independent
+successor is now accepted: MRCR calibration PTY23223 under the same GPU lock,
+`operations/2026-09-12-mrcr-calibration-queue/run.py`, SHA256
+`94a5310bae64c002c6ffe72f000defdd256333100562af3075344edc8c99b1ab`.
+READY_V3 SHA256 `7f494073087a1c0d80b85cb2b51d1d7e56b4212cacd83b11de5797e61fedf0e4`,
+identity `5477829d83be1b7362ab71be2b21df6970f5dc447e7fed80c86b4ebd1b2f6d3b`.
+MAIN read source/fixtures, verified both ancestor closures and V3, and reran
+11 focused tests (5.62 seconds). Eight target variants of ONE context, four
+seeds, 900/1000-second owner/external caps, no adapter or optimizer, exact full
+queries written per task; six TOTAL root-plus-child model turns. V1/V2 must not
+launch. This calibration needs its own valid inspection/reward evidence, not
+success on the unrelated TREC interface qualifier. CPU outcome audit is in prep.
+
+Numerical V2 completed all 30 episode records in 839.163 owned seconds,
+released cleanly: direct 10/10 finals, wide Python 6/10, short-attempt Python
+2/10. Available Python finals all scored zero; neither Python condition reached
+the frozen 8/10 availability gate. Direct answers exactly reproduce V1 (mean
+official score 0.0916). Do not present an accuracy comparison from these missing
+finals. Independent raw-method diagnosis is underway; no numerical rerun admitted.
+
+Broader AG data is CPU-frozen: 1,024 new balanced train records across eight
+fixed schedules and 512 separate fresh test records, both normalization checks
+disjoint from known exposure. DATA_READY SHA256
+`459e4dc3f807bdce0a94aaab5ce7bd40517d5c5b34d82b1f1db536bb639c0712`.
+Eight-step Adam/RNG-preserving implementation is CPU preparation, conditional
+on the current one-step result; no larger trainer is yet admitted. No repeated
+old-32 temperature/learning-rate/baseline knobs are promoted.
+
+Notebook checkpoint `0e400f3` and RLM `604ac4e` are pushed. Notebook cutoff
+12:20 UTC includes selected source and an explicit MRCR budget erratum, not
+raw data or checkpoints. Publication is not a full artifact backup.
+
 ### Live update September 12 12:09 UTC — singleton null; numerical budget comparison active
 
 Singleton reference completed all256 calls:120/128TREC and108/128AG versus

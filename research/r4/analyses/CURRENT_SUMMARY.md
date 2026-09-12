@@ -1,5 +1,26 @@
 # What we know so far
 
+## Current update — September 12, 12:24 UTC
+
+Giving the numerical task a longer Python response let six of ten trials reach
+an answer, versus two when the same token allowance was divided into shorter
+attempts. But all of those Python answers scored zero, and neither condition
+met the planned minimum for a quality comparison. We are inspecting the actual
+calculations before spending more GPU time on this direction.
+
+The GPU is now learning from a new set of news examples, after completing its
+separate starting-model evaluation. All 128 sampled training responses were
+saved; the optimizer and heldout result are still pending. A larger, disjoint
+training inventory and a fresh 512-item test set are ready if the initial run
+supports a more substantial dose of learning.
+
+Two other accepted jobs will test explicit helper instructions and whether an
+untrained controller can search an external conversation to recover a requested
+answer. The latter uses one underlying conversation, not eight independent
+ones, and will not yet train weights. This separates the ability to obtain
+useful training feedback from a later claim that the model learned to decompose.
+Source/report checkpoints are pushed as RLM `604ac4e` and notebook `0e400f3`.
+
 ## Current update — September 12, 12:09 UTC
 
 The single-item comparison is complete: the supervised helper scored 120/128

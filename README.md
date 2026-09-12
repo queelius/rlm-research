@@ -4,17 +4,18 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 12, 2026, 12:20 UTC. It adds completed
-reward-feedback and input-size checks, the failed delegation pilot's diagnosis,
-and new training, calibration and harness proposals, including an explicit
-correction to the proposed MRCR runtime budget. Other
+Latest partial refresh: September 12, 2026, 13:02 UTC. It adds the failed
+replication of a one-answer RL gain, diagnoses of setup and calculation errors,
+and the fixed broader-data RL/SFT study. Eight supervised updates are complete;
+their final accuracy test is still pending at this cutoff. Other
 records retain their earlier cutoffs; this is not live GPU status. The latest
 plain-language synthesis is also in the
-[September 12 research report](https://github.com/queelius/rlm/blob/604ac4e/docs/research-checkpoints/2026-09-12-feedback-and-input-shape.md).
+[September 12 research report](https://github.com/queelius/rlm/blob/cd4ac1d/docs/research-checkpoints/2026-09-12-replication-and-next-learning-study.md).
 
 ## Start here
 
-- [Current conclusions](research/r4/analyses/CURRENT_SUMMARY.md).
+- [Current findings in plain language](research/r4/analyses/NOW.md).
+- [Longer experimental history](research/r4/analyses/CURRENT_SUMMARY.md).
 - [The most promising findings](research/r4/analyses/PROMISING_RESULTS.md).
 - [Research questions](research/r4/questions/README.md) and [supported claims](research/r4/claims/README.md).
 - [Advisor slides, PDF, and presenter guide](https://github.com/queelius/rlm/tree/83cd0269da9774aa2280cc3d3f462178ea894bf9/slides/2026-09-11-advisor-meeting).

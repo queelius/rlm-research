@@ -1,0 +1,58 @@
+{
+  "claim_boundary": "Calibration only; one underlying research-exposed context. V3 is an environment-binding failure and has no scientific outcome.",
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/CPU_AUDIT_V4.json": "1ca5db0f90110fb176267771da8572fdf184fc188fe873f498723f0ab8f0b167",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/CPU_RUNTIME_SMOKE_V4.json": "0dd99024bd002cd01f5baf09934d6c59d10bab9536a51c3cc59ace234d1fca04",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/READY_V3.json": "7f494073087a1c0d80b85cb2b51d1d7e56b4212cacd83b11de5797e61fedf0e4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/SPEC_V3.json": "b5035970b16eb8b3b0c4aa534240b5d7b66689f64bf03628bcf5138fcfd3a541",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/collect_v4.py": "5f510db50a301dcf5724ac0ad3a892dec8f0f256fc037b81b0dc78f6c3c429bb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/owner_v4.py": "57c64e1ebf93aaef45837a0d7d5987540e9307a8677628e6f22c35b97df5e90b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/prepare_v4.py": "90a51df855029124c33e564bcb41b67bfdda63ce9aaf7d2bd64fe6323b801099",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/runtime_smoke_v4.py": "cd5d3bdd6e0ad722b9e5f7f759f520157f740f2e9b5221bd5fb797f5b47d2f88",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/study_v4.py": "642f14238b231f24f181853194c6e1151fbb22e129f7679429e50cfe97042f6a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/test_repair_v4.py": "adc72e90231040760a38ec0f8fdd366c186e49442b3566e1cd99ebb54fa043cc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/runtime-an22-5801-v1/CPU_READY.json": "01f288ea6c042129079b006a261b97cb2a9ad5725bf5a29ea4c12c3e47fe5636",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/runtime-an22-5801-v1/bin/docker": "ac6b1f20f6e58aeb3e8311b419ca31088daf9aab5d89775ef885ed9e5033e7e3"
+  },
+  "created_epoch": 1789216837.534216,
+  "external_cap_seconds": 1000,
+  "failed_attempt_003_terminal_sha256": "2ef2f573bafb9ae2b7cea20c8623d6231836a0025bd1680aad3ef48ad1af3866",
+  "fixed_argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/owner_v4.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/outputs/attempt-004",
+    "--outer-seconds",
+    "900"
+  ],
+  "identity": "7e57269e792fa6b4fec4cb164a1d33eeef9c5cdc04d7cf46d92249e4af1cf0f6",
+  "optimizer_steps": 0,
+  "parent_ready_v3_sha256": "7f494073087a1c0d80b85cb2b51d1d7e56b4212cacd83b11de5797e61fedf0e4",
+  "planned_episodes": 32,
+  "repair_boundary": "Only sandbox image identity and Docker CLI/store binding changed; exact V3 32-coordinate science, full-query files, model binding, seeds, scoring, and caps remain.",
+  "runtime": {
+    "actual_full_query_write_read_smoke": "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/CPU_RUNTIME_SMOKE_V4.json",
+    "image": "8cfe5976b347e0201e52035256537a7cc90fca5004a0bf48cbd42b282498838c",
+    "private_store": "/tmp/rlmc.an22-5801.ahAGos",
+    "wrapper": "/project/alex_phd/runs/rlm-research-r4/sidecars/runtime-an22-5801-v1/bin/docker"
+  },
+  "schema": "mrcr-v3-root-procedure-calibration-ready-v4-runtime-repair",
+  "science": {
+    "external_object": "exact full CSV queries per row in /context.txt",
+    "max_tokens_per_call": 2048,
+    "one_underlying_context": true,
+    "rollouts_per_row": 4,
+    "rows": 8,
+    "same_base_root_and_child": "Qwen3-4B-Instruct-2507-no-research-adapter",
+    "seeds": [
+      202609121401,
+      202609121402,
+      202609121403,
+      202609121404
+    ],
+    "temperature": 0.5,
+    "turn_budget": "maximum six completed turns total across root+child; depth1"
+  },
+  "status": "CPU_READY_FOR_MAIN_GPU_LAUNCH"
+}

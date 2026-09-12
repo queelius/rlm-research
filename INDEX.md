@@ -1,21 +1,21 @@
 # Research snapshot index
 
 Export started: 2026-09-11T00:37:23.324922+00:00. This is not live execution status.
-Latest partial refresh: 2026-09-12T12:20:05.174088+00:00 (44 selected files).
+Latest partial refresh: 2026-09-12T13:02:47.321591+00:00 (117 selected files).
 Unrefreshed records keep their original per-file cutoffs in the manifest.
 
 [Start with the reading guide](README.md).
 
 | Round | Published files | Browse |
 |---|---:|---|
-| r4 | 3113 | [Files](research/r4) |
+| r4 | 3225 | [Files](research/r4) |
 | r3 | 6 | [Files](research/r3) |
 | r2 | 6 | [Files](research/r2) |
 | r1 | 6 | [Files](research/r1) |
 
 ## R4 reading order
 
-1. [Current conclusions](research/r4/analyses/CURRENT_SUMMARY.md).
+1. [Current findings in plain language](research/r4/analyses/NOW.md) and [longer history](research/r4/analyses/CURRENT_SUMMARY.md).
 2. [Promising findings](research/r4/analyses/PROMISING_RESULTS.md).
 3. [Research questions](research/r4/questions/README.md).
 4. [Claim records](research/r4/claims/README.md).

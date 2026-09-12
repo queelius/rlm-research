@@ -1,0 +1,34 @@
+{
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/CPU_AUDIT_V2.json": "cce79e201c826e2a5c889b560e116155d97db34515740ed7bbd8eb8189e78dd6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/READY.json": "fc1764db3d17e80dd24fb4529f6b38a133971179dd42f4a58acd2d305c621e1f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/collector_entry_v2.py": "33457ecff668c73b9c427ea8c3a661710344915f36fe010e97363090cfc70c01",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/owner_v2.py": "08f5ea0a0ec2fe74f4d7d5c3008daecfa14d0bd4028a067a26918f3f4423c8e3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/prepare_v2.py": "87c061175a1c179036ca7a22380026c9b12928777bd69d8502e436b884c821de",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/test_repair_v2.py": "beca6c36a40d81672d8a6687a3415a7b5768b96c02b35ceadc7625a83834a9c7"
+  },
+  "created_epoch": 1789214826.3557963,
+  "external_cap_seconds": 1000,
+  "fixed_argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/owner_v2.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/outputs/attempt-002",
+    "--outer-seconds",
+    "900"
+  ],
+  "identity": "c4bfb0463ac57824cc5b57d123a5542edcf3abab69d65a396d00e53c501095d4",
+  "parent_ready_identity": "fb02d0811b3c9b1bae35f47318d62826134fd7c124acef45dc1f57cd7797e602",
+  "parent_ready_sha256": "fc1764db3d17e80dd24fb4529f6b38a133971179dd42f4a58acd2d305c621e1f",
+  "schema": "mrcr-v3-root-procedure-calibration-ready-v2",
+  "science_unchanged": {
+    "one_underlying_context": true,
+    "optimizer_steps": 0,
+    "plan_sha256": "b441fccaf8fb4259914ac94bdb59d020412e979bcd4970b30514155623ef92ad",
+    "planned_episodes": 32,
+    "turn_budget": "six total root+child, depth1"
+  },
+  "status": "CPU_READY_FOR_MAIN_GPU_LAUNCH",
+  "supersedes_unlaunched_ready_v1": "Fresh-process context wrapper could not import local study without explicit PYTHONPATH."
+}

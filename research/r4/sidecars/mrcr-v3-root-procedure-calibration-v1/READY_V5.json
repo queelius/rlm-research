@@ -1,0 +1,50 @@
+{
+  "actual_process_smoke": "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/CPU_ACTUAL_TASK_SETUP_SMOKE_V5.json",
+  "claim_boundary": "Calibration only; one underlying research-exposed context. V4 is an environment setup-dispatch failure, not a scientific null.",
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/CPU_ACTUAL_TASK_SETUP_SMOKE_V5.json": "9a29be8803e2f34cdcccc2e6fa7e149778eeebe8078b577e5f859c522be45071",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/CPU_AUDIT_V5.json": "0ce21b2cd826948c3df729b1323b6c99cef04c88c526dff4686080b0f8190dd7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/READY_V4.json": "0065ec03e3eec8d2616ca688a45c4bbc73f7fbcfecbb2707e770553d61618df7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/collect_v5.py": "243047808035f7b0aea6f81275227819a4101df13200c1bcdf0b934a96888cbc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/owner_v5.py": "ce14e400a23143e213e1d8678b8683cd7c70369161c219f4b2ec0d19dbfa35d3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/prepare_v5.py": "a53068297039dda832c7e3a3f8ff731491dff377637ff2e737002b513c1022f7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/runtime_task_setup_smoke_v5.py": "fdcd8526c8df07f25ec385f33c26107d9009dace10292c80ace45cc825ee6e4c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/study_v5.py": "6cd69d0ee8d3ee4c3b92aa08cf82a56594df30aec59269167981927d44d96cc7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/test_repair_v5.py": "8a7260ce2385596b9bbc7a02a7117799562f0cf791b59f1ac2512fb2b91adead"
+  },
+  "created_epoch": 1789217731.5920067,
+  "external_cap_seconds": 1000,
+  "failed_attempt_004_terminal_sha256": "b591427c143a68609ba1c69f0bc2cb379546ddc995d885b5a301d20a146d11dc",
+  "fixed_argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/owner_v5.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-v3-root-procedure-calibration-v1/outputs/attempt-005",
+    "--outer-seconds",
+    "900"
+  ],
+  "identity": "3508ed3b7b628657d68543e2bc80291c65b12e4073240c7ba3f775406df7d2c9",
+  "optimizer_steps": 0,
+  "parent_ready_v4_sha256": "0065ec03e3eec8d2616ca688a45c4bbc73f7fbcfecbb2707e770553d61618df7",
+  "planned_episodes": 32,
+  "repair_boundary": "Only the class receiving exact full-query task setup changes. V4 allocation runtime and exact V3 32 tasks, queries, prompts, seeds, model, scoring, gate, and caps remain.",
+  "schema": "mrcr-v3-root-procedure-calibration-ready-v5-task-setup-repair",
+  "science": {
+    "external_object": "exact full CSV queries per row in /context.txt",
+    "max_tokens_per_call": 2048,
+    "one_underlying_context": true,
+    "rollouts_per_row": 4,
+    "rows": 8,
+    "same_base_root_and_child": "Qwen3-4B-Instruct-2507-no-research-adapter",
+    "seeds": [
+      202609121401,
+      202609121402,
+      202609121403,
+      202609121404
+    ],
+    "temperature": 0.5,
+    "turn_budget": "maximum six completed turns total across root+child; depth1"
+  },
+  "status": "CPU_READY_FOR_MAIN_GPU_LAUNCH"
+}
