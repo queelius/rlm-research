@@ -1,0 +1,8 @@
+{
+  "binding_source": "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-sft16-g4-mechanism-2026-09-12/EXPECTED_BINDING.json",
+  "collector_module": "collect",
+  "identity": "78df6a13478cc2880b9a7463b1e2b5827c08799461a747ed3f9d0dc0005497d3",
+  "output": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/outputs/attempt-001",
+  "ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/CPU_READY.json",
+  "ready_sha256": "f257ba91548e6d6a6407db7294f8074cbe86e76889a81917f5c159d0aed110d4"
+}

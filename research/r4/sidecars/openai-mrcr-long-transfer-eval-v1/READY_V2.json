@@ -1,0 +1,150 @@
+{
+  "arms": [
+    "base",
+    "checkpoint32"
+  ],
+  "auto_launch": false,
+  "caps_seconds_per_arm": {
+    "external": 1200,
+    "owner": 1100,
+    "science": 900
+  },
+  "checkpoint": {
+    "checkpoint_selection": false,
+    "child": "fixed zero-LoRA released-base transport in both arms",
+    "fixed_primary_step": 32,
+    "receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/checkpoint-artifacts/CHECKPOINT_READY.json",
+    "receipt_identity": "5674889321b90f49c481e20da55e04e8ee177ca754a437bd5415746a0198b382",
+    "receipt_sha256": "408a2935b103cb173f1a8280147ec96f48ff2a663816d505f2fc3403ebee4d43"
+  },
+  "claim_boundary": "same-task length transfer; not neural context extension or broad generalization",
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-data-v1/DATA_READY.json": "d4d82f86a5d1c8b88d6e3bcc5a15fabfaadc1f1f44fa628f2c9e5207d7ed48c2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-data-v1/MANIFEST.json": "8751a1eb523017b4d018dd8e39f974a6e72cede64b3837a1b92f1ba0e4973fb5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-data-v1/MODEL_INPUTS.json": "b4e8bf7a01d1f6a0851c0d0e26e6b774400e54805a50deab62fb89687c7cfe60",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-data-v1/host/HOST_GOLD.json": "d959788e648feb2c7fe09bf9fb7d4b8d5ba91d39383cffb948934d6c7fcb115b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/CPU_TESTS.json": "6ac6c1ce988aa232a5d86e592c05ef68ea3ade4017502a627e0b14ef64b8990d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/DESIGN.md": "d1cfa5004f044973f63b4aa38d184eb036899df01a3fb9688c0b89b16f7233c7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/READY.json": "8a1272ccf8743334c43506082d368470ca0383f5ac94046f66420762f18208ed",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/RUNBOOK.md": "5947fb6b47b362121cf2a343ed2727c3b1da5eb79a3ca0d49d826e22ae31a24e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/checkpoint.py": "f6990a217cf3e457f9e8a611bac22d61729077a21a7944b05f95069478762cd8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/checkpoint_v2.py": "ac9b93c785042f941be338c2ab6e66c4919634a4966ec05e827c5c3cb1b8699c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/collect.py": "20274bd37a87f2ec2262b2ce121e004fedc57030909f9e7332a6b23efb47de74",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/collect_v2.py": "cd892459e844e209be333afc3e30a3e286946ad012e3d135932441c891657332",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/HOST_GOLD.json": "e256fbea37dc707fbf1bdf7296be0db137a46697095ef30223f6155d66c50af2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/PREFIXES.json": "cd4bb14ba143f81ec588307d224d807fe245dc9a66a2512ac3aa6a9c70e678f4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/PUBLIC.json": "98c8bd8ab03d90686e65d6826deb6238e43f3b7a0c489361d1d09b597816c27a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/2f095841e58c1343d9737d81f4b13e5814613ffd3ffbcc16fbfae43532354b43.json": "2f095841e58c1343d9737d81f4b13e5814613ffd3ffbcc16fbfae43532354b43",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/347210432d0c558965c9919280035eef15700880c534715f0fe2fe92910e4676.json": "347210432d0c558965c9919280035eef15700880c534715f0fe2fe92910e4676",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/3a637c34e2507329d30c273ae7ba3901ea249da0aeefb484f2cb4e5f0fd03085.json": "3a637c34e2507329d30c273ae7ba3901ea249da0aeefb484f2cb4e5f0fd03085",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/5097e1d39e3d3d8e0e8bca76caebc07ced9eba6be8d20c3a591abff944aaa3c0.json": "5097e1d39e3d3d8e0e8bca76caebc07ced9eba6be8d20c3a591abff944aaa3c0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/577c2630a236aea687d9eb3b44576ce3344e3d98210cddc5f0826878703a08c9.json": "577c2630a236aea687d9eb3b44576ce3344e3d98210cddc5f0826878703a08c9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/675e36f5f449bf08037f7397e156834f385a851e7565eed8107775dd6e693e00.json": "675e36f5f449bf08037f7397e156834f385a851e7565eed8107775dd6e693e00",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/6d805f8fbf3064e3e93921aa7f857384bcffdf936133ba268ac4e0698affba4f.json": "6d805f8fbf3064e3e93921aa7f857384bcffdf936133ba268ac4e0698affba4f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/8396f50aed2c80974c9f877ab41a5f22fbb9a6b96022e118f53258ab9a045e71.json": "8396f50aed2c80974c9f877ab41a5f22fbb9a6b96022e118f53258ab9a045e71",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/916dc314a92e88c4ee7eca358548fd9d0e23efe89fafb8d0350464de302e4ac0.json": "916dc314a92e88c4ee7eca358548fd9d0e23efe89fafb8d0350464de302e4ac0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/953edfa7313844317e6e4790130914c8b7645c9abe28f7d0d5589d9e694c3bac.json": "953edfa7313844317e6e4790130914c8b7645c9abe28f7d0d5589d9e694c3bac",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/9fd81ae3790c0a42db4aff68bbe068449f59a8869be0da9943445f7b11689a78.json": "9fd81ae3790c0a42db4aff68bbe068449f59a8869be0da9943445f7b11689a78",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/a1cf8a3737280b688d44b9360b8a4006330cb5ca6b076e5ff8ef7e7739fd5d28.json": "a1cf8a3737280b688d44b9360b8a4006330cb5ca6b076e5ff8ef7e7739fd5d28",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/ac0f7e43df08fbf386cacaa9217f2444afc2e859c8c43b0d145ec13e626c33ae.json": "ac0f7e43df08fbf386cacaa9217f2444afc2e859c8c43b0d145ec13e626c33ae",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/cf70d2c139b15ee232b85fceab11edec9c48a7a8f086d4e4c05a9c34af46d13a.json": "cf70d2c139b15ee232b85fceab11edec9c48a7a8f086d4e4c05a9c34af46d13a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/e713b412f32df6956415b8fea487c4b11146651b6faa498a0ccdf6a7808b0e44.json": "e713b412f32df6956415b8fea487c4b11146651b6faa498a0ccdf6a7808b0e44",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/contexts/e965093481b4f95e23574a281f448756dc7ffb7b321189ea9ab1c65dbe918bba.json": "e965093481b4f95e23574a281f448756dc7ffb7b321189ea9ab1c65dbe918bba",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/tasks.json": "a2f70cef90664b0ca3bf96d68e5daa84e93f550d3dd00826a169b1d956cbe769",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/owner.py": "27f5f4760b61d5eb851c277db9208aabd7d5087283a51e2d4b934057155c164e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/owner_v2.py": "467844bb7f5bb9babc763c07b2eba74c11438e107b4d9721d743433529477efa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/prepare.py": "bcbd1c2b0f4bffe347a2280aa22096f80b62cacee4689c24fb06a1274f60940c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/prepare_v2.py": "6897bbb6ea0f985bbcf9963ab24f0da1a2f390428e5c218e98f4db078679adc9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/study.py": "b613f46b28aa8ca27b514a00d0f889379e6c67fcefb0b2ef8ce2a891bcd7ce0e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/study_v2.py": "33d116019774b477322cd9b67b45bff56f4c5e9fe14ded63a34db1e6e92675fb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/test_long_eval.py": "8ef0fde7761f6c8bd72dddf955d64b42dbd2d50c45c0082a93e285e77df8e7e5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/test_repair_v2.py": "a3104d7e13f559f2ce6d5613df71e8312304bfccc50612547d0e4b0cae76103f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/checkpoint-artifacts/CHECKPOINT_READY.json": "408a2935b103cb173f1a8280147ec96f48ff2a663816d505f2fc3403ebee4d43",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/checkpoint.py": "4edfbc3f7e4f9a686b3a4f861119e51fc46f88452ee643a6c0eb2a6c4e65bf05",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/study.py": "e45a6d8f1db97f5a925735e5f541dcb33bdd588aabd44f32533c71ba54a66685",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-eval-v1/collect.py": "47f6d338ceaa29021b92baa8eddb73e5ee1d98281bd81a42be4b87137f9869db",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-eval-v1/owner.py": "ef7143e17e3960fbfb35f4fa08403eda24e62cea89e99f62cf2ca9094ac0bd27",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-eval-v1/study.py": "4862b24f12d90962fa2ce56db97b66ce925a36d890aa0a0f0f0fbafa2fb9096a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/CPU_READY.json": "686e484b6ffa0338b6b699537b10e4ea84f436a29d76baa0ec704f895a629d91",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/CPU_TESTS.json": "60574f1c58598097d70d441f9b5afcce2632d1189f21ce0ece4a4b0f44d4684f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/hooks.py": "3361c4aa6e3063e7742f5166be45b4bea8b83eb370d8b774da2e08e8924849bf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short32-base-calibration-v1/causal_map_v2.py": "6ae2bd2aa1d8fa70fa8a8e44ad50bc338cf73ef7daad61be565e7e4031524a9b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short32-base-calibration-v1/classify_v2.py": "077f097bfcf19cac62a246914d588650b60f11000665cae9d118cceb6294a0f0"
+  },
+  "created_epoch": 1789243874.6102803,
+  "identity": "16410b06b532adb5a57c4c22706642fae1032e9d33a96116a46a6fd1bf61deba",
+  "inputs": {
+    "data_ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-data-v1/DATA_READY.json",
+    "data_ready_identity": "609dc317e86aa09e18e03a1b6d131c374db4b266ee0a7a18cce974e30029598a",
+    "data_ready_sha256": "d4d82f86a5d1c8b88d6e3bcc5a15fabfaadc1f1f44fa628f2c9e5207d7ed48c2",
+    "episodes_per_arm": 16,
+    "gold_in_model_input": false,
+    "records": 16,
+    "schedule_sha256": "f03b41b1f742ca926254471e3970a0ba3bad8f0b048726793d58b74df55c3268",
+    "seed_namespace": "202609210000+fixed-row-index"
+  },
+  "metrics": {
+    "diagnostics": [
+      "official MRCR rfind similarity",
+      "normalized exact",
+      "procedure/action/usage"
+    ],
+    "primary": "raw exact official answer bytes",
+    "unavailable_not_wrong": true
+  },
+  "model_queries_before_ready": 0,
+  "optimizer_steps": 0,
+  "outputs": {
+    "base": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/base-002",
+    "checkpoint32": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002"
+  },
+  "question": "Does procedural SFT checkpoint32 transfer to fixed 16k-32k external MRCR contexts?",
+  "repair": {
+    "bindings_changed": false,
+    "failed_v1_outputs": [
+      "outputs/base-001",
+      "outputs/checkpoint32-001"
+    ],
+    "hooks_changed": false,
+    "only_change": "route service startup through procedural eval dual-LoRA dependency override",
+    "sampling_changed": false,
+    "science_schedule_changed": false,
+    "v1_identity": "1a72fc7903b63c579611eaebe4be4b73c55e0411094735daaef22df4b7643192",
+    "v1_ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/READY.json",
+    "v1_ready_sha256": "8a1272ccf8743334c43506082d368470ca0383f5ac94046f66420762f18208ed"
+  },
+  "sampling": {
+    "max_tokens_per_action": 2048,
+    "max_total_root_child_turns": 6,
+    "min_p": 0.0,
+    "neural_prefix_token_limit": 8192,
+    "temperature": 0.5,
+    "top_k": -1,
+    "top_p": 1.0
+  },
+  "schema": "openai-mrcr-long-transfer-evaluation-ready-v2",
+  "terminal_condition": {
+    "contract": {
+      "condition": "terminal-strip-disabled",
+      "general_lossless_parser": false,
+      "gold_dependent_repair": false,
+      "hook_sha256": "3361c4aa6e3063e7742f5166be45b4bea8b83eb370d8b774da2e08e8924849bf",
+      "parser_change": "final content=text.strip() -> content=text",
+      "reasoning_newline_rule_unchanged": true,
+      "root_storage_change": "successful ACPTurn.reply preserved exactly after original metadata callback",
+      "source_sha256": {
+        "/project/alex_phd/research-cache/repos/prime-rl/deps/renderers/renderers/parsing.py": "4b54e8c82d81e0f00eb3f1b107a79892e2eff45d7b8a8c9ae40ebe4112ba87f4",
+        "/project/alex_phd/research-cache/repos/prime-rl/deps/renderers/renderers/qwen3.py": "75c4d4a96c7fe930b0fe80d83df894133e1319b364b033cf97fbea2d84e8e146",
+        "/project/alex_phd/research-cache/repos/prime-rl/deps/verifiers/verifiers/v1/acp/__init__.py": "c143d95580458c9b8e9c822860e34116e034e00d4325ffdd3b2298dd0c0adfb4",
+        "/project/alex_phd/research-cache/repos/prime-rl/deps/verifiers/verifiers/v1/harnesses/rlm/harness.py": "7256f1efe1d0b44c8488e62edc93c41fa2da1fae95620bc6de4dea2e7d517bfc"
+      },
+      "tool_parsing_unchanged": true
+    },
+    "general_lossless_parser": false,
+    "gold_repair": false,
+    "hooks_sha256": "3361c4aa6e3063e7742f5166be45b4bea8b83eb370d8b774da2e08e8924849bf",
+    "name": "terminal-strip-disabled",
+    "ready_identity": "f09078f6e68626be5d861752b7dabc6174572ec5c19e51d87222402f1d2efd31",
+    "ready_sha256": "686e484b6ffa0338b6b699537b10e4ea84f436a29d76baa0ec704f895a629d91"
+  }
+}

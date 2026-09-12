@@ -1,11 +1,74 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T20:09:00Z
+updated_utc: 2026-09-12T21:06:00Z
 status: active_exploratory_research
 claim_level: exploratory_procedure_transfer_and_exact_return_contract_mismatch
 ---
 
 # Research in plain language
+
+## Current interpretation — September 12, 21:06 UTC
+
+The earlier checkpoint restored some reward variation but lost useful accuracy:
+6/31 available exact answers, versus 28/32 at the later checkpoint. It is not
+the clean way to preserve retrieval while teaching answer delivery. A new
+one-step RL job is now running from the later checkpoint with a fixed reward
+baseline and loss only on the final answer. Its saved gradients and subsequent
+rollout evaluation will distinguish an actual useful update from preparation.
+
+The temperature comparison failed because an inherited request audit rejected
+temperature 1.0 before it reached the model. Both failed attempts remain
+operational failures, not temperature results. A repair targeting that exact
+guard has passed the actual role-hook fixture and is queued after training.
+
+Flexible passage choice raised complete annotated-source coverage from 3/12
+to 6/12, but exact answers remained 3/12. The tie includes one genuinely
+recovered source chain and loss of one previously unsupported exact answer.
+The next harness test keeps all source sets fixed and adds quoted relationships
+before final answering. This tests evidence use, with the extra call counted.
+
+## Current interpretation — September 12, 20:51 UTC
+
+The trained retrieval routine works on new, longer conversations: exact
+answers increased from 0/16 to 10/16, and the correct text was retrieved in
+15/16. Five remaining errors dropped two required spaces while copying;
+one searched for the wrong kind of request. This is useful transfer within
+one task family, not evidence of general recursive problem solving.
+
+Four samples per familiar training question still produced identical rewards.
+That batch cannot teach our group-relative RL method, even though it contains
+a repeatable mistake. We are testing an earlier training checkpoint and
+preparing a fixed-baseline reward objective that does not require variation
+within each question. Higher-temperature testing hit a connection defect and
+has no model result yet; its lost time and repair are recorded separately.
+
+A separate experiment tests whether a planner should allocate four evidence
+passages freely across two helpers, rather than always taking two from each.
+This targets missing evidence, which the earlier summary-versus-source test
+did not resolve. We will count the planner's extra call rather than claiming
+that both policies have equal cost.
+
+## Current interpretation — September 12, 20:23 UTC
+
+The fresh supervised-controller batch answered28/32 attempts exactly, yet
+provides no group-relative RL signal. Four attempts at each of eight questions
+always gave the same answer: seven questions always correct, one always the
+same copying mistake. All32 attempts first printed the correct target text.
+Within every question the reward is constant, so every relative advantage is
+zero. This rules out taking a useful step from this particular batch, whatever
+learning rate or action mask we choose. It does not mean all RL is impossible.
+
+We are testing whether increased sampling variation or a predetermined earlier
+supervised checkpoint restores useful alternatives without losing the learned
+routine. The GPU meanwhile compares the fixed trained model and starting model
+on16 new longer conversations. No extra checkpoint is selected by its score.
+
+The helper evidence screen gave4/12 summary answers versus3/12 original-text
+answers. The separated exact scores are mostly answer formatting or unsupported
+use, not evidence-preservation gains. Missing selected relations affect more
+cases. A next comparison gives the final answer four passages either split
+evenly between helpers or selected flexibly across them. This tests where
+evidence capacity is allocated, while recording the extra planner cost.
 
 ## Current interpretation — September 12, 20:09 UTC
 

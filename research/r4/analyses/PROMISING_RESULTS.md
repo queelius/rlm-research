@@ -1,5 +1,28 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 20:56 UTC
+
+Promote narrow same-family length transfer: base0/16→fixedSFT32 10/16 on new
+outcome-blind exact-core/target-disjoint conversations, allavailable; correct
+text retrieved15/16. Five failures omit two required spaces in actual model
+final tokens; one searches wrong request genre. No neural-context expansion,
+child use or general recursive decomposition claim. This is a useful baseline
+for testing answer delivery or RL, not a novel algorithm by itself.
+
+New RL diagnosis: competent checkpoint32G4 gives28/32 but zero within-question
+reward contrast; no RLOO step can help on those zero advantages. Checkpoint16
+restores3 mixed complete groups but drops to6/31available/32planned and7clean
+target observations. More variety is not enough if the useful routine is lost.
+Test higher temperature at competent checkpoint and a separate fixed-baseline
+final-only REINFORCE objective; do not confuse objective preparation with gain.
+
+New harness lead: flexible allocation raises annotated source coverage3→6/12
+but exact remains3/12 both. All60callsverified,1win1loss. Candidate pool covers
+all annotated supports9/12. Inspect relation use and composition before adding
+more sources or generic calls. Extra planner cost is real; not token matched.
+Possible paper direction remains stage-specific diagnosis plus an intervention
+that transfers across new tasks. Current evidence has not reached that bar.
+
 ## Decision update — September 12, 20:09 UTC
 
 Promote the narrow return-contract finding from diagnosis to intervention:

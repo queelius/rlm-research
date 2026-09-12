@@ -1,5 +1,55 @@
 # Live GPU research queue
 
+### Live update September 12, 21:06 UTC
+
+ACTIVE7768 fixedbaseline final-onlyRL oneupdate fromcompetentcp32,10420tokens,
+32samples8contexts,baseline.5/LR1e-5/freshAdamW; gradientqualifiedbeforestep.
+NEXT ACCEPTED24792 T1V3 exactwireguardrepair,32groupedrollouts,900science.
+CPUlocalfixednewRLcp1readout32shortheld+16long, allpanelsretained/nooldarmrerun.
+CPUtoken24quotedrelations→finalcalls onall12frozenflexiblesource sets. MAINlaunch
+afterreadyreview. CPUpostT1independentanalyzer+unknowncause. No repeatingold
+zero-gradientbatchunderRLOO, no proofmeaningfulRLgainuntilactualreadout.
+
+### Live update September 12, 21:00 UTC
+
+GPUreleased afterT1V2all72connectionerrors/0returns290.296s. Actualcause
+hardcoded0.5wire-auditguard,notmodelquality. CPUpostexactguardrepairwithrole
+hookfixture; CPUlocalfixedbaselinefinal-onlyRLoneupdate; CPUtokenquotedrelations
+all12fixedsources24newcalls. MAINlaunchfirstreviewedREADY, checkpointaftereach.
+Completedcp16andflexresults inSESSION_CHECKPOINT top, previousactivepointersold.
+
+### Live update September 12, 20:51 UTC
+
+ACTIVE cp16 G4 54577, healthy native returns. ACCEPTED flexible4 allocation
+49926: all12 MuSiQue,60 physical calls, four final paragraphs each arm with
+fixed2+2 versus any4 from8 candidates; extra planner cost retained.
+CPU post: repair T1 physical endpoint after238 connection errors/no answers.
+CPU local: one final-only fixed-baseline REINFORCE update candidate, b=.5,
+rawexact,LR1e-5,denom32,freshAdamW fromcp32. No mixed-group gate for this
+different objective; native/HF qualification and gradient evidence before step.
+Next evaluate admitted training checkpoint on fixed shortheld and newlong16.
+
+COMPLETED long0→10/16 exact, clean retrieval0→15/16. Five missing-two-space
+copy errors, one email→program selector error. cp32G4 28/32 but0mixed groups:
+retire a group-relative update on this batch, not RL. T1 failure631s is
+operational waste, not scientific temperature evidence. Quota42%20:41.
+
+### Live update September 12, 20:23 UTC — zero contrast, not a small update
+
+ACTIVE99763: new long16 base then fixedcp32, repaired dual-service binding,
+same terminal-strip-disabled hooks. Independent one-shot analyzer ready.
+NEXT1 CPU post: cp32T1.0 G4; NEXT2 CPU local: cp16T0.5 G4. Each matches the
+completed cp32T0.5 eight contexts and32 requested seeds. No updates until
+actual mixed rewards exist. Completed G4 has28/32 exact but0/8 mixed groups;
+all32 correct target observations, identical repeated final answers per group.
+NEXT3 CPU token: MuSiQue flexible4 versus fixed2+2 source allocation, all12,
+60 physical calls. Shared ranked-four candidate selectors; planner extra cost
+explicit. Evidence-return previous4/12 versus3/12 gives no representation win.
+
+Do not take zero-gradient RL steps or silently resample until success. Use
+the temperature and fixed-dose contrasts to decide the next training policy.
+Quota45%20:12,next20:27; verified pushes eb30089/68fd2b2.
+
 ### Live update September 12, 20:09 UTC
 
 ACTIVE67095: selected original passages versus summaries of exactly those

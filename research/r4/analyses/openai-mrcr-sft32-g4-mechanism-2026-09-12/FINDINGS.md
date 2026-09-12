@@ -1,0 +1,13 @@
+# Fixed cp32, temperature .5: no within-context RL contrast
+
+The complete source-to-raw audit found 28 exact answers among all32 available trajectories: seven G4 groups were [1,1,1,1], and one was [0,0,0,0]. All32 leave-one-out advantages are exactly zero. A reward-weighted all-root or final-text-only gradient on this batch would therefore be identically zero. NO_UPDATE is the appropriate outcome; neither importance correction nor changing the credited component creates missing reward contrast.
+
+All32 trajectories executed the authored teacher-equivalent first Python program, produced clean target stdout, and then produced an actual bare text final. Each used exactly two root calls and no children. Within every context, all four complete native prompt/action token paths were identical, not merely their final answers. Native chosen-token logps varied numerically on some identical paths; they are not a full-distribution entropy estimate or HF probability qualification.
+
+The four failures belong to one context (`omrcr-9f431a2f2bea9f0c243c`). The model appended **two newline characters** to the otherwise exact411-character answer, yielding413 characters. The extra newlines are present in the model token output and retained by the qualified strip-disabled parser/harness. This is a genuine final-copy/termination error, not stripped gold whitespace or incorrect retrieval. The continuous scorer is .9975124378109452 for all four, also providing zero within-group variation. No answer text is reproduced here.
+
+The owner completed and released cleanly in418.94 seconds. All64 physical calls returned; zero errors, start-only calls or unavailable costs. Observed totals:66,824 input tokens and17,136 output tokens. This is an eight-context training-mechanism screen, not a heldout accuracy estimate or32 independent task units.
+
+The paired one-step credit-assignment proposal remains unimplemented and unadmitted. Next useful conditions must test how to obtain a real learning signal without resampling this batch until it succeeds: MAIN has separately selected a predetermined earlier checkpoint16 with the same seeds/T.5, and an independent cp32/T1.0 condition. Their question is procedure retention versus variation, not a post-hoc change to this completed result. No optimizer is authorized by either screen.
+
+Evidence: `REPORT-001.json` SHA6539a13739262e4fc5be4714c43bed2e41265aa1457f7d975807d60497bd37a4; analyzer READY SHA15abb53d56571214dcde6775fc2fcd19e777279d88a9c20962f5cbfb928e8cab; G4 source V4 READY SHA4d954294a98a24dc59b4e8cc9191c386e975a9e727109ba10606717bdea514d8. The proposal and original READY remain unchanged.

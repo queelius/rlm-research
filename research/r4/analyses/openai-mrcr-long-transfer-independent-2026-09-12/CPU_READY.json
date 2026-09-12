@@ -1,0 +1,21 @@
+{
+  "attempts": {
+    "base": "outputs/base-002",
+    "checkpoint32": "outputs/checkpoint32-002"
+  },
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-long-transfer-independent-2026-09-12/CPU_TESTS.json": "5df6a24c22dbcde5b4434271f135a23aba962f6b8a5d118a581b36ac533deb10",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-long-transfer-independent-2026-09-12/analyze.py": "e0a893502b3f2b6d52498395a835f3200df19b825bf6af89fe17b4d8f681750d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-long-transfer-independent-2026-09-12/prepare.py": "b0d9e2160abde8509c0a1b3742158931479f5da37cdd31244a2f14076e1c21b5",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-long-transfer-independent-2026-09-12/run_if_terminal.py": "db8769307a26a028ac4ecdb2b50e2fa35416dc00454ac08627aabb1a8908d645",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-long-transfer-independent-2026-09-12/test_analyze.py": "186e04dabcc96f15d3b2105fb1b4b306d4b48677f4d580d79cea3c450267a6cb"
+  },
+  "created_epoch": 1789244250.474542,
+  "gpu_calls": 0,
+  "identity": "bb6a20459b7ec558a732c5165ac22fed65e73c2665f09e93dd55fe3699a76177",
+  "one_shot_after_both_owner_terminals": true,
+  "polling": false,
+  "schema": "openai-mrcr-long-transfer-independent-analysis-ready-v1",
+  "source_ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/READY_V2.json",
+  "source_ready_sha256": "d896540268ec2ced54414415de07db2e30c0d7c756a741487cd2165194efbd62"
+}

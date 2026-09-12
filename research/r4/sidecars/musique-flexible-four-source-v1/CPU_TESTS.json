@@ -1,0 +1,28 @@
+{
+  "actual_entrypoint": "owner.implementation().collect.execute; only native urllib HTTP response is doubled",
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "test_graph.py",
+    "--basetemp=/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/cpu-fixture-001"
+  ],
+  "covered": [
+    "rank/order/exact4/duplicate/wrong-half/bool/schema",
+    "valid4+0 allocation",
+    "invalid shared selector affects both finals",
+    "invalid planner preserves fixed final",
+    "exact sorted original source binding",
+    "same final instruction/seed",
+    "physical5/natural3vs4",
+    "host gold unavailable during acquisition",
+    "current owner/collector/metrics modules and V3 service/engine paths"
+  ],
+  "new_GPU_or_model_queries": 0,
+  "returncode": 0,
+  "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+  "stdout": "....                                                                     [100%]\n=============================== warnings summary ===============================\ntest_graph.py::test_current_owner_collector_entrypoint_uses_exact_five_call_graph[none]\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_graph.py::test_current_owner_collector_entrypoint_uses_exact_five_call_graph[none]\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n4 passed, 2 warnings in 10.91s\n"
+}

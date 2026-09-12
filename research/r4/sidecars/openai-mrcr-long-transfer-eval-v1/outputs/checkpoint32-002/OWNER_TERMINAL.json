@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "elapsed_seconds": 252.19945788383484,
+  "errors": null,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "recorded": 16,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/RESULT.json",
+  "scientifically_available": 16,
+  "stage": "checkpoint32",
+  "terminal_strip_contract": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/TERMINAL_STRIP_CONTRACT.json"
+}

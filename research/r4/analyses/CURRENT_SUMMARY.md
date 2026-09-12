@@ -1,5 +1,21 @@
 # What we know so far
 
+## Current update — September 12, 20:56 UTC
+
+The fixed trained controller answered10/16 new longer conversations exactly,
+versus0/16 before SFT, and retrieved correct text15/16. Five copying mistakes
+omit two required spaces; one selects the wrong request genre. Meanwhile,
+competent-controller training attempts are too repetitive for group-relative
+RL (28/32 correct, zero mixed groups). An earlier checkpoint restores some
+contrast but loses accuracy (6/31 available,32 planned); one outcome unknown.
+We are trying higher temperature and preparing a different fixed-baseline RL
+objective aimed at final delivery. Neither is yet an improvement result.
+
+Flexible helper-source allocation doubled annotated coverage3→6/12 but exact
+answers remained3/12. Evidence availability and evidence use are distinct;
+inspect specific relations before the next composition intervention. Full
+plain-language checkpoint: `docs/research-checkpoints/2026-09-12-length-transfer-and-reward-contrast.md`.
+
 ## Current update — September 12, 20:09 UTC
 
 The trained controller learned useful retrieval, but the harness sometimes

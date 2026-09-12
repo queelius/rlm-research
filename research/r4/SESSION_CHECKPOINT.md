@@ -1,5 +1,152 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 21:06 UTC
+
+GPU ACTIVE fixedbaseline final-tokenRL PTY7768,
+`operations/2026-09-12-cp32-fixed-baseline-rl-queue/run.py`. READY
+014a9c87a0676f64dfbded51b8b91b0a27fa8801ed4e397b141022cc73ffac4b,
+identity0fadbbea0afcaf66bb3b177a33be0b292366b17519f0127ccdb66d721133e9fa,
+527pins. MAINread559newsource/testlines plus reusedscore/math andRUNBOOK;
+actualownerverify passed; twoCPUfixturestestedmath/masks/replay+actualtinyHF.
+Fixed32cp32G4finals, b=.5,28positive4negative,10420tokens,LR1e-5onefreshAdamW,
+900/1100/1200caps, seed202609220001, outputattempt001/checkpoint0001. INITIAL
+andPRESTEPprobabilityfilesexist; gradientexecutionactive. No score result yet.
+
+ACCEPTED T1V3 PTY24792 operation2026-09-12-sft32-t1-role-guard-queue/run.py,
+READYd6eac589f4e045acd82a4025b14cfec1ba5c82908f98eee482d41e5c97d85c90,
+identityb45772dc0f95c7f5feeabf2e7dce38323c2b77ed67b5cdcf1e451a9d45562cfd.
+MAINreadallV3source/test/prepare/repair, actualownerverifypassed. Changesonly
+pinnednative_routingwireauditexpectedT.5→1.0; fixtureincludesrolehooksandnative
+capture. Outputattempt003; checkfirstactualmodelreturn promptly whenacquired.
+V3fixturedoesnotitselfassertauthheader/exactprefix; earlierV2did andactualcall
+auditmustcheckphysicalprefix. Do notoverclaimfixtureverification.
+
+CPUlocalpreparesconditionalfixedRLcp1readout: same32shortheld+16long, no new
+outcome-selectedmodel/noqualificationaccuracygate; reusequalifiedcp32baselines.
+CPUtokenprepares24quotedrelationcalls; CPUpostT1V3analyzerandcp16unknowncause.
+AgentposthaspossibleliveGPUdiagnosticcallforT1—requestedexactreceipt/cost so
+outside-schedule diagnosticswillnotdisappearfromphysicalcomputerecord.
+
+Newpublicexport133files47,998,298bytes21:01; nextrefresh/pushpending. RLMreport
+cutoff21:00, notebookREADME20:56currently. Quota42%20:53,next21:08. Continue
+autonomouslybeyondacceptedjobs, MAINonlyGPU. Priorpointersarehistorical.
+
+## Latest resume pointer — September 12, 2026, 21:00 UTC
+
+Both accepted jobs COMPLETE/released: cp16 G4 owner542.791576s, flexible4
+69.184153s. MAIN actual analyzers ran. cp16 6/31 available of32;3mixed complete
+groups/7complete;0teacher-firstAST,7cleanstdout; pairedcp32 31 gives0wins21losses.
+Oneunknownepisode allmodelcallsreturned but generated firstprogramnotparseable;
+agentpost classifies underlyingfailure without altering originalrecords.
+Flexible4 3/12 versusfixed3/12,1win1loss; annotatedcoverage3→6,candidatepool9/12.
+All60physicalcalls/prefixesverified; physical75961input1617output, natural36vs48.
+Agenttoken full12review9d04a800… sourcegenuineRavenwin, unsupportedCopenloss,
+Manesscorrectcontenthiddenbyverbosity. MAIN read review and approved CPU next
+24calls all12frozenflexsources→quotedrelations512→unchangedfinal1024, samepaired
+finalseeds, no gold inprompt. Agenttokenpreparesready; no GPUauthority.
+
+T1V2 alsoFAILEDbeforemodelreturn; MAINidentified concretecause: inherited
+root-only-credit/native_routing.py wire_request hardcodes temperature0.5.
+HTTPeventhookrejectsT1 beforePOST, surfacedasConnection error. V2CPUfixture
+omittedrolehooks. MAINstoppedauthenticatedcollector819381only,owner818722
+released290.296422s,72errors/0returns. STOP_REQUESTinoperations/2026-09-12-t1-v2-connection-stop.
+OriginalV1/V2sources/receiptsretained; doNOTrepeatoldstops(PIDsgone).
+Agentpostrepairs actualguardadditively and includesrolehooksinfixture.
+GPU temporarilyidleafterstoppednon-informativejob; localpreparesfixedbaseline
+final-onlyRLrunner, postT1exactrepair, tokenquotedrelationfollowon. MAINlaunch
+whichevermeaningfulREADYfirst, no publicationpolishblockingreadyjob.
+
+Quota42%20:53:08UTC,next21:08. Publicnewreportcutoff21:00 notyetpushed;
+lastremoteseb30089/68fd2b2 cutoff20:15. Newdocs nowinclude longtransfer,
+G4contrast/cp16dose,flexibleallocationcaseanalysis,andT1failuremechanism.
+
+## Latest resume pointer — September 12, 2026, 20:51 UTC
+
+CONTINUE autonomously. MAIN sole GPU launcher. ACTIVE cp16 G4 PTY54577,
+`operations/2026-09-12-sft16-g4-queue/run.py`, READY
+f257ba91548e6d6a6407db7294f8074cbe86e76889a81917f5c159d0aed110d4.
+At20:49,81 actual native returns, zero errors,31 episode files; useful inference
+confirmed, not merely loaded GPU memory. Next ACCEPTED flexible4 PTY49926,
+`operations/2026-09-12-flexible-four-queue/run.py`, READY
+6324911d00c6b893ec6371a73bba89f5c1be206582fe74cbce8520127cd87cf2.
+Both full MAIN source/test reads and owner verifies passed. MAIN has now read
+cp16 and flexible independent analyzers; run once terminal, not partial score.
+
+Long-transfer COMPLETE: base0/16→fixedcp32 10/16,10wins0losses/allavailable.
+Clean exact target observation0→15/16. Five cp32 failures omit exactly two
+required trailing ASCII spaces in native generated final text, NOT clamps.
+Sixth searches second program instead of requested second email, then repair
+hits length limit. Independent RESULTS7fc003a6… and failure948dd57b….
+Same task family, outcome-blind16 new exact-core/target-disjoint conversations,
+16,043–29,897 content tokens, initial neural prefixes768–775, no children.
+
+cp32 G4 completed28/32 but0/8mixed groups; every RLOO advantage iszero.
+No group-relative optimizer step. Agentlocal prepares ONE final-text fixed-
+baseline REINFORCE candidate: b=.5, rawexact reward, LR1e-5,freshAdamW,denom32,
+fixedcp32, no gold teacher gradient. Actual HF/native probability qualification
+and gradient localization required before update; no GPU authority yet.
+
+T1 attempt001 FAILED infrastructure:238connection errors, zero model returns,
+owner completeFalse/releasedTrue630.942511s after MAIN authenticated SIGTERM
+of collector782667 only. Old owner781910 released; PIDs gone. Stop evidence
+`operations/2026-09-12-t1-connection-stop/STOP_REQUEST.json`. Never rerun stop.
+Agentpost repairs actual physical endpoint additively; constructor test was
+insufficient. No T1 capability score. AGENTS/operations add prompt first-return
+healthcheck so all-transport-error jobs do not wait for scientific timeout.
+
+Quota42% at20:41:29UTC,next20:56. Allocation5801/an22 endsSep15 17:30:16UTC.
+Last verified remotes20:19 eb3008926c73988b1d65e17bc1234bc816536b60 and
+68fd2b29180481d7c123257a6db84734b1be7c14, cutoff20:15. NEW repo checkpoint
+length-transfer-and-reward-contrast.md pending publication. Presented deck is
+historical; these postmeeting results update research reports, not old slides.
+
+## Latest resume pointer — September 12, 2026, 20:23 UTC
+
+Continue the same autonomous user turn; MAIN alone launches GPU owners.
+ACTIVE long-transfer repaired base→checkpoint32 chain PTY99763,
+`operations/2026-09-12-long-transfer-repaired-queue/run.py`.
+READY_V2 d896540268ec2ced54414415de07db2e30c0d7c756a741487cd2165194efbd62,
+identity16410b06b532adb5a57c4c22706642fae1032e9d33a96116a46a6fd1bf61deba.
+MAIN read162 repair/test lines, actual owner verify passed; service startup
+fixture covers both bindings. Outputs base-002/checkpoint32-002 only; original
+zero-query failures stay separate. Both fixed arms must run after clean release.
+Independent analyzer CPU_READY6bdb5558… read by MAIN (390 lines), run once both
+terminals exist. It correctly uses startswith/removeprefix/SequenceMatcher;
+earlier metadata's word “rfind” was inaccurate, not a different actual grader.
+
+G4 V4 COMPLETE/released in418.939 seconds,32/32 available,28 exact.
+MAIN ran sealed analyzer to `openai-mrcr-sft32-g4-mechanism-2026-09-12/MAIN_REPORT_001.json`.
+Seven groups [1,1,1,1], one [0,0,0,0]; ZERO mixed groups and ZERO RLOO
+advantages. All32 first programs match teachers, print correct target, and end
+in actual text finals. Four attempts per question give identical first token
+paths and final answers. The wrong group repeats a copying error. NO UPDATE:
+both all-root and final-only group-relative gradients would be zero.
+
+CPU follow-ons: agentpost prepares cp32 temperature1.0 versus completed0.5;
+agentlocal prepares fixed earlier checkpoint16 at temperature0.5. Same8 train
+contexts/order and32 seeds202609200000..31, same hooks/caps/zero child binding.
+They isolate sampling variation and SFT dose in separate contrasts, not a full
+factorial. No held data or outcome-selected checkpoint. Need READY/MAIN review.
+
+Evidence72 COMPLETE/runtime-qualified/released in98.754s: summary4/12,
+verbatim3/12. Agent independent REPORTa575f3c2… authenticates72 actual prefixes
+and decodes, no score discrepancies. Two summary-only gains are concise versus
+verbose answers; sole verbatim gain cites a venue, not requested death relation.
+Only2/12 cover all annotated supports; five half-partitions cannot fit all
+annotated supports under2 IDs/half. Alternative valid chains mean gold coverage
+is not necessary/sufficient proof. MAIN read all12 case adjudications.
+Agenttoken prepares approved all12 fixed2+2 versus flexible4 selection screen:
+two shared ranked-four selectors, one planner, two paired verbatim finals,
+60 physical calls, natural3 versus4 calls/question, not equal token cost.
+
+Both remotes VERIFIED at20:19: RLM eb3008926c73988b1d65e17bc1234bc816536b60,
+notebook68fd2b29180481d7c123257a6db84734b1be7c14. Public report cutoff20:15;
+new G4 result/flexible allocation plan not yet published. Notebook45,408,491
+bytes, below50MiB cap. Quota45% at20:12:03UTC,next20:27; reserve20/15/10.
+Allocation5801/an22 endsSep15 17:30:16UTC. User asleep; no final/stop merely
+after these checkpoints. New idea reward-contrast-before-credit-assignment.md
+records result, next experiments and versioned ClawGymII/ECHO primary readings.
+
 ## Latest resume pointer — September 12, 2026, 20:09 UTC
 
 CONTINUE autonomously; MAIN sole GPU launcher. ACTIVE evidence-representation

@@ -4,13 +4,21 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 12, 2026, 20:15 UTC evidence cutoff.
+Latest partial refresh: September 12, 2026, 21:00 UTC evidence cutoff.
 Supervised training on 32 worked examples taught the controller to retrieve
 the requested reply from a Python-accessible conversation. On 16 separate
 conversations with two trials each, exact returned answers rose from 2 to 17.
 The starting model completed 29 of 32 attempts; the trained model completed all
 32. Among the 29 available pairs, training corrected 15 answers and lost none.
 This is exploratory transfer within one task family, not general decomposition.
+
+The fixed trained model also answered 10/16 new, longer conversations exactly,
+versus 0/16 for the starting model. It retrieved the right text in 15/16 cases;
+five final answers omitted two required spaces and one program searched for
+the wrong request type. All outcomes were available. These new conversations
+exclude exact core/target overlap with the earlier 48 records, but remain in
+the same retrieval task family. The model accessed their text through Python,
+not through an expanded neural context window.
 
 The trained model printed the right text in 30 of 32 attempts. In eight cases
 it also generated the exact final answer, but the runtime removed trailing
@@ -27,14 +35,22 @@ exact answers before training, zero after the smaller update, and one after the
 larger update, each with 15 available attempts. A second decoding block gave
 2/15, 1/16, and 1/16 respectively. The small apparent advantage did not persist;
 successes followed broad input dumps, not learned retrieval. Fresh attempts
-from the competent supervised controller will guide the next RL comparison.
+from the competent supervised controller answered 28/32 exactly, but every
+question had the same reward across four attempts. That gives group-relative
+RL zero learning signal. An earlier checkpoint restored some reward variation
+but answered only 6/31 available attempts, with one additional unknown outcome.
+We are testing higher temperature and preparing a different fixed-baseline
+reward objective; neither is yet an RL improvement result.
 On another dataset, focused helper follow-up questions, broad
 follow-ups, and stopping each answered the same one of 12 questions correctly;
 reading the full source answered three. Another comparison held selected
 passages fixed: summaries answered 4/12 questions and original passages 3/12.
 It does not establish a general advantage for either representation; the
 strategies also have different natural costs. Source-selection and answer-use
-analysis is ongoing. More calls alone did not help.
+analysis is ongoing. Flexible allocation of four passages across the helpers
+increased complete annotated-source coverage from 3/12 to 6/12, but both
+policies still answered 3/12 exactly. It used an extra planning call. More
+available evidence did not automatically mean the model combined it correctly.
 
 Earlier helper-training claims are also qualified. On fresh news examples,
 varied-data RL scored 427/429 out of 512, repeated-data RL 425, supervised
@@ -45,7 +61,7 @@ unsuccessful comparisons alongside the promising procedure result.
 
 Other records retain their earlier cutoffs; this is not live GPU status. The latest
 plain-language synthesis is also in the
-[September 12 answer-preservation and RL report](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-12-preserving-answers-and-restarting-rl.md).
+[September 12 length-transfer and reward-contrast report](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-12-length-transfer-and-reward-contrast.md).
 
 ## Start here
 

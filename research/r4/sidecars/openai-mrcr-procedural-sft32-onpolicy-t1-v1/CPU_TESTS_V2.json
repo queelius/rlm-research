@@ -1,0 +1,24 @@
+{
+  "command": "/project/alex_phd/envs/prime-rl-5990b1b/bin/python -m pytest -q test_repair_v2.py test_t1.py",
+  "elapsed_wall_seconds": 27,
+  "gpu_used": false,
+  "native_fixture": {
+    "authenticated": true,
+    "exact_frozen_initial_prefix": true,
+    "model": "Qwen3-4B-Instruct-2507-mrcr-procedural-sft-step32",
+    "path": "/inference/v1/generate",
+    "provider": "localhost CPU deterministic fixture",
+    "real_environment_run_slot": true,
+    "real_interception_server": true,
+    "real_qwen3_renderer": true,
+    "real_train_client": true,
+    "temperature": 1.0
+  },
+  "passed": true,
+  "result": "6 passed, 2 deprecation warnings",
+  "schema": "openai-mrcr-procedural-sft32-onpolicy-t1-cpu-tests-v2",
+  "test_sha256": {
+    "test_repair_v2.py": "e60474a37cb25de0b1c90f3cbff5577b0faa64b1d142aea47b386c6e737ca518",
+    "test_t1.py": "c0a7ad49afc986d0cf50f9a12691c9fcb11aec09cab7f0d3dcb771be6dd24ec1"
+  }
+}

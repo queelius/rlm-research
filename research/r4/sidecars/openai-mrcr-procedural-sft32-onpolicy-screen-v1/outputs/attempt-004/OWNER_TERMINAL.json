@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "elapsed_seconds": 418.9388179779053,
+  "errors": null,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "recorded": 32,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/RESULT.json",
+  "scientifically_available": 32,
+  "terminal_strip_contract": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/TERMINAL_STRIP_CONTRACT.json"
+}

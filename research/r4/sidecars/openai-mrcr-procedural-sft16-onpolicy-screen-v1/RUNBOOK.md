@@ -1,0 +1,8 @@
+# Predetermined checkpoint16 G4 screen
+
+MAIN alone launches `CUDA_VISIBLE_DEVICES=<assigned> /project/alex_phd/envs/prime-rl-5990b1b/bin/python owner.py run` under the shared GPU lease and1200-second external timeout, with the existing private credential. Science cap900 seconds, owner1100, fixed `outputs/attempt-001`. Preserve all raw requests/responses, episode checkpoints, exact token prefixes/actions/logps, role mapping, unknowns and terminal/release receipts. No retry or optimizer.
+
+`study.py` privately reuses the original approved study with only real root alias, new artifact namespace and truthful task metadata changed. `collect.py` has one inherited science wrapper and explicitly binds both wrapper and actual inner verifier. `checkpoint.py` verifies the already qualified full continuation plus the actual intermediate commit/files/Adam16/RNG and derives the truthful cp16 native binding. `owner.py` reuses the accepted finite owner without changing lifecycle/caps. No sealed source is edited and no V2/V3/V4 wrapper tower is added.
+
+Preparation: `prepare.py` freezes inputs, checkpoint/source READY, then runs exactly two focused CPU fixtures and writes CPU_TESTS.json. The owner refuses admission without that passing receipt bound to READY. Fixtures include a real unmocked inner entry reaching a CPU sentinel and a real native HTTP/tokenizer/parser/RLM Python tool→final chain using an authored provider fixture, actual cp16 model alias and terminal whitespace. CPU evidence does not claim weights were inferred. Model HTTP is simulated; actual generated-code execution is absent (only the authored `print` fixture runs). All original cp32 science remains immutable.
+

@@ -1,0 +1,31 @@
+{
+  "GPU_calls": 0,
+  "argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "test_screen.py",
+    "--basetemp",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/cpu-001"
+  ],
+  "elapsed_seconds": 73.64812016487122,
+  "first_red": "two assertions failed because cp16 collector absent; no implementation existed",
+  "fixture_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/cpu-001/test_actual_native_cp16_alias_0/DERIVED.json": "3df07d11b78800b28a7d9bfdc544fdd4c5d352abae05184c7f1d85e4f2ee014c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/cpu-001/test_actual_native_cp16_alias_0/EPISODE.json": "39c01c46a7fba1dd18930010b37327f48a86d2b6f4d76abd050c1d0a8d70d9ed",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/cpu-001/test_actual_native_cp16_alias_0/REQUESTS.json": "9aaa6dc8f2155c7163c4b4ebdbeca02ad3c7aca42d9b9f88c774a49c55ed7e98",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/cpu-001/test_actual_native_cp16_alias_0/native-calls/0000-result.json": "7468ac8a12ce8383db758a14d00459b84f866b2a6bff451074eafe46200a96db",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/cpu-001/test_actual_native_cp16_alias_0/native-calls/0000-start.json": "76d4a6882783c1dd12668479926131de114af16864150311b2d572305d0f9e9c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/cpu-001/test_actual_native_cp16_alias_0/native-calls/0001-result.json": "45ca871c5df1fffe7dca71e09a94d9aaa36012b39b4d4d999f08cb3d1b7d9a1a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/cpu-001/test_actual_native_cp16_alias_0/native-calls/0001-start.json": "0ab078a6dca5e9e0819426bf4f30887822bce270132d34db6f3b22fb71b571df",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft16-onpolicy-screen-v1/cpu-001/test_cp16_actual_binding_and_i0/endpoint.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  "ready_sha256": "f257ba91548e6d6a6407db7294f8074cbe86e76889a81917f5c159d0aed110d4",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "..                                                                       [100%]\n=============================== warnings summary ===============================\ntest_screen.py::test_actual_native_cp16_alias_tool_then_final_preserves_boundaries\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_screen.py::test_actual_native_cp16_alias_tool_then_final_preserves_boundaries\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n2 passed, 2 warnings in 70.82s (0:01:10)\n",
+  "tests_passed": 2
+}

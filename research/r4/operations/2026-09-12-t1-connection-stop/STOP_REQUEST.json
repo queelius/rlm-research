@@ -1,0 +1,48 @@
+{
+  "authenticated_owner": {
+    "argv": [
+      "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+      "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-t1-v1/owner.py",
+      "run",
+      "--output",
+      "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-t1-v1/outputs/attempt-001",
+      "--outer-seconds",
+      "1100"
+    ],
+    "pgid": 781909,
+    "pid": 781910,
+    "ppid": 781909,
+    "start_ticks": 1104890246,
+    "uid": 1523821556
+  },
+  "authority": "MAIN",
+  "epoch": 1789245636.8963852,
+  "no_files_deleted": true,
+  "observed_calls": 238,
+  "original_outcomes_unchanged": true,
+  "owner_retained_for_release": true,
+  "reason": "All native attempts fail connection before any scientific model return. Stop uninformative transport retries; diagnose CPU while accepted cp16/flexible jobs use GPU.",
+  "returned_calls": 0,
+  "signal": "SIGTERM",
+  "target": {
+    "argv": [
+      "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+      "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-t1-v1/collect.py",
+      "--phase",
+      "train",
+      "--arm",
+      "checkpoint32",
+      "--endpoint",
+      "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-t1-v1/outputs/attempt-001/owned-service/service/endpoint-original.json",
+      "--output",
+      "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-t1-v1/outputs/attempt-001/science",
+      "--deadline",
+      "1789245967.4026504"
+    ],
+    "pgid": 782667,
+    "pid": 782667,
+    "ppid": 781910,
+    "start_ticks": 1104897807,
+    "uid": 1523821556
+  }
+}

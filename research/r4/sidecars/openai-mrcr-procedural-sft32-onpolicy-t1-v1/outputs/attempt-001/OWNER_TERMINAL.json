@@ -1,0 +1,18 @@
+{
+  "complete": false,
+  "elapsed_seconds": 630.9425110816956,
+  "errors": [
+    {
+      "message": "mrcr-sft32-onpolicy-screen exited-15; retained log",
+      "traceback": "Traceback (most recent call last):\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/owner.py\", line 96, in execute\n    suite.command(service, \"mrcr-sft32-onpolicy-screen\", argv,\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-post-sft-suite-v1/suite.py\", line 210, in command\n    raise RuntimeError(f'{label} exited{process.returncode}; retained log')\nRuntimeError: mrcr-sft32-onpolicy-screen exited-15; retained log\n",
+      "type": "RuntimeError"
+    }
+  ],
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "recorded": null,
+  "released": true,
+  "result": null,
+  "scientifically_available": null,
+  "terminal_strip_contract": null
+}

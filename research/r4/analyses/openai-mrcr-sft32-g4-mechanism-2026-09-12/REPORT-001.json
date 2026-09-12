@@ -1,0 +1,4131 @@
+{
+  "GPU_calls": 0,
+  "analyzer_READY_sha256": "15abb53d56571214dcde6775fc2fcd19e777279d88a9c20962f5cbfb928e8cab",
+  "available": 32,
+  "collector_result": {
+    "all_action_caps_respected": true,
+    "all_causal_mappings_complete": true,
+    "all_initial_root_prefixes_verified": true,
+    "arm": "checkpoint32",
+    "checkpoint_receipt_sha256": "408a2935b103cb173f1a8280147ec96f48ff2a663816d505f2fc3403ebee4d43",
+    "child_actions": 0,
+    "complete": true,
+    "completion_tokens": 17136,
+    "infrastructure_unavailable": 0,
+    "manipulation_gate": {
+      "available": 32,
+      "eligible": true,
+      "exact_contexts": 7,
+      "normalized_exact": 32,
+      "planned": 32,
+      "raw_exact": 28,
+      "recorded": 32,
+      "requirements": {
+        "all_available": true,
+        "exact_contexts_at_least": 4,
+        "raw_exact_at_least": 8
+      }
+    },
+    "mechanism_records": 32,
+    "missing_coordinates": [],
+    "normalized_exact": 32,
+    "official_score_sum": 31.99004975124378,
+    "phase": "train",
+    "planned": 32,
+    "prompt_tokens": 66824,
+    "raw_exact": 28,
+    "ready_identity": "2f504b0fb5c1cc159bf947c35fabead586d9dc9c6d84bc933ae54a608a5d35f8",
+    "recorded": 32,
+    "reward_contract_status": "terminal-strip-disabled raw exact primary",
+    "root_actions": 64,
+    "root_turns_with_native_learning_evidence": 64,
+    "schema": "openai-mrcr-procedural-sft32-onpolicy-screen-result-v1",
+    "scientifically_available": 32,
+    "token_decode_raw_exact_candidate_not_primary": 28,
+    "trace_final_raw_exact_diagnostic": 28,
+    "usage_unknown_calls": 0
+  },
+  "complete_groups": 8,
+  "created_epoch": 1789244360.3045793,
+  "decision_proposal_not_training_admission": "INSUFFICIENT_G4_CONTRAST_REVIEW_DIVERSITY_BEFORE_EXPLORATION_CHANGE",
+  "group_size": 4,
+  "groups": [
+    {
+      "all_clean_target_stdout": true,
+      "all_correct": true,
+      "all_incorrect": false,
+      "available": 4,
+      "binary_population_variance": 0.0,
+      "binary_rewards": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "complete_group": true,
+      "empirical_four_sample_answer_entropy_nats": -0.0,
+      "failure_categories": {
+        "returned_exact": 4
+      },
+      "missing_unknown_not_imputed_as_reward_zero": true,
+      "mixed_reward": false,
+      "observed_available_variance_diagnostic": 0.0,
+      "planned": 4,
+      "record_id": "omrcr-3d7230f66f7203751f60",
+      "recorded": 4,
+      "rloo_advantages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "same_first_native_path": true,
+      "same_first_program": true,
+      "samples": [
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "fb26e8d2df8a8f98593cfb732770da236c5c253f451be9626a7294c0576f74ca",
+            "id": "1af2834ffa33e0eb0e5865d4eaf1f7f166821f10b7b0e1e1741740e48100b407",
+            "ordered_core_sha256": "6b21d6c2adc5f10faf94a13736d7cd1c53b70477126878533f52e706125388cf",
+            "phase": "train",
+            "record_id": "omrcr-3d7230f66f7203751f60",
+            "repeat": 0,
+            "row_index": 0,
+            "seed": 202609200000,
+            "source_row_sha256": "3d7230f66f7203751f602f564754ca4833ea509098d3a1a9f1e597d7f6b60e7f",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "4b696cf8ee694c187ae41819ebfa0ae3debead5b511e73d29ce610a19769d911",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "6245593d399c81e4af0c21d3c244e6af26ab76794e7d90c0a9fe55fcdbc93eec",
+          "first_program_sha256": "ce028449e99122eb6de215ba4a4fa2f7dc23787a37a566d46d7dc49845af2383",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2156,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 698,
+              "code_sha256": "ce028449e99122eb6de215ba4a4fa2f7dc23787a37a566d46d7dc49845af2383",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2151,
+          "returned_final_sha256": "abc71b92e8c79efe47fae069cdd71741f050464f244c06a86ecc1c7822e6e883",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "5f619d8eb10836524d2878f9bcdfd7026021e582229730bc8015f2e5afc4af2b",
+              "action_tokens": 213,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -8.583042409782138e-05,
+              "native_index": 2,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 4.0295973754845717e-07,
+              "native_min_chosen_logprob": -1.07287787614041e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "8fb1cfd988a31397388ee78cdf68cdf1d92c4d53f7640f5e570e102e6d6d3d0c",
+              "prompt_tokens": 774,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200000,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "ceb3ff8d7cb72895475f4aeea3d5e1ef170802b83fec7102a6e7b63e1cffd6e3",
+              "action_tokens": 425,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -3.576278118089249e-07,
+              "native_index": 6,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 8.414772042562938e-10,
+              "native_min_chosen_logprob": -3.576278118089249e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "2eadcf912a639b04d61089192328f4e5fdb46c5580e9181a51cee9c9a9ec5c4c",
+              "prompt_tokens": 1423,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200000,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "fb26e8d2df8a8f98593cfb732770da236c5c253f451be9626a7294c0576f74ca",
+            "id": "c0b70a1d4814cd866da0400d1a64f5018ca20bcc601e8ac4a91e70e0be161766",
+            "ordered_core_sha256": "6b21d6c2adc5f10faf94a13736d7cd1c53b70477126878533f52e706125388cf",
+            "phase": "train",
+            "record_id": "omrcr-3d7230f66f7203751f60",
+            "repeat": 1,
+            "row_index": 0,
+            "seed": 202609200001,
+            "source_row_sha256": "3d7230f66f7203751f602f564754ca4833ea509098d3a1a9f1e597d7f6b60e7f",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "826de39d99467c435b59ecb71d6daa9438a0183d616a05a86ea5912137119889",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "6245593d399c81e4af0c21d3c244e6af26ab76794e7d90c0a9fe55fcdbc93eec",
+          "first_program_sha256": "ce028449e99122eb6de215ba4a4fa2f7dc23787a37a566d46d7dc49845af2383",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2156,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 698,
+              "code_sha256": "ce028449e99122eb6de215ba4a4fa2f7dc23787a37a566d46d7dc49845af2383",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2151,
+          "returned_final_sha256": "abc71b92e8c79efe47fae069cdd71741f050464f244c06a86ecc1c7822e6e883",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "5f619d8eb10836524d2878f9bcdfd7026021e582229730bc8015f2e5afc4af2b",
+              "action_tokens": 213,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.0001076452241832726,
+              "native_index": 0,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.053766393580873e-07,
+              "native_min_chosen_logprob": -2.8609820219571702e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "8fb1cfd988a31397388ee78cdf68cdf1d92c4d53f7640f5e570e102e6d6d3d0c",
+              "prompt_tokens": 774,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200001,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "ceb3ff8d7cb72895475f4aeea3d5e1ef170802b83fec7102a6e7b63e1cffd6e3",
+              "action_tokens": 425,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -3.576278118089249e-07,
+              "native_index": 4,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 8.414772042562938e-10,
+              "native_min_chosen_logprob": -3.576278118089249e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "2eadcf912a639b04d61089192328f4e5fdb46c5580e9181a51cee9c9a9ec5c4c",
+              "prompt_tokens": 1423,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200001,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "fb26e8d2df8a8f98593cfb732770da236c5c253f451be9626a7294c0576f74ca",
+            "id": "41629099659a75652d88c5528f6825c0e2529bb206a4ec41c8e41de21a4cd9d4",
+            "ordered_core_sha256": "6b21d6c2adc5f10faf94a13736d7cd1c53b70477126878533f52e706125388cf",
+            "phase": "train",
+            "record_id": "omrcr-3d7230f66f7203751f60",
+            "repeat": 2,
+            "row_index": 0,
+            "seed": 202609200002,
+            "source_row_sha256": "3d7230f66f7203751f602f564754ca4833ea509098d3a1a9f1e597d7f6b60e7f",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "6f816894b0bf551d6cc9dc3704fee6bbeefdf8a8ca207dfdfb2dae36424a08ba",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "6245593d399c81e4af0c21d3c244e6af26ab76794e7d90c0a9fe55fcdbc93eec",
+          "first_program_sha256": "ce028449e99122eb6de215ba4a4fa2f7dc23787a37a566d46d7dc49845af2383",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2156,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 698,
+              "code_sha256": "ce028449e99122eb6de215ba4a4fa2f7dc23787a37a566d46d7dc49845af2383",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2151,
+          "returned_final_sha256": "abc71b92e8c79efe47fae069cdd71741f050464f244c06a86ecc1c7822e6e883",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "5f619d8eb10836524d2878f9bcdfd7026021e582229730bc8015f2e5afc4af2b",
+              "action_tokens": 213,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -9.763199407331058e-05,
+              "native_index": 3,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 4.5836616935826563e-07,
+              "native_min_chosen_logprob": -1.3828182090946939e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "8fb1cfd988a31397388ee78cdf68cdf1d92c4d53f7640f5e570e102e6d6d3d0c",
+              "prompt_tokens": 774,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200002,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "ceb3ff8d7cb72895475f4aeea3d5e1ef170802b83fec7102a6e7b63e1cffd6e3",
+              "action_tokens": 425,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -3.576278118089249e-07,
+              "native_index": 7,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 8.414772042562938e-10,
+              "native_min_chosen_logprob": -3.576278118089249e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "2eadcf912a639b04d61089192328f4e5fdb46c5580e9181a51cee9c9a9ec5c4c",
+              "prompt_tokens": 1423,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200002,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "fb26e8d2df8a8f98593cfb732770da236c5c253f451be9626a7294c0576f74ca",
+            "id": "632580b93478e13ac0aee915e521f8596a048f15b79b1a619be9e01a4e59eca6",
+            "ordered_core_sha256": "6b21d6c2adc5f10faf94a13736d7cd1c53b70477126878533f52e706125388cf",
+            "phase": "train",
+            "record_id": "omrcr-3d7230f66f7203751f60",
+            "repeat": 3,
+            "row_index": 0,
+            "seed": 202609200003,
+            "source_row_sha256": "3d7230f66f7203751f602f564754ca4833ea509098d3a1a9f1e597d7f6b60e7f",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "d6926df919c64b8696fbc47378f018d916f4a8aa7c41e2d221117297bf2ec0b9",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "6245593d399c81e4af0c21d3c244e6af26ab76794e7d90c0a9fe55fcdbc93eec",
+          "first_program_sha256": "ce028449e99122eb6de215ba4a4fa2f7dc23787a37a566d46d7dc49845af2383",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2156,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 698,
+              "code_sha256": "ce028449e99122eb6de215ba4a4fa2f7dc23787a37a566d46d7dc49845af2383",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2151,
+          "returned_final_sha256": "abc71b92e8c79efe47fae069cdd71741f050464f244c06a86ecc1c7822e6e883",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "5f619d8eb10836524d2878f9bcdfd7026021e582229730bc8015f2e5afc4af2b",
+              "action_tokens": 213,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -9.381737271496604e-05,
+              "native_index": 1,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 4.404571488965542e-07,
+              "native_min_chosen_logprob": -1.3589766240329482e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "8fb1cfd988a31397388ee78cdf68cdf1d92c4d53f7640f5e570e102e6d6d3d0c",
+              "prompt_tokens": 774,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200003,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "ceb3ff8d7cb72895475f4aeea3d5e1ef170802b83fec7102a6e7b63e1cffd6e3",
+              "action_tokens": 425,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -3.576278118089249e-07,
+              "native_index": 5,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 8.414772042562938e-10,
+              "native_min_chosen_logprob": -3.576278118089249e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "2eadcf912a639b04d61089192328f4e5fdb46c5580e9181a51cee9c9a9ec5c4c",
+              "prompt_tokens": 1423,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200003,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        }
+      ],
+      "unique_available_actual_final_answers": 1
+    },
+    {
+      "all_clean_target_stdout": true,
+      "all_correct": true,
+      "all_incorrect": false,
+      "available": 4,
+      "binary_population_variance": 0.0,
+      "binary_rewards": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "complete_group": true,
+      "empirical_four_sample_answer_entropy_nats": -0.0,
+      "failure_categories": {
+        "returned_exact": 4
+      },
+      "missing_unknown_not_imputed_as_reward_zero": true,
+      "mixed_reward": false,
+      "observed_available_variance_diagnostic": 0.0,
+      "planned": 4,
+      "record_id": "omrcr-81962be30bd6c8668637",
+      "recorded": 4,
+      "rloo_advantages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "same_first_native_path": true,
+      "same_first_program": true,
+      "samples": [
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "4fd60263b393587188e281bd272bfc64175a904cc04879ba1cb9f51ab298d03b",
+            "id": "186954dd7ec3d75b165bbd6c366f690ce841a6e1f9922fe7f67caddfe40d9edf",
+            "ordered_core_sha256": "b9b3d18ab004d930f778eae7b5692af6b3c39505221c433de26086c702dea923",
+            "phase": "train",
+            "record_id": "omrcr-81962be30bd6c8668637",
+            "repeat": 0,
+            "row_index": 1,
+            "seed": 202609200004,
+            "source_row_sha256": "81962be30bd6c8668637103f3833cd987c6235ffb36b9cb3dc7910ebfdae981e",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "2ba5edd7a56b0155d0a1f55bdf3d5021c1249d448d321335f05e216be4178340",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "9cab9815bbaa6270af80ab66fdbbd5ef9e3cef6a7cb3e3f7b1dd462db2ae6827",
+          "first_program_sha256": "86aef48c3934b46dc62caea4e056ac666357bb8c68d34898c05a0c9d3c2349da",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 205,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 686,
+              "code_sha256": "86aef48c3934b46dc62caea4e056ac666357bb8c68d34898c05a0c9d3c2349da",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 204,
+          "returned_final_sha256": "407e82711540b1bca751d970c9ed8fcb3b689225d3b463752385feacb4af34c9",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "5e37fc91b423e515d09b0b45e2dbed27f03cdc4074639645787fb0a585d24c3d",
+              "action_tokens": 208,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.0002766636638540376,
+              "native_index": 11,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 1.330113768529027e-06,
+              "native_min_chosen_logprob": -0.00020346954988781363,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "7934bb6ea60dfdb545ebf7fc8d473144cfb850d4681d9c56c34028e98e492d9c",
+              "prompt_tokens": 769,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200004,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "5f948bf96f0218d33fa8fc6b14fdbefaae0bbaded96dd3d6528ca7b03c8aee60",
+              "action_tokens": 63,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": 0.0,
+              "native_index": 15,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": -0.0,
+              "native_min_chosen_logprob": 0.0,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "e8613495476c2806d4ca33bad0e89f6e75452685aefe540de186cbb28539c297",
+              "prompt_tokens": 1051,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200004,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "4fd60263b393587188e281bd272bfc64175a904cc04879ba1cb9f51ab298d03b",
+            "id": "c1113cfdcd64f2548eec00c353eab37fc0ff26dedfc09a76d61fc4b6e677789a",
+            "ordered_core_sha256": "b9b3d18ab004d930f778eae7b5692af6b3c39505221c433de26086c702dea923",
+            "phase": "train",
+            "record_id": "omrcr-81962be30bd6c8668637",
+            "repeat": 1,
+            "row_index": 1,
+            "seed": 202609200005,
+            "source_row_sha256": "81962be30bd6c8668637103f3833cd987c6235ffb36b9cb3dc7910ebfdae981e",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "d1217802fc772aa224ddcb10728dd199eb731c37cbe64e20152aa8b2629b0eaa",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "9cab9815bbaa6270af80ab66fdbbd5ef9e3cef6a7cb3e3f7b1dd462db2ae6827",
+          "first_program_sha256": "86aef48c3934b46dc62caea4e056ac666357bb8c68d34898c05a0c9d3c2349da",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 205,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 686,
+              "code_sha256": "86aef48c3934b46dc62caea4e056ac666357bb8c68d34898c05a0c9d3c2349da",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 204,
+          "returned_final_sha256": "407e82711540b1bca751d970c9ed8fcb3b689225d3b463752385feacb4af34c9",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "5e37fc91b423e515d09b0b45e2dbed27f03cdc4074639645787fb0a585d24c3d",
+              "action_tokens": 208,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.0005164406331559235,
+              "native_index": 10,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.4828876594034784e-06,
+              "native_min_chosen_logprob": -0.0004306104383431375,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "7934bb6ea60dfdb545ebf7fc8d473144cfb850d4681d9c56c34028e98e492d9c",
+              "prompt_tokens": 769,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200005,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "5f948bf96f0218d33fa8fc6b14fdbefaae0bbaded96dd3d6528ca7b03c8aee60",
+              "action_tokens": 63,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": 0.0,
+              "native_index": 13,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": -0.0,
+              "native_min_chosen_logprob": 0.0,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "e8613495476c2806d4ca33bad0e89f6e75452685aefe540de186cbb28539c297",
+              "prompt_tokens": 1051,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200005,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "4fd60263b393587188e281bd272bfc64175a904cc04879ba1cb9f51ab298d03b",
+            "id": "a427f8e6b3ca6684a894ca427465e34dc248be14eea3fef2af67778eefe23341",
+            "ordered_core_sha256": "b9b3d18ab004d930f778eae7b5692af6b3c39505221c433de26086c702dea923",
+            "phase": "train",
+            "record_id": "omrcr-81962be30bd6c8668637",
+            "repeat": 2,
+            "row_index": 1,
+            "seed": 202609200006,
+            "source_row_sha256": "81962be30bd6c8668637103f3833cd987c6235ffb36b9cb3dc7910ebfdae981e",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "1b6ebc0f1ae076e296b4383e9ea64cda97b8acb56c61a2c6ccba421190dc2acc",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "9cab9815bbaa6270af80ab66fdbbd5ef9e3cef6a7cb3e3f7b1dd462db2ae6827",
+          "first_program_sha256": "86aef48c3934b46dc62caea4e056ac666357bb8c68d34898c05a0c9d3c2349da",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 205,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 686,
+              "code_sha256": "86aef48c3934b46dc62caea4e056ac666357bb8c68d34898c05a0c9d3c2349da",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 204,
+          "returned_final_sha256": "407e82711540b1bca751d970c9ed8fcb3b689225d3b463752385feacb4af34c9",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "5e37fc91b423e515d09b0b45e2dbed27f03cdc4074639645787fb0a585d24c3d",
+              "action_tokens": 208,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00027189542675642997,
+              "native_index": 8,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 1.3071895517136056e-06,
+              "native_min_chosen_logprob": -0.00020346954988781363,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "7934bb6ea60dfdb545ebf7fc8d473144cfb850d4681d9c56c34028e98e492d9c",
+              "prompt_tokens": 769,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200006,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "5f948bf96f0218d33fa8fc6b14fdbefaae0bbaded96dd3d6528ca7b03c8aee60",
+              "action_tokens": 63,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": 0.0,
+              "native_index": 12,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": -0.0,
+              "native_min_chosen_logprob": 0.0,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "e8613495476c2806d4ca33bad0e89f6e75452685aefe540de186cbb28539c297",
+              "prompt_tokens": 1051,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200006,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "4fd60263b393587188e281bd272bfc64175a904cc04879ba1cb9f51ab298d03b",
+            "id": "1c675be01dc7c08f9a1b7b6ac89e89d746c2df00df72402c966eb01097403e23",
+            "ordered_core_sha256": "b9b3d18ab004d930f778eae7b5692af6b3c39505221c433de26086c702dea923",
+            "phase": "train",
+            "record_id": "omrcr-81962be30bd6c8668637",
+            "repeat": 3,
+            "row_index": 1,
+            "seed": 202609200007,
+            "source_row_sha256": "81962be30bd6c8668637103f3833cd987c6235ffb36b9cb3dc7910ebfdae981e",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "94055d3d655c2b217b1aec994421f0fff55907d3542162d9221aef2b739c14c8",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "9cab9815bbaa6270af80ab66fdbbd5ef9e3cef6a7cb3e3f7b1dd462db2ae6827",
+          "first_program_sha256": "86aef48c3934b46dc62caea4e056ac666357bb8c68d34898c05a0c9d3c2349da",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 205,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 686,
+              "code_sha256": "86aef48c3934b46dc62caea4e056ac666357bb8c68d34898c05a0c9d3c2349da",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 204,
+          "returned_final_sha256": "407e82711540b1bca751d970c9ed8fcb3b689225d3b463752385feacb4af34c9",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "5e37fc91b423e515d09b0b45e2dbed27f03cdc4074639645787fb0a585d24c3d",
+              "action_tokens": 208,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.0005164406331559235,
+              "native_index": 9,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.4828876594034784e-06,
+              "native_min_chosen_logprob": -0.0004306104383431375,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "7934bb6ea60dfdb545ebf7fc8d473144cfb850d4681d9c56c34028e98e492d9c",
+              "prompt_tokens": 769,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200007,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "5f948bf96f0218d33fa8fc6b14fdbefaae0bbaded96dd3d6528ca7b03c8aee60",
+              "action_tokens": 63,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": 0.0,
+              "native_index": 14,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": -0.0,
+              "native_min_chosen_logprob": 0.0,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "e8613495476c2806d4ca33bad0e89f6e75452685aefe540de186cbb28539c297",
+              "prompt_tokens": 1051,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200007,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        }
+      ],
+      "unique_available_actual_final_answers": 1
+    },
+    {
+      "all_clean_target_stdout": true,
+      "all_correct": true,
+      "all_incorrect": false,
+      "available": 4,
+      "binary_population_variance": 0.0,
+      "binary_rewards": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "complete_group": true,
+      "empirical_four_sample_answer_entropy_nats": -0.0,
+      "failure_categories": {
+        "returned_exact": 4
+      },
+      "missing_unknown_not_imputed_as_reward_zero": true,
+      "mixed_reward": false,
+      "observed_available_variance_diagnostic": 0.0,
+      "planned": 4,
+      "record_id": "omrcr-39fbac00a29ae2b82e1f",
+      "recorded": 4,
+      "rloo_advantages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "same_first_native_path": true,
+      "same_first_program": true,
+      "samples": [
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "c12ac6be282e0e92f08ebe6b997954c3775f70fe7aa3233a35c5f3cc01ec1017",
+            "id": "6997525ca27d323bf97c2a74da64dc4dec7472522e6b9997708a2e12a031c88a",
+            "ordered_core_sha256": "6adc9357ddceb9b07c56105c88bf21036ae92ba2e5550b71fc7a53ad35082b71",
+            "phase": "train",
+            "record_id": "omrcr-39fbac00a29ae2b82e1f",
+            "repeat": 0,
+            "row_index": 2,
+            "seed": 202609200008,
+            "source_row_sha256": "39fbac00a29ae2b82e1f7bfec88876d9563e8662b09ee175a937b85c4f369034",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "b34149e31d519b7fa14a88590408e827de1bfe5386a37e3b67e87ee9e83698b9",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "1208545afff92a0d0a78a328ebf68f07df7c170f30a9f378abef9b99842a66eb",
+          "first_program_sha256": "039398b148432291bf473eeb9bd8697074450890572934136cc6ff0ec3e67968",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2195,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 703,
+              "code_sha256": "039398b148432291bf473eeb9bd8697074450890572934136cc6ff0ec3e67968",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2194,
+          "returned_final_sha256": "766c21d118ad73ea3ad4c8679cc5d17e5fcd4e53698f3748b3a674429f926338",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "4857397a67fb82fc4428a0f3631908e89d28c75f45d5145afbffb3ab2c98129a",
+              "action_tokens": 212,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.0006066770003130273,
+              "native_index": 16,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.8616839637406948e-06,
+              "native_min_chosen_logprob": -0.0004306104383431375,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "4f5f6c2534229f055ade4d409a2004d10906f4a2b3d2a9dab337f90a375d7c2f",
+              "prompt_tokens": 773,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200008,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "e6ffa86148b205c510915a4f4b9de1b169320ce44e1d0a52b99bad72f288d9cc",
+              "action_tokens": 592,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -0.0041152403800026605,
+              "native_index": 20,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 6.951419560815305e-06,
+              "native_min_chosen_logprob": -0.004078404977917671,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "423877d9a3cd9412f18984fab4ff78cffe52a6eab50e8bf120eacf57b5324980",
+              "prompt_tokens": 1588,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200008,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "c12ac6be282e0e92f08ebe6b997954c3775f70fe7aa3233a35c5f3cc01ec1017",
+            "id": "00bc9b1d2172b16c181cf362cbd0e62d7add34920a03fe6d5e95a609b0265a18",
+            "ordered_core_sha256": "6adc9357ddceb9b07c56105c88bf21036ae92ba2e5550b71fc7a53ad35082b71",
+            "phase": "train",
+            "record_id": "omrcr-39fbac00a29ae2b82e1f",
+            "repeat": 1,
+            "row_index": 2,
+            "seed": 202609200009,
+            "source_row_sha256": "39fbac00a29ae2b82e1f7bfec88876d9563e8662b09ee175a937b85c4f369034",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "645efbb5bfd7e216df11272c5d09db823ded8874438aff1ac343b41bffd86591",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "1208545afff92a0d0a78a328ebf68f07df7c170f30a9f378abef9b99842a66eb",
+          "first_program_sha256": "039398b148432291bf473eeb9bd8697074450890572934136cc6ff0ec3e67968",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2195,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 703,
+              "code_sha256": "039398b148432291bf473eeb9bd8697074450890572934136cc6ff0ec3e67968",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2194,
+          "returned_final_sha256": "766c21d118ad73ea3ad4c8679cc5d17e5fcd4e53698f3748b3a674429f926338",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "4857397a67fb82fc4428a0f3631908e89d28c75f45d5145afbffb3ab2c98129a",
+              "action_tokens": 212,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.0005764010707665079,
+              "native_index": 19,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.7188729753137167e-06,
+              "native_min_chosen_logprob": -0.0004306104383431375,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "4f5f6c2534229f055ade4d409a2004d10906f4a2b3d2a9dab337f90a375d7c2f",
+              "prompt_tokens": 773,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200009,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "e6ffa86148b205c510915a4f4b9de1b169320ce44e1d0a52b99bad72f288d9cc",
+              "action_tokens": 592,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -0.0009521856462626488,
+              "native_index": 23,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 1.6084216997679878e-06,
+              "native_min_chosen_logprob": -0.0009114163694903255,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "423877d9a3cd9412f18984fab4ff78cffe52a6eab50e8bf120eacf57b5324980",
+              "prompt_tokens": 1588,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200009,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "c12ac6be282e0e92f08ebe6b997954c3775f70fe7aa3233a35c5f3cc01ec1017",
+            "id": "770b065b834db866ba88d599bfbb865a28ff5960057f010990ad3bc30484f323",
+            "ordered_core_sha256": "6adc9357ddceb9b07c56105c88bf21036ae92ba2e5550b71fc7a53ad35082b71",
+            "phase": "train",
+            "record_id": "omrcr-39fbac00a29ae2b82e1f",
+            "repeat": 2,
+            "row_index": 2,
+            "seed": 202609200010,
+            "source_row_sha256": "39fbac00a29ae2b82e1f7bfec88876d9563e8662b09ee175a937b85c4f369034",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "bc89256e2824dda79709f395878b82b746a97ba52454637a42fbc1d831de3e62",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "1208545afff92a0d0a78a328ebf68f07df7c170f30a9f378abef9b99842a66eb",
+          "first_program_sha256": "039398b148432291bf473eeb9bd8697074450890572934136cc6ff0ec3e67968",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2195,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 703,
+              "code_sha256": "039398b148432291bf473eeb9bd8697074450890572934136cc6ff0ec3e67968",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2194,
+          "returned_final_sha256": "766c21d118ad73ea3ad4c8679cc5d17e5fcd4e53698f3748b3a674429f926338",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "4857397a67fb82fc4428a0f3631908e89d28c75f45d5145afbffb3ab2c98129a",
+              "action_tokens": 212,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.0005940425655310833,
+              "native_index": 17,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.802087573259827e-06,
+              "native_min_chosen_logprob": -0.0004306104383431375,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "4f5f6c2534229f055ade4d409a2004d10906f4a2b3d2a9dab337f90a375d7c2f",
+              "prompt_tokens": 773,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200010,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "e6ffa86148b205c510915a4f4b9de1b169320ce44e1d0a52b99bad72f288d9cc",
+              "action_tokens": 592,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -0.002514275413822986,
+              "native_index": 21,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 4.247086847673963e-06,
+              "native_min_chosen_logprob": -0.0024756519123911858,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "423877d9a3cd9412f18984fab4ff78cffe52a6eab50e8bf120eacf57b5324980",
+              "prompt_tokens": 1588,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200010,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "c12ac6be282e0e92f08ebe6b997954c3775f70fe7aa3233a35c5f3cc01ec1017",
+            "id": "596383277e8fd21d02b0707e03a2b6e87f3e9110fb56f28757d101b958c00802",
+            "ordered_core_sha256": "6adc9357ddceb9b07c56105c88bf21036ae92ba2e5550b71fc7a53ad35082b71",
+            "phase": "train",
+            "record_id": "omrcr-39fbac00a29ae2b82e1f",
+            "repeat": 3,
+            "row_index": 2,
+            "seed": 202609200011,
+            "source_row_sha256": "39fbac00a29ae2b82e1f7bfec88876d9563e8662b09ee175a937b85c4f369034",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "b6b8e5f3d73d3d498a0ee8ec024173019301ce657b41bff371599fa924dfaec0",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "1208545afff92a0d0a78a328ebf68f07df7c170f30a9f378abef9b99842a66eb",
+          "first_program_sha256": "039398b148432291bf473eeb9bd8697074450890572934136cc6ff0ec3e67968",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2195,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 703,
+              "code_sha256": "039398b148432291bf473eeb9bd8697074450890572934136cc6ff0ec3e67968",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2194,
+          "returned_final_sha256": "766c21d118ad73ea3ad4c8679cc5d17e5fcd4e53698f3748b3a674429f926338",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "4857397a67fb82fc4428a0f3631908e89d28c75f45d5145afbffb3ab2c98129a",
+              "action_tokens": 212,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.0005725854357478966,
+              "native_index": 18,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.7008746969240405e-06,
+              "native_min_chosen_logprob": -0.0004306104383431375,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "4f5f6c2534229f055ade4d409a2004d10906f4a2b3d2a9dab337f90a375d7c2f",
+              "prompt_tokens": 773,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200011,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "e6ffa86148b205c510915a4f4b9de1b169320ce44e1d0a52b99bad72f288d9cc",
+              "action_tokens": 592,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -0.002512129714709488,
+              "native_index": 22,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 4.243462355928189e-06,
+              "native_min_chosen_logprob": -0.0024756519123911858,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "423877d9a3cd9412f18984fab4ff78cffe52a6eab50e8bf120eacf57b5324980",
+              "prompt_tokens": 1588,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200011,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        }
+      ],
+      "unique_available_actual_final_answers": 1
+    },
+    {
+      "all_clean_target_stdout": true,
+      "all_correct": true,
+      "all_incorrect": false,
+      "available": 4,
+      "binary_population_variance": 0.0,
+      "binary_rewards": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "complete_group": true,
+      "empirical_four_sample_answer_entropy_nats": -0.0,
+      "failure_categories": {
+        "returned_exact": 4
+      },
+      "missing_unknown_not_imputed_as_reward_zero": true,
+      "mixed_reward": false,
+      "observed_available_variance_diagnostic": 0.0,
+      "planned": 4,
+      "record_id": "omrcr-10f8b49fc190c3cd4562",
+      "recorded": 4,
+      "rloo_advantages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "same_first_native_path": true,
+      "same_first_program": true,
+      "samples": [
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "0d043196685290d8e27f5451b9e5e5dfb9d663dcb655644360d5a4da9667510d",
+            "id": "cf07ffe556467c1feb0aaee73d1c5882122cfd7f9e352059b79caed2d5ca8fe1",
+            "ordered_core_sha256": "85516d4c3c414672ed675a6d4fbd168920630e43590bea362bdc7552d0330068",
+            "phase": "train",
+            "record_id": "omrcr-10f8b49fc190c3cd4562",
+            "repeat": 0,
+            "row_index": 3,
+            "seed": 202609200012,
+            "source_row_sha256": "10f8b49fc190c3cd456235048ab19a0b7d0de50bc10a8f773bb18ec6c3262a25",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "c0465ef2fa6362d0995f20889b5c44a93f8a4ed1f45fd0942e12465b3d668a4b",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "9006bf33e3ce5b3ce45b0ff4de28da59d58ec91e97e249010af655e0bd1714d1",
+          "first_program_sha256": "a99a6d2742098bfe6cf8373fc539952aa32998637bb03c959d51f1db3af82c2d",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2678,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 694,
+              "code_sha256": "a99a6d2742098bfe6cf8373fc539952aa32998637bb03c959d51f1db3af82c2d",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2677,
+          "returned_final_sha256": "3bb3629ff372a46c1984096e86c24dcea3526b6f8a0a620ec4869bfbd26d9d69",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "94c60e4fe282bf1ecbb4df75e9bb66648a3f20079fb41ae5a520ce420f05009c",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -5.9485161607142345e-05,
+              "native_index": 24,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.846179981202983e-07,
+              "native_min_chosen_logprob": -1.6689160474925302e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "9c6826587b68647f5a3d8d2f6cd56972d2338a96049fd20f317af1faca77b3b0",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200012,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "4b03cd4d82f4e74963431ca4ffa7ce67b6dd6465440858d25b93190a93dfbf93",
+              "action_tokens": 457,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -2.3364882508758456e-05,
+              "native_index": 28,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.112665756839925e-08,
+              "native_min_chosen_logprob": -1.2993727978027891e-05,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "10c09a6607ff420b65957281aa15e836a845dc18b38ae6c260edc8fcc0491960",
+              "prompt_tokens": 1447,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200012,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "0d043196685290d8e27f5451b9e5e5dfb9d663dcb655644360d5a4da9667510d",
+            "id": "e2c569907e83e2bccf2b2fa1515cc71914d9a1d36c5b54bf29c89a14068df778",
+            "ordered_core_sha256": "85516d4c3c414672ed675a6d4fbd168920630e43590bea362bdc7552d0330068",
+            "phase": "train",
+            "record_id": "omrcr-10f8b49fc190c3cd4562",
+            "repeat": 1,
+            "row_index": 3,
+            "seed": 202609200013,
+            "source_row_sha256": "10f8b49fc190c3cd456235048ab19a0b7d0de50bc10a8f773bb18ec6c3262a25",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "599a64640e627c49e631eaa4028f428b7e240cbb2b6b5ac32e3c789a1236568f",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "9006bf33e3ce5b3ce45b0ff4de28da59d58ec91e97e249010af655e0bd1714d1",
+          "first_program_sha256": "a99a6d2742098bfe6cf8373fc539952aa32998637bb03c959d51f1db3af82c2d",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2678,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 694,
+              "code_sha256": "a99a6d2742098bfe6cf8373fc539952aa32998637bb03c959d51f1db3af82c2d",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2677,
+          "returned_final_sha256": "3bb3629ff372a46c1984096e86c24dcea3526b6f8a0a620ec4869bfbd26d9d69",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "94c60e4fe282bf1ecbb4df75e9bb66648a3f20079fb41ae5a520ce420f05009c",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -5.543208806813027e-05,
+              "native_index": 27,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.6522530176138886e-07,
+              "native_min_chosen_logprob": -1.6689160474925302e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "9c6826587b68647f5a3d8d2f6cd56972d2338a96049fd20f317af1faca77b3b0",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200013,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "4b03cd4d82f4e74963431ca4ffa7ce67b6dd6465440858d25b93190a93dfbf93",
+              "action_tokens": 457,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -1.6570018487982452e-05,
+              "native_index": 31,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 3.6258246144381734e-08,
+              "native_min_chosen_logprob": -1.0371154530730564e-05,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "10c09a6607ff420b65957281aa15e836a845dc18b38ae6c260edc8fcc0491960",
+              "prompt_tokens": 1447,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200013,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "0d043196685290d8e27f5451b9e5e5dfb9d663dcb655644360d5a4da9667510d",
+            "id": "cd6e8a4cad8f00424d7f992d8ddea0f708a1878912e2217e8f99c4a51635132a",
+            "ordered_core_sha256": "85516d4c3c414672ed675a6d4fbd168920630e43590bea362bdc7552d0330068",
+            "phase": "train",
+            "record_id": "omrcr-10f8b49fc190c3cd4562",
+            "repeat": 2,
+            "row_index": 3,
+            "seed": 202609200014,
+            "source_row_sha256": "10f8b49fc190c3cd456235048ab19a0b7d0de50bc10a8f773bb18ec6c3262a25",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "daf9b2cc8f83c6efe39392494ec1377769513a4209447151717643fb6be638c2",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "9006bf33e3ce5b3ce45b0ff4de28da59d58ec91e97e249010af655e0bd1714d1",
+          "first_program_sha256": "a99a6d2742098bfe6cf8373fc539952aa32998637bb03c959d51f1db3af82c2d",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2678,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 694,
+              "code_sha256": "a99a6d2742098bfe6cf8373fc539952aa32998637bb03c959d51f1db3af82c2d",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2677,
+          "returned_final_sha256": "3bb3629ff372a46c1984096e86c24dcea3526b6f8a0a620ec4869bfbd26d9d69",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "94c60e4fe282bf1ecbb4df75e9bb66648a3f20079fb41ae5a520ce420f05009c",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -5.209425306418325e-05,
+              "native_index": 26,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.492547993501591e-07,
+              "native_min_chosen_logprob": -1.6689160474925302e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "9c6826587b68647f5a3d8d2f6cd56972d2338a96049fd20f317af1faca77b3b0",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200014,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "4b03cd4d82f4e74963431ca4ffa7ce67b6dd6465440858d25b93190a93dfbf93",
+              "action_tokens": 457,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -1.6570018487982452e-05,
+              "native_index": 30,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 3.6258246144381734e-08,
+              "native_min_chosen_logprob": -1.0371154530730564e-05,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "10c09a6607ff420b65957281aa15e836a845dc18b38ae6c260edc8fcc0491960",
+              "prompt_tokens": 1447,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200014,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "0d043196685290d8e27f5451b9e5e5dfb9d663dcb655644360d5a4da9667510d",
+            "id": "68958904995ce70d5d214dcb1830284fef647707c38b14042eaa92d2076e4006",
+            "ordered_core_sha256": "85516d4c3c414672ed675a6d4fbd168920630e43590bea362bdc7552d0330068",
+            "phase": "train",
+            "record_id": "omrcr-10f8b49fc190c3cd4562",
+            "repeat": 3,
+            "row_index": 3,
+            "seed": 202609200015,
+            "source_row_sha256": "10f8b49fc190c3cd456235048ab19a0b7d0de50bc10a8f773bb18ec6c3262a25",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "bd2570b891d58a659f0ca90dcec8ef60687b2fbc5b767c868adb5dcc74c660d5",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "9006bf33e3ce5b3ce45b0ff4de28da59d58ec91e97e249010af655e0bd1714d1",
+          "first_program_sha256": "a99a6d2742098bfe6cf8373fc539952aa32998637bb03c959d51f1db3af82c2d",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2678,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 694,
+              "code_sha256": "a99a6d2742098bfe6cf8373fc539952aa32998637bb03c959d51f1db3af82c2d",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2677,
+          "returned_final_sha256": "3bb3629ff372a46c1984096e86c24dcea3526b6f8a0a620ec4869bfbd26d9d69",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "94c60e4fe282bf1ecbb4df75e9bb66648a3f20079fb41ae5a520ce420f05009c",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -4.506099442380673e-05,
+              "native_index": 25,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.1560284413304658e-07,
+              "native_min_chosen_logprob": -1.0132738680113107e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "9c6826587b68647f5a3d8d2f6cd56972d2338a96049fd20f317af1faca77b3b0",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200015,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "4b03cd4d82f4e74963431ca4ffa7ce67b6dd6465440858d25b93190a93dfbf93",
+              "action_tokens": 457,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -1.9550215256458614e-05,
+              "native_index": 29,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 4.277946445614576e-08,
+              "native_min_chosen_logprob": -1.3351351299206726e-05,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "10c09a6607ff420b65957281aa15e836a845dc18b38ae6c260edc8fcc0491960",
+              "prompt_tokens": 1447,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200015,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        }
+      ],
+      "unique_available_actual_final_answers": 1
+    },
+    {
+      "all_clean_target_stdout": true,
+      "all_correct": true,
+      "all_incorrect": false,
+      "available": 4,
+      "binary_population_variance": 0.0,
+      "binary_rewards": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "complete_group": true,
+      "empirical_four_sample_answer_entropy_nats": -0.0,
+      "failure_categories": {
+        "returned_exact": 4
+      },
+      "missing_unknown_not_imputed_as_reward_zero": true,
+      "mixed_reward": false,
+      "observed_available_variance_diagnostic": 0.0,
+      "planned": 4,
+      "record_id": "omrcr-76287483be01a7b4d096",
+      "recorded": 4,
+      "rloo_advantages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "same_first_native_path": true,
+      "same_first_program": true,
+      "samples": [
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "7fc0136355f0c64b5fa254dd6d20ecef7ef57e6026c809c1533e9af458ce02be",
+            "id": "7ff8d2d6c7328992cd45bbe8117c3d70e298617f55f55ece33fbe1a734649db7",
+            "ordered_core_sha256": "7f00d564d6343287f41f3375da0c84589b550bd8f2039d0670c82b4750b4aa8e",
+            "phase": "train",
+            "record_id": "omrcr-76287483be01a7b4d096",
+            "repeat": 0,
+            "row_index": 4,
+            "seed": 202609200016,
+            "source_row_sha256": "76287483be01a7b4d096bf089c28a8dd2cd2abe02d2ed9b5f464fed541090f1e",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "5bc32737adeca31d950fa371aea3b7fa965eeb1eeedde077adf57b23025f0c63",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "78318c3ce7ff095ad90f724ad466ba17c2250be6139d783509241c5e2fe72e71",
+          "first_program_sha256": "b14f71a1581d1d820d92a5fd9acd005867681a34983fa3a93d307a961c9347b5",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 980,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "b14f71a1581d1d820d92a5fd9acd005867681a34983fa3a93d307a961c9347b5",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 921,
+          "returned_final_sha256": "2f4fe7387df11602c19df92de37e118dd7ced395c685bd4eba9d2c5c5c9e0f75",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "7447d12082395004037f71022cf02759289cd6e50cd1140cff6d82685b09dc2b",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -7.915467453045721e-05,
+              "native_index": 32,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 3.787305001457283e-07,
+              "native_min_chosen_logprob": -1.2993727978027891e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "fa6fd970c6e0745eccc327934479c1429a112c5a6eb568012849e6236d31b05e",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200016,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "9b1ce3c45178ba927732edf512622bcbcfef924487fb2af509edbc0a80003253",
+              "action_tokens": 233,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -4.768370942542788e-07,
+              "native_index": 33,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.0465111341385356e-09,
+              "native_min_chosen_logprob": -3.576278118089249e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "31dba7fedc6cfbf7ed686c832a942f323d8cfe792861b6cc74edefaede227193",
+              "prompt_tokens": 1224,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200016,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "7fc0136355f0c64b5fa254dd6d20ecef7ef57e6026c809c1533e9af458ce02be",
+            "id": "c30318517e02f98cb0569c2108b73faae89e677d331f2c29bf5310081a973e4b",
+            "ordered_core_sha256": "7f00d564d6343287f41f3375da0c84589b550bd8f2039d0670c82b4750b4aa8e",
+            "phase": "train",
+            "record_id": "omrcr-76287483be01a7b4d096",
+            "repeat": 1,
+            "row_index": 4,
+            "seed": 202609200017,
+            "source_row_sha256": "76287483be01a7b4d096bf089c28a8dd2cd2abe02d2ed9b5f464fed541090f1e",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "201e4cd7a059e19616e8bc4c9cb002959e6b5b7ddcab106c4c5cf8e6c2091342",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "78318c3ce7ff095ad90f724ad466ba17c2250be6139d783509241c5e2fe72e71",
+          "first_program_sha256": "b14f71a1581d1d820d92a5fd9acd005867681a34983fa3a93d307a961c9347b5",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 980,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "b14f71a1581d1d820d92a5fd9acd005867681a34983fa3a93d307a961c9347b5",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 921,
+          "returned_final_sha256": "2f4fe7387df11602c19df92de37e118dd7ced395c685bd4eba9d2c5c5c9e0f75",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "7447d12082395004037f71022cf02759289cd6e50cd1140cff6d82685b09dc2b",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -6.484967612863102e-05,
+              "native_index": 34,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 3.1028553171593787e-07,
+              "native_min_chosen_logprob": -1.0132738680113107e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "fa6fd970c6e0745eccc327934479c1429a112c5a6eb568012849e6236d31b05e",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200017,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "9b1ce3c45178ba927732edf512622bcbcfef924487fb2af509edbc0a80003253",
+              "action_tokens": 233,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -3.5762783312520696e-07,
+              "native_index": 37,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 1.5348834039708454e-09,
+              "native_min_chosen_logprob": -2.3841855067985307e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "31dba7fedc6cfbf7ed686c832a942f323d8cfe792861b6cc74edefaede227193",
+              "prompt_tokens": 1224,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200017,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "7fc0136355f0c64b5fa254dd6d20ecef7ef57e6026c809c1533e9af458ce02be",
+            "id": "5501b79d26e30f49a82fdc783ea98cb4822b83b76e0ffecc6aae09b80a8522b9",
+            "ordered_core_sha256": "7f00d564d6343287f41f3375da0c84589b550bd8f2039d0670c82b4750b4aa8e",
+            "phase": "train",
+            "record_id": "omrcr-76287483be01a7b4d096",
+            "repeat": 2,
+            "row_index": 4,
+            "seed": 202609200018,
+            "source_row_sha256": "76287483be01a7b4d096bf089c28a8dd2cd2abe02d2ed9b5f464fed541090f1e",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "c7aec029f3641a83c094f43e534c0ff6d3a9a960596d488d08af741b26651192",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "78318c3ce7ff095ad90f724ad466ba17c2250be6139d783509241c5e2fe72e71",
+          "first_program_sha256": "b14f71a1581d1d820d92a5fd9acd005867681a34983fa3a93d307a961c9347b5",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 980,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "b14f71a1581d1d820d92a5fd9acd005867681a34983fa3a93d307a961c9347b5",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 921,
+          "returned_final_sha256": "2f4fe7387df11602c19df92de37e118dd7ced395c685bd4eba9d2c5c5c9e0f75",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "7447d12082395004037f71022cf02759289cd6e50cd1140cff6d82685b09dc2b",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -6.926039988286448e-05,
+              "native_index": 35,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 3.3138947312375347e-07,
+              "native_min_chosen_logprob": -1.0132738680113107e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "fa6fd970c6e0745eccc327934479c1429a112c5a6eb568012849e6236d31b05e",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200018,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "9b1ce3c45178ba927732edf512622bcbcfef924487fb2af509edbc0a80003253",
+              "action_tokens": 233,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -4.768370942542788e-07,
+              "native_index": 38,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.0465111341385356e-09,
+              "native_min_chosen_logprob": -3.576278118089249e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "31dba7fedc6cfbf7ed686c832a942f323d8cfe792861b6cc74edefaede227193",
+              "prompt_tokens": 1224,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200018,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "7fc0136355f0c64b5fa254dd6d20ecef7ef57e6026c809c1533e9af458ce02be",
+            "id": "4f06db2fcb552af42d2f36785727b869bf5aef0382bc9f00ba08bff3db968d48",
+            "ordered_core_sha256": "7f00d564d6343287f41f3375da0c84589b550bd8f2039d0670c82b4750b4aa8e",
+            "phase": "train",
+            "record_id": "omrcr-76287483be01a7b4d096",
+            "repeat": 3,
+            "row_index": 4,
+            "seed": 202609200019,
+            "source_row_sha256": "76287483be01a7b4d096bf089c28a8dd2cd2abe02d2ed9b5f464fed541090f1e",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "58ba4da7a1851dd21f3390bd8ffd6858f8b993cb84b0b01947c913078d8947e0",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "78318c3ce7ff095ad90f724ad466ba17c2250be6139d783509241c5e2fe72e71",
+          "first_program_sha256": "b14f71a1581d1d820d92a5fd9acd005867681a34983fa3a93d307a961c9347b5",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 980,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "b14f71a1581d1d820d92a5fd9acd005867681a34983fa3a93d307a961c9347b5",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 921,
+          "returned_final_sha256": "2f4fe7387df11602c19df92de37e118dd7ced395c685bd4eba9d2c5c5c9e0f75",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "7447d12082395004037f71022cf02759289cd6e50cd1140cff6d82685b09dc2b",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -6.425363977768939e-05,
+              "native_index": 36,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 3.0743368314683916e-07,
+              "native_min_chosen_logprob": -1.0132738680113107e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "fa6fd970c6e0745eccc327934479c1429a112c5a6eb568012849e6236d31b05e",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200019,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "9b1ce3c45178ba927732edf512622bcbcfef924487fb2af509edbc0a80003253",
+              "action_tokens": 233,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -3.5762783312520696e-07,
+              "native_index": 39,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 1.5348834039708454e-09,
+              "native_min_chosen_logprob": -2.3841855067985307e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "31dba7fedc6cfbf7ed686c832a942f323d8cfe792861b6cc74edefaede227193",
+              "prompt_tokens": 1224,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200019,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        }
+      ],
+      "unique_available_actual_final_answers": 1
+    },
+    {
+      "all_clean_target_stdout": true,
+      "all_correct": true,
+      "all_incorrect": false,
+      "available": 4,
+      "binary_population_variance": 0.0,
+      "binary_rewards": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "complete_group": true,
+      "empirical_four_sample_answer_entropy_nats": -0.0,
+      "failure_categories": {
+        "returned_exact": 4
+      },
+      "missing_unknown_not_imputed_as_reward_zero": true,
+      "mixed_reward": false,
+      "observed_available_variance_diagnostic": 0.0,
+      "planned": 4,
+      "record_id": "omrcr-50ed8cfc6b9065167728",
+      "recorded": 4,
+      "rloo_advantages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "same_first_native_path": true,
+      "same_first_program": true,
+      "samples": [
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "f14af63abb6925e5067775d1a80444287a754ac896a096dcdda084f0961de481",
+            "id": "41a31e29c2c402f6403343e7a1225ba5110dd8b85c9a8ea0aa4dff3ff5c65768",
+            "ordered_core_sha256": "445e4ffdb691a47e11b1f80a757b83726fe7f6fc6919f36d3f485c7199621290",
+            "phase": "train",
+            "record_id": "omrcr-50ed8cfc6b9065167728",
+            "repeat": 0,
+            "row_index": 5,
+            "seed": 202609200020,
+            "source_row_sha256": "50ed8cfc6b9065167728796b08e75087ff6c545a9e69db2c493458e776a50bbd",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "c5ffb6975be09e485e2604e92013be680336737d34571224d416aa122f12a911",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "e889cde7e1bfde9248cb298249b7e852df7f5f9ab0a487ea37f6dd9f1aa1b2ea",
+          "first_program_sha256": "d83bad75c6f7baa8a7072d15d5bc12590c106e00b25593c6704ffe0a5a3be4e9",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 770,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "d83bad75c6f7baa8a7072d15d5bc12590c106e00b25593c6704ffe0a5a3be4e9",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 720,
+          "returned_final_sha256": "642a63a783ead83b2210837c86618dbaf047e8c6201f70871f01d3f074193e15",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "0e5853cc76ebb3231262c187f4c3436bd0d1d6216c78fa11d892e3571f7d7e1c",
+              "action_tokens": 210,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00037511626283048827,
+              "native_index": 40,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 1.7862679182404204e-06,
+              "native_min_chosen_logprob": -0.00026127262390218675,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "97ace5e05a00e01b12f5adb4c6f0601d781518777bba23e3f3d89b729d5b352a",
+              "prompt_tokens": 771,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200020,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "3dd5060be844cb55c3552a8ef30e50bc692fbd86a9e7f42cca3a65e91b71f0b3",
+              "action_tokens": 205,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -1.1920928244535389e-07,
+              "native_index": 41,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.815086948553848e-10,
+              "native_min_chosen_logprob": -1.1920928244535389e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "b8c58bda7b086ef443e1bb1f781661cd803e5f0e3b8e8101e7d94685a99d7842",
+              "prompt_tokens": 1198,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200020,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "f14af63abb6925e5067775d1a80444287a754ac896a096dcdda084f0961de481",
+            "id": "25e03ab4aa80e6b58db014debc68d8d16bf7a3904336c45e2ac2e5dcf78c9af2",
+            "ordered_core_sha256": "445e4ffdb691a47e11b1f80a757b83726fe7f6fc6919f36d3f485c7199621290",
+            "phase": "train",
+            "record_id": "omrcr-50ed8cfc6b9065167728",
+            "repeat": 1,
+            "row_index": 5,
+            "seed": 202609200021,
+            "source_row_sha256": "50ed8cfc6b9065167728796b08e75087ff6c545a9e69db2c493458e776a50bbd",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "97f6ec5f86cce4cb9f79fa1ae309c088b30ae0ada78641fe7f339961070ab1b3",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "e889cde7e1bfde9248cb298249b7e852df7f5f9ab0a487ea37f6dd9f1aa1b2ea",
+          "first_program_sha256": "d83bad75c6f7baa8a7072d15d5bc12590c106e00b25593c6704ffe0a5a3be4e9",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 770,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "d83bad75c6f7baa8a7072d15d5bc12590c106e00b25593c6704ffe0a5a3be4e9",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 720,
+          "returned_final_sha256": "642a63a783ead83b2210837c86618dbaf047e8c6201f70871f01d3f074193e15",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "0e5853cc76ebb3231262c187f4c3436bd0d1d6216c78fa11d892e3571f7d7e1c",
+              "action_tokens": 210,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.0005179900937051229,
+              "native_index": 42,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.466619493833919e-06,
+              "native_min_chosen_logprob": -0.00043072958942502737,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "97ace5e05a00e01b12f5adb4c6f0601d781518777bba23e3f3d89b729d5b352a",
+              "prompt_tokens": 771,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200021,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "3dd5060be844cb55c3552a8ef30e50bc692fbd86a9e7f42cca3a65e91b71f0b3",
+              "action_tokens": 205,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -1.1920928244535389e-07,
+              "native_index": 43,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.815086948553848e-10,
+              "native_min_chosen_logprob": -1.1920928244535389e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "b8c58bda7b086ef443e1bb1f781661cd803e5f0e3b8e8101e7d94685a99d7842",
+              "prompt_tokens": 1198,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200021,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "f14af63abb6925e5067775d1a80444287a754ac896a096dcdda084f0961de481",
+            "id": "2f423558a7211910ff3f361612543ac2dc5fe3849e6bcfb0b7a089ed2e7d507b",
+            "ordered_core_sha256": "445e4ffdb691a47e11b1f80a757b83726fe7f6fc6919f36d3f485c7199621290",
+            "phase": "train",
+            "record_id": "omrcr-50ed8cfc6b9065167728",
+            "repeat": 2,
+            "row_index": 5,
+            "seed": 202609200022,
+            "source_row_sha256": "50ed8cfc6b9065167728796b08e75087ff6c545a9e69db2c493458e776a50bbd",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "e04e4b968417d428a41e4e9e9e6defe992537143d9629e3c4d6ef83e649c9f2b",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "e889cde7e1bfde9248cb298249b7e852df7f5f9ab0a487ea37f6dd9f1aa1b2ea",
+          "first_program_sha256": "d83bad75c6f7baa8a7072d15d5bc12590c106e00b25593c6704ffe0a5a3be4e9",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 770,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "d83bad75c6f7baa8a7072d15d5bc12590c106e00b25593c6704ffe0a5a3be4e9",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 720,
+          "returned_final_sha256": "642a63a783ead83b2210837c86618dbaf047e8c6201f70871f01d3f074193e15",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "0e5853cc76ebb3231262c187f4c3436bd0d1d6216c78fa11d892e3571f7d7e1c",
+              "action_tokens": 210,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.0003991955224762478,
+              "native_index": 45,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 1.9009310594107038e-06,
+              "native_min_chosen_logprob": -0.00026127262390218675,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "97ace5e05a00e01b12f5adb4c6f0601d781518777bba23e3f3d89b729d5b352a",
+              "prompt_tokens": 771,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200022,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "3dd5060be844cb55c3552a8ef30e50bc692fbd86a9e7f42cca3a65e91b71f0b3",
+              "action_tokens": 205,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -1.1920928244535389e-07,
+              "native_index": 47,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.815086948553848e-10,
+              "native_min_chosen_logprob": -1.1920928244535389e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "b8c58bda7b086ef443e1bb1f781661cd803e5f0e3b8e8101e7d94685a99d7842",
+              "prompt_tokens": 1198,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200022,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "f14af63abb6925e5067775d1a80444287a754ac896a096dcdda084f0961de481",
+            "id": "51dee245a6729b282a869fb490eca0e8a87b0e63eabd806c61b38c6e59797335",
+            "ordered_core_sha256": "445e4ffdb691a47e11b1f80a757b83726fe7f6fc6919f36d3f485c7199621290",
+            "phase": "train",
+            "record_id": "omrcr-50ed8cfc6b9065167728",
+            "repeat": 3,
+            "row_index": 5,
+            "seed": 202609200023,
+            "source_row_sha256": "50ed8cfc6b9065167728796b08e75087ff6c545a9e69db2c493458e776a50bbd",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "06ac7f2352c6e95cca828c6c7033ace75c634ce39a949f77fc02a225ec4599c9",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "e889cde7e1bfde9248cb298249b7e852df7f5f9ab0a487ea37f6dd9f1aa1b2ea",
+          "first_program_sha256": "d83bad75c6f7baa8a7072d15d5bc12590c106e00b25593c6704ffe0a5a3be4e9",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 770,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "d83bad75c6f7baa8a7072d15d5bc12590c106e00b25593c6704ffe0a5a3be4e9",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 720,
+          "returned_final_sha256": "642a63a783ead83b2210837c86618dbaf047e8c6201f70871f01d3f074193e15",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "0e5853cc76ebb3231262c187f4c3436bd0d1d6216c78fa11d892e3571f7d7e1c",
+              "action_tokens": 210,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00044793087606365134,
+              "native_index": 44,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.133004171731673e-06,
+              "native_min_chosen_logprob": -0.00033539868309162557,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "97ace5e05a00e01b12f5adb4c6f0601d781518777bba23e3f3d89b729d5b352a",
+              "prompt_tokens": 771,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200023,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "3dd5060be844cb55c3552a8ef30e50bc692fbd86a9e7f42cca3a65e91b71f0b3",
+              "action_tokens": 205,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -1.1920928244535389e-07,
+              "native_index": 46,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.815086948553848e-10,
+              "native_min_chosen_logprob": -1.1920928244535389e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "b8c58bda7b086ef443e1bb1f781661cd803e5f0e3b8e8101e7d94685a99d7842",
+              "prompt_tokens": 1198,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200023,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        }
+      ],
+      "unique_available_actual_final_answers": 1
+    },
+    {
+      "all_clean_target_stdout": true,
+      "all_correct": false,
+      "all_incorrect": true,
+      "available": 4,
+      "binary_population_variance": 0.0,
+      "binary_rewards": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "complete_group": true,
+      "empirical_four_sample_answer_entropy_nats": -0.0,
+      "failure_categories": {
+        "copy_difference": 4
+      },
+      "missing_unknown_not_imputed_as_reward_zero": true,
+      "mixed_reward": false,
+      "observed_available_variance_diagnostic": 0.0,
+      "planned": 4,
+      "record_id": "omrcr-9f431a2f2bea9f0c243c",
+      "recorded": 4,
+      "rloo_advantages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "same_first_native_path": true,
+      "same_first_program": true,
+      "samples": [
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 0,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "e086f832e79294e2c21b9efd3f4363af4d31c4ebe33b5844e2341de2e6d9b54f",
+            "id": "d504c73d4ed2e55e42da41a26d82696d3a986da32972f6c4593bfc36c1160689",
+            "ordered_core_sha256": "16e078d1d08199595172f32459c830f0d03de1b040513d4e881d999f440d7a2b",
+            "phase": "train",
+            "record_id": "omrcr-9f431a2f2bea9f0c243c",
+            "repeat": 0,
+            "row_index": 6,
+            "seed": 202609200024,
+            "source_row_sha256": "9f431a2f2bea9f0c243c589a525ccdf0545f86dbae2f93e4d2119cf5753106bc",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "ab2b642d4834d707b9b3d51e2d36fbba563b32f70153167aa73ed1b23bb099cd",
+          "failure_category": "copy_difference",
+          "first_native_path_sha256": "75c701af12e684bf0682bb184e9f8bc2dca8ec0010444e315808bd937ecb8f3a",
+          "first_program_sha256": "e2532c083aa6595fca8c5beeabf182e41a197beaf0d172b5f4eb167aa4de5180",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 412,
+          "official_score": 0.9975124378109452,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 692,
+              "code_sha256": "e2532c083aa6595fca8c5beeabf182e41a197beaf0d172b5f4eb167aa4de5180",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 413,
+          "returned_final_sha256": "fb4478ab2ba8981558e553eb21747d90f8a9ad1512b8d00e6ef49023fdd703ef",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "e7835a07ee5c87e31d019409b778eb74cfc82b20cf196663e44c87356739f609",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00010895656590292901,
+              "native_index": 48,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.213232818321963e-07,
+              "native_min_chosen_logprob": -2.1457441107486375e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "16b2f943ee127a16dd7819ba648d7f66fffbcc92892b28f33197c060d7ffd904",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200024,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "11b88e50fd7c143734c4da9b0bc0b2d614ce908ee30e495234c0f5f3e955d75a",
+              "action_tokens": 108,
+              "actual_final_text_turn": true,
+              "bare_exact": false,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -0.00010323070637241472,
+              "native_index": 49,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 9.558398738186547e-07,
+              "native_min_chosen_logprob": -9.48860906646587e-05,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "d68b22512f3daa2ad2f376094fcba8b285707bfe62ef38e4bb9c02f75d5ea1da",
+              "prompt_tokens": 1098,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200024,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 0,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "e086f832e79294e2c21b9efd3f4363af4d31c4ebe33b5844e2341de2e6d9b54f",
+            "id": "e1d575402a01853b9103fde99a0056169d990fa03bf34b65a92d77624bc34b56",
+            "ordered_core_sha256": "16e078d1d08199595172f32459c830f0d03de1b040513d4e881d999f440d7a2b",
+            "phase": "train",
+            "record_id": "omrcr-9f431a2f2bea9f0c243c",
+            "repeat": 1,
+            "row_index": 6,
+            "seed": 202609200025,
+            "source_row_sha256": "9f431a2f2bea9f0c243c589a525ccdf0545f86dbae2f93e4d2119cf5753106bc",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "5f55adaf1e07dc800da795f68e6dbe03edc563a8dd5c5c31cdc20725674c8fd4",
+          "failure_category": "copy_difference",
+          "first_native_path_sha256": "75c701af12e684bf0682bb184e9f8bc2dca8ec0010444e315808bd937ecb8f3a",
+          "first_program_sha256": "e2532c083aa6595fca8c5beeabf182e41a197beaf0d172b5f4eb167aa4de5180",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 412,
+          "official_score": 0.9975124378109452,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 692,
+              "code_sha256": "e2532c083aa6595fca8c5beeabf182e41a197beaf0d172b5f4eb167aa4de5180",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 413,
+          "returned_final_sha256": "fb4478ab2ba8981558e553eb21747d90f8a9ad1512b8d00e6ef49023fdd703ef",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "e7835a07ee5c87e31d019409b778eb74cfc82b20cf196663e44c87356739f609",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00012242708177012673,
+              "native_index": 50,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.857755108618504e-07,
+              "native_min_chosen_logprob": -2.1457441107486375e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "16b2f943ee127a16dd7819ba648d7f66fffbcc92892b28f33197c060d7ffd904",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200025,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "11b88e50fd7c143734c4da9b0bc0b2d614ce908ee30e495234c0f5f3e955d75a",
+              "action_tokens": 108,
+              "actual_final_text_turn": true,
+              "bare_exact": false,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -0.00011717677443812136,
+              "native_index": 51,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 1.0849701336863088e-06,
+              "native_min_chosen_logprob": -0.00010883215873036534,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "d68b22512f3daa2ad2f376094fcba8b285707bfe62ef38e4bb9c02f75d5ea1da",
+              "prompt_tokens": 1098,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200025,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 0,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "e086f832e79294e2c21b9efd3f4363af4d31c4ebe33b5844e2341de2e6d9b54f",
+            "id": "82aa3cdd36d185c8aeb404843409decca10251aa6f59ebe05856faa6bae8ca74",
+            "ordered_core_sha256": "16e078d1d08199595172f32459c830f0d03de1b040513d4e881d999f440d7a2b",
+            "phase": "train",
+            "record_id": "omrcr-9f431a2f2bea9f0c243c",
+            "repeat": 2,
+            "row_index": 6,
+            "seed": 202609200026,
+            "source_row_sha256": "9f431a2f2bea9f0c243c589a525ccdf0545f86dbae2f93e4d2119cf5753106bc",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "518a2d4b40535b353e226a662b5f0f1362fa2b9f90c109a0015f360c5af8431c",
+          "failure_category": "copy_difference",
+          "first_native_path_sha256": "75c701af12e684bf0682bb184e9f8bc2dca8ec0010444e315808bd937ecb8f3a",
+          "first_program_sha256": "e2532c083aa6595fca8c5beeabf182e41a197beaf0d172b5f4eb167aa4de5180",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 412,
+          "official_score": 0.9975124378109452,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 692,
+              "code_sha256": "e2532c083aa6595fca8c5beeabf182e41a197beaf0d172b5f4eb167aa4de5180",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 413,
+          "returned_final_sha256": "fb4478ab2ba8981558e553eb21747d90f8a9ad1512b8d00e6ef49023fdd703ef",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "e7835a07ee5c87e31d019409b778eb74cfc82b20cf196663e44c87356739f609",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00012218867838242886,
+              "native_index": 52,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.846348247963104e-07,
+              "native_min_chosen_logprob": -2.1457441107486375e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "16b2f943ee127a16dd7819ba648d7f66fffbcc92892b28f33197c060d7ffd904",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200026,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "11b88e50fd7c143734c4da9b0bc0b2d614ce908ee30e495234c0f5f3e955d75a",
+              "action_tokens": 108,
+              "actual_final_text_turn": true,
+              "bare_exact": false,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -0.00011669998821162153,
+              "native_index": 54,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 1.080555446403903e-06,
+              "native_min_chosen_logprob": -0.00010835537250386551,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "d68b22512f3daa2ad2f376094fcba8b285707bfe62ef38e4bb9c02f75d5ea1da",
+              "prompt_tokens": 1098,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200026,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 0,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "e086f832e79294e2c21b9efd3f4363af4d31c4ebe33b5844e2341de2e6d9b54f",
+            "id": "18d6911499f0524064c449d2040a7d6a46cd8174d5234056512fcf3826d0dcaa",
+            "ordered_core_sha256": "16e078d1d08199595172f32459c830f0d03de1b040513d4e881d999f440d7a2b",
+            "phase": "train",
+            "record_id": "omrcr-9f431a2f2bea9f0c243c",
+            "repeat": 3,
+            "row_index": 6,
+            "seed": 202609200027,
+            "source_row_sha256": "9f431a2f2bea9f0c243c589a525ccdf0545f86dbae2f93e4d2119cf5753106bc",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "d46dc672eb02fa3afef10caf18dfc809872c6d4e0152f9115820bf41f11e081c",
+          "failure_category": "copy_difference",
+          "first_native_path_sha256": "75c701af12e684bf0682bb184e9f8bc2dca8ec0010444e315808bd937ecb8f3a",
+          "first_program_sha256": "e2532c083aa6595fca8c5beeabf182e41a197beaf0d172b5f4eb167aa4de5180",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 412,
+          "official_score": 0.9975124378109452,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 692,
+              "code_sha256": "e2532c083aa6595fca8c5beeabf182e41a197beaf0d172b5f4eb167aa4de5180",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 413,
+          "returned_final_sha256": "fb4478ab2ba8981558e553eb21747d90f8a9ad1512b8d00e6ef49023fdd703ef",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "e7835a07ee5c87e31d019409b778eb74cfc82b20cf196663e44c87356739f609",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00011372480210525282,
+              "native_index": 53,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.441378091160422e-07,
+              "native_min_chosen_logprob": -2.753696753643453e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "16b2f943ee127a16dd7819ba648d7f66fffbcc92892b28f33197c060d7ffd904",
+              "prompt_tokens": 770,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200027,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "11b88e50fd7c143734c4da9b0bc0b2d614ce908ee30e495234c0f5f3e955d75a",
+              "action_tokens": 108,
+              "actual_final_text_turn": true,
+              "bare_exact": false,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -0.00016866796886461088,
+              "native_index": 55,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 1.5617404524501008e-06,
+              "native_min_chosen_logprob": -0.00016223068814724684,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "d68b22512f3daa2ad2f376094fcba8b285707bfe62ef38e4bb9c02f75d5ea1da",
+              "prompt_tokens": 1098,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200027,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        }
+      ],
+      "unique_available_actual_final_answers": 1
+    },
+    {
+      "all_clean_target_stdout": true,
+      "all_correct": true,
+      "all_incorrect": false,
+      "available": 4,
+      "binary_population_variance": 0.0,
+      "binary_rewards": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "complete_group": true,
+      "empirical_four_sample_answer_entropy_nats": -0.0,
+      "failure_categories": {
+        "returned_exact": 4
+      },
+      "missing_unknown_not_imputed_as_reward_zero": true,
+      "mixed_reward": false,
+      "observed_available_variance_diagnostic": 0.0,
+      "planned": 4,
+      "record_id": "omrcr-83b3037ee21b1b243c0d",
+      "recorded": 4,
+      "rloo_advantages": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "same_first_native_path": true,
+      "same_first_program": true,
+      "samples": [
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "05b379574cb83c5afd391fbf2e2d59211b8c1471cf1896520fd0e6c0af36b865",
+            "id": "e5db4e594b2dc423f1ca8a84e5b45621ba1d500a509b278d4e8d9fc6b1f810c5",
+            "ordered_core_sha256": "2eb31842b4a50a4280c5af04a261dc3c85b82bee3c63c575e4ddad6974a0754e",
+            "phase": "train",
+            "record_id": "omrcr-83b3037ee21b1b243c0d",
+            "repeat": 0,
+            "row_index": 7,
+            "seed": 202609200028,
+            "source_row_sha256": "83b3037ee21b1b243c0ddac2762bf88e01dfd96c0c4a0298f4e1a15d6c81dd34",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "f80fe6259274e8a17faf585d1671c26a48c91511221080d96b85f875d5ced809",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "c511d4b01063b4706ee4043dd9bc0538d90aa1a3dcba1a57ed832de0b8e9610d",
+          "first_program_sha256": "64440619ef657039548efbd583f973e347cfc0b7bacfd119f02b8b5f45bfa225",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2986,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "64440619ef657039548efbd583f973e347cfc0b7bacfd119f02b8b5f45bfa225",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2977,
+          "returned_final_sha256": "379d8c1c9544a2d9d03a6d65983b8c399875b6da3507802785db24a5670d61b2",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "d7f09bf706b9adb4e65427d2669b049be6bee967dd0b36d267ffe3edaf56ddcd",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00011396281058750901,
+              "native_index": 56,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.452766056818612e-07,
+              "native_min_chosen_logprob": -4.541770613286644e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "2cc11cb49fd7f42d0d0919a9c2cf2abf3f150d67d8a806d9c8b9adba579ab5d5",
+              "prompt_tokens": 769,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200028,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "05ed602e5a6ee83e5f771a265d9220a26dc0bdbc652dae09d6c156113b268c61",
+              "action_tokens": 522,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": 0.0,
+              "native_index": 57,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": -0.0,
+              "native_min_chosen_logprob": 0.0,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "fbc893f66942058c9ab9754299042e062f97996e34fd9586f0d1a3794ba1ec3f",
+              "prompt_tokens": 1511,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200028,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "05b379574cb83c5afd391fbf2e2d59211b8c1471cf1896520fd0e6c0af36b865",
+            "id": "696f5a414647e189bcb99e2a3bd6ef052d53b50e38783d3548063f4a935b4a02",
+            "ordered_core_sha256": "2eb31842b4a50a4280c5af04a261dc3c85b82bee3c63c575e4ddad6974a0754e",
+            "phase": "train",
+            "record_id": "omrcr-83b3037ee21b1b243c0d",
+            "repeat": 1,
+            "row_index": 7,
+            "seed": 202609200029,
+            "source_row_sha256": "83b3037ee21b1b243c0ddac2762bf88e01dfd96c0c4a0298f4e1a15d6c81dd34",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "d5937f03eddec2926245681ffd6df6935a17988e780be27c9edfed124930c6bf",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "c511d4b01063b4706ee4043dd9bc0538d90aa1a3dcba1a57ed832de0b8e9610d",
+          "first_program_sha256": "64440619ef657039548efbd583f973e347cfc0b7bacfd119f02b8b5f45bfa225",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2986,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "64440619ef657039548efbd583f973e347cfc0b7bacfd119f02b8b5f45bfa225",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2977,
+          "returned_final_sha256": "379d8c1c9544a2d9d03a6d65983b8c399875b6da3507802785db24a5670d61b2",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "d7f09bf706b9adb4e65427d2669b049be6bee967dd0b36d267ffe3edaf56ddcd",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00012266499384594454,
+              "native_index": 58,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.869138461528446e-07,
+              "native_min_chosen_logprob": -4.541770613286644e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "2cc11cb49fd7f42d0d0919a9c2cf2abf3f150d67d8a806d9c8b9adba579ab5d5",
+              "prompt_tokens": 769,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200029,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "05ed602e5a6ee83e5f771a265d9220a26dc0bdbc652dae09d6c156113b268c61",
+              "action_tokens": 522,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": 0.0,
+              "native_index": 60,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": -0.0,
+              "native_min_chosen_logprob": 0.0,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "fbc893f66942058c9ab9754299042e062f97996e34fd9586f0d1a3794ba1ec3f",
+              "prompt_tokens": 1511,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200029,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "05b379574cb83c5afd391fbf2e2d59211b8c1471cf1896520fd0e6c0af36b865",
+            "id": "226c4ae6e642c503f53ad4e79b72c9570ee8e199a87229b40da8276ceafce704",
+            "ordered_core_sha256": "2eb31842b4a50a4280c5af04a261dc3c85b82bee3c63c575e4ddad6974a0754e",
+            "phase": "train",
+            "record_id": "omrcr-83b3037ee21b1b243c0d",
+            "repeat": 2,
+            "row_index": 7,
+            "seed": 202609200030,
+            "source_row_sha256": "83b3037ee21b1b243c0ddac2762bf88e01dfd96c0c4a0298f4e1a15d6c81dd34",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "79c4aa7c05b14a642a13aed4c8961df76b396180fc96eb4aa7ae4124be058e2d",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "c511d4b01063b4706ee4043dd9bc0538d90aa1a3dcba1a57ed832de0b8e9610d",
+          "first_program_sha256": "64440619ef657039548efbd583f973e347cfc0b7bacfd119f02b8b5f45bfa225",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2986,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "64440619ef657039548efbd583f973e347cfc0b7bacfd119f02b8b5f45bfa225",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2977,
+          "returned_final_sha256": "379d8c1c9544a2d9d03a6d65983b8c399875b6da3507802785db24a5670d61b2",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "d7f09bf706b9adb4e65427d2669b049be6bee967dd0b36d267ffe3edaf56ddcd",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00012183052379555193,
+              "native_index": 59,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.829211664858944e-07,
+              "native_min_chosen_logprob": -4.541770613286644e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "2cc11cb49fd7f42d0d0919a9c2cf2abf3f150d67d8a806d9c8b9adba579ab5d5",
+              "prompt_tokens": 769,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200030,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "05ed602e5a6ee83e5f771a265d9220a26dc0bdbc652dae09d6c156113b268c61",
+              "action_tokens": 522,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -1.1920928244535389e-07,
+              "native_index": 62,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.2837027288381972e-10,
+              "native_min_chosen_logprob": -1.1920928244535389e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "fbc893f66942058c9ab9754299042e062f97996e34fd9586f0d1a3794ba1ec3f",
+              "prompt_tokens": 1511,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200030,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        },
+        {
+          "actual_final_text": true,
+          "available": true,
+          "binary_reward": 1,
+          "child_actions": 0,
+          "clean_target_stdout": true,
+          "collector_failure_class": null,
+          "coordinate": {
+            "context_sha256": "05b379574cb83c5afd391fbf2e2d59211b8c1471cf1896520fd0e6c0af36b865",
+            "id": "9d614202e9b8e9bfcae4af883f00296c76af5d963e47f08525096b3570b02ca2",
+            "ordered_core_sha256": "2eb31842b4a50a4280c5af04a261dc3c85b82bee3c63c575e4ddad6974a0754e",
+            "phase": "train",
+            "record_id": "omrcr-83b3037ee21b1b243c0d",
+            "repeat": 3,
+            "row_index": 7,
+            "seed": 202609200031,
+            "source_row_sha256": "83b3037ee21b1b243c0ddac2762bf88e01dfd96c0c4a0298f4e1a15d6c81dd34",
+            "study": "openai-mrcr-procedural-sft32-onpolicy-screen-v1",
+            "temperature": 0.5
+          },
+          "episode_sha256": "4a93f21f3d8d1a2b1b316afdfb8d548cebb392514dc3a73b36c0ef0ee775bf95",
+          "failure_category": "returned_exact",
+          "first_native_path_sha256": "c511d4b01063b4706ee4043dd9bc0538d90aa1a3dcba1a57ed832de0b8e9610d",
+          "first_program_sha256": "64440619ef657039548efbd583f973e347cfc0b7bacfd119f02b8b5f45bfa225",
+          "first_teacher_AST_exact": true,
+          "last_root_action_is_not_final_text": false,
+          "observation_utf8_bytes": 2986,
+          "official_score": 1.0,
+          "programs": [
+            {
+              "ast_parseable": true,
+              "characters": 699,
+              "code_sha256": "64440619ef657039548efbd583f973e347cfc0b7bacfd119f02b8b5f45bfa225",
+              "reads_context_json": true,
+              "teacher_AST_exact": true
+            }
+          ],
+          "raw_ok": true,
+          "returned_final_characters": 2977,
+          "returned_final_sha256": "379d8c1c9544a2d9d03a6d65983b8c399875b6da3507802785db24a5670d61b2",
+          "root_actions": 2,
+          "stop_condition": "agent_completed",
+          "tool_error_count": 0,
+          "turns": [
+            {
+              "action_ids_sha256": "d7f09bf706b9adb4e65427d2669b049be6bee967dd0b36d267ffe3edaf56ddcd",
+              "action_tokens": 209,
+              "actual_final_text_turn": false,
+              "bare_exact": false,
+              "bare_semantic_final_span": false,
+              "full_token_distribution_entropy": null,
+              "last_root_action": false,
+              "native_chosen_logprob_sum": -0.00011050572088322497,
+              "native_index": 61,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 5.287355066183013e-07,
+              "native_min_chosen_logprob": -4.541770613286644e-05,
+              "parsed_tool_count": 1,
+              "position": 0,
+              "prompt_ids_sha256": "2cc11cb49fd7f42d0d0919a9c2cf2abf3f150d67d8a806d9c8b9adba579ab5d5",
+              "prompt_tokens": 769,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200031,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": [
+                "ToolCallParseStatus.OK"
+              ]
+            },
+            {
+              "action_ids_sha256": "05ed602e5a6ee83e5f771a265d9220a26dc0bdbc652dae09d6c156113b268c61",
+              "action_tokens": 522,
+              "actual_final_text_turn": true,
+              "bare_exact": true,
+              "bare_semantic_final_span": true,
+              "full_token_distribution_entropy": null,
+              "last_root_action": true,
+              "native_chosen_logprob_sum": -1.1920928244535389e-07,
+              "native_index": 63,
+              "native_max_chosen_logprob": 0.0,
+              "native_mean_chosen_token_surprisal_nats": 2.2837027288381972e-10,
+              "native_min_chosen_logprob": -1.1920928244535389e-07,
+              "parsed_tool_count": 0,
+              "position": 1,
+              "prompt_ids_sha256": "fbc893f66942058c9ab9754299042e062f97996e34fd9586f0d1a3794ba1ec3f",
+              "prompt_tokens": 1511,
+              "reasoning_present": false,
+              "sampling": {
+                "extra_body": {
+                  "cache_salt": "0",
+                  "min_p": 0.0,
+                  "return_token_ids": true,
+                  "top_k": -1
+                },
+                "max_tokens": 2048,
+                "reasoning_effort": null,
+                "seed": 202609200031,
+                "temperature": 0.5,
+                "top_p": 1.0
+              },
+              "tool_parse_statuses": []
+            }
+          ]
+        }
+      ],
+      "unique_available_actual_final_answers": 1
+    }
+  ],
+  "limits": [
+    "Binary rewards are recomputed raw_exact, not legacy continuous derived.reward.",
+    "Native chosen-token logprobs/surprisal are not full-distribution entropy or independently HF-qualified behavior probabilities.",
+    "Answer entropy is empirical from at most4 available final strings, not a policy entropy estimate.",
+    "Last root action is not final-only credit unless it is an actual committed text final.",
+    "Eight previously trained contexts, no heldout accuracy/generalization claim; no adaptive resampling or gradient authority."
+  ],
+  "mixed_groups": 0,
+  "optimizer_steps": 0,
+  "owner": {
+    "complete": true,
+    "elapsed_seconds": 418.9388179779053,
+    "errors": null,
+    "no_retry": true,
+    "optimizer_steps": 0,
+    "recorded": 32,
+    "released": true,
+    "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/RESULT.json",
+    "scientifically_available": 32,
+    "terminal_strip_contract": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/TERMINAL_STRIP_CONTRACT.json"
+  },
+  "owner_qualified": true,
+  "physical": {
+    "costs_are_observed_subtotals": true,
+    "errors": 0,
+    "observed_completion_tokens": 17136,
+    "observed_prompt_tokens": 66824,
+    "returned": 64,
+    "start_only": 0,
+    "started": 64,
+    "unreturned_cost_unknown_calls": 0
+  },
+  "planned_episodes": 32,
+  "planned_groups": 8,
+  "raw_exact_available": 28,
+  "recorded": 32,
+  "recorded_unavailable": 0,
+  "same_first_path_clean_stdout_mixed_groups": 0,
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-sft32-g4-mechanism-2026-09-12/READY.json": "15abb53d56571214dcde6775fc2fcd19e777279d88a9c20962f5cbfb928e8cab",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-sft32-g4-mechanism-2026-09-12/SOURCE.json": "8ec9ddec5b46f4361026886387fca154875cce6ec6190503605ad3a35c1072e3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/owned-service/BINDING.json": "6462b1322d1f8307fce03dc03549c98587a59119f1d9203486340f4673fd3d3c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/TEACHER_CORPUS_V2.json": "e4f5a2e71a435cebb732f13ad551f74edca1b784920b80230fb5ae282e1ecf56",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/inputs/train/HOST_GOLD.json": "22c50155321a3841e8a8756e1cef513a2d4c2584b331851c0dcf95caa5bd1562",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/inputs/train/PREFIXES.json": "b09ae36abb779fc8cbd0cd78fa55a94d23a8882d84fbbed44e71b41ebc6d3a73",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/OWNER_TERMINAL.json": "0c397eea540124d89ba69fe67142f273fc937ce15431d6b8f337986d8f7e6035",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/owned-service/BINDING.json": "6462b1322d1f8307fce03dc03549c98587a59119f1d9203486340f4673fd3d3c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/RESULT.json": "c959b5267e9d3fafa9408bc29c63d52664ec3015ee4016f9e3ab84fa9a2b310e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/TERMINAL_STRIP_CONTRACT.json": "2d69a390898c708e754cc29cef2fae6dbb259cd8e240b683c7158a6b39b4d62f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/00bc9b1d2172b16c181cf362cbd0e62d7add34920a03fe6d5e95a609b0265a18.json": "645efbb5bfd7e216df11272c5d09db823ded8874438aff1ac343b41bffd86591",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/186954dd7ec3d75b165bbd6c366f690ce841a6e1f9922fe7f67caddfe40d9edf.json": "2ba5edd7a56b0155d0a1f55bdf3d5021c1249d448d321335f05e216be4178340",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/18d6911499f0524064c449d2040a7d6a46cd8174d5234056512fcf3826d0dcaa.json": "d46dc672eb02fa3afef10caf18dfc809872c6d4e0152f9115820bf41f11e081c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/1af2834ffa33e0eb0e5865d4eaf1f7f166821f10b7b0e1e1741740e48100b407.json": "4b696cf8ee694c187ae41819ebfa0ae3debead5b511e73d29ce610a19769d911",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/1c675be01dc7c08f9a1b7b6ac89e89d746c2df00df72402c966eb01097403e23.json": "94055d3d655c2b217b1aec994421f0fff55907d3542162d9221aef2b739c14c8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/226c4ae6e642c503f53ad4e79b72c9570ee8e199a87229b40da8276ceafce704.json": "79c4aa7c05b14a642a13aed4c8961df76b396180fc96eb4aa7ae4124be058e2d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/25e03ab4aa80e6b58db014debc68d8d16bf7a3904336c45e2ac2e5dcf78c9af2.json": "97f6ec5f86cce4cb9f79fa1ae309c088b30ae0ada78641fe7f339961070ab1b3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/2f423558a7211910ff3f361612543ac2dc5fe3849e6bcfb0b7a089ed2e7d507b.json": "e04e4b968417d428a41e4e9e9e6defe992537143d9629e3c4d6ef83e649c9f2b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/41629099659a75652d88c5528f6825c0e2529bb206a4ec41c8e41de21a4cd9d4.json": "6f816894b0bf551d6cc9dc3704fee6bbeefdf8a8ca207dfdfb2dae36424a08ba",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/41a31e29c2c402f6403343e7a1225ba5110dd8b85c9a8ea0aa4dff3ff5c65768.json": "c5ffb6975be09e485e2604e92013be680336737d34571224d416aa122f12a911",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/4f06db2fcb552af42d2f36785727b869bf5aef0382bc9f00ba08bff3db968d48.json": "58ba4da7a1851dd21f3390bd8ffd6858f8b993cb84b0b01947c913078d8947e0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/51dee245a6729b282a869fb490eca0e8a87b0e63eabd806c61b38c6e59797335.json": "06ac7f2352c6e95cca828c6c7033ace75c634ce39a949f77fc02a225ec4599c9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/5501b79d26e30f49a82fdc783ea98cb4822b83b76e0ffecc6aae09b80a8522b9.json": "c7aec029f3641a83c094f43e534c0ff6d3a9a960596d488d08af741b26651192",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/596383277e8fd21d02b0707e03a2b6e87f3e9110fb56f28757d101b958c00802.json": "b6b8e5f3d73d3d498a0ee8ec024173019301ce657b41bff371599fa924dfaec0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/632580b93478e13ac0aee915e521f8596a048f15b79b1a619be9e01a4e59eca6.json": "d6926df919c64b8696fbc47378f018d916f4a8aa7c41e2d221117297bf2ec0b9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/68958904995ce70d5d214dcb1830284fef647707c38b14042eaa92d2076e4006.json": "bd2570b891d58a659f0ca90dcec8ef60687b2fbc5b767c868adb5dcc74c660d5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/696f5a414647e189bcb99e2a3bd6ef052d53b50e38783d3548063f4a935b4a02.json": "d5937f03eddec2926245681ffd6df6935a17988e780be27c9edfed124930c6bf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/6997525ca27d323bf97c2a74da64dc4dec7472522e6b9997708a2e12a031c88a.json": "b34149e31d519b7fa14a88590408e827de1bfe5386a37e3b67e87ee9e83698b9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/770b065b834db866ba88d599bfbb865a28ff5960057f010990ad3bc30484f323.json": "bc89256e2824dda79709f395878b82b746a97ba52454637a42fbc1d831de3e62",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/7ff8d2d6c7328992cd45bbe8117c3d70e298617f55f55ece33fbe1a734649db7.json": "5bc32737adeca31d950fa371aea3b7fa965eeb1eeedde077adf57b23025f0c63",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/82aa3cdd36d185c8aeb404843409decca10251aa6f59ebe05856faa6bae8ca74.json": "518a2d4b40535b353e226a662b5f0f1362fa2b9f90c109a0015f360c5af8431c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/9d614202e9b8e9bfcae4af883f00296c76af5d963e47f08525096b3570b02ca2.json": "4a93f21f3d8d1a2b1b316afdfb8d548cebb392514dc3a73b36c0ef0ee775bf95",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/a427f8e6b3ca6684a894ca427465e34dc248be14eea3fef2af67778eefe23341.json": "1b6ebc0f1ae076e296b4383e9ea64cda97b8acb56c61a2c6ccba421190dc2acc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/c0b70a1d4814cd866da0400d1a64f5018ca20bcc601e8ac4a91e70e0be161766.json": "826de39d99467c435b59ecb71d6daa9438a0183d616a05a86ea5912137119889",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/c1113cfdcd64f2548eec00c353eab37fc0ff26dedfc09a76d61fc4b6e677789a.json": "d1217802fc772aa224ddcb10728dd199eb731c37cbe64e20152aa8b2629b0eaa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/c30318517e02f98cb0569c2108b73faae89e677d331f2c29bf5310081a973e4b.json": "201e4cd7a059e19616e8bc4c9cb002959e6b5b7ddcab106c4c5cf8e6c2091342",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/cd6e8a4cad8f00424d7f992d8ddea0f708a1878912e2217e8f99c4a51635132a.json": "daf9b2cc8f83c6efe39392494ec1377769513a4209447151717643fb6be638c2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/cf07ffe556467c1feb0aaee73d1c5882122cfd7f9e352059b79caed2d5ca8fe1.json": "c0465ef2fa6362d0995f20889b5c44a93f8a4ed1f45fd0942e12465b3d668a4b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/d504c73d4ed2e55e42da41a26d82696d3a986da32972f6c4593bfc36c1160689.json": "ab2b642d4834d707b9b3d51e2d36fbba563b32f70153167aa73ed1b23bb099cd",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/e1d575402a01853b9103fde99a0056169d990fa03bf34b65a92d77624bc34b56.json": "5f55adaf1e07dc800da795f68e6dbe03edc563a8dd5c5c31cdc20725674c8fd4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/e2c569907e83e2bccf2b2fa1515cc71914d9a1d36c5b54bf29c89a14068df778.json": "599a64640e627c49e631eaa4028f428b7e240cbb2b6b5ac32e3c789a1236568f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/episodes/e5db4e594b2dc423f1ca8a84e5b45621ba1d500a509b278d4e8d9fc6b1f810c5.json": "f80fe6259274e8a17faf585d1671c26a48c91511221080d96b85f875d5ced809",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0000-result.json": "7aac8591df7f5cf9ece0022563778375faf3e8fcb5ffa30b4359324a23f28e14",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0001-result.json": "89b920ff0de7dbbe0309f3de027f1022e5469ae4d02b78f257de401995a330e8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0002-result.json": "41f4d9071707837a1f8c3f7d42685bc57bf34294a47a4dcf8a76eb6b5f9ba6ba",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0003-result.json": "d89aeee11ddfb40c6cc9ba71304e4facc30b11356d9e10906e8a7b7d680123c7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0004-result.json": "084a1b6ead88b4c64aca95dd903e1dca770a6b5394022ae38c43029ab2613a0c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0005-result.json": "11cc2947adddc068bd38e183aab03175e855045d466461c0a34793f7bf51f8fd",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0006-result.json": "9e512c9acb716a1b6c6b06b2fc3d9ed082f2b2893d57a06d94d0639f95a3d780",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0007-result.json": "8143afad823fdc34373291da1e8e40f7e180f5364208fa0ff2203dffc17d1b01",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0008-result.json": "0d53b712f2b69323925588310d822ceb7c677e99396bb5ba675e0585fe53c080",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0009-result.json": "b6ea228cf44292649e4a2d7e33ccdc6a39dbcfb5a68ae58605c9291be9e5b7ec",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0010-result.json": "38c9d2d8571bef352b0f1bca3a26c6870129a3654d8893dd7f2b11577fa712ea",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0011-result.json": "2b89bdc3fb2e98c7a5d8bacab56fa10cc2ddd9187991862c9fd265594d72a4d0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0012-result.json": "85b5195678c2b2e22a9e25d1b5558d55d01f7977104a292edb5b6c39c2590702",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0013-result.json": "9e3607c6ca687539fca5d3ad7d68d4beba1a85bc842d2ab2331045bed5a199e1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0014-result.json": "ffddf7af678798ab47293e108b8ffea29b15791e7953744f6b0e3880b158c2e9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0015-result.json": "194043fbdbc33ddbb2947ec65cafc42bab433f83d9fd0c96d82afc3c322d22b6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0016-result.json": "0dc5f3ccb970adcdb9ff7ce9ebc2fc4a14d48e471db9033b2fafd371b400d0ce",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0017-result.json": "694598709c31b27e1a66484a58d28ba75e17206842acad7ab6e89de2b3244613",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0018-result.json": "792e1e55a8231eb57a6b3a3e91c78db84bad3b7c5b5b302eb6ec88ecd1b13b6e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0019-result.json": "021c837ff1fda7964831b7dd3152bd462f6bc75cf4d22e5a37868f8663355e7a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0020-result.json": "d24c090532314d8eba9d4e0184fdd89e4d6f536bc37b995b6edba127b2d2a23c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0021-result.json": "2218208f1d47e4198f736e5a824961bf3fd0f5a406d4135658ddfc5f88ed93bc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0022-result.json": "bc6d8224c0b5ebfcf4b31b7bccb898ec7d4af54089c41331c686b35ff320ecfc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0023-result.json": "06c33951b7e05d6166af46aaec6b3c6a5eadeb0ca2001b82945fa77b1d56c701",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0024-result.json": "345c3bbbeed2eab50716eb0c0c68f18cd42c25cd0402a2ba48b2d9c0b4c89a3f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0025-result.json": "799d785d06af70c8c23ba3e4685188558c19b40a8a51406f280bb9d0d321c3c2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0026-result.json": "039f345d05df9b6fc4b97caf47ee560365bda036fcecf009e4c220f22be05600",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0027-result.json": "8398ddd7213a548fb8843c527dd4d4eb712c25608af2354fa60dcc14a7abf9d7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0028-result.json": "eecb26855faf2c8a2b2f7b81b6c46dc71542d9e1d9237b6f1f005c1b8b83fcea",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0029-result.json": "c71868b79f08566acf7755a2f35fc1b41b460c4f935ff9c2518aa62dca724cb5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0030-result.json": "cf755ba3c724ff1866bde6d117a32f7f5b64b3d0944a6082d881fdeb88fb900a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0031-result.json": "848e09f11994402f28b39e75504c8815cad0880ac5f2022725668267e4078cfb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0032-result.json": "ca177b823c18bb85475ea2b49df8545cb6592ecf2dae5ebfae6b90cfdc6d4617",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0033-result.json": "417e3fa51eb561dbdbd16e4ebe5893f511deb1ae8fbf1d7c92172a6b310b3af3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0034-result.json": "d854655c7a54b7ea12f2bfb1e44066989c6a08e9b29799288a61508f9178d453",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0035-result.json": "843faf20d859cdd37e4e8f891deeb387e5f9120feb8086aec6dd1cda3f06761c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0036-result.json": "6528cfc379d4d6eb44ea7d1259b5789e26c5f751331c93dce9b73546c6280978",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0037-result.json": "68646ba18c5243b43f97052f43d683071ba8f9abe5eae5662f193bd5d14f7491",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0038-result.json": "c47679f297a30cb52ba7e550cfeabfd15ffb6fdb3bd13ce46eff012e83e4f540",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0039-result.json": "92d8b53d4071639f06ee62496d0f4871d96661d8bb47dd828eb2c7b26daf659b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0040-result.json": "37fe9c2425cdb79decfbc70ebb8e8356f88af0329c361ddf660a19961861d200",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0041-result.json": "56dc17037299fb55eed1daa3071c83b160a2a9d868e0e2d705faabf3a72c6feb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0042-result.json": "ffe39900e64d5b97f44cd23add8abafba8764e6b76ec7c5ff11b9e65e562b445",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0043-result.json": "4a770a428a87e013b0115ef9a9dcb3a029f2c8103f7d5fe4fafb94bf5c851f0e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0044-result.json": "5eafac0fa16cdaa3b4f51c6d7e9350d00c5f01df2960e130a5593e58e21add26",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0045-result.json": "fda9479137b0867752ffb6ffb85a0fc222c617916733b450e7c9e9ab6654290a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0046-result.json": "5439f51bbf86d5339da2dfd7b7d9ef6e5375b8ba6c3a213b077230f7882ded91",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0047-result.json": "c8e3d9e57cb10d3afe51bc6193b8a03af8d3046ad986352da54340041ada0262",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0048-result.json": "d72d7c6c6cbd0c37c5836de5b7ba40dace7ebc2d0a5e5c7df02a4b893ad9f603",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0049-result.json": "f3e3f0c6c9ab1efafc35bd16a69d2af5e9016ffa50b38e1db15f81bb29d74c29",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0050-result.json": "ae3bf262525baf7c2945367f4de6e66202ed54d40cc94100c398bdf2d5a4391c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0051-result.json": "3243dd91b0a543f53fe668c95efc8d9fc4f5d74c3e2d28912c06dea5730b7210",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0052-result.json": "5407e66f23fe0249053f4a38a034200a61706256ae400d396bd4bdecd1baf8e0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0053-result.json": "9267cbccaa4c949fc57fcc2528e881991673e8e68a7bf0f7b8fe9877d2fd799a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0054-result.json": "21106e1db10bf94529731d54c10b7b0bd19339717c89347ccf0bfe44d8bcefcf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0055-result.json": "67c6a0222ebf4b135674f3ef8fed50e8e96fe238b17563310ba03557d3cf69e7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0056-result.json": "d1b37e1457fe7a8818c3d98e52220689169154d4198ba9ce09356d85e1016705",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0057-result.json": "81cad16ee5bfeeacdc6dc7245b08a5d3bb2bad0b2d47014646752b1b5a471a96",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0058-result.json": "c7544119de2824e9e6f891298c5132b18a04da0cd08ca72ad5ed9cc5d129d5a2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0059-result.json": "6cf368662dd7f98d77d478e6694fe8a9a703bb6ab31fc6f327da40235efb82d9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0060-result.json": "5fe99e2186b58ff696f2bfcf027546fd10df90d268b95926af54b4aaad412c0f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0061-result.json": "0455821d97e1be5e82e7534b89c23d0b5d8002dc167e1dca5e5cda320c60a0ea",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0062-result.json": "1ff624dc50959c3b2d16f868bb34d9225dc5a5c46216cbcc7703a6cc6a1f2007",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004/science/native-calls/0063-result.json": "5df3a505b700a8cff924c6c3457cf4f17858327eb0072df1d19cd97f6bc22c78"
+  },
+  "status": "TERMINAL_G4_AUDIT",
+  "unrecorded": 0,
+  "unrecorded_coordinate_ids": []
+}

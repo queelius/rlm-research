@@ -1,0 +1,9 @@
+{
+  "ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/CPU_READY_V4.json",
+  "ready_sha256": "4d954294a98a24dc59b4e8cc9191c386e975a9e727109ba10606717bdea514d8",
+  "identity": "2f504b0fb5c1cc159bf947c35fabead586d9dc9c6d84bc933ae54a608a5d35f8",
+  "output": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-screen-v1/outputs/attempt-004",
+  "collector_module": "collect",
+  "collector_usage": "Unchanged original_inspect_trace, scientific schedule, tokenizer and hooks only; never invoke the defective V1 entrypoint. V4 is the sole run authority.",
+  "binding_source": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/owned-service/BINDING.json"
+}
