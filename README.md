@@ -4,12 +4,13 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 12, 2026, 11:24 UTC. It adds the matched RL
-update comparison, fresh checking-cost results, numerical budget diagnosis,
-and sealed follow-up scripts. Other
+Latest partial refresh: September 12, 2026, 12:20 UTC. It adds completed
+reward-feedback and input-size checks, the failed delegation pilot's diagnosis,
+and new training, calibration and harness proposals, including an explicit
+correction to the proposed MRCR runtime budget. Other
 records retain their earlier cutoffs; this is not live GPU status. The latest
 plain-language synthesis is also in the
-[September 12 research report](https://github.com/queelius/rlm/blob/51d602b/docs/research-checkpoints/2026-09-12-checking-cost-and-rl-saturation.md).
+[September 12 research report](https://github.com/queelius/rlm/blob/604ac4e/docs/research-checkpoints/2026-09-12-feedback-and-input-shape.md).
 
 ## Start here
 

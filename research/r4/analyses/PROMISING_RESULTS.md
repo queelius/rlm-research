@@ -1,5 +1,29 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 12:09 UTC
+
+The completed reward-baseline and single-item serving checks did not rescue
+the small-data RL result. Other-question feedback activated all32 training
+groups instead of5, but changed no evaluated label relative to its matched
+RLOO branch. Under single-item serving, four-step RL tied question-category
+accuracy and lost one news answer. These are useful narrowing results, not
+a new positive publication claim; prioritize broader-data learning and root
+procedures over more tweaks to the same32 training questions.
+
+An interface-sensitivity hypothesis is worth testing: the root delegation pilot
+was dominated by invalid Python/import loops after its prompt changed. A small
+shared-explicit-interface comparison is accepted, not completed. Its result
+will determine whether a clearer prompt suffices before implementing a richer
+action interface. Routine-action compilation has prior art (HaReCAP); novelty
+would require evidence about learned delegation or composition transfer, not
+claiming that structured interfaces themselves are new.
+
+The earlier multi-model keyed handoff and supplied-operation composition
+training remain stronger paper leads. The fresh checking experiment still
+does not beat its cheapest baseline. The numerical-budget experiment is active;
+the broader-data AG and root-interface successors are queued. Do not promote
+their expected benefits into findings before observing the endpoints.
+
 ## Decision update — September 12, 11:19 UTC
 
 **Keep the cheapest comparator visible.** Fresh selective checking matched

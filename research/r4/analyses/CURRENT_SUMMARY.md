@@ -1,5 +1,58 @@
 # What we know so far
 
+## Current update — September 12, 12:09 UTC
+
+The single-item comparison is complete: the supervised helper scored 120/128
+question categories and 109/128 news, while the four-update RL helper scored
+120 and 108. All 512 calls produced available predictions. There was one
+regression and no improvement. The starting helper reproduced all 256 earlier
+singleton completions exactly. This does not support serving input-size mismatch
+as the reason RL added little. See
+`helper-hf-singleton-policy-comparison-2026-09-12/REPORT.json`.
+
+Together with the paired reward-baseline null, this makes broader training data,
+a meaningful fixed training dose, and root-procedure learning higher priorities.
+The GPU is running the numerical inspection-budget comparison; new AG training
+and root-interface checks remain queued. The latest plain-language RLM report
+is pushed in commit604ac4e. Full external runs and weights are not Git backups.
+
+## Current update — September 12, 12:02 UTC
+
+Changing the RL reward baseline did not improve evaluated answers. Two models
+trained on exactly the same128 attempts made identical predictions on all256
+evaluation records, even though the alternative provided nonzero signal for
+32training questions instead of5. Their parameter updates really differed.
+This narrows our next moves toward broader training material and root procedures,
+not more small reward tweaks on the same familiar questions. The full result
+and corrected shared-sample costs are in
+`paired-feedback-recovery-2026-09-12/REPORT.md`.
+
+The GPU is now evaluating the trained model on single-item requests. Its fresh
+starting-model control already completed256 requests. Numerical-budget, new
+AGtraining/readout and explicit-root-interface experiments remain accepted
+successors under the shared lock. MRCR root calibration is CPU preparation;
+it uses one underlying long context and is not a generalization test.
+
+## Current update — September 12, 11:44 UTC
+
+The delegation experiment mostly exposed an interface problem. The model kept
+trying to import a helper that was already available, or repeating invalid
+Python, until some conversations exceeded the context limit. The same root
+model behaved much better under its earlier, explicit interface instructions.
+Only half the planned comparison ran; the raw first48 episodes are auditable,
+but they do not provide a clean estimate of whether delegation helps. A small
+shared-instruction check is being prepared before any larger followup.
+
+The GPU is still working on the comparison of two ways to calculate RL feedback
+from identical sampled answers. One branch is finished and the second is
+replaying its training samples. Automatic successors will evaluate both, test
+whether single-item versus four-item inputs hide an improvement, and revisit
+the numerical Python task with usable inspection budgets. The next proposed
+training step changes the training material to new news examples, with a
+separate heldout panel. No meaningful new RL gain is claimed from a checkpoint
+alone. See `../RESEARCH_QUEUE.md` and
+`root-recursion-headroom-partial-2026-09-12/PARTIAL.md`.
+
 ## Current update — September 12, 11:24 UTC
 
 The fast48 update is now independently qualified, not merely a checkpoint file:

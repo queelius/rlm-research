@@ -2,9 +2,9 @@
 schema_version: "rlm-question-card-v1"
 id: "rq:rl-effective-feedback"
 title: "Can an RLM learn from its own attempts, and which errors obscure that signal?"
-status: "larger_updates_regressed_reward_baseline_and_request_shape_tests_next"
-updated_utc: "2026-09-12T11:19:00Z"
-evidence_cutoff: "2026-09-12T11:19:00Z"
+status: "paired_reward_baseline_null_broader_data_and_root_procedure_next"
+updated_utc: "2026-09-12T12:02:00Z"
+evidence_cutoff: "2026-09-12T12:02:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -20,6 +20,31 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Can we turn the model's own attempts into useful learning?
+
+## Decision update — September 12, 12:02 UTC
+
+The same-action paired reward comparison is complete. Other-question feedback
+gave nonzero signal to32/32 question groups instead of5/32, but the two updated
+models made exactly the same256 evaluated predictions:120/128TREC,112/128AG.
+All answers were available. Both checkpoints are genuinely different; their
+parameter-update cosine is0.8389. This is not a no-op optimizer, but also not
+evidence that their output distributions are identical.
+
+Retire another identical reward-baseline repeat as a near-term priority. The
+broader-data AG128 one-update package and paired fresh AG256 readout are now
+accepted and queued. Its package changes data/domain, input shape and reward
+granularity together; any signal requires replication and later separation of
+causes. A root-only MRCR procedure calibration is being prepared because the
+wrong trained component and task-verifier quality remain open explanations.
+Its small data slice has one underlying context, so calibration is not transfer.
+
+The singleton readout is active. The completed c32 control gives120/128TREC and
+109/128AG, matching its prior singleton headline counts; trained-model result
+is pending. It will test whether the four-item serving shape hid an RL gain.
+
+See [paired result and corrected reuse costs](../analyses/paired-feedback-recovery-2026-09-12/REPORT.md).
+The legacy analyzer's `fresh_actions` field means retained action rows here:
+the repair sampled zero new actions, and both branches share the same128.
 
 ## Decision update — September 12, 11:19 UTC
 

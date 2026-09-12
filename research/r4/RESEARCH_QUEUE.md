@@ -1,5 +1,114 @@
 # Live GPU research queue
 
+### Live update September 12 12:09 UTC — singleton null; numerical budget comparison active
+
+Singleton reference completed all256 calls:120/128TREC and108/128AG versus
+c32120/109. Exact256requests matched,zero unavailable;0wins1loss. Startingc32
+reproduced all256 prior singleton completion-token sequences. Independent
+REPORT SHA256 `59e5dcc725cb2aeb60d712786ed4e1b513a9b32d6d0a83bb8fbfdb652cd9da22`.
+No repeat is promoted under the frozen input-shape decision rule.
+
+ACTIVE numerical budget V2, GPU PID104616, stage started12:02:46.595UTC;
+10/30 episodes terminal at379.741s owned elapsed. At least one wide-inspection
+episode has reached a final answer, but coverage and quality remain pending.
+AGchain PTY87608 and root qualifier PTY41864 stay WAITING. MRCR calibration
+is CPU prep only, with a full-queries realization repair underway; do not launch
+its superseded V1/V2 receipts. Broader1024train+512heldout AG data preparation is
+CPU-only; no eight-step trainer/admission yet. Do not keep repeating old32knobs.
+
+Public plain-language result604ac4e is pushed; a new notebook snapshot is being
+verified. Source/report pushes do not back up external checkpoints or data.
+
+### Live update September 12 12:02 UTC — reward-baseline null; single-item readout active
+
+Paired V2 finished1252.394s training with both one-step branches qualified.
+Other-question baseline provided nonzero signal32/32groups versus5/32RLOO,
+but all256 evaluation labels matched:120/128TREC,112/128AG,zero unavailable.
+MAIN requalified exact source reuse/branch initialization/checkpoint/serving
+bindings and measured genuinely different tensor updates (cosine0.8389).
+Report `analyses/paired-feedback-recovery-2026-09-12/REPORT.json`, SHA256
+`d6d2d8d42ab158aeaf990d6632391f760eab5b6c63e5e0c1890fbf469222c308`.
+Corrected collection accounting:zero fresh repair samples,128unique actions
+shared by both branches. Legacy per-arm fresh_actions field is not authoritative.
+
+ACTIVE singleton reference-step4 readout; c32 control completed256 calls in
+236.790s with120TREC/109AG and no unavailable labels. Then numerical-budget V2
+remains in the same chain PTY35857. WAITING AGchain PTY87608 is unchanged;
+CPU outcome watcher PTY15319/PID99708 is running,30spoll/4h/GPUhidden.
+
+Additional accepted WAITING root-interface qualifier PTY41864, wrapper
+`operations/2026-09-12-recursion-interface-queue/run.py`, SHA256
+`f0e23e5bfac9342344d476b18db23524f8b698caada271350d404cab23ea9632`.
+READY SHA256 `e8fc4a74a3fe871bd132331126a706afe1bebc1bdd823a538a24a35f9fb0acca`,
+identity `ce5af6996c54901015ea276a1002f0ae2ed272a80b1fddb0144b5500540158b4`.
+Six exposed contexts/families x2modes,one repeat,no-child thenenabled,exact
+shared conditional ABI;250request admission trigger,600owned/700external.
+MAIN read all1114source/fixture lines+DESIGN and exactclosureverify passed.
+Separate CPU raw watcher PTY52689/PID101680 waits under its4hcap. Its scientific
+gate is distinct from operational completion. Old failed results are preserved.
+
+MRCR32-rollout root calibration is CPU implementation, not admitted:8target
+variants ofone externalcontext x4seeds, samebase4B/T.5,depth1. Existing runtime
+allows six model turns TOTAL across root+child, not six root turns plus children;
+this scoped budget adjustment is approved and must appear in its frozen design.
+Conditional multi-update broader-data RL and architecture triage are CPU design
+only. Main quota86%remaining at11:56:03UTC. No new same32 T2/LR/baseline repeat.
+
+### Live update September 12 11:48 UTC — broader-data RL successor accepted
+
+Additional WAITING chain PTY87608 is accepted under the same coordinator lock:
+`operations/2026-09-12-agnews-native-hf-queue/run.py`, SHA256
+`11a603e9f0cdba4bc585e4670fa75aad2964ab0032f43d6091b03fbda08faf27`.
+It runs after the current six-stage owner: fresh c32 AG256 baseline (700s),
+128-action native/HF one-update training (1200s), conditional updated AG256
+evaluation (700s). MAIN read every new source/fixture, verified both exact
+READY closures plus the original c32 V2 evaluator on CPU before queueing.
+Native and tiny-HF fixtures passed in8.60s/8.21s; no installs or GPU launches
+were delegated. Local CPU raw-output analysis is being prepared.
+
+Training READY SHA256
+`9fa4df0e9921f35202abe0627914eda17be2851e089f7402c5f37d0830616be6`,
+identity `2577eaf314affca726c8a680d5740d88461c2f2bff2459fdf9c6c644d81c8e46`;
+updated evaluator READY SHA256
+`d3caf49d6b4fa320c4e8116e33230f409b7077472156568531600049d6ca846b`,
+identity `2231a179b567c92fa326039e9c1d35abfc4b5f4d2178e453dabe9d63c5a52182`.
+The existing c32 READY_C32_V2 is unchanged. The run bundles new domain/data,
+four-item training requests, count rewards and dose; it is not an isolated
+causal test of training-set breadth. Training and heldout records are disjoint.
+Every exact importance/replay gate must pass before a single fresh AdamW step.
+
+ACTIVE paired-baseline V2 reached other31 group29/32 at11:48; no idle GPU or
+second GPU owner was observed. The six-stage queue's existing successors stay
+in order. Root-interface qualifier and MRCR feasibility remain CPU preparation.
+
+### Live update September 12 11:44 UTC — paired update active; delegation needs an interface check
+
+ACTIVE is the accepted paired-baseline V2 trainer, GPU PID81314/chain PTY35857,
+started11:27:51UTC. The RLOO branch has finished; other31 has replayed18/32 groups
+at11:42:50. Both use the same128 authenticated saved actions and unchanged
+starting weights. The five remaining chain stages below remain accepted; no
+second GPU owner is running. Paired CPU watcher PTY18758 and singleton watcher
+PTY57363 are ready. Main account has87%remaining at11:41:38UTC.
+
+The root delegation pilot finished two of four blocks, then stopped admission
+after679 requests against a600-request trigger. Its final filename-based audit
+failed, but independent semantic request-ID matching qualifies all679 raw calls.
+The first24 pairs are dominated by invalid Python, repeated imports of an
+already-global callable, and context overflow: no-child1C/16W/7unavailable;
+enabled4C/12W/8unavailable. Only12 pairs have both endpoints observed. The other
+48 episodes were never attempted. This is not a clean benefit-of-recursion result.
+See `analyses/root-recursion-headroom-partial-2026-09-12/PARTIAL.md`.
+
+CPU preparation, not yet admitted: a12-episode shared-explicit-interface
+qualifier before any expanded recursion comparison; and a faster one-update
+AG News experiment using128 new training records and a separate256-record
+heldout readout. MRCRv2 data/clean root-reward feasibility is a lower-priority
+acquisition task, not another launched training run. More temperature-only or
+larger-learning-rate repeats remain low priority.
+
+Public snapshots pushed: RLM51d602b and research notebook39fdbc0 (cutoff11:24).
+These preserve selected source/reports, not external checkpoints or raw traces.
+
 ### Live update September 12 11:24 UTC — feedback and input-shape successors queued
 
 ACTIVE root recursion-headroom V4 started11:15:41 UTC; real native calls are
