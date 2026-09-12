@@ -1,8 +1,8 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T13:01:00Z
+updated_utc: 2026-09-12T14:15:00Z
 status: active_exploratory_research
-claim_level: no_meaningful_new_RL_gain_established
+claim_level: promising_single_run_RL_gain_needs_training_seed_replication
 ---
 
 # Research in plain language
@@ -14,6 +14,13 @@ for a failure of the entire idea.
 
 ## What the latest experiments say
 
+- The broader-data comparison now has a promising RL result. On the same 512
+  previously unqueried test articles, the starting model answered 422 correctly,
+  supervised training answered 427 correctly, and RL answered 437 correctly.
+  All three produced every required answer. RL corrected 17 starting-model
+  errors and introduced two, a net gain of 15 answers (2.93 percentage points).
+  Fourteen of those net answers came from the science-and-technology category.
+  This is one fixed eight-update run, not yet a replicated improvement.
 - Changing temperature, taking larger updates, changing the reward baseline,
   and serving one item at a time did not produce a useful RL gain on the earlier
   small training set. The updates really changed weights; completion of a
@@ -29,12 +36,34 @@ for a failure of the entire idea.
 - The numerical Python experiment mostly exposed poor code and method choice.
   More room for code improved completion, not correctness. That particular
   free-form variant is retired rather than given another larger budget.
-- Two conversation-search attempts failed before model calls: first an obsolete
-  container store, then a task-setup ordering error that left the context file
-  absent. These are operational failures, not model results. The next repair
-  must exercise the actual task setup, not just a standalone file-write smoke.
+- Three conversation-search attempts failed before model calls: an obsolete
+  container store, a task-setup ordering error, and an audit looking in an obsolete
+  installation directory. These are operational failures, not model results.
+  The new repair passed a real end-to-end CPU exercise of task setup, container,
+  installed harness, context reading, causal prompts, and a fake final answer.
+- The fourth attempt then exposed a separate request-recording error before
+  forwarding any model request. We stopped it early after 473 seconds and
+  released the GPU. Its repeated failed interception attempts are not model
+  calls or model failures. The earlier CPU exercise missed that wrapper;
+  the next repair must test the actual complete collector path.
+- Splitting the four-item count reward into four item rewards and adding them
+  back together gives the same update signal. The two pilot collections contain
+  no hidden item-level variation that this change would recover.
 
 ## What happens next
+
+Repeat the same eight-update RL experiment with different sampling and training
+seeds before changing its recipe. Keep the same articles, model, update count,
+and fixed final test. That tests training repeatability, not transfer to another
+dataset. Broader transfer and helper-input-size tests follow only if the signal
+holds. The conditional diagnostic for nearly unchanged predictions is not
+needed: RL changed 21 labels, exceeding its predeclared five-label trigger.
+
+Supervised training is an important comparison, not a straw baseline. It used
+the same 1,024 training articles and eight updates, but different losses and
+fewer output samples. RL required about 35 minutes of owned training workflow;
+SFT required about four minutes. The observed accuracy advantage is not a
+compute-matched claim that RL is better than supervised learning.
 
 The new-seed replication retires the one-answer positive signal.
 The eight-step supervised-learning run completed on 1,024 new
@@ -46,20 +75,53 @@ procedure can exploit it.
 This broader comparison was frozen before the replication result. It is a new
 data-and-dose question, not an escalation based on a positive result. The RL
 launch's nested Python import failure has been repaired and tested on its actual
-CPU entry path. RL is queued after the now-running conversation pilot. SFT made
+CPU entry path. RL completed all eight updates in2,094.99 owned seconds, about
+35 minutes. All1,024 sampled maps passed replay checks;43 of256 question groups
+had differing rewards. The starting model, final RL model, and final SFT model
+completed the same fresh512-article test. Only complete eight-step models
+were eligible; no choosing
+the best intermediate checkpoint after seeing test answers. SFT made
 eight committed updates in 224.440 training seconds (236.254 owned seconds).
-Its final test has not run; successful training is not yet improved accuracy.
+Its final test improved by five net answers; successful training alone would
+not have established that improvement.
 
 The separate conversation-search calibration asks whether a controller can
 inspect external data and produce useful reward variation before we train its
 weights. Eight questions about one conversation are not eight independent
 conversations. A later transfer test must use different underlying material.
+Five short conversations are now frozen for a small three-train/two-test study;
+their exact dialogue pairs do not overlap. That is an exploratory transfer test,
+not evidence of broad generalization or semantic independence.
+
+The conversation-search repair is back in CPU preparation. A conditional root-only
+RL update remains unlaunched. The new evidence-selection screen also stopped
+before model calls: its real collector rejected the frozen task identity.
+Both failures are being repaired in their actual production entry paths. The
+GPU is temporarily idle while those repairs and the RL replication are prepared;
+this is lost research opportunity, not useful experimental compute.
+The latter lets the controller
+choose which record IDs to ask about, accumulate authentic saved helper replies,
+and explicitly finish. Its first screen separates evidence-selection behavior
+from helper sampling and cannot establish a real child-compute saving.
+
+A separate OpenAI conversation-search dataset now has 32 training and 16 test
+conversations frozen without looking at model outcomes. Their exact conversation
+pairs do not overlap within the selected short-context pool, although the shared
+demonstration remains and prior model exposure is unknown. The source question,
+requested occurrence, and answer links were checked. This is data readiness,
+not a completed learning or transfer result.
 
 ## Evidence and resumption
 
 - [Current decision and measured costs](2026-09-12-midday-learning-decision.md).
 - [New-data RL audit](helper-agnews-native-hf-outcomes-2026-09-12/REPORT.md).
 - [Replication audit](helper-agnews-native-hf-seed2-outcomes-2026-09-12/REPORT.md).
+- [Reward and supervised-signal diagnosis](agnews-credit-and-sft-signal-2026-09-12/REPORT.md).
+- [Broader RL checkpoint audit](helper-agnews-eightstep-live-audit-2026-09-12/HANDOFF.md).
+- [Fixed final comparisons](helper-agnews-eightstep-live-audit-2026-09-12/outcomes/READOUT-003.md).
+- [New conversation-data freeze and limitations](openai-mrcr-source-inventory-2026-09-12/FROZEN_SHORT_DATA.md).
+- [Evidence-selection proposal](../ideas/2026-09-12-budgeted-evidence-stop-interface.md).
+- [Small conversation-transfer design](mrcr-independent-context-data-2026-09-12/DESIGN.md).
 - [Helper-interface interpretation](root-recursion-interface-qualifier-independent-2026-09-12/INTERPRETATION_ADDENDUM.md).
 - [Correction to the initial-prompt diagnostic](root-recursion-interface-qualifier-independent-2026-09-12/PREFIX_ADDENDUM.md).
 - [Numerical diagnosis](anomalyxl-budget-shape-v2-mechanism-2026-09-12/REPORT.md).
@@ -68,7 +130,9 @@ conversations. A later transfer test must use different underlying material.
 - [Longer history and earlier conclusions](CURRENT_SUMMARY.md).
 
 Earlier strongest publication leads remain the multi-model keyed-handoff study
-and the learned use of supplied operators. This latest batch has not yet
-established autonomous decomposition learning or a reliable RL improvement.
+and the learned use of supplied operators. The broader-data RL result is a new
+lead worth replicating, not yet a reliable RL claim or autonomous decomposition
+learning. Its success concerns a classifier used as an RLM helper, not the whole
+controller or a learned recursive tree.
 Source/report snapshots are pushed periodically; GitHub is not a backup of
 external model checkpoints and raw run artifacts.

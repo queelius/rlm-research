@@ -2,9 +2,9 @@
 schema_version: "rlm-question-card-v1"
 id: "rq:rl-effective-feedback"
 title: "Can an RLM learn from its own attempts, and which errors obscure that signal?"
-status: "paired_reward_baseline_null_broader_data_and_root_procedure_next"
-updated_utc: "2026-09-12T12:02:00Z"
-evidence_cutoff: "2026-09-12T12:02:00Z"
+status: "broader_data_eight_update_gain_requires_seed_replication"
+updated_utc: "2026-09-12T14:05:00Z"
+evidence_cutoff: "2026-09-12T14:05:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -20,6 +20,23 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Can we turn the model's own attempts into useful learning?
+
+## Decision update — September 12, 14:05 UTC
+
+The fixed broader comparison now shows 422/512 correct for the starting
+model, 437/512 for eight RL updates, and 427/512 for eight supervised updates.
+RL corrected 17 errors and introduced two; all endpoints have complete
+answers. This is a promising single-run helper result on the same task,
+not yet a replicated gain or evidence about learning controller decisions.
+
+Next, repeat the fixed RL dose with fresh training/sampling seeds and no
+intermediate evaluation. Keep the already examined 512-article panel explicit:
+this replication tests randomness, not transfer. Do not yet attribute success
+to more data alone, because data exposure and update dose changed together
+relative to the earlier unsuccessful pilots. The supervised comparator has
+matched articles and update opportunities, not matched compute or actions.
+Root-procedure learning and the independent evidence-selection screen remain
+parallel directions.
 
 ## Decision update — September 12, 12:02 UTC
 

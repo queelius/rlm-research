@@ -1,0 +1,96 @@
+schema: agnews-fresh512-conditional-interpretation-v1
+written_utc: '2026-09-12 13:32 UTC'
+status: interpretation_plan_and_secondary_probe_proposal_only
+primary_source: /project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-fresh512-eval-v1/compare.py
+primary_scorer_sha256: 09dc0db5e3067a46dbdd992da82b775f311bed4822e83eb88bab32bdf6b9d127
+primary_unchanged:
+  records: 512
+  request_clusters: 128
+  labels_per_request: 4
+  fixed_endpoints: [c32, rl_step8, sft_step8]
+  checkpoint_selection: none
+  no_new_model_queries_in_this_task: true
+  no_training_or_collector_changes: true
+  incomplete_accuracy_is_not_missing_as_wrong: true
+comparisons:
+  - [c32, rl_step8]
+  - [c32, sft_step8]
+  - [rl_step8, sft_step8]
+derived_only_from_audited_outputs:
+  record:
+    - matched_available_and_unavailable_by_gold_class
+    - exact_changed_label_ids_and_count
+    - gain_loss_and_wrong_to_different_wrong_partition
+    - predicted_category_transition_counts
+  request_cluster:
+    - changed_groups_and_neutral_churn_groups
+    - positive_negative_zero_net_correct_groups
+    - fixed_5_by_5_baseline_correct_vs_updated_correct_table
+    - incomplete_groups_separate
+  failures:
+    - returned_invalid_calls
+    - transport_or_deadline_errors
+    - unattempted_tail
+    - runtime_or_binding_qualification_failure
+  costs:
+    - training_native_reported_prompt_completion_cached_subtotals
+    - training_HF_and_full_owner_wall_seconds_separate
+    - native_concurrent_call_span_not_sum_as_elapsed
+    - each_eval_full_owner_and_serial_request_wall_seconds
+    - physical_128_calls_per_arm_baseline_reused_once_only
+    - unknown_usage_counts_not_zero
+    - queue_wait_not_training_compute
+training_diagnostics:
+  comparisons: [mixed_groups, nonzero_advantage_actions, ESS, max_IS_weight, replay_error, gradient_norm, parent_adapter_delta, HF_seconds, owner_seconds]
+  distinct_training_items_each_step: true
+  reward_series_is_not_matched_accuracy_learning_curve: true
+  snapshots_only_no_checkpoint_selection: true
+conditional_decisions:
+  qualification_failure: stop_primary_comparison_and_report_exact_failed_stage_no_gate_relaxation
+  rl_aborted: compare_authorized_completed_c32_and_sft_only_record_rl_as_aborted_not_scored
+  tiny_or_uncertain_net_change: no_established_gain_do_not_spend_on_automatic_dose_escalation
+  positive_rl_vs_both_controls: candidate_for_independent_fresh_seed_fixed_dose_replication_not_confirmed_gain
+  sft_matches_or_exceeds_rl: emphasize_ordinary_supervised_data_signal_and_measured_cost_no_rl_advantage_claim
+  negative_net_change: report_regressions_and_class_group_localization_no_checkpoint_rescue
+  both_near_identical_to_c32:
+    complete_qualified_panels_required: true
+    max_changed_labels_per_trained_arm: 5
+    meaning: exploratory_at_most_about_one_percent_label_churn_screen_not_significance_threshold
+    next: consider_secondary_teacher_forced_probe_below_no_primary_accuracy_redefinition
+secondary_likelihood_probe:
+  status: proposal_only_requires_MAIN_selection_and_separate_CPU_ready_review
+  purpose: distinguish_small_gold_probability_shifts_from_wrong_direction_under_fixed_teacher_forcing
+  endpoints: original_c32_and_only_completed_fixed_step8_arms
+  selection:
+    groups: 16
+    records: 64
+    namespace: agnews-fresh512-gold-likelihood-v1-20260912
+    method: lowest_sha256_of_namespace_pipe_call_id_ties_call_id_from_frozen128_schedule
+    label_prediction_or_loss_used_for_selection: false
+    same_full_B4_prompts_and_order: true
+  scoring:
+    gold_suffix: compact_ordered_four_label_map_with_verified_tokenizer_and_native_EOS_path
+    prompt_gold_leak: false_gold_is_only_a_scored_suffix_never_a_new_prompt_instruction
+    gradients: false
+    model_mode: eval_dropout_off
+    temperature: 1.0
+    interpretation: diagnostic_likelihood_not_a_probability_assigned_to_temperature_zero_greedy_decoding
+    backend: same_HF_precision_attention_and_tokenizer_for_every_endpoint
+    grammar: existing_ordered_XGrammar_masks_on_the_gold_path_no_support_fallback
+    primary_diagnostic: paired_change_in_mean_constrained_gold_sequence_NLL_per_group
+    secondary: per_record_gold_label_token_NLL_with_verified_offsets_and_structure_separate
+    teacher_prefix_boundary: earlier_gold_labels_are_forced_not_observed_model_prefixes
+    native_backend_equivalence_claim: false
+  compute_shape:
+    base_model_loads: 1
+    active_adapter_at_a_time: 1
+    full_sequence_forwards_per_endpoint: 16
+    total_forwards_if_three_endpoints: 48
+    owner_seconds_proposed: 300
+    external_seconds_proposed: 360
+    measured_runtime_available: false
+  interpretation:
+    lower_gold_NLL: evidence_of_small_gold_likelihood_shift_on_this_fixed_subset_not_accuracy_gain
+    higher_gold_NLL: wrong_direction_under_this_teacher_forced_metric_not_global_policy_proof
+    near_zero_or_mixed: inconclusive_do_not_enlarge_selectively_or_claim_no_learning
+    all_outcomes: preserve_primary512_table_and_report_all_selected_endpoints_and_groups

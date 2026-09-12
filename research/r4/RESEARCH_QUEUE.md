@@ -1,5 +1,134 @@
 # Live GPU research queue
 
+### Live update September 12 14:15 UTC — GPU idle after interface collector identity failure
+
+Evidence-screen attempt001 ended14:11:58.116UTC after67.048ownedseconds;
+all24eager rows failed `actual frozen task identity differs before call`.
+Zeroepisodes/zeroactualrootorchildcalls; budgetedarmunattempted. Nointerface
+effect result. Cleanrelease. The fullfake task test missedactualcollector
+identityvalidation; additive exactCLIpathrepair is assigned to existingagent.
+
+GPU idle since14:11:58, explicitly anoperationscost, notexperimentcompute.
+Readinesspriorities: broader8seed2RL exactknownworkingpipeline; architecture
+identityrepair; MRCRtypedturnrecordingrepair. ThreeCPUagentsworking, MAIN
+review/launchasready. No filler job or repeatedunproductivevariant. Secondary
+freshTRECretention data onholdbehindrepair. Quota75%14:11:47UTC.
+RLM report0a82674 pushed; compactcompletedRL evidencepublicationcontinuing
+concurrently, notblocking any readyGPUowner.
+
+### Live update September 12 14:12 UTC — stop a recording failure; independent interface screen active
+
+MRCR V6 stopped early by MAIN SIGTERM to resolvedownerPID207689; cleanrelease,
+473.180ownedseconds, nooptimizer. `PendingTurn` in native-checkpoint start
+metadata was not JSONserializable, so requests failed BEFOREnativeforwarding.
+Derived18/19callspercoordinate countfailedinterceptorentries/retries, not
+completedmodelcalls. Partialstartfiles retained. No scores orlearningadmission.
+See operations/2026-09-12-mrcr-full-path-queue/EARLY_STOP_DECISION.md.
+Agent repairs actualrecordingclient+typedturnserialization withcompleteCPU
+fakecollectorpath, notjustrun_slot. Do not convertfailures tozero reward.
+
+ACTIVE evidence-selection/stop PTY64755 started14:10:48.341UTC immediately
+afterrelease. Same48paired plan/READY below. Watcher53802 CPU-only.
+Seed2broader8RL is highestCPUpreparationpriority; freshTRECretention data
+preparationoverlaps. No speculative likelihoodGPUprobe. RLM completed-result
+report pushedcommit0a82674; notebookcompleted-resultrefreshinprogress.
+
+### Live update September 12 14:07 UTC — promising fixed RL result; replicate before promoting
+
+Fresh512 chain PTY77319 COMPLETED: c32 422, RL8 437, SFT8 427 correct, all512
+available each. All384 raw responses redecoded and all3 paired comparisons
+qualified. RL versus c32:17 wins/2losses,21changedlabels; RL versus SFT:12wins/
+2losses. Raw audit SHA256 `57606da1e52a5b694cad6d39dbff9febf5c66a7f6783ce3cf99e440e961f7bbb`.
+One seed, same-task helper result; not autonomous decomposition or compute-matched
+RL superiority. Full8 RL workflow2094.994s; SFT236.254s; each evalabout440s.
+
+ACTIVE MRCR V6 PTY70581 began14:02:54UTC, unchanged32coordinates/six-total-turn
+calibration,900/1000s caps. CPU watcher will interpret actual root context
+inspection and score variation. Train only if original gate and likelihood
+mapping qualify. No setup failure can become a model reward.
+
+WAITING evidence-selection/stop48 PTY64755, wrapper
+`operations/2026-09-12-budgeted-evidence-queue/run.py`,1000owner/1100arg/
+1130external seconds. READY SHA256
+`27f4676a7e245459df2d24d62975e189060fd56a971a142281e2e6f227883360`.
+MAIN read complete source and own verify passed; actual full-container fake
+provider checks covered both arms. Logical evidence savings only, fixed saved
+helper maps on2familiarcontexts, zerochildcalls/zerooptimizer. Missingfinalize
+means unknown evidence accounting; direct-file/module audit is not sandbox proof.
+
+CPU priority: exact broader8 RL training-seed replication, SAME1024 train and
+SAME512 now-exposed evaluation, no midpointselection; different training/native
+seeds only. No GPU admission yet. Conditional gold-likelihood probe retired
+without GPU execution: RL21labelchanges fails its predeclared<=5 trigger.
+OpenAI MRCR32train/16held originalJSON/question data freeze passed MAIN121-pin
+verify. DATA_READY_V2 SHA256
+`55f10b7f43063a5752927d48d13d6c3fc25c91facb67cb1434f7c04def73c95c`.
+Original erroneous token-count fields are superseded, not silently rewritten.
+
+Quota76% remaining13:56:46UTC, nextmonitorabout14:12. Allocation5801/an22
+endsSep15 17:30:16UTC. Latest pushes stillRLMcd4ac1d/notebookb20d805;
+next meaningful completed-result publication is being prepared.
+
+### Live update September 12 13:41 UTC — full RL dose completed; fixed fresh test active
+
+Broader RL completed all8 steps,1,024 actions over1,024 distinct training
+articles,2,094.994 owned seconds (driver stage2,112.392s). All8 replay/Adam
+audits passed;43/256 mixed question groups. Status `UPDATED_STEP8`.
+Final adapter SHA256 `7630df095cfa3c533b001e271904306fb7532e0e4609c91160f82a30a8fec303`,
+state `e286c720dc65ed2283c7096e22e9fb7181b5490ed1da5c70a9c9a769d423925c`,
+commit `858ac50fcac1d2cf827be89e126ddf728ff13899a529c06c42358f3eb009e648`.
+Independent CPU watcher terminal passed. No endpoint accuracy claim yet.
+
+ACTIVE PTY77319 fresh512 chain. All three endpoints were fixed before the
+first query; c32 stage began13:40UTC. The immutable receipt is
+`sidecars/helper-agnews-fresh512-eval-v1/ENDPOINTS_FIXED.json`.
+MRCR V6 PTY70581 remains WAITING. Evidence-selection architecture screen and
+conditional root-only update are CPU preparation, not yet GPU-admitted.
+
+MAIN acquired800 OpenAI MRCR two-needle rows,457,342,038 data bytes, revision
+`f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d`, both shard hashes checked against
+HF LFS. This is a separate source from DeepMind CSV, with a different marker
+rule. CPU overlap/target inventory only; no training split or model query yet.
+See `operations/2026-09-12-openai-mrcr-acquisition/RECEIPT.json`.
+Quota78% remaining at13:40:35UTC; latest Git pushes unchanged.
+
+### Live update September 12 13:27 UTC — five RL commits; fresh test and repaired calibration queued
+
+ACTIVE broader8 RL PTY67134, same admitted READY_V2 and original scientific
+identity below. Steps1–5 committed with continuing Adam state, all checked
+replays exact; three distinct train blocks remain. Full final-only evaluation
+must decide whether these real updates help. Per-step training scores use
+different articles and are not a learning curve.
+
+WAITING fresh512 endpoint chain PTY77319, wrapper
+`operations/2026-09-12-fresh512-endpoint-queue/run.py`. It freezes qualified c32,
+RL8 (only if fully qualified), and SFT8 endpoint hashes before any model query,
+then runs 128 batch4 calls per arm. Stage caps900/1000s. Source sidecar
+`helper-agnews-fresh512-eval-v1`; source receipts are READY_C32.json,
+READY_RL_STEP8.json, READY_SFT_STEP8.json. Missing finals are not incorrect labels.
+The analysis uses 128 paired four-record groups, not 512 independent records.
+
+WAITING repaired MRCR V6 PTY70581, wrapper
+`operations/2026-09-12-mrcr-full-path-queue/run.py`,900/1000s caps.
+READY_V6 SHA256 `3193636f228a2deb92ad64d84bc291a890c0b8c0b340aab23a24d7c646b48d60`,
+identity `7d124a54744799e6494f4fcc34e3a9d0449dae039150081142ae0a933588792c`.
+V5 failed installation-cache inspection before any model calls; V6 repairs only
+the expected cache location. Full actual run_slot CPU fake-backend smoke passed
+in15.984s, including registered task setup, context reading, full-commit install,
+causal prompts and cleanup. Source hashes are observations, not a per-file
+expected-hash audit. Thirty-two fixed episodes; six total root/child turns each.
+
+CPU preparation: root-only one-update trainer conditional on actual V6 gate;
+new48-endpoint budgeted evidence-selection/stop screen; all source additive.
+Training/outcome watchers PTY81159/63324 and MRCR V6 watcher97030 are live.
+New credit audit shows summed per-item RLOO equals count RLOO; do not run this
+non-intervention. Frozen conversation transfer data has3train/2test contexts,
+exact paired-block disjointness only, and requires a fresh base model start.
+
+Latest pushes RLM `cd4ac1d`, research notebook `b20d805`; source/report snapshot
+cutoff13:02:47UTC is not current GPU status. Quota79% remaining at13:25:42UTC.
+Allocation5801/an22 ends September15 17:30:16UTC. No user input required.
+
 ### Live update September 12 13:01 UTC — SFT complete; working-task calibration live; broader RL queued
 
 SFT V2 completed all8 fixed updates,1024 articles,256 teacher maps,20591 answer

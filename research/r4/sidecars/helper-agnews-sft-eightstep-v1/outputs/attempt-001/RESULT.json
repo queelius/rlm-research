@@ -1,0 +1,19 @@
+{
+  "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-sft-eightstep-v1/outputs/attempt-001/checkpoint-0008",
+  "claim_boundary": "ordinary answer-only SFT data-signal control; no RL superiority comparison",
+  "complete": true,
+  "elapsed_seconds": 224.43995987065136,
+  "optimizer_steps": 8,
+  "peak_allocated_bytes": 11790943744,
+  "peak_reserved_bytes": 32564576256,
+  "root_unchanged": true,
+  "schema": "agnews-eightstep-answer-only-sft-result-v1",
+  "starting_adapter_sha256": "c32de1293c01bba5104eb1f123867649c71dd38e5194661ace4b17dcbbe66ba3",
+  "state_sha256": "356ec37443b4b98cd0e8f95143916d432495aec5fe209f4cbf5c3a4839ac155a",
+  "status": "UPDATED_STEP8",
+  "step_commit_sha256": "8ee836982b474791e6e765d2899503eab0376966434d924caa652ebfefa715bc",
+  "supervised_tokens": 20591,
+  "teacher_maps": 256,
+  "training_data_manifest_sha256": "b5e9cc22161959fc09f5e1f15afd03e722a32818bca692a01f9e265fd6c81c2d",
+  "unique_records": 1024
+}

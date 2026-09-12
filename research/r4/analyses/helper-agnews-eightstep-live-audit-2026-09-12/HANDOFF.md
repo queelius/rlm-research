@@ -1,0 +1,9 @@
+# Running CPU-only audits
+
+WATCH_READY SHA256 `6ad4473bf5b9be9a29e2e7a3baeac700696d8acaddff8fb0693c0be27265e87e`, identity `6f43327222545b62faa5530e49e4cd6fe0bb1f43d00d0932a6bc2bbd3e285f7f`,587 source/artifact pins. Training watcher PID175489/PTy81159; endpoint watcher PID175496/PTy63324. Both started with CUDA hidden,30-second polling and an external four-hour timeout. No model/service launch.
+
+The actual sealed fresh512 evaluator's per-step body was extracted without changing its logic and executed on committed step1. Real source loader, all128 raw action/reward/order/mask qualifications, exact importance recomputation and serialized Adam counter passed. The full8 admission gate was neither edited nor bypassed. `PROBE_STEP001.json` and `STEP001_PREFLIGHT.json` retain the evidence. One literal mixed/uniform count-RLOO fixture passed; Ruff passed.
+
+The running training watcher has also fully audited steps2 and3. Append-only `training/STEP-NNN.json` contains context/seed/parent/host reward binding, contrast, raw usage, likelihood/replay, gradient/delta and time. `training/STEPS_THROUGH_NNN.csv` and `.md` are compact cumulative snapshots. Rewards across disjoint training inputs are not a matched accuracy curve. Training costs are separate from endpoint inference.
+
+`outcomes/RAW_AUDIT-NNN.json` and `READOUT-NNN.md` will invoke the existing sealed full-raw comparator only after endpoint terminal receipts exist. MAIN fixes compared endpoints first. The watcher recognizes unsuccessful RL via its original segment terminal receipt; if MAIN authorizes SFT/c32 only, no missing-as-wrong RL endpoint is constructed. Every watcher writes its own terminal receipt on normal completion, cap or audit failure. Existing trainer, collector, data, outputs and final endpoint gates remain unchanged.

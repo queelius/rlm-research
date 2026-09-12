@@ -1,0 +1,396 @@
+{
+  "GPU_or_model_forward": false,
+  "actual48_return_shape_and_token_id_equivalence_checks": [
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 7031,
+      "id": "omrcr-0fcac135277468e96435",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 4106,
+      "id": "omrcr-530d9996c900aa5d7b62",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 3893,
+      "id": "omrcr-62f0a8e60638c25131ad",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 3840,
+      "id": "omrcr-574a80aeed5114ad4217",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 7257,
+      "id": "omrcr-0661011e2430461fddc1",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 6459,
+      "id": "omrcr-bcf761ed079ab9231154",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 7143,
+      "id": "omrcr-f515858d24bd0388e927",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5214,
+      "id": "omrcr-8ad4bef116ef5302ddbf",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 3781,
+      "id": "omrcr-ef800b2a29008e4717f1",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 4167,
+      "id": "omrcr-746d5e1512abdfa38878",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 7346,
+      "id": "omrcr-72618dd842efffd0a22e",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 4406,
+      "id": "omrcr-85979118c1eb343eff52",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 3488,
+      "id": "omrcr-2568744ab02d7c2786c8",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 4467,
+      "id": "omrcr-85610b95bf89de2580a6",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5749,
+      "id": "omrcr-1d3d4a8e09d8c93bfbdf",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 4572,
+      "id": "omrcr-c277a8dfb869bd3e7819",
+      "split": "heldout"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 3770,
+      "id": "omrcr-3d7230f66f7203751f60",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 6888,
+      "id": "omrcr-81962be30bd6c8668637",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 3754,
+      "id": "omrcr-39fbac00a29ae2b82e1f",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5901,
+      "id": "omrcr-10f8b49fc190c3cd4562",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5139,
+      "id": "omrcr-76287483be01a7b4d096",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5068,
+      "id": "omrcr-50ed8cfc6b9065167728",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5493,
+      "id": "omrcr-9f431a2f2bea9f0c243c",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 3431,
+      "id": "omrcr-83b3037ee21b1b243c0d",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 6492,
+      "id": "omrcr-b6df230e787db5b5dc70",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 7161,
+      "id": "omrcr-79d9f16a2733a2b02950",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 3862,
+      "id": "omrcr-cc82f89bf356aba94f59",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 4782,
+      "id": "omrcr-761b3b3a695b4f901881",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 6664,
+      "id": "omrcr-44fc84f70964462d4aed",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 6395,
+      "id": "omrcr-a61877cff79cc3258568",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 7277,
+      "id": "omrcr-f8d94e694405eab2be71",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 6295,
+      "id": "omrcr-ed250de5cf8286dbe1d3",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5028,
+      "id": "omrcr-322e329d200036f77e8f",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 4172,
+      "id": "omrcr-413d75b6d35abf72b722",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 4683,
+      "id": "omrcr-96df73cedc2cf3ceafc1",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5477,
+      "id": "omrcr-5b0597c34821c3e04a08",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5137,
+      "id": "omrcr-8bb99fadd8adbe3c4826",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 7476,
+      "id": "omrcr-9be48f691b9f7cea8f6c",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 7267,
+      "id": "omrcr-cbbd4c7ddb5ff4441d1f",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 6549,
+      "id": "omrcr-92fb4b8b1e40eb2d25e7",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 7344,
+      "id": "omrcr-01e90d3c11374938ac33",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5348,
+      "id": "omrcr-d8bf469f81ab2d7d38d4",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 6312,
+      "id": "omrcr-db134e52d9e536681e49",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 4963,
+      "id": "omrcr-99027bdfd94d88916c23",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 5366,
+      "id": "omrcr-2890a9f3655bea998dee",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 6755,
+      "id": "omrcr-08d6010dc261b9832b1d",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 6310,
+      "id": "omrcr-5a0b8301d931f499b300",
+      "split": "train"
+    },
+    {
+      "actual_sequences_equal": true,
+      "default_len_was_mapping_keys": 2,
+      "default_type": "BatchEncoding",
+      "explicit_input_ids_length": 7865,
+      "id": "omrcr-7277d07179f856f19388",
+      "split": "train"
+    }
+  ],
+  "new_model_inputs_sha256": "5fad44911299b683ea45f36265f0c2bc115623dd82f26ba83d8e707b56dda796",
+  "old_fields_superseded": [
+    "source_conversation_qwen_chat_input_tokens"
+  ],
+  "old_model_inputs_sha256": "96b86d64015c122d1b02dbb42cede3b0fc3ce020fe57966cf795b8dcebf3c2ee",
+  "reason": "Transformers5 returns BatchEncoding by default; len(mapping) is2 keys, not token count",
+  "selection_source_prompt_question_gold_bytes_changed": false
+}

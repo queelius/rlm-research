@@ -1,0 +1,41 @@
+{
+  "schema": "research-public-dataset-acquisition-v1",
+  "owner": "MAIN",
+  "repository": "https://huggingface.co/datasets/openai/mrcr",
+  "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+  "retrieval_date_utc": "2026-09-12",
+  "completion_observed_utc": "2026-09-12T13:32:41Z",
+  "exact_transfer_duration_seconds": null,
+  "exit_code": 0,
+  "tool": "huggingface_hub CLI 1.28.0",
+  "python": "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+  "authentication": "HF_HUB_DISABLE_IMPLICIT_TOKEN=1; public files",
+  "cache": "/project/alex_phd/research-cache/datasets/openai-mrcr-f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+  "license": "MIT as declared by pinned README; no separate LICENSE file in repository inventory",
+  "data_source_is_not": "Google DeepMind MRCRv2.1 GCS CSV release",
+  "new_weighted_model_queries": 0,
+  "data_files": [
+    {
+      "path": "2needle/2needle_0.parquet",
+      "bytes": 190822058,
+      "rows": 400,
+      "sha256": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93",
+      "matches_HF_LFS_sha256": true
+    },
+    {
+      "path": "2needle/2needle_1.parquet",
+      "bytes": 266519980,
+      "rows": 400,
+      "sha256": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d",
+      "matches_HF_LFS_sha256": true
+    }
+  ],
+  "card": {
+    "path": "README.md",
+    "bytes": 4672,
+    "sha256": "88c53574f0bb4baf877df69ac2523e8991460a516866bda21698a02d8f7d6986",
+    "git_blob_id": "db895a636cce2ea3406f900b9817099b98303a9a"
+  },
+  "split_provenance": "No train/test split designated; inventory only, later outcome-blind freeze required",
+  "cleanup": "None; no existing environment, cache, or model files modified"
+}

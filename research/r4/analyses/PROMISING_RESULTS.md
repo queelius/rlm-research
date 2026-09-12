@@ -1,5 +1,28 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 14:05 UTC
+
+**Broader-data RL is now worth replicating.** Eight updates on 1,024 fresh news
+training articles produced 437/512 correct answers on the fixed new test panel,
+versus 422 for the starting model and 427 after eight supervised updates.
+RL had 17 wins and two losses against the starting model. All answers were
+available. Its net gain is concentrated in science-and-technology articles
+(71 to 85 correct out of 128). This is a helper-classification result, not
+learned decomposition or a complete-RLM improvement.
+
+The predeclared next branch is an exact training-seed replication, keeping
+the data and fixed final endpoint unchanged. Do not promote one run into
+reliable RL superiority. The two methods' samples, losses and compute differ:
+RL's owned training workflow took about 35 minutes, supervised training about
+four. After replication, ask whether the gain survives another helper input
+size and another task; the already seen 512 panel is no longer new evidence
+about dataset transfer. Retain the earlier failed one-update replication.
+
+The prior strongest leads—multi-model keyed handoff and learning supplied
+operators—remain. A new evidence-selection/explicit-stop interface is queued,
+with faithful computation and bypass limitations tracked separately from
+final accuracy. It is an experiment, not a finding.
+
 ## Decision update — September 12, 12:09 UTC
 
 The completed reward-baseline and single-item serving checks did not rescue

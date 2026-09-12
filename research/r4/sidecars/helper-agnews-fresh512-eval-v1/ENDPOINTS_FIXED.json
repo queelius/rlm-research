@@ -1,0 +1,24 @@
+{
+  "authority": "MAIN",
+  "created_epoch": 1789220411.446322,
+  "data_manifest_sha256": "b5e9cc22161959fc09f5e1f15afd03e722a32818bca692a01f9e265fd6c81c2d",
+  "decision_source": "predeclared fixed endpoints; no heldout model calls yet",
+  "fixed_step": 8,
+  "heldout512_consulted_before_fix": false,
+  "rl_status_reason": "complete fixed RL checkpoint8",
+  "trained_endpoints": {
+    "rl_step8": {
+      "binding_sha256": "b4d7ebe1b176ac97c59b28722c2ad62ea89a3e8252872389dbad9fd6edcccd6c",
+      "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-native-hf-eightstep-v1/outputs/attempt-001/step-008/checkpoint-0008",
+      "state_sha256": "e286c720dc65ed2283c7096e22e9fb7181b5490ed1da5c70a9c9a769d423925c",
+      "step_commit_sha256": "858ac50fcac1d2cf827be89e126ddf728ff13899a529c06c42358f3eb009e648"
+    },
+    "sft_step8": {
+      "binding_sha256": "5f27e594f80578a6ba909bf906b4f93cfedd00c4710c0a3b603133e2c441af54",
+      "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-sft-eightstep-v1/outputs/attempt-001/checkpoint-0008",
+      "state_sha256": "356ec37443b4b98cd0e8f95143916d432495aec5fe209f4cbf5c3a4839ac155a",
+      "step_commit_sha256": "8ee836982b474791e6e765d2899503eab0376966434d924caa652ebfefa715bc"
+    }
+  },
+  "wrapper_sha256": "f6820b4b32fc607da9c04cacd8376e73b2dd2b5dc0e3d3a9be44258b91fa99dc"
+}

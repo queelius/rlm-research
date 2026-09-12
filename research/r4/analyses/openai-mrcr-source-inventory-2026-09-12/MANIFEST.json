@@ -1,0 +1,28 @@
+{
+  "GPU_queries": 0,
+  "artifacts_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-source-inventory-2026-09-12/CORE_PAIR_INCIDENCE.jsonl": "561e83020981abfd2abf5b1e86c6f09f4c07a61fb75f1def372bc03da806f220",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-source-inventory-2026-09-12/INVENTORY.json": "b5f39bb7a715b838706494ae6cf3b118240ef1b3f28ad3e357bd27c0ca433c72",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-source-inventory-2026-09-12/ROWS.jsonl": "80148ceb22acd562836b7030ac669bf2b8067faef42441b0879be1414b942056",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-source-inventory-2026-09-12/TARGET_ANSWER_INCIDENCE.jsonl": "109013b18ab606070bd72d0e667bdee2e1eb264d46121d3b0b658119e71a2022"
+  },
+  "inventory_source_sha256": "ae53ef9f1ab73e7673ca27ac295419f2a30ff7288fb4452b47f94f22d6a6456a",
+  "raw_answers_published": false,
+  "source_card_sha256": "88c53574f0bb4baf877df69ac2523e8991460a516866bda21698a02d8f7d6986",
+  "source_files": {
+    "/project/alex_phd/research-cache/datasets/openai-mrcr-f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d/2needle/2needle_0.parquet": {
+      "bytes": 190822058,
+      "row_groups": 1,
+      "rows": 400,
+      "sha256": "1c297b254bf64a31856b74918cd7db889a214503e0b67daa834e84f20df6aa93"
+    },
+    "/project/alex_phd/research-cache/datasets/openai-mrcr-f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d/2needle/2needle_1.parquet": {
+      "bytes": 266519980,
+      "row_groups": 1,
+      "rows": 400,
+      "sha256": "a5a1dc9ccc945623253d04d33c03d89aee2d676c88955ce368da2ab16a0ce94d"
+    }
+  },
+  "source_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+  "training_split_created": false
+}

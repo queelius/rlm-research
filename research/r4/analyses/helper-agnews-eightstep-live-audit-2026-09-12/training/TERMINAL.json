@@ -1,0 +1,30 @@
+{
+  "audited_committed_steps": 8,
+  "fixed8_updated": true,
+  "heldout_used": false,
+  "training_terminal": {
+    "admission_sha256": "93ec1e7bb79ad6706317df96dae7b080a4e0630147ba4cc7abe14cb5b4bef97b",
+    "completed_steps": 8,
+    "elapsed_seconds": 2094.994328737259,
+    "endpoint": {
+      "adapter_sha256": "7630df095cfa3c533b001e271904306fb7532e0e4609c91160f82a30a8fec303",
+      "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-native-hf-eightstep-v1/outputs/attempt-001/step-008/checkpoint-0008",
+      "config_sha256": "b6a57b18fa97247b65307d38ecc5c8c2f2294ab0b27338ce0497d28e3eb71033",
+      "optimizer_sha256": "9b353abe9ef2b816819d01608b8002b3684ed3dcb47d130921e4860fd082a8bb",
+      "optimizer_steps": 8,
+      "rng_sha256": "b494547370b9a59fd2530932ea221e986fb08e9b8f6dc9f3549f713bca411c2a",
+      "source_c32_adapter_sha256": "c32de1293c01bba5104eb1f123867649c71dd38e5194661ace4b17dcbbe66ba3",
+      "state_sha256": "e286c720dc65ed2283c7096e22e9fb7181b5490ed1da5c70a9c9a769d423925c",
+      "step": 8,
+      "step_commit_sha256": "858ac50fcac1d2cf827be89e126ddf728ff13899a529c06c42358f3eb009e648"
+    },
+    "errors": [],
+    "fixed_primary_step": 8,
+    "heldout_model_calls": 0,
+    "primary_endpoint_eligible": true,
+    "ready_identity": "1bf72259b775b9417bcab5b4003d5242a5385964ee4044fd2e6c1f2450a980bc",
+    "resume_after": 0,
+    "status": "UPDATED_STEP8"
+  },
+  "training_terminal_sha256": "8d264c26da1259bd0ca75ab943b7d76226e6ddd4cd98fd989cde8b6af1aff79e"
+}
