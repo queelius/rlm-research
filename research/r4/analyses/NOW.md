@@ -1,11 +1,79 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T16:00:00Z
+updated_utc: 2026-09-12T17:00:00Z
 status: active_exploratory_research
-claim_level: two_training_seed_RL_gain_same_panel_needs_new_example_test
+claim_level: official_test_transfer_weaker_and_rl_vs_sft_unresolved
 ---
 
 # Research in plain language
+
+## Completed transfer and interface update — September 12, 17:00 UTC
+
+The frozen official-test comparison materially weakens the apparent RL advantage.
+On512 new local AG News examples, the starting helper scored422, the two fixed RL
+seeds scored427 and429, and supervised training scored426. The RL seeds agree on
+508 labels, so this is not simply a best-seed artifact, but their gains over the
+supervised endpoint are only one and three answers; both descriptive
+request-cluster intervals span zero. On the distinct, research-exposed panel the
+corresponding totals were422/437/427/436. Do not pool the panels or claim that RL
+meaningfully beats supervised learning. The changed official-test answers look
+like modest category-boundary shifts, not a broader capability. See the
+[four-arm source-to-raw synthesis](helper-agnews-official-test-transfer-findings-2026-09-12/FINDINGS.md)
+(JSON SHA256 `391acb5fde4ab58b8157c55ba9792d60acf285066538152a6a604b2b6c452b02`).
+
+The controller evidence is also narrower than a terminal score suggests. The
+four short-conversation outputs with at least0.90 similarity did contain the
+target passage, but only after broadly printing the context. Their Python
+selection chose the wrong value or failed; the final model then read the broad
+observation. This is recovery from a context dump, not successful programmatic
+retrieval. See the [program-versus-terminal audit](openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md)
+(JSON SHA256 `858fb090ea54796da506b1a155461dd7291e0da8022b115238868bfddffbcebb`).
+
+The paired syntax run exposed another instrumentation defect. The legacy exporter
+rejected all48 endpoints against stale first-prompt IDs even though every actual
+wire prefix matches the separately frozen condition-specific prefix. Therefore
+its0/24-versus0/24 primary endpoint comparison is inconclusive, not a model
+failure. Secondary raw evidence remains useful: the syntax example reduced
+rejected actions35→8, but only the plain arm had any strict final matching its
+local finish declaration (5 versus0); five provider requests also exceeded the
+8192-token limit. The run made zero physical child calls. See the [standalone
+syntax finding and cause audit](root-qs6-budgeted-evidence-syntax-findings-2026-09-12/FINDINGS.md).
+
+## New interpretation — September 12, 16:30 UTC
+
+The controller sometimes finds the right passage but copies it incorrectly. In
+the shorter-conversation test, four attempts located the correct answer but wrote
+the two characters `\n` instead of a line break; three also added stray closing
+punctuation. None passed the unchanged exact-copy requirement. Two other attempts
+copied the wrong passage and still received partial similarity credit. The full
+test had32 attempts,30 available results and two context-length failures.
+
+A closer procedure audit adds an important limit: all four near-successes printed
+a large part of the conversation into the model's own view. The Python extraction
+was wrong or failed; the final model reply found the passage in that broad output.
+This is not yet a learned search program or decomposition. The reward-learning
+test may reinforce this shortcut, so we will measure observation size and actual
+code behavior as well as the final answer. See the
+[procedure audit](openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md).
+
+This distinction matters for training. We should reward finding the right content
+without mistaking text overlap with a wrong passage for success. We are preparing
+two small comparisons: learning a complete working routine from demonstrations,
+and learning from a reward that gives partial credit for near-exact retrieval and
+full credit for an exact answer. The training examples are separate from the final
+evaluation conversations. We have not yet shown that either approach improves the
+controller. See the [mechanism audit](openai-mrcr-short32-outcomes-2026-09-12/SIGNAL_ADDENDUM.md).
+
+The GPU is now testing all four previously fixed helper models on fresh official
+news-test examples. Other accepted comparisons test a different classification
+dataset, the original model before specialization, and whether better helper
+answers improve the whole system. The repeated-small-training-set experiment has
+completed eight updates; its heldout result is still pending.
+
+We are also preparing a more direct decomposition test: questions that require
+connecting facts across several passages. The model will choose its own helper
+questions under the same total call ceiling, with zero, one, or two permitted
+levels of delegation. This is a planned feasibility experiment, not a result.
 
 ## Current decisions — September 12, 16:00 UTC
 

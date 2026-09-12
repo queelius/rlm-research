@@ -1,0 +1,8 @@
+# MuSiQue bounded semantic-depth pilot
+
+Goal: compare optional recursion at depths 0/1/2 on 12 outcome-blind MuSiQue-Ans dev questions (four per hop count), with a separate question-only shortcut diagnostic. MAIN approved the design; this external sidecar is isolated from all sealed owners and live services.
+
+1. Implement and CPU-qualify `musique_study.py`, `prepare.py`, `native_audit.py`, `scoring.py`, `collect.py`, `owner.py`, `test_pilot.py`, and `seal.py`. Reuse the accepted short32/V7 base model service, canonical nano harness, renderer, native client and causal token mapper. Freeze all original public paragraphs, opaque IDs, host-only gold and component/support overlap provenance. Two focused fixtures cover serialization/scoring and an actual CPU native-provider depth-2 callback with a shared six-call budget.
+2. Hand off immutable READY, full source closure and fixture receipts for MAIN review/launch. No GPU authority, new installation, production-framework change, model query during selection, compulsory delegation, answer program or retrieval policy. No automatic resume/retry. Fixed 1320-second science, 1700-second owner and 1800-second external caps; checkpoint each attempted call and episode. Partial failures remain explicit and cannot promote a result.
+
+All three paragraph-bearing arms share pretrained Qwen3-4B, temperature .5, seed, 1024 output tokens per call, 8192 actual prompt-plus-output limit and six physical calls across every depth. The question-only diagnostic has one native call, no tools/paragraphs, and is not a cost-matched primary arm or selection filter. Depth-2 nonuse means interface/behavior feasibility, not evidence that deeper reasoning is ineffective.

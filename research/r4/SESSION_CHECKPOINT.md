@@ -1,5 +1,90 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 17:03 UTC
+
+Continue the user's autonomous adaptive research turn. MAIN is sole GPU launcher.
+Whole-RLM live-helper48 is ACTIVE (PTY17551), started16:56:17.986UTC. Official
+AG test512 completed all four arms: c32422 / RLseed1427 / SFT426 / RLseed2429.
+All512 predictions per arm available and source-to-raw audited. RL only+1/+3
+over SFT, both descriptive intervals span0. Earlier panel422/437/427/436 remains
+separate. Do not claim meaningful RL superiority from this new panel.
+
+Syntax48 completed714.56outer seconds, all48 audit U despite12 strict finals;
+CPU agent is investigating endpoint/export versus model-finish causes before
+interpreting the screen. Preserve original results, no blind rerun.
+
+Accepted waiters: DBpedia224 four-arm5003; repeated128 fixed51228698;
+released-base AG512+DBpedia22436736; proceduralSFT4+conditionalreadout99149;
+shapedrootRLone-update27521; MuSiQue48 depth pilot6630.
+NEW shapedRL fixed held16 pair dependency waiter16186 is launched, waiting OUTSIDE
+GPU lock for exact UPDATED checkpoint before its internal flock. Its wrapper is
+operations/2026-09-12-shaped-root-held16-queue/run.py, SHA
+8bbe07435e87dd4bdca80580b1d0d3f897bf2d589482a019b0002aeb99e81c46.
+MAIN reviewed full evaluator/wrapper, own328-pin verification passed. Do not add
+an external flock around this waiter or the proceduralSFT operation99149.
+All other MAIN driver wrappers retain their already assigned external flock.
+
+Shaped held CPU analyzer waiter95339 is running; it verifies saved episode/score
+and procedure diagnostics, not an independent full native-wire replay. Whole-RLM
+31036, DBpedia65820, syntax5980, repeated-eval58659, MuSiQue31619 independent CPU
+watchers are active or completing. No duplicated science launches.
+
+Important controller correction: four near-correct short32 terminal answers did
+NOT come from correct Python retrieval. All followed broad conversation printing;
+the Python selection was wrong. Read PROGRAM_VS_TERMINAL_ADDENDUM in
+analyses/openai-mrcr-short32-outcomes-2026-09-12. Shaped reward may reinforce this
+shortcut. SFT teaches a different explicit procedure; neither result exists yet.
+
+CPU agents: learned_recursion_prior_art updates findings and diagnoses syntax U;
+postmeeting_gpu_pilot prepares approved32episode structural-preview control;
+local_rl_design proposes at most2 new mechanisms grounded in results/primarywork.
+Structural preview is attribution/control, not novel architecture. No-Python
+actions cannot count as corrected schema use. No new GPU preparation admission.
+
+Quota62% at16:56:56UTC, supported monitor every15min. OneA100 allocation5801/an22
+ends September15 17:30:16UTC. Remote checkpoints RLM0ba5483/notebook35c47b8 still
+16:00 cutoff; next meaningful push is in progress. Read newest entries only for
+current launch authority; older pointers below are preserved history.
+
+## Latest resume pointer — September 12, 2026, 16:38 UTC
+
+Continue autonomously. MAIN is sole GPU launcher. Official AG test512 four-arm
+chain47344 is active: c32 and RL8 completed, SFT has just completed, seed2 remains.
+Initial saved totals c32422/RL427 are descriptive until the complete source/raw
+four-arm audit; do not confuse with earlier panel422/437/427/436.
+
+Accepted GPU waiters: syntax48 38698; whole-RLM48 17551; DBpedia224four-arm5003;
+repeated128 fixed51228698; true released-base AG512+DBpedia22436736;
+proceduralSFT4+conditionalreadout99149; shapedrootRLone-update27521.
+Do not duplicate them. SFT operation uses INTERNAL fcntl sharedflock: do not wrap
+it in another flock. All other MAIN drivers require their existing EXTERNAL flock.
+Training admission/source hashes are in the corresponding operations directories.
+SFT operation STATUS confirms lease waiting and no stages started. RootRL fixed
+paired held16 evaluator is still CPU preparation, not yet a launched follow-on.
+
+Repeat128 training completed8 updates in2100.965 owned seconds; finaladapter
+8c8fe89baada71af39a919a50e1b3dd658376a34b4dd6da9c6c7052c385d762f.
+All8 state/replay audits passed; evaluation pending. Training scores are not test
+quality. Short32 completed32 episodes/30 available, two known context overflows.
+SIGNAL_ADDENDUM identifies4 correct-target retrievals with literal-newline-copy
+errors despite zero exact answers;2 other outputs copy the wrong assistant turn.
+The prospective shaped reward is .5*I(raw similarity>=.90)+.5*I(raw exact).
+Saved rootRL batch has24 episodes from6 complete groups,74 rootturns and2 mixed
+groups. Unknown groups excluded whole, never filled with zeros. One small update
+is a feasibility/dose test; failure cannot establish that all shaped reward fails.
+
+CPU agents: local_rl_design implements MuSiQue12 x depth0/1/2 +question-only;
+postmeeting_gpu_pilot prepares shapedRL held16 fixedpair;
+learned_recursion_prior_art prepares syntax48 independent raw audit/watcher.
+Restart idle agents with followup_task. Independent DBpedia watcher65820 active;
+whole-RLM watcher31036 and official-test watcher28847 active; repeated eval58659.
+
+Quota65% at16:26:55, next supported read16:41:55. Allocation5801/an22 oneA10040GB
+ends September15 17:30:16UTC. Git remote checkpoints RLM0ba5483/notebook35c47b8
+have16:00 evidence cutoff; newer work awaits next meaningful completed-result push.
+Read analyses/NOW.md for plain-language current interpretation. Older entries below
+are dated history, not active launch authority.
+
 ## Latest resume pointer — September 12, 2026, 15:36 UTC
 
 ACTIVE repeat128trainingPTY58292 from15:33:23.925UTC, firstnative128mapscomplete,

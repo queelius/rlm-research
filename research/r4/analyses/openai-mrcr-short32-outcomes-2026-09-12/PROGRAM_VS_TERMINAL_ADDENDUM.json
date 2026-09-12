@@ -1,0 +1,190 @@
+{
+  "claim_boundary": "A correct passage in a broad printed observation does not mean Python selected it correctly. No repaired score or direct-return counterfactual success is assigned.",
+  "created_epoch": 1789231374.5480728,
+  "model_or_generated_code_execution": false,
+  "records": [
+    {
+      "bulk_data_print_calls_parsed_not_executed": [
+        "print('Data type:', type(data))",
+        "print('Data content:', data)"
+      ],
+      "context_messages": 8,
+      "context_sha256": "fb26e8d2df8a8f98593cfb732770da236c5c253f451be9626a7294c0576f74ca",
+      "coordinate_id": "8b51f9e3257ac2ac29127937468c7dc9495a3938182e22effaae8d912a0321ed",
+      "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short32-base-calibration-v1/outputs/attempt-002/science/episodes/8b51f9e3257ac2ac29127937468c7dc9495a3938182e22effaae8d912a0321ed.json",
+      "episode_sha256": "a51a382a6dbe69163684ae7e75fd86044c80d92e2bc5b334c0bcfd6d908b7758",
+      "official_raw_reward": 0.9876772843524761,
+      "raw_exact": false,
+      "record_id": "omrcr-3d7230f66f7203751f60",
+      "tool_observations": [
+        {
+          "characters": 508,
+          "content_sha256": "a95a4fcb9b563cec65c5c6185467da6c7cfc27671996fd3b9c8dede16485da83",
+          "full_target_representation_present": {
+            "json_string_body": false,
+            "python_repr_body": false,
+            "raw": false
+          },
+          "tool_content_equals_exact_answer": false,
+          "tool_content_equals_exact_answer_plus_stdout_newline": false,
+          "traceback_present": true,
+          "truncation_warning_present": false
+        },
+        {
+          "characters": 19995,
+          "content_sha256": "faf4683aba1fa5e74218792ee59cce10b59d553c6dc2a53a679f62884f7e47a4",
+          "full_target_representation_present": {
+            "json_string_body": false,
+            "python_repr_body": true,
+            "raw": false
+          },
+          "tool_content_equals_exact_answer": false,
+          "tool_content_equals_exact_answer_plus_stdout_newline": false,
+          "traceback_present": false,
+          "truncation_warning_present": true
+        }
+      ]
+    },
+    {
+      "bulk_data_print_calls_parsed_not_executed": [
+        "print('Data type:', type(data))",
+        "print('Data content:', data)"
+      ],
+      "context_messages": 8,
+      "context_sha256": "fb26e8d2df8a8f98593cfb732770da236c5c253f451be9626a7294c0576f74ca",
+      "coordinate_id": "72a62968a5ea72119df01c24f986a4c0a93a8ad57108c226dbec746f3845d5e2",
+      "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short32-base-calibration-v1/outputs/attempt-002/science/episodes/72a62968a5ea72119df01c24f986a4c0a93a8ad57108c226dbec746f3845d5e2.json",
+      "episode_sha256": "5c40536b1b4bc5da1f71c89f67bfbcc205daa0e81eced8984629bce2b83a2301",
+      "official_raw_reward": 0.9876772843524761,
+      "raw_exact": false,
+      "record_id": "omrcr-3d7230f66f7203751f60",
+      "tool_observations": [
+        {
+          "characters": 508,
+          "content_sha256": "a95a4fcb9b563cec65c5c6185467da6c7cfc27671996fd3b9c8dede16485da83",
+          "full_target_representation_present": {
+            "json_string_body": false,
+            "python_repr_body": false,
+            "raw": false
+          },
+          "tool_content_equals_exact_answer": false,
+          "tool_content_equals_exact_answer_plus_stdout_newline": false,
+          "traceback_present": true,
+          "truncation_warning_present": false
+        },
+        {
+          "characters": 19995,
+          "content_sha256": "8163e3f8a0a67ef4402ed616955f851a7f372aae7de4c163cb2e1cdd69ba3089",
+          "full_target_representation_present": {
+            "json_string_body": false,
+            "python_repr_body": true,
+            "raw": false
+          },
+          "tool_content_equals_exact_answer": false,
+          "tool_content_equals_exact_answer_plus_stdout_newline": false,
+          "traceback_present": false,
+          "truncation_warning_present": true
+        }
+      ]
+    },
+    {
+      "bulk_data_print_calls_parsed_not_executed": [
+        "print(data)"
+      ],
+      "context_messages": 16,
+      "context_sha256": "7fc0136355f0c64b5fa254dd6d20ecef7ef57e6026c809c1533e9af458ce02be",
+      "coordinate_id": "70442b653ed49239d6a6d878a1fd94c30e301a64f10a1b25fb23d0395b6bcd68",
+      "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short32-base-calibration-v1/outputs/attempt-002/science/episodes/70442b653ed49239d6a6d878a1fd94c30e301a64f10a1b25fb23d0395b6bcd68.json",
+      "episode_sha256": "9937f6860017897a9d1fca17f097faae4ce434a68c3ed5a06cc12ecba7a5c790",
+      "official_raw_reward": 0.9836244541484717,
+      "raw_exact": false,
+      "record_id": "omrcr-76287483be01a7b4d096",
+      "tool_observations": [
+        {
+          "characters": 591,
+          "content_sha256": "0ec61dd8095c99886fff59cf7af7d041b793315b594b86cb3fbefb94e72db089",
+          "full_target_representation_present": {
+            "json_string_body": false,
+            "python_repr_body": false,
+            "raw": false
+          },
+          "tool_content_equals_exact_answer": false,
+          "tool_content_equals_exact_answer_plus_stdout_newline": false,
+          "traceback_present": true,
+          "truncation_warning_present": false
+        },
+        {
+          "characters": 20000,
+          "content_sha256": "9a375361a73ab40d05a752bc602c9a4e584d437279f77460c46be19a314beab3",
+          "full_target_representation_present": {
+            "json_string_body": false,
+            "python_repr_body": true,
+            "raw": false
+          },
+          "tool_content_equals_exact_answer": false,
+          "tool_content_equals_exact_answer_plus_stdout_newline": false,
+          "traceback_present": true,
+          "truncation_warning_present": true
+        }
+      ]
+    },
+    {
+      "bulk_data_print_calls_parsed_not_executed": [
+        "print(json.dumps(data, indent=2))"
+      ],
+      "context_messages": 6,
+      "context_sha256": "05b379574cb83c5afd391fbf2e2d59211b8c1471cf1896520fd0e6c0af36b865",
+      "coordinate_id": "aa0c670ca4614dd64b2a99f6b7ad232bdada9f9426b75313764f384d4fb71a7c",
+      "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short32-base-calibration-v1/outputs/attempt-002/science/episodes/aa0c670ca4614dd64b2a99f6b7ad232bdada9f9426b75313764f384d4fb71a7c.json",
+      "episode_sha256": "c83ec1bfe68df807f430bf50081c7dd329d3a4e46342ce4227f7b5e6acd07a88",
+      "official_raw_reward": 0.9792503346720214,
+      "raw_exact": false,
+      "record_id": "omrcr-83b3037ee21b1b243c0d",
+      "tool_observations": [
+        {
+          "characters": 593,
+          "content_sha256": "8db5fe61ace1cbcff1f54cddb7fd0d307a3620c6befcf09713ba5706cf7da4a8",
+          "full_target_representation_present": {
+            "json_string_body": false,
+            "python_repr_body": false,
+            "raw": false
+          },
+          "tool_content_equals_exact_answer": false,
+          "tool_content_equals_exact_answer_plus_stdout_newline": false,
+          "traceback_present": true,
+          "truncation_warning_present": false
+        },
+        {
+          "characters": 573,
+          "content_sha256": "4339da13a61d9fbccb751594b4f29d9b3964bcf5e650a16fb0dfcb753ef0078c",
+          "full_target_representation_present": {
+            "json_string_body": false,
+            "python_repr_body": false,
+            "raw": false
+          },
+          "tool_content_equals_exact_answer": false,
+          "tool_content_equals_exact_answer_plus_stdout_newline": false,
+          "traceback_present": true,
+          "truncation_warning_present": false
+        },
+        {
+          "characters": 18683,
+          "content_sha256": "7cd411b5674a13c90bf6aee9337f642c2824fa14ddd028a865dbf5140d28ad1e",
+          "full_target_representation_present": {
+            "json_string_body": true,
+            "python_repr_body": false,
+            "raw": false
+          },
+          "tool_content_equals_exact_answer": false,
+          "tool_content_equals_exact_answer_plus_stdout_newline": false,
+          "traceback_present": false,
+          "truncation_warning_present": false
+        }
+      ]
+    }
+  ],
+  "schema": "mrcr-short32-program-versus-terminal-posthoc-audit-v1",
+  "selected_scope": "All four raw-similarity>=.90 outcomes; post-hoc mechanism review",
+  "source_script_sha256": "10b2f19cbe4449f9d2fb77dd5cca03efdd25246dcddba8838aa5f3d597e37c1f",
+  "source_signal_sha256": "396bda9a0f914aaec53d4141367d532dd46303cffdf8a0f96477d84273d59e51"
+}

@@ -2,9 +2,9 @@
 schema_version: "rlm-question-card-v1"
 id: "rq:rl-effective-feedback"
 title: "Can an RLM learn from its own attempts, and which errors obscure that signal?"
-status: "broader_data_gain_repeats_two_seeds_requires_new_example_test"
-updated_utc: "2026-09-12T15:10:00Z"
-evidence_cutoff: "2026-09-12T15:10:00Z"
+status: "official_test_signal_weaker_rl_vs_sft_unresolved"
+updated_utc: "2026-09-12T17:00:00Z"
+evidence_cutoff: "2026-09-12T17:00:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -12,6 +12,8 @@ catalog_boundary: "New post-meeting question; the old catalog does not contain t
 related_questions: ["rq:controller", "rq:authenticated-calculation-reward", "rq:counterfactual-credit", "rq:adaptive-decomposition"]
 claim_ids: []
 reports:
+  - "../analyses/helper-agnews-official-test-transfer-findings-2026-09-12/FINDINGS.md"
+  - "../analyses/openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md"
   - "../analyses/qs6-onebatch-learning-2026-09-12/REPORT.md"
   - "../analyses/qs6-onebatch-learning-2026-09-12/discordance-audit/SFT_REPORT.md"
   - "../analyses/qs6-onebatch-learning-2026-09-12/TRAINING_STAGE.md"
@@ -20,6 +22,32 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Can we turn the model's own attempts into useful learning?
+
+## Decision update — September 12, 17:00 UTC
+
+The frozen new-example readout is complete and materially weaker than the
+research-exposed result. On official-test AG News examples, c32 / RL seed one /
+SFT / RL seed two scored422/427/426/429 of512. Both RL seeds improve over c32 and
+agree on508 labels, but exceed the supervised endpoint by only one and three
+answers; both descriptive request-cluster intervals span zero. The earlier
+422/437/427/436 panel remains separate and cannot be pooled with this one.
+
+This supports a modest task-specific category-boundary adjustment, not a claim
+that RL meaningfully beats SFT or improves general reasoning. RL gained mainly
+on Sci/Tech and lost some World and Business answers; SFT changed only five
+labels and gained four correct answers without a correct-to-wrong flip. A next
+RL-versus-SFT claim needs a prospectively frozen matched replication and a
+predeclared margin that does not hide compensating class losses. See the
+[complete four-arm synthesis](../analyses/helper-agnews-official-test-transfer-findings-2026-09-12/FINDINGS.md)
+(machine-readable SHA256 `391acb5fde4ab58b8157c55ba9792d60acf285066538152a6a604b2b6c452b02`).
+
+The controller's partial MRCR reward also needs a stricter learning target. All
+four outputs above0.90 similarity followed broad context dumps; their Python
+selected the wrong item or failed, and the final model recovered by reading the
+dump. Rewarding terminal overlap alone can therefore reinforce a shortcut rather
+than programmatic retrieval. Preserve the frozen reward experiment, but audit
+program selection and observation size before calling any gain learned
+decomposition. [Program-versus-terminal audit](../analyses/openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md).
 
 ## Decision update — September 12, 15:10 UTC
 

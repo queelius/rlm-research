@@ -1,0 +1,37 @@
+{
+  "created_epoch": 1789229596.2254612,
+  "cuda_visible_devices": "",
+  "cudnn_build": 92000,
+  "driver_inventory": {
+    "returncode": 0,
+    "stdout": "580.126.20, NVIDIA A100-PCIE-40GB, 40960 MiB"
+  },
+  "gpu_model_calls": 0,
+  "identity": "c2519c51486d8d794091919bfb4ac258cf78ad055ce4e7367997de70b6076454",
+  "packages": {
+    "accelerate": "1.14.0",
+    "numpy": "2.5.2",
+    "peft": "0.20.0",
+    "safetensors": "0.8.0",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.15.1"
+  },
+  "platform": "Linux-6.8.0-107-generic-x86_64-with-glibc2.39",
+  "pyproject": "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/pyproject.toml",
+  "pyproject_sha256": "b3f9e6fa2f131ec5f31abf41f16726008caf497a6285eb2a4ff68ec764f60b44",
+  "python_executable": "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python",
+  "python_version": "3.12.12 (main, Oct 28 2025, 12:10:49) [Clang 20.1.4 ]",
+  "pyvenv_cfg": "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/pyvenv.cfg",
+  "pyvenv_cfg_sha256": "99f22aec471e729a4975c5e1a4b7243d4b8dc824c9bd8de72a324ddf4821ab0f",
+  "schema": "openai-mrcr-procedural-sft-training-environment-v2",
+  "torch_cuda_build": "13.0",
+  "uv_executable_currently_available": false,
+  "uv_lock": "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/uv.lock",
+  "uv_lock_format": {
+    "requires_python": "==3.12.*",
+    "revision": 3,
+    "version": 1
+  },
+  "uv_lock_sha256": "d18054c5eaf69dbc69bc71f14c603df462a6d660001f044915814a9157552158",
+  "uv_version": "0.9.7"
+}

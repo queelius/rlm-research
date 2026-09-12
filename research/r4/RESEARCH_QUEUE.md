@@ -1,5 +1,99 @@
 # Live GPU research queue
 
+### Live update September 12, 17:03 UTC — fresh transfer weakens the RL claim
+
+Official test512 is complete: c32422, RLseed1427, SFT426, RLseed2429, all available.
+The fresh RL gains+5/+7 are smaller than exposed-panel+15/+14. RL only+1/+3vsSFT,
+both descriptive paired-cluster intervals span0. Keep both seeds and both panels;
+do not select or pool. Independent source-to-raw audit and plain-language synthesis
+are in analyses/helper-agnews-official-test-transfer-findings-2026-09-12.
+
+Whole-RLM live-helper48 ACTIVE17551 from16:56:17.986UTC. Following accepted jobs
+remain DBpedia224x4 (5003), repeated128 fixed512 (28698), released-base two panels
+(36736), proceduralSFT4+conditionalreadouts (99149), shapedrootRLstep1 (27521),
+MuSiQue12x4depthscreen (6630). NEW shapedRLheld16x2 waiter16186 waits for the exact
+one-update commit OUTSIDE sharedlock; wrapper operations/2026-09-12-shaped-root-
+held16-queue/run.py, 650owner/700external per arm. CPU outcome watcher95339 active.
+Do not duplicate accepted owners; flock acquisition order is not guaranteed.
+
+Syntax48 completed with12 strict finals but48 audit-unknown endpoints. Investigate
+whether the cause is exporter/prefix or actual model stop/finish. No accuracy or
+interface-success promotion until cause is separated. Independent CPU analysis
+does not authorize replacing frozen raw outcomes.
+
+Short32 procedure correction supersedes the earlier retrieval interpretation:
+four high-overlap terminal replies followed18.7–20k-character broad context dumps,
+while their Python had not selected the target correctly. Answer recovery is not
+successful programmatic decomposition. A public structure preview32screen is now
+CPU preparation: context type/keys/role counts only, paired fresh seeds. It is a
+known-style interface affordance, not a novelty claim. No-script is not correct use.
+
+Next decisions: breadth-vs-repetition after fixed512; whole-RLM bottleneck after
+live-helper results; new-task/specialization after DBpedia/released-base; root
+learning from supervised procedure versus partial terminal reward; actual depth
+use on MuSiQue. Do not launch another long same-recipe RL run before these signals.
+Quota62%16:56:56UTC; allocation5801 oneA100 endsSep15 17:30:16UTC.
+
+### Live update September 12, 16:30 UTC — distinguish retrieval from copying
+
+Official-test AG512 comparison is active (PTY47344). The starting helper completed
+all128 calls in405.959 owned seconds; the first RL arm is running. All four fixed
+arms remain in the comparison. Do not claim transfer from an incomplete result.
+
+Short32 completed all32 scheduled episodes in434.644 owned seconds:30 available,
+two authenticated prompt overflows, zero raw-exact answers. A mechanism audit
+changes the interpretation: four high-similarity answers, spanning three contexts,
+retrieved the correct passage but emitted literal backslash-n instead of newlines.
+Two lower-similarity answers copied a different assistant passage. Keep all frozen
+scores unchanged. Read `analyses/openai-mrcr-short32-outcomes-2026-09-12/SIGNAL_ADDENDUM.md`.
+The controller has some usable retrieval behavior; continuous overlap also rewards
+wrong passages. CPU preparation now compares a fixed-dose procedural SFT warmstart
+with root RL using a prospectively fixed near-success-plus-exact reward. The latter
+uses training-only examples, not heldout selection, and is not GPU-admitted yet.
+
+Accepted follow-on owners remain syntax48 (38698), whole-RLM48 (17551), DBpedia224
+four-arm (5003), repeated128 fixed512 (28698). The released-base reference is now
+accepted under bounded shared flock (36736): exact new AG512 and DBpedia224 request
+panels,184 calls,900/1000-second caps. MAIN reviewed all new code and fixtures;
+own1483-pin verification passed. LoRA/prefix-cache differences prevent a matched
+cost or bitwise comparison. Fixed trained endpoints are not replaced or selected.
+
+CPU MuSiQue preparation is approved: twelve questions spanning two to four linked
+facts, identical cumulative-call ceilings at allowed depths0/1/2, plus question-only
+shortcut diagnostics. Dataset/repository provenance and feasibility are saved;
+no GPU admission or new model result yet. Keep gold decompositions host-only.
+
+Quota65% at16:26:55 UTC. One A100 allocation5801 ends September15 17:30:16 UTC.
+Current remote checkpoints remain RLM0ba5483 and notebook35c47b8 (16:00 cutoff).
+
+### Live update September12 16:12UTC — repeated training complete, short32 active
+
+Repeat128 completed all8updates; audited owner2100.965s, outer2111.798s,
+adapter8c8fe89baada71af39a919a50e1b3dd658376a34b4dd6da9c6c7052c385d762f.
+Training sampling improved434→445 correctlabeldecisions/512 on the same128records;
+this is not heldout quality. Mixedgroups7,5,2,4,3,3,3,4. All8 probability/replay/state
+audits passed. Conditional fixed512 evaluation dependency is now satisfied and
+waits for theGPU under its original owner. No bestcheckpoint selection.
+
+Short32 ACTIVE PTY93817 started16:08:35.831UTC,0.108s after prior outerdriverexit.
+Accepted followingowners: officialtest4arms47344; syntax48 38698; wholeRLM48 17551;
+DBpedia224fourarms5003; repeatedfixed51228698 (actualflock order neednotassumed).
+DBpedia wrapper operations/2026-09-12-dbpedia224-transfer-queue/run.py,700/800perarm;
+fullnewsource/fixtures/own1454-pinverifydone. Fixed14labels,224articles/56B4 each.
+
+ProceduralSFT READY_TRAINING b8cfa1a9112c9147b97802d6999d4b05e9e94ccf00bec0690224e9a54635acfb,
+MAINfullobjective/trainer/fixturesreviewandownverifydone. Awaitshort32result before
+GPUdecision. CPUagentpreparesfixedcp4train32readoutandconditionalbase/cp4heldout16×2.
+Raw-base helperreference beingpreparedseparately: olderpanelAG113vsadapted112,
+TREC92vsadapted119, notthe newofficial512/DBpedia224 comparison. Existingfourarms
+unchanged. Additivecontrolcancheckrestoredspecializationvsnewcapability.
+
+Newprimarylitnotes: cold-start-before-tree-credit; dense-feedback-from-rl-direction.
+RISEv1 is futureconditionalidea, notanimplementationorlocalresult. CachedSkyRL
+commitreviewdidnotexecuteexternalscripts orproveblog/coretrainerobjectiveequivalence.
+Gitpushes verified RLM0ba5483/notebook35c47b8;82selectedfiles/all3413manifesthashes.
+BlankEOFs inimmutableexportedsourcepreserved; onlythosewhitespacewarningsignored.
+
 ### Live update September12 16:00UTC — two more informative comparisons admitted
 
 Repeated128 RL PTY58292 is active, five updates committed and step6 collecting.

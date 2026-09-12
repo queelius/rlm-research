@@ -1,0 +1,14 @@
+{
+  "comparator_sha256": "87ced817e4f86b31d49bd4e725f6a29afb14d34299f16f40a0e03da757f7db20",
+  "elapsed_seconds": 5448.382939577103,
+  "gpu_calls": 0,
+  "owner_terminal_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-official-test-fresh512-eval-v1/outputs/c32-001/OWNER_TERMINAL.json": "c25473f83154468ac69b4eda1a3fa34032008dd74c4a1a79cf0a1e2eb5178a6f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-official-test-fresh512-eval-v1/outputs/rl_seed2_step8-001/OWNER_TERMINAL.json": "32b786bdabc7ed290665bc17be7434af6553c9a48fae4f01123942752377aa51",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-official-test-fresh512-eval-v1/outputs/rl_step8-001/OWNER_TERMINAL.json": "f9c0cb0ca35f75ba43d75360b3b595cdbaff1e37bfc62a6eb25802322d9d5a4b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-official-test-fresh512-eval-v1/outputs/sft_step8-001/OWNER_TERMINAL.json": "cc61e17437fe4a70efd8e45493702c40e1ac5aabb0d7b41882bb3a242991ef25"
+  },
+  "returncode": 0,
+  "status": "COMPLETE",
+  "stderr": ""
+}

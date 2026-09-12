@@ -3,9 +3,9 @@ schema_version: "rlm-question-card-v1"
 id: "rq:controller"
 title: "Which limited root-training gains survive new query compositions and faithful native accounting?"
 status: "promising_but_limited"
-updated_utc: "2026-09-12T16:00:00Z"
+updated_utc: "2026-09-12T17:00:00Z"
 evidence_cutoff: "2026-09-09T17:32:51.282711+00:00"
-living_update_cutoff_utc: "2026-09-12T16:00:00Z"
+living_update_cutoff_utc: "2026-09-12T17:00:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -27,6 +27,9 @@ claim_ids:
   - "claim:plan-negative"
   - "claim:query-diagnosis"
 reports:
+  - "/project/alex_phd/runs/rlm-research-r4/analyses/helper-agnews-official-test-transfer-findings-2026-09-12/FINDINGS.md"
+  - "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md"
+  - "/project/alex_phd/runs/rlm-research-r4/analyses/root-qs6-budgeted-evidence-syntax-findings-2026-09-12/FINDINGS.md"
   - "/project/alex_phd/runs/rlm-research-r4/analyses/root-question-sensitive-fresh-input-three-policy-live-2026-09-11/REPORT.md"
   - "/project/alex_phd/runs/rlm-research-r4/analyses/root-question-sensitive-terminal-rlvr-lr1e5-live-2026-09-10/REPORT.md"
   - "/project/alex_phd/runs/rlm-research-r4/analyses/root-question-sensitive-sft-new-corpus-live-2026-09-10/REPORT_RECOVERY_V2.md"
@@ -63,6 +66,37 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Which root-training gains transfer?
+
+## Current decision — September 12, 17:00 UTC
+
+Helper learning remains separate from controller learning. On the new local
+official-test AG News panel, c32 / RL seed one / SFT / RL seed two scored
+422/427/426/429. The fixed RL seeds agree closely but beat SFT by only one and
+three answers, with both descriptive intervals spanning zero. This weaker
+component result neither supplies nor demonstrates a better decomposition
+policy. [Official-test synthesis](../analyses/helper-agnews-official-test-transfer-findings-2026-09-12/FINDINGS.md).
+
+The short-conversation mechanism audit does not show successful programmatic
+retrieval. All four final outputs with at least0.90 similarity found the requested
+content only after printing a broad context observation. Three generated Python
+programs selected a user's request rather than its assistant answer; the fourth
+failed before producing the intended selection. The terminal model recovered by
+reading the dump. A shaped reward may still train useful final recovery, but a
+decomposition claim now requires correct code selection, bounded observations
+and exact terminal answers. [Program-versus-terminal audit](../analyses/openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md)
+(JSON SHA256 `858fb090ea54796da506b1a155461dd7291e0da8022b115238868bfddffbcebb`).
+
+The completed syntax-interface comparison cannot answer its primary endpoint
+question because of a stale-prefix audit. The generated task table changed each
+task hash but retained the old first-prompt token IDs; all48 actual wire prompts
+instead match the correct frozen condition prefixes. Thus all48 exporter
+unavailable outcomes are instrumentation failures, not model failures. Secondary
+raw behavior remains diagnostic: rejected actions fell35→8, strict finals occurred
+six times per arm, and local finish declarations matched five plain finals but
+zero syntax finals. Five provider requests failed at the8192-token limit. There
+were zero physical child calls. First re-authenticate the saved responses against
+the correct prefixes; do not train or choose an interface from the all-U result.
+[Independent syntax finding](../../../ARTIFACTS.md).
 
 ## Current decision — September 12, 16:00 UTC
 

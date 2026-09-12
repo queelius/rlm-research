@@ -1,5 +1,36 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 17:00 UTC
+
+**The new-example comparison downgrades RL superiority to an unresolved,
+task-specific signal.** On the separately frozen official-test panel, c32 / RL
+seed one / SFT / RL seed two scored422/427/426/429. Both RL runs remain above
+c32 and agree on508/512 labels, but they beat SFT by only one and three answers;
+both descriptive RL-versus-SFT request-cluster intervals span zero. The earlier
+research-exposed panel's422/437/427/436 result remains a real same-panel training
+effect, but it is distinct and materially larger. Keep the fixed seeds and costs
+visible; require a prospectively frozen matched replication without compensating
+class losses before claiming an RL-specific transfer advantage.
+[Official-test synthesis](helper-agnews-official-test-transfer-findings-2026-09-12/FINDINGS.md).
+
+**High terminal overlap did not demonstrate a working retrieval procedure.** In
+all four short-conversation outputs above0.90 similarity, the controller exposed
+a broad context dump and the final model selected from it. The generated Python
+selected the wrong field or failed. Future controller learning must audit code,
+observation size and exact answers instead of rewarding this shortcut as
+successful programmatic decomposition.
+[Procedure audit](openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md).
+
+**The syntax endpoint comparison is invalidated by a stale-prefix audit, while
+its raw protocol evidence is still weak.** The exporter marked all48 outcomes
+unavailable because its task table retained old first-prompt IDs; all48 actual
+wire prompts match the frozen condition-specific prefixes. Rejected actions did
+fall35→8, but strict final/local-finish agreement was5/24 in plain and0/24 with
+the example. Five requests exceeded the context limit, and no physical child
+call occurred. Re-authenticate the saved responses before scoring endpoints;
+do not call the original0/24-versus0/24 a model-usability result.
+[Independent syntax finding](../../../ARTIFACTS.md).
+
 ## Decision update — September 12, 15:10 UTC
 
 **The broader RL gain repeats across two training seeds on the same panel.**
