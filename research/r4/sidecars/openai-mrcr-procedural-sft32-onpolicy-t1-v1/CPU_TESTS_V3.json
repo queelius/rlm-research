@@ -1,0 +1,20 @@
+{
+  "command": "/project/alex_phd/envs/prime-rl-5990b1b/bin/python -m pytest -q test_repair_v3.py",
+  "elapsed_seconds": 39.01,
+  "gpu_used": false,
+  "model_queries": 0,
+  "passed": true,
+  "result": "1 passed, 2 deprecation warnings",
+  "schema": "openai-mrcr-procedural-sft32-onpolicy-t1-cpu-tests-v3",
+  "transport": {
+    "actual_environment_run_slot": true,
+    "actual_role_hook_installed": true,
+    "actual_native_capture_installed": true,
+    "actual_train_client_renderer_path": true,
+    "authenticated_root_generate_post": true,
+    "exact_temperature": 1.0,
+    "provider": "CPU-local deterministic fixture"
+  },
+  "test_sha256": "58ac171d5472cf4625c72e96132563c37b45bcd6855209c419bd526aaff5690e"
+}
+

@@ -1,0 +1,17 @@
+{
+  "GPU_or_model_queries": 0,
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "test_graph.py",
+    "--basetemp=/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/cpu-fixture-002"
+  ],
+  "returncode": 0,
+  "scope": "All12 native request deltas; actual current owner→collector one-call HTTP fixtures; unchanged raw4, native decoding, wrong checkpoint rejection, known malformed schema vs unknown HTTP.",
+  "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+  "stdout": ".....                                                                    [100%]\n=============================== warnings summary ===============================\ntest_graph.py::test_all12_native_requests_change_only_instruction_tokens\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_graph.py::test_all12_native_requests_change_only_instruction_tokens\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n5 passed, 2 warnings in 8.98s\n"
+}

@@ -1,0 +1,781 @@
+{
+  "adjudication_source_sha256": "b9dd9cf9c89eeeb9a5ce231422e36d6280fd6461feeac91279e38d47b8cb9a5e",
+  "all12_reviewed": true,
+  "cases": [
+    {
+      "answers": {
+        "concise": {
+          "answer": "The U.S. acquired the land in Nevada in 1864.",
+          "support_idxs": [
+            12
+          ]
+        },
+        "direct": {
+          "answer": "The U.S. acquired the land contained in the current state where Michael Corleone lived in Godfather 2, Nevada, on October 31, 1864, when Nevada was admitted to the Union.",
+          "support_idxs": [
+            12,
+            3
+          ]
+        }
+      },
+      "category": "W→W; loses date detail",
+      "finding": "New answer retains Nevada/1864 but drops October31 and stays a sentence. Selected12 contains the full annotated date. It also drops the Michael/Nevada citation3. No exact-score loss masks this substantive answer-detail loss; admission-to-Union versus land-acquisition annotation ambiguity remains.",
+      "label": "Nevada",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/d8146bb430f092314d9c8072a7674370af66ddf170e362c9147d131d2b8d20fe.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/d8146bb430f092314d9c8072a7674370af66ddf170e362c9147d131d2b8d20fe.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/d8146bb430f092314d9c8072a7674370af66ddf170e362c9147d131d2b8d20fe-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/d8146bb430f092314d9c8072a7674370af66ddf170e362c9147d131d2b8d20fe-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/74fc306b7c5afacfe8fa7d8af7d8e48b665e0a65df296d05d3f6a75723f3d51c.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/74fc306b7c5afacfe8fa7d8af7d8e48b665e0a65df296d05d3f6a75723f3d51c.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/74fc306b7c5afacfe8fa7d8af7d8e48b665e0a65df296d05d3f6a75723f3d51c-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/74fc306b7c5afacfe8fa7d8af7d8e48b665e0a65df296d05d3f6a75723f3d51c-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 0.0,
+          "answer_f1": 0.2,
+          "support_em": 0.0,
+          "support_f1": 0.6666666666666666
+        },
+        "direct": {
+          "answer_em": 0.0,
+          "answer_f1": 0.21428571428571425,
+          "support_em": 1.0,
+          "support_f1": 1.0
+        }
+      },
+      "quoted_answer": {
+        "answer": "The U.S. acquired the land contained in the current state of Nevada on October 31, 1864.",
+        "support_idxs": [
+          12
+        ]
+      },
+      "record_id": "q1459e23aa1e832118689",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q1459e23aa1e832118689.json",
+      "source_payload_sha256": "5f98f7945d7ee1c25e368fc37e57e7cb8459e1b30fa77e2a099c97030cc18f8d"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "2011",
+          "support_idxs": [
+            7
+          ]
+        },
+        "direct": {
+          "answer": "The St. Louis Cardinals last won the World Series in 2011.",
+          "support_idxs": [
+            7
+          ]
+        }
+      },
+      "category": "W→C; answer-phrase gain",
+      "finding": "New2011 is a concise extraction of the date already correct in the old Cardinals2011 sentence. Citation7 is unchanged and still omits player/team source5. Quoted helper stayed verbose and wrong. This is no newly recovered team/year fact.",
+      "label": "Maness",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/13ccf285e5db15c14a9635c3f6794249d580ce4de94c261eb3900ca95ab9eb3c.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/13ccf285e5db15c14a9635c3f6794249d580ce4de94c261eb3900ca95ab9eb3c.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/13ccf285e5db15c14a9635c3f6794249d580ce4de94c261eb3900ca95ab9eb3c-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/13ccf285e5db15c14a9635c3f6794249d580ce4de94c261eb3900ca95ab9eb3c-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/941318ea8375f551de661a6e6e07f583a8a64b489944b78806e96725a5f6f672.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/941318ea8375f551de661a6e6e07f583a8a64b489944b78806e96725a5f6f672.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/941318ea8375f551de661a6e6e07f583a8a64b489944b78806e96725a5f6f672-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/941318ea8375f551de661a6e6e07f583a8a64b489944b78806e96725a5f6f672-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "support_em": 0.0,
+          "support_f1": 0.6666666666666666
+        },
+        "direct": {
+          "answer_em": 0.0,
+          "answer_f1": 0.19999999999999998,
+          "support_em": 0.0,
+          "support_f1": 0.6666666666666666
+        }
+      },
+      "quoted_answer": {
+        "answer": "The team Seth Maness played for, the St. Louis Cardinals, last won the World Series in 2011.",
+        "support_idxs": [
+          7,
+          14
+        ]
+      },
+      "record_id": "qbb5349a9b7b73dd77f26",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/qbb5349a9b7b73dd77f26.json",
+      "source_payload_sha256": "dabd803a1a665a5c06af9238ca0185b4d72e748b7b43f5b9dd137a8c75134463"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "United States",
+          "support_idxs": [
+            2,
+            12
+          ]
+        },
+        "direct": {
+          "answer": "United States",
+          "support_idxs": [
+            2,
+            12
+          ]
+        }
+      },
+      "category": "C→C; unchanged direct support",
+      "finding": "UnitedStates and citations2/12 are unchanged. Source2 directly supports country; absent bordering-counties source0 still prevents proof of the full annotated chain. Quoted helper cited2/4 instead.",
+      "label": "Tuolumne",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/53ad62a83fb106975cc9461afcc2db8a5a14ea24e653af45ed589f21e41dadde.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/53ad62a83fb106975cc9461afcc2db8a5a14ea24e653af45ed589f21e41dadde.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/53ad62a83fb106975cc9461afcc2db8a5a14ea24e653af45ed589f21e41dadde-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/53ad62a83fb106975cc9461afcc2db8a5a14ea24e653af45ed589f21e41dadde-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/d3615fb93e42ad5aa8f1b5e0c9bf4ebd5e087a87e933d1470c9038c8736e91e9.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/d3615fb93e42ad5aa8f1b5e0c9bf4ebd5e087a87e933d1470c9038c8736e91e9.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/d3615fb93e42ad5aa8f1b5e0c9bf4ebd5e087a87e933d1470c9038c8736e91e9-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/d3615fb93e42ad5aa8f1b5e0c9bf4ebd5e087a87e933d1470c9038c8736e91e9-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "support_em": 0.0,
+          "support_f1": 0.6666666666666666
+        },
+        "direct": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "support_em": 0.0,
+          "support_f1": 0.6666666666666666
+        }
+      },
+      "quoted_answer": {
+        "answer": "United States",
+        "support_idxs": [
+          2,
+          4
+        ]
+      },
+      "record_id": "q89d2485eaf22e7b31624",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q89d2485eaf22e7b31624.json",
+      "source_payload_sha256": "09ad40d79d02b6cbb3231baf43691fc4e999c60b402b8170066054e2be137b0a"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "Transamerica Pyramid",
+          "support_idxs": [
+            9
+          ]
+        },
+        "direct": {
+          "answer": "The Transamerica Pyramid",
+          "support_idxs": [
+            9
+          ]
+        }
+      },
+      "category": "C→C; answer article removed",
+      "finding": "TransamericaPyramid remains correct; article removal has no official effect. Citation9 still omits show-location source2. The quoted helper, unlike this arm, added2 and achieved full supportEM.",
+      "label": "Raven",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/e7b296323ba0a9d7562c4b04e18337d82ff0d9146d5ab683e8f309df6bbe97c4.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/e7b296323ba0a9d7562c4b04e18337d82ff0d9146d5ab683e8f309df6bbe97c4.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/e7b296323ba0a9d7562c4b04e18337d82ff0d9146d5ab683e8f309df6bbe97c4-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/e7b296323ba0a9d7562c4b04e18337d82ff0d9146d5ab683e8f309df6bbe97c4-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/29615e8def7095b87fd93caec59ec3f4a6070042d8dee06ab66a2708c3879d3a.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/29615e8def7095b87fd93caec59ec3f4a6070042d8dee06ab66a2708c3879d3a.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/29615e8def7095b87fd93caec59ec3f4a6070042d8dee06ab66a2708c3879d3a-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/29615e8def7095b87fd93caec59ec3f4a6070042d8dee06ab66a2708c3879d3a-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "support_em": 0.0,
+          "support_f1": 0.6666666666666666
+        },
+        "direct": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "support_em": 0.0,
+          "support_f1": 0.6666666666666666
+        }
+      },
+      "quoted_answer": {
+        "answer": "The Transamerica Pyramid",
+        "support_idxs": [
+          2,
+          9
+        ]
+      },
+      "record_id": "q0617d8bcca5d6bb08ed0",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q0617d8bcca5d6bb08ed0.json",
+      "source_payload_sha256": "1552a778b868f55758920fc09bdd584f9d44026e5ca900ef0474ef1d519b4f47"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "Saints Simplicius, Faustinus and Beatrix",
+          "support_idxs": [
+            7
+          ]
+        },
+        "direct": {
+          "answer": "Saints Simplicius, Faustinus and Beatrix",
+          "support_idxs": [
+            7
+          ]
+        }
+      },
+      "category": "W→W; wrong entity unchanged",
+      "finding": "Same martyrs answer/source7 despite explicit Jesus/Christianity source3 and persecution source17. This is an entity-joining failure unaffected by answer phrasing. Quoted arm named Jesus in a sentence, but its helper had been rejected; do not attribute that content change to accepted relations.",
+      "label": "Christian",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/1a497624d01c4480eae994d1654cd6c0c47550a7e1cfe9098a06c9d9efcae06c.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/1a497624d01c4480eae994d1654cd6c0c47550a7e1cfe9098a06c9d9efcae06c.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/1a497624d01c4480eae994d1654cd6c0c47550a7e1cfe9098a06c9d9efcae06c-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/1a497624d01c4480eae994d1654cd6c0c47550a7e1cfe9098a06c9d9efcae06c-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/8296db4bf9e0ddafd646f873b125aaa13bd0100e0b92301ff409f6229dda19c8.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/8296db4bf9e0ddafd646f873b125aaa13bd0100e0b92301ff409f6229dda19c8.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/8296db4bf9e0ddafd646f873b125aaa13bd0100e0b92301ff409f6229dda19c8-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/8296db4bf9e0ddafd646f873b125aaa13bd0100e0b92301ff409f6229dda19c8-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "support_em": 0.0,
+          "support_f1": 0.0
+        },
+        "direct": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "support_em": 0.0,
+          "support_f1": 0.0
+        }
+      },
+      "quoted_answer": {
+        "answer": "Jesus Christ's life teaches the members of the religion targeted in the Great Persecution that began in 303.",
+        "support_idxs": [
+          3
+        ]
+      },
+      "record_id": "qe758ff5a6c6a4c8ab52f",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/qe758ff5a6c6a4c8ab52f.json",
+      "source_payload_sha256": "756b6d0dfe13beb263fe0d2a369479b1f98fd54c329078fcc5e912d2211c6615"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "insufficient evidence",
+          "support_idxs": [
+            6,
+            10,
+            12,
+            18
+          ]
+        },
+        "direct": {
+          "answer": "The question cannot be answered with certainty based on the provided evidence.",
+          "support_idxs": [
+            6,
+            10,
+            12,
+            18
+          ]
+        }
+      },
+      "category": "W→W; concise justified abstention",
+      "finding": "Insufficient evidence replaces the verbose abstention; citations unchanged6/10/12/18. Frozen sources still lack MayorTurner party and NC voting-year facts. No phrasing rule can supply missing2008 evidence.",
+      "label": "Idol",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/1bc2f665cb10586a24e1e5599c9efc488153e055044682793ea663257ae4ee6b.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/1bc2f665cb10586a24e1e5599c9efc488153e055044682793ea663257ae4ee6b.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/1bc2f665cb10586a24e1e5599c9efc488153e055044682793ea663257ae4ee6b-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/1bc2f665cb10586a24e1e5599c9efc488153e055044682793ea663257ae4ee6b-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/5b4c6f4567838762c5c9f24bf71db07d981e2971e33e035e4f0316d9288167ec.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/5b4c6f4567838762c5c9f24bf71db07d981e2971e33e035e4f0316d9288167ec.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/5b4c6f4567838762c5c9f24bf71db07d981e2971e33e035e4f0316d9288167ec-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/5b4c6f4567838762c5c9f24bf71db07d981e2971e33e035e4f0316d9288167ec-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "support_em": 0.0,
+          "support_f1": 0.5
+        },
+        "direct": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "support_em": 0.0,
+          "support_f1": 0.5
+        }
+      },
+      "quoted_answer": {
+        "answer": "The original question cannot be answered with the provided information.",
+        "support_idxs": [
+          6,
+          10,
+          12,
+          18
+        ]
+      },
+      "record_id": "q11c97ffb5874da1e6941",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q11c97ffb5874da1e6941.json",
+      "source_payload_sha256": "0291f14910a85c5ab55fdbe04382f9699d4779bb53633cefafecda665894489a"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "None of the provided evidence supports a connection between house music and Gaddafi's government or Eisenhower's vice president being president.",
+          "support_idxs": []
+        },
+        "direct": {
+          "answer": "Neither house music nor the recognition of Gaddafi's government at an early date is supported by the provided evidence in relation to Eisenhower's vice president being president. The evidence shows that Dwight D. Eisenhower served as U.S. President with Richard Nixon as Vice President, but there is no connection established between house music, recognition of Gaddafi's government, or early recognition of Gaddafi's regime with Eisenhower's vice president. Therefore, the original question contains a non-sequitur and is not supported by the evidence.",
+          "support_idxs": [
+            1,
+            11,
+            13,
+            14
+          ]
+        }
+      },
+      "category": "W→W; unsupported-connection stance persists",
+      "finding": "Still rejects the nested connection rather than using the useful local house-music fact11; recognition bridge7 is absent. Drops all citations, reducing supportF1. It avoids the quoted arm's explicit false claim Nixon was not president but does not solve the query.",
+      "label": "House music",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/3cb3a55060c9047b07ed818c942c37af984347122fe579176e54d1c4318a7d34.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/3cb3a55060c9047b07ed818c942c37af984347122fe579176e54d1c4318a7d34.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/3cb3a55060c9047b07ed818c942c37af984347122fe579176e54d1c4318a7d34-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/3cb3a55060c9047b07ed818c942c37af984347122fe579176e54d1c4318a7d34-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/9c669485b995bdbae3a0bfada93d2d44c04b197c6ad4ac9c804ea7efa4916cb0.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/9c669485b995bdbae3a0bfada93d2d44c04b197c6ad4ac9c804ea7efa4916cb0.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/9c669485b995bdbae3a0bfada93d2d44c04b197c6ad4ac9c804ea7efa4916cb0-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/9c669485b995bdbae3a0bfada93d2d44c04b197c6ad4ac9c804ea7efa4916cb0-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 0.0,
+          "answer_f1": 0.08333333333333333,
+          "support_em": 0.0,
+          "support_f1": 0.0
+        },
+        "direct": {
+          "answer_em": 0.0,
+          "answer_f1": 0.025,
+          "support_em": 0.0,
+          "support_f1": 0.75
+        }
+      },
+      "quoted_answer": {
+        "answer": "The provided information does not contain any details that connect Gaddafi's government recognition, Eisenhower's vice president being president, or any factor that bolstered house music in a nation. The question contains contradictory or unrelated elements (e.g., Gaddafi's recognition and Eisenhower's vice president being president, which is false; Eisenhower's VP was Richard Nixon, who was not president). Therefore, the question is invalid or based on false premises, and no valid answer can be derived from the evidence.",
+        "support_idxs": [
+          1,
+          11,
+          13,
+          14
+        ]
+      },
+      "record_id": "qbefa334e11dccbcdb36d",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/qbefa334e11dccbcdb36d.json",
+      "source_payload_sha256": "2706d61637e40ef5b12c4e80d6b9754543d24fd2f0722359434d9b6ee8a78146"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "48.4 square miles",
+          "support_idxs": [
+            0
+          ]
+        },
+        "direct": {
+          "answer": "48.4",
+          "support_idxs": [
+            0
+          ]
+        }
+      },
+      "category": "W→C; requested measurement units",
+      "finding": "48.4 becomes48.4 square miles, the same answer-form win as quoted helper. Source0 already contained the number and units. Citation0 unchanged; explicit Massachusetts→Boston source13 remains absent. Not proof of a newly solved bridge.",
+      "label": "Boston",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/7afc3be8320771aa421f4135f4271dc488efbf42ffff4f75fc6c3d75d4fa02c2.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/7afc3be8320771aa421f4135f4271dc488efbf42ffff4f75fc6c3d75d4fa02c2.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/7afc3be8320771aa421f4135f4271dc488efbf42ffff4f75fc6c3d75d4fa02c2-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/7afc3be8320771aa421f4135f4271dc488efbf42ffff4f75fc6c3d75d4fa02c2-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/132cfcd0af429524967abaa26e90fcfd3c301d363f892357eabd5eedf93833d0.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/132cfcd0af429524967abaa26e90fcfd3c301d363f892357eabd5eedf93833d0.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/132cfcd0af429524967abaa26e90fcfd3c301d363f892357eabd5eedf93833d0-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/132cfcd0af429524967abaa26e90fcfd3c301d363f892357eabd5eedf93833d0-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "support_em": 0.0,
+          "support_f1": 0.5
+        },
+        "direct": {
+          "answer_em": 0.0,
+          "answer_f1": 0.5,
+          "support_em": 0.0,
+          "support_f1": 0.5
+        }
+      },
+      "quoted_answer": {
+        "answer": "48.4 square miles",
+        "support_idxs": [
+          0,
+          4
+        ]
+      },
+      "record_id": "qb53b0da358d8710a5f77",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/qb53b0da358d8710a5f77.json",
+      "source_payload_sha256": "879dc286cb93d93cdb2f8ae2d18868a201f57613986123ca008a5ce8c51daa22"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "fewer than 20 tornadoes per year",
+          "support_idxs": [
+            11
+          ]
+        },
+        "direct": {
+          "answer": "Fewer than 20 tornadoes per year",
+          "support_idxs": [
+            11
+          ]
+        }
+      },
+      "category": "W→W; extra wording retained",
+      "finding": "Still fewer than20 tornadoes per year with citation11. Only capitalization changes; quoted arm alone narrows to fewer than20 and scores exact. Requested quantity was already correct in all arms; missing immigrant-religion source1 remains missing.",
+      "label": "Tornado",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/0c85cf7a134e069dd3aac60559930c6b2f0411ce57ce4d679f2c0249e3b2a2ef.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/0c85cf7a134e069dd3aac60559930c6b2f0411ce57ce4d679f2c0249e3b2a2ef.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/0c85cf7a134e069dd3aac60559930c6b2f0411ce57ce4d679f2c0249e3b2a2ef-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/0c85cf7a134e069dd3aac60559930c6b2f0411ce57ce4d679f2c0249e3b2a2ef-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/5b497d12db5ca268c1fd8dc5ee6203cdfab6a7f5ec0ccb825b45303d7d242297.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/5b497d12db5ca268c1fd8dc5ee6203cdfab6a7f5ec0ccb825b45303d7d242297.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/5b497d12db5ca268c1fd8dc5ee6203cdfab6a7f5ec0ccb825b45303d7d242297-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/5b497d12db5ca268c1fd8dc5ee6203cdfab6a7f5ec0ccb825b45303d7d242297-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 0.0,
+          "answer_f1": 0.6666666666666666,
+          "support_em": 0.0,
+          "support_f1": 0.5
+        },
+        "direct": {
+          "answer_em": 0.0,
+          "answer_f1": 0.6666666666666666,
+          "support_em": 0.0,
+          "support_f1": 0.5
+        }
+      },
+      "quoted_answer": {
+        "answer": "fewer than 20",
+        "support_idxs": [
+          11
+        ]
+      },
+      "record_id": "q7e02378adeb958101023",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q7e02378adeb958101023.json",
+      "source_payload_sha256": "a8b987d08d1be72b01f793a1066231c3304ab269f99e806977c0f50c98572cc1"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "The European state that seized Libya from the Ottoman era did not become an ally in WW2; Italy occupied Libya in 1911 and later fought against the Allies in WWII.",
+          "support_idxs": [
+            0,
+            9,
+            17
+          ]
+        },
+        "direct": {
+          "answer": "The European state that seized Libya from the Ottoman era, Italy, became an ally in World War II. Italy's alliance began in 1936 when it joined the Axis Powers, and it was involved in the North African Campaign during WWII, which started in 1940. However, Italy surrendered to the Allies in 1943, ending its alliance.",
+          "support_idxs": [
+            0,
+            9,
+            18
+          ]
+        }
+      },
+      "category": "W→W; wrong alliance interpretation",
+      "finding": "New answer denies becoming an ally and cites0/9/17; baseline cited0/9/18. Source9 contains the1943 transition, while the Rila/Bulgaria/Ottoman chain is absent. Neither the denial nor previous Axis dates answers the intended Allies question; not a format-only error.",
+      "label": "Italy",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/6b65650b770a8718a0aeaf6e420bbdb502df6a958d77e25f4af41d061f786c64.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/6b65650b770a8718a0aeaf6e420bbdb502df6a958d77e25f4af41d061f786c64.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/6b65650b770a8718a0aeaf6e420bbdb502df6a958d77e25f4af41d061f786c64-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/6b65650b770a8718a0aeaf6e420bbdb502df6a958d77e25f4af41d061f786c64-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/7c61fc4e67cbf7748c4ac55e9ad1d1e0210bd9961d8795c71ec921cc5e725d87.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/7c61fc4e67cbf7748c4ac55e9ad1d1e0210bd9961d8795c71ec921cc5e725d87.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/7c61fc4e67cbf7748c4ac55e9ad1d1e0210bd9961d8795c71ec921cc5e725d87-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/7c61fc4e67cbf7748c4ac55e9ad1d1e0210bd9961d8795c71ec921cc5e725d87-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "support_em": 0.0,
+          "support_f1": 0.28571428571428575
+        },
+        "direct": {
+          "answer_em": 0.0,
+          "answer_f1": 0.039215686274509796,
+          "support_em": 0.0,
+          "support_f1": 0.28571428571428575
+        }
+      },
+      "quoted_answer": {
+        "answer": "The European state that seized Libya from the main subject of the Ottoman era in the history of the country (Rila, likely a misstatement or error) is not clearly identified in the provided text. However, Italy invaded Libya in 1911 and occupied it during World War II. Italy became an ally of Germany in World War II after the Allied invasion of Sicily in July 1943, when Mussolini was arrested and Italy surrendered. Italy's alliance with Germany began in 1940, but the text does not explicitly state when Italy became an ally. Therefore, based on the information, Italy became an ally in World War II in 1940, though this is not directly stated in the provided paragraphs.",
+        "support_idxs": [
+          9,
+          18
+        ]
+      },
+      "record_id": "q301af64604063fd4fc6b",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q301af64604063fd4fc6b.json",
+      "source_payload_sha256": "62752c30a1d7ef48a0cc1c8093c8886b4e5a11f7a07a5ab09973f597400209f9"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "Lexington, Kentucky",
+          "support_idxs": [
+            2
+          ]
+        },
+        "direct": {
+          "answer": "Lexington, Kentucky",
+          "support_idxs": [
+            2
+          ]
+        }
+      },
+      "category": "W→W; wrong-person city unchanged",
+      "finding": "Still copies LexingtonKentucky from unrelated mayor source2. Quoted arm instead abstained because selected AnneMarie source18 lacks death city. This shorter instruction does not prevent the wrong-person substitution; official answer remains Copenhagen.",
+      "label": "Copenhagen",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/0fe8a61ad5473caabe31b53ae2c173a7290a0c6fa0a74c4bc4d67e0759c5cbf9.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/0fe8a61ad5473caabe31b53ae2c173a7290a0c6fa0a74c4bc4d67e0759c5cbf9.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/0fe8a61ad5473caabe31b53ae2c173a7290a0c6fa0a74c4bc4d67e0759c5cbf9-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/0fe8a61ad5473caabe31b53ae2c173a7290a0c6fa0a74c4bc4d67e0759c5cbf9-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/8c94ae09379541db0370096095aebbbdc72cb9a9ad15bfca4691a76febc58506.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/8c94ae09379541db0370096095aebbbdc72cb9a9ad15bfca4691a76febc58506.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/8c94ae09379541db0370096095aebbbdc72cb9a9ad15bfca4691a76febc58506-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/8c94ae09379541db0370096095aebbbdc72cb9a9ad15bfca4691a76febc58506-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "support_em": 0.0,
+          "support_f1": 0.0
+        },
+        "direct": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "support_em": 0.0,
+          "support_f1": 0.0
+        }
+      },
+      "quoted_answer": {
+        "answer": "The death city of Anne Marie Carl-Nielsen is not mentioned in the provided paragraphs.",
+        "support_idxs": [
+          9,
+          18
+        ]
+      },
+      "record_id": "q16e943b03b89ba19b10b",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q16e943b03b89ba19b10b.json",
+      "source_payload_sha256": "337100a4df47f85e4d5e92a50f3be821f7dc4adae8711c3ba628334a6c82213c"
+    },
+    {
+      "answers": {
+        "concise": {
+          "answer": "United Kingdom",
+          "support_idxs": [
+            5,
+            15,
+            13
+          ]
+        },
+        "direct": {
+          "answer": "United Kingdom",
+          "support_idxs": [
+            5,
+            13,
+            15
+          ]
+        }
+      },
+      "category": "C→C; same complete support set",
+      "finding": "UnitedKingdom remains exact; citations5/15/13 only reorder the original set5/13/15 and retain supportEM1. Quoted helper had added irrelevant SaintKitts11, reducing support exactness.",
+      "label": "Falklands",
+      "native_paths": {
+        "concise": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/calls/cbd50c315aece158affd22166ccfd92a725cd69c2855cbd7ed28dc5f5ca1d9b7.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/prompts/cbd50c315aece158affd22166ccfd92a725cd69c2855cbd7ed28dc5f5ca1d9b7.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/cbd50c315aece158affd22166ccfd92a725cd69c2855cbd7ed28dc5f5ca1d9b7-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-direct-answer-contract-v1/outputs/attempt-001/native/cbd50c315aece158affd22166ccfd92a725cd69c2855cbd7ed28dc5f5ca1d9b7-RESPONSE.json"
+        },
+        "direct": {
+          "call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/695c16e75991116e6e58a1a6abd92bc95c8c14e3bc09427c60bb6ea5d6745f96.json",
+          "prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/695c16e75991116e6e58a1a6abd92bc95c8c14e3bc09427c60bb6ea5d6745f96.json",
+          "request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/695c16e75991116e6e58a1a6abd92bc95c8c14e3bc09427c60bb6ea5d6745f96-REQUEST.json",
+          "response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/695c16e75991116e6e58a1a6abd92bc95c8c14e3bc09427c60bb6ea5d6745f96-RESPONSE.json"
+        }
+      },
+      "official": {
+        "concise": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "support_em": 1.0,
+          "support_f1": 1.0
+        },
+        "direct": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "support_em": 1.0,
+          "support_f1": 1.0
+        }
+      },
+      "quoted_answer": {
+        "answer": "United Kingdom",
+        "support_idxs": [
+          5,
+          11,
+          13,
+          15
+        ]
+      },
+      "record_id": "qcbd5a4bf80cace0d247b",
+      "source_payload_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/qcbd5a4bf80cace0d247b.json",
+      "source_payload_sha256": "188c5bb426ea4740e4a47da3f875d382bf03a47d1f911e7eeea25640dd7f06f7"
+    }
+  ],
+  "common_win_ids": [
+    "qb53b0da358d8710a5f77"
+  ],
+  "costs": {
+    "concise": {
+      "authenticated_returned": 48,
+      "cached_tokens_observed_subtotal": 0,
+      "cached_tokens_unknown_calls": 0,
+      "completion_tokens_observed_subtotal": 880,
+      "completion_tokens_unknown_calls": 0,
+      "not_started": 0,
+      "physical_started": 48,
+      "planned_boundaries": 48,
+      "prompt_tokens_observed_subtotal": 67375,
+      "prompt_tokens_unknown_calls": 0,
+      "status_counts": {
+        "returned_valid": 48
+      },
+      "sum_call_seconds_not_concurrent_wall": 42.27232098579407,
+      "unknown_usage_is_not_zero": true
+    },
+    "direct": {
+      "authenticated_returned": 48,
+      "cached_tokens_observed_subtotal": 0,
+      "cached_tokens_unknown_calls": 0,
+      "completion_tokens_observed_subtotal": 1078,
+      "completion_tokens_unknown_calls": 0,
+      "not_started": 0,
+      "physical_started": 48,
+      "planned_boundaries": 48,
+      "prompt_tokens_observed_subtotal": 66295,
+      "prompt_tokens_unknown_calls": 0,
+      "status_counts": {
+        "returned_valid": 48
+      },
+      "sum_call_seconds_not_concurrent_wall": 46.91418957710266,
+      "unknown_usage_is_not_zero": true
+    }
+  },
+  "decision": "Same aggregate5/12 at fewer calls, but only one common win and no faithful-composition dominance. Preserve both results; no best-prompt selection or exposed-panel sweep.",
+  "direct_to_concise_wins": [
+    "qbb5349a9b7b73dd77f26",
+    "qb53b0da358d8710a5f77"
+  ],
+  "direct_to_quoted_wins": [
+    "qb53b0da358d8710a5f77",
+    "q7e02378adeb958101023"
+  ],
+  "limits": "Adaptively proposed universal instruction on exposed12; one final draw per case. Source content/citation judgments are inert diagnostics, not rewritten official metrics. No GPU, model calls or generated-code execution.",
+  "primary_unchanged": true,
+  "quoted_costs_context_only": {
+    "authenticated_returned": 60,
+    "cached_tokens_observed_subtotal": 0,
+    "cached_tokens_unknown_calls": 0,
+    "completion_tokens_observed_subtotal": 5597,
+    "completion_tokens_unknown_calls": 0,
+    "not_started": 0,
+    "physical_started": 60,
+    "planned_boundaries": 60,
+    "prompt_tokens_observed_subtotal": 79124,
+    "prompt_tokens_unknown_calls": 0,
+    "status_counts": {
+      "returned_valid": 60
+    },
+    "sum_call_seconds_not_concurrent_wall": 202.08139491081238,
+    "unknown_usage_is_not_zero": true
+  },
+  "schema": "musique-direct-answer-contract-all12-mechanism-v1",
+  "source_report_sha256": "0d931dd1bbef5d28872b19afe03d5fcf686643620a6d03e2ba07f9a7477f0f4f",
+  "sources_and_raw_request_delta_verified": true
+}

@@ -1,11 +1,33 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T21:06:00Z
+updated_utc: 2026-09-12T21:31:00Z
 status: active_exploratory_research
 claim_level: exploratory_procedure_transfer_and_exact_return_contract_mismatch
 ---
 
 # Research in plain language
+
+## Current interpretation — September 12, 21:31 UTC
+
+The first reward-based update from the competent procedural checkpoint produced
+a small held-result increase:23 to25 exact answers on32 short attempts, and no
+change (10/16) on longer inputs. All attempts are accounted for. This is one
+update and exposed panels, not a replicated general improvement. The gradient
+mainly changed erroneous whitespace. We are checking the two actual gains
+before deciding whether to expand this training recipe.
+
+Adding a helper to extract quoted relationships also raised exact answers from
+3 to5 out of12, but both gains merely changed answer wording. The same answer
+content was already present. More calls did not establish better decomposition.
+The next comparison tests clearer answer instructions without another helper.
+
+Higher temperature did not resolve the old batch's lack of useful reward
+variation. The GPU is now evaluating eight previously unused problems, while
+CPU preparation builds a harder test requiring the third or fourth matching
+request rather than the first or second. This asks whether the learned routine
+extends to new task structure, not only longer text.
+
+The historical updates below preserve how our interpretation changed.
 
 ## Current interpretation — September 12, 21:06 UTC
 

@@ -1,5 +1,76 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 21:49 UTC
+
+ACTIVE67214 four-needle base→cp32 paired16 each, operation
+`2026-09-12-fourneedle-transfer-queue/run.py`. RUN_READY162ba45c…, scientific
+READY02e90c8e…, first base native returns healthy. All16 outcome-blind third/
+fourth requests, short band, exclusionsold48+long16+fresh8. MAINread327eval+
+351data lines, actual owner.verify and three focused tests. Caps600/700/800 each.
+
+ACCEPTED88381 fixed-RL decoding replica, operation
+`2026-09-12-fixed-rl-decode-replica-queue/run.py`. READY25d86737…,identity2e07289b…,
+1117pins. All16 shortcontexts×2 NEWseeds202609270000..31, bothcp32 andactualRLcp1,
+64total; no oldcontrols reused. MAIN203lines+ownerverify+actualenv32taskbotharms
+passed. Caps900/1100/1200 each. Both arms irrespective of score, sharedflock.
+
+COMPLETE fresh8G4 PTY73593:32available7exact,3mixed groups,66returns0errors,
+404.602s. IndependentREPORT e8b0ae49…:24correctfirststdout,17copyfailures
+(9extraLF,8missing2spaces),8literal-selector failures on two email contexts.
+All3mixedgroups are clean-retrieval copy contrast. Local agent prepares one
+final-only RLOO step fromcp32 on fresh32, denominator32 with20 exactzero
+advantages skipped computationally,12 nonzero final actions,LR1e-5/TIS2.
+No zero-reward selector contrast; do not claim this trains decomposition.
+
+COMPLETE answer-contract12 PTY58499:3→5/12 allavailable2wins0losses, same score
+as quoted helper but different wins (Maness/Boston versusBoston/tornado).
+IndependentREPORT0d931dd1…; natural48calls/67375input/880output versus quoted
+60calls/79124/5597. SupportEM2→1 both; no faithfulness dominance. Token agent
+finishes case review then prepares generic literal-input-inspection instruction
+on allfresh8×same4, notcase-specific fixes. Post agent four-needle CPUanalyzer.
+
+Quota37%21:41:48,next21:56. Lastremotes4aa6623/49cbc2f, current report cutoff
+21:49 is not pushed yet. About3–4min avoidable GPU handover gap after short
+answer-control completion while next runner was finalized; no filler run.
+Keep at leasttwo ready follow-ons practical; do not stop after documentation.
+
+## Latest resume pointer — September 12, 2026, 21:31 UTC
+
+GPU ACTIVE fresh8 cp32 G4 screen PTY73593, operation
+`2026-09-12-fresh8-g4-queue/run.py`, output fresh8-onpolicy-screen-v1/attempt-001.
+RUN_READY a6cae6670b7e44d4fefc01385abfd9a502ae2baaf88f0bff3ec116767f260137.
+Eight new short contexts, four samples each, original cp32/T0.5/2048/six total
+actions; immutable ranks49,50,52–57 exclude old48 and long16. No optimizer yet.
+MAIN fully reviewed616 new lines and actual owner.verify; three focused CPU
+tests passed, including actual role/native/terminal hooks. Single GPU launcher,
+all GPU owners share COORDINATOR.lock. Science900/owner1100/external1200s.
+
+Completed fixed-baseline final-token RL update:43.744s training,56.197s owner,
+one fresh AdamW step LR1e-5,32 samples, b=.5,10,420 final tokens. Adapter delta
+L2=.03421448. Negative gradient lies overwhelmingly on erroneous whitespace,
+not answer-body tokens. Checkpoint saved with initial weights, Adam/RNG,
+pre-step gradient and STEP_COMMIT; no gradient on previous root actions/children.
+Independent held readout completed: short23→25/32 (2wins0losses), long10→10/16
+(0wins0losses), all48 available. Short16 contexts×2 seeds, long16 distinct
+contexts. Native quality/cost audit COMPLETE_PAIRED_AUDIT; final gain mechanism
+under CPU review. Do not yet claim broadly meaningful or replicated RL gain.
+Artifact: analyses/openai-mrcr-fixed-baseline-rl-paired-2026-09-12/readout-002.*.
+
+Completed T1V3 repaired screen27/32, one mixed group caused by procedure failure;
+the four old newline errors remain uniform. Do not repeat temperatures on old8.
+Quoted-relations independent audit3→5/12,2wins0losses: BOTH are answer wording
+changes, not new facts. Four helper reports rejected; valid quotes can attach
+facts to wrong people. Agent token prepares12 same-source concise-answer finals
+to separate answer instructions from extra-helper value. Agent post prepares
+outcome-blind third/fourth-request transfer16 from already acquired official
+four-needle MRCR files (467,659,505bytes, pinned f4c69fae… revision, MIT).
+
+Latest GitHub VERIFIED RLM4aa6623 and notebook49cbc2f, cutoff21:00. New results
+above are external-only pending next publication checkpoint. Quota39%21:28 UTC,
+next check21:43; shared account, wind down20%, pause15%, reserve10%. Allocation
+5801/an22 one A10040GB MIG ends September15 17:30 UTC. Continue adaptively while
+budget remains; no user questions. Historical pointers below are superseded.
+
 ## Latest resume pointer — September 12, 2026, 21:06 UTC
 
 GPU ACTIVE fixedbaseline final-tokenRL PTY7768,

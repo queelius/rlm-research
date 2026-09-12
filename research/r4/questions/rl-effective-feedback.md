@@ -2,9 +2,9 @@
 schema_version: "rlm-question-card-v1"
 id: "rq:rl-effective-feedback"
 title: "Can an RLM learn from its own attempts, and which errors obscure that signal?"
-status: "component_learning_does_not_yet_transfer_through_root"
-updated_utc: "2026-09-12T17:43:00Z"
-evidence_cutoff: "2026-09-12T17:43:00Z"
+status: "small_controller_rl_signal_requires_replication"
+updated_utc: "2026-09-12T21:37:00Z"
+evidence_cutoff: "2026-09-12T21:35:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -12,6 +12,8 @@ catalog_boundary: "New post-meeting question; the old catalog does not contain t
 related_questions: ["rq:controller", "rq:authenticated-calculation-reward", "rq:counterfactual-credit", "rq:adaptive-decomposition"]
 claim_ids: []
 reports:
+  - "../analyses/openai-mrcr-fixed-baseline-rl-paired-2026-09-12/readout-002.md"
+  - "../analyses/openai-mrcr-cp32-fixed-baseline-rl-update-audit-2026-09-12/REPORT.md"
   - "../analyses/root-qs6-ag-live-helper-transfer-mechanism-2026-09-12/REPORT.md"
   - "../analyses/helper-agnews-official-test-transfer-findings-2026-09-12/FINDINGS.md"
   - "../analyses/openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md"
@@ -23,6 +25,28 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Can we turn the model's own attempts into useful learning?
+
+## Decision update — September 12, 21:37 UTC
+
+After procedural SFT, a fixed-baseline final-token reward update improved short
+exact answers23→25/32 and left long answers10/16 unchanged, all48 available.
+Two short wins occur on different contexts: one missing-space correction, one
+substantial content correction. Parsed programs and observations are unchanged.
+Only final tokens enter the loss, but shared weights can affect every stage.
+This is a one-step exploratory result on exposed panels; all16 short contexts
+will receive a paired two-new-seed replication with both checkpoints.
+
+The familiar8-context group-relative batch had28/32 exact but zero mixed groups,
+so every advantage was zero. Higher temperature produced27/32 and only one
+mixed group, a procedural failure rather than clean final-answer alternatives.
+The earlier SFT checkpoint restored variation at the cost of accuracy6/31,
+with one unavailable attempt. A fresh8-context cp32 screen is now running.
+
+The new RL objective uses fixed baseline.5,32 frozen final actions and one
+LR1e-5 AdamW step. Its negative gradient is dominated by whitespace. Neither
+raising a learning rate on zero advantages nor rewarding correct retrieval
+guarantees better delivered answers. Next decisions use the fresh-context
+contrast and paired rollout replication, not training likelihood alone.
 
 ## Decision update — September 12, 17:43 UTC
 

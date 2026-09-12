@@ -1,5 +1,22 @@
 # What we know so far
 
+## Current update — September 12, 21:35 UTC
+
+A real one-step reward update improved short exact answers23→25/32 and left
+longer inputs unchanged10/16. All48 outcomes were available; gains on two
+different short contexts, one whitespace and one answer-content correction.
+This is a small unreplicated signal, not broad RL success. A paired new-seed
+evaluation of both checkpoints on all16 short contexts is being prepared.
+
+An extra relation-extraction helper improved12-case exactness3→5, but both
+gains were answer wording, not new facts. The next control asks for concise
+answers directly, without the extra helper. More complex traces do not prove
+better decomposition. The fresh8 training-context screen is currently onGPU;
+third/fourth matching-request transfer is next in CPU preparation.
+
+Full plain-language report:
+`docs/research-checkpoints/2026-09-12-small-rl-signal-and-helper-controls.md`.
+
 ## Current update — September 12, 20:56 UTC
 
 The fixed trained controller answered10/16 new longer conversations exactly,

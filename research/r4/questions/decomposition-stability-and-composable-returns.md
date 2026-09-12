@@ -12,6 +12,26 @@ evidence:
 
 # Can a helper interface make decomposition reliable, not merely smaller?
 
+## Decision update — September 12, 21:37 UTC
+
+Flexible source allocation increased annotated-support coverage3→6/12 but exact
+answers stayed3/12. Coverage is neither sufficient nor always necessary: some
+questions have alternative supported routes or questionable gold relations.
+Adding quoted relation extraction then improved exact3→5/12, but both gains
+only changed answer phrases already carrying the correct facts. Four reports
+failed quote validation; exact quotes also accompanied false subject assignment.
+
+The next12-case comparison asks for concise answers directly, using exactly the
+same raw4 sources and cached direct seeds/model. It adds no helper or evidence.
+This is an adaptive control on exposed cases, not a fresh generalization test.
+The planned intervention separates answer-contract improvements from genuine
+evidence joins before expanding a more expensive helper design.
+
+Evidence: [all12 mechanism review](../analyses/musique-source-quoted-relations-independent-2026-09-12/MECHANISM_REVIEW.md).
+Novelty still requires more than quotes, JSON, or extra calls. A promising next
+harness contribution must preserve the right relation information and improve
+new cases at a measured cost, not merely improve exact answer formatting.
+
 ## What we observed
 
 Smaller requests slightly helped question categories but harmed news categories.

@@ -1,0 +1,1170 @@
+{
+  "GPU_calls": 0,
+  "all_observations_equal": 48,
+  "all_programs_equal": 48,
+  "changed_token_paths": [
+    {
+      "completion_token_change": 1,
+      "coordinate": {
+        "context_sha256": "2a0daa06fb12493937de2aadd75115e17202d878df724f11fa52c762d3497287",
+        "id": "3d95c157f20222c2fb56dc120bb39a6da0ce76466459b967fc1245ea6c4f6ba5",
+        "ordered_core_sha256": "f44b1806494107a3dcdeab9d7629efa711b80de0f57c255a613318e83213061a",
+        "phase": "held",
+        "record_id": "omrcr-530d9996c900aa5d7b62",
+        "repeat": 0,
+        "row_index": 1,
+        "seed": 2026091702,
+        "source_row_sha256": "530d9996c900aa5d7b62e3efc9bd78c3bae65143d5da928674cc25b0e121c51d",
+        "study": "openai-mrcr-procedural-sft-eval-v1",
+        "temperature": 0.5
+      },
+      "edits": [
+        {
+          "new_bounds": [
+            932,
+            934
+          ],
+          "new_codepoints": [
+            32,
+            32
+          ],
+          "old_bounds": [
+            932,
+            932
+          ],
+          "old_codepoints": [],
+          "operation": "insert"
+        }
+      ],
+      "gold_chars": 934,
+      "gold_sha256": "d9041d249867775334b0600391039f94641eb837086f37d03061b3c07826f4c9",
+      "loss": false,
+      "new_chars": 934,
+      "new_clean_target_observed": true,
+      "new_copy_type": "exact",
+      "new_episode": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/episodes/3d95c157f20222c2fb56dc120bb39a6da0ce76466459b967fc1245ea6c4f6ba5.json",
+      "new_exact": true,
+      "new_reply_sha256": "d9041d249867775334b0600391039f94641eb837086f37d03061b3c07826f4c9",
+      "new_score": 1.0,
+      "observations_equal": true,
+      "old_chars": 932,
+      "old_clean_target_observed": true,
+      "old_context_message_exact_matches": [],
+      "old_copy_type": "edge_whitespace_difference",
+      "old_episode": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/episodes/3d95c157f20222c2fb56dc120bb39a6da0ce76466459b967fc1245ea6c4f6ba5.json",
+      "old_exact": false,
+      "old_reply_sha256": "3d9d0f84b9b614ec5bc0e27bf628246d18e424448b04607c8c5d2e7a3796551d",
+      "old_score": 0.9989165763813651,
+      "phase": "held",
+      "programs_equal": true,
+      "turns": [
+        {
+          "action_ids_equal": true,
+          "new_action_ids_sha256": "a22eb4bce8950c0a65aaf56e415ffaee60e427988b09d4f95025d2880505abbf",
+          "new_action_tokens": 207,
+          "new_finish_reason": "tool_calls",
+          "new_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "old_action_ids_sha256": "a22eb4bce8950c0a65aaf56e415ffaee60e427988b09d4f95025d2880505abbf",
+          "old_action_tokens": 207,
+          "old_finish_reason": "tool_calls",
+          "old_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "position": 0,
+          "prompt_ids_equal": true
+        },
+        {
+          "action_ids_equal": false,
+          "new_action_ids_sha256": "88d12ad8d04724f58fdc06598565e3264e956dfa14f5f45dcc73e4220eb4ea3f",
+          "new_action_tokens": 221,
+          "new_finish_reason": "stop",
+          "new_native_content_sha256": "d9041d249867775334b0600391039f94641eb837086f37d03061b3c07826f4c9",
+          "old_action_ids_sha256": "668f8eff88c21238521e3d2f727e83e764aa04c8cbef775028e6ebe509785504",
+          "old_action_tokens": 220,
+          "old_finish_reason": "stop",
+          "old_native_content_sha256": "3d9d0f84b9b614ec5bc0e27bf628246d18e424448b04607c8c5d2e7a3796551d",
+          "position": 1,
+          "prompt_ids_equal": true
+        }
+      ],
+      "win": true
+    },
+    {
+      "completion_token_change": 39,
+      "coordinate": {
+        "context_sha256": "a19528b91e0c52ff79ee07a47d0292f21c0dbf35198b71a74d3d9d53154239b3",
+        "id": "6c32ec1c215d3e449f0ef34bd558f73023e45393cc568d1edcd279261f816d4e",
+        "ordered_core_sha256": "1a50ed5d9fade01eb843fbec37856e21faee416bc1880ba76f53fe9d851d0fce",
+        "phase": "held",
+        "record_id": "omrcr-ef800b2a29008e4717f1",
+        "repeat": 1,
+        "row_index": 8,
+        "seed": 2026091717,
+        "source_row_sha256": "ef800b2a29008e4717f19fdaacee42d41d9b9d65f4f920b55d3fc6d7c46d117f",
+        "study": "openai-mrcr-procedural-sft-eval-v1",
+        "temperature": 0.5
+      },
+      "edits": [
+        {
+          "new_bounds": [
+            50,
+            51
+          ],
+          "new_codepoints": [
+            49
+          ],
+          "old_bounds": [
+            50,
+            51
+          ],
+          "old_codepoints": [
+            50
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            57,
+            64
+          ],
+          "new_codepoints": [
+            75,
+            105,
+            116,
+            99,
+            104,
+            101,
+            110
+          ],
+          "old_bounds": [
+            57,
+            65
+          ],
+          "old_codepoints": [
+            66,
+            97,
+            99,
+            107,
+            121,
+            97,
+            114,
+            100
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            91,
+            315
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            92,
+            113
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            321,
+            341
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            119,
+            154
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            342,
+            376
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            155,
+            351
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            386,
+            453
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            361,
+            443
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            463,
+            545
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            453,
+            536
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            562,
+            570
+          ],
+          "new_codepoints": [
+            99,
+            104,
+            101,
+            101,
+            114,
+            102,
+            117,
+            108
+          ],
+          "old_bounds": [
+            553,
+            560
+          ],
+          "old_codepoints": [
+            115,
+            109,
+            105,
+            108,
+            105,
+            110,
+            103
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            572,
+            621
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            562,
+            571
+          ],
+          "old_codepoints": [
+            77,
+            111,
+            114,
+            110,
+            105,
+            110,
+            103,
+            44,
+            32
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            622,
+            638
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            572,
+            583
+          ],
+          "old_codepoints": [
+            97,
+            109,
+            101,
+            115,
+            46,
+            32,
+            83,
+            116,
+            105,
+            108,
+            108
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            640,
+            662
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            585,
+            625
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            664,
+            704
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            627,
+            634
+          ],
+          "old_codepoints": [
+            89,
+            101,
+            115,
+            46,
+            32,
+            73,
+            8217
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            706,
+            745
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            636,
+            741
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            771,
+            886
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            767,
+            767
+          ],
+          "old_codepoints": [],
+          "operation": "insert"
+        },
+        {
+          "new_bounds": [
+            890,
+            1031
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            771,
+            782
+          ],
+          "old_codepoints": [
+            8217,
+            115,
+            32,
+            97,
+            32,
+            112,
+            111,
+            101,
+            116,
+            105,
+            99
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1033,
+            1059
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            784,
+            1175
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1074,
+            1078
+          ],
+          "new_codepoints": [
+            116,
+            101,
+            97,
+            115
+          ],
+          "old_bounds": [
+            1190,
+            1194
+          ],
+          "old_codepoints": [
+            110,
+            111,
+            100,
+            100
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1083,
+            1306
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1199,
+            1253
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1309,
+            1336
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1256,
+            1383
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1352,
+            1357
+          ],
+          "new_codepoints": [
+            115,
+            109,
+            105,
+            114,
+            107
+          ],
+          "old_bounds": [
+            1399,
+            1403
+          ],
+          "old_codepoints": [
+            116,
+            101,
+            97,
+            115
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1362,
+            1499
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1408,
+            1428
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1500,
+            1503
+          ],
+          "new_codepoints": [
+            108,
+            46,
+            42
+          ],
+          "old_bounds": [
+            1429,
+            1586
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1517,
+            1614
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1600,
+            1600
+          ],
+          "old_codepoints": [],
+          "operation": "insert"
+        },
+        {
+          "new_bounds": [
+            1615,
+            1651
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1601,
+            1608
+          ],
+          "old_codepoints": [
+            115,
+            109,
+            105,
+            108,
+            105,
+            110,
+            103
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1653,
+            1698
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1610,
+            1614
+          ],
+          "old_codepoints": [
+            87,
+            101,
+            108,
+            108
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1701,
+            1741
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1617,
+            1655
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1742,
+            1753
+          ],
+          "new_codepoints": [
+            82,
+            69,
+            32,
+            101,
+            120,
+            112,
+            101,
+            114,
+            116,
+            108,
+            121
+          ],
+          "old_bounds": [
+            1656,
+            1670
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1756,
+            1779
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1673,
+            1703
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1780,
+            1826
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1704,
+            1798
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1842,
+            1852
+          ],
+          "new_codepoints": [
+            40,
+            103,
+            114,
+            105,
+            110,
+            110,
+            105,
+            110,
+            103,
+            41
+          ],
+          "old_bounds": [
+            1814,
+            1835
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1854,
+            1922
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1837,
+            1867
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1925,
+            1985
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1870,
+            1871
+          ],
+          "old_codepoints": [
+            77
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            1986,
+            2007
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1872,
+            1873
+          ],
+          "old_codepoints": [
+            83
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2011,
+            2018
+          ],
+          "new_codepoints": [
+            89,
+            111,
+            117,
+            32,
+            107,
+            110,
+            111
+          ],
+          "old_bounds": [
+            1877,
+            1883
+          ],
+          "old_codepoints": [
+            40,
+            101,
+            121,
+            101,
+            115,
+            32
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2019,
+            2058
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1884,
+            1892
+          ],
+          "old_codepoints": [
+            105,
+            100,
+            101,
+            110,
+            105,
+            110,
+            103,
+            41
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2061,
+            2102
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            1895,
+            1910
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2105,
+            2113
+          ],
+          "new_codepoints": [
+            115,
+            117,
+            112,
+            112,
+            111,
+            115,
+            101,
+            46
+          ],
+          "old_bounds": [
+            1913,
+            2030
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2127,
+            2248
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            2044,
+            2044
+          ],
+          "old_codepoints": [],
+          "operation": "insert"
+        },
+        {
+          "new_bounds": [
+            2249,
+            2336
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            2045,
+            2051
+          ],
+          "old_codepoints": [
+            111,
+            44,
+            32,
+            119,
+            104,
+            97
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2340,
+            2376
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            2055,
+            2078
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2377,
+            2405
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            2079,
+            2192
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2419,
+            2556
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            2206,
+            2216
+          ],
+          "old_codepoints": [
+            40,
+            110,
+            111,
+            100,
+            100,
+            105,
+            110,
+            103,
+            41,
+            32
+          ],
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2558,
+            2627
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            2218,
+            2239
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2630,
+            2640
+          ],
+          "new_codepoints": [
+            32,
+            115,
+            116,
+            97,
+            103,
+            101,
+            32,
+            115,
+            108,
+            111
+          ],
+          "old_bounds": [
+            2242,
+            2273
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2641,
+            2660
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            2274,
+            2397
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        },
+        {
+          "new_bounds": [
+            2665,
+            2674
+          ],
+          "new_codepoints": [
+            117,
+            114,
+            116,
+            97,
+            105,
+            110,
+            46,
+            42,
+            42
+          ],
+          "old_bounds": [
+            2402,
+            2591
+          ],
+          "old_codepoints": null,
+          "operation": "replace"
+        }
+      ],
+      "gold_chars": 2674,
+      "gold_sha256": "7b8b35e5a71e08c9eed55bb8a1cb832c05115c90f2edaeacaf4ebdebed8169e1",
+      "loss": false,
+      "new_chars": 2674,
+      "new_clean_target_observed": true,
+      "new_copy_type": "exact",
+      "new_episode": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/episodes/6c32ec1c215d3e449f0ef34bd558f73023e45393cc568d1edcd279261f816d4e.json",
+      "new_exact": true,
+      "new_reply_sha256": "7b8b35e5a71e08c9eed55bb8a1cb832c05115c90f2edaeacaf4ebdebed8169e1",
+      "new_score": 1.0,
+      "observations_equal": true,
+      "old_chars": 2591,
+      "old_clean_target_observed": true,
+      "old_context_message_exact_matches": [],
+      "old_copy_type": "other_copy_difference",
+      "old_episode": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/episodes/6c32ec1c215d3e449f0ef34bd558f73023e45393cc568d1edcd279261f816d4e.json",
+      "old_exact": false,
+      "old_reply_sha256": "d05e3790dce11ac55cd0069fe3d58ede0f3c69f5f1b5273b4fcf9cabc5763517",
+      "old_score": 0.11668255481410868,
+      "phase": "held",
+      "programs_equal": true,
+      "turns": [
+        {
+          "action_ids_equal": true,
+          "new_action_ids_sha256": "1d074a086fae692dae99b95956ae638b12fdd76c24c8b939fbf9699a5273622c",
+          "new_action_tokens": 211,
+          "new_finish_reason": "tool_calls",
+          "new_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "old_action_ids_sha256": "1d074a086fae692dae99b95956ae638b12fdd76c24c8b939fbf9699a5273622c",
+          "old_action_tokens": 211,
+          "old_finish_reason": "tool_calls",
+          "old_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "position": 0,
+          "prompt_ids_equal": true
+        },
+        {
+          "action_ids_equal": false,
+          "new_action_ids_sha256": "4e46dafdf8398c1fedd8c142b0a7b91c24682e73c7d1ae2a5a99b76928dddc61",
+          "new_action_tokens": 714,
+          "new_finish_reason": "stop",
+          "new_native_content_sha256": "7b8b35e5a71e08c9eed55bb8a1cb832c05115c90f2edaeacaf4ebdebed8169e1",
+          "old_action_ids_sha256": "f706944d256ecb19fe45641f5ca5b7a28eb8db36e5889fc4faa2e7fc697f7652",
+          "old_action_tokens": 675,
+          "old_finish_reason": "stop",
+          "old_native_content_sha256": "d05e3790dce11ac55cd0069fe3d58ede0f3c69f5f1b5273b4fcf9cabc5763517",
+          "position": 1,
+          "prompt_ids_equal": true
+        }
+      ],
+      "win": true
+    },
+    {
+      "completion_token_change": 1843,
+      "coordinate": {
+        "context_sha256": "f9e2ce0952092f88431d83d39328c0c6e33bbc4802d1312811199e2fe34d8440",
+        "id": "4dd03782963ab0602d58396e24e4ddc56162fd18e02f66bf06eadc4045ad6382",
+        "ordered_core_sha256": "3975f7b1663f051bef26d006fea4941b43a318e790b7078e9a74e84bcb74e48c",
+        "phase": "held",
+        "record_id": "omrcr-746d5e1512abdfa38878",
+        "repeat": 0,
+        "row_index": 9,
+        "seed": 2026091718,
+        "source_row_sha256": "746d5e1512abdfa3887823a27fbc9cd86f821d7fdde34757d572b57e27c376b0",
+        "study": "openai-mrcr-procedural-sft-eval-v1",
+        "temperature": 0.5
+      },
+      "edits": [],
+      "gold_chars": 2394,
+      "gold_sha256": "e8997a332f356e2dbf03bf87bccdcdba3215209416a549cccf012b17efe6f58c",
+      "loss": false,
+      "new_chars": 0,
+      "new_clean_target_observed": false,
+      "new_copy_type": "invalid_or_no_final_text",
+      "new_episode": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/episodes/4dd03782963ab0602d58396e24e4ddc56162fd18e02f66bf06eadc4045ad6382.json",
+      "new_exact": false,
+      "new_reply_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+      "new_score": 0.0,
+      "observations_equal": true,
+      "old_chars": 0,
+      "old_clean_target_observed": false,
+      "old_context_message_exact_matches": [],
+      "old_copy_type": "invalid_or_no_final_text",
+      "old_episode": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/episodes/4dd03782963ab0602d58396e24e4ddc56162fd18e02f66bf06eadc4045ad6382.json",
+      "old_exact": false,
+      "old_reply_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+      "old_score": 0.0,
+      "phase": "held",
+      "programs_equal": true,
+      "turns": [
+        {
+          "action_ids_equal": true,
+          "new_action_ids_sha256": "0d9863a07902affd450e0ac9ecb751da958737c3e622312a04817c0b5748de53",
+          "new_action_tokens": 208,
+          "new_finish_reason": "tool_calls",
+          "new_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "old_action_ids_sha256": "0d9863a07902affd450e0ac9ecb751da958737c3e622312a04817c0b5748de53",
+          "old_action_tokens": 208,
+          "old_finish_reason": "tool_calls",
+          "old_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "position": 0,
+          "prompt_ids_equal": true
+        },
+        {
+          "action_ids_equal": true,
+          "new_action_ids_sha256": "91d48a37ae0aa28ce6ae1341f54bc82033cf92d829f68e8951bfde38c420e0f4",
+          "new_action_tokens": 226,
+          "new_finish_reason": "tool_calls",
+          "new_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "old_action_ids_sha256": "91d48a37ae0aa28ce6ae1341f54bc82033cf92d829f68e8951bfde38c420e0f4",
+          "old_action_tokens": 226,
+          "old_finish_reason": "tool_calls",
+          "old_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "position": 1,
+          "prompt_ids_equal": true
+        },
+        {
+          "action_ids_equal": false,
+          "new_action_ids_sha256": "5ba292af805a9342bce6a03d2e1fb7a2f0b0f855e860b2b2ff7dd8ca1b03c082",
+          "new_action_tokens": 2048,
+          "new_finish_reason": "length",
+          "new_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "old_action_ids_sha256": "8056f5b3160b059dbdcba33e19bbbd1516a609fd0b9a5e741ce78d135dfe621f",
+          "old_action_tokens": 205,
+          "old_finish_reason": "stop",
+          "old_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "position": 2,
+          "prompt_ids_equal": true
+        }
+      ],
+      "win": false
+    },
+    {
+      "completion_token_change": 0,
+      "coordinate": {
+        "context_sha256": "6d805f8fbf3064e3e93921aa7f857384bcffdf936133ba268ac4e0698affba4f",
+        "id": "d61c24ef0fbf9d8bc85152388dc1412e49ba2de80814da3c7b15872dd43943e5",
+        "ordered_core_sha256": "05a12cd31f6141066b93ac212f254ff31fecbb0cb063eb5bf91160ac16f8f2ee",
+        "phase": "long",
+        "record_id": "omrcr-long-508ab438696a81bec39f",
+        "repeat": 0,
+        "row_index": 4,
+        "seed": 202609210004,
+        "source_row_sha256": "508ab438696a81bec39f31a673f80c6de57cdb777362b4f89996124bfcc67c29",
+        "study": "openai-mrcr-long-transfer-eval-v1",
+        "temperature": 0.5
+      },
+      "edits": [],
+      "gold_chars": 1998,
+      "gold_sha256": "c8fb59d53d54367f35f35d07ca212608ce5c8db2a8f9c443d6d3ecdc149291d1",
+      "loss": false,
+      "new_chars": 0,
+      "new_clean_target_observed": false,
+      "new_copy_type": "invalid_or_no_final_text",
+      "new_episode": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/long-001/science/episodes/d61c24ef0fbf9d8bc85152388dc1412e49ba2de80814da3c7b15872dd43943e5.json",
+      "new_exact": false,
+      "new_reply_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+      "new_score": 0.0,
+      "observations_equal": true,
+      "old_chars": 0,
+      "old_clean_target_observed": false,
+      "old_context_message_exact_matches": [],
+      "old_copy_type": "invalid_or_no_final_text",
+      "old_episode": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/d61c24ef0fbf9d8bc85152388dc1412e49ba2de80814da3c7b15872dd43943e5.json",
+      "old_exact": false,
+      "old_reply_sha256": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+      "old_score": 0.0,
+      "phase": "long",
+      "programs_equal": true,
+      "turns": [
+        {
+          "action_ids_equal": true,
+          "new_action_ids_sha256": "7843e8869c631d9c0d7ca88e04f50e0607e790cd8fec530f3d76585d87d47248",
+          "new_action_tokens": 208,
+          "new_finish_reason": "tool_calls",
+          "new_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "old_action_ids_sha256": "7843e8869c631d9c0d7ca88e04f50e0607e790cd8fec530f3d76585d87d47248",
+          "old_action_tokens": 208,
+          "old_finish_reason": "tool_calls",
+          "old_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "position": 0,
+          "prompt_ids_equal": true
+        },
+        {
+          "action_ids_equal": false,
+          "new_action_ids_sha256": "79ded8ca726e3de1755a68dd1332b6d682033d69b8d1fb82a80bd5cb958a8a28",
+          "new_action_tokens": 2048,
+          "new_finish_reason": "length",
+          "new_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "old_action_ids_sha256": "a721f12702735867b915c57a407da5cbc127063f0fc609fa750bbec87aa033d6",
+          "old_action_tokens": 2048,
+          "old_finish_reason": "length",
+          "old_native_content_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "position": 1,
+          "prompt_ids_equal": true
+        }
+      ],
+      "win": false
+    }
+  ],
+  "first_prompt_and_action_arrays_equal": 48,
+  "generated_code_executed": false,
+  "gradient_diagnostic": {
+    "actual_global_clipping_inactive": true,
+    "interpretation": "Vector diagnostic only; Adam normalization makes norm fraction an invalid parameter-update attribution.",
+    "negative_whitespace_norm": 0.003584074719772603,
+    "total_norm": 0.00443595053926635,
+    "total_vs_negative_whitespace_cosine": 0.7282420555299789,
+    "total_without_negative_whitespace_norm": 0.0030605442281951387
+  },
+  "paired_episodes": 48,
+  "private_exact_final_receipt": "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fixed-baseline-rl-paired-2026-09-12/CHANGED_FINAL_TEXTS.private.json",
+  "private_exact_final_receipt_sha256": "d6af94151efe061cadc228638cc43ac8211bef126f1675d92b984dd038a6f3f3",
+  "source_readout_sha256": "4ac83a409099ca5af87d6f433e0872041e7ef5779c71378d5c1a21fff6473e85",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fixed-baseline-rl-paired-2026-09-12/readout-002.json": "4ac83a409099ca5af87d6f433e0872041e7ef5779c71378d5c1a21fff6473e85",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/episodes/3d95c157f20222c2fb56dc120bb39a6da0ce76466459b967fc1245ea6c4f6ba5.json": "4556cf236fb9c81fe045d03f4cb4a3164bfbaabfe53904d2efffd66d8c93e0ec",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/episodes/4dd03782963ab0602d58396e24e4ddc56162fd18e02f66bf06eadc4045ad6382.json": "519b6cdb1cee43ba04c21bcfffc372a490a2c8c06daeb09200a073d98a5f2a2f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/episodes/6c32ec1c215d3e449f0ef34bd558f73023e45393cc568d1edcd279261f816d4e.json": "23b2230d52acbe99812c54d842232827e8c7b2710020b42ea337f58aa1dc33d1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/native-calls/0003-result.json": "3cd5b48edac56513db52c53b2b9b1e678e08f4a754b5a5f4b9efe03ff7b7d4f2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/native-calls/0006-result.json": "93e2468ad11d99b870939287a7aad47274cf854133efdab876e818a4337623ab",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/native-calls/0034-result.json": "0442bea55f740df062d9b1ae14fdb6be3f6755cba21a7b4f4d7fd0014cadfe8c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/native-calls/0035-result.json": "6ea2d836e4b06bb1708d229245d8f460c1377b11e920c4015875444753ab365d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/native-calls/0037-result.json": "3c2684d5f8c0cb9d3a0f4e4593b550076da0e869b05378c722fd934fd3a3fac9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/native-calls/0039-result.json": "7d189354d4d88d26b2ba73d3d4a296d9ee3693e8e7e6bfc197a64abd18497c3a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/held-001/science/native-calls/0040-result.json": "2d6ec0578e980a56d9c16d71a38490e55be0734949012bc904653844829c685d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/long-001/science/episodes/d61c24ef0fbf9d8bc85152388dc1412e49ba2de80814da3c7b15872dd43943e5.json": "d44eba10a231c38809c6bcdfdfec2c2797813a52ba9c4f4fa740f4a69db83683",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/long-001/science/native-calls/0008-result.json": "cc0ba4ff2d725f2af5720eee3336f6c60c515269f0f9deb7b38524c9fc89109e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/long-001/science/native-calls/0009-result.json": "f5f6e934a4564e87ab75f1f2aba44d37893e03e2c82950598625bff0a6de19f8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-data-v1/inputs/records/omrcr-long-508ab438696a81bec39f/prompt.json": "6d805f8fbf3064e3e93921aa7f857384bcffdf936133ba268ac4e0698affba4f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/inputs/HOST_GOLD.json": "e256fbea37dc707fbf1bdf7296be0db137a46697095ef30223f6155d66c50af2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/d61c24ef0fbf9d8bc85152388dc1412e49ba2de80814da3c7b15872dd43943e5.json": "a2537b91bc5af0d5494291b3cb75a182b413038e9c857756e79ea9fd495ab945",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0008-result.json": "ce99c8647117534aa953c9d48b651f5af98a447db27ee930506367679c600610",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0009-result.json": "fd984ef805739f3a0539f558d9e2087cb0e1915c6b239c8191ba626e02a5cdaf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-eval-v1/inputs/held/HOST_GOLD.json": "06efb44edefad12a920ef10d7c9db826778706d773989b03ee1fbf85084c98ff",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/episodes/3d95c157f20222c2fb56dc120bb39a6da0ce76466459b967fc1245ea6c4f6ba5.json": "4c57b241ee69969e76b2ca65213b68cdb55f38037a16af78e37f785439574136",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/episodes/4dd03782963ab0602d58396e24e4ddc56162fd18e02f66bf06eadc4045ad6382.json": "f36a4faf15621b470be5af4819eee0c3a6c7672b3be96500e9794b4a65c847ca",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/episodes/6c32ec1c215d3e449f0ef34bd558f73023e45393cc568d1edcd279261f816d4e.json": "3c85060fb369c6ac7c026b64bd170473aea2689ac9151722c43c4034d5027d11",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/native-calls/0002-result.json": "348e4de0d1cdd72400d01f9e1dad9e157e87ad216756637edd866c8322e4311d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/native-calls/0006-result.json": "b15516ef2398b63c0f7397b11e8fae3a432835aeb1dfc7bafb1eb007502c53d1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/native-calls/0034-result.json": "9e315b26713e6725d1a0c878e6d0b401aae3efdd8af17976a03fcc82c46e2e82",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/native-calls/0035-result.json": "fad38ed6ea30297a255edf02e47eaade13f31237c455dc6b03c0645a978b5cf2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/native-calls/0036-result.json": "56395866034b952c924e6123290eb40402a3d344bae5afe6ac4b5dee6715bfaf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/native-calls/0038-result.json": "6d70225723d07ee501f9044b839d2f11bffe6dcab9fcfbd67fc766ef4ff9f331",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/native-calls/0040-result.json": "ffdf16c412512b2edbbd379657a364f58c8484cf3fc497144dbd9866ca981cd4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-data-v1/inputs/heldout/omrcr-530d9996c900aa5d7b62/prompt.json": "2a0daa06fb12493937de2aadd75115e17202d878df724f11fa52c762d3497287",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-data-v1/inputs/heldout/omrcr-746d5e1512abdfa38878/prompt.json": "f9e2ce0952092f88431d83d39328c0c6e33bbc4802d1312811199e2fe34d8440",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-data-v1/inputs/heldout/omrcr-ef800b2a29008e4717f1/prompt.json": "a19528b91e0c52ff79ee07a47d0292f21c0dbf35198b71a74d3d9d53154239b3"
+  }
+}

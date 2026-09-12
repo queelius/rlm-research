@@ -1,0 +1,13 @@
+# Source-quoted relations before final answering
+
+All12 completed flexible source sets are frozen, with four exact original paragraphs each. No new source selection, planner, gold component question, or case-specific example enters the model. One512-token extractor emits at most four subject/relation/object/source-ID/exact-quote records and at most four missing-link strings. One1024-token final gets the same raw4 plus that report, with the unchanged instruction and cached direct final seed. Both use base4B/T=.5 and the exact V3 native service.
+
+Quote validation checks only JSON schema, selected original IDs and nonempty exact quote substrings in paragraph_text. It does not prove a relation or entity binding. Even a valid quote about the wrong person is marked relation_truth_verified=false. Malformed/out-of-source reports are retained raw; the final still receives the same raw4 with explicit helper error and no accepted relations. No retry, hidden replacement or gold-based correction. Required transport failure remains unknown; known model report errors retain the actual final score.
+
+Cached direct controls are authenticated on CPU: same model binding, exact reconstructed unaugmented native request (tokens, schema, decoding, seed), raw completion decode and score. Old control outputs are never fed to extraction or final prompts. Cached answers and scoring artifacts live under inputs/host; collector reads only frozen public payloads and manifest metadata. MAIN verifies model binding again before the new service owner starts.
+
+New physical work is24 calls and12 finals for12 paired contexts. Conditional finalization costs1 direct versus2 extractor→final calls. Including the cached two selectors and planner, natural full-policy costs4 versus5 calls per context (48 versus60). Cached acquisition is charged once per deployed policy but not rerun; newly spent physical cost is separate. Token cost is not matched. Preserve original3/12 direct EM and all source/support metrics; no automatic correction for verbosity or questionable annotation.
+
+Extractor seeds202609240000+16×index; final seeds unchanged202609230000+16×index+3. Four question workers;8192 actual prefix plus requested output boundary. Caps science700,owner950,external1050 seconds. Every request, prompt, native response, parsed report and scored endpoint is checkpointed. No generated code is executed. MAIN alone launches after review; no GPU is used during preparation.
+
+This tests evidence use/composition plus an extra sequential computation step on an exposed12-case panel. It is not a token/compute-matched representation claim, learned routing, recursion, novel method or confirmatory transfer result.

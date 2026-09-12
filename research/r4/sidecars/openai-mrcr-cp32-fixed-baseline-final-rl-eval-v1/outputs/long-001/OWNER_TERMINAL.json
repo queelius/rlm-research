@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "elapsed_seconds": 247.68321990966797,
+  "errors": null,
+  "no_outcome_manipulation_gate": true,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "phase": "long",
+  "ready_sha256": "c7de2ad71a4b0a6774dfd7b077193e82cf5f68d5857665f30f2c0bdf87847e0b",
+  "recorded": 16,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-eval-v1/outputs/long-001/science/RESULT.json",
+  "result_sha256": "27cf8f59106c151ca2bfb6d90ed24a0e48372cdb6c12686a66d14151478353a2",
+  "scientifically_available": 16
+}

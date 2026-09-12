@@ -1,5 +1,26 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 21:35 UTC
+
+Tentatively promote the first fixed-baseline final-token reward update for
+replication: short23→25/32,2 wins on different contexts and no losses; long10/16
+unchanged. All48 available. One win is whitespace, one substantial answer content.
+All parsed programs/tool observations unchanged, but shared weights mean this
+is not a final-behavior-only causal guarantee. New paired seeds on all16 short
+contexts, both arms, are the next check. One update/exposed panels are not a
+publishable broad RL result. Actual training43.744s, resumable state saved.
+
+Downgrade quoted-relation helper exact3→5/12 as evidence of better composition:
+both gains only changed answer phrases;24 extra physical calls, complete-policy
+48→60 calls. Four reports rejected; valid quotes permit false subject attribution.
+Test one universal concise-answer instruction on all12 raw-source controls,
+then new examples if useful. Do not advertise exact-score gains as recovered facts.
+
+T1 only1 mixed group/8, no variety in the repeated final whitespace failure.
+Fresh8 context screen is running; four-needle ordinal transfer is being prepared.
+Data variation and new task structure now have higher information value than
+another temperature or dose on the same eight questions.
+
 ## Decision update — September 12, 20:56 UTC
 
 Promote narrow same-family length transfer: base0/16→fixedSFT32 10/16 on new

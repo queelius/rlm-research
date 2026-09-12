@@ -1,0 +1,2419 @@
+{
+  "CPU_READY_sha256": "f57f0ad38509b926f6e194afa33fe43cbe6dfbb74988ad35d530263450fbb7f9",
+  "adjudication_source_sha256": "941bc892e218892415baa88514a958f0a97d9330389d3178f74a487c58590d00",
+  "all12_exposed_cases_retained": true,
+  "cases": [
+    {
+      "accepted_relation_count": 2,
+      "all_annotated_sources_selected": true,
+      "answer_difference_operators": [
+        {
+          "new_interval": [
+            58,
+            58
+          ],
+          "new_text": "",
+          "old_interval": [
+            58,
+            73
+          ],
+          "old_text": "where Michael C",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            59,
+            59
+          ],
+          "new_text": "",
+          "old_interval": [
+            74,
+            93
+          ],
+          "old_text": "rleone lived in God",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            60,
+            60
+          ],
+          "new_text": "",
+          "old_interval": [
+            94,
+            102
+          ],
+          "old_text": "ather 2,",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            67,
+            67
+          ],
+          "new_text": "",
+          "old_interval": [
+            109,
+            110
+          ],
+          "old_text": ",",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            87,
+            87
+          ],
+          "new_text": "",
+          "old_interval": [
+            130,
+            169
+          ],
+          "old_text": ", when Nevada was admitted to the Union",
+          "operator": "delete"
+        }
+      ],
+      "answers": {
+        "direct": "The U.S. acquired the land contained in the current state where Michael Corleone lived in Godfather 2, Nevada, on October 31, 1864, when Nevada was admitted to the Union.",
+        "relations": "The U.S. acquired the land contained in the current state of Nevada on October 31, 1864."
+      },
+      "category": "same_wrong_answer_surface",
+      "completion_token_ids_sha256": {
+        "direct": "aa7aa4678a7ba1a5b96b9f1fd5e092a7845cc9c3fcfcb0bd64068ca60d8c32b8",
+        "extract": "4dce6740b77827a8529d3d5d8d86233e25462c3c97494c04cee50b5d2a84d791",
+        "relations": "d4dea40e31b5434f36357e1a1ed9e6ca3ed2d3c1f31d4e91dbff101ce6f8b41f"
+      },
+      "finding": "The helper identifies Michael/Nevada and copies the annotated date; both finals already state October31,1864 in full sentences. No answer-content recovery. The quote says admission to the Union, not acquisition of land: the gold/question relation itself is loose, so do not certify this as a faithful acquisition claim. New final drops source3 citation.",
+      "gold_component_facts_sha256_canonical": "f44b6dd763e3d7d65290e3ef9204b52b05d0b68ed37cc5b922c77a553ba44f4f",
+      "label": "Nevada",
+      "limitation": "The report also calls the already-established Michael/Nevada link missing. Generic missing-link prose is not a reliable completeness judgment.",
+      "parsed_helper_valid": true,
+      "primary_outcomes": {
+        "direct": "W",
+        "relations": "W"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "Nevada",
+          "paragraph_id": 3,
+          "quote": "The Corleone family has relocated to Nevada while Frank Pentangeli runs the family's operations in New York, Clemenza having died a few years before.",
+          "relation": "lived in",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "a42a4200eb741c8ffc14b67a0f042851aa9bf9f9f4b268650a1f2f96caa4326b",
+          "subject": "Michael Corleone"
+        },
+        {
+          "exact_substring": true,
+          "object": "October 31, 1864",
+          "paragraph_id": 12,
+          "quote": "Admission to Union October 31, 1864 (36th)",
+          "relation": "acquired by the U.S. on",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "695d1c16526071768375cbaac9392caa70c17c9f2e95de304292583a83991023",
+          "subject": "Nevada"
+        }
+      ],
+      "record_id": "q1459e23aa1e832118689",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/74fc306b7c5afacfe8fa7d8af7d8e48b665e0a65df296d05d3f6a75723f3d51c.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/74fc306b7c5afacfe8fa7d8af7d8e48b665e0a65df296d05d3f6a75723f3d51c.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/74fc306b7c5afacfe8fa7d8af7d8e48b665e0a65df296d05d3f6a75723f3d51c-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/74fc306b7c5afacfe8fa7d8af7d8e48b665e0a65df296d05d3f6a75723f3d51c-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/e3efba60ebf53d7a9a9363a01735df15d9135f543d5fa8e1eb51738357b1fe12.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/e3efba60ebf53d7a9a9363a01735df15d9135f543d5fa8e1eb51738357b1fe12.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/e3efba60ebf53d7a9a9363a01735df15d9135f543d5fa8e1eb51738357b1fe12-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/e3efba60ebf53d7a9a9363a01735df15d9135f543d5fa8e1eb51738357b1fe12-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/q1459e23aa1e832118689.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/1dfdfd72ebd5412ccee7799dc4479a0441e8fa08087a1f5cb99499339b927893.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/1dfdfd72ebd5412ccee7799dc4479a0441e8fa08087a1f5cb99499339b927893.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/1dfdfd72ebd5412ccee7799dc4479a0441e8fa08087a1f5cb99499339b927893-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/1dfdfd72ebd5412ccee7799dc4479a0441e8fa08087a1f5cb99499339b927893-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q1459e23aa1e832118689.json"
+      },
+      "source_sha256": {
+        "direct_call": "1be61708dc687369dfb034690e546b4df043ba4a470d362de72e6bfd0cbbb793",
+        "direct_prompt": "a7908aaccf9add6d704782f0026141a54d2d10ae7b475570ffe7d6eff7db1b26",
+        "direct_request": "1794bfc56bf24a8170325213c143fda467c604b7a524c15644e49786e9dc014d",
+        "direct_response": "c682761852fae98e4b36f3427cac555345d9494ba1b31334d04decfcf586f065",
+        "extract_call": "6caf513a78dfad84802ad8a2bb0e76248f67a8389ced7b323a1bd2c63b9c4e82",
+        "extract_prompt": "f23f779a01f4ecf097123737be05711709d688bdc64ca8b28b408963ba54dbaa",
+        "extract_request": "fa24d9b7dd625bd56ce918a132bba88010c6e32bef92f44f2366d3416a275346",
+        "extract_response": "0679fe5c6ec8800c5eccff3e9e1c1e6de7a2eff9b2676324d7715c4e95c8fe06",
+        "new_question_receipt": "068f2f9f3fc289a0015445432636304a2a18ad9a549aded50fbfdf60d81e0887",
+        "relations_call": "b5f35ca816eb4c6f1e41362cb7b7044c4850b383aa8371072ccf2ab378b69231",
+        "relations_prompt": "2f9620c8d77c5677d111e414e4b0b6755dc6e6de19691e5dd164df4633c053f5",
+        "relations_request": "e82725cdb13e3a94a411f61a8085986c38c419ea6318ab3e89d93c44c9ab831d",
+        "relations_response": "35494d0a7aee7e114eccc692ec5eef491a569c996c890ec7dda893c431e2b018",
+        "source_payload": "5f98f7945d7ee1c25e368fc37e57e7cb8459e1b30fa77e2a099c97030cc18f8d"
+      }
+    },
+    {
+      "accepted_relation_count": 3,
+      "all_annotated_sources_selected": true,
+      "answer_difference_operators": [
+        {
+          "new_interval": [
+            1,
+            34
+          ],
+          "new_text": "he team Seth Maness played for, t",
+          "old_interval": [
+            1,
+            1
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            56,
+            57
+          ],
+          "new_text": ",",
+          "old_interval": [
+            23,
+            23
+          ],
+          "old_text": "",
+          "operator": "insert"
+        }
+      ],
+      "answers": {
+        "direct": "The St. Louis Cardinals last won the World Series in 2011.",
+        "relations": "The team Seth Maness played for, the St. Louis Cardinals, last won the World Series in 2011."
+      },
+      "category": "same_wrong_answer_surface",
+      "completion_token_ids_sha256": {
+        "direct": "0c6f6a254ac2540ef35fee8d5d13f90cd53514929703257659c37bce8b67fe42",
+        "extract": "1e8c3be114978d0c5802baa9ed3f337894f0ec80a936fce86e0566d26f684ec3",
+        "relations": "fc81b40df4e600e379131e37c22011b562c53705ca3976e0313eb6850996b21c"
+      },
+      "finding": "Both finals identify Cardinals and2011 but remain full-sentence answers. Helper faithfully extracts Maness→Cardinals and the latest listed title; extra2006 relation does not change final content. New citations7/14 still omit the player/team bridge5.",
+      "gold_component_facts_sha256_canonical": "6a94eff16e2d928cdfb0168e60319b10cfda7614649c59c8ea87ee92efbf767c",
+      "label": "Maness",
+      "limitation": "The helper incorrectly demands evidence Maness was on the winning roster; the question asks the last win of a team he played for, not whether he personally won.",
+      "parsed_helper_valid": true,
+      "primary_outcomes": {
+        "direct": "W",
+        "relations": "W"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "St. Louis Cardinals",
+          "paragraph_id": 5,
+          "quote": "Michael Seth Maness ( ; born October 14, 1988) is an American professional baseball pitcher in the Texas Rangers organization. He previously played in MLB for the St. Louis Cardinals and Kansas City Royals.",
+          "relation": "played for",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "24fe4a00b8e9dd5813289b129ea82a6a8e8b1ff14aa59817a5fd8b9d36c36afc",
+          "subject": "Michael Seth Maness"
+        },
+        {
+          "exact_substring": true,
+          "object": "2011",
+          "paragraph_id": 7,
+          "quote": "World Series titles (11) 1926 1931 1934 1942 1944 1946 1964 1967 1982 2006 2011",
+          "relation": "won World Series",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "8c9a6a774bd8a0d9c11d7ceeff62eb429b7f7d5f711f469c69d1e0c7541138aa",
+          "subject": "St. Louis Cardinals"
+        },
+        {
+          "exact_substring": true,
+          "object": "2006",
+          "paragraph_id": 14,
+          "quote": "The Cardinals won the World Series in five games, in which manager Tony La Russa became the second manager to win the World Series in both American and National leagues, previously managing the Oakland Athletics to the 1989 World Series championship.",
+          "relation": "won World Series",
+          "relation_index": 2,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "116bbe520bc02f4692fed65e54058c68d87ddda7f3d2409dd0dbfc660f713690",
+          "subject": "St. Louis Cardinals"
+        }
+      ],
+      "record_id": "qbb5349a9b7b73dd77f26",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/941318ea8375f551de661a6e6e07f583a8a64b489944b78806e96725a5f6f672.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/941318ea8375f551de661a6e6e07f583a8a64b489944b78806e96725a5f6f672.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/941318ea8375f551de661a6e6e07f583a8a64b489944b78806e96725a5f6f672-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/941318ea8375f551de661a6e6e07f583a8a64b489944b78806e96725a5f6f672-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/36bd901843f22cac91504ea1c1f4e2302eae52d87060359dc386702ea24afec9.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/36bd901843f22cac91504ea1c1f4e2302eae52d87060359dc386702ea24afec9.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/36bd901843f22cac91504ea1c1f4e2302eae52d87060359dc386702ea24afec9-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/36bd901843f22cac91504ea1c1f4e2302eae52d87060359dc386702ea24afec9-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/qbb5349a9b7b73dd77f26.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/c43d63bdc2c86f408ad4228ff32fb26f66ea0fd9a384f09ad04361686316ff5f.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/c43d63bdc2c86f408ad4228ff32fb26f66ea0fd9a384f09ad04361686316ff5f.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/c43d63bdc2c86f408ad4228ff32fb26f66ea0fd9a384f09ad04361686316ff5f-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/c43d63bdc2c86f408ad4228ff32fb26f66ea0fd9a384f09ad04361686316ff5f-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/qbb5349a9b7b73dd77f26.json"
+      },
+      "source_sha256": {
+        "direct_call": "810665e1320923d5e3ec9e9001d883514bdd789b010d711cec1e954adebd19f0",
+        "direct_prompt": "0e389924f95498590a7f222811901fe11fc259a75d52393d36b8048f2c3e4cf3",
+        "direct_request": "757e6c654034e6658b54e6ff14abf5118e5887adc4a9042de49dba577acab5b6",
+        "direct_response": "fcb8aac2e3df710da4fc551bbbbc8430a2372984baa717f4add6304d9589b4e7",
+        "extract_call": "d7260ba6701f1c1548c2addfa04f9581d57588898fca8027bf6ccc35ccce6ce3",
+        "extract_prompt": "b8455007f82e7b8d41849f9a5db7452675ac89f4cd03b66153b7577f738a252c",
+        "extract_request": "6df25efec5d7b2507d8ac128fc5d363b22dc0d477e3e28742bcbd45fc02ba2fc",
+        "extract_response": "85a02ede666bae5f7b6887eaeffbc7960acdb193ee529fb75ce40be168749838",
+        "new_question_receipt": "949996c98723cb60be6008791199cac31cf0c2254f1d14c0c543ee316472bc95",
+        "relations_call": "ce9ebbe97783ec54007a7e51875761d1e336cf7acfde557d9483e246e4dd8b3c",
+        "relations_prompt": "bef8445ee1b403bb08f722bd7714617f9444332ecf287c0f24173f91f324f0fb",
+        "relations_request": "093407685ab1bbd0a58becde1bb6ea9a9bfa5f284771d941d682eda8ec2985e1",
+        "relations_response": "6d904a76b6a1d532a2526549df83cc3fe0deaa6ec8eba7eb326aca39dcf8dad2",
+        "source_payload": "dabd803a1a665a5c06af9238ca0185b4d72e748b7b43f5b9dd137a8c75134463"
+      }
+    },
+    {
+      "accepted_relation_count": 0,
+      "all_annotated_sources_selected": false,
+      "answer_difference_operators": [],
+      "answers": {
+        "direct": "United States",
+        "relations": "United States"
+      },
+      "category": "same_correct_rejected_report",
+      "completion_token_ids_sha256": {
+        "direct": "9260ed4436a26037420e9a21fc4fd6b5db40727714ce057fd37ecc1756179c8d",
+        "extract": "333cbdfe5627bbab36d378298cb509bff516a1400c84310aae8222fe5298c0ab",
+        "relations": "765958d8fa6210b838736bca63366b2bc004ca3462f259f8737f2c753b6c9b97"
+      },
+      "finding": "Both finals answer United States directly supported by selected paragraph2. The bordering-counties source0 is absent, so this is not evidence of reconstructing every annotated hop. One altered Yosemite quote ends in an invented ellipsis, causing the entire report to be discarded; raw4 remain in final.",
+      "gold_component_facts_sha256_canonical": "efceb2006796217e03b26721674c7be17658d8f7fa9e2e03dd07d87aca669663",
+      "label": "Tuolumne",
+      "limitation": "Known invalid report is not a native unknown and does not erase the observed correct final. New citations2/4 are less complete than old2/12.",
+      "parsed_helper_valid": false,
+      "primary_outcomes": {
+        "direct": "C",
+        "relations": "C"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "Stanislaus County, California, United States",
+          "paragraph_id": 2,
+          "quote": "Tuolumne is a small unincorporated town in Stanislaus County, California, United States.",
+          "relation": "is located in",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "adadd6114e9da9d997dfd4f7a4f758eabec799c43456636edf25eb29165c9d72",
+          "subject": "Tuolumne"
+        },
+        {
+          "exact_substring": true,
+          "object": "Calaveras County, California, United States",
+          "paragraph_id": 12,
+          "quote": "Forest Meadows is a census-designated place (CDP) in Calaveras County, California, United States.",
+          "relation": "is located in",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "a5187995f303e9a9b7444a3a94df0609e01265895560edaff93abfd13327bd55",
+          "subject": "Forest Meadows"
+        },
+        {
+          "exact_substring": true,
+          "object": "California",
+          "paragraph_id": 9,
+          "quote": "The film was made in California during the summer and autumn of 1958.",
+          "relation": "was filmed in",
+          "relation_index": 2,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "775c04471f853c9b0cbb4eb121a520a2efc960fdec10bbf177fa8ca7826a8697",
+          "subject": "Some Like It Hot"
+        },
+        {
+          "exact_substring": false,
+          "object": "Central California",
+          "paragraph_id": 4,
+          "quote": "Yosemite National Park (/ joʊˈsɛmɪtɪ /, yoh - SEM - i - tee) is an American national park located in the western Sierra Nevada of Central California...",
+          "relation": "is located in",
+          "relation_index": 3,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "8d7e2913e2e429fcd944382bfd41ac45e5fe0cd921d7e011e382ebe61f4d07cb",
+          "subject": "Yosemite National Park"
+        }
+      ],
+      "record_id": "q89d2485eaf22e7b31624",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/d3615fb93e42ad5aa8f1b5e0c9bf4ebd5e087a87e933d1470c9038c8736e91e9.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/d3615fb93e42ad5aa8f1b5e0c9bf4ebd5e087a87e933d1470c9038c8736e91e9.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/d3615fb93e42ad5aa8f1b5e0c9bf4ebd5e087a87e933d1470c9038c8736e91e9-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/d3615fb93e42ad5aa8f1b5e0c9bf4ebd5e087a87e933d1470c9038c8736e91e9-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/dc4c33542f6237bfea1598d852cca2928ae0dc2fe0339bd2ce63c688a07cf745.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/dc4c33542f6237bfea1598d852cca2928ae0dc2fe0339bd2ce63c688a07cf745.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/dc4c33542f6237bfea1598d852cca2928ae0dc2fe0339bd2ce63c688a07cf745-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/dc4c33542f6237bfea1598d852cca2928ae0dc2fe0339bd2ce63c688a07cf745-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/q89d2485eaf22e7b31624.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/461da87b29437abbe409eb2bd3ac74adbbe7e0c097c8cbb2e9258c97c010f72f.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/461da87b29437abbe409eb2bd3ac74adbbe7e0c097c8cbb2e9258c97c010f72f.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/461da87b29437abbe409eb2bd3ac74adbbe7e0c097c8cbb2e9258c97c010f72f-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/461da87b29437abbe409eb2bd3ac74adbbe7e0c097c8cbb2e9258c97c010f72f-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q89d2485eaf22e7b31624.json"
+      },
+      "source_sha256": {
+        "direct_call": "fbc0d40281dfdce278293dc45546f1e071c5727c915effe667b45c183d96aac6",
+        "direct_prompt": "fcdc03473b101d984c19045a34f373c262a6a15c234ef85264da4c4979b5bf52",
+        "direct_request": "c07858bd31cfab786068d5f17e191c30c7836a95fac45c9223b49518408c0986",
+        "direct_response": "07ecd7e704dccf9ab85b64bbe91604fb3fd9f850326daea0bf11c191f74cec16",
+        "extract_call": "3e506033d600945a357eec8cdb9e9d72c7d4f2662193b72c3818873e9c2561b0",
+        "extract_prompt": "4b6f730f5a5fe6cbe86b0a9bcbed099cf94cad5a10c59509afd7ca2ddcfcd2c9",
+        "extract_request": "d606907f1bec4d137a187c6ec733733abd265db58393e8685210a402b42b89bf",
+        "extract_response": "9201b1d5e7bd01c134cc914aaf298b2061a3b16e971ed8031e3ceeee37125391",
+        "new_question_receipt": "48540ccb8ebaea71bb436e3db81c05473116db4451c697a63622da14555566f9",
+        "relations_call": "462c48033ea9eebd041221559666558beb7d29af925ce4a2ee851fb590839ee9",
+        "relations_prompt": "133955af4a1dbf494256ccbd82002096fb26d22a376631d898e3f55547309fdc",
+        "relations_request": "9f41ac64c5957ac7edde9827d5cd43bf0456ddab3c0c0d009fb3d562003f42da",
+        "relations_response": "91fdb81381ff9df9750fee4e7112a78b0056280191892ee988ba9c092a37c2bb",
+        "source_payload": "09ad40d79d02b6cbb3231baf43691fc4e999c60b402b8170066054e2be137b0a"
+      }
+    },
+    {
+      "accepted_relation_count": 3,
+      "all_annotated_sources_selected": true,
+      "answer_difference_operators": [],
+      "answers": {
+        "direct": "The Transamerica Pyramid",
+        "relations": "The Transamerica Pyramid"
+      },
+      "category": "same_correct_citation_gain",
+      "completion_token_ids_sha256": {
+        "direct": "b29358399fa01aa7569cfc6934de6674e5b09dd01a91202a7a7a52deccc03844",
+        "extract": "1eca17f1127efaa64342f849067aa0edb9445bf74d7f2b72fb2521702bd39e0d",
+        "relations": "2b979ac41700d82308f4517896b3b430815023606648bd9d7ee69b75d982519b"
+      },
+      "finding": "Both final answers are Transamerica Pyramid. Valid report contains the actual shared San Francisco entity in sources2/9; new final cites both, improving support EM0→1. This is better evidence citation, not a new answer recovery.",
+      "gold_component_facts_sha256_canonical": "a8a625aa0c25fde62d0b01b5bec708a1c8f8dd5f3e0d50c4065a87fae547dd4a",
+      "label": "Raven",
+      "limitation": "The helper nevertheless claims an explicit direct show/building statement is missing even though the two local facts compose through San Francisco.",
+      "parsed_helper_valid": true,
+      "primary_outcomes": {
+        "direct": "C",
+        "relations": "C"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "San Francisco",
+          "paragraph_id": 9,
+          "quote": "The Transamerica Pyramid at 600 Montgomery Street between Clay and Washington Streets in the Financial District of San Francisco, California, United States, is a 48 - story postmodern building and the second - tallest skyscraper in the San Francisco skyline.",
+          "relation": "is located in",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "91017ef2550e5bdf09aceeede32bc15e3397e09dd92b44df6cef5b723d9d25e2",
+          "subject": "Transamerica Pyramid"
+        },
+        {
+          "exact_substring": true,
+          "object": "San Francisco",
+          "paragraph_id": 2,
+          "quote": "The show was set in San Francisco and revolved around teenager Raven Baxter, played by Raven - Symoné, her friends Eddie (Orlando Brown) and Chelsea (Anneliese van der Pol), her family members; mother Tanya Baxter (T'Keyah Crystal Keymáh), father Victor Baxter (Rondell Sheridan) and brother Cory (Kyle Massey).",
+          "relation": "is set in",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "d2aca50049fa9780a0dfea4ee028aa15bd7a806c81a1ad477edb7b838b9ebbc7",
+          "subject": "That's So Raven"
+        },
+        {
+          "exact_substring": true,
+          "object": "San Francisco",
+          "paragraph_id": 9,
+          "quote": "The Transamerica Pyramid at 600 Montgomery Street between Clay and Washington Streets in the Financial District of San Francisco, California, United States, is a 48 - story postmodern building and the second - tallest skyscraper in the San Francisco skyline.",
+          "relation": "is a building in",
+          "relation_index": 2,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "91017ef2550e5bdf09aceeede32bc15e3397e09dd92b44df6cef5b723d9d25e2",
+          "subject": "Transamerica Pyramid"
+        }
+      ],
+      "record_id": "q0617d8bcca5d6bb08ed0",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/29615e8def7095b87fd93caec59ec3f4a6070042d8dee06ab66a2708c3879d3a.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/29615e8def7095b87fd93caec59ec3f4a6070042d8dee06ab66a2708c3879d3a.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/29615e8def7095b87fd93caec59ec3f4a6070042d8dee06ab66a2708c3879d3a-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/29615e8def7095b87fd93caec59ec3f4a6070042d8dee06ab66a2708c3879d3a-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/01643ec47c70988aeaf8d3c4f960db648e55ec6250136dbf3a521224d0013757.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/01643ec47c70988aeaf8d3c4f960db648e55ec6250136dbf3a521224d0013757.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/01643ec47c70988aeaf8d3c4f960db648e55ec6250136dbf3a521224d0013757-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/01643ec47c70988aeaf8d3c4f960db648e55ec6250136dbf3a521224d0013757-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/q0617d8bcca5d6bb08ed0.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/4cac2d05280663a161229ea9ba18ba18efbeb04b2bdcae75ad88ddbe44d6c9fc.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/4cac2d05280663a161229ea9ba18ba18efbeb04b2bdcae75ad88ddbe44d6c9fc.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/4cac2d05280663a161229ea9ba18ba18efbeb04b2bdcae75ad88ddbe44d6c9fc-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/4cac2d05280663a161229ea9ba18ba18efbeb04b2bdcae75ad88ddbe44d6c9fc-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q0617d8bcca5d6bb08ed0.json"
+      },
+      "source_sha256": {
+        "direct_call": "13e0ff9fb913cbc03b65efc7e258954a7274d171a56b3f53bab31a4599578269",
+        "direct_prompt": "2428d7ef9071e9f795a95ed5907652a9f4554eebe90a2b072ac2efba73d3f852",
+        "direct_request": "dff4d71967b2160b4770c4a99f883b880e8f682e511fb0a81291323471473d11",
+        "direct_response": "843ffe1f77d0e0d45eeeacc9de11c332765e73875ed54cf28387a5031deb08d4",
+        "extract_call": "eb984468fa17e8b626bf0024732494130638d8115563063951caf3d2007fa99e",
+        "extract_prompt": "d2599a073d38f1ada4f7a2ba11f20e4739d119e0896784008a58e152f4157651",
+        "extract_request": "4994d0e9460590dd2c4da2d2880f3c779233c4baadf5b4f0c04f3932fd7d75bf",
+        "extract_response": "079ebd8c6101d5e8b945ca2e4daba6dc8d0c748e77ce486511581807a4589922",
+        "new_question_receipt": "059e84c5407952a83775d9b872197a8ac8c51e75049040d7e06003177fc1fe69",
+        "relations_call": "2cab05e0f9536bc5f8e4f50312e4c67e27d27b88df85b818cfec82116566a3fd",
+        "relations_prompt": "0de404fcfc997ad58f2b74027fcd28f3de61763edfea4645aa43ef5c61efb08a",
+        "relations_request": "7f768015596d1cb5a6e873d8e1fa91df041ab6b28e1f52458bfc1311a5536664",
+        "relations_response": "1aa7186be0ca23698e2dc6946a46280f42ba3ddb1d83b33085bd37c0cac2bf7b",
+        "source_payload": "1552a778b868f55758920fc09bdd584f9d44026e5ca900ef0474ef1d519b4f47"
+      }
+    },
+    {
+      "accepted_relation_count": 0,
+      "all_annotated_sources_selected": true,
+      "answer_difference_operators": [
+        {
+          "new_interval": [
+            0,
+            2
+          ],
+          "new_text": "Je",
+          "old_interval": [
+            0,
+            5
+          ],
+          "old_text": "Saint",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            3,
+            3
+          ],
+          "new_text": "",
+          "old_interval": [
+            6,
+            26
+          ],
+          "old_text": " Simplicius, Faustin",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            6,
+            22
+          ],
+          "new_text": "Christ's life te",
+          "old_interval": [
+            29,
+            29
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            23,
+            54
+          ],
+          "new_text": "ches the members of the religio",
+          "old_interval": [
+            30,
+            30
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            55,
+            63
+          ],
+          "new_text": " targete",
+          "old_interval": [
+            31,
+            31
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            65,
+            74
+          ],
+          "new_text": "in the Gr",
+          "old_interval": [
+            33,
+            34
+          ],
+          "old_text": "B",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            77,
+            80
+          ],
+          "new_text": " Pe",
+          "old_interval": [
+            37,
+            37
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            81,
+            86
+          ],
+          "new_text": "secut",
+          "old_interval": [
+            38,
+            38
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            87,
+            108
+          ],
+          "new_text": "on that began in 303.",
+          "old_interval": [
+            39,
+            40
+          ],
+          "old_text": "x",
+          "operator": "replace"
+        }
+      ],
+      "answers": {
+        "direct": "Saints Simplicius, Faustinus and Beatrix",
+        "relations": "Jesus Christ's life teaches the members of the religion targeted in the Great Persecution that began in 303."
+      },
+      "category": "same_wrong_entity_content_gain_rejected_report",
+      "completion_token_ids_sha256": {
+        "direct": "f23f407196e4bc862aeff0116afe7bc64f74814bd466ce1ff3280091bde947c7",
+        "extract": "49744d82448f95feb1ad5f3b90caf3498b5a204bae3fe647a94fd740bf1a7755",
+        "relations": "1f1bb69e0d0c4e528c2d5325c0b587c1a97f4df9f14f0d862a59862948ca8e60"
+      },
+      "finding": "Direct chooses martyrs; new final names Jesus Christ in a full sentence and still fails exact answer. The correct relationship is explicitly present in source3 and persecution target in17. All four helper quotes replace ASCII quotation marks with typographic marks and the whole helper report—including its Jesus mention in missing_links—is discarded. The final only sees raw4 plus empty/error metadata.",
+      "gold_component_facts_sha256_canonical": "12a147b334b1f3b02b1ed09a8d8a8a80c3620350e9c0531db830f60bcb63d24b",
+      "label": "Christian",
+      "limitation": "This is an observed correct-entity content change under a changed final prefix, not evidence that accepted extracted relations caused a successful join. Helper itself spends all four facts on distractor martyrs.",
+      "parsed_helper_valid": false,
+      "primary_outcomes": {
+        "direct": "W",
+        "relations": "W"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": false,
+          "object": "the Diocletian persecution",
+          "paragraph_id": 7,
+          "quote": "Saints Simplicius, Faustinus and Beatrix (or „Beatrice, Viatrix”) were a group of Christian martyrs who died in Rome during the Diocletian persecution (302 or 303).",
+          "relation": "was a martyr during",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "b2d716d7f7f0ba55a8e0328ad011e321bc61b709c10e589376d443771a669c04",
+          "subject": "Simplicius"
+        },
+        {
+          "exact_substring": false,
+          "object": "the Diocletian persecution",
+          "paragraph_id": 7,
+          "quote": "Saints Simplicius, Faustinus and Beatrix (or „Beatrice, Viatrix”) were a group of Christian martyrs who died in Rome during the Diocletian persecution (302 or 303).",
+          "relation": "was a martyr during",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "b2d716d7f7f0ba55a8e0328ad011e321bc61b709c10e589376d443771a669c04",
+          "subject": "Faustinus"
+        },
+        {
+          "exact_substring": false,
+          "object": "the Diocletian persecution",
+          "paragraph_id": 7,
+          "quote": "Saints Simplicius, Faustinus and Beatrix (or „Beatrice, Viatrix”) were a group of Christian martyrs who died in Rome during the Diocletian persecution (302 or 303).",
+          "relation": "was a martyr during",
+          "relation_index": 2,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "b2d716d7f7f0ba55a8e0328ad011e321bc61b709c10e589376d443771a669c04",
+          "subject": "Beatrix"
+        },
+        {
+          "exact_substring": false,
+          "object": "the persecutions of the Roman emperor Diocletian in 303",
+          "paragraph_id": 12,
+          "quote": "Saint Cessianus („ca.” 295 - 303) is a Roman Catholic saint and martyr. At the age of eight, he was martyred during the persecutions of the Roman emperor Diocletian in 303.",
+          "relation": "was martyred during",
+          "relation_index": 3,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "cb5ab5e5c01261428d2aa60b03abd7540697a940e5991922eeec90f34ff27c98",
+          "subject": "Cessianus"
+        }
+      ],
+      "record_id": "qe758ff5a6c6a4c8ab52f",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/8296db4bf9e0ddafd646f873b125aaa13bd0100e0b92301ff409f6229dda19c8.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/8296db4bf9e0ddafd646f873b125aaa13bd0100e0b92301ff409f6229dda19c8.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/8296db4bf9e0ddafd646f873b125aaa13bd0100e0b92301ff409f6229dda19c8-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/8296db4bf9e0ddafd646f873b125aaa13bd0100e0b92301ff409f6229dda19c8-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/aaabda99b5865dd7df44dac9c971aac093e73d372b64f6690f7a1dea169d586c.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/aaabda99b5865dd7df44dac9c971aac093e73d372b64f6690f7a1dea169d586c.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/aaabda99b5865dd7df44dac9c971aac093e73d372b64f6690f7a1dea169d586c-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/aaabda99b5865dd7df44dac9c971aac093e73d372b64f6690f7a1dea169d586c-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/qe758ff5a6c6a4c8ab52f.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/a6029f317c89aac60e54aaf61cc2ff390fedbea0883558911a8f8eaa835afea4.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/a6029f317c89aac60e54aaf61cc2ff390fedbea0883558911a8f8eaa835afea4.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/a6029f317c89aac60e54aaf61cc2ff390fedbea0883558911a8f8eaa835afea4-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/a6029f317c89aac60e54aaf61cc2ff390fedbea0883558911a8f8eaa835afea4-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/qe758ff5a6c6a4c8ab52f.json"
+      },
+      "source_sha256": {
+        "direct_call": "ac24362315d6cfe77b15b4bd99503fe081aae9a1f0835bbca0fe9ad4c1ed2945",
+        "direct_prompt": "1c3d404d6cc7c24d940e0ac682e4cbc907361a02625f0fb36aee1860fb43d5be",
+        "direct_request": "a7bf7945ab38890f84753e1250e7ee49a89fd4feba35b69e29772aea13ef7a20",
+        "direct_response": "77b85b6656f3c9a99969a04891f085f8e4fff26c645317de85386183368f6fe3",
+        "extract_call": "ebcac794363e0d81581762917e2be4f6acb30730f48991f216145a8f0e544540",
+        "extract_prompt": "286c9a359064259a25f1026c49ecda99bd6e89cad322e871d3134d01713e31b7",
+        "extract_request": "b1fa4e4bc106ee3e288f34306069ea91f9ae206adb651120708973a17d0405f2",
+        "extract_response": "c66708adba3de3600cdd2a96836e1fb212bd6ea24ff3019556dc4596e554971d",
+        "new_question_receipt": "269953128d0a6a01665cf9d36a5c919402d9f29cff2ac5d147eb30e27e993b1f",
+        "relations_call": "ec5e227fc8bafa223c3f1cf1a2d5f3ac1361f5f16b3241c4e5b95b9bd9a61fe4",
+        "relations_prompt": "a1df31fe6e8acc1aa3c3661667b2877aecac3a65727d96d97cdae8fac81481d5",
+        "relations_request": "6c68d0adf23449a653f9f372c5a8619f62ced8b92a92abe0e7f2e956d322fa34",
+        "relations_response": "4ca9dc4f749ccdecbdaf699478bab29699554ba00ba499df1c6e087b05dfba83",
+        "source_payload": "756b6d0dfe13beb263fe0d2a369479b1f98fd54c329078fcc5e912d2211c6615"
+      }
+    },
+    {
+      "accepted_relation_count": 4,
+      "all_annotated_sources_selected": false,
+      "answer_difference_operators": [
+        {
+          "new_interval": [
+            3,
+            12
+          ],
+          "new_text": " original",
+          "old_interval": [
+            3,
+            3
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            46,
+            46
+          ],
+          "new_text": "",
+          "old_interval": [
+            37,
+            56
+          ],
+          "old_text": "certainty based on ",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            59,
+            59
+          ],
+          "new_text": "",
+          "old_interval": [
+            69,
+            71
+          ],
+          "old_text": "ev",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            60,
+            60
+          ],
+          "new_text": "",
+          "old_interval": [
+            72,
+            74
+          ],
+          "old_text": "de",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            61,
+            70
+          ],
+          "new_text": "formation",
+          "old_interval": [
+            75,
+            77
+          ],
+          "old_text": "ce",
+          "operator": "replace"
+        }
+      ],
+      "answers": {
+        "direct": "The question cannot be answered with certainty based on the provided evidence.",
+        "relations": "The original question cannot be answered with the provided information."
+      },
+      "category": "same_wrong_missing_sources",
+      "completion_token_ids_sha256": {
+        "direct": "881ff2f06652e7c40b407323e1a8657e639565edeb43e0c0e0a112ec549ccd36",
+        "extract": "b2b18faf5cb33ccbaf2d9d7448621ed51f9a71cce0015b896190298dc4e8de2d",
+        "relations": "abe79c44881871c645f600249b18e60976105750286abd892dfef78d188d8bde"
+      },
+      "finding": "Both finals abstain. Selected sources contain Daughtry/topfour/NorthCarolina but lack MayorTurner party2 and NC voting-year4. Generic Idol popularity and a second topfour contestant consume helper slots. Missing political information is real, not merely a final joining failure.",
+      "gold_component_facts_sha256_canonical": "11d3325a2808e0433ba8f163ba188973abbc02baf4ec837dca4f96ecd34f25d1",
+      "label": "Idol",
+      "limitation": "No source-grounded route to2008 exists in these frozen four paragraphs; a more fluent report cannot create that evidence.",
+      "parsed_helper_valid": true,
+      "primary_outcomes": {
+        "direct": "W",
+        "relations": "W"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "top four",
+          "paragraph_id": 6,
+          "quote": "One of the early favorites, Tamyra Gray, was eliminated at the top four, the first of several such shock eliminations that were to be repeated in later seasons.",
+          "relation": "eliminated at",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "7b0651eb77ad5737e6f569d82e7c4a03831a184de61e6d3781f914334cfcc9f3",
+          "subject": "Tamyra Gray"
+        },
+        {
+          "exact_substring": true,
+          "object": "top four",
+          "paragraph_id": 18,
+          "quote": "He was eliminated at the top four in a shocking result.",
+          "relation": "eliminated at",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "dd9ea2f5208f615e15a9d4d1b691595d5f3921e1271e984c0b2a6382b6ec6150",
+          "subject": "Chris Daughtry"
+        },
+        {
+          "exact_substring": true,
+          "object": "North Carolina",
+          "paragraph_id": 10,
+          "quote": "A large number of other notable finalists during the series' run have also hailed from the American South, including Clay Aiken, Kellie Pickler, and Chris Daughtry, who are all from North Carolina.",
+          "relation": "from",
+          "relation_index": 2,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "01bc15c6eae2a4ad9764c2be29327be35897b02ab49256699cd6350f41e2f556",
+          "subject": "Chris Daughtry"
+        },
+        {
+          "exact_substring": true,
+          "object": "Southeastern United States",
+          "paragraph_id": 12,
+          "quote": "The show itself is popular in the Southern United States, with households in the Southeastern United States 10% more likely to watch American Idol during the eighth season in 2009, and those in the East Central region, such as Kentucky, were 16 percent more likely to tune into the series.",
+          "relation": "popular in",
+          "relation_index": 3,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "2e898e6403f4788a1ea45ae163f5d6a63f942dd8665632e568169e17503ed11a",
+          "subject": "American Idol"
+        }
+      ],
+      "record_id": "q11c97ffb5874da1e6941",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/5b4c6f4567838762c5c9f24bf71db07d981e2971e33e035e4f0316d9288167ec.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/5b4c6f4567838762c5c9f24bf71db07d981e2971e33e035e4f0316d9288167ec.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/5b4c6f4567838762c5c9f24bf71db07d981e2971e33e035e4f0316d9288167ec-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/5b4c6f4567838762c5c9f24bf71db07d981e2971e33e035e4f0316d9288167ec-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/f5a4d55c6a58c09b6e63b5fa852555cfd598567884be4fd28febcdbef43f6896.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/f5a4d55c6a58c09b6e63b5fa852555cfd598567884be4fd28febcdbef43f6896.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/f5a4d55c6a58c09b6e63b5fa852555cfd598567884be4fd28febcdbef43f6896-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/f5a4d55c6a58c09b6e63b5fa852555cfd598567884be4fd28febcdbef43f6896-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/q11c97ffb5874da1e6941.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/58eec149495c9654cd913c438feca9312c8b914fa97029984face84d1e5cab8a.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/58eec149495c9654cd913c438feca9312c8b914fa97029984face84d1e5cab8a.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/58eec149495c9654cd913c438feca9312c8b914fa97029984face84d1e5cab8a-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/58eec149495c9654cd913c438feca9312c8b914fa97029984face84d1e5cab8a-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q11c97ffb5874da1e6941.json"
+      },
+      "source_sha256": {
+        "direct_call": "fb81064d9dedd3f23e4c06b10a57c53935161b449b5f1659a22fc4aa7d83f062",
+        "direct_prompt": "58c0fbde03d0a5d46afe2fece0d7d52a725e344b92e4a224b42bc30695a67c5c",
+        "direct_request": "925fd2a95e194e4ce3da4cb5d227a6c6de2c0a746147f17f3bb079ad2e40720d",
+        "direct_response": "5ce47b84258b42269e3f48780902f63d32c138524228d6cedcfa2202134c244a",
+        "extract_call": "f31a903c7d3038b333cfc94e085e1b2631cd44ba935d11a57508597cbade6965",
+        "extract_prompt": "c0a861d7f40ba0307936c1fb11062b3a78877a94f6b81bd57889accb9249aa6d",
+        "extract_request": "4e1400172dd3d2ab144033ad0e2c30c986266793504eda5af19d40d11076b098",
+        "extract_response": "42f838349917078bf83fef70e00b787bf02f318dbcb4739bf795ed67af5ca311",
+        "new_question_receipt": "b2f19a518ad3b1f09cfaafc86a2c6105a5121337ace266719c61a249700793a0",
+        "relations_call": "092aec3d012430b70efdcd09b32db3b5e54c82c7bc7b5eedd53697754d4429b9",
+        "relations_prompt": "8fb7590055db5b91c1638f8647f3d3f1dba0c3543d89646a90e4293609421a8e",
+        "relations_request": "4b4c29289353a39ab1f3f5dcee6b5412d9a662e06ae77e3824804f90870ef862",
+        "relations_response": "dbebe18b4e3afad2540b487104f81e99cc6aa661a4d7cf79fc7399beeb8b5d11",
+        "source_payload": "0291f14910a85c5ab55fdbe04382f9699d4779bb53633cefafecda665894489a"
+      }
+    },
+    {
+      "accepted_relation_count": 0,
+      "all_annotated_sources_selected": false,
+      "answer_difference_operators": [
+        {
+          "new_interval": [
+            0,
+            1
+          ],
+          "new_text": "T",
+          "old_interval": [
+            0,
+            25
+          ],
+          "old_text": "Neither house music nor t",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            4,
+            5
+          ],
+          "new_text": "p",
+          "old_interval": [
+            28,
+            28
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            6,
+            10
+          ],
+          "new_text": "ovid",
+          "old_interval": [
+            29,
+            29
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            11,
+            16
+          ],
+          "new_text": "d inf",
+          "old_interval": [
+            30,
+            31
+          ],
+          "old_text": "c",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            17,
+            20
+          ],
+          "new_text": "rma",
+          "old_interval": [
+            32,
+            35
+          ],
+          "old_text": "gni",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            25,
+            26
+          ],
+          "new_text": "d",
+          "old_interval": [
+            40,
+            40
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            27,
+            66
+          ],
+          "new_text": "es not contain any details that connect",
+          "old_interval": [
+            41,
+            42
+          ],
+          "old_text": "f",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            88,
+            88
+          ],
+          "new_text": "",
+          "old_interval": [
+            64,
+            122
+          ],
+          "old_text": "at an early date is supported by the provided evidence in ",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            90,
+            95
+          ],
+          "new_text": "cogni",
+          "old_interval": [
+            124,
+            126
+          ],
+          "old_text": "la",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            99,
+            100
+          ],
+          "new_text": ",",
+          "old_interval": [
+            130,
+            133
+          ],
+          "old_text": " to",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            144,
+            145
+          ],
+          "new_text": ",",
+          "old_interval": [
+            177,
+            178
+          ],
+          "old_text": ".",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            146,
+            148
+          ],
+          "new_text": "or",
+          "old_interval": [
+            179,
+            182
+          ],
+          "old_text": "The",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            149,
+            150
+          ],
+          "new_text": "a",
+          "old_interval": [
+            183,
+            188
+          ],
+          "old_text": "evide",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            151,
+            155
+          ],
+          "new_text": "y fa",
+          "old_interval": [
+            189,
+            189
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            156,
+            157
+          ],
+          "new_text": "t",
+          "old_interval": [
+            190,
+            194
+          ],
+          "old_text": "e sh",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            158,
+            159
+          ],
+          "new_text": "r",
+          "old_interval": [
+            195,
+            197
+          ],
+          "old_text": "ws",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            165,
+            169
+          ],
+          "new_text": "bols",
+          "old_interval": [
+            203,
+            208
+          ],
+          "old_text": "Dwigh",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            170,
+            170
+          ],
+          "new_text": "",
+          "old_interval": [
+            209,
+            293
+          ],
+          "old_text": " D. Eisenhower served as U.S. President with Richard Nixon as Vice President, but th",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            173,
+            173
+          ],
+          "new_text": "",
+          "old_interval": [
+            296,
+            324
+          ],
+          "old_text": " is no connection establishe",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            174,
+            174
+          ],
+          "new_text": "",
+          "old_interval": [
+            325,
+            333
+          ],
+          "old_text": " between",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            186,
+            263
+          ],
+          "new_text": " in a nation. The question contains contradictory or unrelated elements (e.g.",
+          "old_interval": [
+            345,
+            345
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            264,
+            274
+          ],
+          "new_text": " Gaddafi's",
+          "old_interval": [
+            346,
+            346
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            287,
+            287
+          ],
+          "new_text": "",
+          "old_interval": [
+            359,
+            363
+          ],
+          "old_text": "of G",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            288,
+            289
+          ],
+          "new_text": "n",
+          "old_interval": [
+            364,
+            364
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            290,
+            290
+          ],
+          "new_text": "",
+          "old_interval": [
+            365,
+            429
+          ],
+          "old_text": "dafi's government, or early recognition of Gaddafi's regime with",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            318,
+            409
+          ],
+          "new_text": " being president, which is false; Eisenhower's VP was Richard Nixon, who was not president)",
+          "old_interval": [
+            457,
+            457
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            426,
+            426
+          ],
+          "new_text": "",
+          "old_interval": [
+            474,
+            483
+          ],
+          "old_text": "original ",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            435,
+            455
+          ],
+          "new_text": "is invalid or based ",
+          "old_interval": [
+            492,
+            493
+          ],
+          "old_text": "c",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            457,
+            459
+          ],
+          "new_text": " f",
+          "old_interval": [
+            495,
+            496
+          ],
+          "old_text": "t",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            460,
+            461
+          ],
+          "new_text": "l",
+          "old_interval": [
+            497,
+            507
+          ],
+          "old_text": "ins a non-",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            463,
+            468
+          ],
+          "new_text": " prem",
+          "old_interval": [
+            509,
+            511
+          ],
+          "old_text": "qu",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            469,
+            473
+          ],
+          "new_text": "ses,",
+          "old_interval": [
+            512,
+            515
+          ],
+          "old_text": "tur",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            478,
+            478
+          ],
+          "new_text": "",
+          "old_interval": [
+            520,
+            523
+          ],
+          "old_text": "is ",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            480,
+            480
+          ],
+          "new_text": "",
+          "old_interval": [
+            525,
+            526
+          ],
+          "old_text": "t",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            481,
+            489
+          ],
+          "new_text": "valid an",
+          "old_interval": [
+            527,
+            527
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            490,
+            492
+          ],
+          "new_text": "we",
+          "old_interval": [
+            528,
+            532
+          ],
+          "old_text": "uppo",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            493,
+            506
+          ],
+          "new_text": " can be deriv",
+          "old_interval": [
+            533,
+            534
+          ],
+          "old_text": "t",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            509,
+            513
+          ],
+          "new_text": "from",
+          "old_interval": [
+            537,
+            539
+          ],
+          "old_text": "by",
+          "operator": "replace"
+        }
+      ],
+      "answers": {
+        "direct": "Neither house music nor the recognition of Gaddafi's government at an early date is supported by the provided evidence in relation to Eisenhower's vice president being president. The evidence shows that Dwight D. Eisenhower served as U.S. President with Richard Nixon as Vice President, but there is no connection established between house music, recognition of Gaddafi's government, or early recognition of Gaddafi's regime with Eisenhower's vice president. Therefore, the original question contains a non-sequitur and is not supported by the evidence.",
+        "relations": "The provided information does not contain any details that connect Gaddafi's government recognition, Eisenhower's vice president being president, or any factor that bolstered house music in a nation. The question contains contradictory or unrelated elements (e.g., Gaddafi's recognition and Eisenhower's vice president being president, which is false; Eisenhower's VP was Richard Nixon, who was not president). Therefore, the question is invalid or based on false premises, and no valid answer can be derived from the evidence."
+      },
+      "category": "same_wrong_missing_bridge_and_bad_query_join",
+      "completion_token_ids_sha256": {
+        "direct": "4fcc160d30033ed81d2a543859435ba5add9d718455cdb4c94dea195333353e6",
+        "extract": "78f47c16cbbc10a4ba812be77c513f44fa655367ac206d25ecbdbd8f8cee5c94",
+        "relations": "3d31779b3e2d67f918ecfb905015d9c139ff917e55bd90d546281a69018e94f5"
+      },
+      "finding": "Both finals reject the nested question rather than give the local source11 phrase underground Pirate Radio stations and DJs. Flexible raw4 omit recognition bridge7. Source1 nevertheless explicitly lists Nixon among U.S. Presidents, so the new final assertion Nixon was not president contradicts selected evidence.",
+      "gold_component_facts_sha256_canonical": "e268d4a3df760ba5bc8986605d288df76fb9cf93c9d15d70fc629c891b0450d2",
+      "label": "House music",
+      "limitation": "Helper omits the useful house-music relation, spends slots on travel/office facts, and invents an editorial note inside a supposed quote; whole report rejected. This combines missing selection, dropped useful local fact and bad nested-query interpretation, not a formatting-only miss.",
+      "parsed_helper_valid": false,
+      "primary_outcomes": {
+        "direct": "W",
+        "relations": "W"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "permitting foreigners to freely travel through the country and its citizens to travel worldwide",
+          "paragraph_id": 1,
+          "quote": "Yugoslavia had a liberal travel policy permitting foreigners to freely travel through the country and its citizens to travel worldwide, whereas it was limited by most Communist countries.",
+          "relation": "had liberal travel policy",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "6e90ba274b078b0c154ece287935bdc14db6a134fb3317b6e6892ef456ec4a92",
+          "subject": "Yugoslavia"
+        },
+        {
+          "exact_substring": false,
+          "object": "Muammar Gaddafi",
+          "paragraph_id": 1,
+          "quote": "He also met numerous celebrities. [Note: This sentence does not explicitly state Tito met Gaddafi; see below.]",
+          "relation": "met",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "6e90ba274b078b0c154ece287935bdc14db6a134fb3317b6e6892ef456ec4a92",
+          "subject": "Josip Broz Tito"
+        },
+        {
+          "exact_substring": true,
+          "object": "United States",
+          "paragraph_id": 13,
+          "quote": "President: Dwight D. Eisenhower (R - Kansas / New York)",
+          "relation": "served as president",
+          "relation_index": 2,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "07ebb9f74923061af4d48e947ce232a52ca6dee781107d17b12e4df2c655c23d",
+          "subject": "Dwight D. Eisenhower"
+        },
+        {
+          "exact_substring": true,
+          "object": "United States",
+          "paragraph_id": 13,
+          "quote": "Vice President: Richard Nixon (R - California)",
+          "relation": "served as vice president",
+          "relation_index": 3,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "07ebb9f74923061af4d48e947ce232a52ca6dee781107d17b12e4df2c655c23d",
+          "subject": "Richard Nixon"
+        }
+      ],
+      "record_id": "qbefa334e11dccbcdb36d",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/9c669485b995bdbae3a0bfada93d2d44c04b197c6ad4ac9c804ea7efa4916cb0.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/9c669485b995bdbae3a0bfada93d2d44c04b197c6ad4ac9c804ea7efa4916cb0.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/9c669485b995bdbae3a0bfada93d2d44c04b197c6ad4ac9c804ea7efa4916cb0-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/9c669485b995bdbae3a0bfada93d2d44c04b197c6ad4ac9c804ea7efa4916cb0-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/a1d4e59c32fed722e537be36a96e3a6e096c139adfe27942197bd017cbc593b6.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/a1d4e59c32fed722e537be36a96e3a6e096c139adfe27942197bd017cbc593b6.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/a1d4e59c32fed722e537be36a96e3a6e096c139adfe27942197bd017cbc593b6-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/a1d4e59c32fed722e537be36a96e3a6e096c139adfe27942197bd017cbc593b6-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/qbefa334e11dccbcdb36d.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/3793585eedaf7f1ac4aa33b6a38ec8b0bd367fc6919b2b781661dba16ddbb332.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/3793585eedaf7f1ac4aa33b6a38ec8b0bd367fc6919b2b781661dba16ddbb332.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/3793585eedaf7f1ac4aa33b6a38ec8b0bd367fc6919b2b781661dba16ddbb332-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/3793585eedaf7f1ac4aa33b6a38ec8b0bd367fc6919b2b781661dba16ddbb332-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/qbefa334e11dccbcdb36d.json"
+      },
+      "source_sha256": {
+        "direct_call": "c9df65d9a543b8f0b5c9a4cd755fb64260197f4c540c0b46e9d1cad45a7c7d8d",
+        "direct_prompt": "1357c0c7cc471ff98cf63aeea5f3f9c6525dd2890dd21d9c5a2a9f0b1104e198",
+        "direct_request": "443daec53ea3d878e104fa67f86778d605e710c75e2d451686b5e113c6e2c387",
+        "direct_response": "b7ba710368649e682b4d6fb4c1dd55f926e912030ce7a6bb42e8a4d1e753df29",
+        "extract_call": "f06386356bfd57ab5b749b1b644039f6b1452dc001968b55d68c5d841ed81021",
+        "extract_prompt": "c16e3e625f3a2cbe33006f7e3573cce0aa4c07cb68e2227711c5ea7a12e30a62",
+        "extract_request": "555ed9b66147c8f588c6b56a2d9f46a26f3a8376a7cd411f95436748514481ae",
+        "extract_response": "7fe5f1b404306cd6c1abfc264c44564e6924c23cb649b9a96ce742a086a207ba",
+        "new_question_receipt": "297b1921c9d4c16f4a1394ebf6de00bbfa7c7cf15fcdfa6f84f359745ab3bbff",
+        "relations_call": "604d903c222801bf8bd0671d8d483ac960794f1bc37456ec5532339143ae2b4b",
+        "relations_prompt": "6fac1b99c619cc3aa88304623d842ef881cd343db801468518abadc45caf89bd",
+        "relations_request": "75dbeea31faa272235a09ff29e01423a5827eac3c2562a87ff1d7459f56e0d71",
+        "relations_response": "312507df33a1669d63019d3b734002f52299325b1a770e6e8ec26aaec4d9a446",
+        "source_payload": "2706d61637e40ef5b12c4e80d6b9754543d24fd2f0722359434d9b6ee8a78146"
+      }
+    },
+    {
+      "accepted_relation_count": 3,
+      "all_annotated_sources_selected": false,
+      "answer_difference_operators": [
+        {
+          "new_interval": [
+            4,
+            17
+          ],
+          "new_text": " square miles",
+          "old_interval": [
+            4,
+            4
+          ],
+          "old_text": "",
+          "operator": "insert"
+        }
+      ],
+      "answers": {
+        "direct": "48.4",
+        "relations": "48.4 square miles"
+      },
+      "category": "win_measurement_unit_surface",
+      "completion_token_ids_sha256": {
+        "direct": "ad3dc7bb854327549590c32824ff5d7548ad293283fa5060956e8b16ff0abc19",
+        "extract": "6e5f04dd0b9e2ce78661529986e456e06bba683b113c4c4f0663e862381e8ceb",
+        "relations": "be1bd94ac8bf786f0422fcb2bb54194e54aaa9ca0a3b9b8c90996d53076a442e"
+      },
+      "finding": "Old final48.4 becomes48.4 square miles: the numerical answer was already correct, while the new phrase satisfies official exactness. Source0 explicitly provides area; source4 locates Wellesley in Massachusetts. The selected set lacks the explicit Massachusetts→Boston bridge13.",
+      "gold_component_facts_sha256_canonical": "e8612ad2ff961fde18a6b5aa752f8df733407c4ce47bf08acc0819d53a215df0",
+      "label": "Boston",
+      "limitation": "The accepted helper asserts Massachusetts has capital Boston but quotes only that Boston is a state capital with coastline. That exact substring does not establish which state. Do not interpret the exact win as proven source-grounded multi-hop composition.",
+      "parsed_helper_valid": true,
+      "primary_outcomes": {
+        "direct": "W",
+        "relations": "C"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "Massachusetts",
+          "paragraph_id": 4,
+          "quote": "In 1953, Katherine Ann Watson (Julia Roberts), a 30 - year - old graduate student in the department of Art History at UCLA, takes a position teaching ``History of Art ''at Wellesley College, a conservative women's private liberal arts college in Massachusetts.",
+          "relation": "is located in",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "e90d65fa0b85e1a46c949aad1d316fe89ae844e7d8d2039e9a20247a9731c134",
+          "subject": "Wellesley College"
+        },
+        {
+          "exact_substring": true,
+          "object": "Boston",
+          "paragraph_id": 0,
+          "quote": "Boston is the only state capital in the contiguous United States with an oceanic coastline.",
+          "relation": "has capital",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "97218ad5e4b416a77330b720fe80ee9367b98f93c8f91c6f89b69ad7cae6737c",
+          "subject": "Massachusetts"
+        },
+        {
+          "exact_substring": true,
+          "object": "48.4 square miles",
+          "paragraph_id": 0,
+          "quote": "Boston has an area of 89.6 square miles (232.1 km2)—48.4 square miles (125.4 km2) (54.0%) of land and 41.2 square miles (106.7 km2) (46.0%) of water.",
+          "relation": "has land area",
+          "relation_index": 2,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "97218ad5e4b416a77330b720fe80ee9367b98f93c8f91c6f89b69ad7cae6737c",
+          "subject": "Boston"
+        }
+      ],
+      "record_id": "qb53b0da358d8710a5f77",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/132cfcd0af429524967abaa26e90fcfd3c301d363f892357eabd5eedf93833d0.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/132cfcd0af429524967abaa26e90fcfd3c301d363f892357eabd5eedf93833d0.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/132cfcd0af429524967abaa26e90fcfd3c301d363f892357eabd5eedf93833d0-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/132cfcd0af429524967abaa26e90fcfd3c301d363f892357eabd5eedf93833d0-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/c5d693b4c02825a0a9f06a468a01f845f854102813191fced5508a2246e12e66.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/c5d693b4c02825a0a9f06a468a01f845f854102813191fced5508a2246e12e66.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/c5d693b4c02825a0a9f06a468a01f845f854102813191fced5508a2246e12e66-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/c5d693b4c02825a0a9f06a468a01f845f854102813191fced5508a2246e12e66-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/qb53b0da358d8710a5f77.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/355e9a969666fe0e0c4a2bd85c0d5d19c251117c89d03495e93bb380d8ddbe15.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/355e9a969666fe0e0c4a2bd85c0d5d19c251117c89d03495e93bb380d8ddbe15.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/355e9a969666fe0e0c4a2bd85c0d5d19c251117c89d03495e93bb380d8ddbe15-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/355e9a969666fe0e0c4a2bd85c0d5d19c251117c89d03495e93bb380d8ddbe15-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/qb53b0da358d8710a5f77.json"
+      },
+      "source_sha256": {
+        "direct_call": "5d9135fc5820dbe2d9e4b18c8ef15ce7e7fc5b1971794d4d2fef9fbc1b09fbd6",
+        "direct_prompt": "674b509b55e54abf3c138f2f66454194fb86d7d178936c1c0acfae8249026859",
+        "direct_request": "f3d206d2fe81cc236563560a09b73078e867b31acc1faab0a7cfe79b3a68dd14",
+        "direct_response": "81f56e00fa0d2b758c235682d95e89947a87a2291cbb57fa8144e460ccda1e62",
+        "extract_call": "0b35a77f5f3fb8d4efe1f99131410303bacec01d135198b7ad2742b6fbd1bbe1",
+        "extract_prompt": "07921d1602e47fee80afbfce91ec41eab052997d31ffa11495348296e8fb1fea",
+        "extract_request": "d9072f532726185167ef14f32b59b12727b98f6a90b62d4fe605fdbe0745d497",
+        "extract_response": "22fcd032c62faba14813111dd5466fc05964c6ac9dbed3b4aaa41f01f1aef74d",
+        "new_question_receipt": "ceed8d64e99e642402fbeb985c6d4d3e6cd277591d6ad1fc6c953682589089f3",
+        "relations_call": "c552fa273f5497cfcfac31352564a11e75e384629bb65eb55ab67b7558c8e762",
+        "relations_prompt": "a322a77641691411bd09f0dcdbe9ed8b3d9c2fdbcabdf236c87be9bb23f6d6e5",
+        "relations_request": "84dcd5196270e39a9769317620d6e5bca6930b090ec5e8244ca3239945d106d6",
+        "relations_response": "00fc6176f8a8bacf452683001ddc0c20355bf03288dd11893b9db7968437f1ca",
+        "source_payload": "879dc286cb93d93cdb2f8ae2d18868a201f57613986123ca008a5ce8c51daa22"
+      }
+    },
+    {
+      "accepted_relation_count": 2,
+      "all_annotated_sources_selected": false,
+      "answer_difference_operators": [
+        {
+          "new_interval": [
+            0,
+            1
+          ],
+          "new_text": "f",
+          "old_interval": [
+            0,
+            1
+          ],
+          "old_text": "F",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            13,
+            13
+          ],
+          "new_text": "",
+          "old_interval": [
+            13,
+            32
+          ],
+          "old_text": " tornadoes per year",
+          "operator": "delete"
+        }
+      ],
+      "answers": {
+        "direct": "Fewer than 20 tornadoes per year",
+        "relations": "fewer than 20"
+      },
+      "category": "win_count_phrase_surface",
+      "completion_token_ids_sha256": {
+        "direct": "6212881c087b78539f46d8f78d41a2cd573ad58898a58f72f9eccee4ff052e4c",
+        "extract": "2a650b5a2b62af79e9bb658a37ac2cc4895042f51d350b67b7979b4986179911",
+        "relations": "93d4dab67b68ec0ac7171f9e409a618f60eb14703c18be10f040e09881be1b70"
+      },
+      "finding": "Old Fewer than20 tornadoes per year becomes fewer than20, preserving the same count. Helper validly extracts Charlotte→NorthCarolina and the average count from0/11. Missing immigrant-religion source1 remains missing. Final citation11 is unchanged.",
+      "gold_component_facts_sha256_canonical": "6f2601d7bd985c88ee09cf523c3edbfa9fd6d6544fdb3391484d4132bbdf85a7",
+      "label": "Tornado",
+      "limitation": "This is answer-phrase narrowing, not new fact retrieval or recovery of the full annotated chain. The old answer already contained all requested count information.",
+      "parsed_helper_valid": true,
+      "primary_outcomes": {
+        "direct": "W",
+        "relations": "C"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "North Carolina",
+          "paragraph_id": 0,
+          "quote": "The Charlotte See is led by a bishop who serves as pastor of the Cathedral of Saint Patrick in Charlotte, North Carolina.",
+          "relation": "located in",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "667f1f719b0dae5754d2d1ed217f1990a566f95b620e29158b65acac693c5e76",
+          "subject": "Roman Catholic Diocese of Charlotte"
+        },
+        {
+          "exact_substring": true,
+          "object": "fewer than 20 tornadoes per year",
+          "paragraph_id": 11,
+          "quote": "North Carolina averages fewer than 20 tornadoes per year, many of them produced by hurricanes or tropical storms along the coastal plain.",
+          "relation": "has on average",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "49b89a24c5f9e8955b22cc8231526655a9c2d49ba8517f7012f1c26200348eee",
+          "subject": "North Carolina"
+        }
+      ],
+      "record_id": "q7e02378adeb958101023",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/5b497d12db5ca268c1fd8dc5ee6203cdfab6a7f5ec0ccb825b45303d7d242297.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/5b497d12db5ca268c1fd8dc5ee6203cdfab6a7f5ec0ccb825b45303d7d242297.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/5b497d12db5ca268c1fd8dc5ee6203cdfab6a7f5ec0ccb825b45303d7d242297-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/5b497d12db5ca268c1fd8dc5ee6203cdfab6a7f5ec0ccb825b45303d7d242297-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/44c73a5a5c7792ea6ed58276218e4bc95019a91292376e9ebb2b782775d25695.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/44c73a5a5c7792ea6ed58276218e4bc95019a91292376e9ebb2b782775d25695.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/44c73a5a5c7792ea6ed58276218e4bc95019a91292376e9ebb2b782775d25695-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/44c73a5a5c7792ea6ed58276218e4bc95019a91292376e9ebb2b782775d25695-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/q7e02378adeb958101023.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/9e7189e62007cd539c30da7d09d37af2fe96cd56c8eb61397f63c224ab76e2e2.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/9e7189e62007cd539c30da7d09d37af2fe96cd56c8eb61397f63c224ab76e2e2.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/9e7189e62007cd539c30da7d09d37af2fe96cd56c8eb61397f63c224ab76e2e2-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/9e7189e62007cd539c30da7d09d37af2fe96cd56c8eb61397f63c224ab76e2e2-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q7e02378adeb958101023.json"
+      },
+      "source_sha256": {
+        "direct_call": "c077d3b93f3cf9aaac6b822a0729cd78da544ab6de880b1dc10e0bef3f611007",
+        "direct_prompt": "ed665a9a1e184caa2c89794d5f080b459acbb4a718273b92e5ec03f6fd38d453",
+        "direct_request": "b86cb55a998955858102df76fcca40ab3a7296b76904d38b2cb1050f901b561f",
+        "direct_response": "389ee747bc7f21f1d867e2228418e8c290225a915e13e7243b004ec2b30ceec1",
+        "extract_call": "247aab9415810ffcca363a6364f39910b5ba915a78140483e886e9e63ebf6210",
+        "extract_prompt": "63ef60e1b1dea2b168672307714243ba1686d60a1ef33103eebca87a3c7d4620",
+        "extract_request": "2f1c9ada34605ecf2e5e2b175781f519238ed113a105e63df3ce44777aa418d8",
+        "extract_response": "39b21253ea730d7eb45f59a4151e9ffcf7503312d347b4090ee755a58952bf5f",
+        "new_question_receipt": "a2d26dc65697efff86ccb559a31f5f96701eb4ee7144bd3e15d16c10489d2834",
+        "relations_call": "5128b70dac88bab992c4a9246eb8e89830cc59a93d18493bff275065b268288b",
+        "relations_prompt": "64ceeade51fc6ad827eda2624b969315d9af3edf66c06c96506ede5019b3724b",
+        "relations_request": "6d7963e7fbcd31f6d28696ad00b088e0cf132241b680208a453920203f54d711",
+        "relations_response": "1fd59bc0876d38bdac880bbbac9596f7fc41ce79735f72001f01ca9838f0b196",
+        "source_payload": "a8b987d08d1be72b01f793a1066231c3304ab269f99e806977c0f50c98572cc1"
+      }
+    },
+    {
+      "accepted_relation_count": 0,
+      "all_annotated_sources_selected": false,
+      "answer_difference_operators": [
+        {
+          "new_interval": [
+            46,
+            66
+          ],
+          "new_text": "main subject of the ",
+          "old_interval": [
+            46,
+            46
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            77,
+            202
+          ],
+          "new_text": " in the history of the country (Rila, likely a misstatement or error) is not clearly identified in the provided text. However",
+          "old_interval": [
+            57,
+            57
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            209,
+            365
+          ],
+          "new_text": " invaded Libya in 1911 and occupied it during World War II. Italy became an ally of Germany in World War II after the Allied invasion of Sicily in July 1943",
+          "old_interval": [
+            64,
+            64
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            366,
+            571
+          ],
+          "new_text": " when Mussolini was arrested and Italy surrendered. Italy's alliance with Germany began in 1940, but the text does not explicitly state when Italy became an ally. Therefore, based on the information, Italy",
+          "old_interval": [
+            65,
+            65
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            602,
+            602
+          ],
+          "new_text": "",
+          "old_interval": [
+            96,
+            120
+          ],
+          "old_text": ". Italy's alliance began",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            608,
+            611
+          ],
+          "new_text": "40,",
+          "old_interval": [
+            126,
+            143
+          ],
+          "old_text": "36 when it joined",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            614,
+            618
+          ],
+          "new_text": "ough",
+          "old_interval": [
+            146,
+            147
+          ],
+          "old_text": "e",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            619,
+            621
+          ],
+          "new_text": "th",
+          "old_interval": [
+            148,
+            150
+          ],
+          "old_text": "Ax",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            624,
+            628
+          ],
+          "new_text": "is n",
+          "old_interval": [
+            153,
+            154
+          ],
+          "old_text": "P",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            629,
+            629
+          ],
+          "new_text": "",
+          "old_interval": [
+            155,
+            166
+          ],
+          "old_text": "wers, and i",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            631,
+            642
+          ],
+          "new_text": "directly st",
+          "old_interval": [
+            168,
+            169
+          ],
+          "old_text": "w",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            643,
+            644
+          ],
+          "new_text": "t",
+          "old_interval": [
+            170,
+            178
+          ],
+          "old_text": "s involv",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            654,
+            656
+          ],
+          "new_text": "pr",
+          "old_interval": [
+            188,
+            189
+          ],
+          "old_text": "N",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            657,
+            658
+          ],
+          "new_text": "v",
+          "old_interval": [
+            190,
+            197
+          ],
+          "old_text": "rth Afr",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            659,
+            659
+          ],
+          "new_text": "",
+          "old_interval": [
+            198,
+            211
+          ],
+          "old_text": "can Campaign ",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            660,
+            660
+          ],
+          "new_text": "",
+          "old_interval": [
+            212,
+            235
+          ],
+          "old_text": "uring WWII, which start",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            663,
+            673
+          ],
+          "new_text": "paragraphs",
+          "old_interval": [
+            238,
+            245
+          ],
+          "old_text": "in 1940",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            674,
+            674
+          ],
+          "new_text": "",
+          "old_interval": [
+            246,
+            317
+          ],
+          "old_text": " However, Italy surrendered to the Allies in 1943, ending its alliance.",
+          "operator": "delete"
+        }
+      ],
+      "answers": {
+        "direct": "The European state that seized Libya from the Ottoman era, Italy, became an ally in World War II. Italy's alliance began in 1936 when it joined the Axis Powers, and it was involved in the North African Campaign during WWII, which started in 1940. However, Italy surrendered to the Allies in 1943, ending its alliance.",
+        "relations": "The European state that seized Libya from the main subject of the Ottoman era in the history of the country (Rila, likely a misstatement or error) is not clearly identified in the provided text. However, Italy invaded Libya in 1911 and occupied it during World War II. Italy became an ally of Germany in World War II after the Allied invasion of Sicily in July 1943, when Mussolini was arrested and Italy surrendered. Italy's alliance with Germany began in 1940, but the text does not explicitly state when Italy became an ally. Therefore, based on the information, Italy became an ally in World War II in 1940, though this is not directly stated in the provided paragraphs."
+      },
+      "category": "same_wrong_missing_sources_and_alliance_confusion",
+      "completion_token_ids_sha256": {
+        "direct": "d5f4e3467648bc74b800f8a2f3caa985e1c0c6bda45e34d5d4259f5d68829108",
+        "extract": "3953d838b0ea4521248bafb6b9e575aae83377d078c3206a5b5c6fb98b6dc560",
+        "relations": "3ab3c8c0f42de241459eebb4433e5ae41346fd3a8ea34796708a5a4c37f1c06a"
+      },
+      "finding": "Selected4 lack Rila/Bulgaria13, OttomanBulgaria19 and Italy-from-Ottomans12. They contain source9 with July1943 but both finals conflate Axis/Germany alliance with the requested Allies relation. New final mentions July1943 while concluding1940; answer substring presence here demonstrably does not mean correctness.",
+      "gold_component_facts_sha256_canonical": "db8133073d670d276095d842633dc5023477feb8aeb0c96215b152d616ceb562",
+      "label": "Italy",
+      "limitation": "Helper quotes source18 as The victory... instead of Victory..., rejects whole report, and spends its other facts on vague Italy/war/occupation descriptions rather than the relevant transition. No stop-by-length or native failure caused rejection.",
+      "parsed_helper_valid": false,
+      "primary_outcomes": {
+        "direct": "W",
+        "relations": "W"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "Libya",
+          "paragraph_id": 0,
+          "quote": "From childhood, Gaddafi was aware of the involvement of European colonialists in Libya; his nation was occupied by Italy, and during the North African Campaign of World War II it witnessed conflict between Italian and British troops.",
+          "relation": "invaded Libya",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "8fdc18617093a1da8ec69a80ccb6fdd820ec550155cdd5f06c8d68720680d067",
+          "subject": "Italy"
+        },
+        {
+          "exact_substring": true,
+          "object": "World War II",
+          "paragraph_id": 9,
+          "quote": "The participation of Italy in the Second World War was characterized by a complex framework of ideology, politics, and diplomacy, while its military actions were often heavily influenced by external factors.",
+          "relation": "participated in World War II",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "c2d4d70394542c4b01b4d36bb3ed6cca59f0c0a5d8a38fed8db91e49bb5ef5db",
+          "subject": "Italy"
+        },
+        {
+          "exact_substring": true,
+          "object": "after World War II ended in 1945",
+          "paragraph_id": 0,
+          "quote": "At World War II's end in 1945, Libya was occupied by British and French forces.",
+          "relation": "was occupied by British and French forces",
+          "relation_index": 2,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "8fdc18617093a1da8ec69a80ccb6fdd820ec550155cdd5f06c8d68720680d067",
+          "subject": "Libya"
+        },
+        {
+          "exact_substring": false,
+          "object": "World War II",
+          "paragraph_id": 18,
+          "quote": "The victory for the Allies in this campaign immediately led to the Italian Campaign, which culminated in the downfall of the fascist government in Italy and the elimination of Germany's main European ally.",
+          "relation": "was an ally in World War II",
+          "relation_index": 3,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "ec6211bba5e00c80ffff5fccb92e6fd4a27c1ab1652d1ab3028831d06f92c1b0",
+          "subject": "Italy"
+        }
+      ],
+      "record_id": "q301af64604063fd4fc6b",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/7c61fc4e67cbf7748c4ac55e9ad1d1e0210bd9961d8795c71ec921cc5e725d87.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/7c61fc4e67cbf7748c4ac55e9ad1d1e0210bd9961d8795c71ec921cc5e725d87.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/7c61fc4e67cbf7748c4ac55e9ad1d1e0210bd9961d8795c71ec921cc5e725d87-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/7c61fc4e67cbf7748c4ac55e9ad1d1e0210bd9961d8795c71ec921cc5e725d87-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/118c2102b87b0fabd603a9f95891e60463d74f1ac2da28a82925ebaebdb53cbb.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/118c2102b87b0fabd603a9f95891e60463d74f1ac2da28a82925ebaebdb53cbb.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/118c2102b87b0fabd603a9f95891e60463d74f1ac2da28a82925ebaebdb53cbb-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/118c2102b87b0fabd603a9f95891e60463d74f1ac2da28a82925ebaebdb53cbb-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/q301af64604063fd4fc6b.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/2063adbf0f656db047ce1e67fd3c422f011a7afaede867faf7097eb02b2beb4c.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/2063adbf0f656db047ce1e67fd3c422f011a7afaede867faf7097eb02b2beb4c.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/2063adbf0f656db047ce1e67fd3c422f011a7afaede867faf7097eb02b2beb4c-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/2063adbf0f656db047ce1e67fd3c422f011a7afaede867faf7097eb02b2beb4c-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q301af64604063fd4fc6b.json"
+      },
+      "source_sha256": {
+        "direct_call": "4c2a7f2ad0bb819c6c76386720d9ffb34025ab402afe2004b63b1f5c3a88d129",
+        "direct_prompt": "ded8a943daaae133a49b77685f326b308558c03ffd58f2493e120b224933abfa",
+        "direct_request": "1c053dd1be329e6b90b7d4fa060fbdb584df585638e830358b0e50c54cb6b2d7",
+        "direct_response": "5eb272ff478dd4564c0e19f6ae09d704a054fe62ee1193d1773a4bb76f877239",
+        "extract_call": "bfafcc1dc3743cb1dfaa6a1973bcca960a0880f14e1557c749d4684f9b0b5827",
+        "extract_prompt": "5784b313b6c55ff62339fa12f3f52bf742b2745b17b84ff46dc2121099b56f11",
+        "extract_request": "42c2ffd48c908ca8c16443d953f69c71e4eb56e2fad0cdfe058dfa33a600d823",
+        "extract_response": "358db0208d54e74284d3529b1f0773abe4d7bd34b776429b40df9f4b2c32bacc",
+        "new_question_receipt": "54545bc84b74dd3786292d57b1e26ffad8704da421c4fba8418850da86f2219c",
+        "relations_call": "3d7cf298623953af4f6c9c63b19fe49c978cf08a012b465f0ee3eab1535b3f32",
+        "relations_prompt": "01e2d93ddb0069b5e87635c3857075bfd8e329ca51b3ac6078a5b6776a28e8be",
+        "relations_request": "2337f15fde6dabb51fe29a3941fd01079f2e742f2b429fc305c96f81347181ee",
+        "relations_response": "04459b0f93c4f9fa8aa89c52154cd7c5c41ab8c0371b10e74ea4d5a1b2786957",
+        "source_payload": "62752c30a1d7ef48a0cc1c8093c8886b4e5a11f7a07a5ab09973f597400209f9"
+      }
+    },
+    {
+      "accepted_relation_count": 4,
+      "all_annotated_sources_selected": true,
+      "answer_difference_operators": [
+        {
+          "new_interval": [
+            0,
+            2
+          ],
+          "new_text": "Th",
+          "old_interval": [
+            0,
+            1
+          ],
+          "old_text": "L",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            3,
+            11
+          ],
+          "new_text": " death c",
+          "old_interval": [
+            2,
+            3
+          ],
+          "old_text": "x",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            12,
+            19
+          ],
+          "new_text": "ty of A",
+          "old_interval": [
+            4,
+            4
+          ],
+          "old_text": "",
+          "operator": "insert"
+        },
+        {
+          "new_interval": [
+            20,
+            47
+          ],
+          "new_text": "ne Marie Carl-Nielsen is no",
+          "old_interval": [
+            5,
+            6
+          ],
+          "old_text": "g",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            48,
+            48
+          ],
+          "new_text": "",
+          "old_interval": [
+            7,
+            10
+          ],
+          "old_text": "on,",
+          "operator": "delete"
+        },
+        {
+          "new_interval": [
+            49,
+            50
+          ],
+          "new_text": "m",
+          "old_interval": [
+            11,
+            12
+          ],
+          "old_text": "K",
+          "operator": "replace"
+        },
+        {
+          "new_interval": [
+            53,
+            86
+          ],
+          "new_text": "ioned in the provided paragraphs.",
+          "old_interval": [
+            15,
+            19
+          ],
+          "old_text": "ucky",
+          "operator": "replace"
+        }
+      ],
+      "answers": {
+        "direct": "Lexington, Kentucky",
+        "relations": "The death city of Anne Marie Carl-Nielsen is not mentioned in the provided paragraphs."
+      },
+      "category": "same_wrong_better_abstention_false_subject_relations",
+      "completion_token_ids_sha256": {
+        "direct": "421608047ac52f641a1bc1bb87ddc81be7124d98a2a359f5de4cfef62cf284a7",
+        "extract": "4fcac49ce08b0bf29f3c44b7389c0af32ba38c0ff7b2f3d7ff576acdc9d7e5a3",
+        "relations": "daf220339eac3edcb77b59366dc44d4a1ce6166cee9e6bcce3a3ad178d110920"
+      },
+      "finding": "Direct incorrectly copies unrelated mayor death city Lexington. New final correctly says AnneMarie death city is absent from selected paragraphs. Even all annotated sources6/9/18 do not supply that death city:18 describes exhibitions, children and her father dying.",
+      "gold_component_facts_sha256_canonical": "c30469bdb7ae4a1779d1150aa0638495f7f1a15c38e190f1d9c98e6d15c5d686",
+      "label": "Copenhagen",
+      "limitation": "All quotes pass mechanically, yet report falsely gives Commotio a spouse and attributes her father's1899 death to AnneMarie. Exact-quote validity is plainly not relation truth. Primary stays wrong against Copenhagen; the abstention is a faithfulness improvement, not a new exact answer.",
+      "parsed_helper_valid": true,
+      "primary_outcomes": {
+        "direct": "W",
+        "relations": "W"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "Commotio",
+          "paragraph_id": 6,
+          "quote": "Carl Nielsen's Commotio or Commotio for Organ, Opus 58, was composed between June 1930 and February 1931.",
+          "relation": "composed",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "2416412aa2e47c521d9bde320b8253b26da63272acb5357182092487930d011f",
+          "subject": "Carl Nielsen"
+        },
+        {
+          "exact_substring": true,
+          "object": "Anne Marie Carl-Nielsen",
+          "paragraph_id": 9,
+          "quote": "The Carl Nielsen Museum is a museum dedicated to the life of Danish composer Carl Nielsen and his wife, the sculptor Anne Marie Carl-Nielsen.",
+          "relation": "has spouse",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "e761e01bb21e15821517123889e609166c39045509ce40d01e035278e2b3873d",
+          "subject": "Commotio"
+        },
+        {
+          "exact_substring": true,
+          "object": "1899",
+          "paragraph_id": 18,
+          "quote": "Her father died on 14 September 1899.",
+          "relation": "died",
+          "relation_index": 2,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "6ff232ff924a795d992e43053e9d9502576014a4dafb424328aeaf641efc889a",
+          "subject": "Anne Marie Carl-Nielsen"
+        },
+        {
+          "exact_substring": true,
+          "object": "Anne Marie Carl-Nielsen",
+          "paragraph_id": 9,
+          "quote": "The Carl Nielsen Museum is a museum dedicated to the life of Danish composer Carl Nielsen and his wife, the sculptor Anne Marie Carl-Nielsen.",
+          "relation": "married",
+          "relation_index": 3,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "e761e01bb21e15821517123889e609166c39045509ce40d01e035278e2b3873d",
+          "subject": "Carl Nielsen"
+        }
+      ],
+      "record_id": "q16e943b03b89ba19b10b",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/8c94ae09379541db0370096095aebbbdc72cb9a9ad15bfca4691a76febc58506.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/8c94ae09379541db0370096095aebbbdc72cb9a9ad15bfca4691a76febc58506.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/8c94ae09379541db0370096095aebbbdc72cb9a9ad15bfca4691a76febc58506-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/8c94ae09379541db0370096095aebbbdc72cb9a9ad15bfca4691a76febc58506-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/11a470be60ed53f1034dd14dae1057e25d6df450fb81ab95dc52f3f79c7f5bc4.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/11a470be60ed53f1034dd14dae1057e25d6df450fb81ab95dc52f3f79c7f5bc4.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/11a470be60ed53f1034dd14dae1057e25d6df450fb81ab95dc52f3f79c7f5bc4-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/11a470be60ed53f1034dd14dae1057e25d6df450fb81ab95dc52f3f79c7f5bc4-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/q16e943b03b89ba19b10b.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/00a18abb56dc81c414e9d6a8668298824ca21c539fbceb36de07e8d60889d0f0.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/00a18abb56dc81c414e9d6a8668298824ca21c539fbceb36de07e8d60889d0f0.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/00a18abb56dc81c414e9d6a8668298824ca21c539fbceb36de07e8d60889d0f0-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/00a18abb56dc81c414e9d6a8668298824ca21c539fbceb36de07e8d60889d0f0-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/q16e943b03b89ba19b10b.json"
+      },
+      "source_sha256": {
+        "direct_call": "9fab69087c7072b42a0459a50fd81582a337acbb46968b756dfa3bb933b0dd40",
+        "direct_prompt": "6334c3830561cf1b427dbd03e62e0e84c17c381b9e4fc1faa8199391ed4be92f",
+        "direct_request": "877eb138c15450d4288738412852a27bfc1d9801fd4bcb0204786f213e922d85",
+        "direct_response": "c76345bb4ad27c7e157ce760ca5a2e5cf1f2894202ec1230a1f60c43d146126a",
+        "extract_call": "10b9d7c33f7daf5c00582b60b71d356fbd96d4763abc36890b877191fa8373e5",
+        "extract_prompt": "17c8795abe30030c64793a9b0f901cb84912fe3ed38d6497c84c69dffb082181",
+        "extract_request": "49d658362951db2a3ab66f3e49a1ca944b72db11b837f52bea7325fbfeb090a8",
+        "extract_response": "e99856e40bb1e601984e74299b07972f4b3fb0b06b6ec601de32aa2780579ec0",
+        "new_question_receipt": "11e0657a186d1d7f79a9d1b24e94b25ef34c8169bcc407f77f21baf43ea8f344",
+        "relations_call": "ad68fd938e7a886bbe69bcc168d29a5160669a9e7d0e1129d2f3062cdfd0efb1",
+        "relations_prompt": "6525da9da2b92544b3ae5e3d30534a4e52c2436116e65ac1f2260287aae85ea0",
+        "relations_request": "af1c06c8c3f6180e465bb738ef7996928ffa6f97cd5cdef8dc79aa892633fa5c",
+        "relations_response": "938fb1cc05e952ddc5bb4b824b09e733b84917f7062e1c40d451dcce9de6a037",
+        "source_payload": "337100a4df47f85e4d5e92a50f3be821f7dc4adae8711c3ba628334a6c82213c"
+      }
+    },
+    {
+      "accepted_relation_count": 4,
+      "all_annotated_sources_selected": true,
+      "answer_difference_operators": [],
+      "answers": {
+        "direct": "United Kingdom",
+        "relations": "United Kingdom"
+      },
+      "category": "same_correct_extra_distractor_citation",
+      "completion_token_ids_sha256": {
+        "direct": "3a3473abae9d66ff7a6060ab28e51e561cad3ba0a7f1fb618b489583ca48a0c1",
+        "extract": "4b8b1c3b179557f2ecf9b1d364610c0b140c4c3918e56c68be6186a030b04ad4",
+        "relations": "20bd5c1c966a395de1b9c7fc67bef3ffacfab6372fd527fa259f4b94d3ff85b8"
+      },
+      "finding": "Both finals answer United Kingdom; sources5/13/15 support NarrowIsland→Falklands and the London mission/country. New final additionally cites irrelevant SaintKitts11, decreasing support EM1→0 despite correct answer.",
+      "gold_component_facts_sha256_canonical": "46e3b84b84b294de359fc6ab76b67b01a28b8dc39e8628a359aeb8c96fe97dff",
+      "label": "Falklands",
+      "limitation": "Helper duplicates the island-location fact and calls a composable mission/location relation missing; no answer gain and no evidence that extra citation is justified.",
+      "parsed_helper_valid": true,
+      "primary_outcomes": {
+        "direct": "C",
+        "relations": "C"
+      },
+      "raw_relation_quote_checks": [
+        {
+          "exact_substring": true,
+          "object": "Falkland Islands",
+          "paragraph_id": 5,
+          "quote": "Narrow Island is one of the Falkland Islands, in Byron Sound.",
+          "relation": "is located in",
+          "relation_index": 0,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "1c421d8d7ac119fefa79e98e97b6918f705560e1a6a6a5347ec8215c5664ad6b",
+          "subject": "Narrow Island"
+        },
+        {
+          "exact_substring": true,
+          "object": "London",
+          "paragraph_id": 15,
+          "quote": "The Representative of the Falkland Islands in London is the diplomatic mission of the British Overseas Territory of the Falkland Islands in the United Kingdom, also referred to as Falkland House.",
+          "relation": "has representative in",
+          "relation_index": 1,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "f3a03e321ca9abaeab451bedbb2d200262f28f405d6bb68dac6204d1490ef1c1",
+          "subject": "Falkland Islands"
+        },
+        {
+          "exact_substring": true,
+          "object": "London",
+          "paragraph_id": 13,
+          "quote": "The First Pan-African Conference was held in London from 23 to 25 July 1900",
+          "relation": "was held in",
+          "relation_index": 2,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "d261070f14ea401c42544964af9d6b116cea4a49137cb1f847d82264ea507c60",
+          "subject": "First Pan-African Conference"
+        },
+        {
+          "exact_substring": true,
+          "object": "Byron Sound",
+          "paragraph_id": 5,
+          "quote": "Narrow Island is one of the Falkland Islands, in Byron Sound.",
+          "relation": "is located in",
+          "relation_index": 3,
+          "semantic_truth_auto_accepted": false,
+          "source_paragraph_sha256_canonical": "1c421d8d7ac119fefa79e98e97b6918f705560e1a6a6a5347ec8215c5664ad6b",
+          "subject": "Narrow Island"
+        }
+      ],
+      "record_id": "qcbd5a4bf80cace0d247b",
+      "source_paths": {
+        "direct_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/calls/695c16e75991116e6e58a1a6abd92bc95c8c14e3bc09427c60bb6ea5d6745f96.json",
+        "direct_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/prompts/695c16e75991116e6e58a1a6abd92bc95c8c14e3bc09427c60bb6ea5d6745f96.json",
+        "direct_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/695c16e75991116e6e58a1a6abd92bc95c8c14e3bc09427c60bb6ea5d6745f96-REQUEST.json",
+        "direct_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-flexible-four-source-v1/outputs/attempt-001/native/695c16e75991116e6e58a1a6abd92bc95c8c14e3bc09427c60bb6ea5d6745f96-RESPONSE.json",
+        "extract_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/dc219651d31336328112e810d879d5529f312d8b7bfe038279f6f2dec60fa605.json",
+        "extract_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/dc219651d31336328112e810d879d5529f312d8b7bfe038279f6f2dec60fa605.json",
+        "extract_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/dc219651d31336328112e810d879d5529f312d8b7bfe038279f6f2dec60fa605-REQUEST.json",
+        "extract_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/dc219651d31336328112e810d879d5529f312d8b7bfe038279f6f2dec60fa605-RESPONSE.json",
+        "new_question_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/questions/qcbd5a4bf80cace0d247b.json",
+        "relations_call": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/calls/c8ece5a518b57fefcb892519b99f3dab807da750bba0a82ba8a1a1fcabeeb66a.json",
+        "relations_prompt": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/prompts/c8ece5a518b57fefcb892519b99f3dab807da750bba0a82ba8a1a1fcabeeb66a.json",
+        "relations_request": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/c8ece5a518b57fefcb892519b99f3dab807da750bba0a82ba8a1a1fcabeeb66a-REQUEST.json",
+        "relations_response": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/outputs/attempt-001/native/c8ece5a518b57fefcb892519b99f3dab807da750bba0a82ba8a1a1fcabeeb66a-RESPONSE.json",
+        "source_payload": "/project/alex_phd/runs/rlm-research-r4/sidecars/musique-source-quoted-relations-v1/inputs/public/qcbd5a4bf80cace0d247b.json"
+      },
+      "source_sha256": {
+        "direct_call": "5478dd2d9791de7fb2be6f780540669b8f189ccaf4b69dda0f25c3ffdb488ab5",
+        "direct_prompt": "84569713d82b79d3b9cc48d3b306884030affa0634c5f648efee15eb74ba60e0",
+        "direct_request": "8e8943a20909e4ab4d3dd949deea12109f7e4774694ee5f03efcf8788005621b",
+        "direct_response": "7476f5615b8626914669ea61263198199377f3b2802010ce030b12166c417e8a",
+        "extract_call": "7e4979654279519c5e8500fa231a14f561219458aa634ea3b2deeb8acacc10b6",
+        "extract_prompt": "3dabc5d859154997db2040de4a375810294b558b7d7cecc92e1baf5881596aa2",
+        "extract_request": "a81b4b693ed8611056c012ea2acad30ed1328b74b807a497df3f4a65fecc5995",
+        "extract_response": "d7cb8933f518cd874bd845b5e170f77d10c271cf096776b5759b7d627af9b653",
+        "new_question_receipt": "970f3203dcb5a28ebf1ceda9b9b1434660082d384d6c0573e204d3505156948d",
+        "relations_call": "db5814ed30a52a003a84d2a3645c22e4daa4e2db49357be5c9be460518b5a964",
+        "relations_prompt": "41c413a5d66f85932f8722f240ebc3f0fabf6e112fa12216061391732bcba1bb",
+        "relations_request": "7f6a02493471ec5b15613d4ea81d33071a20ed2da61954767af04d395501adcb",
+        "relations_response": "9b4a30ff31ec94daf9f002c879d2c17148e7242f17aa586ea2b25bdcaa36a6d9",
+        "source_payload": "188c5bb426ea4740e4a47da3f875d382bf03a47d1f911e7eeea25640dd7f06f7"
+      }
+    }
+  ],
+  "decision": "Do not promote quoted triples as a composition improvement. First isolate cheaper final-answer surface control on all12 fixed sources; no extra extraction or training yet.",
+  "findings": {
+    "accepted_reports": 8,
+    "all_new_native_finishes": "stop",
+    "at_least_two_false_subject_relations_with_valid_quotes": "Copenhagen",
+    "exact_wins": 2,
+    "exact_wins_with_already_correct_old_answer_content": 2,
+    "format_errors_remaining": [
+      "Nevada",
+      "Maness",
+      "Christian"
+    ],
+    "native_unknown_calls": 0,
+    "new_exact_wins_establishing_missing_relation_recovery": 0,
+    "non_exact_content_improvement_not_attributed_to_accepted_relations": [
+      "Christian"
+    ],
+    "rejected_quote_reports": 4,
+    "support_exact_correct_counts": {
+      "direct": 2,
+      "relations": 1
+    },
+    "supported_abstention_instead_of_wrong_entity": [
+      "Copenhagen"
+    ]
+  },
+  "limits": "Manual inert relation audit is not a replacement metric. All12 are exposed diagnostics. Quotes are mechanically checked, not semantically certified. One changed-prompt sample per context; extra generation and report representation are confounded. No gold model prompts, execution, score rewrites or new GPU calls.",
+  "natural_full_policy_cost": {
+    "direct": {
+      "authenticated_returned": 48,
+      "cached_tokens_observed_subtotal": 0,
+      "cached_tokens_unknown_calls": 0,
+      "completion_tokens_observed_subtotal": 1078,
+      "completion_tokens_unknown_calls": 0,
+      "not_started": 0,
+      "physical_started": 48,
+      "planned_boundaries": 48,
+      "prompt_tokens_observed_subtotal": 66295,
+      "prompt_tokens_unknown_calls": 0,
+      "status_counts": {
+        "returned_valid": 48
+      },
+      "sum_call_seconds_not_concurrent_wall": 46.91418957710266,
+      "unknown_usage_is_not_zero": true
+    },
+    "relations": {
+      "authenticated_returned": 60,
+      "cached_tokens_observed_subtotal": 0,
+      "cached_tokens_unknown_calls": 0,
+      "completion_tokens_observed_subtotal": 5597,
+      "completion_tokens_unknown_calls": 0,
+      "not_started": 0,
+      "physical_started": 60,
+      "planned_boundaries": 60,
+      "prompt_tokens_observed_subtotal": 79124,
+      "prompt_tokens_unknown_calls": 0,
+      "status_counts": {
+        "returned_valid": 60
+      },
+      "sum_call_seconds_not_concurrent_wall": 202.08139491081238,
+      "unknown_usage_is_not_zero": true
+    }
+  },
+  "new_physical_cost": {
+    "authenticated_returned": 24,
+    "cached_tokens_observed_subtotal": 0,
+    "cached_tokens_unknown_calls": 0,
+    "completion_tokens_observed_subtotal": 5023,
+    "completion_tokens_unknown_calls": 0,
+    "not_started": 0,
+    "physical_started": 24,
+    "planned_boundaries": 24,
+    "prompt_tokens_observed_subtotal": 22441,
+    "prompt_tokens_unknown_calls": 0,
+    "status_counts": {
+      "returned_valid": 24
+    },
+    "sum_call_seconds_not_concurrent_wall": 173.30850195884705,
+    "unknown_usage_is_not_zero": true
+  },
+  "paired": {
+    "both_available": 12,
+    "losses": 0,
+    "planned": 12,
+    "same_correct": 3,
+    "same_wrong": 7,
+    "unknown_pairs": 0,
+    "wins": 2
+  },
+  "primary": {
+    "direct": {
+      "answer_f1_sum_available": 4.645168067226891,
+      "available": 12,
+      "correct": 3,
+      "planned": 12,
+      "support_em_sum_available": 2.0,
+      "support_f1_sum_available": 6.535714285714286,
+      "unavailable": 0
+    },
+    "relations": {
+      "answer_f1_sum_available": 5.697402597402597,
+      "available": 12,
+      "correct": 5,
+      "planned": 12,
+      "support_em_sum_available": 1.0,
+      "support_f1_sum_available": 7.707142857142857,
+      "unavailable": 0
+    }
+  },
+  "primary_result_unchanged": true,
+  "schema": "musique-source-quoted-relations-mechanism-review-v1",
+  "source_evidence_sha256": "6b2d4b4fff640c3e0a98572002d6981493801f3e0e2009049d0deba226bdef9d",
+  "source_report_sha256": "e3b3f36902d8a7df48efd4498ead145a6137f9a1560974f1478436d915a4cdd1"
+}

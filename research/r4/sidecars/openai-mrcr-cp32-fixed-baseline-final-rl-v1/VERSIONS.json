@@ -1,0 +1,11 @@
+{
+  "executable": "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python",
+  "packages": {
+    "numpy": "2.5.2",
+    "peft": "0.20.0",
+    "safetensors": "0.8.0",
+    "torch": "2.13.0+cu130",
+    "transformers": "5.15.1"
+  },
+  "python": "3.12.12 (main, Oct 28 2025, 12:10:49) [Clang 20.1.4 ]"
+}

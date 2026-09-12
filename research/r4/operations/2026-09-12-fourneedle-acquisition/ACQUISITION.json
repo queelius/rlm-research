@@ -1,0 +1,38 @@
+{
+  "GPU_calls": 0,
+  "artifacts": [
+    {
+      "bytes": 4672,
+      "lfs_sha256": null,
+      "name": "README.md",
+      "path": "/project/alex_phd/research-cache/datasets/openai-mrcr-fourneedle-f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d/README.md",
+      "repository_blob_id": "db895a636cce2ea3406f900b9817099b98303a9a",
+      "sha256": "88c53574f0bb4baf877df69ac2523e8991460a516866bda21698a02d8f7d6986"
+    },
+    {
+      "bytes": 195679287,
+      "lfs_sha256": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312",
+      "name": "4needle/4needle_0.parquet",
+      "path": "/project/alex_phd/research-cache/datasets/openai-mrcr-fourneedle-f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d/4needle/4needle_0.parquet",
+      "repository_blob_id": "23e9770bbd25e1e4f8c5b9a07072d76324a29d81",
+      "sha256": "4d4fa3d11ce064749de3cd039eef1a621e30a81c2c9b3e64f1df37f8afeaf312"
+    },
+    {
+      "bytes": 271975546,
+      "lfs_sha256": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3",
+      "name": "4needle/4needle_1.parquet",
+      "path": "/project/alex_phd/research-cache/datasets/openai-mrcr-fourneedle-f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d/4needle/4needle_1.parquet",
+      "repository_blob_id": "3b6a23a7e1ba279fcaeaff170ad98ac873de8097",
+      "sha256": "8dfdb94a208cf3eee73c4e7ac6ee8a5ccb7236c6934c13c6c5f67c0a9928cdf3"
+    }
+  ],
+  "dataset": "openai/mrcr",
+  "elapsed_seconds": 6.103202819824219,
+  "license": "MIT",
+  "model_queries": 0,
+  "retrieved_utc": "2026-09-12T21:19:12.325833+00:00",
+  "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+  "source_script_sha256": "e76a1818d9594f8f28412ad6742f514be638c8f990dbd87f48450bc0d9a7861e",
+  "split_provenance": "Official four-needle files; no cohort, train/test assignment or model outcomes yet.",
+  "third_party_code_executed": false
+}

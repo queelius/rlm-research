@@ -1,0 +1,13 @@
+{
+  "binding_source": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/owned-service/BINDING.json",
+  "collector_entry": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-t1-v1/collect_v3.py",
+  "identity": "b45772dc0f95c7f5feeabf2e7dce38323c2b77ed67b5cdcf1e451a9d45562cfd",
+  "output": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-t1-v1/outputs/attempt-003",
+  "ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-t1-v1/READY_V3.json",
+  "ready_sha256": "d6eac589f4e045acd82a4025b14cfec1ba5c82908f98eee482d41e5c97d85c90",
+  "failed_predecessors": [
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-t1-v1/outputs/attempt-001",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft32-onpolicy-t1-v1/outputs/attempt-002"
+  ],
+  "reuse": "The reviewed cp32 raw analyzer is reused; this adapter binds the additive role-hook repair and attempt-003 only."
+}

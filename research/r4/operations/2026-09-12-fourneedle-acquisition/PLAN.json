@@ -1,0 +1,17 @@
+{
+  "GPU_calls": 0,
+  "cap_bytes": 629145600,
+  "dataset": "openai/mrcr",
+  "expected_bytes": 467659505,
+  "files": [
+    "README.md",
+    "4needle/4needle_0.parquet",
+    "4needle/4needle_1.parquet"
+  ],
+  "model_queries": 0,
+  "output": "/project/alex_phd/research-cache/datasets/openai-mrcr-fourneedle-f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+  "question": "Does two-needle-trained retrieval transfer to third/fourth matching requests?",
+  "revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+  "source_url": "https://huggingface.co/datasets/openai/mrcr/tree/f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+  "started_epoch": 1789247946.2226572
+}

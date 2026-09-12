@@ -1,5 +1,39 @@
 # Live GPU research queue
 
+### Live update September 12, 21:49 UTC
+
+ACTIVE67214 fourneedle16 base→cp32,600/700/800seconds perarm. Healthyreturns.
+ACCEPTED88381 fixedRLnew-decoding-seed64, all16 short×2 seeds×2models,
+900/1100/1200perarm, nooldcontrolsreuse. Allflocked, MAINsoleGPUlauncher.
+NEXT1 CPUlocal: fresh8 final-onlyRLOOonestep cp32LR1e-5,12nonzero finals,
+20zeroadvantages retainedin32denominator, exactnative/HFreplay/TIS2 qualification.
+NEXT2 CPUtoken: generic actual-input inspection instruction allfresh8×4,
+samecp32/seeds,budget; no email-specificwording ororaclecatalog. Firstfinish
+independentanswer12 review. CPUpost independentfourneedlepaired audit.
+
+Fresh8completed7/32,3mixed copy-only groups. 24correctstdout;17copyerrors;
+twoemailcontextsliteralwording8failures(allzero, not RLselectorcontrast).
+Answercontrolcompleted3→5/12,2wins0losses;cheapmatchesquotedhelperaggregate
+butonlyonewinshared. Exactphrases≠compositionalorfaithfulnessimprovement.
+Quota37%21:41,next21:56. Currentreportcutoff21:49 pendingGitHubcheckpoint.
+
+### Live update September 12, 21:31 UTC
+
+ACTIVE73593 fresh8 cp32 G4, eight new contexts×4, no update yet. RUN_READY
+a6cae667…,900/1100/1200caps. MAIN sole GPU launcher, shared coordinator flock.
+NEXT1 CPU token:12 direct finalizations with one universal concise-answer
+instruction, same frozen MuSiQue raw4 and seeds/base. Both helper3→5 exact wins
+were surface wording; test cheaper mechanism before adding more helpers.
+NEXT2 CPU post: four-needle MRCR unseen third/fourth request positions,16 balanced
+contexts base/cp32; files acquired, data/evaluator not yet frozen. No re-download.
+CPU local: inspect two short RL wins and counterfactual gradient/transfer follow-on.
+
+RL one-step actual final-only fixed baseline qualified: short23→25/32, long10→10/16,
+all available; mechanism not yet adjudicated. Training43.744s vs readouts404.95+247.68s.
+T1V3 27/32 and1mixed group (procedure error) gives no broad final-answer contrast.
+Four wrong-newline outcomes still identical. Stop old8 temperature/dose sweeps.
+GitHub4aa6623/49cbc2f cutoff21:00, new results pending publication. Quota39%21:28.
+
 ### Live update September 12, 21:06 UTC
 
 ACTIVE7768 fixedbaseline final-onlyRL oneupdate fromcompetentcp32,10420tokens,

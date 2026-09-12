@@ -1,0 +1,516 @@
+{
+  "episodes": [
+    {
+      "episode_id": "1af2834ffa33e0eb0e5865d4eaf1f7f166821f10b7b0e1e1741740e48100b407",
+      "group_id": "omrcr-3d7230f66f7203751f60",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 425
+    },
+    {
+      "episode_id": "c0b70a1d4814cd866da0400d1a64f5018ca20bcc601e8ac4a91e70e0be161766",
+      "group_id": "omrcr-3d7230f66f7203751f60",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 425
+    },
+    {
+      "episode_id": "41629099659a75652d88c5528f6825c0e2529bb206a4ec41c8e41de21a4cd9d4",
+      "group_id": "omrcr-3d7230f66f7203751f60",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 425
+    },
+    {
+      "episode_id": "632580b93478e13ac0aee915e521f8596a048f15b79b1a619be9e01a4e59eca6",
+      "group_id": "omrcr-3d7230f66f7203751f60",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 425
+    },
+    {
+      "episode_id": "186954dd7ec3d75b165bbd6c366f690ce841a6e1f9922fe7f67caddfe40d9edf",
+      "group_id": "omrcr-81962be30bd6c8668637",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 63
+    },
+    {
+      "episode_id": "c1113cfdcd64f2548eec00c353eab37fc0ff26dedfc09a76d61fc4b6e677789a",
+      "group_id": "omrcr-81962be30bd6c8668637",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 63
+    },
+    {
+      "episode_id": "a427f8e6b3ca6684a894ca427465e34dc248be14eea3fef2af67778eefe23341",
+      "group_id": "omrcr-81962be30bd6c8668637",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 63
+    },
+    {
+      "episode_id": "1c675be01dc7c08f9a1b7b6ac89e89d746c2df00df72402c966eb01097403e23",
+      "group_id": "omrcr-81962be30bd6c8668637",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 63
+    },
+    {
+      "episode_id": "6997525ca27d323bf97c2a74da64dc4dec7472522e6b9997708a2e12a031c88a",
+      "group_id": "omrcr-39fbac00a29ae2b82e1f",
+      "post_minus_pre_by_part": {
+        "body": 8.904761538275352e-05,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 8.904761538275352e-05,
+      "reward": 1,
+      "tokens": 592
+    },
+    {
+      "episode_id": "00bc9b1d2172b16c181cf362cbd0e62d7add34920a03fe6d5e95a609b0265a18",
+      "group_id": "omrcr-39fbac00a29ae2b82e1f",
+      "post_minus_pre_by_part": {
+        "body": 8.904761538275352e-05,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 8.904761538275352e-05,
+      "reward": 1,
+      "tokens": 592
+    },
+    {
+      "episode_id": "770b065b834db866ba88d599bfbb865a28ff5960057f010990ad3bc30484f323",
+      "group_id": "omrcr-39fbac00a29ae2b82e1f",
+      "post_minus_pre_by_part": {
+        "body": 8.904761538275352e-05,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 8.904761538275352e-05,
+      "reward": 1,
+      "tokens": 592
+    },
+    {
+      "episode_id": "596383277e8fd21d02b0707e03a2b6e87f3e9110fb56f28757d101b958c00802",
+      "group_id": "omrcr-39fbac00a29ae2b82e1f",
+      "post_minus_pre_by_part": {
+        "body": 8.904761538275352e-05,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 8.904761538275352e-05,
+      "reward": 1,
+      "tokens": 592
+    },
+    {
+      "episode_id": "cf07ffe556467c1feb0aaee73d1c5882122cfd7f9e352059b79caed2d5ca8fe1",
+      "group_id": "omrcr-10f8b49fc190c3cd4562",
+      "post_minus_pre_by_part": {
+        "body": 4.410657652442751e-06,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 4.410657652442751e-06,
+      "reward": 1,
+      "tokens": 457
+    },
+    {
+      "episode_id": "e2c569907e83e2bccf2b2fa1515cc71914d9a1d36c5b54bf29c89a14068df778",
+      "group_id": "omrcr-10f8b49fc190c3cd4562",
+      "post_minus_pre_by_part": {
+        "body": 4.410657652442751e-06,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 4.410657652442751e-06,
+      "reward": 1,
+      "tokens": 457
+    },
+    {
+      "episode_id": "cd6e8a4cad8f00424d7f992d8ddea0f708a1878912e2217e8f99c4a51635132a",
+      "group_id": "omrcr-10f8b49fc190c3cd4562",
+      "post_minus_pre_by_part": {
+        "body": 4.410657652442751e-06,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 4.410657652442751e-06,
+      "reward": 1,
+      "tokens": 457
+    },
+    {
+      "episode_id": "68958904995ce70d5d214dcb1830284fef647707c38b14042eaa92d2076e4006",
+      "group_id": "omrcr-10f8b49fc190c3cd4562",
+      "post_minus_pre_by_part": {
+        "body": 4.410657652442751e-06,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 4.410657652442751e-06,
+      "reward": 1,
+      "tokens": 457
+    },
+    {
+      "episode_id": "7ff8d2d6c7328992cd45bbe8117c3d70e298617f55f55ece33fbe1a734649db7",
+      "group_id": "omrcr-76287483be01a7b4d096",
+      "post_minus_pre_by_part": {
+        "body": 1.1920926112907182e-07,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 1.1920926112907182e-07,
+      "reward": 1,
+      "tokens": 233
+    },
+    {
+      "episode_id": "c30318517e02f98cb0569c2108b73faae89e677d331f2c29bf5310081a973e4b",
+      "group_id": "omrcr-76287483be01a7b4d096",
+      "post_minus_pre_by_part": {
+        "body": 1.1920926112907182e-07,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 1.1920926112907182e-07,
+      "reward": 1,
+      "tokens": 233
+    },
+    {
+      "episode_id": "5501b79d26e30f49a82fdc783ea98cb4822b83b76e0ffecc6aae09b80a8522b9",
+      "group_id": "omrcr-76287483be01a7b4d096",
+      "post_minus_pre_by_part": {
+        "body": 1.1920926112907182e-07,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 1.1920926112907182e-07,
+      "reward": 1,
+      "tokens": 233
+    },
+    {
+      "episode_id": "4f06db2fcb552af42d2f36785727b869bf5aef0382bc9f00ba08bff3db968d48",
+      "group_id": "omrcr-76287483be01a7b4d096",
+      "post_minus_pre_by_part": {
+        "body": 1.1920926112907182e-07,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 1.1920926112907182e-07,
+      "reward": 1,
+      "tokens": 233
+    },
+    {
+      "episode_id": "41a31e29c2c402f6403343e7a1225ba5110dd8b85c9a8ea0aa4dff3ff5c65768",
+      "group_id": "omrcr-50ed8cfc6b9065167728",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 205
+    },
+    {
+      "episode_id": "25e03ab4aa80e6b58db014debc68d8d16bf7a3904336c45e2ac2e5dcf78c9af2",
+      "group_id": "omrcr-50ed8cfc6b9065167728",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 205
+    },
+    {
+      "episode_id": "2f423558a7211910ff3f361612543ac2dc5fe3849e6bcfb0b7a089ed2e7d507b",
+      "group_id": "omrcr-50ed8cfc6b9065167728",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 205
+    },
+    {
+      "episode_id": "51dee245a6729b282a869fb490eca0e8a87b0e63eabd806c61b38c6e59797335",
+      "group_id": "omrcr-50ed8cfc6b9065167728",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 205
+    },
+    {
+      "episode_id": "d504c73d4ed2e55e42da41a26d82696d3a986da32972f6c4593bfc36c1160689",
+      "group_id": "omrcr-9f431a2f2bea9f0c243c",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 2.5033818928932305e-06,
+        "whitespace": -0.07091428391868249
+      },
+      "post_minus_pre_logprob_sum": -0.07091178053678959,
+      "reward": 0,
+      "tokens": 108
+    },
+    {
+      "episode_id": "e1d575402a01853b9103fde99a0056169d990fa03bf34b65a92d77624bc34b56",
+      "group_id": "omrcr-9f431a2f2bea9f0c243c",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 2.5033818928932305e-06,
+        "whitespace": -0.07091428391868249
+      },
+      "post_minus_pre_logprob_sum": -0.07091178053678959,
+      "reward": 0,
+      "tokens": 108
+    },
+    {
+      "episode_id": "82aa3cdd36d185c8aeb404843409decca10251aa6f59ebe05856faa6bae8ca74",
+      "group_id": "omrcr-9f431a2f2bea9f0c243c",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 2.5033818928932305e-06,
+        "whitespace": -0.07091428391868249
+      },
+      "post_minus_pre_logprob_sum": -0.07091178053678959,
+      "reward": 0,
+      "tokens": 108
+    },
+    {
+      "episode_id": "18d6911499f0524064c449d2040a7d6a46cd8174d5234056512fcf3826d0dcaa",
+      "group_id": "omrcr-9f431a2f2bea9f0c243c",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 2.5033818928932305e-06,
+        "whitespace": -0.07091428391868249
+      },
+      "post_minus_pre_logprob_sum": -0.07091178053678959,
+      "reward": 0,
+      "tokens": 108
+    },
+    {
+      "episode_id": "e5db4e594b2dc423f1ca8a84e5b45621ba1d500a509b278d4e8d9fc6b1f810c5",
+      "group_id": "omrcr-83b3037ee21b1b243c0d",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 522
+    },
+    {
+      "episode_id": "696f5a414647e189bcb99e2a3bd6ef052d53b50e38783d3548063f4a935b4a02",
+      "group_id": "omrcr-83b3037ee21b1b243c0d",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 522
+    },
+    {
+      "episode_id": "226c4ae6e642c503f53ad4e79b72c9570ee8e199a87229b40da8276ceafce704",
+      "group_id": "omrcr-83b3037ee21b1b243c0d",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 522
+    },
+    {
+      "episode_id": "9d614202e9b8e9bfcae4af883f00296c76af5d963e47f08525096b3570b02ca2",
+      "group_id": "omrcr-83b3037ee21b1b243c0d",
+      "post_minus_pre_by_part": {
+        "body": 0.0,
+        "eos": 0.0,
+        "whitespace": 0.0
+      },
+      "post_minus_pre_logprob_sum": 0.0,
+      "reward": 1,
+      "tokens": 522
+    }
+  ],
+  "integrity": {
+    "adapter_delta_l2_recomputed": 0.03421447943481259,
+    "fresh_adam": true,
+    "gradient_norm_l2_recomputed": 0.00443595053926635,
+    "optimizer_state_steps": [
+      1
+    ],
+    "optimizer_steps": 1,
+    "parent_and_updated_adapter_tensors_loaded": 504,
+    "step_commit_all_files_match": true
+  },
+  "limitations": [
+    "The update conditions on the same 32 saved native final actions; it is not an accuracy evaluation.",
+    "All four negative examples are repetitions of one group and one final-token sequence.",
+    "Negative component norms isolate token subsets but do not decompose the total positive-plus-negative gradient.",
+    "Shared parameters mean a change in whitespace likelihood can also change semantic behavior elsewhere."
+  ],
+  "poststep_on_saved_actions": {
+    "diagnostic_only": true,
+    "mean_part_logprob_delta_by_reward": {
+      "0": {
+        "body": 0.0,
+        "eos": 2.5033818928932305e-06,
+        "whitespace": -0.07091428391868249
+      },
+      "1": {
+        "body": 1.3368211756617906e-05,
+        "eos": 0.0,
+        "whitespace": 0.0
+      }
+    },
+    "mean_sequence_logprob_delta_by_reward": {
+      "0": -0.07091178053678959,
+      "1": 1.3368211756617906e-05
+    },
+    "negative_pre_vectors_identical": true,
+    "not_new_generation_or_accuracy": true,
+    "sum_sequence_logprob_delta_by_reward": {
+      "0": -0.28364712214715837,
+      "1": 0.00037430992918530137
+    }
+  },
+  "schema": "openai-mrcr-cp32-fixed-baseline-rl-update-audit-v1",
+  "source": {
+    "poststep_logps_sha256": "684f33ed5c719d9de24de225c69cd8233122d2dab78ed0d2dc87ed94b7daf456",
+    "prestep_logps_sha256": "a566a9dc4da5bb1dbc329870d5ea21d866bb51aac9acf5dfb9f1aa6e87555453",
+    "ready_sha256": "014a9c87a0676f64dfbded51b8b91b0a27fa8801ed4e397b141022cc73ffac4b",
+    "replay_sha256": "d8fa57eec03e00cc72406d962a91ed94052b9957c17ad3d206d127fec557b40a",
+    "result_sha256": "a30953b06920b8ad02163cfc4f8bf9f1ab05f65b30540a1274bbc9edf263e2f8",
+    "state_sha256": "3a6a64699a9cb9e5eed9bb12b93ae636e2e5feffb3a637d3734e672fb32976e2",
+    "step_commit_sha256": "eccb2730bc60ab68e4b10b10a807646b742ea3c55aa6d0560936a0e2438be844",
+    "train_inputs_sha256": "9e874c1087a4513752d102fad040e5628e6d96fa8fd248cca32c430aa87575e0"
+  },
+  "status": "complete_read_only",
+  "training": {
+    "child_loss_tokens": 0,
+    "conditional_final_tokens": 10420,
+    "denominator": 32,
+    "episodes": 32,
+    "gradient_component_l2_negative_only": {
+      "body": 4.331900135545241e-09,
+      "eos": 0.0001254158166358178,
+      "whitespace": 0.003584074719772603
+    },
+    "group_reward_vectors": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "groups": 8,
+    "reward_counts": {
+      "0": 4,
+      "1": 28
+    },
+    "token_TIS": {
+      "cap": 2.0,
+      "capped_tokens": 0,
+      "weight_max": 1.004041130708731,
+      "weight_mean": 1.0000009272621972,
+      "weight_min": 0.9999686519188413
+    },
+    "zero_loss_other_root_tokens": 6716
+  }
+}

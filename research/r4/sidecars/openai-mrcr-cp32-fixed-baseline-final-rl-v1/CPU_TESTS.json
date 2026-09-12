@@ -1,0 +1,23 @@
+{
+  "CUDA_VISIBLE_DEVICES": "",
+  "actual_final_tokens": 10420,
+  "actual_native_trajectories": 32,
+  "command": [
+    "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "test_train.py"
+  ],
+  "elapsed_seconds": 6.4159215092659,
+  "mismatch_test_no_optimizer_no_weight_change": true,
+  "original_red": "Two tests failed for missing train.py before implementation; then actual fixture green.",
+  "real_tiny_HF_PEFT": true,
+  "returncode": 0,
+  "source_checkpoint_fully_qualified": true,
+  "stderr": "",
+  "stdout": "..                                                                       [100%]\n2 passed in 5.00s\n",
+  "zero_loss_root_tokens": 6716
+}

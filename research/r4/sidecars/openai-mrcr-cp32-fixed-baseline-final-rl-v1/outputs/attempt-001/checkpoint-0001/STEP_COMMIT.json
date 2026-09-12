@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-v1/outputs/attempt-001/checkpoint-0001/EVAL_BINDING.json": "f897ce648b0e76fd1c492e095f8c0dec3a339f50342c7b06afe7eef19e9b83e9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-v1/outputs/attempt-001/checkpoint-0001/README.md": "1db9af3ef95b236c9262ff1c05f262571affb872f64892e67183417b90e43524",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-v1/outputs/attempt-001/checkpoint-0001/adapter_config.json": "193580bf1e0aa78a32f895a14f4b544381871b3594a77f1ce1e198111894d6ea",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-v1/outputs/attempt-001/checkpoint-0001/adapter_model.safetensors": "8be37cf68604a58930cdae1f4270b5eb330b908b70082661f3745d10d4c437c4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-v1/outputs/attempt-001/checkpoint-0001/optimizer.pt": "dcf139070546ca16f5fbccaa5fd0853e87038cab4569c5a98c74d2c2f4f2e450",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-v1/outputs/attempt-001/checkpoint-0001/rng.pt": "3671791d050c5001da35dddb6914a059b62d829aadc21956217ec290e1bc38e5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-v1/outputs/attempt-001/checkpoint-0001/state.json": "3a6a64699a9cb9e5eed9bb12b93ae636e2e5feffb3a637d3734e672fb32976e2"
+  },
+  "input_sha256": "9e874c1087a4513752d102fad040e5628e6d96fa8fd248cca32c430aa87575e0",
+  "parent_sft_step": 32,
+  "ready_sha256": "014a9c87a0676f64dfbded51b8b91b0a27fa8801ed4e397b141022cc73ffac4b",
+  "step": 1
+}

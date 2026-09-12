@@ -1,0 +1,68 @@
+"""CPU qualification and immutable seal; no optimizer admission."""
+import importlib.metadata
+import os
+from pathlib import Path
+import subprocess
+import sys
+import time
+import study
+
+
+def prepare():
+    assert os.environ.get('CUDA_VISIBLE_DEVICES')=='' and not study.READY.exists()
+    rows=study.validate_inputs(study.read(study.INPUTS))
+    env=dict(os.environ,CUDA_VISIBLE_DEVICES='',PYTHONDONTWRITEBYTECODE='1',TOKENIZERS_PARALLELISM='false')
+    command=[str(study.PYTHON),'-m','pytest','-q','-p','no:cacheprovider','test_train.py']
+    started=time.monotonic()
+    test=subprocess.run(command,cwd=study.ROOT,env=env,capture_output=True,text=True,timeout=120)
+    receipt=dict(command=command,returncode=test.returncode,stdout=test.stdout,stderr=test.stderr,
+                 elapsed_seconds=time.monotonic()-started,CUDA_VISIBLE_DEVICES='',
+                 original_red='Two tests failed for missing train.py before implementation; then actual fixture green.',
+                 actual_native_trajectories=len(rows),actual_final_tokens=10420,zero_loss_root_tokens=6716,
+                 source_checkpoint_fully_qualified=True,real_tiny_HF_PEFT=True,
+                 mismatch_test_no_optimizer_no_weight_change=True)
+    study.write_x(study.ROOT/'CPU_TESTS.json',receipt)
+    assert test.returncode==0,test.stdout+test.stderr
+    versions={'python':sys.version,'executable':sys.executable,
+              'packages':{n:importlib.metadata.version(n) for n in ('torch','transformers','peft','safetensors','numpy')}}
+    study.write_x(study.ROOT/'VERSIONS.json',versions)
+    pins=dict(study.read(study.INPUTS)['source_sha256'])
+    for p in (study.SCREEN/'CPU_READY_V4.json',study.REVIEW/'READY.json',study.PRIOR/'CPU_READY_V2.json'):
+        r=study.read(p);pins.update(r.get('closure_sha256',{}));pins[str(p)]=study.sha(p)
+    for directory in (study.BASE,study.CHECKPOINT):
+        for p in directory.iterdir():
+            if p.is_file():pins[str(p)]=study.sha(p)
+    for p in (study.PYTHON,study.NATIVE,study.PRIOR/'study.py'):
+        pins[str(p)]=study.sha(p)
+    for p in study.ROOT.iterdir():
+        if p.is_file():pins[str(p)]=study.sha(p)
+    for p,h in pins.items():assert study.sha(p)==h,p
+    ready=dict(schema='cp32-fixed-baseline-final-RL-ready-v1',closure_sha256=pins,
+        fixed_argv=[str(study.PYTHON),str(study.ROOT/'owner.py'),'run'],
+        source_cp32_adapter_sha256=study.ADAPTER_SHA,source_native_batch_sha256=study.sha(study.INPUTS),
+        groups=8,trajectories=32,rewards={'correct':28,'incorrect':4},baseline=.5,denominator=32,
+        fresh_AdamW_steps=1,learning_rate=1e-5,token_TIS_cap=2.,surrogate_biased=True,
+        mixed_group_gate=False,actual_final_tokens=10420,zero_loss_other_root_tokens=6716,
+        science_cap_seconds=900,owner_cap_seconds=1100,external_cap_seconds=1200,
+        output=str(study.OUTPUT),checkpoint=str(study.OUTPUT/'checkpoint-0001'),
+        expected_root_alias=study.ALIAS,new_generation_calls=0,heldout_queries=0,
+        CPU_only=True,GPU_admission=False)
+    ready['identity']=study.digest(ready)
+    candidate=study.ROOT/'CPU_CANDIDATE_READY.json';study.write_x(candidate,ready)
+    code=("import study,train; study.READY=study.ROOT/'CPU_CANDIDATE_READY.json'; "
+          "train.run(study.OUTPUT,study.SCIENCE_SECONDS)")
+    entry=subprocess.run([str(study.PYTHON),'-c',code],cwd=study.ROOT,env=env,
+                         capture_output=True,text=True,timeout=120)
+    assert entry.returncode!=0 and 'CPU_ENTRY_VERIFIED: MAIN must assign one GPU' in entry.stderr
+    assert not study.OUTPUT.exists()
+    study.write_x(study.ROOT/'CPU_ENTRY.json',dict(command=[str(study.PYTHON),'-c',code],
+        returncode=entry.returncode,stdout=entry.stdout,stderr=entry.stderr,
+        actual_run_reached_CPU_guard_after_full_preflight=True,output_created=False,
+        candidate_ready_sha256=study.sha(candidate)))
+    for p in (candidate,study.ROOT/'CPU_ENTRY.json'):pins[str(p)]=study.sha(p)
+    ready.pop('identity');ready['identity']=study.digest(ready)
+    study.write_x(study.READY,ready)
+    verified=study.verify();print({'identity':verified['identity'],'ready_sha256':study.sha(study.READY),'pins':len(pins)})
+
+
+if __name__=='__main__':prepare()

@@ -1,0 +1,31 @@
+{
+  "endpoint_chosen_by_result": false,
+  "fixed_child": "Qwen3-4B-Instruct-2507-procedural-eval-zero",
+  "models": {
+    "Qwen3-4B-Instruct-2507-mrcr-cp32-fixedbaseline-final-step1": {
+      "adapter_sha256": "8be37cf68604a58930cdae1f4270b5eb330b908b70082661f3745d10d4c437c4",
+      "config_sha256": "193580bf1e0aa78a32f895a14f4b544381871b3594a77f1ce1e198111894d6ea",
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-v1/outputs/attempt-001/checkpoint-0001"
+    },
+    "Qwen3-4B-Instruct-2507-procedural-eval-zero": {
+      "adapter_sha256": "263a1cfeb385a448379ad2dc685f7191aa86f9a65cf635017c8453839ce9067f",
+      "config_sha256": "f4cd1182fd350ca49043995da16bcae7001cc02e6062497ea70d52434ec1214d",
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/checkpoint-artifacts/base-zero-adapter"
+    }
+  },
+  "new_optimizer_steps": 1,
+  "parent_sft_step": 32,
+  "post_training_or_evaluation_checkpoint_selection": true,
+  "role_map": {
+    "children": [
+      "Qwen3-4B-Instruct-2507-procedural-eval-zero"
+    ],
+    "root": "Qwen3-4B-Instruct-2507-mrcr-cp32-fixedbaseline-final-step1"
+  },
+  "schema": "cp32-fixed-baseline-final-RL-binding-v1",
+  "selection": "one fixed step; no outcome checkpoint selection",
+  "selection_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-v1/outputs/attempt-001/checkpoint-0001/state.json",
+  "selection_semantics": "Adaptively proposed objective after cp32 rollout diagnosis; fixed one-step endpoint.",
+  "selection_sha256": "3a6a64699a9cb9e5eed9bb12b93ae636e2e5feffb3a637d3734e672fb32976e2",
+  "state_sha256": "3a6a64699a9cb9e5eed9bb12b93ae636e2e5feffb3a637d3734e672fb32976e2"
+}
