@@ -1,0 +1,19 @@
+{
+  "schema": "pinned-public-dataset-acquisition-v2",
+  "dataset": "fancyzhx/dbpedia_14",
+  "revision": "9abd46cf7fc8b4c64290f26993c540b92aa145ac",
+  "retrieved_utc": "2026-09-12T15:40:42.415384+00:00",
+  "source_url": "https://huggingface.co/datasets/fancyzhx/dbpedia_14/resolve/9abd46cf7fc8b4c64290f26993c540b92aa145ac/dbpedia_14/test-00000-of-00001.parquet",
+  "path": "/project/alex_phd/research-cache/datasets/fancyzhx--dbpedia_14--9abd46cf7fc8b4c64290f26993c540b92aa145ac/dbpedia_14/test-00000-of-00001.parquet",
+  "sha256": "05fed41640e97f93ffd442757f6a84170348cf0c7500ecbda9e95ddcd928c631",
+  "bytes": 13272475,
+  "records": 70000,
+  "dataset_card_path": "/project/alex_phd/research-cache/datasets/fancyzhx--dbpedia_14--9abd46cf7fc8b4c64290f26993c540b92aa145ac/README.md",
+  "dataset_card_sha256": "c700cd45f4f34bd66dea0a5e71264987f5e2ed7544579765c4e59ec96da72fbd",
+  "license": "CC-BY-SA-3.0 in pinned card metadata; prose also names GNU FDL; retain attribution, no source text published here",
+  "split": "official test; no training partition acquired",
+  "prior_attempt": "ATTEMPT_001.md records HTTP429; this is a later supported anonymous Hub download, not a new dataset revision",
+  "remote_code_executed": false,
+  "model_queries": 0,
+  "proposal": "224 outcome-blind examples,16 perclass; four predeclared existing helper endpoints; tests new-domain label-vocabulary transfer/interference. Not GPU admitted."
+}

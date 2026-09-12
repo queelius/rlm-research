@@ -1,0 +1,35 @@
+{
+  "actual_collector_loop_container_fixtures": 2,
+  "actual_first_prefix_checks": 2,
+  "dependency_preflight": {
+    "argv": [
+      "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+      "-c",
+      "import owner,study; suite=owner.dependencies(); assert suite.SERVE == study.ALLOCATION_RUNTIME/'service_wrapper_v2.py'; print('dependency-boundary-ok')"
+    ],
+    "elapsed_seconds": 2.7233734130859375,
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "dependency-boundary-ok\n"
+  },
+  "finite_host_grade_checks": 2,
+  "gpu_calls": 0,
+  "pytest": {
+    "argv": [
+      "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "test_syntax_screen.py"
+    ],
+    "elapsed_seconds": 172.78838062286377,
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "...                                                                      [100%]\n=============================== warnings summary ===============================\ntest_syntax_screen.py::test_actual_collector_slot_uses_frozen_prompt_and_produces_finite_final[budgeted_plain]\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_syntax_screen.py::test_actual_collector_slot_uses_frozen_prompt_and_produces_finite_final[budgeted_plain]\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n3 passed, 2 warnings in 169.78s (0:02:49)\n"
+  },
+  "schema": "root-qs6-budgeted-evidence-syntax-cpu-tests-v1",
+  "service_calls": 0,
+  "tests": 3
+}

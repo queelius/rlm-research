@@ -3,13 +3,14 @@ schema_version: "rlm-question-card-v1"
 id: "rq:controller"
 title: "Which limited root-training gains survive new query compositions and faithful native accounting?"
 status: "promising_but_limited"
-updated_utc: "2026-09-11T00:24:00Z"
+updated_utc: "2026-09-12T16:00:00Z"
 evidence_cutoff: "2026-09-09T17:32:51.282711+00:00"
-living_update_cutoff_utc: "2026-09-11T00:15:00Z"
+living_update_cutoff_utc: "2026-09-12T16:00:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
 related_questions:
+  - "rq:authenticated-calculation-reward"
   - "rq:reduction"
   - "rq:sufficient-interface"
 claim_ids:
@@ -26,6 +27,8 @@ claim_ids:
   - "claim:plan-negative"
   - "claim:query-diagnosis"
 reports:
+  - "/project/alex_phd/runs/rlm-research-r4/analyses/root-question-sensitive-fresh-input-three-policy-live-2026-09-11/REPORT.md"
+  - "/project/alex_phd/runs/rlm-research-r4/analyses/root-question-sensitive-terminal-rlvr-lr1e5-live-2026-09-10/REPORT.md"
   - "/project/alex_phd/runs/rlm-research-r4/analyses/root-question-sensitive-sft-new-corpus-live-2026-09-10/REPORT_RECOVERY_V2.md"
   - "/project/alex_phd/runs/rlm-research-r4/analyses/root-question-sensitive-sft-new-corpus-live-2026-09-10/ERRATUM_START_AND_CLAIM.md"
   - "/project/alex_phd/runs/rlm-research-r4/analyses/root-composed-rl-continuation-live-2026-09-10/REPORT.md"
@@ -61,7 +64,55 @@ publication_readiness: "not_publication_ready"
 
 # Which root-training gains transfer?
 
-## Current question — September 11, 00:24 UTC
+## Current decision — September 12, 16:00 UTC
+
+A clean32-episode long-conversation calibration produced0 exact requested answers,
+67 real root responses and no child calls. The31 available overlap scores averaged
+0.05845, but trace inspection found that the model often retrieved user requests
+instead of the following assistant replies. One blank response remains unavailable
+under that run's frozen rules. We do not treat varying low overlap as sufficient
+evidence for a useful RL objective.
+
+Next: evaluate the base controller on shorter independent training conversations,
+then test a fixed small procedural-SFT dose. The training-only teacher uses public
+question fields and stored conversation roles/order, not a hidden answer index;
+it recovers32/32 training answers. This is not model learning or transfer evidence.
+Keep all16 heldout conversations untouched until a fixed endpoint is selected
+without looking at them. Shorter JSON conversations change several factors from
+the long-conversation pilot, so this is not an isolated representation ablation.
+
+In parallel, test whether one syntax-only example makes the new classify/finish
+interface usable. Its preceding48 episodes had11 strict finals and9 consistent
+finish actions, too little to assess selective delegation. Train protocol competence
+before attributing this failure to the quality of a decomposition policy.
+
+Evidence: [retrieval diagnosis](../analyses/mrcr-v7-root-procedure-calibration-outcomes-2026-09-12/PROCEDURE_DIAGNOSIS.md),
+[raw outcome correction](../analyses/mrcr-v7-root-procedure-calibration-outcomes-2026-09-12/REPORT_ADDENDUM_V2.md),
+[selection-interface interpretation](../analyses/root-qs6-budgeted-evidence-stop-independent-v2-2026-09-12/DECISION_ADDENDUM_V2.md).
+These additions do not change the older catalog's evidence cutoff above.
+
+The follow-up [authenticated calculation-reward question](../../../ARTIFACTS.md)
+has CPU evidence. Its V1 and V2 attempts stopped before any provider call or optimizer update;
+additive V3 is now making real control-arm rollout requests. No optimizer or reward-comparison
+result from V3 exists yet.
+
+## Current question — September 11, 01:36 UTC
+
+The lower-learning-rate reward ablation is now complete. Six genuine updates at1e-5 left the
+48 composed protected questions tied at36 correct in both arms (46 known pairs; missing-outcome
+bounds -4.17 to+4.17 points). Agent-reviewed grounded-faithful-and-strict execution also tied at
+33/48 in both arms. Across all72 questions, the fixed last checkpoint scored52 versus55 at the
+start, but missing outcomes permit52–56, so this run does not establish a decline.
+
+Together with the larger-update result, this says neither tested small terminal-reward recipe
+improved the protected panel. It does not establish that reward learning generally fails. The next
+useful diagnostic is whether scoring the requested calculation against the authenticated observed
+helper map would expose more mixed within-task credit; that analysis must remain separate from
+strict correctness and path faithfulness until prospectively frozen as an intervention.
+
+[Independent LR1e-5 audit](../../../ARTIFACTS.md).
+
+## Previous question — September 11, 00:24 UTC
 
 The large supervised-training gain appeared again with a separately captured
 demonstration set. On the same72 changed-metadata questions, correct-and-performed
@@ -413,6 +464,26 @@ availability is31/32 in both arms, but the1/32→4/32 gain is still entirely add
 zero-gold success. All source groups are root-disjoint but exposed to prior child training.
 
 ## What remains unknown
+
+### Fresh-input three-policy update at03:45 UTC
+
+The [fresh-input audit](../../../ARTIFACTS.md)
+retains all216 planned rows and manually reviews all207 available paths. Faithful-and-correct totals
+are fixed24 12/72 (bounds12–19), original-corpus SFT6 55/72, and new-corpus SFT6 53/72
+(bounds53–55). Both trained policies improve all eight context clusters and recover35/48 and34/48
+composed tasks versus0/48 for fixed24. This strengthens the bounded controller-training result beyond
+the earlier source groups; it does not establish new-family composition or general reliability.
+
+The two SFT policies came from distinct72-trajectory corpora, but the evaluation is one shared panel.
+The selected contexts are new to named root inventories only, not guaranteed absent from pretraining,
+child training, or all catalogs. Manual semantic judgments were outcome-visible; MAIN checked the
+full arithmetic and selected traces rather than independently repeating all207 judgments.
+
+The authenticated-map reward V1 and V2 attempts both stopped with zero provider calls and zero
+updates: V1 lacked a required serving-model manifest binding, while V2's24 first-window task
+identities failed before transport. Their bonus arms never launched. Additive V3 is now making real
+control-arm native rollout requests under the unchanged scientific comparison, but it has not yet
+produced an optimizer update or reward result. These operational facts do not change the SFT evidence.
 
 For the new joint recipe there is no independent training-seed replication or matched-dose evidence that distinguishes
 general planning from syntax and coverage recovery. Complete examples have now been tested in one

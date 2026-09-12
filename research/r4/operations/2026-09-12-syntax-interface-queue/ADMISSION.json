@@ -1,0 +1,26 @@
+{
+  "authority": "MAIN",
+  "caps": {
+    "arm_seconds": 420,
+    "external_seconds": 1100,
+    "owner_seconds": 1000
+  },
+  "decision": "If syntax improves protocol use, inspect remaining errors before ledger/depth variants. No repeat of unchanged failing interface.",
+  "episodes": 48,
+  "epoch": 1789228573.3637006,
+  "limits": "Two familiar contexts; saved helper predictions. Interface screen only, not new-data transfer, helper cost reduction, or architecture promotion.",
+  "paired_tasks": 24,
+  "physical_child_calls": 0,
+  "primary": [
+    "finish-consistent strict finals",
+    "rejected API actions"
+  ],
+  "question": "Does one syntax-only example improve reliable use of classify/finish?",
+  "review": "Full new source, fixed prompt, two actual collector fixtures, inherited accepted V2 source and boundary reviewed; own source closure verify passed.",
+  "secondary": [
+    "correct/wrong/unknown",
+    "logical acquired IDs",
+    "root calls/tokens"
+  ],
+  "wrapper_sha256": "6e09d64eae330aaf9ce9ee27a62dbb77d9f4e78d23d7ea8ee28435ab3e5ce099"
+}

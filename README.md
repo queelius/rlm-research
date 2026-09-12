@@ -4,13 +4,17 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 12, 2026, 15:16 UTC. The broader RL gain now
+Latest partial refresh: September 12, 2026, 16:02 UTC. The broader RL gain now
 repeats across two training seeds: 437 and 436 correct out of 512, versus 422
 before training and 427 after supervised training. The two RL models agree on
 511 answers. This strengthens repeatability on the same panel, not transfer
 to different data; the methods did not use equal computation. The refresh adds
 the fixed-endpoint raw audit, paired corrections and regressions, costs, and
-follow-up questions. Infrastructure failures and GPU idle time remain visible.
+follow-up questions. A small, previously evaluated question-classification panel
+shows no accuracy loss after RL (121→122 of128). Separate controller trials exposed
+retrieval and tool-interface difficulties, motivating procedural demonstrations
+and a syntax-only interface comparison. Those follow-ups are not learned-model
+results yet. Infrastructure failures and GPU idle time remain visible.
 Other records retain their earlier cutoffs; this is not live GPU status. The latest
 plain-language synthesis is also in the
 [September 12 research report](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-12-broader-rl-learning-signal.md).

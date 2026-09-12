@@ -1,0 +1,13 @@
+{
+  "comparator_sha256": "75a3c242cccc93f604b89225681d4a16d07283b3e510631ef0ffb92d3af69289",
+  "elapsed_seconds": 2282.539823770523,
+  "gpu_calls": 0,
+  "returncode": 0,
+  "status": "COMPLETE",
+  "stderr": "",
+  "terminal_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-trec-retention-b4-eval-v1/outputs/c32-001/OWNER_TERMINAL.json": "d16240ae177c1853a882aeb93e2f290cc9fe44d6a1eff3615e41d8fb9f440bc3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-trec-retention-b4-eval-v1/outputs/rl_step8-001/OWNER_TERMINAL.json": "d8b4bd096ca2c48b1e4062cebef318de60beb1de24267049d5b4f1f6aabd771c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-trec-retention-b4-eval-v1/outputs/sft_step8-001/OWNER_TERMINAL.json": "f52467e9e6b535aedf2986e57657505deb1302de6a192f965603fc1ad2e35134"
+  }
+}

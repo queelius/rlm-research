@@ -1,11 +1,50 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T15:10:00Z
+updated_utc: 2026-09-12T16:00:00Z
 status: active_exploratory_research
 claim_level: two_training_seed_RL_gain_same_panel_needs_new_example_test
 ---
 
 # Research in plain language
+
+## Current decisions — September 12, 16:00 UTC
+
+The repeated RL gain remains our strongest new training result: the starting helper
+got422/512 news labels right, two RL runs got437 and436, and supervised training
+got427. The two RL runs agree on511 answers. We still need the separately frozen
+official-test comparison before calling this a gain on new examples.
+
+The earlier question-classification skill appears intact on a small, previously
+evaluated panel:121/128 at the start,122 after RL,121 after supervised training.
+RL changed only one answer, from wrong to right. This is a useful retention check,
+not proof of broad transfer. See the
+[source-to-raw audit](helper-trec-retention-b4-independent-2026-09-12/SOURCE_TO_RAW_RESULT.json).
+
+Controller exploration exposed a different bottleneck. On32 trials retrieving
+answers from one long conversation, none returned the exact requested answer.
+Many copied a user's request instead of the assistant's reply. Small nonzero text
+overlap scores are not evidence that the model has learned a useful procedure.
+We therefore did not launch RL from that reward signal. A shorter, independent
+conversation calibration is queued; a training-only demonstration program solves
+all32 available training conversations, but that is teacher correctness, not a
+trained-model result. Its actual tool interaction is being checked before SFT.
+
+The new selection interface also needs a basic usability check. Of48 completed
+episodes, only11 had a strict final answer and9 also agreed with the declared
+finish action. The original exporter marks the changed prompts unavailable, so
+these are raw-trace diagnostics, not a promoted accuracy comparison. A fresh
+paired test asks whether one syntax-only example improves use of the interface.
+Deeper recursion and a persistent working-state variant wait for usable evidence.
+
+GPU training is active on the same first128 articles repeated for eight updates.
+It tests whether additional training alone explains the broader-data gain. The
+first update uses identical examples, sampled answers and losses, but not bitwise
+identical gradient updates; this numerical limitation is recorded. Other admitted
+jobs test fresh official news examples and whether the trained helper improves
+whole-system answers under an unchanged controller. A new encyclopedia
+classification panel is frozen for a different-domain/label-space check.
+
+The sections below are dated history, not live job status.
 
 ## Current result — September 12, 15:10 UTC
 

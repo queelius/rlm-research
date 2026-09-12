@@ -1,0 +1,49 @@
+{
+  "created_epoch": 1789228238.749798,
+  "elapsed_cpu_seconds": 6.497483300045133,
+  "files_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/DESIGN.md": "abe680e5a4d91b5b55df7f591ce97a413aa08860168430b19b1d65b7d75aff68",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/RENDERER_FIXTURE_V2.json": "61de5fef9f8c7659f4be385e22b917b941da7608b51109f9fa46a1749941aac9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/TEACHER_AUDIT_V2.json": "15f6ec87837c106d6ed1921aa45c5f8a9ce3fd4eff238de691804c793d7ee1d4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/TEACHER_CORPUS_V2.json": "e4f5a2e71a435cebb732f13ad551f74edca1b784920b80230fb5ae282e1ecf56",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/prepare.py": "d84389099e26e98230f2408852aac3617c8451ef6bb05d7024b86f5230d8e4f7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/teacher.py": "7fecee01128b13a0081e4900f609aa188cb20d1249f885f3f58269dd9cbe8bb2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/test_teacher.py": "d99476da6133d13d897ee8798ed7c3d3737186b0ac9f37be374e48727f5b8b1f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-data-v1/MODEL_INPUTS_V2.json": "5fad44911299b683ea45f36265f0c2bc115623dd82f26ba83d8e707b56dda796",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-data-v1/official_score.py": "b40431d62562bb0bd02b58099533a064a87aa2c85a700f4382288c29337be8f6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short32-base-calibration-v1/READY_V2.json": "aea688ffc6f2ef9d5dceb3037da972409a869a1555f9c375a0ac76feba3b414e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short32-base-calibration-v1/cpu-child-smoke-v2/PROVIDER_REQUESTS.json": "f6b5041c45b1b6abd31248ff564350201c66cb191f041f18fed7a8a012195aac"
+  },
+  "gpu_calls": 0,
+  "heldout": {
+    "context_files_read": 0,
+    "gold_records_used": 0,
+    "model_queries": 0,
+    "query_files_read": 0,
+    "records": 16
+  },
+  "identity": "476bb91578dcde36d181c92b5eb801f5276d079c0d3c4a64581749fcffd803fe",
+  "next_gate": "MAIN review before implementing/sealing the fixed four-update trainer",
+  "optimizer_steps": 0,
+  "schema": "openai-mrcr-procedural-sft-teacher-cpu-ready-v1",
+  "status": "TEACHER_CORPUS_CPU_READY_NO_GPU_TRAINING_COMMAND_YET",
+  "teacher": {
+    "attempted": 32,
+    "exact": 32,
+    "failures": 0,
+    "kinds": {
+      "diary entry": 2,
+      "formal letter": 4,
+      "poem": 7,
+      "riddle": 5,
+      "short essay": 2,
+      "short news article": 3,
+      "short scene in a play": 5,
+      "social media post": 4
+    },
+    "ordinals": {
+      "1": 17,
+      "2": 15
+    }
+  }
+}

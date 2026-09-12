@@ -1,0 +1,26 @@
+{
+  "teacher": {
+    "argv": [
+      "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "test_teacher.py"
+    ],
+    "returncode": 0,
+    "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+    "stdout": "...                                                                      [100%]\n=============================== warnings summary ===============================\ntest_teacher.py::test_renderer_matches_actual_short32_prefix_and_masks_only_root_suffixes\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_teacher.py::test_renderer_matches_actual_short32_prefix_and_masks_only_root_suffixes\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n3 passed, 2 warnings in 6.51s\n"
+  },
+  "training": {
+    "argv": [
+      "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "test_train.py"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "...                                                                      [100%]\n=============================== warnings summary ===============================\ntest_train.py::test_actual_reused_loss_has_action_mass_one_terminal_mass_point_one\n  /project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/lib/python3.12/site-packages/peft/tuners/lora/layer.py:2631: UserWarning: fan_in_fan_out is set to False but the target module is `Conv1D`. Setting fan_in_fan_out to True.\n    warnings.warn(\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n3 passed, 1 warning in 5.33s\n"
+  }
+}

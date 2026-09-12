@@ -1,5 +1,21 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 15:36 UTC
+
+ACTIVE repeat128trainingPTY58292 from15:33:23.925UTC, firstnative128mapscomplete,
+firstHFupdateunderway. Follow-ons short32PTY93817,officialtest512fourarms47344;
+conditionalrepeatfixed512CPUwaiter28698. Do notduplicatequeuedowners.
+TRECretentionfinalc32121/RL122/SFT121 outof128,allavailable,authoritativerawaudit
+complete. EvidenceV2ended703.069s,48records/11strictfinals/9finishconsistent,
+21unknownpairs; noarchitecturepromotion. Rawdiagnosticseparatesexportprefixfailure.
+Short32PRIMARYanalysis is REPORT_V2.json under analyses/openai-mrcr-short32-
+outcomes-2026-09-12, watcher81383; old82692hasstrip-scoringmistake, preservebutdo
+notusetooverridefrozenofficialrawstringgrade.
+LatestpushesRLM23debb0/notebookc130502. Quota70%15:26:51UTC. All3CPUagentsactive:
+local prepareswholeRLMAG48;postmeetingpreparestool-syntaxexamplecomparison;
+learned_recursionpreparesproceduralSFTteacher/feasibility. GPUallocation5801/an22
+oneA10040GBendsSep15 17:30:16UTC. MainsolelauncherunderCOORDINATOR.lock.
+
 ## Latest resume pointer — September 12, 2026, 15:15 UTC
 
 Seed2 RL training/evaluation complete:436/512 versus c32422,seed1437,SFT427;
@@ -333,3 +349,23 @@ matched-eight-update SFT on a fixed fresh panel. It is one training seed, not ye
 a replicated improvement. Reports and raw audits were pushed (RLM0a82674,
 notebook7d38486). Existing TREC records cannot support genuinely unseen transfer;
 use the new outcome-blind subset only to measure retention/interference.
+# Resumption update September12 16:00UTC
+
+Active repeated128 RL PTY58292, step6; current root source/provenance review complete
+for syntax48 WAITING PTY38698 and whole-RLM48 WAITING PTY17551 under sharedflock.
+Wrappers operations/2026-09-12-syntax-interface-queue/locked_launch.py and
+operations/2026-09-12-whole-rlm-live-transfer-queue/run.py. Do not restart existing
+attempts. Initial syntax unflocked driver refused busyGPU before model calls;
+preserved original receipts, additive locked launch waits. No scientific retry.
+
+Newest results: two-seed RL422→437/436of512, SFT427; TREC retention121→122RL/121SFT.
+ControllerV7 zeroexact32,31lowoverlap scores; do not train arbitraryoverlap reward.
+EvidenceV2 raw11strict9finishconsistent of48, originalexportallunknownprefixmismatch;
+syntax-only interface intervention now queued. DBpedia224data frozen noGPUyet.
+
+Agents: learned_recursion_prior_art finishing teacher two-prefix qualification and
+thin4update SFT; local_rl_design independent whole-RLM48 watcher; postmeeting_gpu_pilot
+DBpedia224 fixedfour-arm eval CPUprep. Allrunning; MAIN onlyGPUlauncher. Short32
+uses authoritative REPORT_V2 raw-stringgrader, not originalREPORT strippingvariant.
+Budget68%15:41:52, latest watcherperiod15min; allocation5801 endsSep15 17:30UTC.
+Do not stop autonomous work while accepted useful jobs and account budget remain.

@@ -1,5 +1,53 @@
 # Live GPU research queue
 
+### Live update September12 16:00UTC — two more informative comparisons admitted
+
+Repeated128 RL PTY58292 is active, five updates committed and step6 collecting.
+Not a completed eight-step endpoint yet. Short32 calibration93817, officialtest512
+four-arm47344 and conditional repeat-evaluation28698 remain accepted. New syntax48
+comparison waits under bounded sharedflock PTY38698; whole-RLM live-helper48 waits
+PTY17551. Main reviewed all new runtime sources and actual focused CPU fixtures.
+
+Syntax initial wrapper invocation omitted externalflock; the driver refused the
+busy GPU before any service or scientific call. Receipts are preserved; additive
+locked_launch.py now waits correctly. No model retry or competing GPU work occurred.
+
+CPU agents prepare DBpedia224 four-arm evaluation, whole-RLM independent outcome
+accounting, and fixed-dose procedural SFT. No DBpedia/SFT GPU admission yet. Teacher
+32/32 correctness is training-data construction, not a learned-model score. Do not
+let weak text-overlap variation automatically trigger root RL.
+
+Latest account receipt68% at15:41:52UTC; allocationunchanged. Prior15:36 statuses
+below are history. Git checkpoints remain RLM23debb0/notebookc130502 until nextpush.
+
+### Live update September 12 15:36 UTC — repeated-example RL training active
+
+ACTIVE PTY58292, repeat128 eight-update training, start15:33:23.925UTC. First
+128 native maps completed; the first weight update is underway. Same first128
+articles repeated, fixed8updates if signal remains,5000/5200secondcaps, every
+adapter/Adam/RNG state checkpointed. Follow-on source/raw and first-step paired
+diagnostic watchers are active. No completed repeated-data quality result yet.
+
+TREC retention completed all3arms: c32121/128, originalRL8 122/128, SFT8121/128;
+all128available. RL changes exactlyone answer fromwrongtocorrect; SFT changesnone.
+Authoritative SOURCE_TO_RAW_RESULT and terminal now exist in
+analyses/helper-trec-retention-b4-independent-2026-09-12. Small historically
+evaluated panel, no abbreviationexamples; no broad transfer or noninferiority claim.
+
+EvidenceV2 completed48episodes in703.069ownerseconds, cleanservice release. Only11
+strictfinals(6eager/5budgeted),9finishconsistent; rawgoldexact4/3. Originalexport
+prefixcheckmarksallunknown; preserveit with the rawdiagnostic. 21/24pairedoutcomes
+unknown, zeroactualchildcalls. Do not promote the newinterface. CPUsyntaxexample
+comparisonpreparation targets the coldAPI issue; neutralledger deferred.
+
+WaitingGPU: short32PTY93817 then officialtest512fourarms47344; repeatedfixed512
+dependencywaiter28698 remains outsideGPUlock untilcomplete8stependpoint. CPU
+wholeRLM48episode/newAGcontextprep is active, as is proceduralSFTteacher design.
+Short32 authoritative raw-stringwatcher81383 supersedes scoring in82692 without
+changingsealedmodelrun; no strip inofficialgrader. Mainreviewcomplete.
+
+Latestpushes RLM23debb0/notebookc130502. Quota70%15:26:51UTC. Allocationunchanged.
+
 ### Live update September 12 15:15 UTC — RL gain repeats; new-example tests queued
 
 Completed second-seed fixed512:436 correct versus c32422 and seed1437, all512

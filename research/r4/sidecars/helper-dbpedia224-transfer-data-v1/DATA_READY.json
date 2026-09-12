@@ -1,0 +1,60 @@
+{
+  "schema": "dbpedia224-transfer-data-ready-v1",
+  "status": "CPU_FROZEN_NO_MODEL_CALLS",
+  "namespace": "helper-dbpedia224-transfer-data-v1|20260912",
+  "source_revision": "9abd46cf7fc8b4c64290f26993c540b92aa145ac",
+  "source_license": "CC-BY-SA-3.0; card also names GNU FDL",
+  "question": "Does news RL alter helper classification in a different domain and14-label vocabulary?",
+  "intended_fixed_arms": [
+    "c32",
+    "rl_step8",
+    "sft_step8",
+    "rl_seed2_step8"
+  ],
+  "source_sha256": {
+    "/project/alex_phd/research-cache/datasets/fancyzhx--dbpedia_14--9abd46cf7fc8b4c64290f26993c540b92aa145ac/dbpedia_14/test-00000-of-00001.parquet": "05fed41640e97f93ffd442757f6a84170348cf0c7500ecbda9e95ddcd928c631",
+    "/project/alex_phd/research-cache/datasets/fancyzhx--dbpedia_14--9abd46cf7fc8b4c64290f26993c540b92aa145ac/README.md": "c700cd45f4f34bd66dea0a5e71264987f5e2ed7544579765c4e59ec96da72fbd",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-c32-helper-batchsize-v1/inputs/SOURCES.json": "0a0f0f3d6345b05ef8d5d4d7519571a0685180fa9cbd44b255577d49ade7307b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-data-v1/prepare.py": "963360fdbce3e7bc71fa29f01a8122a938bd684b5b46c7fc3db8c65f66478989",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-data-v1/test_prepare.py": "10fded70dbb4c600f52d53d6c78612e5a10b1c653a7402c373c44c006e524814",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-data-v1/DESIGN.md": "69db3c7965a928e1f2c4decfd290f65528b25364481dcf1cd5d36ec0fcd124ac",
+    "/project/alex_phd/runs/rlm-research-r4/operations/2026-09-12-dbpedia-transfer-acquisition/RECEIPT_V2.json": "4a65eef8f77811e8d84ec23920f13ba1d0334f8c08e2ec6f83df819bbd195b56"
+  },
+  "artifact_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-data-v1/inputs/EXCLUSION_AUDIT.json": "bd88bef796f3d073fa06a594ed174d07c2b1bdc6954a2bc5e45e7333b547d28e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-data-v1/inputs/HOST_GOLD.json": "be8decae00b1f54e1ffdb0ea1096ae57355623d42d906345c3833edc50e5eb4d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-data-v1/inputs/PUBLIC.json": "fe29242a8f9a7fb3c7b1494605063afb30c13bf19c65a5af90d668826091fb34",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-data-v1/inputs/REQUESTS.json": "64aa1f9d84de4655544df9819fe82dbf0d7619b01e50bcefe3b507267575e363",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-data-v1/inputs/SELECTED_PROVENANCE.json": "cb281d459eca2114d573320168a0693fd3c80db2a70601c2a9de6278dc95b995"
+  },
+  "inventory": {
+    "source_rows": 70000,
+    "eligible": 69996,
+    "rejected_duplicate_or_empty_rows": 4,
+    "selected": 224,
+    "per_class": {
+      "EducationalInstitution": 16,
+      "Film": 16,
+      "WrittenWork": 16,
+      "Village": 16,
+      "NaturalPlace": 16,
+      "Company": 16,
+      "Building": 16,
+      "MeanOfTransportation": 16,
+      "OfficeHolder": 16,
+      "Album": 16,
+      "Plant": 16,
+      "Animal": 16,
+      "Artist": 16,
+      "Athlete": 16
+    },
+    "planned_B4_calls": 56,
+    "max_prompt_plus_1024": 2253,
+    "selection_used_model_outcomes": false,
+    "training_split_acquired": false,
+    "prior_exposure_boundary": "No DBpedia records found in scoped r4 question/idea/source-manifest search before acquisition; unknown pretraining and unrecorded history are not excluded."
+  },
+  "model_or_gpu_calls": 0,
+  "claim_boundary": "Different domain and category vocabulary, still short-text classification; not planning or recursion; unknown base pretraining exposure.",
+  "identity": "627ace955b84d0100b96aa147edddf3da709f9e8d6fcff523b10975fc6176215"
+}

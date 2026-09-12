@@ -1,0 +1,25 @@
+{
+  "actual_tool_result_sha256": [
+    "ed8ba3fad221b16af7620e3546070742b26df424cde5ed83be84215ca0a1b048"
+  ],
+  "corpus_first_prefix_sha256": "8fb1cfd988a31397388ee78cdf68cdf1d92c4d53f7640f5e570e102e6d6d3d0c",
+  "corpus_terminal_prefix_sha256": "2eadcf912a639b04d61089192328f4e5fdb46c5580e9181a51cee9c9a9ec5c4c",
+  "elapsed_seconds": 16.115708351135254,
+  "episode_ok": true,
+  "first_provider_prefix_equal_corpus": true,
+  "first_provider_prefix_sha256": "8fb1cfd988a31397388ee78cdf68cdf1d92c4d53f7640f5e570e102e6d6d3d0c",
+  "gpu_calls": 0,
+  "heldout_records_read": 0,
+  "native_returned": 2,
+  "passed": true,
+  "provider_requests": 2,
+  "record_id": "omrcr-3d7230f66f7203751f60",
+  "root_reply_exact": true,
+  "schema": "openai-mrcr-procedural-sft-teacher-container-smoke-v1",
+  "stop_condition": "agent_completed",
+  "synthetic_provider": true,
+  "terminal_provider_prefix_equal_corpus": true,
+  "terminal_provider_prefix_sha256": "2eadcf912a639b04d61089192328f4e5fdb46c5580e9181a51cee9c9a9ec5c4c",
+  "tool_stdout_exact_teacher_answer_plus_newline": true,
+  "weighted_model_calls": 0
+}

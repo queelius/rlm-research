@@ -1,0 +1,91 @@
+{
+  "actual_container_teacher_prefixes_verified": 2,
+  "closure_sha256": {
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3-4B-Instruct-2507--cdbee75f17c01a7cc42f958dc650907174af0554/local-research-manifest.json": "19619b44b0bd30bf5debe0960e6dfd6acc5be8287c581727456aa5d17699c18f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/CPU_READY_TEACHER_V2.json": "8da38f0429e560ff59bfa147ab3dcb6164dad43e455bef89658f787ac2ff798e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/CPU_TEACHER_CONTAINER_SMOKE.json": "2020933ae96e4e89df4b66f16e1cbecb8be7c2fca64c8cba67401d1a1dcdc51a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/CPU_TESTS_TRAINING.json": "d3e05fd547e9caad99254c4c4bdffdf459c847f8271b90f5e5307cf39bd90bd5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/DESIGN.md": "abe680e5a4d91b5b55df7f591ce97a413aa08860168430b19b1d65b7d75aff68",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/EVALUATION_INTERFACE.md": "5b71f55b9ec5fa53c2cd95c262105529a1c9a3ccce34b20af5ceeadaaf7b97f4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/RENDERER_FIXTURE_V2.json": "61de5fef9f8c7659f4be385e22b917b941da7608b51109f9fa46a1749941aac9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/TEACHER_AUDIT_V2.json": "15f6ec87837c106d6ed1921aa45c5f8a9ce3fd4eff238de691804c793d7ee1d4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/TEACHER_CORPUS_V2.json": "e4f5a2e71a435cebb732f13ad551f74edca1b784920b80230fb5ae282e1ecf56",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/cpu-teacher-container-smoke/EPISODE.json": "39b2b279050da010e91c182119940d327d69f82132ec926b51fe63feab70d872",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/cpu-teacher-container-smoke/PROVIDER_REQUESTS.json": "4d5c63035102f3ec2b7838d4944cefac3e587a2cff5dc911450b003bc9292415",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/cpu_teacher_container_smoke.py": "b4e5f29be34995d35d3ddae87330c6ced35992b8f7985868e7896951f74ff83c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/prepare.py": "d84389099e26e98230f2408852aac3617c8451ef6bb05d7024b86f5230d8e4f7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/seal_training.py": "c6508b5fa5d4b9e63f570ca10725755997124f220991deb3b3396d99b57632dc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/teacher.py": "7fecee01128b13a0081e4900f609aa188cb20d1249f885f3f58269dd9cbe8bb2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/test_teacher.py": "d99476da6133d13d897ee8798ed7c3d3737186b0ac9f37be374e48727f5b8b1f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/test_train.py": "bc0b182e403c850c0ce87e0c177e961b05374586dcec507dc35a46443babbaae",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/train.py": "d2f8b5deb42c61c92654a6ca8cc4c29665698f456f0cc2e33f196d1e47ee0460",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/training.py": "2bac0f35f70eabf969cd7d4870b5703fc01a24f8d7c70cd95b89b1677e4903cd",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-complete-demonstration-sft-v1/learning.py": "28d090c9e4ee4b3a57e56b5deda2a1634bd31fb70473348a22b05c836c1f25aa"
+  },
+  "corpus": {
+    "episodes": 32,
+    "maximum_sequence_tokens": 2298,
+    "root_action_target_tokens": 6696,
+    "terminal_target_tokens": 11365
+  },
+  "created_epoch": 1789228703.1927533,
+  "evaluation": "conditional interface only; heldout evaluator not yet sealed",
+  "external_cap_seconds": 700,
+  "fixed_argv": [
+    "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/train.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/outputs/attempt-001",
+    "--seconds",
+    "600"
+  ],
+  "gpu_calls": 0,
+  "gpu_launch_authority": "MAIN only",
+  "heldout_records_used": 0,
+  "identity": "f7311b709192290e6b311749fd105ae0fe52adffa4dccb7789e00cfb072e72f9",
+  "identity_basis": "immutable all32 teacher and fixed four-update recipe; no evaluation selection",
+  "optimizer_steps_completed": 0,
+  "recipe": {
+    "action_weight": 1.0,
+    "adapter": {
+      "alpha": 16,
+      "bias": "none",
+      "dropout": 0.0,
+      "rank": 8,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "type": "LoRA"
+    },
+    "clip_grad_norm": 1.0,
+    "examples_per_update": 32,
+    "learning_rate": 0.0001,
+    "loss": "per-example token-mean CE, mean across all32; action and terminal separate",
+    "optimizer": "fresh AdamW",
+    "schema": "openai-mrcr-procedural-sft-recipe-v1",
+    "seed": 2026091401,
+    "selection": "fixed checkpoint-0004; no evaluation selection",
+    "starting_policy": "Qwen3-4B-Instruct-2507-no-research-adapter",
+    "terminal_weight": 0.1,
+    "training_cap_seconds": 600,
+    "updates": 4,
+    "weight_decay": 0.0
+  },
+  "schema": "openai-mrcr-procedural-sft-training-ready-v1",
+  "status": "CPU_READY_CONDITIONAL_ON_MAIN_POST_SHORT32_GPU_DECISION",
+  "teacher_exact": 32,
+  "teacher_failures": 0,
+  "training_cap_seconds": 600,
+  "verify_argv": [
+    "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-warmstart-v1/train.py",
+    "verify"
+  ]
+}

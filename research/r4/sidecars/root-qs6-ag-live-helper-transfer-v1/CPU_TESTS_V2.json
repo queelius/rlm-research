@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-s",
+    "-p",
+    "no:cacheprovider",
+    "--basetemp",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-ag-live-helper-transfer-v1/cpu/fixture-001",
+    "test_transfer.py"
+  ],
+  "returncode": 0,
+  "stdout": ".{'arm': 'no_child_python', 'completed': 1, 'status': 'valid_final'}\n.{'arm': 'c32', 'completed': 1, 'status': 'valid_final'}\n.\n=============================== warnings summary ===============================\ntest_transfer.py::test_real_collector_container_and_four_native_label_maps[no_child_python]\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_transfer.py::test_real_collector_container_and_four_native_label_maps[no_child_python]\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n3 passed, 2 warnings in 40.03s\n",
+  "stderr": "",
+  "elapsed_seconds": 43.1040894985199,
+  "scientific_model_calls": 0,
+  "gpu_calls": 0,
+  "authored_native_responses": 8,
+  "real_owned_CPU_containers": 2,
+  "two_fixture_definitions_three_cases": true,
+  "data_rebuild": "all six artifacts equal after JSON key normalization; fixed exclusion snapshot",
+  "fixture_sources_unsealed_during_test": true
+}
