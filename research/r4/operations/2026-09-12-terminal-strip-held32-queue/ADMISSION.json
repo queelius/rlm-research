@@ -1,0 +1,22 @@
+{
+  "authority": "MAIN",
+  "checkpoint_policy": "Every native call/episode/contract saved, unknowns retained, no retry or gold-dependent repair.",
+  "condition": "terminal-strip-disabled",
+  "contexts": 16,
+  "episodes": 32,
+  "epoch": 1789242628.8438697,
+  "fixed_checkpoint": 32,
+  "limits": "Same exposed heldpanel, two seeds/context; not general lossless parsing. Reasoning newline and tool parsing unchanged. Old17score unchanged; no automatic25 forecast.",
+  "metric": "Original exact string equality on returned root; compare all actual token paths before attributing changes to trimming.",
+  "optimizer_steps": 0,
+  "question": "Does disabling two terminal whitespace clamps preserve exact model outputs through unchanged grading?",
+  "ready_identity": "f09078f6e68626be5d861752b7dabc6174572ec5c19e51d87222402f1d2efd31",
+  "ready_sha256": "686e484b6ffa0338b6b699537b10e4ea84f436a29d76baa0ec704f895a629d91",
+  "review": "MAIN read all seven source/test files and RUNBOOK; actual owner verified324 source pins/currentcp32. Independent review passed all66 archived parser actions and full-native fixture receipts. Six focused regressions passed before sealing.",
+  "review_sha256": "7240ffed617605d3b49c2889fb074bd221b654ef12187c473cdf7d9e08244ac7",
+  "seed_range": [
+    2026091700,
+    2026091731
+  ],
+  "wrapper_sha256": "5eb805b03121b6a122c14cfdc6d6543794343486ddd2ef7d41e11ebec9d8e723"
+}

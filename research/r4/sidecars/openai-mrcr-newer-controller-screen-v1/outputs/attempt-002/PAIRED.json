@@ -1,0 +1,992 @@
+{
+  "arms": {
+    "qwen3": {
+      "all_known_model_outcomes": true,
+      "arm": "qwen3",
+      "complete_inventory": true,
+      "cost": {
+        "completion_tokens_observed_subtotal": 2959,
+        "observation_tokens": 1065,
+        "observation_utf8_bytes": 4708,
+        "physical_started": 15,
+        "pretransport_refusals": 0,
+        "prompt_tokens_observed_subtotal": 12695,
+        "provider_error_results": 0,
+        "returned": 15,
+        "usage_unknown_physical_calls": 0
+      },
+      "elapsed_seconds": 90.06403231620789,
+      "first_action_schema_correct": 7,
+      "missing_coordinates": [],
+      "native_files": {
+        "result": 15,
+        "start": 15,
+        "wire-request": 15,
+        "wire-response": 15
+      },
+      "official_score_sum_valid": 0.04462585034013605,
+      "planned_episodes": 8,
+      "raw_exact_correct": 0,
+      "recorded": 8,
+      "terminal_classes": {
+        "model_invalid_final": 1,
+        "model_no_final_within_two_turns": 5,
+        "valid_final": 2
+      },
+      "unattempted": 0,
+      "unique_target_assistant_observed": 0,
+      "unit": "8 paired contexts; two-turn package usability, not independent16 outcomes or recursive learning",
+      "valid_terminals": 2
+    },
+    "qwen35": {
+      "all_known_model_outcomes": true,
+      "arm": "qwen35",
+      "complete_inventory": true,
+      "cost": {
+        "completion_tokens_observed_subtotal": 2851,
+        "observation_tokens": 1773,
+        "observation_utf8_bytes": 8524,
+        "physical_started": 16,
+        "pretransport_refusals": 0,
+        "prompt_tokens_observed_subtotal": 16462,
+        "provider_error_results": 0,
+        "returned": 16,
+        "usage_unknown_physical_calls": 0
+      },
+      "elapsed_seconds": 99.22682547569275,
+      "first_action_schema_correct": 8,
+      "missing_coordinates": [],
+      "native_files": {
+        "result": 16,
+        "start": 16,
+        "wire-request": 16,
+        "wire-response": 16
+      },
+      "official_score_sum_valid": 0,
+      "planned_episodes": 8,
+      "raw_exact_correct": 0,
+      "recorded": 8,
+      "terminal_classes": {
+        "model_no_final_within_two_turns": 8
+      },
+      "unattempted": 0,
+      "unique_target_assistant_observed": 0,
+      "unit": "8 paired contexts; two-turn package usability, not independent16 outcomes or recursive learning",
+      "valid_terminals": 0
+    }
+  },
+  "both_known": 8,
+  "children": 0,
+  "model_order": [
+    "qwen3",
+    "qwen35"
+  ],
+  "model_package_template_parser_effects_not_weight_only": true,
+  "new_losses": 0,
+  "new_wins": 0,
+  "no_independent16_item_inference": true,
+  "no_new_data_or_recursion_claim": true,
+  "pairs": [
+    {
+      "final_fidelity": {
+        "qwen3": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        },
+        "qwen35": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        }
+      },
+      "first_actions": {
+        "qwen3": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\n# Read the context JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Extract the social media posts\nsocial_media_posts = data.get('social_media_posts', [])\n\n# Find the first social media post about murder\nmurder_post = None\nfor post in social_media_posts:\n    if 'murder' in post.get('content', '').lower():\n        murder_post = post\n        break\n\n# Prepend '5CA8hh3E2X' to the first murder-related post\nif murder_post:\n    murder_post['content'] = '5CA8hh3E2X' + murder_post['content']\n\n# Output the modified content of the first murder-related post\nmurder_post['content']",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        },
+        "qwen35": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\nwith open('/context.json', 'r', encoding='utf-8') as f:\n    data = json.load(f)\n\n# The complete original JSON conversation document is in the read-only file /context.json (37789 UTF-8 bytes).\n# Let me examine the structure first to understand what \"social media post about murder\" means.\nprint(f\"Data type: {type(data)}\")\nif isinstance(data, dict):\n    print(f\"Keys: {data.keys()}\")\n    for k, v in data.items():\n        print(f\"  {k}: {type(v)} ({len(v) if hasattr(v, '__len__') else 'N/A'})\")\nelif isinstance(data, list):\n    print(f\"Length: {len(data)}\")\n    for i, item in enumerate(data[:5]):\n        print(f\"  [{i}] {type(item)}: {item if isinstance(item, str) else item.keys() if isinstance(item, dict) else item}\")",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        }
+      },
+      "new_loss": false,
+      "new_win": false,
+      "observed_selection": {
+        "qwen3": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            21,
+            25
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 22,
+          "target_assistant_observed": false,
+          "target_ordinal": 1,
+          "target_user_index": 21,
+          "unique_target_only": false
+        },
+        "qwen35": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            21,
+            25
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 22,
+          "target_assistant_observed": false,
+          "target_ordinal": 1,
+          "target_user_index": 21,
+          "unique_target_only": false
+        }
+      },
+      "paired_known": true,
+      "parsed_final_exact": {
+        "qwen3": false,
+        "qwen35": false
+      },
+      "record_id": "omrcr-01e90d3c11374938ac33",
+      "terminal_classes": {
+        "qwen3": "model_no_final_within_two_turns",
+        "qwen35": "model_no_final_within_two_turns"
+      }
+    },
+    {
+      "final_fidelity": {
+        "qwen3": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": false,
+          "raw_model_final_exact": false,
+          "raw_model_final_official_score": 0,
+          "raw_model_final_stop_tokens_removed": "<tool_call>\n{\"name\": \"ipython\", \"arguments\": {\"code\": \"import json\\n\\n# Read the JSON conversation document\\nwith open('/context.json', 'r', encoding='utf-8') as file:\\n    data = json.load(file)\\n\\n# Extract the poems from the data\\npoems = []\\nfor item in data['conversations']:\\n    if 'poem' in item:\\n        poems.append(item['poem'])\\n\\n# Find the first poem about society\\nsociety_poem = None\\nfor poem in poems:\\n    if 'society' in poem.lower() or 'social' in poem.lower() or 'community' in poem.lower():\\n        society_poem = poem\\n        break\\n\\n# Prepend '2mJahKTVzI' to the first poem about society\\nif society_poem:\\n    modified_poem = '2mJahKTVzI' + society_poem\\n    print(modified_poem)\\nelse:\\n    print('No poem about society found.')\"}\n</tool_call>",
+          "raw_to_native_difference_is_exactly_strip": false,
+          "raw_utf8_bytes": 774
+        },
+        "qwen35": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": false,
+          "native_to_harness_difference_is_exactly_strip": false,
+          "original_harness_final": "",
+          "parsed_native_final": "Let me read the entire JSON file to find the poems about society:",
+          "parsed_utf8_bytes": 65,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        }
+      },
+      "first_actions": {
+        "qwen3": {
+          "available": true,
+          "calls": [
+            {
+              "code": null,
+              "name": null,
+              "python_parseable": false,
+              "schema_correct": false,
+              "status": "invalid_json"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": false
+        },
+        "qwen35": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\nwith open('/context.json', 'r') as f:\n    data = json.load(f)\n\n# Read the complete JSON document\nprint(f\"Type: {type(data)}, Length: {len(data)}\")\nprint(json.dumps(data, indent=2)[:5000])",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        }
+      },
+      "new_loss": false,
+      "new_win": false,
+      "observed_selection": {
+        "qwen3": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            5,
+            13
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 6,
+          "target_assistant_observed": false,
+          "target_ordinal": 1,
+          "target_user_index": 5,
+          "unique_target_only": false
+        },
+        "qwen35": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            5,
+            13
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 6,
+          "target_assistant_observed": false,
+          "target_ordinal": 1,
+          "target_user_index": 5,
+          "unique_target_only": false
+        }
+      },
+      "paired_known": true,
+      "parsed_final_exact": {
+        "qwen3": false,
+        "qwen35": false
+      },
+      "record_id": "omrcr-08d6010dc261b9832b1d",
+      "terminal_classes": {
+        "qwen3": "model_invalid_final",
+        "qwen35": "model_no_final_within_two_turns"
+      }
+    },
+    {
+      "final_fidelity": {
+        "qwen3": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        },
+        "qwen35": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        }
+      },
+      "first_actions": {
+        "qwen3": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\n# Read the context JSON file\nwith open('/context.json', 'r') as f:\n    data = json.load(f)\n\n# Extract the short essays about pressure\nshort_essays = []\nfor item in data['conversations']:\n    if 'short essay' in item.get('content', '').lower() and 'pressure' in item.get('content', '').lower():\n        short_essays.append(item['content'])\n\n# Get the first short essay about pressure (1-indexed)\nfirst_pressure_essay = short_essays[0]\n\n# Prepend 'ONR9NnpI96' to the first short essay about pressure\nresult = 'ONR9NnpI96' + ' ' + first_pressure_essay\n\nresult",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        },
+        "qwen35": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\nwith open('/context.json', 'r', encoding='utf-8') as f:\n    data = json.load(f)\n\n# The file is 31344 bytes, let's see its structure\nprint(f\"File size: {len(data)} bytes\")\nprint(f\"Type: {type(data)}\")\nif isinstance(data, dict):\n    print(f\"Keys: {list(data.keys())}\")\nelif isinstance(data, list):\n    print(f\"Length: {len(data)}\")\n    for i, item in enumerate(data[:5]):\n        print(f\"  [{i}] keys: {list(item.keys()) if isinstance(item, dict) else type(item)}\")",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        }
+      },
+      "new_loss": false,
+      "new_win": false,
+      "observed_selection": {
+        "qwen3": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            5,
+            7
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 6,
+          "target_assistant_observed": false,
+          "target_ordinal": 1,
+          "target_user_index": 5,
+          "unique_target_only": false
+        },
+        "qwen35": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            5,
+            7
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 6,
+          "target_assistant_observed": false,
+          "target_ordinal": 1,
+          "target_user_index": 5,
+          "unique_target_only": false
+        }
+      },
+      "paired_known": true,
+      "parsed_final_exact": {
+        "qwen3": false,
+        "qwen35": false
+      },
+      "record_id": "omrcr-10f8b49fc190c3cd4562",
+      "terminal_classes": {
+        "qwen3": "model_no_final_within_two_turns",
+        "qwen35": "model_no_final_within_two_turns"
+      }
+    },
+    {
+      "final_fidelity": {
+        "qwen3": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        },
+        "qwen35": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        }
+      },
+      "first_actions": {
+        "qwen3": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\n# Read the JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Extract the poems about religions\npoems = [item for item in data['poems'] if item['topic'] == 'religions']\n\n# Prepend 'G9BHUvWWkg' to the 2nd poem (1-indexed)\nif len(poems) >= 2:\n    poems[1]['text'] = 'G9BHUvWWkg' + poems[1]['text']\n\n# Output the modified 2nd poem about religions\npoems[1]['text']",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        },
+        "qwen35": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\nwith open('/context.json', 'r', encoding='utf-8') as f:\n    data = json.load(f)\n\n# Read the entire file content\ncontent = f.read()\nprint(f\"File size: {len(content)} bytes\")\n\n# Find the poem section\n# The file is 26476 bytes, let's search for poems about religions\n# First, let's see the structure\nprint(\"\\nFirst 2000 chars:\")\nprint(content[:2000])\nprint(\"\\n...\")\nprint(\"\\nLast 2000 chars:\")\nprint(content[-2000:])",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        }
+      },
+      "new_loss": false,
+      "new_win": false,
+      "observed_selection": {
+        "qwen3": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            1,
+            11
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 12,
+          "target_assistant_observed": false,
+          "target_ordinal": 2,
+          "target_user_index": 11,
+          "unique_target_only": false
+        },
+        "qwen35": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            1,
+            11
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 12,
+          "target_assistant_observed": false,
+          "target_ordinal": 2,
+          "target_user_index": 11,
+          "unique_target_only": false
+        }
+      },
+      "paired_known": true,
+      "parsed_final_exact": {
+        "qwen3": false,
+        "qwen35": false
+      },
+      "record_id": "omrcr-2890a9f3655bea998dee",
+      "terminal_classes": {
+        "qwen3": "model_no_final_within_two_turns",
+        "qwen35": "model_no_final_within_two_turns"
+      }
+    },
+    {
+      "final_fidelity": {
+        "qwen3": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 10,
+          "native_parsed_equals_harness": true,
+          "native_to_harness_difference_is_exactly_strip": false,
+          "original_harness_final": "XZFMnKGEvG",
+          "parsed_native_final": "XZFMnKGEvG",
+          "parsed_utf8_bytes": 10,
+          "raw_equals_native_parsed": true,
+          "raw_model_final_exact": false,
+          "raw_model_final_official_score": 0.0,
+          "raw_model_final_stop_tokens_removed": "XZFMnKGEvG",
+          "raw_to_native_difference_is_exactly_strip": false,
+          "raw_utf8_bytes": 10
+        },
+        "qwen35": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        }
+      },
+      "first_actions": {
+        "qwen3": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\n# Read the JSON conversation document\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Assuming the first short scene in the play about pies is at index 0 in the data\n# and we need to prepend 'XZFMnKGEvG' to it\nfirst_short_scene = data[0]['scene'] if 'scene' in data[0] else \"\"\n\n# Prepend XZFMnKGEvG to the first short scene\nmodified_scene = 'XZFMnKGEvG' + first_short_scene\n\nmodified_scene",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        },
+        "qwen35": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\nwith open('/context.json', 'r', encoding='utf-8') as f:\n    data = json.load(f)\n\n# Find plays about pies\nplays_about_pies = []\nfor item in data:\n    if item.get('type') == 'play' and 'pie' in item.get('title', '').lower():\n        plays_about_pies.append(item)\n\nprint(f\"Found {len(plays_about_pies)} plays about pies:\")\nfor i, play in enumerate(plays_about_pies):\n    print(f\"{i+1}. {play.get('title')}\")\n    print(f\"   Scenes: {play.get('scenes', [])}\")",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        }
+      },
+      "new_loss": false,
+      "new_win": false,
+      "observed_selection": {
+        "qwen3": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            9,
+            11
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 10,
+          "target_assistant_observed": false,
+          "target_ordinal": 1,
+          "target_user_index": 9,
+          "unique_target_only": false
+        },
+        "qwen35": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            9,
+            11
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 10,
+          "target_assistant_observed": false,
+          "target_ordinal": 1,
+          "target_user_index": 9,
+          "unique_target_only": false
+        }
+      },
+      "paired_known": true,
+      "parsed_final_exact": {
+        "qwen3": false,
+        "qwen35": false
+      },
+      "record_id": "omrcr-322e329d200036f77e8f",
+      "terminal_classes": {
+        "qwen3": "valid_final",
+        "qwen35": "model_no_final_within_two_turns"
+      }
+    },
+    {
+      "final_fidelity": {
+        "qwen3": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        },
+        "qwen35": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        }
+      },
+      "first_actions": {
+        "qwen3": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\n# Read the context JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Assuming the JSON contains a list of scenes, we need to find the second short scene (1-indexed)\n# and prepend 'SAwvzK1zAw' to it.\n\n# Extract scenes (assuming scenes are in a list under 'scenes')\nscenes = data.get('scenes', [])\n\n# Check if there are at least two scenes\nif len(scenes) >= 2:\n    # Get the second scene (1-indexed, so index 1)\n    second_scene = scenes[1]\n    \n    # Prepend 'SAwvzK1zAw' to the scene content\n    if isinstance(second_scene, dict) and 'text' in second_scene:\n        modified_scene = 'SAwvzK1zAw' + second_scene['text']\n        second_scene['text'] = modified_scene\n    \n    # Return the modified scene text\n    second_scene['text']\nelse:\n    \"No second scene found in the data.\"\n",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        },
+        "qwen35": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\nwith open('/context.json', 'r') as f:\n    data = json.load(f)\n\n# The context file is 18290 bytes, let's see its structure\nprint(f\"Context file size: {len(data)} bytes\")\nprint(f\"Context type: {type(data)}\")\nprint(f\"Context content (first 2000 chars): {str(data)[:2000]}\")",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        }
+      },
+      "new_loss": false,
+      "new_win": false,
+      "observed_selection": {
+        "qwen3": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            1,
+            3
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 4,
+          "target_assistant_observed": false,
+          "target_ordinal": 2,
+          "target_user_index": 3,
+          "unique_target_only": false
+        },
+        "qwen35": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            1,
+            3
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 4,
+          "target_assistant_observed": false,
+          "target_ordinal": 2,
+          "target_user_index": 3,
+          "unique_target_only": false
+        }
+      },
+      "paired_known": true,
+      "parsed_final_exact": {
+        "qwen3": false,
+        "qwen35": false
+      },
+      "record_id": "omrcr-39fbac00a29ae2b82e1f",
+      "terminal_classes": {
+        "qwen3": "model_no_final_within_two_turns",
+        "qwen35": "model_no_final_within_two_turns"
+      }
+    },
+    {
+      "final_fidelity": {
+        "qwen3": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        },
+        "qwen35": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        }
+      },
+      "first_actions": {
+        "qwen3": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\n# Read the context JSON file\nwith open('/context.json', 'r', encoding='utf-8') as file:\n    data = json.load(file)\n\n# Find the first short news article about plums\nfor item in data['conversations']:\n    if 'short' in item and 'plums' in item['short']:\n        first_plum_article = item['short']\n        break\n\n# Prepend 'R3s91r3U81' to the first short news article about plums\nresult = 'R3s91r3U81' + first_plum_article\n\nresult",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        },
+        "qwen35": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\nwith open('/context.json', 'r', encoding='utf-8') as f:\n    data = json.load(f)\n\n# Read the complete JSON document\nprint(f\"Type of data: {type(data)}\")\nprint(f\"Keys: {data.keys() if isinstance(data, dict) else 'Not a dict'}\")\nprint(f\"Length: {len(data) if isinstance(data, list) else 'N/A'}\")\n\n# Try to understand the structure\nif isinstance(data, list):\n    for i, item in enumerate(data[:5]):\n        print(f\"\\n--- Item {i} ---\")\n        print(type(item))\n        if isinstance(item, dict):\n            print(f\"Keys: {list(item.keys())[:10]}\")\n        elif isinstance(item, str):\n            print(f\"String, length: {len(item)}\")\n        elif isinstance(item, (list, dict)):\n            print(f\"List of length {len(item)} or dict with keys {list(item.keys())[:10]}\")",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        }
+      },
+      "new_loss": false,
+      "new_win": false,
+      "observed_selection": {
+        "qwen3": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            3,
+            5
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 4,
+          "target_assistant_observed": false,
+          "target_ordinal": 1,
+          "target_user_index": 3,
+          "unique_target_only": false
+        },
+        "qwen35": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            3,
+            5
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 4,
+          "target_assistant_observed": false,
+          "target_ordinal": 1,
+          "target_user_index": 3,
+          "unique_target_only": false
+        }
+      },
+      "paired_known": true,
+      "parsed_final_exact": {
+        "qwen3": false,
+        "qwen35": false
+      },
+      "record_id": "omrcr-3d7230f66f7203751f60",
+      "terminal_classes": {
+        "qwen3": "model_no_final_within_two_turns",
+        "qwen35": "model_no_final_within_two_turns"
+      }
+    },
+    {
+      "final_fidelity": {
+        "qwen3": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 1897,
+          "native_parsed_equals_harness": true,
+          "native_to_harness_difference_is_exactly_strip": false,
+          "original_harness_final": "a49UWXWAIy**Title: The Fascinating World of Numbers: Beyond Simple Arithmetic**\n\nIn an era where data drives decisions and digital economies rely on complex algorithms, numbers have never been more significant. But beyond their role in machine learning, finance, and everyday counting, numbers possess an intriguing charm of their own.\n\nRecently, Mathematicians at the International Congress of Mathematicians (ICM) celebrated the profound discoveries of prime numbers, which remain the building blocks of many cryptographic systems. Primes still inspire awe, with the largest known prime—2^82,589,933−1, a figure boasting a staggering 24,862,048 digits—continuing to capture headlines and imaginations.\n\nBut numbers don't only reside in the abstract. The global economy reflects in real-time numerical data. Recent statistics show a surprising rise in inflation rates across major economies, prompting central banks to reconsider their monetary policies. Meanwhile, climate scientists use vast sets of numerical data to model earth's future, revealing alarming trends in global warming.\n\nNumbers also serve as cultural touchstones. For instance, the upcoming palindrome date, 02/02/2024, is being eagerly anticipated by numerologists and romantics alike, reminiscent of the global excitement surrounding similar dates in the past.\n\nMoreover, the educational landscape is evolving as educators integrate data literacy in curriculums, equipping future generations with the skills needed to navigate the intricacies of our number-centric world.\n\nAs society advances, embracing technology and data, the importance and allure of numbers continue to grow. From aiding in breakthroughs in scientific research to influencing global financial systems, numbers prove their relentless relevance and enduring enigma. They remain a universal language, telling the story of our world one digit at a time.",
+          "parsed_native_final": "a49UWXWAIy**Title: The Fascinating World of Numbers: Beyond Simple Arithmetic**\n\nIn an era where data drives decisions and digital economies rely on complex algorithms, numbers have never been more significant. But beyond their role in machine learning, finance, and everyday counting, numbers possess an intriguing charm of their own.\n\nRecently, Mathematicians at the International Congress of Mathematicians (ICM) celebrated the profound discoveries of prime numbers, which remain the building blocks of many cryptographic systems. Primes still inspire awe, with the largest known prime—2^82,589,933−1, a figure boasting a staggering 24,862,048 digits—continuing to capture headlines and imaginations.\n\nBut numbers don't only reside in the abstract. The global economy reflects in real-time numerical data. Recent statistics show a surprising rise in inflation rates across major economies, prompting central banks to reconsider their monetary policies. Meanwhile, climate scientists use vast sets of numerical data to model earth's future, revealing alarming trends in global warming.\n\nNumbers also serve as cultural touchstones. For instance, the upcoming palindrome date, 02/02/2024, is being eagerly anticipated by numerologists and romantics alike, reminiscent of the global excitement surrounding similar dates in the past.\n\nMoreover, the educational landscape is evolving as educators integrate data literacy in curriculums, equipping future generations with the skills needed to navigate the intricacies of our number-centric world.\n\nAs society advances, embracing technology and data, the importance and allure of numbers continue to grow. From aiding in breakthroughs in scientific research to influencing global financial systems, numbers prove their relentless relevance and enduring enigma. They remain a universal language, telling the story of our world one digit at a time.",
+          "parsed_utf8_bytes": 1897,
+          "raw_equals_native_parsed": true,
+          "raw_model_final_exact": false,
+          "raw_model_final_official_score": 0.04462585034013605,
+          "raw_model_final_stop_tokens_removed": "a49UWXWAIy**Title: The Fascinating World of Numbers: Beyond Simple Arithmetic**\n\nIn an era where data drives decisions and digital economies rely on complex algorithms, numbers have never been more significant. But beyond their role in machine learning, finance, and everyday counting, numbers possess an intriguing charm of their own.\n\nRecently, Mathematicians at the International Congress of Mathematicians (ICM) celebrated the profound discoveries of prime numbers, which remain the building blocks of many cryptographic systems. Primes still inspire awe, with the largest known prime—2^82,589,933−1, a figure boasting a staggering 24,862,048 digits—continuing to capture headlines and imaginations.\n\nBut numbers don't only reside in the abstract. The global economy reflects in real-time numerical data. Recent statistics show a surprising rise in inflation rates across major economies, prompting central banks to reconsider their monetary policies. Meanwhile, climate scientists use vast sets of numerical data to model earth's future, revealing alarming trends in global warming.\n\nNumbers also serve as cultural touchstones. For instance, the upcoming palindrome date, 02/02/2024, is being eagerly anticipated by numerologists and romantics alike, reminiscent of the global excitement surrounding similar dates in the past.\n\nMoreover, the educational landscape is evolving as educators integrate data literacy in curriculums, equipping future generations with the skills needed to navigate the intricacies of our number-centric world.\n\nAs society advances, embracing technology and data, the importance and allure of numbers continue to grow. From aiding in breakthroughs in scientific research to influencing global financial systems, numbers prove their relentless relevance and enduring enigma. They remain a universal language, telling the story of our world one digit at a time.",
+          "raw_to_native_difference_is_exactly_strip": false,
+          "raw_utf8_bytes": 1897
+        },
+        "qwen35": {
+          "decode_rule": "remove only trailing renderer stop-token IDs; decode skip_special_tokens=False; never strip or repair",
+          "diagnostic_only_no_primary_replacement": true,
+          "harness_utf8_bytes": 0,
+          "native_parsed_equals_harness": null,
+          "native_to_harness_difference_is_exactly_strip": null,
+          "original_harness_final": "",
+          "parsed_native_final": null,
+          "parsed_utf8_bytes": null,
+          "raw_equals_native_parsed": null,
+          "raw_model_final_exact": null,
+          "raw_model_final_official_score": null,
+          "raw_model_final_stop_tokens_removed": null,
+          "raw_to_native_difference_is_exactly_strip": null,
+          "raw_utf8_bytes": null
+        }
+      },
+      "first_actions": {
+        "qwen3": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\n# Read the context JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Extract the short news articles about numbers\narticles = [item for item in data if 'short news article about numbers' in item.get('title', '') or 'numbers' in item.get('content', '')]\n\n# Ensure there is at least one article\nif len(articles) < 2:\n    raise ValueError(\"Not enough short news articles about numbers found.\")\n\n# Get the 2nd (1-indexed) article\nsecond_article = articles[1]\n\n# Prepend 'a49UWXWAIy' to the article's content\nmodified_content = 'a49UWXWAIy' + second_article['content']\n\nmodified_content",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        },
+        "qwen35": {
+          "available": true,
+          "calls": [
+            {
+              "code": "import json\n\nwith open('/context.json', 'r', encoding='utf-8') as f:\n    data = json.load(f)\n\n# Find the 2nd short news article about numbers\narticles = []\nfor item in data:\n    if 'news' in item and 'article' in item['news']:\n        articles.append(item['news']['article'])\n\n# Filter for articles about numbers\nnumber_articles = [a for a in articles if any(word in a.get('title', '') or word in a.get('content', '') for word in ['number', 'numbers', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'])]\n\nprint(f\"Total articles: {len(articles)}\")\nprint(f\"Number articles: {len(number_articles)}\")\n\nfor i, article in enumerate(number_articles, 1):\n    print(f\"\\nArticle {i}:\")\n    print(f\"  Title: {article.get('title', 'N/A')}\")\n    print(f\"  Content: {article.get('content', 'N/A')}\")\n\n# The 2nd short news article about numbers (1-indexed)\nif len(number_articles) >= 2:\n    second_article = number_articles[1]\n    print(f\"\\n\\n2nd article content: {second_article.get('content', 'N/A')}\")",
+              "name": "ipython",
+              "python_parseable": true,
+              "schema_correct": true,
+              "status": "ok"
+            }
+          ],
+          "kind": "tool",
+          "nonempty_text": false,
+          "schema_correct": true
+        }
+      },
+      "new_loss": false,
+      "new_win": false,
+      "observed_selection": {
+        "qwen3": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            5,
+            7
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 8,
+          "target_assistant_observed": false,
+          "target_ordinal": 2,
+          "target_user_index": 7,
+          "unique_target_only": false
+        },
+        "qwen35": {
+          "interpretation": "full-content inclusion only; broad dump is not faithful selection; no code re-execution",
+          "matching_message_indices": [],
+          "matching_message_roles": [],
+          "matching_user_indices": [
+            5,
+            7
+          ],
+          "multiple_assistant_responses_observed": false,
+          "target_assistant_index": 8,
+          "target_assistant_observed": false,
+          "target_ordinal": 2,
+          "target_user_index": 7,
+          "unique_target_only": false
+        }
+      },
+      "paired_known": true,
+      "parsed_final_exact": {
+        "qwen3": false,
+        "qwen35": false
+      },
+      "record_id": "omrcr-413d75b6d35abf72b722",
+      "terminal_classes": {
+        "qwen3": "valid_final",
+        "qwen35": "model_no_final_within_two_turns"
+      }
+    }
+  ],
+  "planned_paired_contexts": 8,
+  "primary": "original harness root_reply after native parsing and harness stripping; exact string and unchanged official scorer",
+  "raw_token_fidelity_is_separate_diagnostic": true,
+  "root_turns_per_episode": 2,
+  "schema": "released-controller-screen-paired-v1"
+}

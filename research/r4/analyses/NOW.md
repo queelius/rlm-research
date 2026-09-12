@@ -1,11 +1,35 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T19:35:00Z
+updated_utc: 2026-09-12T20:09:00Z
 status: active_exploratory_research
 claim_level: exploratory_procedure_transfer_and_exact_return_contract_mismatch
 ---
 
 # Research in plain language
+
+## Current interpretation — September 12, 20:09 UTC
+
+The return-path experiment recovered seven answers without changing what the
+model generated. The system had removed trailing spaces that were part of the
+required answer. With this disabled, the fixed trained model scored23/32 versus
+17/32 before. Seven gains have identical complete generation paths; one other
+answer changed from right to wrong on a different generation path. Thus the
+net six-answer gain is not six pure causal recoveries: seven are directly
+attributable to preserving output, and three of32 paths differ overall.
+This improves the harness/reward contract; it is not an RL result.
+
+The old controller RL recipe did not show a stable advantage on a second
+decoding block. We will instead collect fresh attempts from the controller
+that has learned the retrieval routine, using the corrected return path, and
+check whether its remaining errors provide useful learning feedback.
+
+The GPU is comparing original selected passages with summaries of exactly
+those passages. This asks whether evidence is lost during summarization,
+separately from choosing the wrong passages. It uses12 previously examined
+questions, not a fresh confirmation. A short newer-model screen gave0/8 exact
+for both models under a two-turn limit; that does not justify a model switch
+or a general ranking. Longer-input transfer still awaits a startup repair;
+its two failed launches made no model queries.
 
 ## Current interpretation — September 12, 19:35 UTC
 

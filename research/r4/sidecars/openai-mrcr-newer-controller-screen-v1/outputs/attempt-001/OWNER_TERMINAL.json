@@ -1,0 +1,31 @@
+{
+  "complete": false,
+  "elapsed_seconds": 945.1537976264954,
+  "optimizer_steps": 0,
+  "planned_arms": 2,
+  "released": true,
+  "stages": [
+    {
+      "arm": "qwen3",
+      "cleanup_seconds": 1.03147554397583,
+      "elapsed_seconds": 631.8644917011261,
+      "errors": [],
+      "released": true
+    },
+    {
+      "arm": "qwen35",
+      "cleanup_seconds": 1.2283439636230469,
+      "elapsed_seconds": 311.0825343132019,
+      "errors": [
+        {
+          "locals_included": false,
+          "message": "science exited-15; retained log",
+          "stage": "science_or_start",
+          "traceback": "Traceback (most recent call last):\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-newer-controller-screen-v1/owner.py\", line 70, in execute\n    suite.command(directory,'science',argv,max(.001,deadline-time.time()+15),end-75)\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-post-sft-suite-v1/suite.py\", line 210, in command\n    raise RuntimeError(f'{label} exited{process.returncode}; retained log')\nRuntimeError: science exited-15; retained log\n",
+          "type": "RuntimeError"
+        }
+      ],
+      "released": true
+    }
+  ]
+}

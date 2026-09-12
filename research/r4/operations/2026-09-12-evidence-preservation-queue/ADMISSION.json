@@ -1,0 +1,14 @@
+{
+  "authority": "MAIN",
+  "checkpoint_policy": "Save every physical request, response and outcome; preserve missingness and invalid selectors; no gold-dependent fallback.",
+  "cost_boundary": "Natural3 versus5 calls per question; not input-token or natural-call-cost matched.",
+  "epoch": 1789243672.4427958,
+  "optimizer_steps": 0,
+  "question": "For identical selected source paragraphs, does returning original evidence outperform returning generated summaries?",
+  "ready_identity": "3913ec8740033d0a94d05e5b1a858669238c0e45cd038d6b332c488add33117a",
+  "ready_sha256": "d9e00faec0d54e12311e27f1952066c5677c52df309c546723dcf015ca5307f1",
+  "review": "MAIN fully read all431 source/test/prepare lines and RUNBOOK. Actual owner verify passed1666 pins. Three focused CPU tests exercise actual six-call graph with only native HTTP response doubled. Reuses qualified V3 service and lifecycle.",
+  "seed_rule": "202609220000 +16*question_index +offset: select0/1, summaries2/3, bothfinals4",
+  "units": "12 previously exposed contexts,24 paired finals,72 physical calls",
+  "wrapper_sha256": "cdbe2e9ee179db7d27fab8ed08bb8cf4c827f41bf36f0f1ed671bd1af2217131"
+}

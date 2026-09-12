@@ -1,0 +1,784 @@
+{
+  "arms": {
+    "summary": {
+      "answer_f1_sum_available": 4.328929110105581,
+      "available": 12,
+      "correct": 4.0,
+      "malformed_final_json": 0,
+      "natural_policy_cost": {
+        "cached_prompt_tokens_observed_subtotal": 0,
+        "cached_prompt_tokens_unknown_calls": 0,
+        "completion_tokens_observed_subtotal": 4923,
+        "completion_tokens_unknown_calls": 0,
+        "not_started": 0,
+        "physical_started": 60,
+        "planned_calls": 60,
+        "prompt_tokens_observed_subtotal": 55319,
+        "prompt_tokens_unknown_calls": 0,
+        "returned_transport_valid": 60,
+        "sum_observed_call_seconds": 164.57783341407776,
+        "unknown_usage_is_not_zero": true,
+        "wall_sum_is_not_concurrent_elapsed": true
+      },
+      "planned": 12,
+      "primary_accuracy": 0.3333333333333333,
+      "scores": {
+        "q0617d8bcca5d6bb08ed0": {
+          "answer_em": 0.0,
+          "answer_f1": 0.11764705882352941,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "The provided information does not mention a pyramid building in the city where That's So Raven takes place.",
+            "support_idxs": [
+              5,
+              6,
+              2,
+              18
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.3333333333333333,
+          "valid_json": true
+        },
+        "q11c97ffb5874da1e6941": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "The provided information does not contain sufficient evidence to determine the year when voters from the state of the person eliminated in the Top 4 show once again voted for someone from Mayor Turner's party.",
+            "support_idxs": [
+              2,
+              6
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.3333333333333333,
+          "valid_json": true
+        },
+        "q1459e23aa1e832118689": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "October 31, 1864",
+            "support_idxs": [
+              3,
+              12
+            ]
+          },
+          "support_em": 1.0,
+          "support_f1": 1.0,
+          "valid_json": true
+        },
+        "q16e943b03b89ba19b10b": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "unknown",
+            "support_idxs": []
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        },
+        "q301af64604063fd4fc6b": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "No European state that seized Libya from the main subject of the Ottoman era became an ally in World War II according to the provided evidence.",
+            "support_idxs": [
+              0,
+              17,
+              18
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        },
+        "q7e02378adeb958101023": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "fewer than 20",
+            "support_idxs": [
+              8
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        },
+        "q89d2485eaf22e7b31624": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "United States",
+            "support_idxs": [
+              2,
+              4
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.3333333333333333,
+          "valid_json": true
+        },
+        "qb53b0da358d8710a5f77": {
+          "answer_em": 0.0,
+          "answer_f1": 0.16,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "The provided evidence does not contain information about the land area of Boston in square miles, so the original question cannot be answered with confidence.",
+            "support_idxs": [
+              4,
+              13
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.8,
+          "valid_json": true
+        },
+        "qbb5349a9b7b73dd77f26": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "2016",
+            "support_idxs": [
+              18
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        },
+        "qbefa334e11dccbcdb36d": {
+          "answer_em": 0.0,
+          "answer_f1": 0.05128205128205128,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "The original question contains a logical error and is not supported by any evidence. There is no connection between house music, the recognition of Gaddafi's government, or Eisenhower's vice president being president as stated in the question.",
+            "support_idxs": [
+              1,
+              7,
+              11,
+              13
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.75,
+          "valid_json": true
+        },
+        "qcbd5a4bf80cace0d247b": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "United Kingdom",
+            "support_idxs": [
+              13,
+              15
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.8,
+          "valid_json": true
+        },
+        "qe758ff5a6c6a4c8ab52f": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "The lives of Saints Simplicius, Faustinus, Beatrix, and Saint Romanus of Caesarea teach members of the religion targeted in the great persecution that began in 303. Saint Cessianus also serves as an example of a martyr during this period.",
+            "support_idxs": [
+              7,
+              18
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        }
+      },
+      "support_em_sum_available": 1.0,
+      "support_f1_sum_available": 4.35,
+      "unavailable": 0
+    },
+    "verbatim": {
+      "answer_f1_sum_available": 3.8514500404744307,
+      "available": 12,
+      "correct": 3.0,
+      "malformed_final_json": 0,
+      "natural_policy_cost": {
+        "cached_prompt_tokens_observed_subtotal": 0,
+        "cached_prompt_tokens_unknown_calls": 0,
+        "completion_tokens_observed_subtotal": 811,
+        "completion_tokens_unknown_calls": 0,
+        "not_started": 0,
+        "physical_started": 36,
+        "planned_calls": 36,
+        "prompt_tokens_observed_subtotal": 47579,
+        "prompt_tokens_unknown_calls": 0,
+        "returned_transport_valid": 36,
+        "sum_observed_call_seconds": 33.318742513656616,
+        "unknown_usage_is_not_zero": true,
+        "wall_sum_is_not_concurrent_elapsed": true
+      },
+      "planned": 12,
+      "primary_accuracy": 0.25,
+      "scores": {
+        "q0617d8bcca5d6bb08ed0": {
+          "answer_em": 0.0,
+          "answer_f1": 0.06060606060606061,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "The pyramid building in the city where That's So Raven takes place is not mentioned in the provided evidence. The show is set in San Francisco, but no specific pyramid building is described in the text.",
+            "support_idxs": [
+              2
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.6666666666666666,
+          "valid_json": true
+        },
+        "q11c97ffb5874da1e6941": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "The provided evidence does not contain information about voters from the state of the person eliminated in the Top 4 show voting for someone from Mayor Turner's party, nor does it specify a year when such a vote occurred. Therefore, the question cannot be answered based on the given information.",
+            "support_idxs": []
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        },
+        "q1459e23aa1e832118689": {
+          "answer_em": 0.0,
+          "answer_f1": 0.21428571428571425,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "The U.S. acquired the land contained in the current state where Michael Corleone lived in Godfather 2, Nevada, on October 31, 1864, when Nevada was admitted to the Union.",
+            "support_idxs": [
+              3,
+              12
+            ]
+          },
+          "support_em": 1.0,
+          "support_f1": 1.0,
+          "valid_json": true
+        },
+        "q16e943b03b89ba19b10b": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "Copenhagen",
+            "support_idxs": [
+              6
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.5,
+          "valid_json": true
+        },
+        "q301af64604063fd4fc6b": {
+          "answer_em": 0.0,
+          "answer_f1": 0.048780487804878044,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "The European state that seized Libya from the Ottoman Empire, Italy, became an ally in World War II by aligning with the Allied Powers during the North African Campaign, where it fought against the Axis powers, specifically after the Allied victory in North Africa in 1943.",
+            "support_idxs": [
+              17,
+              18,
+              0
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        },
+        "q7e02378adeb958101023": {
+          "answer_em": 0.0,
+          "answer_f1": 0.5,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "North Carolina averages fewer than 20 tornadoes per year.",
+            "support_idxs": [
+              11
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.5,
+          "valid_json": true
+        },
+        "q89d2485eaf22e7b31624": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "United States",
+            "support_idxs": [
+              2,
+              12,
+              4
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.5714285714285715,
+          "valid_json": true
+        },
+        "qb53b0da358d8710a5f77": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "142.8",
+            "support_idxs": [
+              15
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        },
+        "qbb5349a9b7b73dd77f26": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "The team Seth Maness played for, the Chicago Cubs, last won the World Series in 2016.",
+            "support_idxs": [
+              18,
+              0,
+              13
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        },
+        "qbefa334e11dccbcdb36d": {
+          "answer_em": 0.0,
+          "answer_f1": 0.027777777777777776,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "None of the provided evidence supports the claim that anything helped bolster house music in the nation recognizing Gaddafi's government at an early date along with the country having Eisenhower's vice president as a president. The evidence shows that the U.S. recognized Gaddafi's government in 1970, and that Eisenhower's vice president was Richard Nixon, but there is no connection established between recognition of Gaddafi's government, having Nixon as VP, and the bolstering of house music.",
+            "support_idxs": []
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        },
+        "qcbd5a4bf80cace0d247b": {
+          "answer_em": 1.0,
+          "answer_f1": 1.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "United Kingdom",
+            "support_idxs": [
+              5,
+              13,
+              15
+            ]
+          },
+          "support_em": 1.0,
+          "support_f1": 1.0,
+          "valid_json": true
+        },
+        "qe758ff5a6c6a4c8ab52f": {
+          "answer_em": 0.0,
+          "answer_f1": 0.0,
+          "available": true,
+          "helper_model_errors": [],
+          "native_status": "returned_valid",
+          "parsed": {
+            "answer": "Cessianus's life teaches the members of the religion targeted in the great persecution that began in 303.",
+            "support_idxs": [
+              12
+            ]
+          },
+          "support_em": 0.0,
+          "support_f1": 0.0,
+          "valid_json": true
+        }
+      },
+      "support_em_sum_available": 2.0,
+      "support_f1_sum_available": 4.238095238095238,
+      "unavailable": 0
+    }
+  },
+  "claim_boundary": "Exposed12-context evidence-representation screen; not learned routing, recursion, an invention claim, or confirmatory transfer.",
+  "complete": true,
+  "cost_boundary": "Physical72 shared calls. Natural deployment: verbatim3/question, summary5/question;36 versus60 calls. Not token-cost matched or equal-natural-call-cost.",
+  "errors": [],
+  "host_selected_gold_coverage": {
+    "q0617d8bcca5d6bb08ed0": {
+      "all_gold_support_presented": false,
+      "all_gold_support_selected": false,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        2,
+        9
+      ],
+      "presented_ids": [
+        2,
+        5,
+        6,
+        18
+      ],
+      "selected_gold_support_recall": 0.5,
+      "selected_ids": [
+        2,
+        5,
+        6,
+        18
+      ]
+    },
+    "q11c97ffb5874da1e6941": {
+      "all_gold_support_presented": false,
+      "all_gold_support_selected": false,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        2,
+        4,
+        10,
+        18
+      ],
+      "presented_ids": [
+        2,
+        6,
+        9,
+        15
+      ],
+      "selected_gold_support_recall": 0.25,
+      "selected_ids": [
+        2,
+        6,
+        9,
+        15
+      ]
+    },
+    "q1459e23aa1e832118689": {
+      "all_gold_support_presented": true,
+      "all_gold_support_selected": true,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        3,
+        12
+      ],
+      "presented_ids": [
+        3,
+        9,
+        12,
+        19
+      ],
+      "selected_gold_support_recall": 1.0,
+      "selected_ids": [
+        3,
+        9,
+        12,
+        19
+      ]
+    },
+    "q16e943b03b89ba19b10b": {
+      "all_gold_support_presented": false,
+      "all_gold_support_selected": false,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        6,
+        9,
+        18
+      ],
+      "presented_ids": [
+        6,
+        9,
+        17
+      ],
+      "selected_gold_support_recall": 0.6666666666666666,
+      "selected_ids": [
+        6,
+        9,
+        17
+      ]
+    },
+    "q301af64604063fd4fc6b": {
+      "all_gold_support_presented": false,
+      "all_gold_support_selected": false,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        9,
+        12,
+        13,
+        19
+      ],
+      "presented_ids": [
+        0,
+        12,
+        17,
+        18
+      ],
+      "selected_gold_support_recall": 0.25,
+      "selected_ids": [
+        0,
+        12,
+        17,
+        18
+      ]
+    },
+    "q7e02378adeb958101023": {
+      "all_gold_support_presented": false,
+      "all_gold_support_selected": false,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        0,
+        1,
+        11
+      ],
+      "presented_ids": [
+        0,
+        8,
+        11,
+        12
+      ],
+      "selected_gold_support_recall": 0.6666666666666666,
+      "selected_ids": [
+        0,
+        8,
+        11,
+        12
+      ]
+    },
+    "q89d2485eaf22e7b31624": {
+      "all_gold_support_presented": false,
+      "all_gold_support_selected": false,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        0,
+        2,
+        9,
+        12
+      ],
+      "presented_ids": [
+        2,
+        4,
+        12
+      ],
+      "selected_gold_support_recall": 0.5,
+      "selected_ids": [
+        2,
+        4,
+        12
+      ]
+    },
+    "qb53b0da358d8710a5f77": {
+      "all_gold_support_presented": false,
+      "all_gold_support_selected": false,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        0,
+        4,
+        13
+      ],
+      "presented_ids": [
+        4,
+        7,
+        13,
+        15
+      ],
+      "selected_gold_support_recall": 0.6666666666666666,
+      "selected_ids": [
+        4,
+        7,
+        13,
+        15
+      ]
+    },
+    "qbb5349a9b7b73dd77f26": {
+      "all_gold_support_presented": false,
+      "all_gold_support_selected": false,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        5,
+        7
+      ],
+      "presented_ids": [
+        0,
+        5,
+        13,
+        18
+      ],
+      "selected_gold_support_recall": 0.5,
+      "selected_ids": [
+        0,
+        5,
+        13,
+        18
+      ]
+    },
+    "qbefa334e11dccbcdb36d": {
+      "all_gold_support_presented": false,
+      "all_gold_support_selected": false,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        1,
+        7,
+        11,
+        14
+      ],
+      "presented_ids": [
+        1,
+        7,
+        11,
+        13
+      ],
+      "selected_gold_support_recall": 0.75,
+      "selected_ids": [
+        1,
+        7,
+        11,
+        13
+      ]
+    },
+    "qcbd5a4bf80cace0d247b": {
+      "all_gold_support_presented": true,
+      "all_gold_support_selected": true,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        5,
+        13,
+        15
+      ],
+      "presented_ids": [
+        5,
+        11,
+        13,
+        15
+      ],
+      "selected_gold_support_recall": 1.0,
+      "selected_ids": [
+        5,
+        11,
+        13,
+        15
+      ]
+    },
+    "qe758ff5a6c6a4c8ab52f": {
+      "all_gold_support_presented": false,
+      "all_gold_support_selected": false,
+      "diagnostic_not_proof_of_faithful_answer_use": true,
+      "gold_support_ids_HOST_ONLY": [
+        3,
+        17
+      ],
+      "presented_ids": [
+        7,
+        12,
+        17,
+        18
+      ],
+      "selected_gold_support_recall": 0.5,
+      "selected_ids": [
+        7,
+        12,
+        17,
+        18
+      ]
+    }
+  },
+  "max_actual_prefix_plus_output": 2764,
+  "missing_receipt_ids": [],
+  "paired": {
+    "answer_f1_delta_sum": -0.47747906963115005,
+    "both_available": 12,
+    "losses": 2,
+    "planned": 12,
+    "same_correct": 2,
+    "same_wrong": 7,
+    "support_f1_delta_sum": -0.1119047619047619,
+    "unavailable_pairs": 0,
+    "wins": 1
+  },
+  "phases": {
+    "cleanup_seconds": 1.0252180099487305,
+    "science_elapsed_seconds": 56.19254159927368,
+    "service_startup_seconds": 41.51859188079834
+  },
+  "physical_cost": {
+    "cached_prompt_tokens_observed_subtotal": 0,
+    "cached_prompt_tokens_unknown_calls": 0,
+    "completion_tokens_observed_subtotal": 5453,
+    "completion_tokens_unknown_calls": 0,
+    "not_started": 0,
+    "physical_started": 72,
+    "planned_calls": 72,
+    "prompt_tokens_observed_subtotal": 64085,
+    "prompt_tokens_unknown_calls": 0,
+    "returned_transport_valid": 72,
+    "sum_observed_call_seconds": 182.01256227493286,
+    "unknown_usage_is_not_zero": true,
+    "wall_sum_is_not_concurrent_elapsed": true
+  },
+  "planned_physical_calls": 72,
+  "planned_terminal_slots": 24,
+  "raw_requests": 72,
+  "raw_responses": 72,
+  "released": true,
+  "runtime_qualified": true,
+  "schema": "musique-evidence-preservation-result-v1",
+  "selector_model_error_count": 0,
+  "status_counts": {
+    "returned_valid": 72
+  },
+  "unique_questions": 12
+}

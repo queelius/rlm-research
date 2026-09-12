@@ -1,5 +1,16 @@
 # What we know so far
 
+## Current update — September 12, 20:09 UTC
+
+The trained controller learned useful retrieval, but the harness sometimes
+damaged its correct answer. A prospective output-preservation test recovered
+seven identical generated answers; scores rose from17 to23 of32, with one
+separate generation-path regression. That is a concrete system fix, not RL.
+Fresh RL attempts will now test informative feedback from the competent
+controller. The older one-step RL recipe did not retain its tiny benefit on
+a second seed block. An active comparison asks whether helpers should return
+selected original passages rather than summaries. See NOW.md for boundaries.
+
 ## Current update — September 12, 19:35 UTC
 
 The latest overview is [NOW.md](NOW.md). A fixed32-update supervised controller

@@ -1,5 +1,21 @@
 # Live GPU research queue
 
+### Live update September 12, 20:09 UTC
+
+ACTIVE67095: selected original passages versus summaries of exactly those
+passages,12 exposed MuSiQue questions/72 calls. CPU_READY d9e00fae… verified.
+NEXT1: cp32 train8×G4 rollout/reward screen, currently blocked before admission
+by nested verifier lookup; post+local doing narrow additive repair.
+NEXT2: new long16 base/cp32 paired transfer, both V1 launches failed before
+queries due to wrong service binding; post repairs actual dependency seam.
+NEXT3: use G4 mixed rewards to choose root-action versus final-delivery RL;
+do not train with no informative groups or blindly repeat an ineffective dose.
+
+Completed: clamp ablation17→23/32,7 strict same-path recoveries and1 divergent
+loss; no new learning. New model short screen0/8 both; no model switch yet.
+Old token-TIS recipe has no stable held advantage across two decoding blocks;
+retire that exact recipe, not RL generally. Quota46%19:59, next20:14.
+
 ### Live update September 12, 19:35 UTC — procedure learned; reward return-path test next
 
 COMPLETE token-TIS seed2 all16×3 fixedarms78480; ACTIVE old/new cached4B

@@ -1,0 +1,207 @@
+{
+  "schema": "token-tis-two-seed-block-concise-report-v1",
+  "derivation_path": "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-token-tis-held-seed2-2026-09-12/DERIVED.json",
+  "derivation_sha256": "3f2361b11b927197eae9a2bad583c2d43f6d41c1928b2211b2c6a07690f44d43",
+  "source_files_verified": 428,
+  "independent_contexts": 16,
+  "seed_blocks": 2,
+  "all96_saved_derivations_reproduced": true,
+  "all96_raw_final_gold_compared": true,
+  "all96_initial_prefixes_verified": true,
+  "all_arm_bindings_identical_across_blocks": true,
+  "blocks": {
+    "seed1": {
+      "arms": {
+        "base": {
+          "available": 15,
+          "broad_document_dump_episodes": 6,
+          "clean_correct_target_observed": 0,
+          "near_exact": 1,
+          "owner_complete": false,
+          "raw_exact": 0,
+          "raw_similarity_sum": 1.0742713607356937,
+          "recorded": 16,
+          "role_ordinal_successor_candidates": 0,
+          "tool_tracebacks": 20,
+          "unknown": 1
+        },
+        "lr1e-4": {
+          "available": 15,
+          "broad_document_dump_episodes": 6,
+          "clean_correct_target_observed": 0,
+          "near_exact": 1,
+          "owner_complete": false,
+          "raw_exact": 1,
+          "raw_similarity_sum": 1.1368814627730068,
+          "recorded": 16,
+          "role_ordinal_successor_candidates": 0,
+          "tool_tracebacks": 25,
+          "unknown": 1
+        },
+        "lr1e-5": {
+          "available": 15,
+          "broad_document_dump_episodes": 6,
+          "clean_correct_target_observed": 0,
+          "near_exact": 1,
+          "owner_complete": false,
+          "raw_exact": 0,
+          "raw_similarity_sum": 1.2240452868235978,
+          "recorded": 16,
+          "role_ordinal_successor_candidates": 0,
+          "tool_tracebacks": 19,
+          "unknown": 1
+        }
+      },
+      "paired": {
+        "base_to_lr1e-4": {
+          "both_available": 15,
+          "changed_first_programs": 8,
+          "changed_known_replies": 10,
+          "exact_losses_right": 0,
+          "exact_wins_right": 1,
+          "official_similarity_delta_sum_known": 0.06261010203731308,
+          "planned_contexts": 16,
+          "unknown_either": 1
+        },
+        "base_to_lr1e-5": {
+          "both_available": 15,
+          "changed_first_programs": 5,
+          "changed_known_replies": 11,
+          "exact_losses_right": 0,
+          "exact_wins_right": 0,
+          "official_similarity_delta_sum_known": 0.14977392608790419,
+          "planned_contexts": 16,
+          "unknown_either": 1
+        },
+        "lr1e-5_to_lr1e-4": {
+          "both_available": 15,
+          "changed_first_programs": 8,
+          "changed_known_replies": 11,
+          "exact_losses_right": 0,
+          "exact_wins_right": 1,
+          "official_similarity_delta_sum_known": -0.08716382405059103,
+          "planned_contexts": 16,
+          "unknown_either": 1
+        }
+      }
+    },
+    "seed2": {
+      "arms": {
+        "base": {
+          "available": 15,
+          "broad_document_dump_episodes": 8,
+          "clean_correct_target_observed": 0,
+          "near_exact": 3,
+          "owner_complete": false,
+          "raw_exact": 2,
+          "raw_similarity_sum": 3.2055137052531144,
+          "recorded": 16,
+          "role_ordinal_successor_candidates": 0,
+          "tool_tracebacks": 18,
+          "unknown": 1
+        },
+        "lr1e-4": {
+          "available": 16,
+          "broad_document_dump_episodes": 9,
+          "clean_correct_target_observed": 0,
+          "near_exact": 2,
+          "owner_complete": true,
+          "raw_exact": 1,
+          "raw_similarity_sum": 2.3864574840299473,
+          "recorded": 16,
+          "role_ordinal_successor_candidates": 0,
+          "tool_tracebacks": 17,
+          "unknown": 0
+        },
+        "lr1e-5": {
+          "available": 16,
+          "broad_document_dump_episodes": 10,
+          "clean_correct_target_observed": 0,
+          "near_exact": 1,
+          "owner_complete": true,
+          "raw_exact": 1,
+          "raw_similarity_sum": 1.4455116431202526,
+          "recorded": 16,
+          "role_ordinal_successor_candidates": 0,
+          "tool_tracebacks": 18,
+          "unknown": 0
+        }
+      },
+      "paired": {
+        "base_to_lr1e-4": {
+          "both_available": 15,
+          "changed_first_programs": 7,
+          "changed_known_replies": 8,
+          "exact_losses_right": 1,
+          "exact_wins_right": 0,
+          "official_similarity_delta_sum_known": -0.9021442159892776,
+          "planned_contexts": 16,
+          "unknown_either": 1
+        },
+        "base_to_lr1e-5": {
+          "both_available": 15,
+          "changed_first_programs": 7,
+          "changed_known_replies": 10,
+          "exact_losses_right": 1,
+          "exact_wins_right": 0,
+          "official_similarity_delta_sum_known": -1.7615488525427612,
+          "planned_contexts": 16,
+          "unknown_either": 1
+        },
+        "lr1e-5_to_lr1e-4": {
+          "both_available": 16,
+          "changed_first_programs": 6,
+          "changed_known_replies": 6,
+          "exact_losses_right": 0,
+          "exact_wins_right": 0,
+          "official_similarity_delta_sum_known": 0.9409458409096947,
+          "planned_contexts": 16,
+          "unknown_either": 0
+        }
+      }
+    }
+  },
+  "mechanism": {
+    "old_high_success_record_id": "omrcr-2568744ab02d7c2786c8",
+    "high_exact_answer_repeated": true,
+    "high_over_base_advantage_repeated": false,
+    "seed2_same_record_exact_arms": [
+      "base",
+      "lr1e-5",
+      "lr1e-4"
+    ],
+    "seed2_same_record_behavior": "Identical first data.get('diary_entries') schema failure, identical broad document-printing second program; selects/mutates a user request, then final copies the correct diary from dumped context.",
+    "seed2_other_exact": {
+      "arm": "base",
+      "record_id": "omrcr-62f0a8e60638c25131ad",
+      "behavior": "Two schema errors followed by print(data), no role/ordinal selector; final copies correct article from broad dump."
+    },
+    "new_exact_clean_target_retrieval": 0,
+    "all96_role_ordinal_successor_candidates": 0,
+    "all96_clean_correct_target_observations": 0,
+    "seed2_base_unknown": {
+      "record_id": "omrcr-574a80aeed5114ad4217",
+      "cause": "Repeated dumps, then native HTTP400 decoder prompt11510 exceeds8192; null outcome, not owner cap."
+    },
+    "seed1_unknown": {
+      "record_id": "omrcr-530d9996c900aa5d7b62",
+      "arms": [
+        "base",
+        "lr1e-5",
+        "lr1e-4"
+      ],
+      "cause": "Repeated dumps, native decoder prompt11232 exceeds8192."
+    }
+  },
+  "decision": {
+    "recommendation": "Retire or deprioritize this exact one-step root-token-TIS corpus/gradient recipe pending fresh usable SFT-procedure rollouts under the qualified terminal-strip-disabled scorer.",
+    "not_claimed": [
+      "TIS generally fails",
+      "All policy-gradient learning fails",
+      "A confirmatory negative transfer estimate",
+      "32 independent contexts",
+      "Dose selection based on held outcomes"
+    ]
+  },
+  "evidence_scope": "Frozen original scored pipeline; inert JSON and AST analysis, no generated program execution, model calls, GPU use, or retroactive parser correction."
+}

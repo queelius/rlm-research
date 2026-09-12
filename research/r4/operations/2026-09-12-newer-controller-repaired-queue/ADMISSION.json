@@ -1,0 +1,18 @@
+{
+  "authority": "MAIN",
+  "checkpoint_policy": "Persist every native call and episode; no retries or case selection; authenticate owner release.",
+  "epoch": 1789243187.2194345,
+  "external_seconds": 1900,
+  "limitations": "Exposed train cases, short two-turn cap, different native model/template/parser packages; not held-out transfer, a weights-only comparison or cost-matched capability ranking.",
+  "max_physical_calls": 32,
+  "metric": "Original returned-text exact; raw-token/native/returned fidelity diagnostics separate.",
+  "optimizer_steps": 0,
+  "owner_seconds": 1800,
+  "paired_contexts": 8,
+  "question": "Does a newer cached 4B released model more readily inspect the conversation schema and return the requested text within two turns?",
+  "ready_identity": "f3e251f52ce96092af19f488aefcccd183adc4924f1d73fc6eb1160f5e6b9702",
+  "ready_sha256": "ef75f8a04b5d631194fd34f390e0e9e99f4bf292b870243cb8497ec2d069afe7",
+  "review": "MAIN fully read original screen and all V2 repair/test/seal files. Actual owner_v2 verify passed5844 pins. Four focused tests pass, including two-tool native budget completion; CPU882-token validation0.039s. Only vocabulary-size lookup hoisted, all checks preserved. Failed945-second attempt remains separate, no model-ranking evidence from it.",
+  "seed_base": 202609190000,
+  "wrapper_sha256": "64fd1ccd323c0fc05969a1ab832ffba8ab226c18aa92e98e81f23a69f9d9c801"
+}

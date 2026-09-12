@@ -1,5 +1,52 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 20:09 UTC
+
+CONTINUE autonomously; MAIN sole GPU launcher. ACTIVE evidence-representation
+screen PTY67095, operation `2026-09-12-evidence-preservation-queue/run.py`.
+CPU_READY d9e00faec0d54e12311e27f1952066c5677c52df309c546723dcf015ca5307f1;
+MAIN read all431 source/test lines and RUNBOOK; actual owner verified1666 pins.
+12 exposed MuSiQue contexts,72 physical calls,24 finals. Shared paragraph
+selection; summaries receive only selected sources; compare summaries versus
+the exact same original paragraphs. Natural policy costs3 versus5 calls, not
+matched. Owner950/science700/external1050 seconds. Agenttoken prepares analyzer.
+
+COMPLETED prospective terminal-clamp ablation: original17/32 versus23/32,
+7wins1loss. MAIN ran paired raw audit `analyses/openai-mrcr-terminal-clamp-paired-2026-09-12/MAIN_TERMINAL_001.json`.
+All7 wins have identical action/prompt/program/observation paths and recover
+exact generated answers previously damaged by trimming. Overall29/32 paths
+identical; divergent outcomes are not clamp-only effects. Original25 token-exact
+diagnostic was not a forecast. New owner complete/released,401.999 seconds.
+
+Newer4B V2 comparison COMPLETE/released286.83 seconds: old0/8,new0/8 exact,
+first valid tool-schema7/8 versus8/8; old2 final replies,new0 within two turns.
+No reason to switch from this narrow screen; not a general model ranking.
+Original attempt001 was instrumentation failure: per-token len(tokenizer)
+blocked CPU (~26.8s for882tokens); V2 hoists vocabulary size once (~.039s).
+Original owner stopped via authenticated collector SIGTERM, released945.15s,
+zero paired available capability units; preserve both attempts separately.
+
+Token-TIS second block complete: base2/15,low1/16,high1/16, all16 recorded.
+Firstblock0/15,0/15,1/15. Larger-dose original success also occurs in all three
+second-block models after a broad dump, not learned retrieval. Retire this
+specific old-corpus/one-step recipe; fresh competent SFT rollouts next.
+
+G4 train-only rollout collector V1 and V2 NOT admitted: nested/flat schedule
+lookup bug survives an inner wrapper in V2. Agentspost+local repair and exercise
+the actual inner run; no GPU time spent on this known failure. Keep V1/V2 seals.
+Long-transfer V1 both arms failed in17s before queries: study.dependencies
+bypassed the evaluator's dual-service binding. Agentpost prepares additive V2
+with actual service-entrypoint fixture. Preserve both failed receipts. Frozen
+16 new records remain unqueried; band is prompt-content+answer o200k count,
+not an exact external JSON token count. Next queue G4, long16×2 after repairs.
+
+Last verified GitHub RLM b49f7a930c23a8e3c84be5de7f7ea62d7c3713d0;
+notebook8609a13ed0c9985d6510779d72149479b2717bf2, public cutoff19:35.
+Quota46% at19:59:04UTC; next20:14; reserve20/15/10. Allocation5801/an22
+endsSep15 17:30:16UTC. Avoidable GPU gap after model completion was spent
+finding two wrapper-readiness failures and reviewing ready evidence comparison;
+record as research-operations cost, not useful GPU work. Older pointers history.
+
 ## Latest resume pointer — September 12, 2026, 19:35 UTC
 
 CONTINUE autonomously; MAIN sole GPU launcher. Token-TIS second fixed16×3 seed

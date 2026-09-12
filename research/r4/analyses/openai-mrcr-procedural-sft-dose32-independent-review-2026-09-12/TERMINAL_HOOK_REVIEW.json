@@ -1,0 +1,38 @@
+{
+  "status": "PASS_NO_MATERIAL_LAUNCH_BLOCKER_FOUND",
+  "scope": "Independent read-only review, no GPU or source edits",
+  "sidecar": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1",
+  "READY_sha256": "686e484b6ffa0338b6b699537b10e4ea84f436a29d76baa0ec704f895a629d91",
+  "READY_identity": "f09078f6e68626be5d861752b7dabc6174572ec5c19e51d87222402f1d2efd31",
+  "hooks_sha256": "3361c4aa6e3063e7742f5166be45b4bea8b83eb370d8b774da2e08e8924849bf",
+  "CPU_TESTS_sha256": "60574f1c58598097d70d441f9b5afcce2632d1189f21ce0ece4a4b0f44d4684f",
+  "fresh_owner_verify": {
+    "CUDA_VISIBLE_DEVICES": "",
+    "argv": ["/project/alex_phd/envs/prime-rl-5990b1b/bin/python", "owner.py", "verify", "--stage", "held-checkpoint32"],
+    "exit_code": 0,
+    "returned_identity": "f09078f6e68626be5d861752b7dabc6174572ec5c19e51d87222402f1d2efd31"
+  },
+  "independent_completed_cp32_token_replay": {
+    "returned_actions": 66,
+    "reasoning_or_tool_parse_differences": 0,
+    "tool_bearing_action_content_changes": 0,
+    "terminal_action_content_changes": 8,
+    "model_weights_loaded": 0,
+    "generation_calls": 0
+  },
+  "reviewed_existing_full_native_CPU_fixtures": [
+    {"episode_sha256":"d197fa108be833e399458b9e01f6691f6e20b04ce9a1b868ba02706a1b4c7a4d", "requests":2, "ROOT":2, "children":0, "exact_prefix_and_mapping":true, "official_reward":1.0},
+    {"episode_sha256":"52a5b1df0eb973a6176d187d7921a55829e4ee188e77025da8c32a8fef0f39da", "requests":2, "ROOT":2, "children":0, "exact_prefix_and_mapping":true, "official_reward":0.8888888888888888},
+    {"episode_sha256":"0f8a8f074fd36e25aa65b9630ac452374bf40fcc4d734c4d2b4f759a5143ef8a", "requests":2, "ROOT":2, "children":0, "exact_prefix_and_mapping":true, "official_reward":0.9473684210526315},
+    {"episode_sha256":"7f101b0615d067fc205a252fe8675a025278c2339c2389c12f6535968811f729", "requests":2, "ROOT":2, "children":0, "exact_prefix_and_mapping":true, "official_reward":0.0, "failure_class":"model_invalid_terminal"}
+  ],
+  "test_execution_boundary": "Read source and archived artifacts from six passed tests; did not repeat four Docker/native fixtures. Independently replayed actual 66 saved cp32 actions and reran owner verification.",
+  "claim_boundaries": [
+    "Primary original held result remains 17/32; prospective new arm is separately scored.",
+    "Patch preserves the final content field, including content preceding tool calls; archived66 had no changed tool-bearing content, but future behavior should be checked.",
+    "Reasoning newline trimming is intentionally unchanged; this is not a general lossless parser.",
+    "Extra newlines and punctuation corruption remain exact failures but can receive partial continuous official reward.",
+    "Same seeds and initial prefixes do not guarantee identical resampled trajectories. Match actual tokens post-run before attributing all changed correctness to stripping alone.",
+    "MAIN alone decides admission and launches under the existing shared GPU lock."
+  ]
+}

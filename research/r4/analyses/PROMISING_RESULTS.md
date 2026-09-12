@@ -1,5 +1,20 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 20:09 UTC
+
+Promote the narrow return-contract finding from diagnosis to intervention:
+seven same-token-path exact answers recovered after disabling two terminal
+whitespace clamps; original17/32 versus23/32 overall, with one divergent-path
+regression. No weights or gold strings were changed. This is a reproducible
+mechanism and an important prerequisite for exact-reward training, not by
+itself a broad or novel decomposition method.
+
+Retire the specific old root-token-TIS corpus/one-step recipe: a second block
+does not preserve its tiny advantage and the successes use broad dumps.
+Prioritize fresh informative rewards after procedural SFT, and a controlled
+selected-evidence versus summary comparison. Require new-data replication
+before promoting either into a general publication claim.
+
 ## Decision update — September 12, 19:35 UTC
 
 Promote narrow procedure acquisition/transfer as a useful prerequisite, not a

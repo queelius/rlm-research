@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "elapsed_seconds": 401.9991247653961,
+  "errors": null,
+  "manipulation_gate": null,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "recorded": 32,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/outputs/held-checkpoint32-001/science/RESULT.json",
+  "scientifically_available": 32,
+  "stage": "held-checkpoint32"
+}

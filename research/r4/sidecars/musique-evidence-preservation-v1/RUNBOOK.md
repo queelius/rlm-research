@@ -1,0 +1,15 @@
+# MuSiQue evidence-preservation mechanism screen
+
+All12 existing task-directed-followup contexts, in their original order and identical question-blind source halves, are an explicitly exposed diagnostic panel. No outcome-based case filtering, gold-based paragraph selection, or new dataset claim.
+
+Each question makes two128-token selection calls, one per original half. Each returns strict JSON with at most two distinct original integer `paragraph_ids` from that half. Two separate512-token summary calls then receive only the selected exact original paragraphs—not the original half or selection prose. Both final branches reuse these four helper acquisitions: selected IDs plus summaries, versus the same IDs plus verbatim source paragraphs. Final instruction, model, decoding cap1024, and seed are identical. Branch execution order alternates by fixed question index.
+
+If either selection has invalid schema, duplicate/out-of-half IDs, or unavailable transport, both finals receive the same explicit empty-evidence/error packet. No source replacement, partial/cross-half fallback, or gold intervention. Summary calls still occur with the validated source list (empty for an invalid selector); their content is discarded from both finals when any selector is invalid. Model selection errors remain known errors; required transport failures make the associated policy outcome unavailable, with any observed final score retained diagnostically.
+
+Seeds are202609220000 +16×question index +role offset: left/right selectors0/1, left/right summaries2/3, both finals4. Base4B and the authenticated V3 eager/batch-invariant service, native response validation, process ownership and cleanup remain unchanged. Four question workers;72 physical calls,24 finals,12 paired question units. Every native request, response, prompt and call result is checkpointed. No generated text is executed.
+
+Costs are not matched: the verbatim policy naturally needs two selectors plus a final (3 calls/question), whereas summaries need two selectors, two summaries and a final (5). Physical experiment cost is72 calls because helper acquisition is shared; natural deployed costs are36 versus60 calls over12 questions. Record actual input/output tokens and unknown usage separately. This is not a token-cost-matched or equal-natural-call-cost comparison.
+
+Primary outcomes are exact answers plus answer/support metrics, paired by question. Selected gold-support coverage is computed only by host metrics after collection and cleanup; acquisition never reads answer/support annotations. Coverage is not proof of faithful evidence use. Invalid JSON finals are model errors; transport/deadline losses remain unavailable. No automatic promotion or dose selection.
+
+Caps: science700 seconds, owner950, external1050. MAIN alone launches the exact command sealed in CPU_READY.json after review. Preparation and CPU fixtures never start a GPU service. This tests evidence representation, not learned routing, recursion or an invention claim.

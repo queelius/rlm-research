@@ -1,0 +1,37 @@
+{
+  "schema": "terminal-strip-disabled-focused-cpu-tests-v1",
+  "returncode": 0,
+  "passed": 6,
+  "elapsed_seconds": 148.31,
+  "stdout": "...                                                                   [100%]\n=============================== warnings summary ===============================\ntest_terminal.py::test_native_tool_then_final_preserves_content_without_repair[  MARK\\ncurly \\u2019 target  -  MARK\\ncurly \\u2019 target  -True]\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_terminal.py::test_native_tool_then_final_preserves_content_without_repair[  MARK\\ncurly \\u2019 target  -  MARK\\ncurly \\u2019 target  -True]\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n6 passed, 2 warnings in 148.31s (0:02:28)\n",
+  "existing_dependency_warnings": "Two Swig deprecation warnings, also present in old control.",
+  "red": {
+    "returncode": 1,
+    "elapsed_seconds": 48.95,
+    "failure": "Actual native parsed response strips leading/final spaces.",
+    "artifacts": "cpu-red-001"
+  },
+  "green_artifacts": "cpu-green-002",
+  "full_native_cases": 4,
+  "actual_native_provider_calls": 8,
+  "model_weight_calls": 0,
+  "gpu_used": false,
+  "tests": [
+    "exact leading/final whitespace and newline/curly apostrophe reach scored root; reward1",
+    "genuine extra LF remains raw failure",
+    "apostrophe corruption remains raw failure",
+    "malformed tool JSON remains empty invalid terminal",
+    "reasoning and invalid tool statuses unchanged",
+    "process-local parser restored after context"
+  ],
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "test_terminal.py",
+    "--basetemp=/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-terminal-strip-disabled-v1/cpu-green-002"
+  ]
+}
