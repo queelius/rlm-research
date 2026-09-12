@@ -1,11 +1,41 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T18:23:00Z
+updated_utc: 2026-09-12T19:35:00Z
 status: active_exploratory_research
-claim_level: helper_gain_not_transferred_and_result_observability_defect
+claim_level: exploratory_procedure_transfer_and_exact_return_contract_mismatch
 ---
 
 # Research in plain language
+
+## Current interpretation — September 12, 19:35 UTC
+
+More supervised training taught the retrieval routine. Keeping32 demonstrations,
+learningrate/objectivefixed and continuingthe sameoptimizer/RNGto32updates yielded
+all32correct trainingfirstprograms/targetprints. On16separateconversations×2seeds,
+base2/29availablevsSFT17/32; paired29 gives15wins0losses. Threebaseoutcomesunknown,
+notwrong. The16contexts werepreviouslyusedinotherexperiments, notSFTtraining;
+thisisexploratorysame-tasktransfer, notconfirmatoryorgeneraldecomposition.
+
+SFT retrievescorrecttext30/32times butonlyreturns17exactly. Savedtokensshow8more
+exactanswers lostthroughruntimewhitespace trimming, raisingrawtokenexactdiagnostic
+to25—notrewriting17. Fourmodeltokenoutputsomitspaces,onechangesadigit,twofail
+theemail→message selector. ActualQwen3parserandACPfinalreturnbothstriptext.
+Prospectivepaired32arm disablesonlythoseclampsinnewprocess; no goldrepair.
+Thisisthenextreward-facingtestbeforefreshRLfromtheusablecheckpoint.
+
+RLfirstseedstillweak:base0/15low0/15high1/15;sameunknown;solegainbroadprint/copy.
+Secondseedall16×3completed,analysisnext,keepallarms. MuSiQue132actualcalls48availablefinals:
+stop1/12,broad1/12,targeted1/12(samequestion),fullsource3/12. Focusedrequests
+didnothelpthisfixedreportrecipe. Do not claim learnedrouting/decomposition.
+
+Mostpromisingpublicationdirection: separate access,selection,evidencepreservation
+andfinaldelivery, then showamatchableinterventionimprovescompleteanswersonnewdata.
+SFTaloneisaprerequisite; meaningfulRLgainstillnotestablished. New16longerMRCR
+contextsareoutcome-blindselectedanddisjointfrom48priorcore/targettexts;notyetqueried.
+See mainreport `2026-09-12-procedure-transfer-and-exact-rewards.md` and
+[independent heldreadout](openai-mrcr-procedural-sft-dose32-readout-2026-09-12/main-final-held-snapshot-001/REPORT.md).
+
+Older sections below are dated history, not current claims.
 
 ## Current interpretation — September 12, 18:23 UTC
 

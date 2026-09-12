@@ -1,5 +1,31 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 19:35 UTC
+
+Promote narrow procedure acquisition/transfer as a useful prerequisite, not a
+novel method: fixed SFT32 correct target prints30/32 held attempts; exact returned
+answers2/29base→17/32SFT,15wins0losses on29availablepairs across16contexts×2seeds.
+The same32demonstrations failedafter4updates; moretrainingactually changedbehavior.
+Nochildcalls, no generaldecomposition claim, fixed panel hadprioradaptiveexposure.
+
+Strong mechanism lead:8held exactmodeltokenanswers were altered by terminal
+whitespaceclamps beforeexactgrading. Original17score stays;25tokenexactdiagnostic
+is not a newinterventionresult. Twoactualclamps(parser+ACP) mean a parser-onlyfix
+wouldfail. Prospectiveterminal-strip-disabledarmwithsamecheckpointandseeds next.
+This gives a concrete reward contract to fix before fresh RL; model'sown5copyerrors
+and2selectionerrors must remain distinguishable. No automaticgoldnormalization.
+
+Do not promote current RL: first heldblock0/15base,0/15low,1/15high, sole highgain
+wholecontextdump/copy. Both update sizes real, fewmixedrewardgroups; secondseed
+allarmsrunning. MuSiQue focusedfollowupdidnotimproveexactoverbroadorstop:all1/12,
+fullsource3/12,all48available. Needmechanism-basedinformationpreservationcomparison,
+notmoreofsamecalls. Earlierbreadtheffectstilldowngradedonfreshpanel.
+
+Paper-shaped hypothesis: a learnedretrievalprocedure is not enough when the
+execution/return contract obscures or changes evidence; targeted fixes should
+improve end-to-end verifiable outcomes and transfer. Current evidence supplies
+mechanisms and a promising baseline, not yet a finished generalizable claim.
+
 ## Decision update — September 12, 18:23 UTC
 
 Downgrade the large training-breadth explanation. The fresh fixed repeat128

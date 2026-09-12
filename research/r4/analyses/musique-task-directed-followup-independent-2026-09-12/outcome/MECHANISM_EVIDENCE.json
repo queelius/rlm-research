@@ -1,0 +1,91 @@
+{
+  "aggregate": {
+    "answer_exact": {
+      "broad": 1,
+      "full_source": 3,
+      "stop": 1,
+      "targeted": 1
+    },
+    "answer_f1_sum": {
+      "broad": 1.2293706293706295,
+      "full_source": 3.554054054054054,
+      "stop": 1.226581602540682,
+      "targeted": 1.5054347826086956
+    },
+    "extra_report_contains_exact_gold_string_lexical_only": {
+      "broad": 7,
+      "targeted": 3
+    },
+    "support_exact": {
+      "broad": 1,
+      "full_source": 2,
+      "stop": 2,
+      "targeted": 2
+    },
+    "support_f1_sum": {
+      "broad": 5.9222222222222225,
+      "full_source": 5.623809523809523,
+      "stop": 5.383333333333333,
+      "targeted": 5.6
+    }
+  },
+  "examples": [
+    {
+      "evidence": "The focused reports supplied the player-to-team link and the exact year. The targeted final included both but returned a sentence rather than the concise gold, so answer EM remained wrong (F1 0.20); its support set also omitted the player-link paragraph.",
+      "final_call_id": "709d25d2b6e6f589029b6b91770cbce48539147e9403dcc105325b31ade115c6",
+      "final_call_sha256": "0a6a7130150a1e3dfd18ddf99c2f9457363cc975689d65ff811bdb1c1390eca5",
+      "mechanism": "useful targeted evidence followed by answer-format and support-selection error",
+      "record_id": "qbb5349a9b7b73dd77f26"
+    },
+    {
+      "evidence": "Both broad and targeted extra reports contained the exact entity requested by the question. The targeted terminal nevertheless denied that such an entity was present and cited a six-paragraph superset (answer F1 0.133, support F1 0.25).",
+      "final_call_id": "74c6e40c0ec2bcbad22e50c66e3d1c646c6585dfbbdb959e637aac69f71bd2d2",
+      "final_call_sha256": "4d977c3a7d03c9055468068dcdb2c0fc593d09a0c120807bfeca38356dd463ae",
+      "mechanism": "evidence acquired but contradicted during final aggregation",
+      "record_id": "q0617d8bcca5d6bb08ed0"
+    },
+    {
+      "evidence": "The initial left report identified Narrow Island while the initial right report identified the conference city. The planner then asked the conference question of the left half and the island question of the right half. Both targeted follow-ups reported absence. The targeted final selected the exact gold support set but answered that information was missing; full-source was exact.",
+      "full_source_call_id": "3beaacd0e37c1681541355585f2bb172636ffad88c8c21ea5e74a4a299997b06",
+      "full_source_call_sha256": "ccba8f6c8b76c5766d4df7843bfdc07e05b92e80443d4ea19632f0a9583c9d5c",
+      "mechanism": "planner produced relevant questions but assigned them to the wrong source halves",
+      "record_id": "qcbd5a4bf80cace0d247b",
+      "targeted_call_id": "1d17a97a48d1b051ab10b7c564273dbddcd2bc0f3b38ed310cec6aa0453354f9",
+      "targeted_call_sha256": "b6d57a62afd2ebf1adde5c130d0633a18e5fefffad904261947c8e24c4a0bd43"
+    },
+    {
+      "evidence": "All split-report finals selected the exact gold support set but said the death city was unavailable. The full-source arm returned the exact answer. Valid support selection therefore did not imply correct answer synthesis.",
+      "full_source_call_id": "b4edaeb1d846a3bacc34528f181269ca59ef628b135b6448821482c9060fa8ca",
+      "full_source_call_sha256": "474a04136ffc6d4503fdb1bb9d993022e65aa271404432fce6e9cdc8e09473cc",
+      "mechanism": "fragmented reports preserved support IDs but lost the answer relation",
+      "record_id": "q16e943b03b89ba19b10b",
+      "targeted_call_id": "23b360ebf60f54f7239d76dabeab0e814c315bb22dd23b71c9b886ace2f1edec",
+      "targeted_call_sha256": "9766b8ab1af5637b0bcab5481ca17212328ff0dbbfbcb89156c4e6e8596f68be"
+    },
+    {
+      "evidence": "A broad extra report explicitly distinguished the source-supported statehood date from an outside historical acquisition guess, then introduced that outside guess and the broad final selected it. The stop arm had the exact support set but no answer. This is an unsupported-answer failure, not evidence that the cited support was wrong.",
+      "broad_extra_call_id": "ecbaa781e6c1faaf70c6eafaab2dd314d8f1a5b4c447cfa5179f48271b03b9be",
+      "broad_extra_call_sha256": "9a380c945c222bcedf0f9e58cd1d10ce97db1da706bfbf466880efc246e51c5c",
+      "broad_final_call_id": "51f6f52a9deb8b8c1efc8dfc144260c320692c169317b3faed1f6ed72220909f",
+      "broad_final_call_sha256": "d1f2dffb1dd8340f1dc32983e5eebde2be24e369c76172ef9f6177ac3277acac",
+      "mechanism": "outside-knowledge guess displaced source-supported evidence",
+      "record_id": "q1459e23aa1e832118689"
+    }
+  ],
+  "interpretation": "Targeting did not improve exact answers over either shared-report control. Its small answer-F1 increase came from partial content on wrong endpoints. Broad extra reports contained the exact gold string more often than targeted reports (7/12 versus 3/12), while full-source gained two exact endpoints. The observed failure modes include wrong-half planning, evidence-to-final contradiction, loss of cross-report relations, unsupported guesses, and concise-answer delivery. These are descriptive mechanisms, not causal attribution or learned-routing evidence.",
+  "model_or_generated_code_execution": false,
+  "prompt_fidelity": {
+    "all_exact": true,
+    "exact_token_id_matches": 132,
+    "path": "/project/alex_phd/runs/rlm-research-r4/analyses/musique-task-directed-followup-independent-2026-09-12/outcome/PROMPT_FIDELITY.json",
+    "sha256": "662dc0c97695654b7de47090b3a50cf1b08da74e0acc09fbc01191a421f4128e"
+  },
+  "schema": "musique-task-directed-followup-independent-mechanism-v1",
+  "source": {
+    "host_gold_sha256": "7af485fa39abe55b817bbd56eedb226ebe7ceca98d3b187194afb6a1dc5044fa",
+    "independent_report_sha256": "92e5ae4f5bf4114a672ac44bb60d19cf229be4762de3ead0641ac1ee44fdb11b",
+    "independent_rows_sha256": "3564bbd3eb96d454d761b6712bba80d36fce65332991356fe0ff8fede5e376a1",
+    "owner_terminal_sha256": "9f16b282f38747e1dc613f36fd3ebf2df8ef975769fbbb71536566371a127c85",
+    "science_result_sha256": "1f8d1b85d2bc051e35e21822f6b7feaaff70dc4bb64b7a719229d55cecb76565"
+  }
+}

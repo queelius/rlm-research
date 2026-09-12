@@ -1,0 +1,26 @@
+{
+  "complete": true,
+  "elapsed_seconds": 391.65389823913574,
+  "errors": null,
+  "manipulation_gate": {
+    "available": 32,
+    "eligible": true,
+    "exact_contexts": 24,
+    "normalized_exact": 31,
+    "planned": 32,
+    "raw_exact": 24,
+    "recorded": 32,
+    "requirements": {
+      "all_available": true,
+      "exact_contexts_at_least": 4,
+      "raw_exact_at_least": 8
+    }
+  },
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "recorded": 32,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/train32-001/science/RESULT.json",
+  "scientifically_available": 32,
+  "stage": "train32"
+}

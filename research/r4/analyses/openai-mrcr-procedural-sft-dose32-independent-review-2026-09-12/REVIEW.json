@@ -1,0 +1,1741 @@
+{
+  "GPU_calls": 0,
+  "actual_parser_replays": 61,
+  "arms": {
+    "held_base": {
+      "available": 29,
+      "category_counts": {
+        "model_other_text_difference": 21,
+        "no_native_final_unavailable": 3,
+        "not_bare_final_span": 6,
+        "original_raw_exact": 2
+      },
+      "clean_correct_target_stdout": 0,
+      "cost": {
+        "collector_usage_unknown_calls_counts_returned_only": 0,
+        "errors_without_usage": 3,
+        "native_errors": [
+          {
+            "file": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0011-result.json",
+            "message": "Error code: 400 - {'error': {'message': 'The decoder prompt (length 10826) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+            "type": "ProviderError"
+          },
+          {
+            "file": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0042-result.json",
+            "message": "Error code: 400 - {'error': {'message': 'The decoder prompt (length 8722) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+            "type": "ProviderError"
+          },
+          {
+            "file": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0070-result.json",
+            "message": "Error code: 400 - {'error': {'message': 'The decoder prompt (length 8250) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+            "type": "ProviderError"
+          }
+        ],
+        "native_returned": 92,
+        "observed_completion_tokens": 25754,
+        "observed_prompt_tokens": 180067,
+        "owner_seconds": 404.3034336566925,
+        "physical_starts": 95
+      },
+      "official_score_sum_available": 4.118443334855819,
+      "planned": 32,
+      "raw_token_exact_diagnostic": 2,
+      "recorded": 32,
+      "returned_exact": 2,
+      "rows": [
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "02d97c32613ed25b4bf439a8e41d98a5438e5a983b9796bec2c6e7c94d1bbf4a",
+          "episode_sha256": "e2bb200409c650bdc6a77ea567d0e88b6700ea9e7c682fae7937e2db4de05495",
+          "failure_class": null,
+          "final_stop_positions": [
+            712
+          ],
+          "final_utf8_sha256": "c347737c98854ec50a721593f65d5e515691b3bb59b33547e87e0b4dde22a194",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-ef800b2a29008e4717f1",
+          "returned_exact": false,
+          "seed": 2026091716,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "08833b992da0a611d60603ac3d140122df2a7d315153512a08dba45662c51272",
+          "episode_sha256": "f9a1e5331c9ace27c2626b077d698bb18932d9cfd17664b06f91c0dd27a5e393",
+          "failure_class": "model_invalid_terminal",
+          "final_stop_positions": [
+            189
+          ],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [],
+          "raw_token_exact": null,
+          "record_id": "omrcr-bcf761ed079ab9231154",
+          "returned_exact": false,
+          "seed": 2026091711,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "1257bf85a96c73f4cdf06d7881e8e4caf6cdcbb45a19a6d60663d63f63d7582d",
+          "episode_sha256": "471e33c21783bb88908892bd9c343c38edfbf67953833561e91cf74944672d5f",
+          "failure_class": null,
+          "final_stop_positions": [
+            48
+          ],
+          "final_utf8_sha256": "4d978628f71d943a1066965e29dfb67ab903c2f61f400b638bec6b4f71e03dc5",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-f515858d24bd0388e927",
+          "returned_exact": false,
+          "seed": 2026091713,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "19d7142d83f101d4c8b20e392683268c21ac67df3fe578c5bf4959860c05eb1e",
+          "episode_sha256": "c553d9e9c6c0cad12f0531ca0affafb3ee8bd73faa92abab8588b6b24211bcfa",
+          "failure_class": null,
+          "final_stop_positions": [
+            15
+          ],
+          "final_utf8_sha256": "0d1c4fe5bf2e80ea71b1e52ec2a45b3347e922f727f7fb442b66018cbd6bf99f",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-85610b95bf89de2580a6",
+          "returned_exact": false,
+          "seed": 2026091726,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "1a3572d6a9dc21a7b90118842e709f016b6638d9b38df779a4d6d0a60c042434",
+          "episode_sha256": "000df8a966bc26fd1969a2d54dd1a98a43c19f43f14a07eba2420b1445f89f09",
+          "failure_class": null,
+          "final_stop_positions": [
+            175
+          ],
+          "final_utf8_sha256": "bbc977ae4b2dbe7b0ed583a1b9aa395d4fe05b608dc41f8f5a39a14aa6a52e7f",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-c277a8dfb869bd3e7819",
+          "returned_exact": false,
+          "seed": 2026091730,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "1b43c8fa83664a155f4cd310e629ea8200cc8e198dd5e6e8e5b71c7df5be7011",
+          "episode_sha256": "69f181115ff856c6c956ee72ecc1a0d216f2492b6ba3683cd354a5ab1954a3cf",
+          "failure_class": null,
+          "final_stop_positions": [
+            498
+          ],
+          "final_utf8_sha256": "9fa8717e9ff178353dc159e287c881b9fd30afb7860361bf9f72e7735dafb910",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-2568744ab02d7c2786c8",
+          "returned_exact": true,
+          "seed": 2026091725,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "2753a77a981e66a8d7e44b52a903305046cfcb5ec7741b4b16ee5ba208367212",
+          "episode_sha256": "32ab56bdeef10b99c3ab024160c5930dfe05ab295a68cf5cecaf5618367a9424",
+          "failure_class": null,
+          "final_stop_positions": [
+            27
+          ],
+          "final_utf8_sha256": "e7ca2695e0b3775d401baf9e653691e3a38b321ac5720ecfc71f7d9e34ffbb6e",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-62f0a8e60638c25131ad",
+          "returned_exact": false,
+          "seed": 2026091704,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "3722a5c939f181cb14377ed6a7b77ca3f96fc75f938897efb0bfcc0ce2d183c5",
+          "episode_sha256": "7c3f43bea04c8e8ad214522e3bfcb105eba91be7d850a677ab6eaa9b0694e7eb",
+          "failure_class": null,
+          "final_stop_positions": [
+            6
+          ],
+          "final_utf8_sha256": "8f5ee85e11ab54426f59dcdc3af1e54178bd4d959cac8f86d764fbb7aecbc480",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-574a80aeed5114ad4217",
+          "returned_exact": false,
+          "seed": 2026091707,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": false,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "3d95c157f20222c2fb56dc120bb39a6da0ce76466459b967fc1245ea6c4f6ba5",
+          "episode_sha256": "1dda100bd341440762141ea7797a99043d48d9c0a79e50703deb72c9c4a40d01",
+          "failure_class": "infrastructure_unavailable",
+          "final_stop_positions": [],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [
+            "Error code: 400 - {'error': {'message': 'The decoder prompt (length 10826) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}"
+          ],
+          "raw_token_exact": null,
+          "record_id": "omrcr-530d9996c900aa5d7b62",
+          "returned_exact": false,
+          "seed": 2026091702,
+          "stop_condition": "error",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "4dd03782963ab0602d58396e24e4ddc56162fd18e02f66bf06eadc4045ad6382",
+          "episode_sha256": "298b11b64bf376ff45c6ec73796da418fbf703df403e89ba43c0efda52d1b23a",
+          "failure_class": null,
+          "final_stop_positions": [
+            59
+          ],
+          "final_utf8_sha256": "f014801e670f4453fb22b50355ab4aabeed00e5b8d8578a796675a46215d1219",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-746d5e1512abdfa38878",
+          "returned_exact": false,
+          "seed": 2026091718,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "589ce81903196215e338ea537d5e4cd5a75061efd76779724faec0c6c4d314b6",
+          "episode_sha256": "ada066a72c6029ddec3ecfa1b26ca3d0d0914d7ea542d0f4948a1d6668a98152",
+          "failure_class": null,
+          "final_stop_positions": [
+            45
+          ],
+          "final_utf8_sha256": "d926f2d5a54049877bad2c87a61dbbf36fa84e813c213b557e090ffb3e439b1e",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-62f0a8e60638c25131ad",
+          "returned_exact": false,
+          "seed": 2026091705,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "5a121990c2bc1b4bd1c6a086a2c714527cdd0d0705644f72a61b6fdd74663fed",
+          "episode_sha256": "b94b550bb90afbe87f902946fbc6c7354e67058695cad733d790c8080309f790",
+          "failure_class": null,
+          "final_stop_positions": [
+            415
+          ],
+          "final_utf8_sha256": "e31f5727fb87d9aec1e218c19fbcd24e04499822940df795fd2128e1aecd1c70",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-c277a8dfb869bd3e7819",
+          "returned_exact": true,
+          "seed": 2026091731,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": false,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "60bf760832334a483112c2e66b0a4b9e4d40f002b852df421fab18ccc55a6ea8",
+          "episode_sha256": "b93abbc4bf8e0241f73ff77739c0f3b97c9656c37ea9ae227ef18aeb40e4172b",
+          "failure_class": "infrastructure_unavailable",
+          "final_stop_positions": [],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [
+            "Error code: 400 - {'error': {'message': 'The decoder prompt (length 8250) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}"
+          ],
+          "raw_token_exact": null,
+          "record_id": "omrcr-746d5e1512abdfa38878",
+          "returned_exact": false,
+          "seed": 2026091719,
+          "stop_condition": "error",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "6959f0488d82e249b99383c7f96402efaebff8b3e3f842afe27a51d32e4ed167",
+          "episode_sha256": "66d012d2297d42fd7d3175275ddc00b84295a9a34e7ff9c0c5234e7ffbe36b17",
+          "failure_class": null,
+          "final_stop_positions": [
+            557
+          ],
+          "final_utf8_sha256": "4a7ba2cb9b2282e9ffabcc79c4f13dec5d10ac64db61327c29b5ec3ba8553ae9",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-8ad4bef116ef5302ddbf",
+          "returned_exact": false,
+          "seed": 2026091714,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "6c32ec1c215d3e449f0ef34bd558f73023e45393cc568d1edcd279261f816d4e",
+          "episode_sha256": "08910aa548e0d517e0320bddadb8d03ebabf725a2d526317f09a1eca8aa2bdb8",
+          "failure_class": "model_invalid_terminal",
+          "final_stop_positions": [
+            240
+          ],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [],
+          "raw_token_exact": null,
+          "record_id": "omrcr-ef800b2a29008e4717f1",
+          "returned_exact": false,
+          "seed": 2026091717,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "6fa59cd9ae339e8d7f15b3714b64945886fde0febec0bd5f671464e892a9e4fd",
+          "episode_sha256": "d477c626955f7375c59ecbc96701877d497d64751a88d2667dfa54d61037217f",
+          "failure_class": "model_invalid_terminal",
+          "final_stop_positions": [
+            214
+          ],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [],
+          "raw_token_exact": null,
+          "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+          "returned_exact": false,
+          "seed": 2026091729,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "7dbdd892f000bb1b4146a144bfe35ef5bee550fcd24bf51433334e248d0faee1",
+          "episode_sha256": "1579f1bf8324955ae861cb763222ff23feaeea890a4cf41b1cbef6b7254df519",
+          "failure_class": "model_invalid_terminal",
+          "final_stop_positions": [
+            225
+          ],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [],
+          "raw_token_exact": null,
+          "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+          "returned_exact": false,
+          "seed": 2026091728,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "8368cec5578e2c7c7fd6d058854a6003c412ca394e9488fc9062d27c3126dcd8",
+          "episode_sha256": "d1baeb9cf14a0af462e6b7545a2f8565022fa34b9d9c99e1e8ea7c51f2fe6491",
+          "failure_class": "model_invalid_terminal",
+          "final_stop_positions": [
+            175
+          ],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [],
+          "raw_token_exact": null,
+          "record_id": "omrcr-530d9996c900aa5d7b62",
+          "returned_exact": false,
+          "seed": 2026091703,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "8580c709ae0ca83623277a576f16522a0a9c187cc186d266ce0fd1a3f53b6b92",
+          "episode_sha256": "fd630954cdccfa153965eb891e0abf3fe6c9e00d86a5844f11fc6d267c312d90",
+          "failure_class": null,
+          "final_stop_positions": [],
+          "final_utf8_sha256": "f4666b70466e29c771fe722a9864a42a2f1c1bc5f53dd4be5dca4157ec906ec2",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-0fcac135277468e96435",
+          "returned_exact": false,
+          "seed": 2026091700,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "9ccdb84dcf9a4f53146b5253d3bdc88389d4855169aafc3bb9662ad1d9bdda54",
+          "episode_sha256": "41ac2be3fae27646fa02f55516aca44613e54a3fbc426ed3b6be6d580fc043fc",
+          "failure_class": null,
+          "final_stop_positions": [],
+          "final_utf8_sha256": "d7b467801a3d0fa82611858bc84b5ce9ce547f7680bbb6030488e662ee4b9e0e",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-8ad4bef116ef5302ddbf",
+          "returned_exact": false,
+          "seed": 2026091715,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "a8fb68d201a10cefacd2a5be60effba50913d48703a98f9f87e1308fb1b3d809",
+          "episode_sha256": "ecfdc88682eeca8c83c56012fbdfbc8ef02549a37bd91589990549d3dc133eb8",
+          "failure_class": null,
+          "final_stop_positions": [
+            13
+          ],
+          "final_utf8_sha256": "2ee03276866e19d228d6814c39c7e12fdba1f82615ec5c4aa901780484ec3022",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-72618dd842efffd0a22e",
+          "returned_exact": false,
+          "seed": 2026091720,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "b320c945e33390d2816de51495725187b86826baa4031c9c558993a5b18d5f1e",
+          "episode_sha256": "02977de6abec3c92270e59a8e73b175b55c640752c07350065b5b835a728f5b6",
+          "failure_class": null,
+          "final_stop_positions": [
+            68
+          ],
+          "final_utf8_sha256": "efd649684be081b97db4cd46c2ba70d703441b20759035ece0ed5ff1b84e889a",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-0661011e2430461fddc1",
+          "returned_exact": false,
+          "seed": 2026091709,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "b58edc3e650614943bc517d115be5c595e370069515e2d7424649127e6162fca",
+          "episode_sha256": "b4e47f7837bd69ba3099b666ec3d19de896c8561d1d848bf80b021ad982e5432",
+          "failure_class": null,
+          "final_stop_positions": [
+            16
+          ],
+          "final_utf8_sha256": "e4548449f157793ae20536dd74b0d9ec3a4afc523b49d91dc9f0b204528d352c",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-0fcac135277468e96435",
+          "returned_exact": false,
+          "seed": 2026091701,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "b5cfff538b3fc686d7c075a9cb6b90a36e87e582b50c3a6e36c0470fae2a3ff8",
+          "episode_sha256": "4d75d6f8849eedf863a35cb0e5718eecde5ac97af81ca4b65c0981e1e2bfb1b7",
+          "failure_class": null,
+          "final_stop_positions": [
+            5
+          ],
+          "final_utf8_sha256": "f472cee08858e8612edefc0ed4f4ef3f5e72f8fae8f2332497054ddf2ec4d7af",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-0661011e2430461fddc1",
+          "returned_exact": false,
+          "seed": 2026091708,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "b788f161d4940ae85fd4162fe73a340d9cf3f312a45206ddfa1532cde3618c90",
+          "episode_sha256": "78f67bd709302b9d3f052b1511ed297e9579c03c5474569e4188cbcb6ac48e3f",
+          "failure_class": null,
+          "final_stop_positions": [
+            7
+          ],
+          "final_utf8_sha256": "1f8431eebda6447bdb01a506dda390f9c07ebdb188d0063005e41d233011e410",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-85610b95bf89de2580a6",
+          "returned_exact": false,
+          "seed": 2026091727,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "c2470a66c1141e28951088b6037d3e21be149313eff9928a0629873f4b6164d5",
+          "episode_sha256": "ed9803fcae8a9677fdad766de458543894773939bd1affcd48ab2e60fb83592a",
+          "failure_class": "model_invalid_terminal",
+          "final_stop_positions": [
+            169
+          ],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [],
+          "raw_token_exact": null,
+          "record_id": "omrcr-bcf761ed079ab9231154",
+          "returned_exact": false,
+          "seed": 2026091710,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "c3076fb087837d3a308c67403a1c90e86e5178478f6c44258aa6862be600cb65",
+          "episode_sha256": "6801a008daff94a5f53fcddc44e2a3fc3a683889cacd821cf15ba44cfba404d7",
+          "failure_class": null,
+          "final_stop_positions": [
+            80
+          ],
+          "final_utf8_sha256": "125653c6a010b6c17bca10d4bd27e8ebc9dcfbd485515ba89b7deb8c9020f352",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-72618dd842efffd0a22e",
+          "returned_exact": false,
+          "seed": 2026091721,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "c6af527e61dc91e1c767081f9c492837902462b8836fc99812d2152df46dd206",
+          "episode_sha256": "dcf27609028e5d440a199a35edd204cf0e56796d7bd79c7e47cb1824467b192f",
+          "failure_class": null,
+          "final_stop_positions": [
+            15
+          ],
+          "final_utf8_sha256": "24f78224c0702d657b01c29c2b4437027c94dd9bfc51af9f7fa63c30d5e82680",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-2568744ab02d7c2786c8",
+          "returned_exact": false,
+          "seed": 2026091724,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": false,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "cd52de490fc7c45369381ac45467604852ca7eab17b23c31af7bc3b8a6f524d7",
+          "episode_sha256": "9f653ef17883bcec00b76ef9c2582f3dc57af6436da94717d7e0b191c3c1a963",
+          "failure_class": "infrastructure_unavailable",
+          "final_stop_positions": [],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [
+            "Error code: 400 - {'error': {'message': 'The decoder prompt (length 8722) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}"
+          ],
+          "raw_token_exact": null,
+          "record_id": "omrcr-f515858d24bd0388e927",
+          "returned_exact": false,
+          "seed": 2026091712,
+          "stop_condition": "error",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "db52f3f0d69afb3103bd1144da73234108683690a8480d418f6993d2861c7a32",
+          "episode_sha256": "8c57165ca155b1aa288448fdc265fc0bfaced166b6afc0d2ca141dc9afba2444",
+          "failure_class": null,
+          "final_stop_positions": [
+            16
+          ],
+          "final_utf8_sha256": "63a5bd81a4c4b9f7c645621b30f5b20872341ccfcb3cb1b8410365c7eea17204",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-85979118c1eb343eff52",
+          "returned_exact": false,
+          "seed": 2026091723,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "e10162ee0fb553348c0b6bb5ce77c496660f112a78358fb8074859934c1b4936",
+          "episode_sha256": "c7dafd57e4a5b5a70432cad74e3105d707e2103db0e17b68a8370e9f4a240290",
+          "failure_class": null,
+          "final_stop_positions": [
+            16
+          ],
+          "final_utf8_sha256": "63a5bd81a4c4b9f7c645621b30f5b20872341ccfcb3cb1b8410365c7eea17204",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-85979118c1eb343eff52",
+          "returned_exact": false,
+          "seed": 2026091722,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "fe9e9fa725534a4dc391741654b825f06782413a62d8aa80af990c356dc22b1a",
+          "episode_sha256": "9de0508a6df5c67a5d87ada801db74a024d77a58d922aba416899acc00effa94",
+          "failure_class": null,
+          "final_stop_positions": [
+            565
+          ],
+          "final_utf8_sha256": "1821e30cba4c4469f87d606026ce333e011ee4fd9e00a0ca7438a091e68bdd5d",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-574a80aeed5114ad4217",
+          "returned_exact": false,
+          "seed": 2026091706,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        }
+      ],
+      "trailing_two_spaces_lost_exact": 0
+    },
+    "held_checkpoint32": {
+      "available": 32,
+      "category_counts": {
+        "model_edge_whitespace_difference": 4,
+        "model_other_text_difference": 1,
+        "not_bare_final_span": 2,
+        "original_raw_exact": 17,
+        "parser_only_lost_exact": 8
+      },
+      "clean_correct_target_stdout": 30,
+      "cost": {
+        "collector_usage_unknown_calls_counts_returned_only": 0,
+        "errors_without_usage": 0,
+        "native_errors": [],
+        "native_returned": 66,
+        "observed_completion_tokens": 23424,
+        "observed_prompt_tokens": 73557,
+        "owner_seconds": 423.7925772666931,
+        "physical_starts": 66
+      },
+      "official_score_sum_available": 29.99295577681807,
+      "planned": 32,
+      "raw_token_exact_diagnostic": 25,
+      "recorded": 32,
+      "returned_exact": 17,
+      "rows": [
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "02d97c32613ed25b4bf439a8e41d98a5438e5a983b9796bec2c6e7c94d1bbf4a",
+          "episode_sha256": "0e44d82033346980da7e7f37f64364e96acf481a6830a1b0a4a1b08118bb7b72",
+          "failure_class": null,
+          "final_stop_positions": [
+            713
+          ],
+          "final_utf8_sha256": "912ac8e7b250bbf3e58507223bd6f3754da2c3dcf2fed87a4024c56a9eb86661",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-ef800b2a29008e4717f1",
+          "returned_exact": false,
+          "seed": 2026091716,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "08833b992da0a611d60603ac3d140122df2a7d315153512a08dba45662c51272",
+          "episode_sha256": "a08cf2bf3f836570aa4ea4816a0802e2d9b511ae9ace6c7ccedb8eb4d3d8a695",
+          "failure_class": null,
+          "final_stop_positions": [
+            594
+          ],
+          "final_utf8_sha256": "7220f639cf539f39ac8d5e1b3c9843539c4c8d7a9ce0c0fc95d98ff95fe9aaad",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-bcf761ed079ab9231154",
+          "returned_exact": true,
+          "seed": 2026091711,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "1257bf85a96c73f4cdf06d7881e8e4caf6cdcbb45a19a6d60663d63f63d7582d",
+          "episode_sha256": "a3cf8edbb8084f614f5728fd249d659c005904619959a9bea0773df3e7ce5b70",
+          "failure_class": null,
+          "final_stop_positions": [
+            420
+          ],
+          "final_utf8_sha256": "2049134106e71ed2dd20574ece7bc1f613ec5da34ba9b534b6af2881038c43b4",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-f515858d24bd0388e927",
+          "returned_exact": false,
+          "seed": 2026091713,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "19d7142d83f101d4c8b20e392683268c21ac67df3fe578c5bf4959860c05eb1e",
+          "episode_sha256": "93624e78eab3dea850c3d4eec7850c8076c44e7bc04898eefd0ab0c356b9550d",
+          "failure_class": null,
+          "final_stop_positions": [
+            502
+          ],
+          "final_utf8_sha256": "2f2ccdfd2c1d5efb5886582c2f4be7380c1fb447079470dac1c6240bd5ae1b1b",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-85610b95bf89de2580a6",
+          "returned_exact": false,
+          "seed": 2026091726,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": true
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "1a3572d6a9dc21a7b90118842e709f016b6638d9b38df779a4d6d0a60c042434",
+          "episode_sha256": "263057139d890ec7cf30576772a242c7ec43811d0c8ab2ee14f9003993e3fb00",
+          "failure_class": null,
+          "final_stop_positions": [
+            415
+          ],
+          "final_utf8_sha256": "e31f5727fb87d9aec1e218c19fbcd24e04499822940df795fd2128e1aecd1c70",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-c277a8dfb869bd3e7819",
+          "returned_exact": true,
+          "seed": 2026091730,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "1b43c8fa83664a155f4cd310e629ea8200cc8e198dd5e6e8e5b71c7df5be7011",
+          "episode_sha256": "fb84e9ab59b8b1161060a0d9d1ce85cb56c2051bec2ddf4c44981430266c4f4e",
+          "failure_class": null,
+          "final_stop_positions": [
+            498
+          ],
+          "final_utf8_sha256": "9fa8717e9ff178353dc159e287c881b9fd30afb7860361bf9f72e7735dafb910",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-2568744ab02d7c2786c8",
+          "returned_exact": true,
+          "seed": 2026091725,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "2753a77a981e66a8d7e44b52a903305046cfcb5ec7741b4b16ee5ba208367212",
+          "episode_sha256": "4890265aabe1343b02ff9728c058e5d23a0c0443bb8348bb1a22cbcb221ac5e9",
+          "failure_class": null,
+          "final_stop_positions": [
+            443
+          ],
+          "final_utf8_sha256": "3df11ef20f3e4d2f7b5daa658d7b161d4589ce6fc9a36662cf41fd169c76674a",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-62f0a8e60638c25131ad",
+          "returned_exact": true,
+          "seed": 2026091704,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "3722a5c939f181cb14377ed6a7b77ca3f96fc75f938897efb0bfcc0ce2d183c5",
+          "episode_sha256": "25d78450beb9673ef17dd5cb6ab619e15e6dce2e9fd48ba9c56b8eb671843a6d",
+          "failure_class": null,
+          "final_stop_positions": [
+            346
+          ],
+          "final_utf8_sha256": "6b07c727c3a85aa5797372b04270d138adde35b2a765fbd07153cab3db76bc20",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-574a80aeed5114ad4217",
+          "returned_exact": true,
+          "seed": 2026091707,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "3d95c157f20222c2fb56dc120bb39a6da0ce76466459b967fc1245ea6c4f6ba5",
+          "episode_sha256": "17c8e8f376fe383c6dac8e2cee25368d0f0463ee867f06a3fabd5b4271c7b879",
+          "failure_class": null,
+          "final_stop_positions": [
+            220
+          ],
+          "final_utf8_sha256": "c52ba941d135bc42038a091ccf3cc61a1e7a3b7a2aff056c282166a07e19ce4b",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-530d9996c900aa5d7b62",
+          "returned_exact": false,
+          "seed": 2026091702,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": true
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "4dd03782963ab0602d58396e24e4ddc56162fd18e02f66bf06eadc4045ad6382",
+          "episode_sha256": "c2d3f7ce0709949eff77ebf96c8d660bccf596c54930f31fdfceedf614b61bf7",
+          "failure_class": "model_invalid_terminal",
+          "final_stop_positions": [
+            204
+          ],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [],
+          "raw_token_exact": null,
+          "record_id": "omrcr-746d5e1512abdfa38878",
+          "returned_exact": false,
+          "seed": 2026091718,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "589ce81903196215e338ea537d5e4cd5a75061efd76779724faec0c6c4d314b6",
+          "episode_sha256": "a142480215bfd10d74c63a3779bcf710cbf5f0837ae80aa213b1d501e6233f74",
+          "failure_class": null,
+          "final_stop_positions": [
+            443
+          ],
+          "final_utf8_sha256": "3df11ef20f3e4d2f7b5daa658d7b161d4589ce6fc9a36662cf41fd169c76674a",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-62f0a8e60638c25131ad",
+          "returned_exact": true,
+          "seed": 2026091705,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "5a121990c2bc1b4bd1c6a086a2c714527cdd0d0705644f72a61b6fdd74663fed",
+          "episode_sha256": "40b377cbc3080914df41a710c156f7ac1615bbf906c3444858457d59869b0ad0",
+          "failure_class": null,
+          "final_stop_positions": [
+            415
+          ],
+          "final_utf8_sha256": "e31f5727fb87d9aec1e218c19fbcd24e04499822940df795fd2128e1aecd1c70",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-c277a8dfb869bd3e7819",
+          "returned_exact": true,
+          "seed": 2026091731,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": false,
+          "coordinate_id": "60bf760832334a483112c2e66b0a4b9e4d40f002b852df421fab18ccc55a6ea8",
+          "episode_sha256": "a713b23abea0bb46f4e94c78675b1da0606e9a5a70468a6e1b27b9e4734ed260",
+          "failure_class": "model_invalid_terminal",
+          "final_stop_positions": [],
+          "final_utf8_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "native_error_messages": [],
+          "raw_token_exact": null,
+          "record_id": "omrcr-746d5e1512abdfa38878",
+          "returned_exact": false,
+          "seed": 2026091719,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "6959f0488d82e249b99383c7f96402efaebff8b3e3f842afe27a51d32e4ed167",
+          "episode_sha256": "b44e0667f857363a45925ff824a48d2d4385262379599fe29f52c5682d68d0e1",
+          "failure_class": null,
+          "final_stop_positions": [
+            565
+          ],
+          "final_utf8_sha256": "543e35832bcfa55ad2c96846aa35e5a4d510d6aff4989c482b8ec74840eef860",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-8ad4bef116ef5302ddbf",
+          "returned_exact": true,
+          "seed": 2026091714,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "6c32ec1c215d3e449f0ef34bd558f73023e45393cc568d1edcd279261f816d4e",
+          "episode_sha256": "9c41d46b9924dd0800de93e3fa4792093d2fcdcf0f5cd8f968d458a90f489e2a",
+          "failure_class": null,
+          "final_stop_positions": [
+            713
+          ],
+          "final_utf8_sha256": "5fc0e406fa504177008f12afef86c2288261e15ec121c205c072ab995232439d",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-ef800b2a29008e4717f1",
+          "returned_exact": true,
+          "seed": 2026091717,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "6fa59cd9ae339e8d7f15b3714b64945886fde0febec0bd5f671464e892a9e4fd",
+          "episode_sha256": "4859fd8b37caa833227c5d458243035be806e2587529c1332c7fec19603e50fb",
+          "failure_class": null,
+          "final_stop_positions": [
+            398
+          ],
+          "final_utf8_sha256": "9147bd3decbca7a6751bc06603337ea7d3ac41b82f0a334bfb27717566c20c8d",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+          "returned_exact": true,
+          "seed": 2026091729,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "7dbdd892f000bb1b4146a144bfe35ef5bee550fcd24bf51433334e248d0faee1",
+          "episode_sha256": "f3675a00855179ea42ee5bb50a72436479a260b17114c960b3d13fd110651cac",
+          "failure_class": null,
+          "final_stop_positions": [
+            398
+          ],
+          "final_utf8_sha256": "9147bd3decbca7a6751bc06603337ea7d3ac41b82f0a334bfb27717566c20c8d",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+          "returned_exact": true,
+          "seed": 2026091728,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "8368cec5578e2c7c7fd6d058854a6003c412ca394e9488fc9062d27c3126dcd8",
+          "episode_sha256": "0ece7b5f2aa76c1ab6b2a538b47cf02571b510fde156249b1d3edde2abee76f7",
+          "failure_class": null,
+          "final_stop_positions": [
+            220
+          ],
+          "final_utf8_sha256": "c52ba941d135bc42038a091ccf3cc61a1e7a3b7a2aff056c282166a07e19ce4b",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-530d9996c900aa5d7b62",
+          "returned_exact": false,
+          "seed": 2026091703,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": true
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "8580c709ae0ca83623277a576f16522a0a9c187cc186d266ce0fd1a3f53b6b92",
+          "episode_sha256": "d84974b82ca552e8ac6d4b9a83f1a76b08a47251ad07e4a91b98b2aa0598c55a",
+          "failure_class": null,
+          "final_stop_positions": [
+            392
+          ],
+          "final_utf8_sha256": "39c7aeb16aed4e963eedfe877a2d998384627a76584b88183a205a0373748f3d",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-0fcac135277468e96435",
+          "returned_exact": true,
+          "seed": 2026091700,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "9ccdb84dcf9a4f53146b5253d3bdc88389d4855169aafc3bb9662ad1d9bdda54",
+          "episode_sha256": "bd2391255ad60c1389cc8a7845b107b1e064ae05701d61cbc4670de4f4281932",
+          "failure_class": null,
+          "final_stop_positions": [
+            565
+          ],
+          "final_utf8_sha256": "543e35832bcfa55ad2c96846aa35e5a4d510d6aff4989c482b8ec74840eef860",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-8ad4bef116ef5302ddbf",
+          "returned_exact": true,
+          "seed": 2026091715,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "a8fb68d201a10cefacd2a5be60effba50913d48703a98f9f87e1308fb1b3d809",
+          "episode_sha256": "f11ed9c8fab19237bf3b071023e7a82db11366e25d5e21b0725349a0be174faf",
+          "failure_class": null,
+          "final_stop_positions": [
+            475
+          ],
+          "final_utf8_sha256": "40abe7069fb5d48c32e5ddc787e95e5ef61910190d4426f0d2a306f3e2c9237e",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-72618dd842efffd0a22e",
+          "returned_exact": false,
+          "seed": 2026091720,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": true
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "b320c945e33390d2816de51495725187b86826baa4031c9c558993a5b18d5f1e",
+          "episode_sha256": "27765f598b4991eef90c25528963451cd03dd0121365155ae36cea8d427f9e2d",
+          "failure_class": null,
+          "final_stop_positions": [
+            488
+          ],
+          "final_utf8_sha256": "ef54c6f1ac7301e60e60bb7ec241c52e69c4e6a710892da06f75594b39b2be8e",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-0661011e2430461fddc1",
+          "returned_exact": false,
+          "seed": 2026091709,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "b58edc3e650614943bc517d115be5c595e370069515e2d7424649127e6162fca",
+          "episode_sha256": "10c132b852b5669859d2578172dfd63f83d7486fd95392e8ffaafd661f506e70",
+          "failure_class": null,
+          "final_stop_positions": [
+            392
+          ],
+          "final_utf8_sha256": "39c7aeb16aed4e963eedfe877a2d998384627a76584b88183a205a0373748f3d",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-0fcac135277468e96435",
+          "returned_exact": true,
+          "seed": 2026091701,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "b5cfff538b3fc686d7c075a9cb6b90a36e87e582b50c3a6e36c0470fae2a3ff8",
+          "episode_sha256": "4c6ce4b0da7e62ce2b20f1d88c910845f6919dc6fc2d0c31a029ab96fe9bda1c",
+          "failure_class": null,
+          "final_stop_positions": [
+            488
+          ],
+          "final_utf8_sha256": "ef54c6f1ac7301e60e60bb7ec241c52e69c4e6a710892da06f75594b39b2be8e",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-0661011e2430461fddc1",
+          "returned_exact": false,
+          "seed": 2026091708,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "b788f161d4940ae85fd4162fe73a340d9cf3f312a45206ddfa1532cde3618c90",
+          "episode_sha256": "7315b0efd06b92630d000d16c84f387bc53c86dd406641870fdfa3c1cc698370",
+          "failure_class": null,
+          "final_stop_positions": [
+            502
+          ],
+          "final_utf8_sha256": "2f2ccdfd2c1d5efb5886582c2f4be7380c1fb447079470dac1c6240bd5ae1b1b",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-85610b95bf89de2580a6",
+          "returned_exact": false,
+          "seed": 2026091727,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": true
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "c2470a66c1141e28951088b6037d3e21be149313eff9928a0629873f4b6164d5",
+          "episode_sha256": "7b561614cb804a72840399f838d363089e3ae218c8aefa8402ed9f748b781cf4",
+          "failure_class": null,
+          "final_stop_positions": [
+            594
+          ],
+          "final_utf8_sha256": "7220f639cf539f39ac8d5e1b3c9843539c4c8d7a9ce0c0fc95d98ff95fe9aaad",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-bcf761ed079ab9231154",
+          "returned_exact": true,
+          "seed": 2026091710,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "c3076fb087837d3a308c67403a1c90e86e5178478f6c44258aa6862be600cb65",
+          "episode_sha256": "896333a74e657a2426b281d1c8989e2fc4db2ad45f3e9aee3402fbc2afedb4e1",
+          "failure_class": null,
+          "final_stop_positions": [
+            475
+          ],
+          "final_utf8_sha256": "40abe7069fb5d48c32e5ddc787e95e5ef61910190d4426f0d2a306f3e2c9237e",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-72618dd842efffd0a22e",
+          "returned_exact": false,
+          "seed": 2026091721,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": true
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "c6af527e61dc91e1c767081f9c492837902462b8836fc99812d2152df46dd206",
+          "episode_sha256": "90c11743c6ee177a80d7489a4e79f5b39b1bcd1a4c654526bc44c12edc7cd188",
+          "failure_class": null,
+          "final_stop_positions": [
+            498
+          ],
+          "final_utf8_sha256": "9fa8717e9ff178353dc159e287c881b9fd30afb7860361bf9f72e7735dafb910",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-2568744ab02d7c2786c8",
+          "returned_exact": true,
+          "seed": 2026091724,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "cd52de490fc7c45369381ac45467604852ca7eab17b23c31af7bc3b8a6f524d7",
+          "episode_sha256": "fb85de2b9b2c79654c91ee2366528c1df7fac817b6500bc6f43828db266d6f23",
+          "failure_class": null,
+          "final_stop_positions": [
+            420
+          ],
+          "final_utf8_sha256": "2049134106e71ed2dd20574ece7bc1f613ec5da34ba9b534b6af2881038c43b4",
+          "native_error_messages": [],
+          "raw_token_exact": false,
+          "record_id": "omrcr-f515858d24bd0388e927",
+          "returned_exact": false,
+          "seed": 2026091712,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "db52f3f0d69afb3103bd1144da73234108683690a8480d418f6993d2861c7a32",
+          "episode_sha256": "bfe3edaee15c42738b0b2834b4f187db1c47885d2d98844f5b16a3dd6d10e6ab",
+          "failure_class": null,
+          "final_stop_positions": [
+            510
+          ],
+          "final_utf8_sha256": "b32155fee6a839b378743cea40ded4b71ac9fd505df55b061195379d151b2069",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-85979118c1eb343eff52",
+          "returned_exact": false,
+          "seed": 2026091723,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": true
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "e10162ee0fb553348c0b6bb5ce77c496660f112a78358fb8074859934c1b4936",
+          "episode_sha256": "e03ce01b652133a74aca5ba21f51a51b4cc0e395e69f434d9e928708de8e68e4",
+          "failure_class": null,
+          "final_stop_positions": [
+            510
+          ],
+          "final_utf8_sha256": "b32155fee6a839b378743cea40ded4b71ac9fd505df55b061195379d151b2069",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-85979118c1eb343eff52",
+          "returned_exact": false,
+          "seed": 2026091722,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": true
+        },
+        {
+          "available": true,
+          "clean_correct_target_stdout": true,
+          "coordinate_id": "fe9e9fa725534a4dc391741654b825f06782413a62d8aa80af990c356dc22b1a",
+          "episode_sha256": "2ed37b7e9c2d9536b6d99bc077ea4d2cb762cd35976ba37f7b4380c3575c021d",
+          "failure_class": null,
+          "final_stop_positions": [
+            346
+          ],
+          "final_utf8_sha256": "6b07c727c3a85aa5797372b04270d138adde35b2a765fbd07153cab3db76bc20",
+          "native_error_messages": [],
+          "raw_token_exact": true,
+          "record_id": "omrcr-574a80aeed5114ad4217",
+          "returned_exact": true,
+          "seed": 2026091706,
+          "stop_condition": "agent_completed",
+          "trailing_two_spaces_lost_exact": false
+        }
+      ],
+      "trailing_two_spaces_lost_exact": 8
+    }
+  },
+  "availability_qualification": "retains reviewed collector causal-mapping gate; unavailable raw errors checked, not recoded as wrong",
+  "contexts": [
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 0,
+      "record_id": "omrcr-0661011e2430461fddc1",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 0
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 2,
+      "record_id": "omrcr-0fcac135277468e96435",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 2,
+      "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 1,
+      "record_id": "omrcr-2568744ab02d7c2786c8",
+      "returned_exact_by_arm": {
+        "held_base": 1,
+        "held_checkpoint32": 2
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 1,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 0,
+      "record_id": "omrcr-530d9996c900aa5d7b62",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 0
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 2,
+      "record_id": "omrcr-574a80aeed5114ad4217",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 2,
+      "record_id": "omrcr-62f0a8e60638c25131ad",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 0,
+      "record_id": "omrcr-72618dd842efffd0a22e",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 0
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 1,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 0
+      },
+      "paired_losses": 0,
+      "paired_wins": 0,
+      "record_id": "omrcr-746d5e1512abdfa38878",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 0
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 0,
+      "record_id": "omrcr-85610b95bf89de2580a6",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 0
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 0,
+      "record_id": "omrcr-85979118c1eb343eff52",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 0
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 2,
+      "record_id": "omrcr-8ad4bef116ef5302ddbf",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 2,
+      "record_id": "omrcr-bcf761ed079ab9231154",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 1,
+      "record_id": "omrcr-c277a8dfb869bd3e7819",
+      "returned_exact_by_arm": {
+        "held_base": 1,
+        "held_checkpoint32": 2
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 2,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 1,
+      "record_id": "omrcr-ef800b2a29008e4717f1",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 1
+      }
+    },
+    {
+      "available_by_arm": {
+        "held_base": 1,
+        "held_checkpoint32": 2
+      },
+      "clean_target_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 2
+      },
+      "paired_losses": 0,
+      "paired_wins": 0,
+      "record_id": "omrcr-f515858d24bd0388e927",
+      "returned_exact_by_arm": {
+        "held_base": 0,
+        "held_checkpoint32": 0
+      }
+    }
+  ],
+  "contexts_with_paired_wins": 9,
+  "declared_union_hashes_verified": 600,
+  "decoder_V2_sha256": "ba15522db4bf25620a4fae2061d25336eae651eeeeec3d6e1302bb2e95f14dee",
+  "generated_code_executed": false,
+  "independent_unit_limit": "16 contexts with two repeats, not 32 independent items; common fewshot and adaptive campaign exposure remain",
+  "paired_available": 29,
+  "paired_losses": 0,
+  "paired_wins": 15,
+  "source_report_sha256": "32b72266cf8d2484f4c21db55650d38274990afc88f60dfe2ccfeb2a16bc3a51",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-procedural-sft-dose32-independent-review-2026-09-12/review.py": "5f126c87c1f3077327b7fc0cf9847893606d97d7f25b10c229b132ad44bfad22",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-procedural-sft-dose32-readout-2026-09-12/HELD_DECODER_SEAM_V2.json": "ba15522db4bf25620a4fae2061d25336eae651eeeeec3d6e1302bb2e95f14dee",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-procedural-sft-dose32-readout-2026-09-12/main-final-held-snapshot-001/REPORT.json": "32b72266cf8d2484f4c21db55650d38274990afc88f60dfe2ccfeb2a16bc3a51",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/02d97c32613ed25b4bf439a8e41d98a5438e5a983b9796bec2c6e7c94d1bbf4a.json": "e2bb200409c650bdc6a77ea567d0e88b6700ea9e7c682fae7937e2db4de05495",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/08833b992da0a611d60603ac3d140122df2a7d315153512a08dba45662c51272.json": "f9a1e5331c9ace27c2626b077d698bb18932d9cfd17664b06f91c0dd27a5e393",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/1257bf85a96c73f4cdf06d7881e8e4caf6cdcbb45a19a6d60663d63f63d7582d.json": "471e33c21783bb88908892bd9c343c38edfbf67953833561e91cf74944672d5f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/19d7142d83f101d4c8b20e392683268c21ac67df3fe578c5bf4959860c05eb1e.json": "c553d9e9c6c0cad12f0531ca0affafb3ee8bd73faa92abab8588b6b24211bcfa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/1a3572d6a9dc21a7b90118842e709f016b6638d9b38df779a4d6d0a60c042434.json": "000df8a966bc26fd1969a2d54dd1a98a43c19f43f14a07eba2420b1445f89f09",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/1b43c8fa83664a155f4cd310e629ea8200cc8e198dd5e6e8e5b71c7df5be7011.json": "69f181115ff856c6c956ee72ecc1a0d216f2492b6ba3683cd354a5ab1954a3cf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/2753a77a981e66a8d7e44b52a903305046cfcb5ec7741b4b16ee5ba208367212.json": "32ab56bdeef10b99c3ab024160c5930dfe05ab295a68cf5cecaf5618367a9424",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/3722a5c939f181cb14377ed6a7b77ca3f96fc75f938897efb0bfcc0ce2d183c5.json": "7c3f43bea04c8e8ad214522e3bfcb105eba91be7d850a677ab6eaa9b0694e7eb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/3d95c157f20222c2fb56dc120bb39a6da0ce76466459b967fc1245ea6c4f6ba5.json": "1dda100bd341440762141ea7797a99043d48d9c0a79e50703deb72c9c4a40d01",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/4dd03782963ab0602d58396e24e4ddc56162fd18e02f66bf06eadc4045ad6382.json": "298b11b64bf376ff45c6ec73796da418fbf703df403e89ba43c0efda52d1b23a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/589ce81903196215e338ea537d5e4cd5a75061efd76779724faec0c6c4d314b6.json": "ada066a72c6029ddec3ecfa1b26ca3d0d0914d7ea542d0f4948a1d6668a98152",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/5a121990c2bc1b4bd1c6a086a2c714527cdd0d0705644f72a61b6fdd74663fed.json": "b94b550bb90afbe87f902946fbc6c7354e67058695cad733d790c8080309f790",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/60bf760832334a483112c2e66b0a4b9e4d40f002b852df421fab18ccc55a6ea8.json": "b93abbc4bf8e0241f73ff77739c0f3b97c9656c37ea9ae227ef18aeb40e4172b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/6959f0488d82e249b99383c7f96402efaebff8b3e3f842afe27a51d32e4ed167.json": "66d012d2297d42fd7d3175275ddc00b84295a9a34e7ff9c0c5234e7ffbe36b17",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/6c32ec1c215d3e449f0ef34bd558f73023e45393cc568d1edcd279261f816d4e.json": "08910aa548e0d517e0320bddadb8d03ebabf725a2d526317f09a1eca8aa2bdb8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/6fa59cd9ae339e8d7f15b3714b64945886fde0febec0bd5f671464e892a9e4fd.json": "d477c626955f7375c59ecbc96701877d497d64751a88d2667dfa54d61037217f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/7dbdd892f000bb1b4146a144bfe35ef5bee550fcd24bf51433334e248d0faee1.json": "1579f1bf8324955ae861cb763222ff23feaeea890a4cf41b1cbef6b7254df519",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/8368cec5578e2c7c7fd6d058854a6003c412ca394e9488fc9062d27c3126dcd8.json": "d1baeb9cf14a0af462e6b7545a2f8565022fa34b9d9c99e1e8ea7c51f2fe6491",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/8580c709ae0ca83623277a576f16522a0a9c187cc186d266ce0fd1a3f53b6b92.json": "fd630954cdccfa153965eb891e0abf3fe6c9e00d86a5844f11fc6d267c312d90",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/9ccdb84dcf9a4f53146b5253d3bdc88389d4855169aafc3bb9662ad1d9bdda54.json": "41ac2be3fae27646fa02f55516aca44613e54a3fbc426ed3b6be6d580fc043fc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/a8fb68d201a10cefacd2a5be60effba50913d48703a98f9f87e1308fb1b3d809.json": "ecfdc88682eeca8c83c56012fbdfbc8ef02549a37bd91589990549d3dc133eb8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/b320c945e33390d2816de51495725187b86826baa4031c9c558993a5b18d5f1e.json": "02977de6abec3c92270e59a8e73b175b55c640752c07350065b5b835a728f5b6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/b58edc3e650614943bc517d115be5c595e370069515e2d7424649127e6162fca.json": "b4e47f7837bd69ba3099b666ec3d19de896c8561d1d848bf80b021ad982e5432",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/b5cfff538b3fc686d7c075a9cb6b90a36e87e582b50c3a6e36c0470fae2a3ff8.json": "4d75d6f8849eedf863a35cb0e5718eecde5ac97af81ca4b65c0981e1e2bfb1b7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/b788f161d4940ae85fd4162fe73a340d9cf3f312a45206ddfa1532cde3618c90.json": "78f67bd709302b9d3f052b1511ed297e9579c03c5474569e4188cbcb6ac48e3f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/c2470a66c1141e28951088b6037d3e21be149313eff9928a0629873f4b6164d5.json": "ed9803fcae8a9677fdad766de458543894773939bd1affcd48ab2e60fb83592a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/c3076fb087837d3a308c67403a1c90e86e5178478f6c44258aa6862be600cb65.json": "6801a008daff94a5f53fcddc44e2a3fc3a683889cacd821cf15ba44cfba404d7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/c6af527e61dc91e1c767081f9c492837902462b8836fc99812d2152df46dd206.json": "dcf27609028e5d440a199a35edd204cf0e56796d7bd79c7e47cb1824467b192f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/cd52de490fc7c45369381ac45467604852ca7eab17b23c31af7bc3b8a6f524d7.json": "9f653ef17883bcec00b76ef9c2582f3dc57af6436da94717d7e0b191c3c1a963",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/db52f3f0d69afb3103bd1144da73234108683690a8480d418f6993d2861c7a32.json": "8c57165ca155b1aa288448fdc265fc0bfaced166b6afc0d2ca141dc9afba2444",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/e10162ee0fb553348c0b6bb5ce77c496660f112a78358fb8074859934c1b4936.json": "c7dafd57e4a5b5a70432cad74e3105d707e2103db0e17b68a8370e9f4a240290",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/episodes/fe9e9fa725534a4dc391741654b825f06782413a62d8aa80af990c356dc22b1a.json": "9de0508a6df5c67a5d87ada801db74a024d77a58d922aba416899acc00effa94",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0000-result.json": "fcb7bd7898e34385bbef53a4c2d96865f2dff217988ee40229ece6fb7371ac05",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0001-result.json": "1ca8f1f47d4d7291c6d01f39d0019271d4f9e9fdf6b53bf968282d2e50264184",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0002-result.json": "a5341059c9bfb3e91bba02915eb58fa1959880846848d7c4093c18aba3dae1e7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0003-result.json": "7ec0c26420ec512f53158dd5316ff5f0bc965281d73e2f4db2e9d6da8910beef",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0004-result.json": "6b006fd29317aa64466330c4bd93d5e5287653f13c980b970a1ed8d1cb4e41b7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0005-result.json": "af524ede464bc5edad686342c034d1f6a696eb998bf4cd3774fd6f59df05e2c4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0006-result.json": "ca94bb61ce72856faaa8de5171ed2c0294728f30a1e41e479c2e0be2b6c606b3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0007-result.json": "85511049b43eb00b7129069803da9bca9f2a1621bfa576f7e0423e81736dfd25",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0008-result.json": "ca6ebc19cd6eece45c41ccb39ad4fb46c590c99bbc87275f811e06ab0066534f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0009-result.json": "146b702c8844b43269ca29645691a679e70ebbcef1b286d55fb4009c8607ee29",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0010-result.json": "16f95787f3020e8f82e63c14203d5487e7c8bef8830502fb3d17503379aa7e4b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0011-result.json": "8c3fc2efc45a482124a5b6fdcf878e96be5dfdee17f71cdbadc9d488b66a41f5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0012-result.json": "9c8e94e6efca8be6326f129c1ba51e20615dab187622915736afd02ec028f3ac",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0013-result.json": "ff69c7a2fd197048a8b09193e1f42e52e7573674d518543c513825343c0d81fa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0014-result.json": "64f856048ca1d1e2cf436805f72facbfaf7f4dd9db6c83692013bd4485ed7b6a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0015-result.json": "83c95dcaee91f305f37764c874b7ab1125b3aae14eab9700b6d1f6a482ab0040",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0016-result.json": "7b1c7a7e8d5bf17f3c6c46215d45cdccaca95dcfd30228fdda6dbf4b9e51baca",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0017-result.json": "5a2a196e2fe02c396348f306c42896935bfb0a950fd54315678999c4e73b8561",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0018-result.json": "573ce1406a0fd680245ae6a0c18f277c00c9edc38a41e898fba06811e94765ea",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0019-result.json": "815a1dad22ec7e29996c99c0898ae0785a4812aa9855e8f3fed97a74a779a291",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0020-result.json": "baf39d7e4a362e40c2b856421f2c0206e75137355aa1233c0ab95703b90e310c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0021-result.json": "8ac31dfaaa79e08f837d5eb00951160675fab2dd5bbf4d2d4a0902625f63554d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0022-result.json": "29ffc7a6943c8fbce84f5266327dc83a7c07e860c2cc25913e7b143ee7c6b8ca",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0023-result.json": "256aff10beaafe1d52e158af2875ab07b9f42c19ac458413548088d0435f7594",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0024-result.json": "50d80ce3c1eb41a1c843daa6c858b76525bc33c8d6c320871d8d8d5aff1f3ef7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0025-result.json": "4b442b55f20b4506281b0b20f5bf7c6e4bd59bc202d533de8ffc810d9d667f36",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0026-result.json": "9c5e69af283cb959c2dcc47ab1c109b50400e27a0777f3532e2bf7733c88e16b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0027-result.json": "2a936afdeb005a0e702d47de9069be98971253aa00103907f76ef29e1df505ac",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0028-result.json": "716c941c86838580342ac3d18c5648b2f270d9dd105890aded61ad171cb58583",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0029-result.json": "3b1ef084e71f6c2abbb6ec259427ef037606e701287015057a9cc9b1d45ebf95",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0030-result.json": "28a0a7b05d2227fe1784018e05212a7aecc4d82516720ab70b888a39df138169",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0031-result.json": "c5453ecb52e0201bbb0272d3605f3250506040c8ea4dacbf4bd19a369b07705b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0032-result.json": "90f40297fd92515b7e991115aa17d864aa8ae3d91595632c3f4dcd215dfe2fef",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0033-result.json": "6a31ea06ed39512fff97ec455072b604135b13a908eef1f2a544571167c7384f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0034-result.json": "65e61742f4fb0906e9a88b724401d484534b6254a5e0087cfcc88f8cf8f26caf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0035-result.json": "1806b70693105b73205e1515f7cc22c0d6a6ff487065a3b8052770774cdb7f8a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0036-result.json": "017e92491a0e7ec932801fb8c7d063a6596c706183b3b68c29f1c34169161b1d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0037-result.json": "552a0e0240c590d5a93b1e2a9dda95656b32dc99c7fa7e2e05354a95e46d9ad6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0038-result.json": "5a5cc7f931665e81c28a128bed5678999a0e0245b36c846ac606b3fb1c5dcab1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0039-result.json": "594f681f1fdc62c373f11564dc28234ca972296b176540e163ce75c74c288e8a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0040-result.json": "b653d667a13cc4f219b43c4f9979d157f8d921256478fbff385791972287dfe1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0041-result.json": "452f9af2e453b447f320d7c32f4bbe59f5bf13c816ea4640a5b11b7054d191a9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0042-result.json": "4f7b5a8dda7dfb37d6a590fe6ef3370afe59fd046ea777a1d5209c98628801f8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0043-result.json": "8ea8ee20668b89b86ae578ad891627d8b63d9fb7f8fda42f7e8a3ed48f73505f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0044-result.json": "0934f2b15478f226cdb5fecc5e8c79402bbbfad709d346a70b9938ab66d42f76",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0045-result.json": "3e16dcd43f6091124c0fe1624e5b404d672bc0455afcfaf3bdf7bad891609052",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0046-result.json": "de28b07036bd6cad019a73ca507bdb1678c02000613265ea414dc2fb714f832c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0047-result.json": "5d1e30f2398e301bd10eb6401901d28ea030277fe41ad2f3f567584e83fc9cf2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0048-result.json": "7c3f359cfe6dfe606dba77b9ea8e7471100d4bb9d38ae5373866540767380d53",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0049-result.json": "d626fe5013f40aba977db216698493838d2410ce28292fb7852d6ae8f114e488",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0050-result.json": "d7a1f2a946a82c42ae93648e618a71d1fa093a2595e4ee0b0edebf5af7b83e27",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0051-result.json": "8d5209c15278a4aa3632a9df450ce9cf216554ab8503246eebbc42391b559291",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0052-result.json": "7011abf64f5c2df2af688ad7fec330c75a6bdb51a64e41b7230c3e8006859101",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0053-result.json": "c2d6811796d297d4b2717a20ac26788ed64eb5b823c25c1affcd19d746a36ee4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0054-result.json": "8b1376e56b4f83f388b0f61c571ebd93aec3937c1d0591dc793a0333f2c6b6cc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0055-result.json": "730d8e13972f32d4671d66ff82cc001ab86fe17ce4d62cb70ece2d89804881ea",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0056-result.json": "0dcd96e2879a3bb7cd211beb87b5cd03f11dd2bf9a05b6dc820c513f28afd14d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0057-result.json": "556258451adad2d29d40f8d390efd35296b638fd65c1e1b0df1daeea0323f97a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0058-result.json": "9b66b8cfe61ffff56e8a3dac52ad5e3aabe6a38dbdace24cb9b1b87540e33fa1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0059-result.json": "080898778d4aac2accba0157b2cc1e5ce82f4ad271749e7d42497149eb992161",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0060-result.json": "b92cc09e2d8e780d2467eaf12c916d76e71fb14039c32c0e985a94490c7a75fe",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0061-result.json": "158ac8322dd9f041588ea7dbd0ebbcb04be0c89f53dd85d261e02f3124100004",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0062-result.json": "805205d03a6ca2b80a39a0fe56da85d1cc1f0f3ac6adb423db6929670fd264ad",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0063-result.json": "ee14c0a8d82e9109ea421628cc77f9ad5d31be9af95bb8ff96da5517e1c41fd8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0064-result.json": "c783993955c59c1a0656a943dd4a5746b39ff32b177ac7423f17afece713111c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0065-result.json": "1a9a675734d571a3aa30c26be9bd6374ff426e2b415d4ea14935a0fd7a2a8db5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0066-result.json": "ed299fe86989f68f63ddc00bd7f3636e40fa2019a84b70610dac1610c0c95549",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0067-result.json": "cb8492a4008a04334c256642efb1fab92dc71255df3a14ea309a9cfdb08cba71",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0068-result.json": "48293aa3f41c62ddc3f2403de7f0dbd7c3da31b81fcec5c89fbbd70ab76c7285",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0069-result.json": "956c0646d82087082946e0d6da9d38a5c5ca82a3c3a49111612285c2252a506c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0070-result.json": "f51f636551f3837b128914c19a4a2448c93e62e57ebdab9369320166c9e765b7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0071-result.json": "70ac68ae91b5b9b09647fb62653f87c0024faf2518291e1f94abe018787ae306",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0072-result.json": "8b6472a36f873de1c877e9e718af2b1fa7e7f9f1e26d3bb079df4c5b243f4fb0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0073-result.json": "d439c57617de2173ad16ff2bd843fbd1f78a03182c138d669c0dca48d7a0bd6f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0074-result.json": "a545077f9455b780d5b215bd7c75abdd17949fca38b09bcf4b2de09da67a0d89",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0075-result.json": "7ac0b56972cf70640249c2a7981941bee3b07ad39fe1f4dd2036df757777f832",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0076-result.json": "184ae21bc58633f41961859bdb6f052b75c716c61de10e2c935bb1432dc1176b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0077-result.json": "093f306442e9ac2afb6f5e179ea9deecedcb2bb27c82d39580ae48da2f41b91e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0078-result.json": "edecc59ec0b8dc8fb41148354a989471d3d20c3037eff2466df414bc644cec6c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0079-result.json": "8352b7e86b065377c623d541da6cc703e99f398aff21b436d8517b17ea172048",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0080-result.json": "daad55f2d474f94bd9d9b94941cb1a71a8744189e8af6d872188147084d9d8af",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0081-result.json": "5869a1dc972bfcac5100aeab2aaf1e5c26fbf2da78b362ee516253a6e406780c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0082-result.json": "f9f754359593254d03d4024c6e44e094d2aa16c477f89d795090c471c87d8e16",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0083-result.json": "da85a18ae3607e3ca9d454092c6ded759be5b57c8895e9639401669d5203ff1c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0084-result.json": "b5dae1c169b7af2c3d407f14157001d6a9da5d4cfe62a1a0569e0f2c68b4d9ae",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0085-result.json": "e87fbf9e470098433e5ea172f1e26f3ec03dcf78bf60ff352563f61d7cb41249",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0086-result.json": "1d204554dcbdba1a17c254b0db0f8b85264c041b0184d3c71e8ddb4ad14ae6c1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0087-result.json": "c4a22700305e7e29999e7bda18840b2f3d68c7d6b2022e52f5151e6433185cd0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0088-result.json": "15e4613ebab8103af8aa688686a3e3ce2df9c2c135949fa26abaefdea9c53cb4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0089-result.json": "ac01164a7436ee004c1ba08f3920033948b2655990319db4c5915de3234ebfe5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0090-result.json": "60fd5a9cca3cb650181948d82073c3cb4133e342b5cdd2e4aa6ab06c47f5b988",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0091-result.json": "27cfd00b53bac817440c3eaad886a43bd8625746cddc81af954d77924911421c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0092-result.json": "8cf39a84cc5df4bfaf14cace39b0069d751f1ad343bcf68e82202f70502dab7c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0093-result.json": "e9ade1617b284062c7272815e0969b74e1241ea1f5a412e4d206b19dd44b39ad",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/native-calls/0094-result.json": "a7b326708906a11c540eecf48d6c136ea30b13c30f6f76d6016df0941ac84f13",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/02d97c32613ed25b4bf439a8e41d98a5438e5a983b9796bec2c6e7c94d1bbf4a.json": "0e44d82033346980da7e7f37f64364e96acf481a6830a1b0a4a1b08118bb7b72",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/08833b992da0a611d60603ac3d140122df2a7d315153512a08dba45662c51272.json": "a08cf2bf3f836570aa4ea4816a0802e2d9b511ae9ace6c7ccedb8eb4d3d8a695",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/1257bf85a96c73f4cdf06d7881e8e4caf6cdcbb45a19a6d60663d63f63d7582d.json": "a3cf8edbb8084f614f5728fd249d659c005904619959a9bea0773df3e7ce5b70",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/19d7142d83f101d4c8b20e392683268c21ac67df3fe578c5bf4959860c05eb1e.json": "93624e78eab3dea850c3d4eec7850c8076c44e7bc04898eefd0ab0c356b9550d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/1a3572d6a9dc21a7b90118842e709f016b6638d9b38df779a4d6d0a60c042434.json": "263057139d890ec7cf30576772a242c7ec43811d0c8ab2ee14f9003993e3fb00",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/1b43c8fa83664a155f4cd310e629ea8200cc8e198dd5e6e8e5b71c7df5be7011.json": "fb84e9ab59b8b1161060a0d9d1ce85cb56c2051bec2ddf4c44981430266c4f4e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/2753a77a981e66a8d7e44b52a903305046cfcb5ec7741b4b16ee5ba208367212.json": "4890265aabe1343b02ff9728c058e5d23a0c0443bb8348bb1a22cbcb221ac5e9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/3722a5c939f181cb14377ed6a7b77ca3f96fc75f938897efb0bfcc0ce2d183c5.json": "25d78450beb9673ef17dd5cb6ab619e15e6dce2e9fd48ba9c56b8eb671843a6d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/3d95c157f20222c2fb56dc120bb39a6da0ce76466459b967fc1245ea6c4f6ba5.json": "17c8e8f376fe383c6dac8e2cee25368d0f0463ee867f06a3fabd5b4271c7b879",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/4dd03782963ab0602d58396e24e4ddc56162fd18e02f66bf06eadc4045ad6382.json": "c2d3f7ce0709949eff77ebf96c8d660bccf596c54930f31fdfceedf614b61bf7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/589ce81903196215e338ea537d5e4cd5a75061efd76779724faec0c6c4d314b6.json": "a142480215bfd10d74c63a3779bcf710cbf5f0837ae80aa213b1d501e6233f74",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/5a121990c2bc1b4bd1c6a086a2c714527cdd0d0705644f72a61b6fdd74663fed.json": "40b377cbc3080914df41a710c156f7ac1615bbf906c3444858457d59869b0ad0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/60bf760832334a483112c2e66b0a4b9e4d40f002b852df421fab18ccc55a6ea8.json": "a713b23abea0bb46f4e94c78675b1da0606e9a5a70468a6e1b27b9e4734ed260",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/6959f0488d82e249b99383c7f96402efaebff8b3e3f842afe27a51d32e4ed167.json": "b44e0667f857363a45925ff824a48d2d4385262379599fe29f52c5682d68d0e1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/6c32ec1c215d3e449f0ef34bd558f73023e45393cc568d1edcd279261f816d4e.json": "9c41d46b9924dd0800de93e3fa4792093d2fcdcf0f5cd8f968d458a90f489e2a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/6fa59cd9ae339e8d7f15b3714b64945886fde0febec0bd5f671464e892a9e4fd.json": "4859fd8b37caa833227c5d458243035be806e2587529c1332c7fec19603e50fb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/7dbdd892f000bb1b4146a144bfe35ef5bee550fcd24bf51433334e248d0faee1.json": "f3675a00855179ea42ee5bb50a72436479a260b17114c960b3d13fd110651cac",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/8368cec5578e2c7c7fd6d058854a6003c412ca394e9488fc9062d27c3126dcd8.json": "0ece7b5f2aa76c1ab6b2a538b47cf02571b510fde156249b1d3edde2abee76f7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/8580c709ae0ca83623277a576f16522a0a9c187cc186d266ce0fd1a3f53b6b92.json": "d84974b82ca552e8ac6d4b9a83f1a76b08a47251ad07e4a91b98b2aa0598c55a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/9ccdb84dcf9a4f53146b5253d3bdc88389d4855169aafc3bb9662ad1d9bdda54.json": "bd2391255ad60c1389cc8a7845b107b1e064ae05701d61cbc4670de4f4281932",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/a8fb68d201a10cefacd2a5be60effba50913d48703a98f9f87e1308fb1b3d809.json": "f11ed9c8fab19237bf3b071023e7a82db11366e25d5e21b0725349a0be174faf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/b320c945e33390d2816de51495725187b86826baa4031c9c558993a5b18d5f1e.json": "27765f598b4991eef90c25528963451cd03dd0121365155ae36cea8d427f9e2d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/b58edc3e650614943bc517d115be5c595e370069515e2d7424649127e6162fca.json": "10c132b852b5669859d2578172dfd63f83d7486fd95392e8ffaafd661f506e70",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/b5cfff538b3fc686d7c075a9cb6b90a36e87e582b50c3a6e36c0470fae2a3ff8.json": "4c6ce4b0da7e62ce2b20f1d88c910845f6919dc6fc2d0c31a029ab96fe9bda1c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/b788f161d4940ae85fd4162fe73a340d9cf3f312a45206ddfa1532cde3618c90.json": "7315b0efd06b92630d000d16c84f387bc53c86dd406641870fdfa3c1cc698370",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/c2470a66c1141e28951088b6037d3e21be149313eff9928a0629873f4b6164d5.json": "7b561614cb804a72840399f838d363089e3ae218c8aefa8402ed9f748b781cf4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/c3076fb087837d3a308c67403a1c90e86e5178478f6c44258aa6862be600cb65.json": "896333a74e657a2426b281d1c8989e2fc4db2ad45f3e9aee3402fbc2afedb4e1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/c6af527e61dc91e1c767081f9c492837902462b8836fc99812d2152df46dd206.json": "90c11743c6ee177a80d7489a4e79f5b39b1bcd1a4c654526bc44c12edc7cd188",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/cd52de490fc7c45369381ac45467604852ca7eab17b23c31af7bc3b8a6f524d7.json": "fb85de2b9b2c79654c91ee2366528c1df7fac817b6500bc6f43828db266d6f23",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/db52f3f0d69afb3103bd1144da73234108683690a8480d418f6993d2861c7a32.json": "bfe3edaee15c42738b0b2834b4f187db1c47885d2d98844f5b16a3dd6d10e6ab",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/e10162ee0fb553348c0b6bb5ce77c496660f112a78358fb8074859934c1b4936.json": "e03ce01b652133a74aca5ba21f51a51b4cc0e395e69f434d9e928708de8e68e4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/episodes/fe9e9fa725534a4dc391741654b825f06782413a62d8aa80af990c356dc22b1a.json": "2ed37b7e9c2d9536b6d99bc077ea4d2cb762cd35976ba37f7b4380c3575c021d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0000-result.json": "ae68d01c5393e1f2bbc2e2edaaa0084cdcd4ba6b5e026cc0989b768cee905790",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0001-result.json": "c3822c9a3daafe88367188cb0b054e434fad16cc6ffd50dd475fce0a9b5a3b4b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0002-result.json": "f2572741efbf34daade6f8a8a24525e1642ad348ab872c0cca9faeb171e874c4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0003-result.json": "58024753ddb66f74a9615a052bd530d0aa6c2698411686e5e2558138b6aed766",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0004-result.json": "3784f041561a6f2b9ae5928c586fe5d4245d669fec8d1ed42a02aa42f44d22bf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0005-result.json": "1d17660764ba5d80c209e49347afbceff416021f70bb836b441b3af6f846b57a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0006-result.json": "340cafa9681f8e3dd3e7084847a977bca99ec9d91e7ce8156a13bcb93be956b5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0007-result.json": "f6fc4e86d09691bc0639e527c74e4f125787fdb125d099b81ab40a915c863cae",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0008-result.json": "85a2c0ea0e2de2fb99f40f4f7ae2d276bbbdad76397063a5d95340ed93ad0b2d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0009-result.json": "755cdaf9917e9fcb410d2538e51ea99cc251a5f1fa7fb9aa39e9bf7816c159a8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0010-result.json": "ca06736dfd943e1a5ae092783f696d04fa4bd63ba5c871b6e213c07f2945a6b4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0011-result.json": "6fbfe749670ad92c32844667eab88ebfcf4e439d7cd3d9d96393a336824469e5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0012-result.json": "cc3cef85425566c932468aa256b41fba73c72936c3cc776dabb4dbb49bf259a2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0013-result.json": "285a9d1fd7439ee8e93607d2a03f36b7b063973d1bae8545821fd224f99c85eb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0014-result.json": "2916f3bd564dce7ee0bd66603c7e83e7103ae279f667a84a65368ba71788fd56",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0015-result.json": "b3960b3184a1969bc9cd289c3f977c42d17bc32760fa7cc37f1fd16e21426112",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0016-result.json": "4b98c8d9054e11a0014eb8079adbf3bfbf63f2b5f5214a9509753ff272bf68d0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0017-result.json": "fe52080049f40c9e3a7d300d2b6f7c74720e00d006ba9cd06d2c6d6663b409ed",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0018-result.json": "a3a6dfc0fde33fc71662c141ed6ab9de0aa478544c2cb5e35790724d31af0e2e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0019-result.json": "955750860942ae507c7e0d827e8e6c387951c1dfa2b32cc9c39a23f881e6c3b1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0020-result.json": "474707db9cb4d05059609ea0d27b57e083228400790eea4a03c3dab75f6858b6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0021-result.json": "3933198461f881ca8c3876405a9fe84f6010b17cebbcbaab78c0ee84fdd2dafa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0022-result.json": "9315931ead518940e81a60d24732f7ad4b592f25538bcb8438bfe544b528dc73",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0023-result.json": "2a07cc7fed1df7ec19fabb8d44d7871fe19f4d6e0cd08f462e4ae4728ac8d109",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0024-result.json": "310585c3ebf3fb6b4eb68ab214de585c376fa2f3b3ceff40cd54150f9b2d1910",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0025-result.json": "cd7a0da57c6a9bb22a225f0b5b30671edc77f31cdec6b50c34699f949c2f81e8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0026-result.json": "bcf70222928fdbec286070a22ea2234253ccb95e078e505ea31eb2492e8cf686",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0027-result.json": "77fe56eaabd5e8d3c288990889b87cfb4c0c1b5f2a1225913d0b043ab05f2a7d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0028-result.json": "392b008f0bc9425fac88b4185f6e74005b81d797d873d1a66b723c88d719bad8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0029-result.json": "2fa62a20b7d92ec9adf3a756e08fd09967498d1703478e83ff5581b98bb9ac51",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0030-result.json": "da453d5c3a549ac81763fd2332eb7754f321e728e4998240f9c87c81dc025519",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0031-result.json": "68f5592829c8cdaff619b3d136210a7079ce91fb1a1a92c6bf4719aae40496f9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0032-result.json": "f9d333ae0da0de6fe4100c17ddf71202780bd8eae12a2db1e6616c3eeb7fc774",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0033-result.json": "263969e283705381d6ca996a50712c73d659d097de08052f36665fb359ff566e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0034-result.json": "de6ddf92df5267ff70e2096fea87de5980115402b9cb970c5791d4de7fafc80d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0035-result.json": "829316018eb91759cae2d0f222bda3b95db809587c68e52e6294e87055bba9ab",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0036-result.json": "83a05d56253f2154b3ba10b7290aa522ee5e59aee9f47fdc014f062ad2d148a3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0037-result.json": "697ca2843f2c1d746dc630c38ba3980439dfda80507742ed57f2ab46540cd8bc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0038-result.json": "d80810bfb7dd7f073bbf0049ff04d12a161ca60e52eb956084b4c53aa4d2d075",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0039-result.json": "6739ebb8cf775fe3e2665e8be10124d4cf559279f20f1c09b6d9f48a99a075ca",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0040-result.json": "95e69a3e38ab33a2a66fe816024cc0bc7f9386c107c6ef17e9fbcfd7f28f1327",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0041-result.json": "f358ae35372e9c451175cced0d567c3fe3b8de5bf9184e14e42c1194eab62b5e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0042-result.json": "1e76b212643fa424d187989d9d070753b8be60efcfa83d6fb1dd7d4c2c929b61",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0043-result.json": "325af50b37b62622f6e7554d1bf8e9f7d3f37a259ca984f1f3dd254cd861f841",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0044-result.json": "c958c8375be80fc717c1f157225a0c26685d6963a882ab4225a3a379e752b31f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0045-result.json": "de87fcae6c474ee11f0881f29faec4016c79d11173084b6e1a711ef1310643a5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0046-result.json": "813d402dba8706f6a55e3dfc6da4ebc05759ff733362110ffedf4fa0d422dc57",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0047-result.json": "85f45887159705267d6edd184b5d28d115299bbc6e183039c0e9367881b95f6a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0048-result.json": "0d57905cdb7bd7e7299787644827e2a92e9bd8b13e74553622b461dadc63d2a9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0049-result.json": "66cf231f02335fab5d5999755b412644f0661e48131883b4b6ad4b1e7a5a048c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0050-result.json": "c78a7a1faec8a03001ff8c2bcfe67949061ee6d45c652dc4eb8ace4fc52e26aa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0051-result.json": "97b6235df5f44c3f7b67643d89185fac8e24218d3a65965c7bc3571fcb15599b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0052-result.json": "e6f93954a57e234c6350d0a3c824c856deadb9b0c8c9e4768fc172b3213bd8b4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0053-result.json": "d9d4de35d839197bb04c5b55b9ab2eaaf9c5923380e15b46a11a190f5ab701a3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0054-result.json": "39947fdb84d6142243c88918a858ca85da811bf4be6964d40be20863b48dfa35",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0055-result.json": "820a05473e75f4bfb09d915596491471ae6e8669ad4d11f6364e7360ff18dacb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0056-result.json": "199dfb81093f2d156a3dcd4a8461dd34501616cf7c08904717ccc3ab04eb2042",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0057-result.json": "201abc39f190235662826eaeeaa4fbf684a22b58022892d262949f21f745bdf6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0058-result.json": "b4d4901677e4f7dc6bdf1ff6bb521e530ff15d40b6d48803d137c6bbb1250723",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0059-result.json": "6d3e37bafa78a902df3964365ccf995b23c5692d13b25df76e8e3b0f2e8a5d3e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0060-result.json": "6c83e4af13bcb1b9556c0d840c5c62740d2c4061fdc7323a16d318bdc0035d2f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0061-result.json": "e2639ef0900af037c3734507e4d8e64111d24c3a0189e36c50e1e457994f64ba",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0062-result.json": "95437fd695fb77689829dc41bb96867063656d8a23070cc476f83595612915f1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0063-result.json": "f15bfdc140558a68493414906e18ae2cef1a6ed6bb10f27293fdce68c97acb70",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0064-result.json": "4feb601983427b7b71f45be3eb3397e00515964b9b94e2b5a23841359d2a5147",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-checkpoint32-001/science/native-calls/0065-result.json": "21364b99a26fcb2ade9ba9b4e79693c61900670e6d5693261e1328754a22fb1a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-eval-v1/inputs/held/HOST_GOLD.json": "06efb44edefad12a920ef10d7c9db826778706d773989b03ee1fbf85084c98ff"
+  },
+  "training_checkpoint_qualification": "trusted previously reviewed evaluator chain; no independent Adam/backprop replay here"
+}

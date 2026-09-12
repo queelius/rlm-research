@@ -1,5 +1,132 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 19:35 UTC
+
+CONTINUE autonomously; MAIN sole GPU launcher. Token-TIS second fixed16×3 seed
+block PTY78480 COMPLETE allarms/released; analysis next.
+ACTIVE cached old/new4B screen PTY41685 operation
+`2026-09-12-newer-controller-screen-queue/run.py`, READY7c86dbdf…5820pins,
+MAIN full source+CPUfixture review and actualowner verify passed. Uses fixed_argv,
+8lexsorted training contexts,2turns,1024tokens,1800owner1900external; no training.
+
+COMPLETED SFT32 readout: train24/32returnedexact with ALL32 teacher-AST first
+programs/correctstdout. Heldbase2/29available of32; cp3217/32, paired29 gives
+15wins0losses. 16context units×2seeds; not32independent. cp32correcttargetstdout30/32,
+zero schemaerrors/broad dumps. Remaining2sameemail→message request literal error.
+MAIN finalheld independentREPORT SHA32b72266cf8d2484f4c21db55650d38274990afc88f60dfe2ccfeb2a16bc3a51,
+0integrityissues. Additional28trainingupdates967.53s fixedcp32, notselected.
+
+HELD_DECODER_SEAM_V2 SHAba15522db4bf25620a4fae2061d25336eae651eeeeec3d6e1302bb2e95f14dee:
+8cp32generatedbareexact finals becamewrongaftertrim;25rawtokenexact diagnosticvs17
+originalreturnedexact. Other4omitspacesinmodeltokens,1changesdigit,2failretrieval.
+ActualQwen3parser content.strip ANDACP._run root_reply.strip confirmed; leaveold
+scoresuntouched. Agenttoken buildsprospective local terminal-strip-disabled32held
+arm (samecp32/prefix/seed/caps), bothclampsonly, keepreasoning/tool/stopbehavior.
+NeedactualfullnativeCPUfixture+MAIN+independentreview beforeGPU; no sharededits.
+Agentlocal independently auditsheldfinding and thenprospectivehooks.
+
+MuSiQue132 reportcomparison COMPLETE: owner/runtimequalified/releasedTrue,
+276.31owner seconds. MAIN ran sealed independentanalyzer; REPORT
+92e5ae4f5bf4114a672ac44bb60d19cf229be4762de3ead0641ac1ee44fdb11b,
+132authenticatedcalls48availablefinals0violations/duplicateIDs/sharedparentfailures.
+Stop1/12,broad1/12,targeted1/12 SAMEcorrectquestion;fullsource3/12. No benefit from
+thisfixed targeted-followuprecipe; notlearneddecomposition. Agentpost doesexact
+savedwireprompt→nativeprefix additiveaudit and qualitativefailureanalysis.
+
+LongMRCR dataonly READYd4d82f86a5d1c8b88d6e3bcc5a15fabfaadc1f1f44fa628f2c9e5207d7ed48c2:
+800→102in16k–32kband→57after48short exclusions→16mutuallydisjoint; originalbytes,
+16,502–30,456externaltokens, exactoverlaponly/commonfewshot/pretrainingcaveats.
+NoevaluatororGPUyet. Cp32freshtrain8×G4 collector remainsUNSEALED pendingboth
+clampfixqualification; no impossible-exact-rewardtraining. Next RL: measureactual
+mixedgroupsandselection-versus-copyerrorbeforechoosingloss/updatecomponent.
+
+Newmainreport `docs/research-checkpoints/2026-09-12-procedure-transfer-and-exact-rewards.md`
+cutoff19:35 beingpublished; remotesstillRLM3568d0a/notebookfc5eb95 atthispointer.
+Quota49%19:30UTC,next19:45,reserve20/15/10. GPU5801/an22endsSep15 17:30:16UTC.
+All older pointers arehistory; do not relaunchfinishedjobs.
+
+## Latest resume pointer — September 12, 2026, 19:10 UTC
+
+SFT32 COMPLETE:28 additional updates967.53s, RESULT SHA
+35767138f586d93fcbee8149340088db001b28621b351f8199e4001893c9ad62,
+cp32 STEP_COMMIT3e002acdadc0256097efedd62cdc6af5c7d219b5f7937c9bc952a9ec345102ff.
+Train readout complete/releasedTrue in391.65s:32available,24rawexact,31strip-normalized
+exact (diagnostic only). ALL32 first generated programs match teacher AST and print
+the correct target cleanly; zero schema errors/broad dumps. MAIN ran the independent
+analyzer: `openai-mrcr-procedural-sft-dose32-readout-2026-09-12/main-train32-snapshot-001`,
+REPORT.json SHA440af50538fe61daf6adeab615be8639af047b86719bb9781c25db5f2ba6c83f,
+352pins,zero integrityfindings,28matched cp4/cp32 availablepairs21wins0losses.
+
+ACTIVE PTY34565 now runs held-base32 then held-cp3232 under the same accepted
+conditional operation. Gate open from completed train32. ACCEPTED waiters
+MuSiQue132 repairV3 PTY50105 and fixed token-TIS seed2 all3arms PTY78480.
+Seed2 operation `2026-09-12-token-tis-held-seed2-queue/run.py`; READY25e43f05…,
+MAIN fullsix-file review and actual401-pin owner verification passed. Keep all3doses.
+
+IMPORTANT new reward confound: seven SFT trainfinals drop2trailing spaces; one
+changes2curly apostrophes. Agenttoken_tis_review checked raw completiontokens:
+THREE actually generated exactgold but parse_qwen3 content=text.strip() deleted
+the spaces. One other generated gold+2newlines, three omittedspaces genuinely,
+onechangedapostrophes. Original24/32metric retained. Full token/source receipt in
+preparation; no claim all8model or all8parser. No shared/runtime edits underlivejobs.
+Main read actual parser; reasoning path also strips newline boundaries, so new
+fidelity intervention must define protocolframing rather than silently repairanswers.
+
+Agentpostmeeting prepares freshcp32first8frozen train×G4 native rollouts for exact
+rewardvariation, but MUST NOT seal/admit old parsedreward until parser seam resolved.
+Agenttoken_tis_review owns decoderreceipt and scoped prospective parserablation.
+Agentlocal prepares cached4B old/new32-call usability screen, includesraw-vs-parsed
+diagnostic. MuSiQue independentanalyzer readyfea06eca…, not yet MAIN read/run.
+No newGPUlauncher authority delegated. Quota53%18:57,next19:12. Remotes unchanged.
+
+## Latest resume pointer — September 12, 2026, 18:55 UTC
+
+Continue the user's autonomous turn; MAIN sole GPU launcher. Procedural SFT
+cp4→32 true Adam/RNG continuation is ACTIVE PTY21838, latest observed step29.
+Operation `2026-09-12-procedural-sft-continue32-queue/launch-v2/run.py` holds the
+external coordinator flock. Sealed READY_TRAINING SHA
+d482834e4584db70fb8f405440ac146af427bb4f4174018a0a1f0b9fa459f1be.
+Original launcher failed before training because it expected `command` rather
+than sealed `fixed_argv`; repaired only the in-memory field mapping. No replay
+or reset of training. Fixed checkpoint32, no outcome selection.
+
+ACCEPTED external-lock waiters: cp32 train32 plus conditional paired held16×2
+readout PTY34565, operation `2026-09-12-procedural-sft-continue32-eval-queue`;
+and MuSiQue unchanged132-call screen PTY50105, operation
+`2026-09-12-musique-exact-owner-repair-queue`, READY_V3 SHA
+c799becad8d574d6785dbd4292e00b6bb27536175adb8b6b71f1df4c469dd1c1.
+Flock acquisition order is not guaranteed; both scientific jobs are accepted.
+MuSiQue attempt002 failed before any scientific calls because its authenticated
+claim/release function still expected the old engine argv. MAIN authenticated
+and SIGTERMed only saved owned group577193; all exited, no files deleted.
+Receipt `operations/2026-09-12-musique-attempt002-cleanup/SIGTERM.json`.
+V3 keeps all ownership checks but matches the actual engine command; own1592-pin
+verify passed. Original failed flags remain unchanged. A momentarily empty GPU
+does not prove a failed launcher cannot later spawn a child; require owner release.
+
+COMPLETED root token-TIS first held block: base0, low0, high1 raw-exact, each
+15 available of16 recorded. Same one context overflow unknown in all arms.
+High's one exact answer followed an18051-character whole-context dump; it did
+not learn consistent role/ordinal retrieval. All arms zero child calls. Reports:
+`analyses/openai-mrcr-token-tis-held-three-arm-2026-09-12/{RESULT.json,MECHANISM.md}`.
+MAIN independently reproduced all48 derived saved results using the frozen
+native mapper; agent mechanism analysis rechecked raw final/gold and focused calls.
+This is not yet a meaningful RL improvement. Fresh paired seed block all16×3
+prepared at `openai-mrcr-short-root-token-tis-held-seed2-v1`, READY SHA
+25e43f052f9339cc80efe456911ce3b07c3db1a60d05b596b23c85fce919ae07;
+MAIN reading/verifying, not yet GPU admitted at this pointer. New seeds
+2026091900..1915, same models/prompts/caps, no successful-case or dose selection.
+
+Agents CPU only: token_tis_review prepares SFT32 procedure readout analyzer;
+postmeeting_gpu_pilot prepares independent MuSiQue raw analysis; local_rl_design
+prepares cached Qwen3.5-4B vs released Qwen3-4B two-turn controller screen
+(8 paired fixed training contexts, at most32 physical calls, no weights download).
+
+Verified GitHub remote checkpoints: RLM3568d0a467562b8771d796b9d04c672c5fef81bf,
+notebookfc5eb95ecf4fabf02c4d535f4b532a54c9deda42, pushed18:31UTC. Public evidence
+cutoff18:23; newer TIS result awaits next completed milestone. Quota54% at18:42,
+next18:57. GPU5801/an22 one A100 MIG, allocation ends Sep15 17:30:16UTC.
+
 ## Latest resume pointer — September 12, 2026, 18:28 UTC
 
 Continue autonomously; MAIN sole GPU launcher. Root token-TIS fixed held16

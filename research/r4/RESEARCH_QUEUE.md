@@ -1,5 +1,58 @@
 # Live GPU research queue
 
+### Live update September 12, 19:35 UTC — procedure learned; reward return-path test next
+
+COMPLETE token-TIS seed2 all16×3 fixedarms78480; ACTIVE old/new cached4B
+8paired2turnscreen41685. Newmodel READY7c86dbdf…, fullMAINreview+verify passed.
+Next1 CPU scopedterminal-strip-disabled cp32held32, samepreviousseed/prefix/scorer.
+Next2 freshcp32train8×G4 exactrewardvariation, HOLDuntilbothclampsqualified.
+Next3 unchangedbase/cp32 on16newdisjoint16k–32k externalinputs; DATA_READY exists,
+evaluatornotready. NoGPUauthoritydelegated; externalflockallowners.
+
+CompletedSFT32 held2/29→17/32,29paired15wins0losses,30/32correctstdout. Diagnostic
+rawtokenexact25vsreturned17 identifies8trimmedsuccesses; originalscores unchanged.
+MuSiQue stop/broad/targeted each1/12(samequestion),fullsource3/12;132validcalls.
+Do not repeat targetrequestrecipe without qualitative mechanism. Agentpost analyzes.
+RootTIS firstseedbase0/15low0/15high1/15(onewhole-contextdumpcopy), no meaningfulRL
+yet. FreshrolloutsfromusableSFTtargetcomponent/rewardquestion, notblinddose.
+
+Quota49%19:30. Newreportcutoff19:35 readyforpublication. Olderqueuehistorybelow.
+
+### Live update September 12, 19:10 UTC — usable procedure; repair reward fidelity next
+
+SFT32 training and trainreadout COMPLETE.32/32 correctteacherAST/clean targetstdout;
+24/32rawexact,31/32strip-normalized (diagnostic). Three apparent failures are exact
+generatedtokens altered by parsertrim, not wrongmodel output. Originalscores retained.
+Do not reward-train these impossible parsedtargets before isolating the returnpath.
+
+ACTIVE34565 heldbase32→heldcp3232. ACCEPTED50105 MuSiQue132targeting and78480
+token-TIS seed2 all16×3 fixedmodels. CPU: new4Bmodel screen; scoped fidelityparser
+comparison after source/tokenreceipt; freshcp32G4 rolloutprep, primaryreward sealing
+held until fidelity resolved. Analyze outcomes to choose selector, finaldelivery or
+newtask difficulty—not another blinddose. Newidea: procedure-acquisition-before-more-rl.
+
+### Live update September 12, 18:55 UTC — test procedure acquisition and stable benefit
+
+ACTIVE: actual SFT cp4→32 continuation PTY21838 (step29 last observed).
+ACCEPTED waiting: fixedcp32 train/conditionalheld readout34565 and repaired
+MuSiQue132 task-targeted versus broad reports50105. No scientific changes to
+MuSiQue after zero-query startup failures; exact engine ownership boundary repaired.
+
+NEXT ready-for-MAIN-review: all16×3 token-TIS fixed-checkpoint second decoding
+seed block, newseeds2026091900..1915. First block base0/15,low0/15,high1/15 exact;
+same unknown, one high success broad-dump/copy. Repeat all conditions, not just
+the successful case. Do not call this learned retrieval or meaningful RL gain yet.
+
+CPU preparation: independent SFT procedure and MuSiQue raw-result analyses;
+cached Qwen3.5-4B vs released Qwen3-4B32-call controller usability screen.
+If teacher loss falls but the procedure remains absent in native readout,
+inspect deployment/action likelihood before increasing dose again. If acquired,
+use that usable controller as the next RL starting point and test fresh rollouts.
+No further generic helper-breadth repeats without a discriminating hypothesis.
+
+Latest public reports18:23, both repositories pushed18:31. Quota54%18:42;
+reserve thresholds20/15/10 unchanged. Older entries are history, not authority.
+
 ### Live update September 12, 18:28 UTC — current adaptive queue
 
 ACTIVE: fixed held16 token-TIS base/low/high chain54964. Base has0 exact of15

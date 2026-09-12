@@ -1,5 +1,25 @@
 # What we know so far
 
+## Current update — September 12, 19:35 UTC
+
+The latest overview is [NOW.md](NOW.md). A fixed32-update supervised controller
+learned to retrieve the requested reply from a Python-accessible conversation.
+On16separate conversations with two trials each, it returned17exact answers
+versus2for the starting model (29baseoutcomes available;32trainedoutcomes).
+Paired29 gives15corrections andno regressions. Correcttextwas printed30/32times.
+
+Eight more generatedexactanswers were changed by runtime whitespace trimming;
+the originalscore is unchanged. We are testing a narrow separate-process fix
+before using those outcomes for further exact-reward RL. CurrentcontrollerRL
+has onlyone exactgaininitsfirstseedblock, afterawholeconversationdump; thesecond
+blockretainsallfixedmodels. Focusedhelperrequestsanswered1/12MuSiQuequestions,
+the same as broadrequestsandstopping;fullsourceanswered3/12. No learnedrecursion
+benefit is established. Frozennewlongerconversationsare readiedfortransfer.
+
+The new source-repository plain-language report is
+`docs/research-checkpoints/2026-09-12-procedure-transfer-and-exact-rewards.md`.
+Older entries are history, not the current interpretation or active queue.
+
 ## Current update — September 12, 12:24 UTC
 
 Giving the numerical task a longer Python response let six of ten trials reach

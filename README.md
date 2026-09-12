@@ -4,35 +4,37 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 12, 2026, 17:42 UTC evidence cutoff. RL's earlier
-gain repeats across two training seeds, but becomes smaller on fresh news examples:
-427 and 429 correct out of 512, versus 422 before training and 426 after supervised
-training. RL does not clearly beat supervised training on this fresh panel. The
-earlier panel's 437 and 436 remain separate; the methods did not use equal compute.
-This refresh preserves the weaker finding, complete four-arm audit and follow-up
-decisions, not just the encouraging first result. Repeating the same 128 training
-articles for eight updates reduced the earlier-panel score to 417/512, compared
-with 437/512 using different article groups. This supports investigating data
-variety; the repetition control still needs a fresh-panel check.
+Latest partial refresh: September 12, 2026, 19:35 UTC evidence cutoff.
+Supervised training on 32 worked examples taught the controller to retrieve
+the requested reply from a Python-accessible conversation. On 16 separate
+conversations with two trials each, exact returned answers rose from 2 to 17.
+The starting model completed 29 of 32 attempts; the trained model completed all
+32. Among the 29 available pairs, training corrected 15 answers and lost none.
+This is exploratory transfer within one task family, not general decomposition.
 
-On 224 encyclopedia descriptions, the four models scored 209, 209, 208 and 210:
-essentially unchanged. In the complete RLM, helper labels improved from 103 to
-108 correct out of 128 distinct articles, but final answers stayed at 3/16.
-Saved programs expose wrong counting scopes and calculations that returned no
-visible value. Better intermediate labels do not guarantee a better final answer.
+The trained model printed the right text in 30 of 32 attempts. In eight cases
+it also generated the exact final answer, but the runtime removed trailing
+spaces before grading it. The reported 17 successes remain unchanged; a separate
+token-level diagnostic finds 25. A prospective narrow runtime comparison is
+being prepared before further exact-reward RL.
 
-The controller investigation also changed our interpretation. Four nearly correct
-conversation answers followed broad printing of the input, not correct Python
-retrieval. We are testing explicit procedural demonstrations and partial-answer
-rewards separately, while inspecting how the answer is obtained. The first root-RL
-attempt stopped before any weight update because its probability weights were
-too uneven; this is not a negative learning result. A small recursive-depth
-comparison is running. A syntax-example interface variant reduced invalid actions
-but worsened answers, and is being retired.
-Infrastructure failures and GPU idle time remain visible.
+RL is not yet the strong result: the first controller evaluation found zero
+exact answers before training, zero after the smaller update, and one after the
+larger update, each with 15 available attempts. That success followed a broad
+input dump. On another dataset, focused helper follow-up questions, broad
+follow-ups, and stopping each answered the same one of 12 questions correctly;
+reading the full source answered three. More calls alone did not help.
+
+Earlier helper-training claims are also qualified. On fresh news examples,
+varied-data RL scored 427/429 out of 512, repeated-data RL 425, supervised
+training 426, and the starting model 422. The earlier 20-answer advantage of
+variety shrank to two on this panel. Better helper labels also failed to improve
+whole-system answers. The notebook preserves these weakened findings and
+unsuccessful comparisons alongside the promising procedure result.
+
 Other records retain their earlier cutoffs; this is not live GPU status. The latest
 plain-language synthesis is also in the
-[September 12 research report](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-12-broader-rl-learning-signal.md).
+[September 12 procedure and reward report](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-12-procedure-transfer-and-exact-rewards.md).
 
 ## Start here
 

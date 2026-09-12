@@ -1,0 +1,13 @@
+{
+  "complete": false,
+  "elapsed_seconds": 404.3034336566925,
+  "errors": null,
+  "manipulation_gate": null,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "recorded": 32,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/outputs/held-base-001/science/RESULT.json",
+  "scientifically_available": 29,
+  "stage": "held-base"
+}

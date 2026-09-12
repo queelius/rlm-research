@@ -1,0 +1,2749 @@
+{
+  "all_three_success_first_programs_identical": true,
+  "all_three_unavailable_four_programs_identical": true,
+  "analysis_only": true,
+  "evaluation_ready_identity": "ed40682c3b7c5221cfbc3329af936ac550366798987e7d6ad09134960b42f66a",
+  "generated_code_executed": false,
+  "gpu_used": false,
+  "limits": [
+    "Only one discordant raw exact on a16-context three-arm exploratory panel; both doses and unavailable coordinates retained.",
+    "Correct final does not imply correct retrieval code: immediate divergence is target exposure through a full dump.",
+    "Held panel prior exposure declared in sealed READY; no confirmatory transfer claim.",
+    "No held score/program/target feeds back into training through this analysis.",
+    "Frozen-checkpoint sampling replication would not by itself replicate training-gradient/sample robustness."
+  ],
+  "main_derive_and_result_modified": false,
+  "method": "Inert saved JSON/text inspection. Independently rechecked48 raw reply/gold equalities and focal native success. Decoded initial messages equal across arms for rows1,7,12; physical-prefix checks are inherited collector evidence. No metric repair.",
+  "minimum_replication": {
+    "arms": [
+      "base",
+      "lr1e-5",
+      "lr1e-4"
+    ],
+    "contexts": "Same complete16, not only the success",
+    "decision": "No automatic dose selection. Require replication before promoting the1-answer signal; report dump/copy if that is the replicated mechanism.",
+    "fixed": "All frozen checkpoints, prompts, child,T0.5,max2048,six total root+child turns,650 owner/700 external seconds per arm",
+    "metric": "Paired raw exact, all3arms and unavailable/null separately; annotate dump/copy/error/blank-terminal mechanisms on rows12 and7",
+    "new_episodes": 48,
+    "new_paired_seed_blocks": 1,
+    "proposal_only": true,
+    "seeds": "Predeclare one new16-seed block shared across arms before generation; exclude original202609132100..2115"
+  },
+  "native_evidence": [
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0002-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 178,
+        "cost": null,
+        "prompt_tokens": 768,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0005-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 326,
+        "cost": null,
+        "prompt_tokens": 1099,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0007-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 326,
+        "cost": null,
+        "prompt_tokens": 1482,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0009-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 291,
+        "cost": null,
+        "prompt_tokens": 6405,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "base",
+      "error": {
+        "message": "Error code: 400 - {'error': {'message': 'The decoder prompt (length 11232) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+        "type": "ProviderError"
+      },
+      "last_tool_observation": {
+        "chars": 19686,
+        "sha256": "e6efdc63ffa05cf3bc314bd646d7f74121133e07f3c4346b6006986f155cf461",
+        "tail": " about relations. Do not include any other text in your response.'}]\nMCih6JtQR4poem about relations\n"
+      },
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0011-result.json",
+      "row": 1,
+      "status": "error"
+    },
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0018-result.json",
+      "row": 7,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 233,
+        "cost": null,
+        "prompt_tokens": 771,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0019-result.json",
+      "row": 7,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 388,
+        "cost": null,
+        "prompt_tokens": 1164,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "stop",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "eb47faae9c45599e7cc35288c45e53f2d7ab0f8c0a26cd12a89d22ff0956df52",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0021-result.json",
+      "row": 7,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 620,
+        "cost": null,
+        "prompt_tokens": 6191,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0037-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 194,
+        "cost": null,
+        "prompt_tokens": 772,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0038-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 305,
+        "cost": null,
+        "prompt_tokens": 1094,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0039-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 344,
+        "cost": null,
+        "prompt_tokens": 1545,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "base",
+      "error": null,
+      "finish_reason": "stop",
+      "model": "Qwen3-4B-Instruct-2507-token-tis-eval-zero",
+      "native_text_sha256": "230ea13a477cc7142c839a62343ce4ec20731b9331f08b8182bbf3ace0cfef1f",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0041-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 578,
+        "cost": null,
+        "prompt_tokens": 5888,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0003-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 178,
+        "cost": null,
+        "prompt_tokens": 768,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0006-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 326,
+        "cost": null,
+        "prompt_tokens": 1099,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0007-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 326,
+        "cost": null,
+        "prompt_tokens": 1482,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0009-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 291,
+        "cost": null,
+        "prompt_tokens": 6405,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": {
+        "message": "Error code: 400 - {'error': {'message': 'The decoder prompt (length 11232) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+        "type": "ProviderError"
+      },
+      "last_tool_observation": {
+        "chars": 19686,
+        "sha256": "e6efdc63ffa05cf3bc314bd646d7f74121133e07f3c4346b6006986f155cf461",
+        "tail": " about relations. Do not include any other text in your response.'}]\nMCih6JtQR4poem about relations\n"
+      },
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0011-result.json",
+      "row": 1,
+      "status": "error"
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0018-result.json",
+      "row": 7,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 233,
+        "cost": null,
+        "prompt_tokens": 771,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0020-result.json",
+      "row": 7,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 551,
+        "cost": null,
+        "prompt_tokens": 1164,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "stop",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "91932bc92b5d159e2e4a147837d83ec4ff081a13cb83a8c16ec41da5b09b12a0",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0022-result.json",
+      "row": 7,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 581,
+        "cost": null,
+        "prompt_tokens": 6206,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0033-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 194,
+        "cost": null,
+        "prompt_tokens": 772,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0035-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 171,
+        "cost": null,
+        "prompt_tokens": 1094,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0036-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 167,
+        "cost": null,
+        "prompt_tokens": 1416,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-5",
+      "error": null,
+      "finish_reason": "length",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-low-step1",
+      "native_text_sha256": "a9ecac8ce673e0acebd6e9cffc1b5f965e72d354f3f340853e0e868a46e15850",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0038-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 2048,
+        "cost": null,
+        "prompt_tokens": 4208,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-4",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-high-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0001-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 178,
+        "cost": null,
+        "prompt_tokens": 768,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-4",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-high-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0005-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 326,
+        "cost": null,
+        "prompt_tokens": 1099,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-4",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-high-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0007-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 326,
+        "cost": null,
+        "prompt_tokens": 1482,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-4",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-high-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0009-result.json",
+      "row": 1,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 291,
+        "cost": null,
+        "prompt_tokens": 6405,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-4",
+      "error": {
+        "message": "Error code: 400 - {'error': {'message': 'The decoder prompt (length 11232) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+        "type": "ProviderError"
+      },
+      "last_tool_observation": {
+        "chars": 19686,
+        "sha256": "e6efdc63ffa05cf3bc314bd646d7f74121133e07f3c4346b6006986f155cf461",
+        "tail": " about relations. Do not include any other text in your response.'}]\nMCih6JtQR4poem about relations\n"
+      },
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-high-step1",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0010-result.json",
+      "row": 1,
+      "status": "error"
+    },
+    {
+      "arm": "lr1e-4",
+      "error": null,
+      "finish_reason": "stop",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-high-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0018-result.json",
+      "row": 7,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 205,
+        "cost": null,
+        "prompt_tokens": 771,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-4",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-high-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0040-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 194,
+        "cost": null,
+        "prompt_tokens": 772,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-4",
+      "error": null,
+      "finish_reason": "tool_calls",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-high-step1",
+      "native_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0041-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 312,
+        "cost": null,
+        "prompt_tokens": 1094,
+        "reasoning_tokens": null
+      }
+    },
+    {
+      "arm": "lr1e-4",
+      "error": null,
+      "finish_reason": "stop",
+      "model": "Qwen3-4B-Instruct-2507-mrcr-token-tis-high-step1",
+      "native_final_raw_equals_gold": true,
+      "native_text_sha256": "9fa8717e9ff178353dc159e287c881b9fd30afb7860361bf9f72e7735dafb910",
+      "path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0042-result.json",
+      "row": 12,
+      "status": "returned",
+      "usage": {
+        "cached_input_tokens": null,
+        "completion_tokens": 499,
+        "cost": null,
+        "prompt_tokens": 5232,
+        "reasoning_tokens": null
+      }
+    }
+  ],
+  "partial_mechanisms": {
+    "row13_high": "High .022966 follows invalid messages/dict assumptions, dumps first3 records and finds user requests; final letter has no exact document-record match.",
+    "row14_high": "High .040570 copies second elephant article rather than requested first; diagnostic newline/trailing-quote removal yields document index16, not gold2.",
+    "row6": "Low .188700 returns183-character chorus excerpt after truncated dump instead of1660-character complete song. Base/high empty.",
+    "row7": "Base .950163 and low .992803 dump/copy the correct glue scene after invalid schema calls; low adds33 characters (separator/newline and spaces). High empty invalid terminal. Not dose monotonicity.",
+    "row8_high": "High .027117 copies first eggs scene rather than requested second; diagnostic newline conversion yields document index2, not gold4."
+  },
+  "rows": [
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/01acd9e3debe604652fcbf21034b2d7847f4240ee7d51019fa2bca640107dddc.json",
+      "failure": "model_invalid_terminal",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-bcf761ed079ab9231154",
+      "root_actions": 1,
+      "row": 5,
+      "seed": 202609132105,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/2efdbb7e34f6623860f8d1b56f042419ac7d0c4d8b4d3dc81c8bd94b2ec5e27f.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-0661011e2430461fddc1",
+      "root_actions": 3,
+      "row": 4,
+      "seed": 202609132104,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.00964630225080386,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/332616c2d5c8d08c77820cb0d92be60da732ef562630b5e53e3ce82443ce1294.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-72618dd842efffd0a22e",
+      "root_actions": 4,
+      "row": 10,
+      "seed": 202609132110,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.02737047898338221,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/70897e455bca9b5ff4723b2f400b706db619c88f021075b4067512e5c259c872.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-62f0a8e60638c25131ad",
+      "root_actions": 2,
+      "row": 2,
+      "seed": 202609132102,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": false,
+      "child_actions": 0,
+      "diagnostic_score": null,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/7567642bdd0d54a5833fbaf373055492dd871967bfbe2309ffee20483030da4a.json",
+      "failure": "infrastructure_unavailable",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-530d9996c900aa5d7b62",
+      "root_actions": 4,
+      "row": 1,
+      "seed": 202609132101,
+      "status": "error"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/83ad552646e94bc46d8631142bb2e5deebe4e5bb5f58c432572dc429f4617084.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-c277a8dfb869bd3e7819",
+      "root_actions": 3,
+      "row": 15,
+      "seed": 202609132115,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.0025499362515937103,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/9042b47601376f5b009aced5dd5c43846cb9df3c7b940a73988a9350879fe2e7.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+      "root_actions": 4,
+      "row": 14,
+      "seed": 202609132114,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.9501632208922742,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/913d61b6937232fad25f083e5e908b43975300cdaf0946069307cc3634e0b8e1.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-8ad4bef116ef5302ddbf",
+      "root_actions": 3,
+      "row": 7,
+      "seed": 202609132107,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.008271298593879239,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/9ab802bb20f9b6d318b0787edbac8e28f88a599bba7ab766d273daa8ff2d0366.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-746d5e1512abdfa38878",
+      "root_actions": 6,
+      "row": 9,
+      "seed": 202609132109,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.0006980802792321117,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/a98865b321afc0b451b7f07e5eeabf1e9fdbfc42c4bfe284ea46f2678cb9d6a8.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-85979118c1eb343eff52",
+      "root_actions": 2,
+      "row": 11,
+      "seed": 202609132111,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/acdab18668cbda90b515abaa4b65b3c03a007c30706ab10965241052c9118e98.json",
+      "failure": "model_invalid_terminal",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-f515858d24bd0388e927",
+      "root_actions": 1,
+      "row": 6,
+      "seed": 202609132106,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.011104256631708822,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/ae4965b38210c428242372633c716c89fadd2a412729604eba54d3bacd7ec714.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-85610b95bf89de2580a6",
+      "root_actions": 2,
+      "row": 13,
+      "seed": 202609132113,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.0015467904098994587,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/b3fe3dcbac65bdf03e49d8b4ebeb914f18b92b2416ae7ae6a90610e1d160ed34.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-574a80aeed5114ad4217",
+      "root_actions": 5,
+      "row": 3,
+      "seed": 202609132103,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.023034956556880176,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/ba3051389207ab2055c884040054b38bfec5f9f90dca2dbed1519d7a921bddfe.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-ef800b2a29008e4717f1",
+      "root_actions": 4,
+      "row": 8,
+      "seed": 202609132108,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.039886039886039885,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/e7d1070190e62a96cdab95b4990b0e31d51a730b4a681e296f08180c479a9b2b.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-2568744ab02d7c2786c8",
+      "root_actions": 4,
+      "row": 12,
+      "seed": 202609132112,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/f7c8d8304f25ad173199cc73f44ded5b29bc9362c3046667f9cb44aac6a43ee3.json",
+      "failure": "model_invalid_terminal",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-0fcac135277468e96435",
+      "root_actions": 1,
+      "row": 0,
+      "seed": 202609132100,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/01acd9e3debe604652fcbf21034b2d7847f4240ee7d51019fa2bca640107dddc.json",
+      "failure": "model_invalid_terminal",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-bcf761ed079ab9231154",
+      "root_actions": 1,
+      "row": 5,
+      "seed": 202609132105,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.02064287820701858,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/2efdbb7e34f6623860f8d1b56f042419ac7d0c4d8b4d3dc81c8bd94b2ec5e27f.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-0661011e2430461fddc1",
+      "root_actions": 3,
+      "row": 4,
+      "seed": 202609132104,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.001861850679575498,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/332616c2d5c8d08c77820cb0d92be60da732ef562630b5e53e3ce82443ce1294.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-72618dd842efffd0a22e",
+      "root_actions": 4,
+      "row": 10,
+      "seed": 202609132110,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.0031708283789139914,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/70897e455bca9b5ff4723b2f400b706db619c88f021075b4067512e5c259c872.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-62f0a8e60638c25131ad",
+      "root_actions": 2,
+      "row": 2,
+      "seed": 202609132102,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": false,
+      "child_actions": 0,
+      "diagnostic_score": null,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/7567642bdd0d54a5833fbaf373055492dd871967bfbe2309ffee20483030da4a.json",
+      "failure": "infrastructure_unavailable",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-530d9996c900aa5d7b62",
+      "root_actions": 4,
+      "row": 1,
+      "seed": 202609132101,
+      "status": "error"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.0024691358024691358,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/83ad552646e94bc46d8631142bb2e5deebe4e5bb5f58c432572dc429f4617084.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-c277a8dfb869bd3e7819",
+      "root_actions": 4,
+      "row": 15,
+      "seed": 202609132115,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/9042b47601376f5b009aced5dd5c43846cb9df3c7b940a73988a9350879fe2e7.json",
+      "failure": "model_finite_horizon",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+      "root_actions": 6,
+      "row": 14,
+      "seed": 202609132114,
+      "status": "max_turns"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.9928026172300981,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/913d61b6937232fad25f083e5e908b43975300cdaf0946069307cc3634e0b8e1.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-8ad4bef116ef5302ddbf",
+      "root_actions": 3,
+      "row": 7,
+      "seed": 202609132107,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/9ab802bb20f9b6d318b0787edbac8e28f88a599bba7ab766d273daa8ff2d0366.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-746d5e1512abdfa38878",
+      "root_actions": 5,
+      "row": 9,
+      "seed": 202609132109,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.0006980802792321117,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/a98865b321afc0b451b7f07e5eeabf1e9fdbfc42c4bfe284ea46f2678cb9d6a8.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-85979118c1eb343eff52",
+      "root_actions": 2,
+      "row": 11,
+      "seed": 202609132111,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.18869994514536478,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/acdab18668cbda90b515abaa4b65b3c03a007c30706ab10965241052c9118e98.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-f515858d24bd0388e927",
+      "root_actions": 3,
+      "row": 6,
+      "seed": 202609132106,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.004109186968007044,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/ae4965b38210c428242372633c716c89fadd2a412729604eba54d3bacd7ec714.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-85610b95bf89de2580a6",
+      "root_actions": 2,
+      "row": 13,
+      "seed": 202609132113,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.0015467904098994587,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/b3fe3dcbac65bdf03e49d8b4ebeb914f18b92b2416ae7ae6a90610e1d160ed34.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-574a80aeed5114ad4217",
+      "root_actions": 5,
+      "row": 3,
+      "seed": 202609132103,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/ba3051389207ab2055c884040054b38bfec5f9f90dca2dbed1519d7a921bddfe.json",
+      "failure": "model_invalid_terminal",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-ef800b2a29008e4717f1",
+      "root_actions": 1,
+      "row": 8,
+      "seed": 202609132108,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.008043973723019172,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/e7d1070190e62a96cdab95b4990b0e31d51a730b4a681e296f08180c479a9b2b.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-2568744ab02d7c2786c8",
+      "root_actions": 4,
+      "row": 12,
+      "seed": 202609132112,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/f7c8d8304f25ad173199cc73f44ded5b29bc9362c3046667f9cb44aac6a43ee3.json",
+      "failure": "model_invalid_terminal",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-0fcac135277468e96435",
+      "root_actions": 1,
+      "row": 0,
+      "seed": 202609132100,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.0037991034115948635,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/01acd9e3debe604652fcbf21034b2d7847f4240ee7d51019fa2bca640107dddc.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-bcf761ed079ab9231154",
+      "root_actions": 4,
+      "row": 5,
+      "seed": 202609132105,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.02064287820701858,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/2efdbb7e34f6623860f8d1b56f042419ac7d0c4d8b4d3dc81c8bd94b2ec5e27f.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-0661011e2430461fddc1",
+      "root_actions": 3,
+      "row": 4,
+      "seed": 202609132104,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.00964630225080386,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/332616c2d5c8d08c77820cb0d92be60da732ef562630b5e53e3ce82443ce1294.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-72618dd842efffd0a22e",
+      "root_actions": 4,
+      "row": 10,
+      "seed": 202609132110,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.0031708283789139914,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/70897e455bca9b5ff4723b2f400b706db619c88f021075b4067512e5c259c872.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-62f0a8e60638c25131ad",
+      "root_actions": 2,
+      "row": 2,
+      "seed": 202609132102,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": false,
+      "child_actions": 0,
+      "diagnostic_score": null,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/7567642bdd0d54a5833fbaf373055492dd871967bfbe2309ffee20483030da4a.json",
+      "failure": "infrastructure_unavailable",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-530d9996c900aa5d7b62",
+      "root_actions": 4,
+      "row": 1,
+      "seed": 202609132101,
+      "status": "error"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/83ad552646e94bc46d8631142bb2e5deebe4e5bb5f58c432572dc429f4617084.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-c277a8dfb869bd3e7819",
+      "root_actions": 3,
+      "row": 15,
+      "seed": 202609132115,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.04056970220112214,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/9042b47601376f5b009aced5dd5c43846cb9df3c7b940a73988a9350879fe2e7.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+      "root_actions": 3,
+      "row": 14,
+      "seed": 202609132114,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/913d61b6937232fad25f083e5e908b43975300cdaf0946069307cc3634e0b8e1.json",
+      "failure": "model_invalid_terminal",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-8ad4bef116ef5302ddbf",
+      "root_actions": 1,
+      "row": 7,
+      "seed": 202609132107,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.008271298593879239,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/9ab802bb20f9b6d318b0787edbac8e28f88a599bba7ab766d273daa8ff2d0366.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-746d5e1512abdfa38878",
+      "root_actions": 6,
+      "row": 9,
+      "seed": 202609132109,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.0006980802792321117,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/a98865b321afc0b451b7f07e5eeabf1e9fdbfc42c4bfe284ea46f2678cb9d6a8.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-85979118c1eb343eff52",
+      "root_actions": 5,
+      "row": 11,
+      "seed": 202609132111,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/acdab18668cbda90b515abaa4b65b3c03a007c30706ab10965241052c9118e98.json",
+      "failure": "model_invalid_terminal",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-f515858d24bd0388e927",
+      "root_actions": 1,
+      "row": 6,
+      "seed": 202609132106,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.02296603957977034,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/ae4965b38210c428242372633c716c89fadd2a412729604eba54d3bacd7ec714.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-85610b95bf89de2580a6",
+      "root_actions": 4,
+      "row": 13,
+      "seed": 202609132113,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/b3fe3dcbac65bdf03e49d8b4ebeb914f18b92b2416ae7ae6a90610e1d160ed34.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-574a80aeed5114ad4217",
+      "root_actions": 4,
+      "row": 3,
+      "seed": 202609132103,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0.027117229870671673,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/ba3051389207ab2055c884040054b38bfec5f9f90dca2dbed1519d7a921bddfe.json",
+      "failure": null,
+      "raw_exact_independent": false,
+      "record_id": "omrcr-ef800b2a29008e4717f1",
+      "root_actions": 4,
+      "row": 8,
+      "seed": 202609132108,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 1,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/e7d1070190e62a96cdab95b4990b0e31d51a730b4a681e296f08180c479a9b2b.json",
+      "failure": null,
+      "raw_exact_independent": true,
+      "record_id": "omrcr-2568744ab02d7c2786c8",
+      "root_actions": 3,
+      "row": 12,
+      "seed": 202609132112,
+      "status": "agent_completed"
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "child_actions": 0,
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/f7c8d8304f25ad173199cc73f44ded5b29bc9362c3046667f9cb44aac6a43ee3.json",
+      "failure": "model_invalid_terminal",
+      "raw_exact_independent": false,
+      "record_id": "omrcr-0fcac135277468e96435",
+      "root_actions": 1,
+      "row": 0,
+      "seed": 202609132100,
+      "status": "agent_completed"
+    }
+  ],
+  "schema": "openai-mrcr-token-tis-held-three-arm-mechanism-v1",
+  "selected_cases": [
+    {
+      "arm": "base",
+      "available": false,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "2a0daa06fb12493937de2aadd75115e17202d878df724f11fa52c762d3497287",
+      "diagnostic_score": null,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/7567642bdd0d54a5833fbaf373055492dd871967bfbe2309ffee20483030da4a.json",
+      "failure": "infrastructure_unavailable",
+      "gold_chars": 934,
+      "gold_doc_indices": [
+        8
+      ],
+      "gold_sha256": "d00486f0aa59f3bb07713380fccee6721b2a4754a069b4dede8797213f1a33e6",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 0,
+      "observations": [
+        {
+          "chars": 566,
+          "error_tail": "ming it's the second one by index)\n     11 relations_poem = poems[1] if len(poems) > 1 else None\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "3af306451301aaae2136d06c5b54ae0585e580aa3c4b1dc760f26b888e4ee3bd",
+          "truncated": false
+        },
+        {
+          "chars": 175,
+          "error_tail": " print('No key 'poems' found in data. Looking for poems in other structures...')\n          ^\nSyntaxError: invalid syntax. Perhaps you forgot a comma?\n",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "ac2cc3745e37d1e5ef1ade26c0c22b74c179fe8d1d5d86bc4aa565e47738d32d",
+          "truncated": false
+        },
+        {
+          "chars": 19942,
+          "error_tail": ":\n     19             poems = value\n     20             print(f'Found poems under key: {key}')\n\nAttributeError: 'list' object has no attribute 'items'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": true,
+          "node": 7,
+          "sha256": "74f2a8ea4bfa7e84283d0e10e0ab5807bb481c826c5304702adf96f6f430ef7f",
+          "truncated": true
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "c252d7413c16ad715282e92b80ba312585d9aed714822b79f1ba9ae56d1cd31a"
+        },
+        {
+          "node": 4,
+          "sha256": "1ed6c67ac00f353228c7039095bc95c6374464c42f7ae2dea06d72e87802db18"
+        },
+        {
+          "node": 6,
+          "sha256": "f78aff2ce765b77dfd023dff32e72adae2c4628e83471ecc132487b0c7e77573"
+        },
+        {
+          "node": 8,
+          "sha256": "9623b41993921c6d3badb4cd546e45f723db478c539e8a318c20d2adc2c6eca8"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-530d9996c900aa5d7b62",
+      "reply_chars": 0,
+      "reply_head": "",
+      "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "root_actions": 4,
+      "row": 1,
+      "seed": 202609132101,
+      "status": "error",
+      "trace_errors": [
+        {
+          "message": "Error code: 400 - {'error': {'message': 'The decoder prompt (length 11232) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+          "status_code": 400,
+          "type": "ProviderError"
+        }
+      ]
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [
+        1,
+        15
+      ],
+      "body_doc_indices_raw": [
+        1,
+        15
+      ],
+      "child_actions": 0,
+      "context_sha256": "4aa36c95aff633e3804d580dc4826717838270f5fe5a98e892343afe727ee948",
+      "diagnostic_score": 0.0025499362515937103,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/9042b47601376f5b009aced5dd5c43846cb9df3c7b940a73988a9350879fe2e7.json",
+      "failure": null,
+      "gold_chars": 2321,
+      "gold_doc_indices": [
+        2
+      ],
+      "gold_sha256": "9147bd3decbca7a6751bc06603337ea7d3ac41b82f0a334bfb27717566c20c8d",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 14,
+      "observations": [
+        {
+          "chars": 522,
+          "error_tail": "    10 # Find the first short news article about elephants\n     11 first_elephant_article = None\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "7b160d09b62708100a34d89632fa1b723199e8d04e80d4cfed811a66b06f5ae9",
+          "truncated": false
+        },
+        {
+          "chars": 128,
+          "error_tail": "  Cell In[2], line 10\n    print(\\nData keys:\")\n           ^\nSyntaxError: unexpected character after line continuation character\n",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "b5d071841e00fee352ed5951d4c3419049632c245c099c5d7b12a5f9c9fc5b56",
+          "truncated": false
+        },
+        {
+          "chars": 84,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 7,
+          "sha256": "a5d565f08f94f7b35d8c0763eac1fd7fd030571cba2a5e88a2868c45f8f2d566",
+          "truncated": false
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "9760820d7d44089b1a69d72f3d62bd055eb9b2393b0fcace2b4059f8b58ae49f"
+        },
+        {
+          "node": 4,
+          "sha256": "a3eb9753a0456ce9047df97fcd7ba7556bca3066bb9acae48cd807edfa1878fd"
+        },
+        {
+          "node": 6,
+          "sha256": "5a776f1fd336160750091586d312200716bb11826c8a4ed79c086f8968c23fa5"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+      "reply_chars": 52,
+      "reply_head": "KjGzFgYlUawrite a short news article about elephants",
+      "reply_sha256": "4b468978f546b692be64191edbbe531fc35e29985f11c557d4fc008b5cca9af5",
+      "root_actions": 4,
+      "row": 14,
+      "seed": 202609132114,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "5b12a837a19eb06bd9517e36160da28fd1fc13d1cc894fdcf77ee1f01f6ff267",
+      "diagnostic_score": 0.9501632208922742,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/913d61b6937232fad25f083e5e908b43975300cdaf0946069307cc3634e0b8e1.json",
+      "failure": null,
+      "gold_chars": 2286,
+      "gold_doc_indices": [
+        4
+      ],
+      "gold_sha256": "543e35832bcfa55ad2c96846aa35e5a4d510d6aff4989c482b8ec74840eef860",
+      "literal_backslash_n": 32,
+      "longest_exact_final_span_in_intro": 16,
+      "observations": [
+        {
+          "chars": 618,
+          "error_tail": "e first short scene (assuming 'short' is a property or a condition)\n     14 for scene in scenes:\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "c845c4c1eb1d376ce7ac63b27a4fa9d819700d4b1b89f9b511ea9bf3607d9a1c",
+          "truncated": false
+        },
+        {
+          "chars": 20111,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "7500adf30e75e5c89f3db53c0bac08a787c2b6b7c50850742c8585db074695a7",
+          "truncated": true
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "1aa1296c8d71bcd8ab2f402c0f179fdf9c5209fc7a68b567e5955e37e350b8a6"
+        },
+        {
+          "node": 4,
+          "sha256": "5478d474d2781008d6e65e856e2ad45e7d0101c732e9c8bf2c88d497070de702"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-8ad4bef116ef5302ddbf",
+      "reply_chars": 2329,
+      "reply_head": "AhxdcIE7JF**Title: The Bonds That Hold**\\n\\n**Scene: A small arts and crafts studio. Sunlight filter",
+      "reply_sha256": "eb47faae9c45599e7cc35288c45e53f2d7ab0f8c0a26cd12a89d22ff0956df52",
+      "root_actions": 3,
+      "row": 7,
+      "seed": 202609132107,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "dcecd57c4cdfeca0c35a71c4c0c0e1797c8392752c4fe46ad9caaecb266eb85e",
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/acdab18668cbda90b515abaa4b65b3c03a007c30706ab10965241052c9118e98.json",
+      "failure": "model_invalid_terminal",
+      "gold_chars": 1660,
+      "gold_doc_indices": [
+        22
+      ],
+      "gold_sha256": "88a5a932414ff0351aeff9bf06c2a0041ceb2f77f427db1416e679f53ca9f1d8",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 0,
+      "observations": [],
+      "programs": [],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-f515858d24bd0388e927",
+      "reply_chars": 0,
+      "reply_head": "",
+      "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "root_actions": 1,
+      "row": 6,
+      "seed": 202609132106,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "f249e2a4c467f348fc2afea8ee20f2c327f6046befa8e53545163d6e144c223a",
+      "diagnostic_score": 0.011104256631708822,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/ae4965b38210c428242372633c716c89fadd2a412729604eba54d3bacd7ec714.json",
+      "failure": null,
+      "gold_chars": 2658,
+      "gold_doc_indices": [
+        6
+      ],
+      "gold_sha256": "464b55963007f175a9718e6cf5783295e0fe83f8f1d24b89c785ad32e2388700",
+      "literal_backslash_n": 9,
+      "longest_exact_final_span_in_intro": 12,
+      "observations": [
+        {
+          "chars": 0,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "truncated": false
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "a3fb4201bbfdf39cc02666f6c2c0b40605382c43ec4cc6898ba62b70ca777673"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-85610b95bf89de2580a6",
+      "reply_chars": 604,
+      "reply_head": "X0g7Z1vn28Dear Mr. Thompson,\\n\\nI hope this letter finds you well. I am writing to formally communic",
+      "reply_sha256": "5cea3dd401adcd71f3ade2b97917e6f1443b96eb09338e6724927f3d86f7dda3",
+      "root_actions": 2,
+      "row": 13,
+      "seed": 202609132113,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "a19528b91e0c52ff79ee07a47d0292f21c0dbf35198b71a74d3d9d53154239b3",
+      "diagnostic_score": 0.023034956556880176,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/ba3051389207ab2055c884040054b38bfec5f9f90dca2dbed1519d7a921bddfe.json",
+      "failure": null,
+      "gold_chars": 2674,
+      "gold_doc_indices": [
+        4
+      ],
+      "gold_sha256": "5fc0e406fa504177008f12afef86c2288261e15ec121c205c072ab995232439d",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 2285,
+      "observations": [
+        {
+          "chars": 643,
+          "error_tail": "there are at least two scenes, we modify the second one (1-indexed)\n     17 if len(scenes) >= 2:\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "1cca26fd20216a744a3d084566d5e9b515b5b80eece80254557caf9697be2809",
+          "truncated": false
+        },
+        {
+          "chars": 684,
+          "error_tail": " the structure is not clear, we'll assume that the scenes are stored under a key like 'scenes',\n\nAttributeError: 'list' object has no attribute 'keys'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "f1809c23e9662ffa52e73026c76c20a85991b503ddf9d8b170dfee7ae987e190",
+          "truncated": false
+        },
+        {
+          "chars": 19957,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 7,
+          "sha256": "49cfc6830f2f2e19b98b4c8374d14c4323b9a11ae11e6bdf9f377ccb19ecfa5f",
+          "truncated": true
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "dca923de089cdd25b4f204cce372ff201be70d4a2968e16259547bc1e9cd12ef"
+        },
+        {
+          "node": 4,
+          "sha256": "067498042cf3adbf114586c4d451bfeefd2927879c0e0c922f83f3f7d80798aa"
+        },
+        {
+          "node": 6,
+          "sha256": "16a9adfb6edc72efd9afafb98e5a39b7a6875e9f44040764e0c7809617fdea51"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-ef800b2a29008e4717f1",
+      "reply_chars": 2295,
+      "reply_head": "ztcvoaPgkA**Title: Ties That Bind**\n\n**Scene: A cozy, warmly lit living room adorned with wedding ph",
+      "reply_sha256": "676c5b03c2e654dccb62bf6130fece1c0bf2bb61c0e91dcd9ab0b55f5536e375",
+      "root_actions": 4,
+      "row": 8,
+      "seed": 202609132108,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "base",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "285e9836e846502d221ebc5ee4c1b8c871fdddf88d3eb41dd7ba622a2c5f4ee9",
+      "diagnostic_score": 0.039886039886039885,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/e7d1070190e62a96cdab95b4990b0e31d51a730b4a681e296f08180c479a9b2b.json",
+      "failure": null,
+      "gold_chars": 2290,
+      "gold_doc_indices": [
+        2
+      ],
+      "gold_sha256": "9fa8717e9ff178353dc159e287c881b9fd30afb7860361bf9f72e7735dafb910",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 1973,
+      "observations": [
+        {
+          "chars": 493,
+          "error_tail": " [])\n      9 \n     10 # Find the first entry about scenes (1-indexed)\n     11 scene_entry = None\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "eef6020724f6b3ba0aa66583d1cf144155979117989636fa6c9f631301225263",
+          "truncated": false
+        },
+        {
+          "chars": 576,
+          "error_tail": "ata might be a list of entries directly, extract accordingly\n     12 if isinstance(data, list):\n\nAttributeError: 'list' object has no attribute 'keys'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "bbf1a2d7999bddc5b246c7938feb10d00e218d35f5677e9ed9553bf43deba638",
+          "truncated": false
+        },
+        {
+          "chars": 19955,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 7,
+          "sha256": "a51ad72574282a5a1288e8e7f76f45487b73b1df5b9c5d7be01c4d6a0a9ca9db",
+          "truncated": true
+        }
+      ],
+      "programs": [
+        {
+          "code_inert": "import json\n\n# Read the JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Extract the diary entries\nentries = data.get('diary_entries', [])\n\n# Find the first entry about scenes (1-indexed)\nscene_entry = None\nfor i, entry in enumerate(entries, 1):\n    if 'scenes' in entry.get('content', '').lower():\n        scene_entry = entry\n        break\n\n# Prepend '6tB7cwnY9T' to the scene entry's content\nif scene_entry:\n    scene_entry['content'] = '6tB7cwnY9T' + scene_entry['content']\n\n# Output the modified content of the scene entry\nscene_entry['content']",
+          "node": 2,
+          "sha256": "1736bb1d51b71a2a8e65a9146bd2670686bcffb9eac7106dcc8ae4dc92acf21e"
+        },
+        {
+          "code_inert": "import json\n\n# Read the JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Check the structure of the data to debug\nprint(\"Data type:\", type(data))\nprint(\"Data keys:\", data.keys() if data else \"No data\")\n\n# Since the data might be a list of entries directly, extract accordingly\nif isinstance(data, list):\n    entries = data\nelse:\n    entries = data.get('diary_entries', [])\n\n# Find the first entry about scenes (1-indexed)\nscene_entry = None\nfor i, entry in enumerate(entries, 1):\n    if 'scenes' in str(entry).lower():\n        scene_entry = entry\n        break\n\n# Prepend '6tB7cwnY9T' to the scene entry's content\nif scene_entry:\n    # Ensure scene_entry has a content field\n    if isinstance(scene_entry, dict) and 'content' in scene_entry:\n        scene_entry['content'] = '6tB7cwnY9T' + scene_entry['content']\n    else:\n        scene_entry = '6tB7cwnY9T' + str(scene_entry)\n\n# Output the modified content of the scene entry\nscene_entry",
+          "node": 4,
+          "sha256": "0010f0e843355c89e0626166dee15b9988175dfeded7f305c799b3435943bd81"
+        },
+        {
+          "code_inert": "import json\n\n# Read the JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Check the structure of the data to debug\nprint(\"Data type:\", type(data))\n\nif isinstance(data, list):\n    print(\"Data is a list. First few entries:\", data[:3])\nelse:\n    print(\"Data is a dict. Keys:\", data.keys())\n    print(\"First few entries (if present):\", data.get('diary_entries', [])[:3])\n\n# Extract entries\nentries = data if isinstance(data, list) else data.get('diary_entries', [])\n\n# Find the first entry about scenes (1-indexed)\nscene_entry = None\nfor i, entry in enumerate(entries, 1):\n    if isinstance(entry, dict) and ('scenes' in str(entry).lower() or 'scene' in str(entry).lower()):\n        scene_entry = entry\n        break\n\n# Prepend '6tB7cwnY9T' to the scene entry's content\nif scene_entry:\n    if isinstance(scene_entry, dict) and 'content' in scene_entry:\n        scene_entry['content'] = '6tB7cwnY9T' + scene_entry['content']\n    else:\n        scene_entry = '6tB7cwnY9T' + str(scene_entry)\n\n# Output the modified content of the scene entry\nscene_entry",
+          "node": 6,
+          "sha256": "71a50471799d54e9f30c6a713c3990ff409ca4f7fc1d507320f88425967383de"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-2568744ab02d7c2786c8",
+      "reply_chars": 2293,
+      "reply_head": "6tB7cwnY9T**Title: Ties That Bind**\n\n**Scene: A cozy, warmly lit living room adorned with wedding ph",
+      "reply_sha256": "230ea13a477cc7142c839a62343ce4ec20731b9331f08b8182bbf3ace0cfef1f",
+      "root_actions": 4,
+      "row": 12,
+      "seed": 202609132112,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-5",
+      "available": false,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "2a0daa06fb12493937de2aadd75115e17202d878df724f11fa52c762d3497287",
+      "diagnostic_score": null,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/7567642bdd0d54a5833fbaf373055492dd871967bfbe2309ffee20483030da4a.json",
+      "failure": "infrastructure_unavailable",
+      "gold_chars": 934,
+      "gold_doc_indices": [
+        8
+      ],
+      "gold_sha256": "d00486f0aa59f3bb07713380fccee6721b2a4754a069b4dede8797213f1a33e6",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 0,
+      "observations": [
+        {
+          "chars": 566,
+          "error_tail": "ming it's the second one by index)\n     11 relations_poem = poems[1] if len(poems) > 1 else None\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "3af306451301aaae2136d06c5b54ae0585e580aa3c4b1dc760f26b888e4ee3bd",
+          "truncated": false
+        },
+        {
+          "chars": 175,
+          "error_tail": " print('No key 'poems' found in data. Looking for poems in other structures...')\n          ^\nSyntaxError: invalid syntax. Perhaps you forgot a comma?\n",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "ac2cc3745e37d1e5ef1ade26c0c22b74c179fe8d1d5d86bc4aa565e47738d32d",
+          "truncated": false
+        },
+        {
+          "chars": 19942,
+          "error_tail": ":\n     19             poems = value\n     20             print(f'Found poems under key: {key}')\n\nAttributeError: 'list' object has no attribute 'items'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": true,
+          "node": 7,
+          "sha256": "74f2a8ea4bfa7e84283d0e10e0ab5807bb481c826c5304702adf96f6f430ef7f",
+          "truncated": true
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "c252d7413c16ad715282e92b80ba312585d9aed714822b79f1ba9ae56d1cd31a"
+        },
+        {
+          "node": 4,
+          "sha256": "1ed6c67ac00f353228c7039095bc95c6374464c42f7ae2dea06d72e87802db18"
+        },
+        {
+          "node": 6,
+          "sha256": "f78aff2ce765b77dfd023dff32e72adae2c4628e83471ecc132487b0c7e77573"
+        },
+        {
+          "node": 8,
+          "sha256": "9623b41993921c6d3badb4cd546e45f723db478c539e8a318c20d2adc2c6eca8"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-530d9996c900aa5d7b62",
+      "reply_chars": 0,
+      "reply_head": "",
+      "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "root_actions": 4,
+      "row": 1,
+      "seed": 202609132101,
+      "status": "error",
+      "trace_errors": [
+        {
+          "message": "Error code: 400 - {'error': {'message': 'The decoder prompt (length 11232) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+          "status_code": 400,
+          "type": "ProviderError"
+        }
+      ]
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "4aa36c95aff633e3804d580dc4826717838270f5fe5a98e892343afe727ee948",
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/9042b47601376f5b009aced5dd5c43846cb9df3c7b940a73988a9350879fe2e7.json",
+      "failure": "model_finite_horizon",
+      "gold_chars": 2321,
+      "gold_doc_indices": [
+        2
+      ],
+      "gold_sha256": "9147bd3decbca7a6751bc06603337ea7d3ac41b82f0a334bfb27717566c20c8d",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 0,
+      "observations": [
+        {
+          "chars": 522,
+          "error_tail": "    10 # Find the first short news article about elephants\n     11 first_elephant_article = None\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "7b160d09b62708100a34d89632fa1b723199e8d04e80d4cfed811a66b06f5ae9",
+          "truncated": false
+        },
+        {
+          "chars": 128,
+          "error_tail": "  Cell In[2], line 10\n    print(\\nData keys:\")\n           ^\nSyntaxError: unexpected character after line continuation character\n",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "b5d071841e00fee352ed5951d4c3419049632c245c099c5d7b12a5f9c9fc5b56",
+          "truncated": false
+        },
+        {
+          "chars": 128,
+          "error_tail": "  Cell In[3], line 10\n    print(\\nData keys:\")\n           ^\nSyntaxError: unexpected character after line continuation character\n",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 7,
+          "sha256": "dd3b53de660576ce73a9f81ae29bf9888ac37bf739a80105423c860581c25bf8",
+          "truncated": false
+        },
+        {
+          "chars": 128,
+          "error_tail": "  Cell In[4], line 10\n    print(\\nData keys:\")\n           ^\nSyntaxError: unexpected character after line continuation character\n",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 9,
+          "sha256": "b78d1680bae0520aad1997dd8bd5a89751b5f67d2fd2a49252794b0dc612b4ed",
+          "truncated": false
+        },
+        {
+          "chars": 128,
+          "error_tail": "  Cell In[5], line 10\n    print(\\nData keys:\")\n           ^\nSyntaxError: unexpected character after line continuation character\n",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 11,
+          "sha256": "50ea1e3d409b39fb00f9312605ccdaf2ffbec35e880be887665635ff417caa5f",
+          "truncated": false
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "9760820d7d44089b1a69d72f3d62bd055eb9b2393b0fcace2b4059f8b58ae49f"
+        },
+        {
+          "node": 4,
+          "sha256": "4b5f605c5f30efe70a0bd7b8b1a4792f7658e1f8d489a44dfa2e27ac80def494"
+        },
+        {
+          "node": 6,
+          "sha256": "4b5f605c5f30efe70a0bd7b8b1a4792f7658e1f8d489a44dfa2e27ac80def494"
+        },
+        {
+          "node": 8,
+          "sha256": "4b5f605c5f30efe70a0bd7b8b1a4792f7658e1f8d489a44dfa2e27ac80def494"
+        },
+        {
+          "node": 10,
+          "sha256": "4b5f605c5f30efe70a0bd7b8b1a4792f7658e1f8d489a44dfa2e27ac80def494"
+        },
+        {
+          "node": 12,
+          "sha256": "a183816135a2d38c052c474dcc17da2babcd5e77fcec585ee4d90fbaa8ab1405"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+      "reply_chars": 0,
+      "reply_head": "",
+      "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "root_actions": 6,
+      "row": 14,
+      "seed": 202609132114,
+      "status": "max_turns",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "5b12a837a19eb06bd9517e36160da28fd1fc13d1cc894fdcf77ee1f01f6ff267",
+      "diagnostic_score": 0.9928026172300981,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/913d61b6937232fad25f083e5e908b43975300cdaf0946069307cc3634e0b8e1.json",
+      "failure": null,
+      "gold_chars": 2286,
+      "gold_doc_indices": [
+        4
+      ],
+      "gold_sha256": "543e35832bcfa55ad2c96846aa35e5a4d510d6aff4989c482b8ec74840eef860",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 16,
+      "observations": [
+        {
+          "chars": 618,
+          "error_tail": "e first short scene (assuming 'short' is a property or a condition)\n     14 for scene in scenes:\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "c845c4c1eb1d376ce7ac63b27a4fa9d819700d4b1b89f9b511ea9bf3607d9a1c",
+          "truncated": false
+        },
+        {
+          "chars": 20047,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": true,
+          "node": 5,
+          "sha256": "39570257b37ace0033b915b1ede25d7179ad4ccc9b8ab005b3aa18d8495a4135",
+          "truncated": true
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "1aa1296c8d71bcd8ab2f402c0f179fdf9c5209fc7a68b567e5955e37e350b8a6"
+        },
+        {
+          "node": 4,
+          "sha256": "f2fb4ba5206188dfc51894967955a26e7735dec32ea90b4b059fa30107123970"
+        }
+      ],
+      "raw_edit_operations": [
+        {
+          "expected": "",
+          "returned": "---  \n",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": " ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        },
+        {
+          "expected": "",
+          "returned": "  ",
+          "tag": "insert"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-8ad4bef116ef5302ddbf",
+      "reply_chars": 2319,
+      "reply_head": "AhxdcIE7JF**Title: The Bonds That Hold**\n\n**Scene: A small arts and crafts studio. Sunlight filters ",
+      "reply_sha256": "91932bc92b5d159e2e4a147837d83ec4ff081a13cb83a8c16ec41da5b09b12a0",
+      "root_actions": 3,
+      "row": 7,
+      "seed": 202609132107,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "dcecd57c4cdfeca0c35a71c4c0c0e1797c8392752c4fe46ad9caaecb266eb85e",
+      "diagnostic_score": 0.18869994514536478,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/acdab18668cbda90b515abaa4b65b3c03a007c30706ab10965241052c9118e98.json",
+      "failure": null,
+      "gold_chars": 1660,
+      "gold_doc_indices": [
+        22
+      ],
+      "gold_sha256": "88a5a932414ff0351aeff9bf06c2a0041ceb2f77f427db1416e679f53ca9f1d8",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 9,
+      "observations": [
+        {
+          "chars": 663,
+          "error_tail": "gs if 'futures' in song.get('title', '').lower() or 'futures' in song.get('lyrics', '').lower()]\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "9133f831e92288930693946d25110e7cd5a69e001b39b744027b5a815797b999",
+          "truncated": false
+        },
+        {
+          "chars": 20113,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "36f062985d53ee86635267597224ffafaa00beac68c07c03b5e4292582f00a4e",
+          "truncated": true
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "04bd8ad9f7491aad0965cf9b9d16d0486d4d36b25c69010d9dd82d8568da164c"
+        },
+        {
+          "node": 4,
+          "sha256": "8d667251b101eb233a36b16eaff9ec9c020c266b27a50acecd6556510c06c5c0"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-f515858d24bd0388e927",
+      "reply_chars": 183,
+      "reply_head": "pr9HwcpFiIFutures unfolding, like petals in bloom, A tapestry woven from now ‘til our doom. We’re ar",
+      "reply_sha256": "71c574364861b3264328c80a1a41a2140cffdaa9c339f3010ceb35b9d4c55d60",
+      "root_actions": 3,
+      "row": 6,
+      "seed": 202609132106,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "f249e2a4c467f348fc2afea8ee20f2c327f6046befa8e53545163d6e144c223a",
+      "diagnostic_score": 0.004109186968007044,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/ae4965b38210c428242372633c716c89fadd2a412729604eba54d3bacd7ec714.json",
+      "failure": null,
+      "gold_chars": 2658,
+      "gold_doc_indices": [
+        6
+      ],
+      "gold_sha256": "464b55963007f175a9718e6cf5783295e0fe83f8f1d24b89c785ad32e2388700",
+      "literal_backslash_n": 12,
+      "longest_exact_final_span_in_intro": 12,
+      "observations": [
+        {
+          "chars": 0,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "truncated": false
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "a3fb4201bbfdf39cc02666f6c2c0b40605382c43ec4cc6898ba62b70ca777673"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-85610b95bf89de2580a6",
+      "reply_chars": 769,
+      "reply_head": "X0g7Z1vn28Dear Mr. Thompson,\\n\\nI hope this letter finds you well. I am writing to formally communic",
+      "reply_sha256": "89c10cb0d2869ba61f7a10058fa93e5f9610629a3a9ba797d015c92de5bf8ea8",
+      "root_actions": 2,
+      "row": 13,
+      "seed": 202609132113,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "a19528b91e0c52ff79ee07a47d0292f21c0dbf35198b71a74d3d9d53154239b3",
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/ba3051389207ab2055c884040054b38bfec5f9f90dca2dbed1519d7a921bddfe.json",
+      "failure": "model_invalid_terminal",
+      "gold_chars": 2674,
+      "gold_doc_indices": [
+        4
+      ],
+      "gold_sha256": "5fc0e406fa504177008f12afef86c2288261e15ec121c205c072ab995232439d",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 0,
+      "observations": [],
+      "programs": [],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-ef800b2a29008e4717f1",
+      "reply_chars": 0,
+      "reply_head": "",
+      "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "root_actions": 1,
+      "row": 8,
+      "seed": 202609132108,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-5",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "285e9836e846502d221ebc5ee4c1b8c871fdddf88d3eb41dd7ba622a2c5f4ee9",
+      "diagnostic_score": 0.008043973723019172,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/e7d1070190e62a96cdab95b4990b0e31d51a730b4a681e296f08180c479a9b2b.json",
+      "failure": null,
+      "gold_chars": 2290,
+      "gold_doc_indices": [
+        2
+      ],
+      "gold_sha256": "9fa8717e9ff178353dc159e287c881b9fd30afb7860361bf9f72e7735dafb910",
+      "literal_backslash_n": 1465,
+      "longest_exact_final_span_in_intro": 2286,
+      "observations": [
+        {
+          "chars": 493,
+          "error_tail": " [])\n      9 \n     10 # Find the first entry about scenes (1-indexed)\n     11 scene_entry = None\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "eef6020724f6b3ba0aa66583d1cf144155979117989636fa6c9f631301225263",
+          "truncated": false
+        },
+        {
+          "chars": 588,
+          "error_tail": "t have 'diary_entries' directly, let's explore the structure\n     12 if isinstance(data, dict):\n\nAttributeError: 'list' object has no attribute 'keys'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "15f9dc62718b7795fcc7a305cffb3b6a4cb5e6fb1d80cd63857751cb87dae257",
+          "truncated": false
+        },
+        {
+          "chars": 12820,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 7,
+          "sha256": "8337df86118f985140cdec992487e060627772b15158dda14f9030ff810845f5",
+          "truncated": false
+        }
+      ],
+      "programs": [
+        {
+          "code_inert": "import json\n\n# Read the JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Extract the diary entries\nentries = data.get('diary_entries', [])\n\n# Find the first entry about scenes (1-indexed)\nscene_entry = None\nfor i, entry in enumerate(entries, 1):\n    if 'scenes' in entry.get('content', '').lower():\n        scene_entry = entry\n        break\n\n# Prepend '6tB7cwnY9T' to the scene entry's content\nif scene_entry:\n    scene_entry['content'] = '6tB7cwnY9T' + scene_entry['content']\n\n# Output the modified content of the scene entry\nscene_entry['content']",
+          "node": 2,
+          "sha256": "1736bb1d51b71a2a8e65a9146bd2670686bcffb9eac7106dcc8ae4dc92acf21e"
+        },
+        {
+          "code_inert": "import json\n\n# Read the JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Check the structure of the data to debug\nprint(\"Data type:\", type(data))\nprint(\"Data keys:\", data.keys() if data else \"No data\")\n\n# Since the data might not have 'diary_entries' directly, let's explore the structure\nif isinstance(data, dict):\n    print(\"Possible nested structure:\")\n    for key, value in data.items():\n        print(f\"  {key}: {type(value)}\")\nelse:\n    print(\"Data is not a dictionary, structure is unexpected.\")",
+          "node": 4,
+          "sha256": "2a2e4106a2a9ad6a826be5f5ba3d4c69b72a6aaac8567c48ec422ee843b40035"
+        },
+        {
+          "code_inert": "import json\n\n# Read the JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Data is a list, so we need to inspect its elements\nprint(\"Data type:\", type(data))\nprint(\"First element type:\", type(data[0]))\n\n# Inspect the first element to understand its structure\nif data:\n    first_element = data[0]\n    print(\"First element:\", first_element)\n    print(\"Keys in first element (if dict):\", first_element.keys() if isinstance(first_element, dict) else \"Not a dictionary\")\nelse:\n    print(\"Data is empty\")",
+          "node": 6,
+          "sha256": "f84b1ef8265d4e8600aef31c586dbdd419502e0e377908ce4b7f9e964f21c8ab"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-2568744ab02d7c2786c8",
+      "reply_chars": 5189,
+      "reply_head": "6tB7cwnY9T**Title: Ties That Bind**\\n\\n**Scene: A cozy, warmly lit living room adorned with wedding ",
+      "reply_sha256": "a9ecac8ce673e0acebd6e9cffc1b5f965e72d354f3f340853e0e868a46e15850",
+      "root_actions": 4,
+      "row": 12,
+      "seed": 202609132112,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-4",
+      "available": false,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "2a0daa06fb12493937de2aadd75115e17202d878df724f11fa52c762d3497287",
+      "diagnostic_score": null,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/7567642bdd0d54a5833fbaf373055492dd871967bfbe2309ffee20483030da4a.json",
+      "failure": "infrastructure_unavailable",
+      "gold_chars": 934,
+      "gold_doc_indices": [
+        8
+      ],
+      "gold_sha256": "d00486f0aa59f3bb07713380fccee6721b2a4754a069b4dede8797213f1a33e6",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 0,
+      "observations": [
+        {
+          "chars": 566,
+          "error_tail": "ming it's the second one by index)\n     11 relations_poem = poems[1] if len(poems) > 1 else None\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "3af306451301aaae2136d06c5b54ae0585e580aa3c4b1dc760f26b888e4ee3bd",
+          "truncated": false
+        },
+        {
+          "chars": 175,
+          "error_tail": " print('No key 'poems' found in data. Looking for poems in other structures...')\n          ^\nSyntaxError: invalid syntax. Perhaps you forgot a comma?\n",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "ac2cc3745e37d1e5ef1ade26c0c22b74c179fe8d1d5d86bc4aa565e47738d32d",
+          "truncated": false
+        },
+        {
+          "chars": 19942,
+          "error_tail": ":\n     19             poems = value\n     20             print(f'Found poems under key: {key}')\n\nAttributeError: 'list' object has no attribute 'items'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": true,
+          "node": 7,
+          "sha256": "74f2a8ea4bfa7e84283d0e10e0ab5807bb481c826c5304702adf96f6f430ef7f",
+          "truncated": true
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "c252d7413c16ad715282e92b80ba312585d9aed714822b79f1ba9ae56d1cd31a"
+        },
+        {
+          "node": 4,
+          "sha256": "1ed6c67ac00f353228c7039095bc95c6374464c42f7ae2dea06d72e87802db18"
+        },
+        {
+          "node": 6,
+          "sha256": "f78aff2ce765b77dfd023dff32e72adae2c4628e83471ecc132487b0c7e77573"
+        },
+        {
+          "node": 8,
+          "sha256": "9623b41993921c6d3badb4cd546e45f723db478c539e8a318c20d2adc2c6eca8"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-530d9996c900aa5d7b62",
+      "reply_chars": 0,
+      "reply_head": "",
+      "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "root_actions": 4,
+      "row": 1,
+      "seed": 202609132101,
+      "status": "error",
+      "trace_errors": [
+        {
+          "message": "Error code: 400 - {'error': {'message': 'The decoder prompt (length 11232) is longer than the maximum model length of 8192. Make sure that `max_model_len` is no smaller than the number of text tokens.', 'type': 'BadRequestError', 'param': None, 'code': 400}}",
+          "status_code": 400,
+          "type": "ProviderError"
+        }
+      ]
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [
+        16
+      ],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "4aa36c95aff633e3804d580dc4826717838270f5fe5a98e892343afe727ee948",
+      "diagnostic_score": 0.04056970220112214,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/9042b47601376f5b009aced5dd5c43846cb9df3c7b940a73988a9350879fe2e7.json",
+      "failure": null,
+      "gold_chars": 2321,
+      "gold_doc_indices": [
+        2
+      ],
+      "gold_sha256": "9147bd3decbca7a6751bc06603337ea7d3ac41b82f0a334bfb27717566c20c8d",
+      "literal_backslash_n": 20,
+      "longest_exact_final_span_in_intro": 15,
+      "observations": [
+        {
+          "chars": 522,
+          "error_tail": "    10 # Find the first short news article about elephants\n     11 first_elephant_article = None\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "7b160d09b62708100a34d89632fa1b723199e8d04e80d4cfed811a66b06f5ae9",
+          "truncated": false
+        },
+        {
+          "chars": 20112,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "b6193d5835e805001c3ed389788503d657af3c70aeb85d25a4bb9c61296987e5",
+          "truncated": true
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "9760820d7d44089b1a69d72f3d62bd055eb9b2393b0fcace2b4059f8b58ae49f"
+        },
+        {
+          "node": 4,
+          "sha256": "a8c78872b714e13ddbf703fb966c230a05a2cfb10236f0c6934a225f78534f0d"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-1d3d4a8e09d8c93bfbdf",
+      "reply_chars": 2333,
+      "reply_head": "KjGzFgYlUa**Title: Elephant Populations Show Signs of Recovery in Various Regions**\\n\\n*Date: Novemb",
+      "reply_sha256": "a2ea65b073f3eeb47ea2b2de9bc90c6f38babba4cb80a761f424aa6dd481eeea",
+      "root_actions": 3,
+      "row": 14,
+      "seed": 202609132114,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "5b12a837a19eb06bd9517e36160da28fd1fc13d1cc894fdcf77ee1f01f6ff267",
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/913d61b6937232fad25f083e5e908b43975300cdaf0946069307cc3634e0b8e1.json",
+      "failure": "model_invalid_terminal",
+      "gold_chars": 2286,
+      "gold_doc_indices": [
+        4
+      ],
+      "gold_sha256": "543e35832bcfa55ad2c96846aa35e5a4d510d6aff4989c482b8ec74840eef860",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 0,
+      "observations": [],
+      "programs": [],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-8ad4bef116ef5302ddbf",
+      "reply_chars": 0,
+      "reply_head": "",
+      "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "root_actions": 1,
+      "row": 7,
+      "seed": 202609132107,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "dcecd57c4cdfeca0c35a71c4c0c0e1797c8392752c4fe46ad9caaecb266eb85e",
+      "diagnostic_score": 0,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/acdab18668cbda90b515abaa4b65b3c03a007c30706ab10965241052c9118e98.json",
+      "failure": "model_invalid_terminal",
+      "gold_chars": 1660,
+      "gold_doc_indices": [
+        22
+      ],
+      "gold_sha256": "88a5a932414ff0351aeff9bf06c2a0041ceb2f77f427db1416e679f53ca9f1d8",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 0,
+      "observations": [],
+      "programs": [],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-f515858d24bd0388e927",
+      "reply_chars": 0,
+      "reply_head": "",
+      "reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "root_actions": 1,
+      "row": 6,
+      "seed": 202609132106,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "f249e2a4c467f348fc2afea8ee20f2c327f6046befa8e53545163d6e144c223a",
+      "diagnostic_score": 0.02296603957977034,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/ae4965b38210c428242372633c716c89fadd2a412729604eba54d3bacd7ec714.json",
+      "failure": null,
+      "gold_chars": 2658,
+      "gold_doc_indices": [
+        6
+      ],
+      "gold_sha256": "464b55963007f175a9718e6cf5783295e0fe83f8f1d24b89c785ad32e2388700",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 27,
+      "observations": [
+        {
+          "chars": 609,
+          "error_tail": " we have the correct letter (1st formal letter about planning)\n     11 if formal_letters:\n\nTypeError: list indices must be integers or slices, not str",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "9b717c298606d150fd701769c22978886af06faec42a31ca4d6c59d654e14db7",
+          "truncated": false
+        },
+        {
+          "chars": 561,
+          "error_tail": "    13 # If data is a list, we may need to adjust the search\n     14 if isinstance(data, list):\n\nAttributeError: 'list' object has no attribute 'keys'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "a704b77a8c73588f46d4e4c9f5cacb9507ae206d6d610d8518af0d16fc702880",
+          "truncated": false
+        },
+        {
+          "chars": 14683,
+          "error_tail": null,
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 7,
+          "sha256": "4ffdaea282e7985d60fab9e0e2f013a4e38c96edea24442cb6d10c141d821146",
+          "truncated": false
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "f352b98a5d0439766ddcdd451eb58528a33fdf3cd545fdf2f57375c199851eb7"
+        },
+        {
+          "node": 4,
+          "sha256": "7300c5fbafe312fd9186ee3afd878eb86ae2fe5abfccc8b31d4dade4cb5f6b58"
+        },
+        {
+          "node": 6,
+          "sha256": "391775f12131480296cd1c42c5f74c128e4f6e51e1d725314b4b4a8c9895b7c0"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-85610b95bf89de2580a6",
+      "reply_chars": 1455,
+      "reply_head": "X0g7Z1vn28Dear Sir or Madam,\n\nI am writing to formally express my interest in the upcoming planning ",
+      "reply_sha256": "6c0bf9e650f3eadcdc64fb5eec44c4e22926a6b9724f4958c5857e82d35ea53c",
+      "root_actions": 4,
+      "row": 13,
+      "seed": 202609132113,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [
+        2
+      ],
+      "body_doc_indices_raw": [],
+      "child_actions": 0,
+      "context_sha256": "a19528b91e0c52ff79ee07a47d0292f21c0dbf35198b71a74d3d9d53154239b3",
+      "diagnostic_score": 0.027117229870671673,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/ba3051389207ab2055c884040054b38bfec5f9f90dca2dbed1519d7a921bddfe.json",
+      "failure": null,
+      "gold_chars": 2674,
+      "gold_doc_indices": [
+        4
+      ],
+      "gold_sha256": "5fc0e406fa504177008f12afef86c2288261e15ec121c205c072ab995232439d",
+      "literal_backslash_n": 40,
+      "longest_exact_final_span_in_intro": 17,
+      "observations": [
+        {
+          "chars": 636,
+          "error_tail": "nes', [])\n     15 \n     16 # Check if there are at least two scenes\n     17 if len(scenes) >= 2:\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "6e0bcb3152ae0f8af1b9914cf646b794a171a2d39b8699367d226ba570657f71",
+          "truncated": false
+        },
+        {
+          "chars": 679,
+          "error_tail": "or example, the scenes might be in a list under a key like 'play', 'scenes_list', or 'content'.\n\nAttributeError: 'list' object has no attribute 'keys'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 5,
+          "sha256": "0927acbfbbee82739a0be22debc91dca70baa2bb7955c94c7ce786398aacf4db",
+          "truncated": false
+        },
+        {
+          "chars": 15476,
+          "error_tail": " 18     print(modified_scene)\n     19 else:\n     20     print('Not enough scenes to modify.')\n\nTypeError: can only concatenate str (not \"dict\") to str",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 7,
+          "sha256": "c37fef4b8256cd0653817eaaaf412dc75b6d1044596fe2a2e6c5e0d6c2fdaf50",
+          "truncated": false
+        }
+      ],
+      "programs": [
+        {
+          "node": 2,
+          "sha256": "5f3466ab281fe6995330fdfe8e364786d49e277040f4c1b109cc44dabbdcc50c"
+        },
+        {
+          "node": 4,
+          "sha256": "a8e7b4a11fa134034846bb5a3dbc6a30654d1354a1ba7da36b1fc99d9ff2b85f"
+        },
+        {
+          "node": 6,
+          "sha256": "d135bbd80aff9b63826815e59327b3ca8da52bc787d861e1428ec3e29a3868e1"
+        }
+      ],
+      "raw_exact_independent": false,
+      "record_id": "omrcr-ef800b2a29008e4717f1",
+      "reply_chars": 2140,
+      "reply_head": "ztcvoaPgkA**Title: Shell Games**\\n\\n---\\n\\n**Scene 1: The Kitchen of an Urban Apartment**\\n\\n*The st",
+      "reply_sha256": "d8758ec98d40db00ae1b628daa47ae6f928e076f943737d84690de02f19db2b3",
+      "root_actions": 4,
+      "row": 8,
+      "seed": 202609132108,
+      "status": "agent_completed",
+      "trace_errors": []
+    },
+    {
+      "arm": "lr1e-4",
+      "available": true,
+      "body_doc_indices_after_newlines_and_trailing_quote_DIAGNOSTIC_ONLY": [
+        2
+      ],
+      "body_doc_indices_raw": [
+        2
+      ],
+      "child_actions": 0,
+      "context_sha256": "285e9836e846502d221ebc5ee4c1b8c871fdddf88d3eb41dd7ba622a2c5f4ee9",
+      "diagnostic_score": 1,
+      "episode_path": "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/e7d1070190e62a96cdab95b4990b0e31d51a730b4a681e296f08180c479a9b2b.json",
+      "failure": null,
+      "gold_chars": 2290,
+      "gold_doc_indices": [
+        2
+      ],
+      "gold_sha256": "9fa8717e9ff178353dc159e287c881b9fd30afb7860361bf9f72e7735dafb910",
+      "literal_backslash_n": 0,
+      "longest_exact_final_span_in_intro": 18,
+      "observations": [
+        {
+          "chars": 493,
+          "error_tail": " [])\n      9 \n     10 # Find the first entry about scenes (1-indexed)\n     11 scene_entry = None\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": false,
+          "node": 3,
+          "sha256": "eef6020724f6b3ba0aa66583d1cf144155979117989636fa6c9f631301225263",
+          "truncated": false
+        },
+        {
+          "chars": 18051,
+          "error_tail": "y_entries' is not present, check if it's nested or under a different key\n     14 if not entries:\n\nAttributeError: 'list' object has no attribute 'get'",
+          "full_target_raw_in_observation": false,
+          "full_target_repr_in_observation": true,
+          "node": 5,
+          "sha256": "c44b9a18f27b3aa2673d6017b8e037bbe559aa5f13a1f28cad4b33fd74118d40",
+          "truncated": false
+        }
+      ],
+      "programs": [
+        {
+          "code_inert": "import json\n\n# Read the JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Extract the diary entries\nentries = data.get('diary_entries', [])\n\n# Find the first entry about scenes (1-indexed)\nscene_entry = None\nfor i, entry in enumerate(entries, 1):\n    if 'scenes' in entry.get('content', '').lower():\n        scene_entry = entry\n        break\n\n# Prepend '6tB7cwnY9T' to the scene entry's content\nif scene_entry:\n    scene_entry['content'] = '6tB7cwnY9T' + scene_entry['content']\n\n# Output the modified content of the scene entry\nscene_entry['content']",
+          "node": 2,
+          "sha256": "1736bb1d51b71a2a8e65a9146bd2670686bcffb9eac7106dcc8ae4dc92acf21e"
+        },
+        {
+          "code_inert": "import json\n\n# Read the JSON file\nwith open('/context.json', 'r') as file:\n    data = json.load(file)\n\n# Check the structure of the data to debug\nprint(\"Data structure:\", data)\n\n# Extract the diary entries (assuming 'diary_entries' is a list)\nentries = data.get('diary_entries', [])\n\n# If 'diary_entries' is not present, check if it's nested or under a different key\nif not entries:\n    # Try to find a list of entries under a different key\n    for key, value in data.items():\n        if isinstance(value, list) and any('scenes' in str(item).lower() for item in value):\n            entries = value\n            break\n\n# Find the first entry about scenes (1-indexed)\nscene_entry = None\nfor i, entry in enumerate(entries, 1):\n    if 'scenes' in str(entry.get('content', '')).lower():\n        scene_entry = entry\n        break\n\n# Prepend '6tB7cwnY9T' to the scene entry's content\nif scene_entry:\n    scene_entry['content'] = '6tB7cwnY9T' + scene_entry['content']\n\n# Output the modified content of the scene entry\nscene_entry['content']",
+          "node": 4,
+          "sha256": "37e8e95118725c058a63e30a4b4cf2c70414b25a3573efd2d5ce9b911ea4a18a"
+        }
+      ],
+      "raw_exact_independent": true,
+      "record_id": "omrcr-2568744ab02d7c2786c8",
+      "reply_chars": 2290,
+      "reply_head": "6tB7cwnY9T**Date: October 17, 2023**\n\n**Dear Diary,**\n\nToday has been a day richly painted with scen",
+      "reply_sha256": "9fa8717e9ff178353dc159e287c881b9fd30afb7860361bf9f72e7735dafb910",
+      "root_actions": 3,
+      "row": 12,
+      "seed": 202609132112,
+      "status": "agent_completed",
+      "trace_errors": []
+    }
+  ],
+  "source_root": "/project/alex_phd/runs/rlm-research-r4",
+  "source_sha256": {
+    "sidecars/openai-mrcr-short-root-shaped-eval-v1/inputs/held/HOST_GOLD.json": "06efb44edefad12a920ef10d7c9db826778706d773989b03ee1fbf85084c98ff",
+    "sidecars/openai-mrcr-short-root-shaped-eval-v1/inputs/held/contexts/285e9836e846502d221ebc5ee4c1b8c871fdddf88d3eb41dd7ba622a2c5f4ee9.json": "285e9836e846502d221ebc5ee4c1b8c871fdddf88d3eb41dd7ba622a2c5f4ee9",
+    "sidecars/openai-mrcr-short-root-shaped-eval-v1/inputs/held/contexts/2a0daa06fb12493937de2aadd75115e17202d878df724f11fa52c762d3497287.json": "2a0daa06fb12493937de2aadd75115e17202d878df724f11fa52c762d3497287",
+    "sidecars/openai-mrcr-short-root-shaped-eval-v1/inputs/held/contexts/4aa36c95aff633e3804d580dc4826717838270f5fe5a98e892343afe727ee948.json": "4aa36c95aff633e3804d580dc4826717838270f5fe5a98e892343afe727ee948",
+    "sidecars/openai-mrcr-short-root-shaped-eval-v1/inputs/held/contexts/5b12a837a19eb06bd9517e36160da28fd1fc13d1cc894fdcf77ee1f01f6ff267.json": "5b12a837a19eb06bd9517e36160da28fd1fc13d1cc894fdcf77ee1f01f6ff267",
+    "sidecars/openai-mrcr-short-root-shaped-eval-v1/inputs/held/contexts/a19528b91e0c52ff79ee07a47d0292f21c0dbf35198b71a74d3d9d53154239b3.json": "a19528b91e0c52ff79ee07a47d0292f21c0dbf35198b71a74d3d9d53154239b3",
+    "sidecars/openai-mrcr-short-root-shaped-eval-v1/inputs/held/contexts/dcecd57c4cdfeca0c35a71c4c0c0e1797c8392752c4fe46ad9caaecb266eb85e.json": "dcecd57c4cdfeca0c35a71c4c0c0e1797c8392752c4fe46ad9caaecb266eb85e",
+    "sidecars/openai-mrcr-short-root-shaped-eval-v1/inputs/held/contexts/f249e2a4c467f348fc2afea8ee20f2c327f6046befa8e53545163d6e144c223a.json": "f249e2a4c467f348fc2afea8ee20f2c327f6046befa8e53545163d6e144c223a",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/CPU_READY_V4.json": "fb703d787841976e04a016e69e95841e1aa1ab4003840b0d4afb2cd0f8a0c65d",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/OWNER_TERMINAL.json": "a5ec12ddcee31f9b2d862984319075e740bf2a684de97cdc9c9b7ea1b6643f49",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/RESULT.json": "eccf10b23d9dc4e0dfd3832d7319a496c96cf3f5f9547b658f3ec55b1c9b4863",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/01acd9e3debe604652fcbf21034b2d7847f4240ee7d51019fa2bca640107dddc.json": "6f69947703bd0b5033197f54c9c36609a1f9869e3f3f2d8a6c25f3ff6d7f2c32",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/2efdbb7e34f6623860f8d1b56f042419ac7d0c4d8b4d3dc81c8bd94b2ec5e27f.json": "cb0ba3dc3b267be1e15b17622f2619fb012822ba18a1bd5cbb3629407a951ee5",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/332616c2d5c8d08c77820cb0d92be60da732ef562630b5e53e3ce82443ce1294.json": "f5d76f9b6b279464034d81fac6da4c397e56c03cf62be09ba18b7c6e27a91f2b",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/70897e455bca9b5ff4723b2f400b706db619c88f021075b4067512e5c259c872.json": "e3da2033385e6c0c48b5e9be6dc95960fe5bfa699b21c556953f54748d03ff73",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/7567642bdd0d54a5833fbaf373055492dd871967bfbe2309ffee20483030da4a.json": "467cfa7cc31c6091e112cacf2876566830ba379e95cb55984d48356439ac74b5",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/83ad552646e94bc46d8631142bb2e5deebe4e5bb5f58c432572dc429f4617084.json": "481be68b600b592c4f38afa571def03e12e87f387d81376d940d6fad2c5d79b6",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/9042b47601376f5b009aced5dd5c43846cb9df3c7b940a73988a9350879fe2e7.json": "442e09625a05219e6d2731e4845019111db013ccc3fd567b213c661bbcc5565f",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/913d61b6937232fad25f083e5e908b43975300cdaf0946069307cc3634e0b8e1.json": "70d1773ce32b4871e8ead75740b781a82626ecc01761805ee2c4cd67f08bcba8",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/9ab802bb20f9b6d318b0787edbac8e28f88a599bba7ab766d273daa8ff2d0366.json": "43362185e402cdffc1b039c807497102380556df37849802c23a8b988585fdf1",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/a98865b321afc0b451b7f07e5eeabf1e9fdbfc42c4bfe284ea46f2678cb9d6a8.json": "946e6e420598bbf43c0ac0bbf6ebc7400c2d61731889a1e9b6445bc1d1bc21f1",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/acdab18668cbda90b515abaa4b65b3c03a007c30706ab10965241052c9118e98.json": "6e2af452cb72c665b54b2ded4df1a012bddf6ea0a4084b4f28038af8a3c99aa1",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/ae4965b38210c428242372633c716c89fadd2a412729604eba54d3bacd7ec714.json": "a07808a79d15edc935720dab0497fee21d59ff43a051609747dfa9f9a9169ba8",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/b3fe3dcbac65bdf03e49d8b4ebeb914f18b92b2416ae7ae6a90610e1d160ed34.json": "55086a418854a2b46dd68ccdfbd01d0c7f3fc0520eba926aa0bcd8433010c797",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/ba3051389207ab2055c884040054b38bfec5f9f90dca2dbed1519d7a921bddfe.json": "02b4aaa1dafb67c38e6445d4b424d17c72ad9a5b57820c3a7bf0be217c5d4391",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/e7d1070190e62a96cdab95b4990b0e31d51a730b4a681e296f08180c479a9b2b.json": "852545a975fd8fb5fd52eebc3607a883257104a4c55770116f8592466884b5a0",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/episodes/f7c8d8304f25ad173199cc73f44ded5b29bc9362c3046667f9cb44aac6a43ee3.json": "b4b71dd3cc0ef090c8b969892e8cdd30420e45346522171f7c92536ccf888cac",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0002-result.json": "3e08c1e95f3f03840667671dd531fbc319b8a392dd2d546e1216baf00cb36cb2",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0005-result.json": "9a1df26e807794075ddd8faaa435b3d291612b1762e1217f690b309defb0166d",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0007-result.json": "0d15d83860b20840727fdca29fad5dae4843846634bfda11a88b2b199a0e01e4",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0009-result.json": "d59a0d6d0c1d92a30e4d7a932791923117c6e2814695a817faf7f94d62d03204",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0011-result.json": "dee0861c7d93fb63a2787a808021bdbbca1b2267812cdd98f62b22939db8e52d",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0018-result.json": "b921a720703f581ec1d164e27bdf11ff7223272fc1cf69f30f1a68c0f740a138",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0019-result.json": "c531b0712d2bf04873baa90a1f6d1e058c60bb937f7d9c45d70db2a1cac77264",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0021-result.json": "5ef3f00ce1e572ab4b798405b5bf461fb6e82129ef51571205477626dd3bb6a2",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0037-result.json": "af62c0fa00a01a2b23e948f7a6821459f98a8ce6bd80981c4db428f4c1a43789",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0038-result.json": "ffc7eb8fe059cf127389213d53d004ed7741741fd1c8b0a3353ada82cecb0425",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0039-result.json": "68622290cc1a582cb1b5b4719b4b7db7200d369821d09205f0445183036a8289",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/base-001/science/native-calls/0041-result.json": "5ff63dcf0835bdb4697e88877d93c5003a2e0568146cf2affbdebb08dd7e8f2e",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/OWNER_TERMINAL.json": "4a984f96b6be495b55b6f5546678071c282a545a3e5e18fd71f48a2d141207df",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/RESULT.json": "acb349dc6ec643cf168dbbeef3ef3026f493290fd436ab8a73bd93918d2a5a2a",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/01acd9e3debe604652fcbf21034b2d7847f4240ee7d51019fa2bca640107dddc.json": "625742cf831b743cc1c4ae84f11cf0c3484b25ea66a8de0f03c7c1c4436e2115",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/2efdbb7e34f6623860f8d1b56f042419ac7d0c4d8b4d3dc81c8bd94b2ec5e27f.json": "7f22cb110bd1a42678f5d9d9a7af808fb6c92935d709964567150efdf407df4a",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/332616c2d5c8d08c77820cb0d92be60da732ef562630b5e53e3ce82443ce1294.json": "c6470dfc7ae0f51f402a1d8921122a645b3526b921b66e6c9bb8004ee392ba60",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/70897e455bca9b5ff4723b2f400b706db619c88f021075b4067512e5c259c872.json": "c7d2f0e44330e3c381329b8e44000250daee4f080e099decb9a6ae6ca3a7a924",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/7567642bdd0d54a5833fbaf373055492dd871967bfbe2309ffee20483030da4a.json": "9310775ba3985170ddffce802e564078f20cb7daa19248e725c829c84001d06d",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/83ad552646e94bc46d8631142bb2e5deebe4e5bb5f58c432572dc429f4617084.json": "edbcf40a1685d7b3aa22e65bac0237ac5adc4c0ead271be6fd752416f8acb50d",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/9042b47601376f5b009aced5dd5c43846cb9df3c7b940a73988a9350879fe2e7.json": "cff708648d97f0847ed25986ef0582d88bb8fb80b72c3ef7905fbc2afe0dc481",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/913d61b6937232fad25f083e5e908b43975300cdaf0946069307cc3634e0b8e1.json": "6ae0b8ed2e38c7385e25d35c3644269d1982e14a5484b95af585ffc011de510c",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/9ab802bb20f9b6d318b0787edbac8e28f88a599bba7ab766d273daa8ff2d0366.json": "f19f050909efa7373bae3ad660dfdf7e68a83c2a27bc02c8b1fc369c3c7ef801",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/a98865b321afc0b451b7f07e5eeabf1e9fdbfc42c4bfe284ea46f2678cb9d6a8.json": "aaf98a6d04add1da180c1775969c70fbd634fdef41ca41b19c94e0f0c4219d13",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/acdab18668cbda90b515abaa4b65b3c03a007c30706ab10965241052c9118e98.json": "da2d65ac8f3e0b050c470ee4249bc43ab8279430a819323f7321f356092aac2e",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/ae4965b38210c428242372633c716c89fadd2a412729604eba54d3bacd7ec714.json": "9ea16d9f377bac2d841b21823d25ac4c3ca0acaeb2d19c4d22ba144f43598fa7",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/b3fe3dcbac65bdf03e49d8b4ebeb914f18b92b2416ae7ae6a90610e1d160ed34.json": "d0ab28690a6dcf8b1eff750b7e2eba4014ac24ccb63cbe19657532b21cb27f31",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/ba3051389207ab2055c884040054b38bfec5f9f90dca2dbed1519d7a921bddfe.json": "abe14bf25900a602d405e273aa4910dee6ad1ed359cfe1ae79403693c75a94bd",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/e7d1070190e62a96cdab95b4990b0e31d51a730b4a681e296f08180c479a9b2b.json": "09f1c3a380a8d7bf21f35e9f10213e461ed6c5206d3d2dbb8fa13364a265471b",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/episodes/f7c8d8304f25ad173199cc73f44ded5b29bc9362c3046667f9cb44aac6a43ee3.json": "8f607c2ef8a72a271af1253811740ba43c5182335c4772b46eda02aa0f1861fa",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0001-result.json": "43acecc437cc0a590e98e851079a3a701298ee01b8793e8c115d450eec6e6a5a",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0005-result.json": "dfffdc363928eb7308523582a9890377bc634bac727d314c5bb81c42fcfc15ff",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0007-result.json": "bbac9a296f0f0e4dcf0adea1a1fd064b93c37c7093d49f4c5005d18e241a5144",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0009-result.json": "4951d5f21af2fb7040fda9a7e0532f96989c5c68ec6cda9f52adc2b448619a2f",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0010-result.json": "fc209e0bcec874277809151c177e067344ed7fe37dabef354f0b9d47e63db9e0",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0018-result.json": "bf7d82201a5449b54124d55422f1f1e45f2ce7590c2c01e4107716d8c6f38232",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0040-result.json": "82a34defab18d662e8723802f21d508a6d033aaf5987d874a6add764a18897ae",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0041-result.json": "cc6736756cbde1c1f8a24db9dcc05be942522cf0961181a7c5cf778ff38c4355",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-4-001/science/native-calls/0042-result.json": "04038a59698b8ec109567be53e280a8caa0637881ea4400a057fd638266a75d3",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/OWNER_TERMINAL.json": "64325dbfc6a3d325936645f7226a0bb17bf4e12db7aa5b400f73511456effad4",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/RESULT.json": "a0c315579f4b801cc8e3b1c88fe643ed00c71939c65afaf9349938d72c142894",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/01acd9e3debe604652fcbf21034b2d7847f4240ee7d51019fa2bca640107dddc.json": "810073e3af9ad64ee7353afc3a336d8640cb1d87a40aac3b195224a79780691a",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/2efdbb7e34f6623860f8d1b56f042419ac7d0c4d8b4d3dc81c8bd94b2ec5e27f.json": "a1fb97bb6682e266f625972014fbf94849dc6a1fedd29f42cfa1719363e6b635",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/332616c2d5c8d08c77820cb0d92be60da732ef562630b5e53e3ce82443ce1294.json": "1c342f2093b346425ee47a9fd140c8f2646543ef946da06214ed9d4dc24c0345",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/70897e455bca9b5ff4723b2f400b706db619c88f021075b4067512e5c259c872.json": "5b6e567efcc4f558419322fd9503f6be8759e8e123ddb77b697353abc8a05619",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/7567642bdd0d54a5833fbaf373055492dd871967bfbe2309ffee20483030da4a.json": "99b6d8019b2a1c7c0473afb5ffc21fe2a2d19e0bc5158554602903b14b7d1660",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/83ad552646e94bc46d8631142bb2e5deebe4e5bb5f58c432572dc429f4617084.json": "6705ecc103934a9cd1a0b90b8d726907542706294f65ee04be4363e0a4125584",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/9042b47601376f5b009aced5dd5c43846cb9df3c7b940a73988a9350879fe2e7.json": "1faa624458223e8666a29bd916abc822b39b3d61486007ceaef2ddcea2345f37",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/913d61b6937232fad25f083e5e908b43975300cdaf0946069307cc3634e0b8e1.json": "6275a4cea1a58bbf945d5d2c679cb0eb94a34a9f4b351510586ec1735822cefe",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/9ab802bb20f9b6d318b0787edbac8e28f88a599bba7ab766d273daa8ff2d0366.json": "1918d0f594822ebdae7069585e8fc200ca5cd8fea6f6486057461da1bdfc3fd0",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/a98865b321afc0b451b7f07e5eeabf1e9fdbfc42c4bfe284ea46f2678cb9d6a8.json": "2a4b95c748209708a977528bbeefbbd60754f0f063efdc03d45d1fa231cf1982",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/acdab18668cbda90b515abaa4b65b3c03a007c30706ab10965241052c9118e98.json": "4eeb02dc429d0773483726c928ee63c280726f5efccd3b448104f7b5350d850a",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/ae4965b38210c428242372633c716c89fadd2a412729604eba54d3bacd7ec714.json": "cfb6fb3c3f082888bc9e7e52d4d8462b680f78681dffaa6b4ec11773a7cd25ef",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/b3fe3dcbac65bdf03e49d8b4ebeb914f18b92b2416ae7ae6a90610e1d160ed34.json": "a4decaa52667a19f8862cd127c081940c5f6b2b714733e0989c5fe40f6806fa6",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/ba3051389207ab2055c884040054b38bfec5f9f90dca2dbed1519d7a921bddfe.json": "c68505ef43c46ac1631072aafb9e9c319f753956dd975bf907fa000e04007c03",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/e7d1070190e62a96cdab95b4990b0e31d51a730b4a681e296f08180c479a9b2b.json": "364d3f35f74374e524fb95be42cb8c0683928eacede0b7dbbc5186e986889591",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/episodes/f7c8d8304f25ad173199cc73f44ded5b29bc9362c3046667f9cb44aac6a43ee3.json": "b7ca513be53f2f4ac2b08693cee4e98f2754a172ca761655f108ef3873880a26",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0003-result.json": "2f8f858de5f0be2cfaf1fe971ce1fe15e8fb6993059d9cf90fffd15567bc2c87",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0006-result.json": "22ee36ffc0e4ecb2763bf1fa5f8925fc42c926b3f50d30d735d8553c7e2ebdb1",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0007-result.json": "e7d9905c448e9807b71035d9d0f3217a31b7ef183cd2c0ec8470b4dde850ec62",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0009-result.json": "91d1a5de67ff0df0e4f2c07d9e69c0114e11faf98b0f979d23e8c9bc6ef92ecb",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0011-result.json": "ce883ff8ac0fd03360f3b2264d792996016a00499758bfa3724fe0e62f62936d",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0018-result.json": "1fd6f0a3dff7132d8c575c73c3315593401d3df2024855c7f3e8b13978b8c225",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0020-result.json": "d40ee5821b8f43ab824294afda0cd122c9a40fb2aa7072270ac8664b3a3d8ad4",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0022-result.json": "f93f79bdaf83eb228095c8366997c86bc4edf13a809680cfce2bbf474de01868",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0033-result.json": "41ce69808afa17e99843b43fc302e60176ed9bb13a8d2c7e225b98eb4d9922c0",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0035-result.json": "bde6509dd2aa68be40f8af5bc4a13784d5f172f4d05812b4663f83feb7ea61ed",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0036-result.json": "5295d00ea8a0265e8040e2ee728fc2da1c1e9d4ab4ff2c038a9684f5032df135",
+    "sidecars/openai-mrcr-short-root-token-tis-held-eval-v1/outputs-v4/lr1e-5-001/science/native-calls/0038-result.json": "67ce64e14ce5969713bf221734285c4305ce8304f5d49186f44712bf8e99b357"
+  },
+  "success_row": 12,
+  "unavailable_row": 1,
+  "unknown_mechanism": "All3 arms: decoder prompt11232>8192 after repeated19942/19686-character document dumps.4 returned root actions, fifth native request rejected400. Saved pending tool output ends with marker+poem about relations, not the requested poem. Rewards remain null; not owner cap.",
+  "verdict": "The high-dose one exact is successful root copying after a broad document dump and two failed schema-assuming programs; not correct Python retrieval or a replicated learning benefit."
+}
