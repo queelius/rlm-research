@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "elapsed_seconds": 433.21333861351013,
+  "errors": null,
+  "no_outcome_manipulation_gate": true,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "phase": "train",
+  "ready_sha256": "9373367ef6c6f7441d5415a4f852ce86b42c0e0e8d101ab75dd983c1172fc193",
+  "recorded": 32,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-lr1e4-eval-v1/outputs/train-001/science/RESULT.json",
+  "result_sha256": "5c8944f8fb33fb61559f5e92601ff59847491f85b2d07c3be903d1b7ffd1be61",
+  "scientifically_available": 32
+}

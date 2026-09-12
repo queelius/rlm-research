@@ -1,0 +1,25 @@
+{
+  "authority": "MAIN",
+  "caps": {
+    "external_seconds": 800,
+    "owner_seconds": 700,
+    "science_seconds": 600
+  },
+  "checkpoint_policy": "Each native request and response saved; fixed base4B, no training or retries",
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-scalar-vs-dsl-v1/owner.py",
+    "run",
+    "--outer-seconds",
+    "700"
+  ],
+  "epoch": 1789255856.5836542,
+  "external_flock": true,
+  "known_limitations": "Small exploratory dev panel; adapted JSON DSL, not official program accuracy; supplied targets may be noisy; not learned recursive decomposition",
+  "metric": "Provided target equality, invalid and unavailable separate; paired wins/losses; all16 retained including annotation flags; actual token cost",
+  "predecessor_sha256": "b81af3277dba78cc9a4b8b0b8db286bc28e5897b833d189117a5bf9389ca0973",
+  "question": "Does model-written arithmetic with host execution help on financial-report questions versus direct numeric answers?",
+  "ready_sha256": "6df8bd380dfc0837405304f0bfc34c55d04ea0dcdff3212a63fdf97d66e7d1e0",
+  "review": "MAIN read all new source, tests, preparation and frozen-prefix fixture; two focused tests and exact frozen pair passed.",
+  "seed_policy": "202609290000+i paired by context; T=.5;384 output tokens each;4 workers"
+}

@@ -1,0 +1,16 @@
+{
+  "GPU_calls": 0,
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "test_science.py",
+    "--basetemp=cpu-fixture-seal-001"
+  ],
+  "full_paired_HTTP_fixture": true,
+  "model_calls": 0,
+  "returncode": 0,
+  "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+  "stdout": "..                                                                       [100%]\n=============================== warnings summary ===============================\ntest_science.py::test_actual_paired_native_http_seam_and_current_owner_binding\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_science.py::test_actual_paired_native_http_seam_and_current_owner_binding\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n2 passed, 2 warnings in 6.59s\n"
+}

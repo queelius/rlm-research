@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-09-12T23:10:59.593166+00:00",
+  "files_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/CPU_TESTS_V2.json": "35be03a1b33ae3f43ef9d5870517fca6eb1f09fe32812babe748d25d51977cdf",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/REPORT_V2.md": "b402570f89a6fcd964426d7742bc06e1ca5de6145886a6ead817b899a10a56f8",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/RESULTS.json": "f9b4eb116ae031af1ccefdb23dcab982b352a83a5b524b16c868d96ef8ecda0c",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/RESULTS_V2.json": "6a4736a884e95f72298efe3dde1071811cd1134f225dd55d60c3a540714cba9e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/correction_v2.py": "41983a6f78c470f83f4787226d6c57d663d28f1da9838846df1aaa6c9895b291",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/prepare_correction_v2.py": "f74f22770907c68c821a4111b3c69deafb6c6592297d2a057d9c1118fb3ebf32",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/test_correction_v2.py": "06cb924c113d539f739a8f6d052c0e556391526758d3acb1b93160c1393d290b"
+  },
+  "gpu_calls": 0,
+  "identity": "2f0d5f586ceece82664962dd3dbd1d71862ea5841b972f79bb426a9f4e36d9de",
+  "initial_results_preserved": true,
+  "model_calls": 0,
+  "schema": "b05-v3-audit-correction-manifest-v1",
+  "status": "COMPLETE_ADDITIVE_CORRECTION"
+}

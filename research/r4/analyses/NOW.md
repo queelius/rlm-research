@@ -1,11 +1,33 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T22:55:00Z
+updated_utc: 2026-09-12T23:37:00Z
 status: active_exploratory_research
 claim_level: exploratory_procedure_transfer_and_exact_return_contract_mismatch
 ---
 
 # Research in plain language
+
+## Current interpretation — September 12, 23:37 UTC
+
+Increasing the reward-update size taught the model to deliver answers it had
+already retrieved: training exact answers rose7→17→24/32 for noRL, smallerRL
+and largerRL. The two consistently wrong search strategies remained wrong.
+On an already examined evaluation panel, the larger update scored28/32 versus
+25/32 before training: five gains but two losses. All gains followed unchanged
+retrieval; one loss failed to produce a usable action. Output cost increased.
+We are testing unused conversations before claiming a transferable improvement.
+
+Asking helpers for just record IDs modestly improved selected sets, but did
+not produce correct complete solutions. Six apparent interface failures were
+only unsorted ID lists. Even ignoring order did not rescue the overall task.
+A fixed one/two/four-helper comparison on fresh local records is running to
+test whether smaller inputs help. This is not yet learned recursion depth.
+
+The first financial-calculation pilot needs diagnosis: supplied targets and
+generated program validity both have problems. It is not evidence that code
+execution is inherently unhelpful. See the
+[decision update](2026-09-12-evening-decision-update.md) for counts, limitations
+and the next discriminating experiments. Earlier entries below are historical.
 
 ## Current interpretation — September 12, 22:55 UTC
 

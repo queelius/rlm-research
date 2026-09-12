@@ -1,0 +1,34 @@
+{
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-eligible-ids-independent-2026-09-12/analyze.py": "8b048e2bdfee8487e4be36e8d19c4efa2ee258dc5a64022ae79bd9c6652fc98d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-eligible-ids-independent-2026-09-12/prepare.py": "bca2727060404c841679f44942f6ba2f47fac758688d758152f7ce5e64a71738",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-eligible-ids-independent-2026-09-12/run_if_terminal.py": "fff2a7ba6f0312b05818d799e674b64fea76fb792ba344af1658d5d73e8719a4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-eligible-ids-independent-2026-09-12/test_analyze.py": "735261ed0dee1738a541fa39f4f1cb8148a69b3e6867739987abc098d0fa7421"
+  },
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-eligible-ids-independent-2026-09-12/run_if_terminal.py"
+  ],
+  "created_utc": "2026-09-12T23:16:01.390952+00:00",
+  "gpu_calls": 0,
+  "identity": "9becc4eabe1637b4004a925565d6d2d43c9add7ad4f1a69e3d84b5284d948764",
+  "model_calls": 0,
+  "paired_baseline_ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-recombination-feasibility-v1/READY_RUN_V3.json",
+  "paired_baseline_ready_sha256": "b534d80731de70cc250ec4138204a177629cfb19ded6b5a1b637345d964acee8",
+  "schema": "b05-eligible-ids-independent-analyzer-ready-v1",
+  "source_attempt": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-eligible-ids-interface-v1/outputs/attempt-001",
+  "source_ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-eligible-ids-interface-v1/READY_RUN.json",
+  "source_ready_sha256": "3fe8fff0d3d177f54171a54544998a2de8568b01743896254b1347afa97b9aa3",
+  "status": "CPU_READY_ONE_SHOT_NO_POLL",
+  "tests": {
+    "command": [
+      "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "test_analyze.py"
+    ],
+    "passed": 3,
+    "stdout": "...                                                                      [100%]\n3 passed in 0.02s\n"
+  }
+}

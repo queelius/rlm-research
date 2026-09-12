@@ -1,5 +1,35 @@
 # Live GPU research queue
 
+### Live update September 12, 23:45 UTC
+
+NEXT GPU: fixedcp32/LR1e-4 freshbalanced32×2, CPUentryrepair inprogress;
+science/datafrozen, noGPUoutcomesyet. Botharmsregardlessscore, no newoptimizer.
+CPU token: two synthetic workedexamples forFinQA32pairedinterfacecalibration,
+same16/rawevidence/seeds/384caps, no targetrepair. CPU local: dense selection
+reward feasibility forB05flat18 nativeoutputs; binaryexactzero-contrast, but
+Jaccard4/9pairsmixed. Assess balancedaccuracy/allIDs/emptybaselines beforetrain.
+No GPUtrainingadmission yet; avoid newframework;initialbasezero-B LoRArequired.
+
+Completed width126144.65s: unorderedexactk1/2/4=2/0/2 of18; k4vsflat2W2L,
+precision.720→.810 butrecall.851→.721/input+41.8%. No broaderbenefit; all48
+strict-invalidphysicaloutputsorderingonly, allnormalstops. Nativeaudit0issues.
+FinQA32allavailable: suppliedtarget0/0;allDSLinvalid,13literal#i;source-target
+mismatches separatelydocumented. Dose10train24/32,exposedheld28/32,5W2L;
+copyinggainsnotretrieval. Currentquota25%@23:42,next23:57,winddown20/pause15.
+GPUidleafterwidthwhileCPUsealedentryrepair; actualoperationscost, notscience.
+
+### Live update September 12, 23:13 UTC
+
+ACTIVE16962: LR10xtrain32 thenheld32 bothregardlessscore;READY9373367e….
+QUEUED30616 explicitflock waitingabovequeue: IDs-only24 READY3fe8fff0…,
+samefrozenchildinputs/seeds, hostlookupnofilter, zero parentmodelcalls.
+NEXTCPU: FinQAofficialdata feasibility/label-noise audit; noGPUcomparison
+authorizedyet. PostindependentIDsauditpreparing; localdoseauditde10cdcf… ready.
+TrainingRLOO1e-5now7→17/32,butheldflat. B05V3runtimequalified, allrootexact0
+including4perfect-reportoracles; selectionrecall40/64, metadataalsoincorrect.
+No report-only36launch: weaker priority than separating selection from copying.
+Quota29%@23:02, next23:17;MAINsoleGPUlauncher, nofurtheroptimizerafterLR10x.
+
 ### Live update September 12, 22:53 UTC
 
 ACTIVE91746 freshRLOO original-training readout32 (8 contexts,4 original seeds),

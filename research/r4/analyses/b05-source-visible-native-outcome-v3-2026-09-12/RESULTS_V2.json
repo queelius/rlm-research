@@ -1,0 +1,1563 @@
+{
+  "canonical_content_validation": {
+    "matching_recorded_canonical_digests": 56,
+    "physical_responses": 56,
+    "raw_bytes_equal_recorded_digest": 0,
+    "records": [
+      {
+        "call_id": "call_031a60bc37169d398f14",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "d4e90f24d3cc19a45994232a918fa56066ad47e86b6fa86bdeb331dbfb1244fd",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "3c256a1cad6b332c1e9d97f630be5081067fe89fb8cb5b2ae5b9ad09e0b024c2",
+        "recorded_response_sha256": "d4e90f24d3cc19a45994232a918fa56066ad47e86b6fa86bdeb331dbfb1244fd"
+      },
+      {
+        "call_id": "call_03d1b9ea5343c52c975b",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "47ecfd0a124a069f81995369e27ed4cb58645bf1b9c8573ab2ac711210d280ee",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "3297e5cb1cf4eeb9293f1fbd0138acd7e3eb2fcfd31713cf15cf5da48a9267df",
+        "recorded_response_sha256": "47ecfd0a124a069f81995369e27ed4cb58645bf1b9c8573ab2ac711210d280ee"
+      },
+      {
+        "call_id": "call_08515ea8e166af0f8023",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "61932336399e2e34cc60b35b188e82f857751997a9d2bf255f4a745a821e1f12",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "0bbf85842c5a028a1721a9d00d6f0d8e577836b7065cb32734a5d6cffcaadd0c",
+        "recorded_response_sha256": "61932336399e2e34cc60b35b188e82f857751997a9d2bf255f4a745a821e1f12"
+      },
+      {
+        "call_id": "call_0997b8ef72337a3c9700",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "fbcba2a65aff559641a12c8e443ef672d84a61baa106b340f5f8faa14cb90278",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "54c6750a886b915a5ee1f568efd0874aa09da1213feb43be0acbab710028ff55",
+        "recorded_response_sha256": "fbcba2a65aff559641a12c8e443ef672d84a61baa106b340f5f8faa14cb90278"
+      },
+      {
+        "call_id": "call_0b686650f4fedb464704",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "01d669e2dd77bfe8871042debf2f531019b6692e31b519876ce3bec06d8c62ec",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "6cce01117eefe65a67d5c95f5f014ba3f98051f5b9bf347524675f2ade767135",
+        "recorded_response_sha256": "01d669e2dd77bfe8871042debf2f531019b6692e31b519876ce3bec06d8c62ec"
+      },
+      {
+        "call_id": "call_12f6a3990eb6694cf065",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "39135c3f8d46b328e300876e06fba139a4f5b753fc187694783d0e7e324b12ca",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "49bdab86ec6df1bce02bdcdaa2369e49a765e125cec6156185e3388e6e7aea19",
+        "recorded_response_sha256": "39135c3f8d46b328e300876e06fba139a4f5b753fc187694783d0e7e324b12ca"
+      },
+      {
+        "call_id": "call_1541b41003590c90b582",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "c648550a8324a579ac3a342d56852b45ab750fe9f18e66565f6fe9fb302003de",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "3d1d9a077f0f18d9ff845fa2ef93da9f1cd34607ead24218518360833230d351",
+        "recorded_response_sha256": "c648550a8324a579ac3a342d56852b45ab750fe9f18e66565f6fe9fb302003de"
+      },
+      {
+        "call_id": "call_1c6948e018b36988d206",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "dc246c893c3dd1b023eac40c24791ca28330e1bcdb4bb23d46db977d02cc94b0",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "792c552eb3432feb6ab7611773f9cab79d56cc11b51d0aaa641771515b15b8ed",
+        "recorded_response_sha256": "dc246c893c3dd1b023eac40c24791ca28330e1bcdb4bb23d46db977d02cc94b0"
+      },
+      {
+        "call_id": "call_1ec880c681a2085ab1a3",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "d95a344ecce6017704ac3b89422f6dac3c9c5afa8f284f2fec337bcd2ad4592e",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "ce42c6db801229a3e8518bd2262eaf87566d4556da37e68ce75f0226651d0339",
+        "recorded_response_sha256": "d95a344ecce6017704ac3b89422f6dac3c9c5afa8f284f2fec337bcd2ad4592e"
+      },
+      {
+        "call_id": "call_1f8fe67f8d562131f066",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "309cefd00bc8cf82439187942a9b45aae1648b4f16aafa70aad1f8fb3052063b",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "f8ebd5550b987532e071322d89c2e168bd5a91cf774ea756e0905aebc64d6655",
+        "recorded_response_sha256": "309cefd00bc8cf82439187942a9b45aae1648b4f16aafa70aad1f8fb3052063b"
+      },
+      {
+        "call_id": "call_23f90c60b4e6a4d0761c",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "b9c1f5705ba48874a82bd00c68c36cb26a35493bcd08c40d8cd8b3833db7ae48",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "04192dcd64377abf0a83b7b7e1a8bee5b9be132451cdaa749ce896905a852cb7",
+        "recorded_response_sha256": "b9c1f5705ba48874a82bd00c68c36cb26a35493bcd08c40d8cd8b3833db7ae48"
+      },
+      {
+        "call_id": "call_26158052c5e7639902bf",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "7a57e069d93d8eae477d69c705e68b5d55e8dcebccad19fd76f88ea8fe93b98a",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "88181baf5bb6f86bd5b97d3bad9455e1a16bcd5e4b8e7fed30b9ea1bedc9dc44",
+        "recorded_response_sha256": "7a57e069d93d8eae477d69c705e68b5d55e8dcebccad19fd76f88ea8fe93b98a"
+      },
+      {
+        "call_id": "call_26f1e14ba323b1cabc85",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "ee710fd05a517c065f6aed0cc89cbaecb7c56c0363739ac3607fe09ef0e5989e",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "28fe18f440679ee3e449bf0202eab43652b4c3ec6c22b2938564eb00d19952c3",
+        "recorded_response_sha256": "ee710fd05a517c065f6aed0cc89cbaecb7c56c0363739ac3607fe09ef0e5989e"
+      },
+      {
+        "call_id": "call_29adae7c91cc01346c0c",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "8e613cbc6a4fa8e151c36ddfd45f6b9b0fee646bbd84d801582efb8e7ebffdad",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "0074b100cf6173094fcf965451574885d091db28faef5e529fe5793de1ccb4e9",
+        "recorded_response_sha256": "8e613cbc6a4fa8e151c36ddfd45f6b9b0fee646bbd84d801582efb8e7ebffdad"
+      },
+      {
+        "call_id": "call_2be32bc0a7786565555d",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "9ff0c13255f9b3c43f031994a570c4c4610d1824b63663706f19c1ab8647c501",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "803c97a79c277ad01ff3bc167b5cc65b4f133c1b3246aa985f4feb363763e271",
+        "recorded_response_sha256": "9ff0c13255f9b3c43f031994a570c4c4610d1824b63663706f19c1ab8647c501"
+      },
+      {
+        "call_id": "call_2db67f8d1d7ba718c65c",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "e7f2369897e46b2f65deda18fe62a517f0c03e6b1915a8e588976bbe3e3b4288",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "c61df71eb172b28027f423d7b7a379c5fb4a7744378f889ea234ef7bac066ead",
+        "recorded_response_sha256": "e7f2369897e46b2f65deda18fe62a517f0c03e6b1915a8e588976bbe3e3b4288"
+      },
+      {
+        "call_id": "call_30b2b9ffab2dad097037",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "55fa8b5cab19fece0fa1f4e96abdea84591d8b54de1ec008a2e4a3962666f2f7",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "9161ec3896cb1f0820d152e41908b78a09a2c70992f6ce9ef703e4e7d11a91c9",
+        "recorded_response_sha256": "55fa8b5cab19fece0fa1f4e96abdea84591d8b54de1ec008a2e4a3962666f2f7"
+      },
+      {
+        "call_id": "call_35973c640c17bbd08632",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "efc268eec50a9587f54fcc430bedec1cab03e13ccb2692a4dd6a389c7a8981eb",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "e515e7ef4d48ca4773ad0e6c38e22edd5d407a253a0cedee98665b559c45dca3",
+        "recorded_response_sha256": "efc268eec50a9587f54fcc430bedec1cab03e13ccb2692a4dd6a389c7a8981eb"
+      },
+      {
+        "call_id": "call_3c294ee55130c54e3e87",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "68ac11bfcef6964f8f0d7761663d454623ffb19a70a66cf38f0c8e43bda102e1",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "db12aa22544a8efbd52fa1b2bdbd4fd1bc34475bb94c629885ce92d420253884",
+        "recorded_response_sha256": "68ac11bfcef6964f8f0d7761663d454623ffb19a70a66cf38f0c8e43bda102e1"
+      },
+      {
+        "call_id": "call_3fb6c0d05c5bd4f26829",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "16950223c34943998b654ce9f1bdc53e2e145ccfa6c6ed22a460f117dbd16ee1",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "7c31bcc98118eadad1cee671811b12530ccb2c63ff509637400c07b518e3b5bb",
+        "recorded_response_sha256": "16950223c34943998b654ce9f1bdc53e2e145ccfa6c6ed22a460f117dbd16ee1"
+      },
+      {
+        "call_id": "call_4b88bced59b3be04f3a6",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "92368a739b067ea749d4b6a4c12d2c55ecac02b0dc04eb660c03a140b5cb4c95",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "2c2cc4c3a07899e65af828dfeb5b3166179864bbe10eddfb38e91f4530141a5a",
+        "recorded_response_sha256": "92368a739b067ea749d4b6a4c12d2c55ecac02b0dc04eb660c03a140b5cb4c95"
+      },
+      {
+        "call_id": "call_4ef6ff47858556032b8f",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "87a74e9f4d8c7c33285b53be0874561084234bf5e80decf2e32d44f75ffca8f5",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "1f5b53b715869000386ca4ed41f526ea65b1b2ed6f22228093a9fefe6ce75386",
+        "recorded_response_sha256": "87a74e9f4d8c7c33285b53be0874561084234bf5e80decf2e32d44f75ffca8f5"
+      },
+      {
+        "call_id": "call_5a5579ffad47230f5641",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "6b08fb8e6fbbbddb49ab6a657f09a2948b5092225aeee67726ca4841a6e255e4",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "058cd12db77e4ea6005ab60c360aeebcf000b4d60bfda5bdae57222951587330",
+        "recorded_response_sha256": "6b08fb8e6fbbbddb49ab6a657f09a2948b5092225aeee67726ca4841a6e255e4"
+      },
+      {
+        "call_id": "call_5e30c5c1be7a4a175ddf",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "ece484c2593352b6c1bd6f2d25f3510f48cc330ee12a428acbae45067818c0e7",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "bf61e7ab8fdb0917a0989eceb3eef21c88afdde9144ffc4c06cf4def32612215",
+        "recorded_response_sha256": "ece484c2593352b6c1bd6f2d25f3510f48cc330ee12a428acbae45067818c0e7"
+      },
+      {
+        "call_id": "call_5eb361863b8b3e6e22d2",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "72d5ff0f6191d22aacabd8a26507ad4bbce4969afe9c3a1bdef9a86de511ba03",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "33c386813026a8f9c067bc4d342a160c122e189bd048eeb756e630498458daf1",
+        "recorded_response_sha256": "72d5ff0f6191d22aacabd8a26507ad4bbce4969afe9c3a1bdef9a86de511ba03"
+      },
+      {
+        "call_id": "call_5f9156e4b13b316ae0db",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "7c48f54b92884e739acb40295e7b19256cd013098cfff9fef4f1cb19381909ec",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "4614eb29b341d53c4d155d1624154a547c19a73412a5f2631a9a065512aca317",
+        "recorded_response_sha256": "7c48f54b92884e739acb40295e7b19256cd013098cfff9fef4f1cb19381909ec"
+      },
+      {
+        "call_id": "call_680765146dabbe5ab627",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "41df5cfc77551ddda92d168757cea4243a97603e4e101455c0fb6e6c1aa955b4",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "6476ca7e96be03690c99ddcf1148501c86291ae747a5bb2f91facfe2fffd4a6b",
+        "recorded_response_sha256": "41df5cfc77551ddda92d168757cea4243a97603e4e101455c0fb6e6c1aa955b4"
+      },
+      {
+        "call_id": "call_69074550cceec91dfde5",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "0f7796f45b7d5a03a765f6a035efa4886231580443774c61727ed150f6e10e4d",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "5e6b831832445cfe43c584888b161acac5bc2706d311751d9ca41b40cfc4d91f",
+        "recorded_response_sha256": "0f7796f45b7d5a03a765f6a035efa4886231580443774c61727ed150f6e10e4d"
+      },
+      {
+        "call_id": "call_70f65be0345a28add9e7",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "b0de478627b60d78a338557cd65275b0c2f128632a0bef718a18e10558826235",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "3b93eb81385dbcb0373a9f5a519c35e0e233138dca6c9fff0d00cc5295db7f89",
+        "recorded_response_sha256": "b0de478627b60d78a338557cd65275b0c2f128632a0bef718a18e10558826235"
+      },
+      {
+        "call_id": "call_7ef8fa48350c8527f8fa",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "4fd88a16af717be59c8bc9d35dc26aacae81b2af34ec176e556b4c853c9eff97",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "cd61bafdda16fdf38a6f3e97e825793f9a858924deb381805f9ba3198b776e9d",
+        "recorded_response_sha256": "4fd88a16af717be59c8bc9d35dc26aacae81b2af34ec176e556b4c853c9eff97"
+      },
+      {
+        "call_id": "call_7f1a9ee41062ee382651",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "907ca67b2746709bf5aebbc390842cdb2afd52c997daa8c5d34a7ebf3d6f16b4",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "01731da690605970eb9bd24752bd950d3f06534e720a4982c44687af40c5cdc3",
+        "recorded_response_sha256": "907ca67b2746709bf5aebbc390842cdb2afd52c997daa8c5d34a7ebf3d6f16b4"
+      },
+      {
+        "call_id": "call_8711837bcc67e9cfb2c6",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "5e091cc967876b951a2b5ad2b182538954248c4d506744355ed9800eb94754fa",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "fdc3454f382e96253780e35b97c3446166b8d3e388c50fec811c37dc2a6557de",
+        "recorded_response_sha256": "5e091cc967876b951a2b5ad2b182538954248c4d506744355ed9800eb94754fa"
+      },
+      {
+        "call_id": "call_899474783c5cbac824cf",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "f09dc60d7bb4aa1d294b012e57d5a6c2142600f998e49981f5e886b17d6f31be",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "727f7af7008bb91f6e4e528e0e3712d5193cfada4f43f55372990df46b6ed6b4",
+        "recorded_response_sha256": "f09dc60d7bb4aa1d294b012e57d5a6c2142600f998e49981f5e886b17d6f31be"
+      },
+      {
+        "call_id": "call_8cc002d96c69b840785c",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "9749e4463abfa92782e99ef9738079941b632d85e2b482cd11aaa6d4829e1d6d",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "9a9d777c973ec8e9a6629eca980b04eb92609b8aac665d64a60703fbc7f575fe",
+        "recorded_response_sha256": "9749e4463abfa92782e99ef9738079941b632d85e2b482cd11aaa6d4829e1d6d"
+      },
+      {
+        "call_id": "call_a500d3508b7cabb812a9",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "4bad329dcdf08db7af89b33b93632901d6ead86fbe2b6dce55afbb59992995a5",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "b9ae16783a29f35f65e4cd013d7e8db5f08747218f48bda51ac3b7fb00666c58",
+        "recorded_response_sha256": "4bad329dcdf08db7af89b33b93632901d6ead86fbe2b6dce55afbb59992995a5"
+      },
+      {
+        "call_id": "call_a72332eb6a2d1252bc08",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "c64838aacc142ee49807783adab4ffd5d4d9cf4ca87778ace5a32495d3368b84",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "ca107be85b52d81352956c4e4aa07db68619721249dcb2ed77f215287abd00a8",
+        "recorded_response_sha256": "c64838aacc142ee49807783adab4ffd5d4d9cf4ca87778ace5a32495d3368b84"
+      },
+      {
+        "call_id": "call_b2d869d217010eabee55",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "a79970716c02b22ff98ed54e2cac371c42cd397a2e7643f59e972f8348e9a3d0",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "14aa4592b7f9d31cc0739b6e1769340ad90b4329659f9d1fe803d1078590ee7d",
+        "recorded_response_sha256": "a79970716c02b22ff98ed54e2cac371c42cd397a2e7643f59e972f8348e9a3d0"
+      },
+      {
+        "call_id": "call_b42652073c2157d7ec82",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "978bd912919a9b6928317845e4d0aef8581091e14f17d157b8a78a4ce8f038d1",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "992e4f62969c0c3e4dc915993ff408c6aad402ff5dd4d7cc3b21a335652b3517",
+        "recorded_response_sha256": "978bd912919a9b6928317845e4d0aef8581091e14f17d157b8a78a4ce8f038d1"
+      },
+      {
+        "call_id": "call_b4caf96a2c1c091ccbb4",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "1f3f89c19edac50dd1bcdf6d725f3f0dbb6bafc7c52f27865a2b6dee208bd919",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "16a2a54544ef054232132b15144ab6e073c18d78047883345d4d573247acd8fc",
+        "recorded_response_sha256": "1f3f89c19edac50dd1bcdf6d725f3f0dbb6bafc7c52f27865a2b6dee208bd919"
+      },
+      {
+        "call_id": "call_b8394a53e83a107b9b11",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "e17ed72c0099455e039eb9092c5e8fe81d72add04bd4a080ebf49ee54e823f02",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "88e1375b694750aa88272d2c910de0c30a105cf374aef71e6ad7ffccc64f6f7c",
+        "recorded_response_sha256": "e17ed72c0099455e039eb9092c5e8fe81d72add04bd4a080ebf49ee54e823f02"
+      },
+      {
+        "call_id": "call_c37663b742863e29bfc2",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "bb0242acdc9960445466af29fca577296ac1c656803838c93d8ac5ada529c096",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "1e6c9006b4293f664ba24d93ecb9f15bcb74b33af7552174e445fd7917a2db67",
+        "recorded_response_sha256": "bb0242acdc9960445466af29fca577296ac1c656803838c93d8ac5ada529c096"
+      },
+      {
+        "call_id": "call_c7a1adca05f77827a5d2",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "53ac3f94684a54b2ab67741905b2e8b443c3bebf6a8ce9a0bb76adc916002c67",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "7747d35c1d40e963f6ac5edd488d84f4ebb1937bfcd3836158c2838cb39f582a",
+        "recorded_response_sha256": "53ac3f94684a54b2ab67741905b2e8b443c3bebf6a8ce9a0bb76adc916002c67"
+      },
+      {
+        "call_id": "call_ca7bb559336b420bcd0c",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "32fbed05d04caa92f2489ff35aebd01a8299ed0004e57999d973371fe8d7859f",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "4719c834e3b85967e36ce03c1db7745f2b9d67cb9641ee801806b2fc137f2494",
+        "recorded_response_sha256": "32fbed05d04caa92f2489ff35aebd01a8299ed0004e57999d973371fe8d7859f"
+      },
+      {
+        "call_id": "call_d1626f438cea79b51a2a",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "c16f70197253bbf5b72b20157292f7d8aba0dd667ca99e0c11ffcb6e4e696eb5",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "b79a295c766d27038d73576c860488733a9ae12e7a85ddb970ed6ff6374ef57f",
+        "recorded_response_sha256": "c16f70197253bbf5b72b20157292f7d8aba0dd667ca99e0c11ffcb6e4e696eb5"
+      },
+      {
+        "call_id": "call_d5315ddb5687d775694a",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "0dcc3f3fef1f2ac8809bd95d673539740b41962626f12497e6cf179f6a32a514",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "e8582c8db17361bc9f4ef257634ee0f4ab6c34a4274b5d7afacf5dbac6af1876",
+        "recorded_response_sha256": "0dcc3f3fef1f2ac8809bd95d673539740b41962626f12497e6cf179f6a32a514"
+      },
+      {
+        "call_id": "call_d5c17c78e735e41c6e88",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "324d7ff345827174008f28dbac47f514ed2a35171b19f1edf63260dd88eaf96a",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "0799cf161d8d193e8bc71d850775d388e71afa5c68ae9b70ce9ab033485f5b51",
+        "recorded_response_sha256": "324d7ff345827174008f28dbac47f514ed2a35171b19f1edf63260dd88eaf96a"
+      },
+      {
+        "call_id": "call_d85f25141bfa29814219",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "3a3844d6363269a9552f623f84a808229663570d0202de696c18b29d00ec875c",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "cbbd4d95b817866a5f33607b44f13db87059c8875243fd01d30a814326d311d8",
+        "recorded_response_sha256": "3a3844d6363269a9552f623f84a808229663570d0202de696c18b29d00ec875c"
+      },
+      {
+        "call_id": "call_d86a66c1fe9ecdbf1d44",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "6fdcd5d232bab01bd11fe0f5ed5d6fc349e9c6cae5bc8f2c3292ef56e3f4d523",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "1b7a152e9a5d7e08f0d2c380f47e29e9397445c514aafdf68d7ce1c770b2d3f1",
+        "recorded_response_sha256": "6fdcd5d232bab01bd11fe0f5ed5d6fc349e9c6cae5bc8f2c3292ef56e3f4d523"
+      },
+      {
+        "call_id": "call_dd824c9eea0df142b006",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "93b3fcfaa0b25190ad7b3af623f578e7e0923fecc428aeb28d2624d916d88922",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "b7e32e97ddd6a7ec6cf22751c5849b4d81d93ce04ef6bf22692479022b9841a4",
+        "recorded_response_sha256": "93b3fcfaa0b25190ad7b3af623f578e7e0923fecc428aeb28d2624d916d88922"
+      },
+      {
+        "call_id": "call_e5c683bdd96968945063",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "8effa738b251830e400a4871c68303a20364610c595620006eeb0013517f80f5",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "ddc113d6592ee6751ecde75db76db566d79f1fbd087f28548328a75d6870df75",
+        "recorded_response_sha256": "8effa738b251830e400a4871c68303a20364610c595620006eeb0013517f80f5"
+      },
+      {
+        "call_id": "call_e640c92db1b34fdad164",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "3daac2bd752341302df6514acb15f55a7f68da68136239f9fad562c23c955733",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "773aac846f3b1b96bf5849b5bdf7ecc0a834f688d21ac73db91e1f1852e012fa",
+        "recorded_response_sha256": "3daac2bd752341302df6514acb15f55a7f68da68136239f9fad562c23c955733"
+      },
+      {
+        "call_id": "call_e91b819f1f23db632249",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "26b3110ae69929eb74b5c9f203986bdc6eee01b118601bb24e1b557f4e99b141",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "c32aca611bab6cbddacdb73c6722c49ce6fa4cc7397671b50974734dced36995",
+        "recorded_response_sha256": "26b3110ae69929eb74b5c9f203986bdc6eee01b118601bb24e1b557f4e99b141"
+      },
+      {
+        "call_id": "call_f36c8f68ce48a4279549",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "803c74f9dfe0f75e2f682283f09b8d7d6bdddb2ca202e45097f6123fa9e63625",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "ee82942613434eaa17a53f8473864cac12410370a26c820ca60817ae5bda1311",
+        "recorded_response_sha256": "803c74f9dfe0f75e2f682283f09b8d7d6bdddb2ca202e45097f6123fa9e63625"
+      },
+      {
+        "call_id": "call_f48233a70eca86f55205",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "50757202180f73c8484ce27ede341213f92c21a6fc3896cf8064a93456739bd8",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "ad56a32fdc782ba2633cc6fa8313fca15d99a577eac3d2aedcddcbe9326b7f27",
+        "recorded_response_sha256": "50757202180f73c8484ce27ede341213f92c21a6fc3896cf8064a93456739bd8"
+      },
+      {
+        "call_id": "call_f694c888e114ae5d722f",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "356eed0d333cbeeeb02c00fccf4f58d868b9cd3564a2577281627a8780e87871",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "e9381937d3ed5b1bf4f10a734d5fb4668a9cea09e65252ade6e153a9ac40abb8",
+        "recorded_response_sha256": "356eed0d333cbeeeb02c00fccf4f58d868b9cd3564a2577281627a8780e87871"
+      },
+      {
+        "call_id": "call_f7a9d708289d08ac180a",
+        "canonical_content_matches_recorded": true,
+        "canonical_json_content_sha256": "bf279393207dc280fc67fba281b56ebea634bf72b72153698f0f22c8f05a8a47",
+        "raw_bytes_matches_recorded": false,
+        "raw_bytes_sha256": "50224b031102f36a76b1210d79459617855797c83e7e1cc0887e9290c4cac48b",
+        "recorded_response_sha256": "bf279393207dc280fc67fba281b56ebea634bf72b72153698f0f22c8f05a8a47"
+      }
+    ]
+  },
+  "child_id_aggregate_all_24": {
+    "all_24_inert_diagnostic": true,
+    "eligible_ids": 64,
+    "false_negative_ids": 24,
+    "false_positive_ids": 2,
+    "matched_ids_metadata_exact": 4,
+    "matched_ids_metadata_wrong": 36,
+    "micro_id_precision": 0.9523809523809523,
+    "micro_id_recall": 0.625,
+    "predicted_ids": 42,
+    "records": 24,
+    "strict_invalid_records": 2,
+    "strict_valid_conditioned_records": 22,
+    "strict_valid_records": 22,
+    "true_positive_ids": 40
+  },
+  "child_id_records_all_24": [
+    {
+      "alternative": 0,
+      "call_id": "call_c37663b742863e29bfc2",
+      "child_index": 0,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_6239af8cd9f5",
+          "impl_89961ee97b55",
+          "impl_b136281e0b93"
+        ],
+        "false_negative_ids": [
+          "impl_6239af8cd9f5",
+          "impl_89961ee97b55"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.3333333333333333,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 1,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_b136281e0b93"
+        ],
+        "true_positive_ids": [
+          "impl_b136281e0b93"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_9dbd5f1edf00ba",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_3c294ee55130c54e3e87",
+      "child_index": 0,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_6239af8cd9f5",
+          "impl_89961ee97b55",
+          "impl_b136281e0b93"
+        ],
+        "false_negative_ids": [
+          "impl_6239af8cd9f5",
+          "impl_89961ee97b55"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.3333333333333333,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 1,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_b136281e0b93"
+        ],
+        "true_positive_ids": [
+          "impl_b136281e0b93"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_9dbd5f1edf00ba",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_23f90c60b4e6a4d0761c",
+      "child_index": 1,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_6fee1749c355",
+          "impl_95d81fe9bd2c"
+        ],
+        "false_negative_ids": [
+          "impl_6fee1749c355"
+        ],
+        "false_positive_ids": [
+          "impl_f6decf9f999d"
+        ],
+        "id_precision": 0.5,
+        "id_recall": 0.5,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 1,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_95d81fe9bd2c",
+          "impl_f6decf9f999d"
+        ],
+        "true_positive_ids": [
+          "impl_95d81fe9bd2c"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_9dbd5f1edf00ba",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_a72332eb6a2d1252bc08",
+      "child_index": 1,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_6fee1749c355",
+          "impl_95d81fe9bd2c"
+        ],
+        "false_negative_ids": [
+          "impl_6fee1749c355"
+        ],
+        "false_positive_ids": [
+          "impl_f6decf9f999d"
+        ],
+        "id_precision": 0.5,
+        "id_recall": 0.5,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 1,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_95d81fe9bd2c",
+          "impl_f6decf9f999d"
+        ],
+        "true_positive_ids": [
+          "impl_95d81fe9bd2c"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_9dbd5f1edf00ba",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_b8394a53e83a107b9b11",
+      "child_index": 2,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_3c33ae19be5f",
+          "impl_51c849412701",
+          "impl_633d6972f03b"
+        ],
+        "false_negative_ids": [
+          "impl_51c849412701"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 1,
+        "matched_ids_metadata_wrong": 1,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_3c33ae19be5f",
+          "impl_633d6972f03b"
+        ],
+        "true_positive_ids": [
+          "impl_3c33ae19be5f",
+          "impl_633d6972f03b"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_9dbd5f1edf00ba",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_e5c683bdd96968945063",
+      "child_index": 2,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_3c33ae19be5f",
+          "impl_51c849412701",
+          "impl_633d6972f03b"
+        ],
+        "false_negative_ids": [
+          "impl_51c849412701"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 1,
+        "matched_ids_metadata_wrong": 1,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_3c33ae19be5f",
+          "impl_633d6972f03b"
+        ],
+        "true_positive_ids": [
+          "impl_3c33ae19be5f",
+          "impl_633d6972f03b"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_9dbd5f1edf00ba",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_29adae7c91cc01346c0c",
+      "child_index": 0,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_4d42e0f544d7",
+          "impl_f43cd4b20596"
+        ],
+        "false_negative_ids": [
+          "impl_4d42e0f544d7"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.5,
+        "matched_ids_metadata_exact": 1,
+        "matched_ids_metadata_wrong": 0,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_f43cd4b20596"
+        ],
+        "true_positive_ids": [
+          "impl_f43cd4b20596"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_d3cd251c9a9448",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_0997b8ef72337a3c9700",
+      "child_index": 0,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_4d42e0f544d7",
+          "impl_f43cd4b20596"
+        ],
+        "false_negative_ids": [
+          "impl_4d42e0f544d7"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.5,
+        "matched_ids_metadata_exact": 1,
+        "matched_ids_metadata_wrong": 0,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_f43cd4b20596"
+        ],
+        "true_positive_ids": [
+          "impl_f43cd4b20596"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_d3cd251c9a9448",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_dd824c9eea0df142b006",
+      "child_index": 1,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_26d0f50eef29",
+          "impl_b14336346a77",
+          "impl_fdefdc20cde5"
+        ],
+        "false_negative_ids": [
+          "impl_26d0f50eef29"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_b14336346a77",
+          "impl_fdefdc20cde5"
+        ],
+        "true_positive_ids": [
+          "impl_b14336346a77",
+          "impl_fdefdc20cde5"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_d3cd251c9a9448",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_26f1e14ba323b1cabc85",
+      "child_index": 1,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_26d0f50eef29",
+          "impl_b14336346a77",
+          "impl_fdefdc20cde5"
+        ],
+        "false_negative_ids": [
+          "impl_26d0f50eef29"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_b14336346a77",
+          "impl_fdefdc20cde5"
+        ],
+        "true_positive_ids": [
+          "impl_b14336346a77",
+          "impl_fdefdc20cde5"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_d3cd251c9a9448",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_b4caf96a2c1c091ccbb4",
+      "child_index": 2,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_2a0613db66af",
+          "impl_54f4ec6ba2fe",
+          "impl_da1f7a95800b"
+        ],
+        "false_negative_ids": [
+          "impl_54f4ec6ba2fe"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_2a0613db66af",
+          "impl_da1f7a95800b"
+        ],
+        "true_positive_ids": [
+          "impl_2a0613db66af",
+          "impl_da1f7a95800b"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_d3cd251c9a9448",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_70f65be0345a28add9e7",
+      "child_index": 2,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_2a0613db66af",
+          "impl_54f4ec6ba2fe",
+          "impl_da1f7a95800b"
+        ],
+        "false_negative_ids": [
+          "impl_54f4ec6ba2fe"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_2a0613db66af",
+          "impl_da1f7a95800b"
+        ],
+        "true_positive_ids": [
+          "impl_2a0613db66af",
+          "impl_da1f7a95800b"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_d3cd251c9a9448",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_d1626f438cea79b51a2a",
+      "child_index": 0,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_167376f93af6",
+          "impl_a8b3287c30dc",
+          "impl_e3771f08b236"
+        ],
+        "false_negative_ids": [
+          "impl_a8b3287c30dc"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_167376f93af6",
+          "impl_e3771f08b236"
+        ],
+        "true_positive_ids": [
+          "impl_167376f93af6",
+          "impl_e3771f08b236"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_1e85ada58d2088",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_1541b41003590c90b582",
+      "child_index": 0,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_167376f93af6",
+          "impl_a8b3287c30dc",
+          "impl_e3771f08b236"
+        ],
+        "false_negative_ids": [
+          "impl_a8b3287c30dc"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_167376f93af6",
+          "impl_e3771f08b236"
+        ],
+        "true_positive_ids": [
+          "impl_167376f93af6",
+          "impl_e3771f08b236"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_1e85ada58d2088",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_f694c888e114ae5d722f",
+      "child_index": 1,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_c7a3feb43d02",
+          "impl_f12d47653703"
+        ],
+        "false_negative_ids": [
+          "impl_f12d47653703"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.5,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 1,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_c7a3feb43d02"
+        ],
+        "true_positive_ids": [
+          "impl_c7a3feb43d02"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_1e85ada58d2088",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_c7a1adca05f77827a5d2",
+      "child_index": 1,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_c7a3feb43d02",
+          "impl_f12d47653703"
+        ],
+        "false_negative_ids": [
+          "impl_f12d47653703"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.5,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 1,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_c7a3feb43d02"
+        ],
+        "true_positive_ids": [
+          "impl_c7a3feb43d02"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_1e85ada58d2088",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_5eb361863b8b3e6e22d2",
+      "child_index": 2,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_0f0f8e5c3c3a",
+          "impl_8b2639f01554",
+          "impl_cf547ae7c7c4"
+        ],
+        "false_negative_ids": [
+          "impl_cf547ae7c7c4"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_0f0f8e5c3c3a",
+          "impl_8b2639f01554"
+        ],
+        "true_positive_ids": [
+          "impl_0f0f8e5c3c3a",
+          "impl_8b2639f01554"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_1e85ada58d2088",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_5a5579ffad47230f5641",
+      "child_index": 2,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_0f0f8e5c3c3a",
+          "impl_8b2639f01554",
+          "impl_cf547ae7c7c4"
+        ],
+        "false_negative_ids": [
+          "impl_cf547ae7c7c4"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_0f0f8e5c3c3a",
+          "impl_8b2639f01554"
+        ],
+        "true_positive_ids": [
+          "impl_0f0f8e5c3c3a",
+          "impl_8b2639f01554"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_1e85ada58d2088",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_1c6948e018b36988d206",
+      "child_index": 0,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_1950f78021bd",
+          "impl_2a3e42791f2f",
+          "impl_c2c58b348d7a"
+        ],
+        "false_negative_ids": [
+          "impl_c2c58b348d7a"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_1950f78021bd",
+          "impl_2a3e42791f2f"
+        ],
+        "true_positive_ids": [
+          "impl_1950f78021bd",
+          "impl_2a3e42791f2f"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_82401d72e4a32c",
+      "strict_grade_reason": "features must be sorted and unique",
+      "strict_grade_status": "invalid_claim"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_0b686650f4fedb464704",
+      "child_index": 0,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_1950f78021bd",
+          "impl_2a3e42791f2f",
+          "impl_c2c58b348d7a"
+        ],
+        "false_negative_ids": [
+          "impl_c2c58b348d7a"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_1950f78021bd",
+          "impl_2a3e42791f2f"
+        ],
+        "true_positive_ids": [
+          "impl_1950f78021bd",
+          "impl_2a3e42791f2f"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_82401d72e4a32c",
+      "strict_grade_reason": "features must be sorted and unique",
+      "strict_grade_status": "invalid_claim"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_031a60bc37169d398f14",
+      "child_index": 1,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_0181f9db4c0d",
+          "impl_f04c23ed747b"
+        ],
+        "false_negative_ids": [],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 1.0,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_0181f9db4c0d",
+          "impl_f04c23ed747b"
+        ],
+        "true_positive_ids": [
+          "impl_0181f9db4c0d",
+          "impl_f04c23ed747b"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_82401d72e4a32c",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_e640c92db1b34fdad164",
+      "child_index": 1,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_0181f9db4c0d",
+          "impl_f04c23ed747b"
+        ],
+        "false_negative_ids": [],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 1.0,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_0181f9db4c0d",
+          "impl_f04c23ed747b"
+        ],
+        "true_positive_ids": [
+          "impl_0181f9db4c0d",
+          "impl_f04c23ed747b"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_82401d72e4a32c",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 0,
+      "call_id": "call_4b88bced59b3be04f3a6",
+      "child_index": 2,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_036079f1b4a1",
+          "impl_6c87e6d43894",
+          "impl_fe91988c9fac"
+        ],
+        "false_negative_ids": [
+          "impl_fe91988c9fac"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_036079f1b4a1",
+          "impl_6c87e6d43894"
+        ],
+        "true_positive_ids": [
+          "impl_036079f1b4a1",
+          "impl_6c87e6d43894"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_82401d72e4a32c",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    },
+    {
+      "alternative": 1,
+      "call_id": "call_2be32bc0a7786565555d",
+      "child_index": 2,
+      "id_semantics": {
+        "eligible_ids": [
+          "impl_036079f1b4a1",
+          "impl_6c87e6d43894",
+          "impl_fe91988c9fac"
+        ],
+        "false_negative_ids": [
+          "impl_fe91988c9fac"
+        ],
+        "false_positive_ids": [],
+        "id_precision": 1.0,
+        "id_recall": 0.6666666666666666,
+        "matched_ids_metadata_exact": 0,
+        "matched_ids_metadata_wrong": 2,
+        "metadata_validation_is_separate": true,
+        "predicted_ids": [
+          "impl_036079f1b4a1",
+          "impl_6c87e6d43894"
+        ],
+        "true_positive_ids": [
+          "impl_036079f1b4a1",
+          "impl_6c87e6d43894"
+        ]
+      },
+      "inert_json_error": null,
+      "invalid_metadata_is_not_repaired_or_credited_as_strictly_valid": true,
+      "root_id": "root_82401d72e4a32c",
+      "strict_grade_reason": null,
+      "strict_grade_status": "valid_but_wrong"
+    }
+  ],
+  "child_strict_status": {
+    "invalid_claim": 2,
+    "valid_but_wrong": 22
+  },
+  "collector_assignment_order": "raw byte SHA was assigned, then decode_response.update overwrote response_sha256 with canonical parsed-response digest",
+  "coordinates": {
+    "accounted": 64,
+    "planned": 64,
+    "unsupported": 8
+  },
+  "corrected_integrity_issues": [],
+  "gpu_calls": 0,
+  "initial_56_response_sha_issues_reclassified_as_hash_semantics_mismatch": true,
+  "initial_integrity_issues_preserved": [
+    {
+      "call_id": "call_d86a66c1fe9ecdbf1d44",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_c37663b742863e29bfc2",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_3c294ee55130c54e3e87",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_23f90c60b4e6a4d0761c",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_a72332eb6a2d1252bc08",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_b8394a53e83a107b9b11",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_e5c683bdd96968945063",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_5e30c5c1be7a4a175ddf",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_f7a9d708289d08ac180a",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_4ef6ff47858556032b8f",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_1f8fe67f8d562131f066",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_08515ea8e166af0f8023",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_8cc002d96c69b840785c",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_7f1a9ee41062ee382651",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_d85f25141bfa29814219",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_b2d869d217010eabee55",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_03d1b9ea5343c52c975b",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_29adae7c91cc01346c0c",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_0997b8ef72337a3c9700",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_dd824c9eea0df142b006",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_26f1e14ba323b1cabc85",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_b4caf96a2c1c091ccbb4",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_70f65be0345a28add9e7",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_8711837bcc67e9cfb2c6",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_d5315ddb5687d775694a",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_e91b819f1f23db632249",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_f48233a70eca86f55205",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_69074550cceec91dfde5",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_3fb6c0d05c5bd4f26829",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_7ef8fa48350c8527f8fa",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_2db67f8d1d7ba718c65c",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_35973c640c17bbd08632",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_d5c17c78e735e41c6e88",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_d1626f438cea79b51a2a",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_1541b41003590c90b582",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_f694c888e114ae5d722f",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_c7a1adca05f77827a5d2",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_5eb361863b8b3e6e22d2",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_5a5579ffad47230f5641",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_26158052c5e7639902bf",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_f36c8f68ce48a4279549",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_12f6a3990eb6694cf065",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_680765146dabbe5ab627",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_5f9156e4b13b316ae0db",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_a500d3508b7cabb812a9",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_1ec880c681a2085ab1a3",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_b42652073c2157d7ec82",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_899474783c5cbac824cf",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_ca7bb559336b420bcd0c",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_1c6948e018b36988d206",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_0b686650f4fedb464704",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_031a60bc37169d398f14",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_e640c92db1b34fdad164",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_4b88bced59b3be04f3a6",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_2be32bc0a7786565555d",
+      "issue": "response_sha"
+    },
+    {
+      "call_id": "call_30b2b9ffab2dad097037",
+      "issue": "response_sha"
+    }
+  ],
+  "initial_results": "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/RESULTS.json",
+  "initial_results_sha256": "f9b4eb116ae031af1ccefdb23dcab982b352a83a5b524b16c868d96ef8ecda0c",
+  "initial_status_preserved": "AUDIT_WITH_INTEGRITY_ISSUES",
+  "interpretation": {
+    "canonical_content_integrity": "validated independently for every physical response",
+    "id_metrics": "inert ID recovery diagnostic; invalid row metadata remains invalid",
+    "raw_bytes_integrity": "raw byte hashes are computed now from saved artifacts; the collector did not retain them in call records",
+    "strict_label_conditioning": "22/24 child records; not the denominator for all-child ID recall",
+    "true_source_root_correctness_remains_primary": true
+  },
+  "model_calls": 0,
+  "raw_response_bytes_were_saved_but_their_hash_was_not_retained_in_call_record": true,
+  "root_summary": {
+    "direct": {
+      "physical": 4,
+      "report_consistent": 0,
+      "report_tuples_imply_source_optimum": 0,
+      "source_correct": 0
+    },
+    "oracle_exact_report_synthesis": {
+      "physical": 4,
+      "report_consistent": 0,
+      "report_tuples_imply_source_optimum": 4,
+      "source_correct": 0
+    },
+    "recombined_synthesis": {
+      "physical": 24,
+      "report_consistent": 0,
+      "report_tuples_imply_source_optimum": 0,
+      "source_correct": 0
+    }
+  },
+  "runtime_attestation": {
+    "actual_engine_pid": 1062343,
+    "actual_worker_marker_present": true,
+    "config_request_is_not_used_as_runtime_proof": true,
+    "default_worker_marker_absent": true,
+    "dispatch_sha256": "ffa5261079088e08942af879bd3d9e676a8ab17786b37ee66f4444b3dc1dd639",
+    "engine_attestation_sha256": "bdaeb7dcaff59f41cfbc230fb608bd4454700a299800340af43b71c1271225e7",
+    "inference_log_sha256": "ce5b7afa8c69039260cfc4e286e1bf0e3b3ae0b49e821f9a144b77e0caff8315",
+    "issues": [],
+    "server_start_sha256": "fba1de6e11e0aeca322898105f6944f017ff2da9ccd805190fe41ab2d32b854d"
+  },
+  "schema": "b05-source-visible-independent-native-audit-correction-v2",
+  "source_pins": {
+    "attempt_result_sha256": "371455703116af0667d43d2d56b7636b623301cf599d158564e00aa95d120212",
+    "attempt_terminal_sha256": "5e46195526e57b6dacccc3c946885d865b5d94d6452762bc0c2ba5bc355bdbcd",
+    "contract_v3_sha256": "c924a33a92c6c01e1e9985ac0b585346be98cf1fe8e7c9145de0ae668e2767d4",
+    "ready_v3_sha256": "b534d80731de70cc250ec4138204a177629cfb19ded6b5a1b637345d964acee8",
+    "runner_collect_sha256": "14f904e2120bb59bfd34492d15974ea5b537cab1a3f92e3d71a8e5cdb6f2359e",
+    "runner_study_sha256": "df0ac9b5f998c68c40e6f346b5f90ba8d1b8bbd89c424a27b77cbf49ec477164"
+  },
+  "status": "COMPLETE_CORRECTED_RAW_AUDIT"
+}

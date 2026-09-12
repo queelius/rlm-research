@@ -1,5 +1,92 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 23:37 UTC
+
+ACTIVE96539 B05width126 under explicitflock, operation2026-09-12-b05-width-queue.
+READY117837ff4d26f93b533f9cf15a589ebbe6514fb3d75aa2dcd9f0b1a2dde22a81,
+9fresh stages/3widths/1,2,4helpers/2repeats,384totaloutput,600/700/800caps.
+MAIN fullyreadnewsource+partitionfreeze/test/design; realowner CPUentrypassed.
+CPU postpreparing freshMRCRbalanced32×2models64, DATA255f0f2c…;
+localpreparing widthnativeauditor;tokenFinQAnative/source-targetaudit.
+
+COMPLETEDdose10readout64, independent readout001: train7→17→24/32;
+exposedheld25→25→28/32. Held5wins2loss,4boundary-onlywins; fifthcopying
+correction also unchangedprogram/obs. One regression no usableaction,
+one longincorrectansweraftercleanretrieval. Clean30→29,out20739→23618.
+No improvedretrievalclaim; freshdata comparisonnext; noextraoptimizer.
+Training checkpoints/pins remain in older23:13entry. Doseaudit:
+analyses/openai-mrcr-fresh8-rloo-dose10-paired-2026-09-12/readout-001.{json,md}.
+
+IDs24 completed61.255s,released/runtimequalified, RESULT8d209b46….
+Strict2→4exact,22→18valid;all6invalidonlyunsortedknownuniqueIDs. Inert
+unordered2→6exact,recall40/64→44/64,precision40/42→44/46. Independent
+REPORT.md headline4wins is INERT metric, strict2wins. ORDER_DIAGNOSTIC.json
+removesorderingonly,still0/32hostglobalcorrect. Originalprimariespreserved.
+
+FinQA32completed65.703s,released/runtimequalified,RESULT7feeeca….
+Direct0/16providedtargetmatches/allvalid;DSL0/16/allinvalid. Actualbase4B,
+LoRAdisabled/nativeprefixchecked byagent,allnormalstopsmax361/384.
+Literal#i/inventedops suggestunfamiliarinterface; suppliedtargetsalsosuspect.
+No semantic0%-accuracyclaim. Awaitindependentaudit then syntheticworkedexamples
+if informative. No target-basedrepair/filter or speculation-as-result.
+
+Quota27%@23:29:26,next23:44:26. Allocation5801endsSep15 17:30:16UTC,
+MAINsoleGPUlauncher. AgentsCPUonly. Winddown20/pause15,reserve10.
+Lastverifiedremotes763a190/8135449@22:56. Newreportdraft23:37 unpushed:
+docs/research-checkpoints/2026-09-12-rl-dose-and-local-delegation.md.
+Newexternalanalysis2026-09-12-evening-decision-update.md,NOW/questionupdated.
+AvoidableCPUreadinesslag leftbriefidleintervalsafterIDs/FinQA;recordoperations
+cost,not science. All newlaunchesFinQA/widthexplicitflock, noownerconflict.
+
+## Latest resume pointer — September 12, 2026, 23:13 UTC
+
+ACTIVE16962 fixed LR10x readouts: train32 then held32 regardless score, operation
+`2026-09-12-fresh8-dose10-readout-queue/run.py`; READY9373367e…, identity9a0e5d…,
+3173pins. MAIN read258lines/RUNBOOK; actual qualifier/oldLR-rejection/owner+inner
+entry checks passed. All priorcontrols reused (traincp32/LR1e-5=7/17,held25/25).
+QUEUED30616 IDs-only24 after dosequeue terminal, explicit externalflock:
+`2026-09-12-b05-ids-interface-queue/run.py`, READY3fe8fff0…, identitydaf446….
+MAIN read464lines/RUNBOOK; sameinputs/seeds384/T.5, strictIDset exact over24,
+conditionalvalidprecision/recall plus all24diagnostic, no eligibilityfilter,
+hostlookup+combiner not learned arithmetic. Caps600/700/800, boundedwait2700.
+
+Important new result: original-training RLOO7→17/32,10wins0loss,32available,
+cleanretrieval24unchanged. Sevenremovednewlines,three restoredtwo spaces,
+samefirstprogram/observations inallwins. Two gains in originallyuniform-zero
+context, but entirepaneltraining-exposed. Held25→25/32,long10→10/16; noheld
+transfer established. `analyses/openai-mrcr-fresh8-rloo-training-readout-2026-09-12/`
+readout001/FINDINGS, CPU_READYdaf76008…, MAIN ran fullnativeaudit.
+
+LR10x trainer2004 completed33.2515s, delta.404606208; UPDATED one step.
+READYf8176508…, STEP_COMMIT469998c6…,state40a3b7…,binding9179cb….
+Sameoriginalcp32/batch/seed/objective; nominalLR-only comparison, NOTbitwise
+identical gradient (preclip24.3091 vs24.2993). PrestepLOGPS/qualification bytes
+identical. No furtheroptimizerauthorized; current64readout closesdosequestion.
+
+B05 attempt00334130 completed/released133.444s, actualruntimequalified.
+56physicalreturns/8unsupported,0correctchildren,0direct/4,0parent/24,
+0exact-reportoracle/4. Clarifiedcontract still leaves semantic/aggregatefailures.
+IndependentV3initialaudit had56responseSHAflags: collector overwrites rawhash
+withcanonicalJSONdigest. Additive RESULTS_V2 SHA6a4736a8… confirms56canonical
+matches, rawbytehashesnowrecorded (notclaimedcollectionattested),0otherissues.
+RuntimeactualReportWorker/dispatchreceiptqualified. All24IDdiagnostic40/42
+precision,40/64recall,4matchedrows exactmetadata/36wrong;22strictvalid/2invalid.
+Old conditional22record36/58recall is NOTall24recall. Preserveinitialaudit.
+
+Coordination correction: four newest MAIN launches omitted externalflock;
+helper checksGPUempty butdoesnotacquirelock. AllMAIN-only/sequentialreleases,
+no competingowner observed. IDSqueue now explicitflock+predecessorwait.
+See operations/2026-09-12-b05-ids-interface-queue/COORDINATION_NOTE.md; do not
+retroactivelyclaimlivedosequeueholdslock. Futurelaunchesexplicitflock.
+
+Latest remotes VERIFIED22:56 UTC: RLM763a190acd48e8e142c18772bd0a914beabda1d1,
+notebook81354498d33e513cf137445cb3686a22b200df2c. Cutoff22:55,52filesstaged,
+4161manifesthashesverified,56,623,057bytes,credentialscan0; no weights/private
+traces. Newtrainingdiagnostic/B05notyetpublished. Quota29%@23:02:49,next23:17,
+winddown20/pause15. NewprimaryliteratureMAVEN/RSAT/BAR-RAG in
+ideas/2026-09-12-reward-the-information-decision.md. TokenCPUFinQAfeasibility,
+postCPUindependentIDSoutcome, localdoseauditorCPU_READYde10cdcf… readyunrun.
+
 ## Latest resume pointer — September 12, 2026, 22:53 UTC
 
 ACTIVE91746: fixed fresh8 RLOO checkpoint evaluated on all original32 training

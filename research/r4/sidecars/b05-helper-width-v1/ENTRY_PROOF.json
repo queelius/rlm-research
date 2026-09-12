@@ -1,0 +1,10 @@
+{
+  "GPU_calls": 0,
+  "actual_execute_after_unmocked_verify": true,
+  "attempt_absent": true,
+  "identity": "3187d371d8e474c3235a3da842b58ff0af8cd8dbb91a3c59c9887d29ef6404ae",
+  "pins": 1856,
+  "ready_sha256": "117837ff4d26f93b533f9cf15a589ebbe6514fb3d75aa2dcd9f0b1a2dde22a81",
+  "status": "PASS",
+  "stopped_at": "exclusive GPU/private credential guard"
+}

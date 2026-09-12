@@ -2,9 +2,9 @@
 schema_version: "rlm-question-card-v1"
 id: "rq:rl-effective-feedback"
 title: "Can an RLM learn from its own attempts, and which errors obscure that signal?"
-status: "fixed_baseline_gain_did_not_replicate_fresh_contrast_readout_pending"
-updated_utc: "2026-09-12T22:16:00Z"
-evidence_cutoff: "2026-09-12T22:16:00Z"
+status: "larger_dose_learns_delivery_fresh_context_check_preparing"
+updated_utc: "2026-09-12T23:37:00Z"
+evidence_cutoff: "2026-09-12T23:37:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -12,6 +12,11 @@ catalog_boundary: "New post-meeting question; the old catalog does not contain t
 related_questions: ["rq:controller", "rq:authenticated-calculation-reward", "rq:counterfactual-credit", "rq:adaptive-decomposition"]
 claim_ids: []
 reports:
+  - "../analyses/2026-09-12-evening-decision-update.md"
+  - "../analyses/openai-mrcr-fresh8-rloo-dose10-paired-2026-09-12/readout-001.md"
+  - "../analyses/openai-mrcr-fresh8-rloo-training-readout-2026-09-12/FINDINGS.md"
+  - "../analyses/openai-mrcr-fresh8-rloo-paired-2026-09-12/CHANGED_PATHS.md"
+  - "../analyses/mrcr-serving-precision-audit-2026-09-12/REPORT_V2.md"
   - "../analyses/openai-mrcr-fixed-rl-decode-replica-2026-09-12/REPORT.md"
   - "../analyses/openai-mrcr-fixed-baseline-rl-paired-2026-09-12/readout-002.md"
   - "../analyses/openai-mrcr-cp32-fixed-baseline-rl-update-audit-2026-09-12/REPORT.md"
@@ -26,6 +31,42 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Can we turn the model's own attempts into useful learning?
+
+## Decision update — September 12, 23:37 UTC
+
+Larger dose is now independently audited: training7→24/32,17wins0loss;
+exposed held25→28/32,5wins2loss. All training gains are boundary copying;
+all held gains preserve the same retrieved information. One held loss drops
+the tool action, another produces a long wrong answer. Clean retrieval30→29
+and output20739→23618. This supports dose-sensitive delivery learning, not
+better retrieval or decomposition. Both frozen models will be evaluated on
+32unused project conversations balanced across four occurrence positions.
+Same public family; not pretraining-clean or new-task evidence. No extra
+optimizer sweep is authorized. Information-selection/action credit is the
+more consequential next training question. Earlier entries remain historical.
+
+## Decision update — September 12, 23:17 UTC
+
+The fresh mixed-reward update learned on its original batch:7→17 exact out
+of32,10 wins and no losses, all available. Every gain repaired the final copy
+after unchanged correct retrieval. The main held comparisons remain25→25/32
+short and10→10/16 longer-input; the extra third/fourth-occurrence success is
+two spaces. This is local behavioral learning without established transfer.
+
+| Possible explanation | What the experiments now show | What remains unresolved |
+|---|---|---|
+| Too little variation among answers | Familiar groups had no relative reward signal; new questions supplied three mixed groups and a learning update. | How much varied training is needed for transfer? |
+| The reward teaches the wrong behavior | The useful contrast is final copying; the literal-selector failures are uniform-zero groups. | Can selection-specific or global decision rewards improve what helpers choose? |
+| The update is too small | LR1e-5 changed sampled training behavior substantially. A10x dose has finished training; its collector reports24/32 on the same training set. | The paired audit and held readout are still pending; larger local fit is not yet transfer. |
+| The wrong component receives credit | Only final tokens enter this loss; the model receives no direct credit for a better Python selector. Shared weights can still change earlier actions. | Train the actual information-selection action once it produces useful alternatives. |
+| Serving loses the update | BF16 storage perturbs both updates but preserves millions of changed parameters and strongly aligned effective matrix changes. | Live precision effects remain possible; total update disappearance is not supported. |
+
+The10x arm changes nominal learning rate on the same original batch, initial
+checkpoint and random seed. Backward arithmetic was not bitwise identical,
+so do not describe it as an exact gradient-rescaling replay. Both training32
+and held32 run regardless interim scores. No further optimizer sweep follows
+automatically. Selection/interface experiments are the priority after this
+bounded dose check, rather than another chain of copying-only updates.
 
 ## Decision update — September 12, 22:16 UTC
 

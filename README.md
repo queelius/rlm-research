@@ -4,7 +4,7 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 12, 2026, 22:55 UTC evidence cutoff.
+Latest partial refresh: September 12, 2026, 23:45 UTC evidence cutoff.
 
 Supervised training on 32 worked examples taught a small controller to find a
 requested reply in a conversation through Python. Its routine transfers within
@@ -19,15 +19,20 @@ the copying task required. Disabling that behavior recovered seven identical
 generated answers. The paired score rose from 17/32 to 23/32, including one
 separate generation-path regression. This is a harness correction, not RL.
 
-The latest RL gain did not replicate. One final-answer reward update initially
+An earlier RL gain did not replicate. One final-answer reward update initially
 raised short exact answers from 23/32 to 25/32. Running both fixed models again
 with new decoding seeds reversed the result: 25/32 to 22/32, with three losses
 and no gains. The losses added a final line break after correct retrieval.
 These blocks reuse 16 conversations; extra seeds are not independent tasks.
 We retain both blocks and do not present the favorable one as an established
-improvement. A new mixed-reward update left short and longer-input accuracy
-unchanged. Its one extra third/fourth-occurrence success restored two spaces;
-this is not established retrieval or decomposition learning. A generic request
+improvement. A new mixed-reward update initially left evaluation accuracy
+unchanged, but learned on its training samples: 7 to 17 exact answers out of32.
+Increasing that update's learning rate tenfold reached24/32 on training and
+28/32 versus25/32 on the already examined evaluation panel. The latter included
+five gains and two losses; gains corrected final copying after unchanged
+retrieval. This is promising answer-delivery learning, not established retrieval
+or decomposition learning. A fixed fresh-conversation comparison is being
+prepared to check transfer. A generic request
 to inspect source wording also failed to elicit that behavior and reduced
 accuracy. We retain these results to guide the next experiment rather than
 repeating an unproductive prompt or selecting the favorable score.
@@ -37,14 +42,19 @@ questions, extracting quoted relations and simply asking the final model for a
 concise answer each raised exact scores from 3/12 to 5/12, but corrected different
 questions. The gains changed wording of facts already present. The cheaper
 instruction used fewer model calls; neither fixed missing evidence or reliably
-assigned facts to the correct person. We are preparing a task with checkable
-intermediate answers to study that distinction more directly.
+assigned facts to the correct person. A generated database task now separates
+record selection from reporting and combination. Asking helpers for just IDs
+modestly improved selected sets but did not solve complete problems. Splitting
+fresh inputs among four helpers produced no net unordered-set accuracy gain
+over one helper, and used42% more input tokens. More helpers selected fewer
+ineligible records but also missed more eligible ones. Output ordering was a
+separate source of strict-format failures, not invented IDs or truncation.
 
 Earlier helper-training gains also weakened on new examples and did not improve
 whole-system answers. The notebook preserves those results, failures and
 interpretation changes alongside promising findings. Records retain their named
 cutoffs; this is not live GPU status. See the
-[latest plain-language research checkpoint](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-12-small-rl-signal-and-helper-controls.md)
+[latest plain-language research checkpoint](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-12-rl-dose-and-local-delegation.md)
 for methods, limitations and evidence pointers.
 
 ## Start here

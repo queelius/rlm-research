@@ -1,0 +1,3926 @@
+{
+  "CPU_recombined_coordinates_per_arm": 32,
+  "active_roots": 4,
+  "arms": {
+    "ids_only": {
+      "available": 24,
+      "children": [
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_c37663b742863e29bfc2",
+          "child_index": 0,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_6239af8cd9f5",
+            "impl_b136281e0b93"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271001,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_3c294ee55130c54e3e87",
+          "child_index": 0,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_6239af8cd9f5",
+            "impl_b136281e0b93"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271002,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_23f90c60b4e6a4d0761c",
+          "child_index": 1,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 1,
+          "id_set_exact": false,
+          "ids": [
+            "impl_95d81fe9bd2c",
+            "impl_f6decf9f999d"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 0.5,
+          "recall": 0.5,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271003,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_a72332eb6a2d1252bc08",
+          "child_index": 1,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 1,
+          "id_set_exact": false,
+          "ids": [
+            "impl_95d81fe9bd2c",
+            "impl_f6decf9f999d"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 0.5,
+          "recall": 0.5,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271004,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_b8394a53e83a107b9b11",
+          "child_index": 2,
+          "diagnostic_id_projection": null,
+          "id_set_exact": false,
+          "original_grade_status": "invalid_claim",
+          "original_status": "returned_valid",
+          "precision": null,
+          "recall": null,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271005,
+          "strict_claim_valid": false
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_e5c683bdd96968945063",
+          "child_index": 2,
+          "diagnostic_id_projection": null,
+          "id_set_exact": false,
+          "original_grade_status": "invalid_claim",
+          "original_status": "returned_valid",
+          "precision": null,
+          "recall": null,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271006,
+          "strict_claim_valid": false
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_29adae7c91cc01346c0c",
+          "child_index": 0,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_f43cd4b20596"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.5,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271017,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_0997b8ef72337a3c9700",
+          "child_index": 0,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_f43cd4b20596"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.5,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271018,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_dd824c9eea0df142b006",
+          "child_index": 1,
+          "diagnostic_id_projection": null,
+          "id_set_exact": false,
+          "original_grade_status": "invalid_claim",
+          "original_status": "returned_valid",
+          "precision": null,
+          "recall": null,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271019,
+          "strict_claim_valid": false
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_26f1e14ba323b1cabc85",
+          "child_index": 1,
+          "diagnostic_id_projection": null,
+          "id_set_exact": false,
+          "original_grade_status": "invalid_claim",
+          "original_status": "returned_valid",
+          "precision": null,
+          "recall": null,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271020,
+          "strict_claim_valid": false
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_b4caf96a2c1c091ccbb4",
+          "child_index": 2,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_2a0613db66af",
+            "impl_da1f7a95800b"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271021,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_70f65be0345a28add9e7",
+          "child_index": 2,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_2a0613db66af",
+            "impl_da1f7a95800b"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271022,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_d1626f438cea79b51a2a",
+          "child_index": 0,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_167376f93af6",
+            "impl_e3771f08b236"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271033,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_1541b41003590c90b582",
+          "child_index": 0,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_167376f93af6",
+            "impl_e3771f08b236"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271034,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_f694c888e114ae5d722f",
+          "child_index": 1,
+          "diagnostic_id_projection": null,
+          "false_negative": 0,
+          "false_positive": 0,
+          "id_set_exact": true,
+          "ids": [
+            "impl_c7a3feb43d02",
+            "impl_f12d47653703"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 1.0,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271035,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_c7a1adca05f77827a5d2",
+          "child_index": 1,
+          "diagnostic_id_projection": null,
+          "false_negative": 0,
+          "false_positive": 0,
+          "id_set_exact": true,
+          "ids": [
+            "impl_c7a3feb43d02",
+            "impl_f12d47653703"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 1.0,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271036,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_5eb361863b8b3e6e22d2",
+          "child_index": 2,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_0f0f8e5c3c3a",
+            "impl_8b2639f01554"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271037,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_5a5579ffad47230f5641",
+          "child_index": 2,
+          "diagnostic_id_projection": null,
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_0f0f8e5c3c3a",
+            "impl_8b2639f01554"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271038,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_1c6948e018b36988d206",
+          "child_index": 0,
+          "diagnostic_id_projection": null,
+          "id_set_exact": false,
+          "original_grade_status": "invalid_claim",
+          "original_status": "returned_valid",
+          "precision": null,
+          "recall": null,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271049,
+          "strict_claim_valid": false
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_0b686650f4fedb464704",
+          "child_index": 0,
+          "diagnostic_id_projection": null,
+          "id_set_exact": false,
+          "original_grade_status": "invalid_claim",
+          "original_status": "returned_valid",
+          "precision": null,
+          "recall": null,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271050,
+          "strict_claim_valid": false
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_031a60bc37169d398f14",
+          "child_index": 1,
+          "diagnostic_id_projection": null,
+          "false_negative": 0,
+          "false_positive": 0,
+          "id_set_exact": true,
+          "ids": [
+            "impl_0181f9db4c0d",
+            "impl_f04c23ed747b"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 1.0,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271051,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_e640c92db1b34fdad164",
+          "child_index": 1,
+          "diagnostic_id_projection": null,
+          "false_negative": 0,
+          "false_positive": 0,
+          "id_set_exact": true,
+          "ids": [
+            "impl_0181f9db4c0d",
+            "impl_f04c23ed747b"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 1.0,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271052,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_4b88bced59b3be04f3a6",
+          "child_index": 2,
+          "diagnostic_id_projection": null,
+          "false_negative": 2,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_6c87e6d43894"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271053,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_2be32bc0a7786565555d",
+          "child_index": 2,
+          "diagnostic_id_projection": null,
+          "false_negative": 2,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_6c87e6d43894"
+          ],
+          "original_grade_status": "valid_claim",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271054,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        }
+      ],
+      "host_source_correct": 0,
+      "host_unsupported": 24,
+      "id_set_exact": 4,
+      "invalid_known": 6,
+      "micro_false_negative": 16,
+      "micro_false_positive": 2,
+      "micro_true_positive": 30,
+      "planned_children": 24,
+      "precision_recall_valid_denominator": 18,
+      "precision_valid_only": 0.9375,
+      "recall_valid_only": 0.6521739130434783,
+      "recombinations": [
+        {
+          "alternatives": [
+            0,
+            0,
+            0
+          ],
+          "call_id": "call_5e30c5c1be7a4a175ddf",
+          "dependency_call_ids": [
+            "call_c37663b742863e29bfc2",
+            "call_23f90c60b4e6a4d0761c",
+            "call_b8394a53e83a107b9b11"
+          ],
+          "root_id": "root_9dbd5f1edf00ba",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            1
+          ],
+          "call_id": "call_f7a9d708289d08ac180a",
+          "dependency_call_ids": [
+            "call_c37663b742863e29bfc2",
+            "call_23f90c60b4e6a4d0761c",
+            "call_e5c683bdd96968945063"
+          ],
+          "root_id": "root_9dbd5f1edf00ba",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            0
+          ],
+          "call_id": "call_4ef6ff47858556032b8f",
+          "dependency_call_ids": [
+            "call_c37663b742863e29bfc2",
+            "call_a72332eb6a2d1252bc08",
+            "call_b8394a53e83a107b9b11"
+          ],
+          "root_id": "root_9dbd5f1edf00ba",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            1
+          ],
+          "call_id": "call_1f8fe67f8d562131f066",
+          "dependency_call_ids": [
+            "call_c37663b742863e29bfc2",
+            "call_a72332eb6a2d1252bc08",
+            "call_e5c683bdd96968945063"
+          ],
+          "root_id": "root_9dbd5f1edf00ba",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            0
+          ],
+          "call_id": "call_08515ea8e166af0f8023",
+          "dependency_call_ids": [
+            "call_3c294ee55130c54e3e87",
+            "call_23f90c60b4e6a4d0761c",
+            "call_b8394a53e83a107b9b11"
+          ],
+          "root_id": "root_9dbd5f1edf00ba",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            1
+          ],
+          "call_id": "call_8cc002d96c69b840785c",
+          "dependency_call_ids": [
+            "call_3c294ee55130c54e3e87",
+            "call_23f90c60b4e6a4d0761c",
+            "call_e5c683bdd96968945063"
+          ],
+          "root_id": "root_9dbd5f1edf00ba",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            0
+          ],
+          "call_id": "call_7f1a9ee41062ee382651",
+          "dependency_call_ids": [
+            "call_3c294ee55130c54e3e87",
+            "call_a72332eb6a2d1252bc08",
+            "call_b8394a53e83a107b9b11"
+          ],
+          "root_id": "root_9dbd5f1edf00ba",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            1
+          ],
+          "call_id": "call_d85f25141bfa29814219",
+          "dependency_call_ids": [
+            "call_3c294ee55130c54e3e87",
+            "call_a72332eb6a2d1252bc08",
+            "call_e5c683bdd96968945063"
+          ],
+          "root_id": "root_9dbd5f1edf00ba",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            0
+          ],
+          "call_id": "call_8711837bcc67e9cfb2c6",
+          "dependency_call_ids": [
+            "call_29adae7c91cc01346c0c",
+            "call_dd824c9eea0df142b006",
+            "call_b4caf96a2c1c091ccbb4"
+          ],
+          "root_id": "root_d3cd251c9a9448",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            1
+          ],
+          "call_id": "call_d5315ddb5687d775694a",
+          "dependency_call_ids": [
+            "call_29adae7c91cc01346c0c",
+            "call_dd824c9eea0df142b006",
+            "call_70f65be0345a28add9e7"
+          ],
+          "root_id": "root_d3cd251c9a9448",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            0
+          ],
+          "call_id": "call_e91b819f1f23db632249",
+          "dependency_call_ids": [
+            "call_29adae7c91cc01346c0c",
+            "call_26f1e14ba323b1cabc85",
+            "call_b4caf96a2c1c091ccbb4"
+          ],
+          "root_id": "root_d3cd251c9a9448",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            1
+          ],
+          "call_id": "call_f48233a70eca86f55205",
+          "dependency_call_ids": [
+            "call_29adae7c91cc01346c0c",
+            "call_26f1e14ba323b1cabc85",
+            "call_70f65be0345a28add9e7"
+          ],
+          "root_id": "root_d3cd251c9a9448",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            0
+          ],
+          "call_id": "call_69074550cceec91dfde5",
+          "dependency_call_ids": [
+            "call_0997b8ef72337a3c9700",
+            "call_dd824c9eea0df142b006",
+            "call_b4caf96a2c1c091ccbb4"
+          ],
+          "root_id": "root_d3cd251c9a9448",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            1
+          ],
+          "call_id": "call_3fb6c0d05c5bd4f26829",
+          "dependency_call_ids": [
+            "call_0997b8ef72337a3c9700",
+            "call_dd824c9eea0df142b006",
+            "call_70f65be0345a28add9e7"
+          ],
+          "root_id": "root_d3cd251c9a9448",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            0
+          ],
+          "call_id": "call_7ef8fa48350c8527f8fa",
+          "dependency_call_ids": [
+            "call_0997b8ef72337a3c9700",
+            "call_26f1e14ba323b1cabc85",
+            "call_b4caf96a2c1c091ccbb4"
+          ],
+          "root_id": "root_d3cd251c9a9448",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            1
+          ],
+          "call_id": "call_2db67f8d1d7ba718c65c",
+          "dependency_call_ids": [
+            "call_0997b8ef72337a3c9700",
+            "call_26f1e14ba323b1cabc85",
+            "call_70f65be0345a28add9e7"
+          ],
+          "root_id": "root_d3cd251c9a9448",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_26158052c5e7639902bf",
+          "dependency_call_ids": [
+            "call_d1626f438cea79b51a2a",
+            "call_f694c888e114ae5d722f",
+            "call_5eb361863b8b3e6e22d2"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_f36c8f68ce48a4279549",
+          "dependency_call_ids": [
+            "call_d1626f438cea79b51a2a",
+            "call_f694c888e114ae5d722f",
+            "call_5a5579ffad47230f5641"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_12f6a3990eb6694cf065",
+          "dependency_call_ids": [
+            "call_d1626f438cea79b51a2a",
+            "call_c7a1adca05f77827a5d2",
+            "call_5eb361863b8b3e6e22d2"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_680765146dabbe5ab627",
+          "dependency_call_ids": [
+            "call_d1626f438cea79b51a2a",
+            "call_c7a1adca05f77827a5d2",
+            "call_5a5579ffad47230f5641"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_5f9156e4b13b316ae0db",
+          "dependency_call_ids": [
+            "call_1541b41003590c90b582",
+            "call_f694c888e114ae5d722f",
+            "call_5eb361863b8b3e6e22d2"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_a500d3508b7cabb812a9",
+          "dependency_call_ids": [
+            "call_1541b41003590c90b582",
+            "call_f694c888e114ae5d722f",
+            "call_5a5579ffad47230f5641"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_1ec880c681a2085ab1a3",
+          "dependency_call_ids": [
+            "call_1541b41003590c90b582",
+            "call_c7a1adca05f77827a5d2",
+            "call_5eb361863b8b3e6e22d2"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_b42652073c2157d7ec82",
+          "dependency_call_ids": [
+            "call_1541b41003590c90b582",
+            "call_c7a1adca05f77827a5d2",
+            "call_5a5579ffad47230f5641"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            0
+          ],
+          "call_id": "call_8e447b04cfb69bca2eff",
+          "dependency_call_ids": [
+            "call_1c6948e018b36988d206",
+            "call_031a60bc37169d398f14",
+            "call_4b88bced59b3be04f3a6"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            1
+          ],
+          "call_id": "call_85d764d1a5c2e1916dc7",
+          "dependency_call_ids": [
+            "call_1c6948e018b36988d206",
+            "call_031a60bc37169d398f14",
+            "call_2be32bc0a7786565555d"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            0
+          ],
+          "call_id": "call_73b52a4b5d29fc7bb7dc",
+          "dependency_call_ids": [
+            "call_1c6948e018b36988d206",
+            "call_e640c92db1b34fdad164",
+            "call_4b88bced59b3be04f3a6"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            1
+          ],
+          "call_id": "call_f5118abee83fb4f8ebd4",
+          "dependency_call_ids": [
+            "call_1c6948e018b36988d206",
+            "call_e640c92db1b34fdad164",
+            "call_2be32bc0a7786565555d"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            0
+          ],
+          "call_id": "call_7564d43397693d7a2663",
+          "dependency_call_ids": [
+            "call_0b686650f4fedb464704",
+            "call_031a60bc37169d398f14",
+            "call_4b88bced59b3be04f3a6"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            1
+          ],
+          "call_id": "call_1657aa914ce7aa02b280",
+          "dependency_call_ids": [
+            "call_0b686650f4fedb464704",
+            "call_031a60bc37169d398f14",
+            "call_2be32bc0a7786565555d"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            0
+          ],
+          "call_id": "call_20958f73296518e9e885",
+          "dependency_call_ids": [
+            "call_0b686650f4fedb464704",
+            "call_e640c92db1b34fdad164",
+            "call_4b88bced59b3be04f3a6"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            1
+          ],
+          "call_id": "call_cfaf09baaf757eed1157",
+          "dependency_call_ids": [
+            "call_0b686650f4fedb464704",
+            "call_e640c92db1b34fdad164",
+            "call_2be32bc0a7786565555d"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        }
+      ],
+      "strict_valid": 18,
+      "unknown": 0
+    },
+    "v3_full_report": {
+      "available": 24,
+      "children": [
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_c37663b742863e29bfc2",
+          "child_index": 0,
+          "diagnostic_id_projection": {
+            "false_negative": 2,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "true_positive": 1
+          },
+          "false_negative": 2,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_b136281e0b93"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271001,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_3c294ee55130c54e3e87",
+          "child_index": 0,
+          "diagnostic_id_projection": {
+            "false_negative": 2,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "true_positive": 1
+          },
+          "false_negative": 2,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_b136281e0b93"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271002,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_23f90c60b4e6a4d0761c",
+          "child_index": 1,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 1,
+            "id_set_exact": false,
+            "precision": 0.5,
+            "recall": 0.5,
+            "true_positive": 1
+          },
+          "false_negative": 1,
+          "false_positive": 1,
+          "id_set_exact": false,
+          "ids": [
+            "impl_95d81fe9bd2c",
+            "impl_f6decf9f999d"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 0.5,
+          "recall": 0.5,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271003,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_a72332eb6a2d1252bc08",
+          "child_index": 1,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 1,
+            "id_set_exact": false,
+            "precision": 0.5,
+            "recall": 0.5,
+            "true_positive": 1
+          },
+          "false_negative": 1,
+          "false_positive": 1,
+          "id_set_exact": false,
+          "ids": [
+            "impl_95d81fe9bd2c",
+            "impl_f6decf9f999d"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 0.5,
+          "recall": 0.5,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271004,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_b8394a53e83a107b9b11",
+          "child_index": 2,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_3c33ae19be5f",
+            "impl_633d6972f03b"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271005,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_e5c683bdd96968945063",
+          "child_index": 2,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_3c33ae19be5f",
+            "impl_633d6972f03b"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_9dbd5f1edf00ba",
+          "seed": 202609271006,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_29adae7c91cc01346c0c",
+          "child_index": 0,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.5,
+            "true_positive": 1
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_f43cd4b20596"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.5,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271017,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_0997b8ef72337a3c9700",
+          "child_index": 0,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.5,
+            "true_positive": 1
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_f43cd4b20596"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.5,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271018,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_dd824c9eea0df142b006",
+          "child_index": 1,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_b14336346a77",
+            "impl_fdefdc20cde5"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271019,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_26f1e14ba323b1cabc85",
+          "child_index": 1,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_b14336346a77",
+            "impl_fdefdc20cde5"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271020,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_b4caf96a2c1c091ccbb4",
+          "child_index": 2,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_2a0613db66af",
+            "impl_da1f7a95800b"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271021,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_70f65be0345a28add9e7",
+          "child_index": 2,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_2a0613db66af",
+            "impl_da1f7a95800b"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_d3cd251c9a9448",
+          "seed": 202609271022,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_d1626f438cea79b51a2a",
+          "child_index": 0,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_167376f93af6",
+            "impl_e3771f08b236"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271033,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_1541b41003590c90b582",
+          "child_index": 0,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_167376f93af6",
+            "impl_e3771f08b236"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271034,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_f694c888e114ae5d722f",
+          "child_index": 1,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.5,
+            "true_positive": 1
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_c7a3feb43d02"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.5,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271035,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_c7a1adca05f77827a5d2",
+          "child_index": 1,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.5,
+            "true_positive": 1
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_c7a3feb43d02"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.5,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271036,
+          "strict_claim_valid": true,
+          "true_positive": 1
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_5eb361863b8b3e6e22d2",
+          "child_index": 2,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_0f0f8e5c3c3a",
+            "impl_8b2639f01554"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271037,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_5a5579ffad47230f5641",
+          "child_index": 2,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_0f0f8e5c3c3a",
+            "impl_8b2639f01554"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_1e85ada58d2088",
+          "seed": 202609271038,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_1c6948e018b36988d206",
+          "child_index": 0,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "id_set_exact": false,
+          "original_grade_status": "invalid_claim",
+          "original_status": "returned_valid",
+          "precision": null,
+          "recall": null,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271049,
+          "strict_claim_valid": false
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_0b686650f4fedb464704",
+          "child_index": 0,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "id_set_exact": false,
+          "original_grade_status": "invalid_claim",
+          "original_status": "returned_valid",
+          "precision": null,
+          "recall": null,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271050,
+          "strict_claim_valid": false
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_031a60bc37169d398f14",
+          "child_index": 1,
+          "diagnostic_id_projection": {
+            "false_negative": 0,
+            "false_positive": 0,
+            "id_set_exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "false_negative": 0,
+          "false_positive": 0,
+          "id_set_exact": true,
+          "ids": [
+            "impl_0181f9db4c0d",
+            "impl_f04c23ed747b"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 1.0,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271051,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_e640c92db1b34fdad164",
+          "child_index": 1,
+          "diagnostic_id_projection": {
+            "false_negative": 0,
+            "false_positive": 0,
+            "id_set_exact": true,
+            "precision": 1.0,
+            "recall": 1.0,
+            "true_positive": 2
+          },
+          "false_negative": 0,
+          "false_positive": 0,
+          "id_set_exact": true,
+          "ids": [
+            "impl_0181f9db4c0d",
+            "impl_f04c23ed747b"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 1.0,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271052,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 0,
+          "available": true,
+          "call_id": "call_4b88bced59b3be04f3a6",
+          "child_index": 2,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_036079f1b4a1",
+            "impl_6c87e6d43894"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271053,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        },
+        {
+          "alternative": 1,
+          "available": true,
+          "call_id": "call_2be32bc0a7786565555d",
+          "child_index": 2,
+          "diagnostic_id_projection": {
+            "false_negative": 1,
+            "false_positive": 0,
+            "id_set_exact": false,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "true_positive": 2
+          },
+          "false_negative": 1,
+          "false_positive": 0,
+          "id_set_exact": false,
+          "ids": [
+            "impl_036079f1b4a1",
+            "impl_6c87e6d43894"
+          ],
+          "original_grade_status": "valid_but_wrong",
+          "original_status": "returned_valid",
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "root_id": "root_82401d72e4a32c",
+          "seed": 202609271054,
+          "strict_claim_valid": true,
+          "true_positive": 2
+        }
+      ],
+      "host_source_correct": 0,
+      "host_unsupported": 8,
+      "id_set_exact": 2,
+      "invalid_known": 2,
+      "micro_false_negative": 22,
+      "micro_false_positive": 2,
+      "micro_true_positive": 36,
+      "planned_children": 24,
+      "precision_recall_valid_denominator": 22,
+      "precision_valid_only": 0.9473684210526315,
+      "recall_valid_only": 0.6206896551724138,
+      "recombinations": [
+        {
+          "alternatives": [
+            0,
+            0,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 29,
+            "covered_features": [
+              "deduplication",
+              "encryption",
+              "validation"
+            ],
+            "selection": [
+              "impl_b136281e0b93",
+              "impl_f6decf9f999d",
+              "impl_3c33ae19be5f"
+            ],
+            "status": "selected",
+            "total_cost": 44,
+            "total_latency": 37,
+            "total_quality": 64
+          },
+          "call_id": "call_5e30c5c1be7a4a175ddf",
+          "dependency_call_ids": [
+            "call_c37663b742863e29bfc2",
+            "call_23f90c60b4e6a4d0761c",
+            "call_b8394a53e83a107b9b11"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_9dbd5f1edf00ba",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 29,
+              "covered_features": [
+                "deduplication",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_b136281e0b93",
+                "impl_f6decf9f999d",
+                "impl_3c33ae19be5f"
+              ],
+              "status": "selected",
+              "total_cost": 44,
+              "total_latency": 37,
+              "total_quality": 64
+            },
+            "reason": "selection must name one displayed row from each stage",
+            "status": "invalid_claim"
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 29,
+            "covered_features": [
+              "deduplication",
+              "encryption",
+              "validation"
+            ],
+            "selection": [
+              "impl_b136281e0b93",
+              "impl_f6decf9f999d",
+              "impl_3c33ae19be5f"
+            ],
+            "status": "selected",
+            "total_cost": 44,
+            "total_latency": 37,
+            "total_quality": 64
+          },
+          "call_id": "call_f7a9d708289d08ac180a",
+          "dependency_call_ids": [
+            "call_c37663b742863e29bfc2",
+            "call_23f90c60b4e6a4d0761c",
+            "call_e5c683bdd96968945063"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_9dbd5f1edf00ba",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 29,
+              "covered_features": [
+                "deduplication",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_b136281e0b93",
+                "impl_f6decf9f999d",
+                "impl_3c33ae19be5f"
+              ],
+              "status": "selected",
+              "total_cost": 44,
+              "total_latency": 37,
+              "total_quality": 64
+            },
+            "reason": "selection must name one displayed row from each stage",
+            "status": "invalid_claim"
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 29,
+            "covered_features": [
+              "deduplication",
+              "encryption",
+              "validation"
+            ],
+            "selection": [
+              "impl_b136281e0b93",
+              "impl_f6decf9f999d",
+              "impl_3c33ae19be5f"
+            ],
+            "status": "selected",
+            "total_cost": 44,
+            "total_latency": 37,
+            "total_quality": 64
+          },
+          "call_id": "call_4ef6ff47858556032b8f",
+          "dependency_call_ids": [
+            "call_c37663b742863e29bfc2",
+            "call_a72332eb6a2d1252bc08",
+            "call_b8394a53e83a107b9b11"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_9dbd5f1edf00ba",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 29,
+              "covered_features": [
+                "deduplication",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_b136281e0b93",
+                "impl_f6decf9f999d",
+                "impl_3c33ae19be5f"
+              ],
+              "status": "selected",
+              "total_cost": 44,
+              "total_latency": 37,
+              "total_quality": 64
+            },
+            "reason": "selection must name one displayed row from each stage",
+            "status": "invalid_claim"
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 29,
+            "covered_features": [
+              "deduplication",
+              "encryption",
+              "validation"
+            ],
+            "selection": [
+              "impl_b136281e0b93",
+              "impl_f6decf9f999d",
+              "impl_3c33ae19be5f"
+            ],
+            "status": "selected",
+            "total_cost": 44,
+            "total_latency": 37,
+            "total_quality": 64
+          },
+          "call_id": "call_1f8fe67f8d562131f066",
+          "dependency_call_ids": [
+            "call_c37663b742863e29bfc2",
+            "call_a72332eb6a2d1252bc08",
+            "call_e5c683bdd96968945063"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_9dbd5f1edf00ba",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 29,
+              "covered_features": [
+                "deduplication",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_b136281e0b93",
+                "impl_f6decf9f999d",
+                "impl_3c33ae19be5f"
+              ],
+              "status": "selected",
+              "total_cost": 44,
+              "total_latency": 37,
+              "total_quality": 64
+            },
+            "reason": "selection must name one displayed row from each stage",
+            "status": "invalid_claim"
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 29,
+            "covered_features": [
+              "deduplication",
+              "encryption",
+              "validation"
+            ],
+            "selection": [
+              "impl_b136281e0b93",
+              "impl_f6decf9f999d",
+              "impl_3c33ae19be5f"
+            ],
+            "status": "selected",
+            "total_cost": 44,
+            "total_latency": 37,
+            "total_quality": 64
+          },
+          "call_id": "call_08515ea8e166af0f8023",
+          "dependency_call_ids": [
+            "call_3c294ee55130c54e3e87",
+            "call_23f90c60b4e6a4d0761c",
+            "call_b8394a53e83a107b9b11"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_9dbd5f1edf00ba",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 29,
+              "covered_features": [
+                "deduplication",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_b136281e0b93",
+                "impl_f6decf9f999d",
+                "impl_3c33ae19be5f"
+              ],
+              "status": "selected",
+              "total_cost": 44,
+              "total_latency": 37,
+              "total_quality": 64
+            },
+            "reason": "selection must name one displayed row from each stage",
+            "status": "invalid_claim"
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 29,
+            "covered_features": [
+              "deduplication",
+              "encryption",
+              "validation"
+            ],
+            "selection": [
+              "impl_b136281e0b93",
+              "impl_f6decf9f999d",
+              "impl_3c33ae19be5f"
+            ],
+            "status": "selected",
+            "total_cost": 44,
+            "total_latency": 37,
+            "total_quality": 64
+          },
+          "call_id": "call_8cc002d96c69b840785c",
+          "dependency_call_ids": [
+            "call_3c294ee55130c54e3e87",
+            "call_23f90c60b4e6a4d0761c",
+            "call_e5c683bdd96968945063"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_9dbd5f1edf00ba",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 29,
+              "covered_features": [
+                "deduplication",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_b136281e0b93",
+                "impl_f6decf9f999d",
+                "impl_3c33ae19be5f"
+              ],
+              "status": "selected",
+              "total_cost": 44,
+              "total_latency": 37,
+              "total_quality": 64
+            },
+            "reason": "selection must name one displayed row from each stage",
+            "status": "invalid_claim"
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 29,
+            "covered_features": [
+              "deduplication",
+              "encryption",
+              "validation"
+            ],
+            "selection": [
+              "impl_b136281e0b93",
+              "impl_f6decf9f999d",
+              "impl_3c33ae19be5f"
+            ],
+            "status": "selected",
+            "total_cost": 44,
+            "total_latency": 37,
+            "total_quality": 64
+          },
+          "call_id": "call_7f1a9ee41062ee382651",
+          "dependency_call_ids": [
+            "call_3c294ee55130c54e3e87",
+            "call_a72332eb6a2d1252bc08",
+            "call_b8394a53e83a107b9b11"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_9dbd5f1edf00ba",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 29,
+              "covered_features": [
+                "deduplication",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_b136281e0b93",
+                "impl_f6decf9f999d",
+                "impl_3c33ae19be5f"
+              ],
+              "status": "selected",
+              "total_cost": 44,
+              "total_latency": 37,
+              "total_quality": 64
+            },
+            "reason": "selection must name one displayed row from each stage",
+            "status": "invalid_claim"
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 29,
+            "covered_features": [
+              "deduplication",
+              "encryption",
+              "validation"
+            ],
+            "selection": [
+              "impl_b136281e0b93",
+              "impl_f6decf9f999d",
+              "impl_3c33ae19be5f"
+            ],
+            "status": "selected",
+            "total_cost": 44,
+            "total_latency": 37,
+            "total_quality": 64
+          },
+          "call_id": "call_d85f25141bfa29814219",
+          "dependency_call_ids": [
+            "call_3c294ee55130c54e3e87",
+            "call_a72332eb6a2d1252bc08",
+            "call_e5c683bdd96968945063"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_9dbd5f1edf00ba",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 29,
+              "covered_features": [
+                "deduplication",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_b136281e0b93",
+                "impl_f6decf9f999d",
+                "impl_3c33ae19be5f"
+              ],
+              "status": "selected",
+              "total_cost": 44,
+              "total_latency": 37,
+              "total_quality": 64
+            },
+            "reason": "selection must name one displayed row from each stage",
+            "status": "invalid_claim"
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 22,
+            "covered_features": [
+              "audit",
+              "compression",
+              "deduplication",
+              "encryption"
+            ],
+            "selection": [
+              "impl_f43cd4b20596",
+              "impl_fdefdc20cde5",
+              "impl_2a0613db66af"
+            ],
+            "status": "selected",
+            "total_cost": 56,
+            "total_latency": 30,
+            "total_quality": 72
+          },
+          "call_id": "call_8711837bcc67e9cfb2c6",
+          "dependency_call_ids": [
+            "call_29adae7c91cc01346c0c",
+            "call_dd824c9eea0df142b006",
+            "call_b4caf96a2c1c091ccbb4"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_d3cd251c9a9448",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 22,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "encryption"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_fdefdc20cde5",
+                "impl_2a0613db66af"
+              ],
+              "status": "selected",
+              "total_cost": 56,
+              "total_latency": 30,
+              "total_quality": 72
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 36,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "validation"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_26d0f50eef29",
+                "impl_54f4ec6ba2fe"
+              ],
+              "status": "selected",
+              "total_cost": 47,
+              "total_latency": 26,
+              "total_quality": 61
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 22,
+            "covered_features": [
+              "audit",
+              "compression",
+              "deduplication",
+              "encryption"
+            ],
+            "selection": [
+              "impl_f43cd4b20596",
+              "impl_fdefdc20cde5",
+              "impl_2a0613db66af"
+            ],
+            "status": "selected",
+            "total_cost": 56,
+            "total_latency": 30,
+            "total_quality": 72
+          },
+          "call_id": "call_d5315ddb5687d775694a",
+          "dependency_call_ids": [
+            "call_29adae7c91cc01346c0c",
+            "call_dd824c9eea0df142b006",
+            "call_70f65be0345a28add9e7"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_d3cd251c9a9448",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 22,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "encryption"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_fdefdc20cde5",
+                "impl_2a0613db66af"
+              ],
+              "status": "selected",
+              "total_cost": 56,
+              "total_latency": 30,
+              "total_quality": 72
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 36,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "validation"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_26d0f50eef29",
+                "impl_54f4ec6ba2fe"
+              ],
+              "status": "selected",
+              "total_cost": 47,
+              "total_latency": 26,
+              "total_quality": 61
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 22,
+            "covered_features": [
+              "audit",
+              "compression",
+              "deduplication",
+              "encryption"
+            ],
+            "selection": [
+              "impl_f43cd4b20596",
+              "impl_fdefdc20cde5",
+              "impl_2a0613db66af"
+            ],
+            "status": "selected",
+            "total_cost": 56,
+            "total_latency": 30,
+            "total_quality": 72
+          },
+          "call_id": "call_e91b819f1f23db632249",
+          "dependency_call_ids": [
+            "call_29adae7c91cc01346c0c",
+            "call_26f1e14ba323b1cabc85",
+            "call_b4caf96a2c1c091ccbb4"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_d3cd251c9a9448",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 22,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "encryption"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_fdefdc20cde5",
+                "impl_2a0613db66af"
+              ],
+              "status": "selected",
+              "total_cost": 56,
+              "total_latency": 30,
+              "total_quality": 72
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 36,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "validation"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_26d0f50eef29",
+                "impl_54f4ec6ba2fe"
+              ],
+              "status": "selected",
+              "total_cost": 47,
+              "total_latency": 26,
+              "total_quality": 61
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 22,
+            "covered_features": [
+              "audit",
+              "compression",
+              "deduplication",
+              "encryption"
+            ],
+            "selection": [
+              "impl_f43cd4b20596",
+              "impl_fdefdc20cde5",
+              "impl_2a0613db66af"
+            ],
+            "status": "selected",
+            "total_cost": 56,
+            "total_latency": 30,
+            "total_quality": 72
+          },
+          "call_id": "call_f48233a70eca86f55205",
+          "dependency_call_ids": [
+            "call_29adae7c91cc01346c0c",
+            "call_26f1e14ba323b1cabc85",
+            "call_70f65be0345a28add9e7"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_d3cd251c9a9448",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 22,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "encryption"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_fdefdc20cde5",
+                "impl_2a0613db66af"
+              ],
+              "status": "selected",
+              "total_cost": 56,
+              "total_latency": 30,
+              "total_quality": 72
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 36,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "validation"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_26d0f50eef29",
+                "impl_54f4ec6ba2fe"
+              ],
+              "status": "selected",
+              "total_cost": 47,
+              "total_latency": 26,
+              "total_quality": 61
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 22,
+            "covered_features": [
+              "audit",
+              "compression",
+              "deduplication",
+              "encryption"
+            ],
+            "selection": [
+              "impl_f43cd4b20596",
+              "impl_fdefdc20cde5",
+              "impl_2a0613db66af"
+            ],
+            "status": "selected",
+            "total_cost": 56,
+            "total_latency": 30,
+            "total_quality": 72
+          },
+          "call_id": "call_69074550cceec91dfde5",
+          "dependency_call_ids": [
+            "call_0997b8ef72337a3c9700",
+            "call_dd824c9eea0df142b006",
+            "call_b4caf96a2c1c091ccbb4"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_d3cd251c9a9448",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 22,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "encryption"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_fdefdc20cde5",
+                "impl_2a0613db66af"
+              ],
+              "status": "selected",
+              "total_cost": 56,
+              "total_latency": 30,
+              "total_quality": 72
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 36,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "validation"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_26d0f50eef29",
+                "impl_54f4ec6ba2fe"
+              ],
+              "status": "selected",
+              "total_cost": 47,
+              "total_latency": 26,
+              "total_quality": 61
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 22,
+            "covered_features": [
+              "audit",
+              "compression",
+              "deduplication",
+              "encryption"
+            ],
+            "selection": [
+              "impl_f43cd4b20596",
+              "impl_fdefdc20cde5",
+              "impl_2a0613db66af"
+            ],
+            "status": "selected",
+            "total_cost": 56,
+            "total_latency": 30,
+            "total_quality": 72
+          },
+          "call_id": "call_3fb6c0d05c5bd4f26829",
+          "dependency_call_ids": [
+            "call_0997b8ef72337a3c9700",
+            "call_dd824c9eea0df142b006",
+            "call_70f65be0345a28add9e7"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_d3cd251c9a9448",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 22,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "encryption"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_fdefdc20cde5",
+                "impl_2a0613db66af"
+              ],
+              "status": "selected",
+              "total_cost": 56,
+              "total_latency": 30,
+              "total_quality": 72
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 36,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "validation"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_26d0f50eef29",
+                "impl_54f4ec6ba2fe"
+              ],
+              "status": "selected",
+              "total_cost": 47,
+              "total_latency": 26,
+              "total_quality": 61
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 22,
+            "covered_features": [
+              "audit",
+              "compression",
+              "deduplication",
+              "encryption"
+            ],
+            "selection": [
+              "impl_f43cd4b20596",
+              "impl_fdefdc20cde5",
+              "impl_2a0613db66af"
+            ],
+            "status": "selected",
+            "total_cost": 56,
+            "total_latency": 30,
+            "total_quality": 72
+          },
+          "call_id": "call_7ef8fa48350c8527f8fa",
+          "dependency_call_ids": [
+            "call_0997b8ef72337a3c9700",
+            "call_26f1e14ba323b1cabc85",
+            "call_b4caf96a2c1c091ccbb4"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_d3cd251c9a9448",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 22,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "encryption"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_fdefdc20cde5",
+                "impl_2a0613db66af"
+              ],
+              "status": "selected",
+              "total_cost": 56,
+              "total_latency": 30,
+              "total_quality": 72
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 36,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "validation"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_26d0f50eef29",
+                "impl_54f4ec6ba2fe"
+              ],
+              "status": "selected",
+              "total_cost": 47,
+              "total_latency": 26,
+              "total_quality": 61
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 22,
+            "covered_features": [
+              "audit",
+              "compression",
+              "deduplication",
+              "encryption"
+            ],
+            "selection": [
+              "impl_f43cd4b20596",
+              "impl_fdefdc20cde5",
+              "impl_2a0613db66af"
+            ],
+            "status": "selected",
+            "total_cost": 56,
+            "total_latency": 30,
+            "total_quality": 72
+          },
+          "call_id": "call_2db67f8d1d7ba718c65c",
+          "dependency_call_ids": [
+            "call_0997b8ef72337a3c9700",
+            "call_26f1e14ba323b1cabc85",
+            "call_70f65be0345a28add9e7"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_d3cd251c9a9448",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 22,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "encryption"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_fdefdc20cde5",
+                "impl_2a0613db66af"
+              ],
+              "status": "selected",
+              "total_cost": 56,
+              "total_latency": 30,
+              "total_quality": 72
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 36,
+              "covered_features": [
+                "audit",
+                "compression",
+                "deduplication",
+                "validation"
+              ],
+              "selection": [
+                "impl_f43cd4b20596",
+                "impl_26d0f50eef29",
+                "impl_54f4ec6ba2fe"
+              ],
+              "status": "selected",
+              "total_cost": 47,
+              "total_latency": 26,
+              "total_quality": 61
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_26158052c5e7639902bf",
+          "dependency_call_ids": [
+            "call_d1626f438cea79b51a2a",
+            "call_f694c888e114ae5d722f",
+            "call_5eb361863b8b3e6e22d2"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_f36c8f68ce48a4279549",
+          "dependency_call_ids": [
+            "call_d1626f438cea79b51a2a",
+            "call_f694c888e114ae5d722f",
+            "call_5a5579ffad47230f5641"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_12f6a3990eb6694cf065",
+          "dependency_call_ids": [
+            "call_d1626f438cea79b51a2a",
+            "call_c7a1adca05f77827a5d2",
+            "call_5eb361863b8b3e6e22d2"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_680765146dabbe5ab627",
+          "dependency_call_ids": [
+            "call_d1626f438cea79b51a2a",
+            "call_c7a1adca05f77827a5d2",
+            "call_5a5579ffad47230f5641"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_5f9156e4b13b316ae0db",
+          "dependency_call_ids": [
+            "call_1541b41003590c90b582",
+            "call_f694c888e114ae5d722f",
+            "call_5eb361863b8b3e6e22d2"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_a500d3508b7cabb812a9",
+          "dependency_call_ids": [
+            "call_1541b41003590c90b582",
+            "call_f694c888e114ae5d722f",
+            "call_5a5579ffad47230f5641"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            0
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_1ec880c681a2085ab1a3",
+          "dependency_call_ids": [
+            "call_1541b41003590c90b582",
+            "call_c7a1adca05f77827a5d2",
+            "call_5eb361863b8b3e6e22d2"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            1
+          ],
+          "answer": {
+            "bottleneck_capacity": 26,
+            "covered_features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "selection": [
+              "impl_e3771f08b236",
+              "impl_c7a3feb43d02",
+              "impl_0f0f8e5c3c3a"
+            ],
+            "status": "selected",
+            "total_cost": 42,
+            "total_latency": 43,
+            "total_quality": 87
+          },
+          "call_id": "call_b42652073c2157d7ec82",
+          "dependency_call_ids": [
+            "call_1541b41003590c90b582",
+            "call_c7a1adca05f77827a5d2",
+            "call_5a5579ffad47230f5641"
+          ],
+          "report_implied_feasible": true,
+          "root_id": "root_1e85ada58d2088",
+          "selected_ids_never_eligibility_filtered": true,
+          "source_grade": {
+            "parsed": {
+              "bottleneck_capacity": 26,
+              "covered_features": [
+                "audit",
+                "compression",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_0f0f8e5c3c3a"
+              ],
+              "status": "selected",
+              "total_cost": 42,
+              "total_latency": 43,
+              "total_quality": 87
+            },
+            "reason": null,
+            "status": "valid_but_wrong",
+            "target": {
+              "bottleneck_capacity": 33,
+              "covered_features": [
+                "audit",
+                "compression",
+                "encryption",
+                "validation"
+              ],
+              "selection": [
+                "impl_e3771f08b236",
+                "impl_c7a3feb43d02",
+                "impl_cf547ae7c7c4"
+              ],
+              "status": "selected",
+              "total_cost": 34,
+              "total_latency": 38,
+              "total_quality": 72
+            }
+          },
+          "status": "host_combined"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            0
+          ],
+          "call_id": "call_8e447b04cfb69bca2eff",
+          "dependency_call_ids": [
+            "call_1c6948e018b36988d206",
+            "call_031a60bc37169d398f14",
+            "call_4b88bced59b3be04f3a6"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            0,
+            1
+          ],
+          "call_id": "call_85d764d1a5c2e1916dc7",
+          "dependency_call_ids": [
+            "call_1c6948e018b36988d206",
+            "call_031a60bc37169d398f14",
+            "call_2be32bc0a7786565555d"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            0
+          ],
+          "call_id": "call_73b52a4b5d29fc7bb7dc",
+          "dependency_call_ids": [
+            "call_1c6948e018b36988d206",
+            "call_e640c92db1b34fdad164",
+            "call_4b88bced59b3be04f3a6"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            0,
+            1,
+            1
+          ],
+          "call_id": "call_f5118abee83fb4f8ebd4",
+          "dependency_call_ids": [
+            "call_1c6948e018b36988d206",
+            "call_e640c92db1b34fdad164",
+            "call_2be32bc0a7786565555d"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            0
+          ],
+          "call_id": "call_7564d43397693d7a2663",
+          "dependency_call_ids": [
+            "call_0b686650f4fedb464704",
+            "call_031a60bc37169d398f14",
+            "call_4b88bced59b3be04f3a6"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            0,
+            1
+          ],
+          "call_id": "call_1657aa914ce7aa02b280",
+          "dependency_call_ids": [
+            "call_0b686650f4fedb464704",
+            "call_031a60bc37169d398f14",
+            "call_2be32bc0a7786565555d"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            0
+          ],
+          "call_id": "call_20958f73296518e9e885",
+          "dependency_call_ids": [
+            "call_0b686650f4fedb464704",
+            "call_e640c92db1b34fdad164",
+            "call_4b88bced59b3be04f3a6"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        },
+        {
+          "alternatives": [
+            1,
+            1,
+            1
+          ],
+          "call_id": "call_cfaf09baaf757eed1157",
+          "dependency_call_ids": [
+            "call_0b686650f4fedb464704",
+            "call_e640c92db1b34fdad164",
+            "call_2be32bc0a7786565555d"
+          ],
+          "root_id": "root_82401d72e4a32c",
+          "status": "dependency_unsupported"
+        }
+      ],
+      "strict_valid": 22,
+      "unknown": 0
+    }
+  },
+  "benchmark_admission_or_novelty_claim": false,
+  "complete": true,
+  "errors": [],
+  "lookup_is_host_arithmetic_not_model_skill": true,
+  "missing_call_ids": [],
+  "natural_model_calls_per_host_plan": 3,
+  "paired_exact_losses": 0,
+  "paired_exact_wins": 2,
+  "paired_known": 24,
+  "phases": {
+    "cleanup_seconds": 1.0292062759399414,
+    "science_elapsed_seconds": 16.577733278274536,
+    "service_startup_seconds": 43.553715467453
+  },
+  "physical_cost": {
+    "completion_tokens_observed_subtotal": 980,
+    "completion_tokens_unknown_calls": 0,
+    "not_started": 0,
+    "physical_started": 24,
+    "planned": 24,
+    "prompt_tokens_observed_subtotal": 32394,
+    "prompt_tokens_unknown_calls": 0,
+    "returned_transport_valid": 24,
+    "sum_observed_call_seconds": 36.64660573005676,
+    "summed_call_seconds_not_concurrent_elapsed": true,
+    "unknown_usage_is_not_zero": true
+  },
+  "planned_coordinates": 24,
+  "released": true,
+  "root_model_calls": 0,
+  "runtime_qualified": true,
+  "same_lookup_both_arms": true,
+  "schema": "b05-eligible-ids-interface-result-v1",
+  "start_only_call_ids": []
+}

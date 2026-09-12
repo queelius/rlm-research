@@ -1,0 +1,11 @@
+# Clear local copying fit, not established transfer
+
+The qualified paired training readout is7→17 exact/32, with10 wins and0 losses across four of the eight original training contexts; all32 per arm are available. It is not correct to characterize the LR1e-5 update as behaviorally absent. Its primary exposed held32 and long16 remain unchanged, so this evidence establishes in-sample fit without an established transfer gain.
+
+Every exact win has the same first native action, Python program and saved observation as its cp32 control. Seven wins remove only extra terminal newline(s); three restore the required final two spaces. Clean target stdout remains24/32 and the eight no-clean-target cases remain incorrect. Two wins occur in one originally uniform-zero group, which supplied no direct RLOO gradient; that is limited within-batch transfer of a boundary behavior, not held-out generalization. The other eight wins occur in the three directly credited mixed groups. Full native paths remain identical17/32; five additional changed paths remain wrong and do not establish retrieval improvement.
+
+Observed inference costs: cp32 66returned calls,69,717input+21,111output tokens versus RLOO65calls,68,270input+20,976output; no errors, start-only, orphan returns or unknown-cost calls. Owner404.60→387.78seconds. Training is separate:33.24seconds science/46.23owner. Timings are descriptive cross-service measurements, not a matched performance benchmark.
+
+The approved single LR1e-4 comparison now asks whether a larger identical-objective dose produces broader boundary transfer or overshoots an already-useful local fit. It no longer tests the premise that the small update disappeared. Keep fixed original training32 and exposed held32 regardless interim score; do not expand to an LR sweep or more epochs. BF16 storage perturbs but does not erase the saved update. Neither learning-rate arm answers how to delegate or retrieve when all candidate programs fail.
+
+Evidence: readout-001.json SHA d813cbc745f93f00b53881ec0a92983016b5ed64ad0c7ae5820c018bea1adcdd; all64 old/new raw arrays are redecoded by the reviewed scorer. Exact context vectors, changed-path categories, source hashes and physical costs are retained there. This note adds interpretation without altering the sealed result or CPU_READY.
