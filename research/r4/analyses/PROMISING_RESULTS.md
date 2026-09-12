@@ -1,5 +1,22 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 15:10 UTC
+
+**The broader RL gain repeats across two training seeds on the same panel.**
+The starting helper answered 422/512 correctly; RL seed one answered 437 and
+seed two answered 436. Both used a fixed eighth checkpoint and all answers were
+available. They agree on 511 labels; the second seed repeats 16 corrections and
+the same two regressions. The gain is concentrated in science/technology news,
+with a smaller sports gain and two business regressions. This is a promising
+task-specific learning result, not evidence of general reasoning or planning.
+
+The next publication-relevant evidence is separately frozen official-test data,
+retention of an earlier skill, and a repeated-128 versus varied-1,024 training
+comparison. Keep both seeds and the supervised comparator, and report costs:
+roughly 35 minutes of owned RL training versus four minutes of supervised
+training, not a compute-matched superiority claim. See the
+[paired replication readout](helper-agnews-seed-replication-findings-2026-09-12/FINDINGS.md).
+
 ## Decision update — September 12, 14:05 UTC
 
 **Broader-data RL is now worth replicating.** Eight updates on 1,024 fresh news

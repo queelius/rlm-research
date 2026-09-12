@@ -1,5 +1,40 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 15:15 UTC
+
+Seed2 RL training/evaluation complete:436/512 versus c32422,seed1437,SFT427;
+same-panel gain repeats and511/512 labels agree across RLseeds. Both saved final
+step8 endpoints passed source/raw/replay/Adam checks; no bestseed selection.
+Read analyses/NOW.md and helper-agnews-seed-replication-findings-2026-09-12.
+
+ACTIVE evidence V2 inside controllerchainPTY63612. MRCRV7 finishedcleanly in
+368.389s,67rawreturned calls,31/32scores,lowoverlap. Investigate missing outcome
+and actual reward utility before any root RL. Short32 independentcontextsREADY
+is MAINadmitted and queuedPTY93817; no heldout queries, no optimizer yet.
+Other waitingowners: TREC128retention19487,repeat128training58292,officialtest512
+fourfixedendpoints47344. Repeatfixed512CPUdependencywaiter28698 waitsOUTSIDElock.
+Full wrapper paths/hashes in newest RESEARCH_QUEUE.md; no duplicate launches.
+
+Account71%15:11:50UTC,monitor15minutes. Allocation5801/an22singleA10040GBuntil
+Sep15 17:30:16UTC. MAIN soleGPUlauncher, shared COORDINATOR.lock. All three CPU
+agents active; use followup_task to restart idle agents. Continue autonomous
+adaptive research; no final/stop while useful work, allocation and quota remain.
+Publication of this completed RL result is underway; older pointers below stale.
+
+## Latest resume pointer — September 12, 2026, 14:25 UTC
+
+ACTIVE RLseed2 PTY45800 from14:21:04.353UTC, exactfixed8updatereplication.
+Wrapper operations/2026-09-12-broader-rl-seed2-queue/run.py, READYabafc45c...
+fullhashesinqueue.5000/5200caps. Allcheckpointsinside
+sidecars/helper-agnews-native-hf-eightstep-seed2-v1/outputs/attempt-001.
+Firstnativeblockcompleted; HFstep1follows. No intermediateeval. Qualified
+fixedstep8evalCPUprepbylocal_rl_design; otheragentsrepairrootcollectorpaths.
+MRCRV7 haswholeCLI fakeproof, extra2turnactualHTTPpending; evidenceV2 has
+taskidentityrepairinprogress. No unreviewedsuccessorGPUlaunch.
+LatestpushesRLM0a82674/notebook7d38486. Quota75%14:11:47;monitor15min.
+Useanalyses/NOW.md+fresh512FINDINGS for422/437/427result andlimitations.
+Do not stopthisautonomousresearchturn whileusefuljobsandbudgetremain.
+
 ## Latest correction — September 12, 2026, 14:15 UTC
 
 Evidence-screen attempt001 alsofailedbeforemodelcalls: actualcollector rejected
@@ -276,3 +311,25 @@ Checkpoint: 2026-09-02 21:32 UTC.
   corpus/verifier/runner provider exists.
 
 See `GPU_HANDOFF_QUEUE.md` and `RESEARCH_QUEUE.md` for adaptive fallbacks and ranked questions.
+# Resume pointer — September 12, 14:59 UTC
+
+Second broader RL run complete: eight updates,2,132.90s owner, no training errors.
+ACTIVE fixed512 seed2 readout PTY24353 (started14:57:41UTC). Waiting controller
+repair chain63612, TREC retention19487, repeat-first128 training58292. Dependent
+repeat128 evaluation CPU waiter28698 does not hold the GPU lock while waiting.
+Read newest RESEARCH_QUEUE.md and actual owner terminals before any new launch.
+No seed2 heldout accuracy is known at this checkpoint. New outcome-blind official
+AG-test512 data is frozen; four-arm evaluator is being prepared. Quota72%14:56UTC.
+
+## Historical pointer — September 12, 14:38 UTC
+
+GPU owner: broader eight-update RL training-seed repeat, PTY45800, three steps
+audited so far. Next accepted owners: fixed512 repeat readout PTY24353 and
+MRCR V7 / evidence V2 repair chain PTY63612. All share COORDINATOR.lock.
+See the newest RESEARCH_QUEUE.md entry; older entries below are historical.
+
+The strongest new completed finding is 422/512 baseline, 437/512 RL, 427/512
+matched-eight-update SFT on a fixed fresh panel. It is one training seed, not yet
+a replicated improvement. Reports and raw audits were pushed (RLM0a82674,
+notebook7d38486). Existing TREC records cannot support genuinely unseen transfer;
+use the new outcome-blind subset only to measure retention/interference.

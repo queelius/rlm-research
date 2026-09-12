@@ -1,11 +1,36 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T14:15:00Z
+updated_utc: 2026-09-12T15:10:00Z
 status: active_exploratory_research
-claim_level: promising_single_run_RL_gain_needs_training_seed_replication
+claim_level: two_training_seed_RL_gain_same_panel_needs_new_example_test
 ---
 
 # Research in plain language
+
+## Current result — September 12, 15:10 UTC
+
+The broader RL gain repeated. On the same 512 articles, the starting helper got
+422 right, supervised training got 427, and two independently randomized RL
+training runs got 437 and 436. The RL models agree on 511 predictions. All 16
+second-run corrections and both regressions also occur in the first run.
+This strengthens training repeatability, not generalization to different data.
+
+The second run completed all eight real weight updates in 35.55 minutes and its
+fixed final evaluation in 7.07 minutes. All required answers were available;
+source, raw response, probability, replay and optimizer checks passed. See the
+[full seed-replication readout](helper-agnews-seed-replication-findings-2026-09-12/FINDINGS.md).
+
+The GPU is now testing the controller's Python procedure. Follow-ons test whether
+the helper retains its earlier question-category skill, whether repeating 128
+articles can match training on 1,024 different articles, and whether all four
+fixed helper models improve on a separately frozen official-test news panel.
+No controller improvement or new-data gain is established yet.
+
+The earlier narrative below is retained as a dated research history, not the
+current job status. In particular, the one-update failed replication and the
+eight-update successful replication are different experiments.
+
+## Earlier context (through 14:25 UTC)
 
 We want a small model to learn how to inspect a problem, decide what to delegate,
 and combine the resulting evidence correctly. We are testing helper learning
@@ -59,6 +84,10 @@ dataset. Broader transfer and helper-input-size tests follow only if the signal
 holds. The conditional diagnostic for nearly unchanged predictions is not
 needed: RL changed 21 labels, exceeding its predeclared five-label trigger.
 
+That replication is active from 14:21 UTC, with the first generation block
+completed and the first weight update underway. Its checkpoint and final-test
+receipts will determine completion; no new accuracy result is available yet.
+
 Supervised training is an important comparison, not a straw baseline. It used
 the same 1,024 training articles and eight updates, but different losses and
 fewer output samples. RL required about 35 minutes of owned training workflow;
@@ -97,8 +126,9 @@ The conversation-search repair is back in CPU preparation. A conditional root-on
 RL update remains unlaunched. The new evidence-selection screen also stopped
 before model calls: its real collector rejected the frozen task identity.
 Both failures are being repaired in their actual production entry paths. The
-GPU is temporarily idle while those repairs and the RL replication are prepared;
-this is lost research opportunity, not useful experimental compute.
+GPU was idle for about nine minutes while those repairs and the RL replication
+were prepared. The replication now owns it. The idle interval is lost research
+opportunity, not useful experimental compute.
 The latter lets the controller
 choose which record IDs to ask about, accumulate authentic saved helper replies,
 and explicitly finish. Its first screen separates evidence-selection behavior

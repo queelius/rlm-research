@@ -1,0 +1,24 @@
+{
+  "admission_sha256": "533de4a8b2657463fb78f327c11535993f8e929f76c70a28c3abab6cba1b96e8",
+  "completed_steps": 8,
+  "elapsed_seconds": 2132.9031229019165,
+  "endpoint": {
+    "adapter_sha256": "8162a0ff9fa98f9d01cac7f2f0d86802c8c77cbb88f53919fa8d645a8e31473b",
+    "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-native-hf-eightstep-seed2-v1/outputs/attempt-001/step-008/checkpoint-0008",
+    "config_sha256": "aabb256a311050c375eff9c01950de950004807f36f28cb347755ace7a4fac7d",
+    "optimizer_sha256": "4df55fda9a958e24b39a5c4df9401014fca466bd9c1cf24ea6ec1a762f3e5a94",
+    "optimizer_steps": 8,
+    "rng_sha256": "1bfe41a1c68307cc5f84d2c29f251c487954458da001b4597560ffcf4132ddaa",
+    "source_c32_adapter_sha256": "c32de1293c01bba5104eb1f123867649c71dd38e5194661ace4b17dcbbe66ba3",
+    "state_sha256": "d6ea4b85c1d0950f4b98271b63e6c4fd60ba086e47e6edb76b10c9faed529afe",
+    "step": 8,
+    "step_commit_sha256": "77b71f1e7c068fd6d67829e9d62967f156daf0f787dc2b9fbf656b29a902e8ee"
+  },
+  "errors": [],
+  "fixed_primary_step": 8,
+  "heldout_model_calls": 0,
+  "primary_endpoint_eligible": true,
+  "ready_identity": "1bb1f6f3e143ddaab2d3b563d180a03eb68602f36bf3b29c4ac205a5b6d82e59",
+  "resume_after": 0,
+  "status": "UPDATED_STEP8"
+}

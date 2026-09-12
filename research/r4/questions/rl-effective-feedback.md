@@ -2,9 +2,9 @@
 schema_version: "rlm-question-card-v1"
 id: "rq:rl-effective-feedback"
 title: "Can an RLM learn from its own attempts, and which errors obscure that signal?"
-status: "broader_data_eight_update_gain_requires_seed_replication"
-updated_utc: "2026-09-12T14:05:00Z"
-evidence_cutoff: "2026-09-12T14:05:00Z"
+status: "broader_data_gain_repeats_two_seeds_requires_new_example_test"
+updated_utc: "2026-09-12T15:10:00Z"
+evidence_cutoff: "2026-09-12T15:10:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -20,6 +20,52 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Can we turn the model's own attempts into useful learning?
+
+## Decision update — September 12, 15:10 UTC
+
+The second eight-update RL run completed and scored 436/512, versus starting
+422, first-seed RL 437 and supervised 427. It corrects 16 errors and introduces
+the same two regressions as the first RL run; the two trained models agree on
+511 labels. Every answer is available and all eight training/source/raw audits
+pass. This establishes a repeated same-panel learning signal, not new-data
+generalization. The [full readout](../analyses/helper-agnews-seed-replication-findings-2026-09-12/FINDINGS.md)
+retains both seeds, per-class tradeoffs, request-cluster uncertainty and costs.
+
+Proceed with the already admitted repeated-first128 training comparison. Test
+all four fixed completed models on an independently frozen official-test panel;
+selection preceded the second-seed score. The TREC comparison is retention,
+not a wholly unseen dataset. Keep controller experiments separate: better helper
+categories do not demonstrate a better decomposition policy or final answer.
+
+## Decision update — September 12, 14:47 UTC
+
+The exact training-seed repeat is active; five of eight updates have been saved
+and independently checked. Its final evaluation has not run. The first run's
+422-to-437 improvement remains a single-run result until that readout completes.
+
+The next mechanism comparison is prepared and MAIN-admitted, but not yet launched:
+repeat the first frozen 128-article block eight times versus the completed run's
+eight distinct blocks. Keep eight updates and the original run's randomization
+paired. There are only 128 unique articles in the repeated arm, despite 1,024
+article memberships across update batches and 4,096 sampled label decisions.
+If repetition stops early because all rewards agree, that is not a completed
+eight-update comparison. See the [training-breadth question](../ideas/2026-09-12-training-breadth-versus-dose.md).
+
+A review of all 21 changed predictions suggests improved agreement with news
+category conventions, especially commercial technology stories. It does not
+establish general reasoning or decomposition. Both corrections and new mistakes
+are retained in the [qualitative interpretation](../analyses/helper-agnews-fresh512-interpretation-2026-09-12/QUALITATIVE_LIMITS.md).
+
+The new TREC panel can check retention of earlier skills, not unseen transfer.
+All available TREC source groups were previously used in local training or
+evaluation. Older entries below that call TREC records "new" mean absent from
+the particular verified fine-tuning inputs or current comparison, not absent
+from every historical local evaluation. This distinction must accompany future
+reports. A genuinely different source partition remains a separate next test.
+
+The controller repairs are accepted and queued independently. They investigate
+the component that chooses evidence and uses Python; they cannot be inferred
+from improvements to the helper's category answers.
 
 ## Decision update — September 12, 14:05 UTC
 

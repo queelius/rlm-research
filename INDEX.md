@@ -1,14 +1,14 @@
 # Research snapshot index
 
 Export started: 2026-09-11T00:37:23.324922+00:00. This is not live execution status.
-Latest partial refresh: 2026-09-12T14:15:10.317324+00:00 (94 selected files).
+Latest partial refresh: 2026-09-12T15:16:17.568923+00:00 (48 selected files).
 Unrefreshed records keep their original per-file cutoffs in the manifest.
 
 [Start with the reading guide](README.md).
 
 | Round | Published files | Browse |
 |---|---:|---|
-| r4 | 3282 | [Files](research/r4) |
+| r4 | 3321 | [Files](research/r4) |
 | r3 | 6 | [Files](research/r3) |
 | r2 | 6 | [Files](research/r2) |
 | r1 | 6 | [Files](research/r1) |

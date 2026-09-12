@@ -1,0 +1,19 @@
+{
+  "authority": "MAIN",
+  "created_epoch": 1789225049.566209,
+  "data_manifest_sha256": "b5e9cc22161959fc09f5e1f15afd03e722a32818bca692a01f9e265fd6c81c2d",
+  "fixed_step": 8,
+  "interpretation": "Training-seed replication on the same research-exposed panel, not new-data confirmation",
+  "prior_seed1_panel_consulted": true,
+  "replica_checkpoint_consulted_before_fix": false,
+  "trained_endpoints": {
+    "rl_seed2_step8": {
+      "binding_sha256": "d128c22b79e90993140dab500ccde3c74ec619ec6464551c528c16b6ed367588",
+      "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-native-hf-eightstep-seed2-v1/outputs/attempt-001/step-008/checkpoint-0008",
+      "state_sha256": "d6ea4b85c1d0950f4b98271b63e6c4fd60ba086e47e6edb76b10c9faed529afe",
+      "step_commit_sha256": "77b71f1e7c068fd6d67829e9d62967f156daf0f787dc2b9fbf656b29a902e8ee"
+    }
+  },
+  "training_ready_sha256": "abafc45c35a038aee97ccb7a4dce4dee8c2ce03b111a9430bd2c17022ac20853",
+  "wrapper_sha256": "cf00597988ead53af6697ff54f3d9e17ba9f051d07ffda0c3423fcfee948dd30"
+}

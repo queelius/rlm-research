@@ -1,0 +1,85 @@
+{
+  "arm": "rl_seed2_step8",
+  "binding": {
+    "adaptive_root_credit": {
+      "child_credit": false,
+      "fixed_child_typed": true,
+      "root_unconstrained": true
+    },
+    "campaign_id": "79a6296f3d015265b30c2721c20192413cf9df71f7f184ee49d18afde042ebb2",
+    "campaign_policy": {
+      "adapter_sha256": "4d8287537a9ff3d8e33bc0314f64315dee06e71b801257b389dab8b667e27aca",
+      "config_sha256": "5bb10e33566ed74c56438c465a8c26fd6a5bd8f41f221ab0bf28517375607a76",
+      "optimizer": "fresh AdamW; no SFT optimizer state loaded",
+      "optimizer_sha256": null,
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/root-question-sensitive-sft-recovery-v1/outputs/attempt-003/training/checkpoint-0006",
+      "rl_step": 0,
+      "rng_sha256": null,
+      "source_sft_step": 6,
+      "source_state_sha256": "4c2fab6360030ee446e681f76e61591ac2892aad9c509332a244a12a05ddb68a",
+      "state_sha256": "4c2fab6360030ee446e681f76e61591ac2892aad9c509332a244a12a05ddb68a",
+      "step": 0
+    },
+    "eightstep_policy_parent": {
+      "adapter_sha256": "8162a0ff9fa98f9d01cac7f2f0d86802c8c77cbb88f53919fa8d645a8e31473b",
+      "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-native-hf-eightstep-seed2-v1/outputs/attempt-001/step-008/checkpoint-0008",
+      "config_sha256": "aabb256a311050c375eff9c01950de950004807f36f28cb347755ace7a4fac7d",
+      "optimizer_steps": 8,
+      "source_c32_adapter_sha256": "c32de1293c01bba5104eb1f123867649c71dd38e5194661ace4b17dcbbe66ba3",
+      "state_sha256": "d6ea4b85c1d0950f4b98271b63e6c4fd60ba086e47e6edb76b10c9faed529afe",
+      "step": 8
+    },
+    "fixed_child": "strict-rlm-qwen3-4b-role-sft-selected-v1",
+    "models": {
+      "strict-rlm-qwen3-4b-adaptive-root-0-v1": {
+        "adapter_sha256": "4d8287537a9ff3d8e33bc0314f64315dee06e71b801257b389dab8b667e27aca",
+        "config_sha256": "5bb10e33566ed74c56438c465a8c26fd6a5bd8f41f221ab0bf28517375607a76",
+        "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/root-question-sensitive-sft-recovery-v1/outputs/attempt-003/training/checkpoint-0006"
+      },
+      "strict-rlm-qwen3-4b-role-sft-selected-v1": {
+        "adapter_sha256": "8162a0ff9fa98f9d01cac7f2f0d86802c8c77cbb88f53919fa8d645a8e31473b",
+        "config_sha256": "aabb256a311050c375eff9c01950de950004807f36f28cb347755ace7a4fac7d",
+        "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-native-hf-eightstep-seed2-v1/outputs/attempt-001/step-008/checkpoint-0008"
+      }
+    },
+    "post_training_test_consulted_for_binding": false,
+    "role_map": {
+      "children": [
+        "strict-rlm-qwen3-4b-role-sft-selected-v1"
+      ],
+      "root": "strict-rlm-qwen3-4b-adaptive-root-0-v1"
+    },
+    "schema": "validation-selected-role-binding-v1",
+    "selected_epoch": 2,
+    "selection_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/outputs/attempt-001/SELECTION.json",
+    "selection_sha256": "46025168d985242c4d237fb7691ea94aa6658b7b8647fdf2771c21c00b48f0ed",
+    "starting_binding": {
+      "kind": "exact_qs6",
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/root-question-sensitive-terminal-rlvr-lr1e5-v1/START.json",
+      "policy0": {
+        "adapter_sha256": "4d8287537a9ff3d8e33bc0314f64315dee06e71b801257b389dab8b667e27aca",
+        "config_sha256": "5bb10e33566ed74c56438c465a8c26fd6a5bd8f41f221ab0bf28517375607a76",
+        "optimizer": "fresh AdamW; no SFT optimizer state loaded",
+        "optimizer_sha256": null,
+        "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/root-question-sensitive-sft-recovery-v1/outputs/attempt-003/training/checkpoint-0006",
+        "rl_step": 0,
+        "rng_sha256": null,
+        "source_sft_step": 6,
+        "source_state_sha256": "4c2fab6360030ee446e681f76e61591ac2892aad9c509332a244a12a05ddb68a",
+        "state_sha256": "4c2fab6360030ee446e681f76e61591ac2892aad9c509332a244a12a05ddb68a",
+        "step": 0
+      },
+      "sha256": "8cf856266ec2be5e2a1c9cc2a496cec84302519e710ecb16d282fa1525319404"
+    }
+  },
+  "binding_sha256": "d128c22b79e90993140dab500ccde3c74ec619ec6464551c528c16b6ed367588",
+  "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-native-hf-eightstep-seed2-v1/outputs/attempt-001/step-008/checkpoint-0008",
+  "eligible": true,
+  "selection": "none; fixed completed step8",
+  "state_sha256": "d6ea4b85c1d0950f4b98271b63e6c4fd60ba086e47e6edb76b10c9faed529afe",
+  "step_commit_sha256": "77b71f1e7c068fd6d67829e9d62967f156daf0f787dc2b9fbf656b29a902e8ee",
+  "training_launch_ready_sha256": "abafc45c35a038aee97ccb7a4dce4dee8c2ce03b111a9430bd2c17022ac20853",
+  "training_launch_receipt_sha256": "4ae6713e852f6e0fb12e670464ea2c05910ed5faf7e9ecbee131a43defae51c4",
+  "training_ready_sha256": "abafc45c35a038aee97ccb7a4dce4dee8c2ce03b111a9430bd2c17022ac20853",
+  "training_result_sha256": "6b5e2c03bb6a05bfcaad4d2491fa5f4fc5341cd2d2555279414469ae4ebdf4b8"
+}

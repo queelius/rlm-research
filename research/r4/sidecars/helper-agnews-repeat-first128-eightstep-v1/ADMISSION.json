@@ -1,0 +1,18 @@
+{
+  "authority": "MAIN",
+  "training_ready_sha256": "1ebe94d3339e1e742c4f984ffa3f00f9cb9813e239747b7a390f70c70e5b7119",
+  "decision": "APPROVE_BREADTH_VERSUS_REPEAT_FIRST128",
+  "endpoint": "fixed-step8-repeat128-versus-broader-on-same-exposed512",
+  "start": "fresh-original-c32-not-seed1-continuation",
+  "prior_seed1_heldout512_consulted": true,
+  "replica_checkpoint_evaluated_before_training_complete": false,
+  "data_manifest_sha256": "1f968ef60219a539f8c3bce42cd514426dee38b6b48e1b4a3391b601909bfc1a",
+  "seed_namespace": "agnews-repeat-first128-paired-broader-seed1-20260912",
+  "reason": "Separate distinct training examples from repeated optimization by reusing the first fixed128 block for all eight updates, with paired original broader seed1 sampling and initial HF randomization. MAIN read all thin source, input construction, source-ID/native fixture, actual carried-HF/no-signal fixture and fresh-process qualifier; own615-pin verification passed. Same research-exposed512 final-step-only evaluation; no selection by block outcome, partial checkpoint or seed. Admission does not imply the job has started.",
+  "reviewed_evidence_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-native-hf-eightstep-v1/READY_V2.json": "e9dcccfdcb45a092d5ad85d4a161266f85c3f8f3cbe2f3a494aaec46edeaabb5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-native-hf-eightstep-v1/outputs/attempt-001/FINAL_RESULT.json": "8d264c26da1259bd0ca75ab943b7d76226e6ddd4cd98fd989cde8b6af1aff79e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/helper-agnews-eightstep-live-audit-2026-09-12/outcomes/RAW_AUDIT-003.json": "57606da1e52a5b694cad6d39dbff9febf5c66a7f6783ce3cf99e440e961f7bbb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-agnews-repeat-first128-eightstep-v1/CPU_ADMISSION.json": "79f2b961cfbf95061881f577bb2bf2b43b46ad1cd20895b4a17bd78f1fb37296"
+  }
+}

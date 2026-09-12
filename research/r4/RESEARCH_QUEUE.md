@@ -1,5 +1,150 @@
 # Live GPU research queue
 
+### Live update September 12 15:15 UTC — RL gain repeats; new-example tests queued
+
+Completed second-seed fixed512:436 correct versus c32422 and seed1437, all512
+available. Seed2 16 corrections/two regressions,511/512 labels agree with seed1.
+This is training-seed repeatability on the same panel, not new-data transfer.
+Training owner2132.903s, evaluation423.938s, all8 source/raw/state audits passed.
+Read analyses/helper-agnews-seed-replication-findings-2026-09-12/FINDINGS.md.
+
+Controller chain PTY63612 now runs evidence V2. MRCR V7 completed32 episodes in
+368.389s with67 actual returned responses and no provider errors; 31 scored,
+mean official overlap0.05845, no child invocations. Missing score and reward
+meaning are being investigated before any root RL; old optimistic gate is not
+automatic training authority.
+
+Waiting accepted jobs under the shared lock: TREC128 retention19487; repeated128
+eight-update training58292; new short32 controller calibration93817; official
+AG-test512 four-model comparison47344. Wrappers are operations/2026-09-12-
+{trec-retention,repeat128-mechanism,short32-controller,official-test512}-queue/run.py.
+Short32 READY_V2 aea688ffc6f2ef9d5dceb3037da972409a869a1555f9c375a0ac76feba3b414e,
+32 episodes on8 frozen train conversations, no16-heldout queries,600/900/1000caps.
+Officialtest READY hashes and all4 fixed arms are in its wrapper;900/1000caps
+perarm. MAIN own checks passed. This is new examples/same task, not new domain.
+CPU repeat fixed512 dependency waiter28698 remains conditional on full8 updates.
+
+Quota71% at15:11:50UTC. Keep reserve policy. Current GPU allocation remains5801,
+an22, one A10040GB/MIG, ending September15 17:30:16UTC. Older entries are history.
+
+### Live update September 12 14:59 UTC — eight-update repeat complete; evaluation active
+
+The second broader RL run completed all eight updates. Owner wall time was
+2,132.903 seconds (35.55 minutes), outer driver2,143.737 seconds. All per-step
+raw/probability/replay/Adam checks passed; 36/256 groups supplied varying rewards.
+This is training completion, not a replicated accuracy result.
+
+ACTIVE: fixed512 seed2 evaluation PTY24353, started14:57:41.215UTC after full
+endpoint qualification. Checkpoint adapter8162a0ff9fa98f9d01cac7f2f0d86802c8c77cbb88f53919fa8d645a8e31473b,
+state d6ea4b85c1d0950f4b98271b63e6c4fd60ba086e47e6edb76b10c9faed529afe,
+commit77b71f1e7c068fd6d67829e9d62967f156daf0f787dc2b9fbf656b29a902e8ee.
+All512 are the earlier now-exposed panel. No final score yet.
+
+Accepted waiting owners: controller repair chain63612; TREC retention19487;
+repeated-first128 training58292. The last is now genuinely queued, not merely
+prepared. Its conditional fixed512 evaluation has CPU dependency waiter28698,
+`operations/2026-09-12-repeat128-fixed512-queue/wait_for_training.py`; it waits
+outside the GPU lock for the full training endpoint and skips failed partial doses.
+Own repeat-evaluator fixture passed5.94s and own1448-pin verification passed.
+
+New official-test DATA_READY SHA8035d408c8c4e75a6a1b6f112896abb19635b3c77050592aa0493a7e898d4723:
+512 balanced AG examples selected before model evaluation from7,406 eligible
+source-test rows, after canonical prior-input and duplicate exclusions. Four
+fixed endpoint policies are intended, including seed2 regardless of its impending
+exposed-panel score. Evaluator preparation is running; no new-panel GPU admission.
+
+Quota72% at14:56:49UTC. Ceph reports project566.6GiB used /457.4GiB headroom
+under its own1TiB directory ceiling, home111.9GiB /912.1GiB under its own ceiling;
+no combined parent quota inferred. See operations/STORAGE_2026-09-12_1452.json.
+
+### Live update September 12 14:51 UTC — training plus retention and mechanism follow-ups
+
+The RL training-seed repeat is active; six of eight steps are independently
+audited. Its fixed512 evaluation PTY24353 and repaired controller chain PTY63612
+remain queued under the shared lock. No repeat evaluation result exists yet.
+
+Additional accepted queue: TREC128 retention, PTY19487,
+`operations/2026-09-12-trec-retention-queue/run.py`, c32 / original broader RL8 /
+SFT8, 32 B4 calls per arm, 600/700-second owner/external caps. All three are fixed
+completed endpoints; the current eight-step repeat is deferred, not replaced by
+the obsolete one-step seed2. MAIN read full panel and evaluator sources and
+verified their closures. This is historically evaluated data, not unseen transfer.
+Natural subset has no abbreviation examples; keep that coverage limitation.
+
+Ready for a later slot: repeated-first128 eight-update mechanism run.
+READY `1ebe94d3339e1e742c4f984ffa3f00f9cb9813e239747b7a390f70c70e5b7119`;
+MAIN actual ADMISSION exists and own615-pin verification passed. Its wrapper is
+`operations/2026-09-12-repeat128-mechanism-queue/run.py`, not yet launched.
+Eight updates, 128 unique articles, 1,024 update-batch memberships, 4,096 sampled
+article presentations; randomization paired with the original broader run.
+Conditional fixed512 evaluator READY `c5fac08bd14b62eec10eed2caeb87d5fd30100578e084dc8f8e7fc2941ba935c`
+has been source-reviewed; own final verification is in progress.
+
+Evidence V2 independent CPU watcher PTY20440 is running; MRCR V7 watcher PTY34666
+is running. Analyses must distinguish returned responses from ambiguous failures:
+missing trace node/usage alone does not prove that inference never happened.
+
+New literature-informed working-state idea is recorded in
+`ideas/2026-09-12-checkable-working-state-before-deeper-recursion.md`.
+It is a conditional experiment proposal, not a claimed novel result or GPU job.
+Account quota 73% at14:41:48UTC. Latest public checkpoints remain unchanged.
+
+### Live update September 12 14:38 UTC — three useful follow-on owners queued
+
+The broader eight-update RL training-seed repeat remains active (PTY45800).
+Three steps have independently passed the raw-action, probability, replay and
+optimizer checks. Training outcomes are not held-out accuracy results.
+
+Ready and accepted under the same GPU lock:
+
+1. Fixed step-eight repeat evaluation on the same 512 now research-exposed news
+   examples: PTY24353, `operations/2026-09-12-seed2-fixed512-queue/run.py`.
+   Only the complete eight-update endpoint is eligible; 900/1000-second caps.
+2. Repaired MRCR calibration, followed by evidence-selection interface comparison:
+   PTY63612, `operations/2026-09-12-controller-repair-queue/run.py`.
+   MRCR V7 READY `c79fa15c6463a89513b1c0aba65e7906efb708c97ab10d619ed925025af476b4`;
+   evidence V2 READY `3b74470df4d46f395d4fda8d1f9348853e0880e83c8bffe6c4cf5bae2a6f7ef2`.
+   MAIN read complete repair paths and actual container/HTTP fixture evidence;
+   own closure checks passed. Both preserve their failed predecessor outputs.
+
+Preparation overlaps GPU work: repeat-first-128 training mechanism comparison;
+shorter OpenAI MRCR calibration with held-out contexts untouched; and a TREC
+retention evaluation. All available TREC source records have earlier local
+training or evaluation exposure, so the last experiment cannot establish unseen
+transfer. Preserve this limitation rather than relabeling familiar data as new.
+
+Account quota: 74% remaining at 14:26:48 UTC (supported codex bucket). Current
+source checkpoints remain RLM `0a82674` and notebook `7d38486`.
+
+### Live update September 12 14:25 UTC — exact RL seed replication active
+
+ACTIVE PTY45800, started14:21:04.353UTC, wrapper
+`operations/2026-09-12-broader-rl-seed2-queue/run.py`. Seed2side
+`helper-agnews-native-hf-eightstep-seed2-v1`,READY SHA256
+`abafc45c35a038aee97ccb7a4dce4dee8c2ce03b111a9430bd2c17022ac20853`,
+identity `1bb1f6f3e143ddaab2d3b563d180a03eb68602f36bf3b29c4ac205a5b6d82e59`.
+MAIN actualADMISSION.json; source/fixtures/seal/realqualifierread; own580-pin
+verify passed. Sameoriginalc32/1024data/eightblocks/B4G4/objective/optimizer/
+gates, newnative20260912900000..20260912901023, initialHF20260912910000.
+5000owner/5200external caps, everyadapter/Adam/RNGstepcommitted. Newnative
+firstblockfinishedandservicereleased14:24:05; HFphase follows. Onlyfixedstep8
+onSAME512now-exposedpanel; no midpointchoice or new-datasetreplicationclaim.
+
+Avoidable no-ownerGPUinterval14:11:58.116→14:21:04.353 =546.238seconds.
+Recording/scaffoldfailures and readinesscost recorded separately; startup,
+qualificationandload afterownerstart are not credited as modelcompute.
+
+CPU followons: conditionalfixed512seed2eval; evidence-interfaceV2 exact
+collectorTASKSidentityrepair; MRCRV7 typedturnrecordingrepair (sealedfullCLI
+fake32passed; extraone2turnrealHTTPsmoke pending). None oftheunreviewed
+successorsGPU-admittedyet. Evidence/TRECagent defersretentiondatauntilrepair.
+
+Newconditionalideas: training-breadth-versus-dose (repeatfirst128blockvs1024
+uniquearticles, same8updates) and controller-transfer-is-not-dataset-transfer
+(primaryCALMpaperreview, no newGPUjob). Replicatebeforemechanismexpansion.
+PushedRLM0a82674 andnotebook7d38486, snapshot14:15:10UTC,3300filesverified,
+24,459,670bytes; source/reportsnotexternalmodelbackup. Quota75%14:11:47UTC.
+
 ### Live update September 12 14:15 UTC — GPU idle after interface collector identity failure
 
 Evidence-screen attempt001 ended14:11:58.116UTC after67.048ownedseconds;
