@@ -1,5 +1,80 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 22:53 UTC
+
+ACTIVE91746: fixed fresh8 RLOO checkpoint evaluated on all original32 training
+coordinates/seeds, no new optimizer. READY8f035e96…, operation
+`2026-09-12-fresh8-rloo-training-readout-queue/run.py`; output
+`sidecars/openai-mrcr-cp32-fresh8-final-rloo-train-readout-v1/outputs/train-001`.
+MAIN read159 new code/test lines and RUNBOOK; actual environment/checkpoint/
+inner collector fixtures passed. Caps900/1100/1200; cp32 control7/32 reused.
+
+COMPLETED freshRLOO held25→25/32, long10→10/16, fourneedle10→11/16.
+All64 available; independent readout-002 and CHANGED_PATHS in
+`analyses/openai-mrcr-fresh8-rloo-paired-2026-09-12/`. The sole exact win
+restored two spaces; a different case recovered clean retrieval but remained
+wrong, and another lost valid tool generation. Entire paths59/64 identical.
+No established meaningful or replicated RL gain. Old fixedRL reversal remains.
+
+B05 attempt002 released after122.44s (79.94s science),44 physical returns,
+all64 coordinates accounted incl20 unsupported. Qualification FAILED missing
+ACTUAL_DISPATCH even after real calls. Also all20 root/oracle outputs validJSON
+but grader-invalid: prompt omitted required status literal 'selected'. Agent
+token audits semantic residuals; post audits actual instrumentation path. Do
+not waive qualification or silently rescore primary outcomes. Report-only36
+counterpart prepared but SEAL_HOLD, no GPU READY. Original attempt001 zero-call
+42s failure retained. Repair gap~5min, later compaction/preparation idle gap
+~8min after attempt002 ended; avoidable operational cost, not science time.
+
+Serving-precision CPU audit REPORT_V2: vLLM config/code indicates BF16 LoRA.
+Rounding erases31.9% of freshRLOO FP32 element changes but effective B@A delta
+cosine.913, millions changed. Not total update disappearance; live GPU tensors
+not directly inspected. Lower priority than changing useful decision signal.
+
+NEXT: finish training readout/changed paths; conditional one-step10xLR dose
+comparison CPU preparation (not yet admitted) may distinguish insufficient
+updates from wrong task/credit. B05 explicit contract and truthful runtime
+repair before any report-only claim. No filler/repeated wording sweep.
+Quota30% at22:50:03 UTC; next23:05. Winddown20/pause15/reserve10. Latest verified
+GitHub remains cd79807 /7706f74 with22:16 cutoff. New results not yet exported.
+
+## Latest resume pointer — September 12, 2026, 22:26 UTC
+
+GitHub pushes VERIFIED: RLM cd79807db2c586379114a6521c8277fb0e475b9b,
+notebook7706f748ad16706434c451cb9aab32ebc8caee57. Report/README cutoff22:16,
+97 exportedfiles,53,152,680bytes total; documentarycap explicitly64MiB now,
+5MiB/file unchanged. All manifesthashes/100stagedfile credentialscans passed.
+Two trailing spaces in immutable copied audit source/report were retained,
+not rewritten; whitespacecheck waived onlyblank-at-eol/EOF. No weights/private
+exacttexts uploaded. Remote is not projectcheckpoint backup.
+
+ACTIVE11928 freshRLOO64readout. held32complete408.403s,collector25/32exact,
+allavailable; fullindependentaudit waitsforlong/fourneedle. Longnowactive.
+ScientificREADY5bb409be…; independentCPU_READY8b8abfca…; MAINread100-line
+analyzer, gradientinterpretation, restsource/tests pendingreadbeforerun.
+
+COMPLETE81832 inspection:415.291sowner, raw7→4/32,0wins3losses,allavailable.
+Independentoutcome-002 REPORT453f6795…, manualMECHANISM56d1a2ec…:
+noinspect-then-usein32;18cleanretrieval,9wrongguessedliteral,2wronguser-role
+returns,3notool. Clean24→18;66callsboth,output+6208(+29.4%). Sevenunclosed
+blocks,12,497tokens. All3exactlossescopying;6lostcleanalreadywrong. Retire
+instructioncondition; nopromptsweep. PrivateEVIDENCE.json mustnotbeexported.
+
+NEXT CPU post prepares B05source-visible64pilotrunner, original4frozenroots,
+child384/root1024/context8192,600/700/800caps. Candidate task allows fullsource
+in synthesis and advisoryreports; NOTreport-onlysufficiency. Primarytrue-source
+correctness,secondaryreport-impliedconsistency. Localshortcutcountsfirsteligible
+1/4,mincost1/4,maxquality0/4,capacitythenquality2/4 (privileged exacteligibility).
+CPU token prepares additive report-only36 counterpart, sameactual24children,
+same32synth+4oracleseeds; inputssealonlyafteractualsourceterminal. No hiddenrepair.
+Differentseedsacrosssourcecombos remain notisolatedreportcausality. CPUlocal
+finishesadmission/shortcutreport. MAINsolelauncher; noB05GPUadmittedyet.
+
+Quota33% at22:23:17,next22:38;winddown20/pause15/reserve10. Newprimaryreading
+HiPER2602.16165v1 and ThinkBigSearchSmall2607.07548v1 recorded in
+ideas/2026-09-12-stage-decisions-before-more-credit-methods.md. Noexternalcode
+run ormodeldownloadforliterature. Continueautonomously beyondqueuedreadouts.
+
 ## Latest resume pointer — September 12, 2026, 22:16 UTC
 
 ACTIVE81832 generic literal-input inspection32, 36 returned native calls/14

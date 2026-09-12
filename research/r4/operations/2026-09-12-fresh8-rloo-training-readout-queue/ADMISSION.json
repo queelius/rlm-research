@@ -1,0 +1,15 @@
+{
+  "authority": "MAIN",
+  "baseline_policy": "Qualified original cp32 fresh8 control7/32; in-sample diagnostic, not generalization",
+  "checkpoint_policy": "Fixed cp1; every native response and episode saved; no optimizer or model selection",
+  "epoch": 1789253379.0880911,
+  "external_seconds": 1200,
+  "metrics": "Raw exact, paired outcomes, clean retrieval versus final copy errors, native costs and changed paths",
+  "question": "Did final-only RLOO improve even its own original training rollouts, versus merely changing teacher-forced probabilities?",
+  "ready_identity": "59926b4e5f28b92932fae029377b1a118f8b4242772ec82203e8fe99fff06947",
+  "ready_sha256": "8f035e96a8bcf26a1a4a7219aabfdd0f9ed2fab2f0fe965a8f5426c02ca41827",
+  "review": "MAIN read all159 new Python lines and RUNBOOK; actual original schedule/environment/qualified checkpoint CPU fixture passed. Reuses already reviewed native owner/collector.",
+  "seed_policy": "Original202609250000..31;T.5/2048/six total actions/zero children",
+  "units": "8 training contexts,4 original seeds each;32 outputs not independent contexts",
+  "wrapper_sha256": "cf68eefc44f4e0c0f5ba1719f52dd77a98f0472d1afbeda6e28ad06a097b5f9c"
+}

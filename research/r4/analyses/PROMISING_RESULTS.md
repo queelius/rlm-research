@@ -1,5 +1,21 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 22:55 UTC
+
+Do not promote fresh8 RLOO as a meaningful gain: primary short/long panels are
+flat and the one secondary exact win is two spaces. This complements, rather
+than rescues, the old fixed-RL replication reversal. Training-dose versus
+behavioral-fit diagnosis remains informative, but repeating copying sweeps
+does not answer learned decomposition. A serving-precision audit rules against
+complete update disappearance without claiming precision is irrelevant.
+
+Retire the generic inspection prompt: no requested inspect-then-use behavior,
+7→4/32 exact,29% more tokens. Future interventions should create an observable
+decision contrast, then measure whether it helps. Preserve the strong narrow
+SFT transfer result. B05 helper-information experiments are promising questions,
+not findings: fix the under-specified answer contract and execution attestation
+before interpreting the zero valid-root score or running its report-only pair.
+
 ## Decision update — September 12, 22:16 UTC
 
 Downgrade the first fixed-baseline RL gain: the fresh paired seed block is

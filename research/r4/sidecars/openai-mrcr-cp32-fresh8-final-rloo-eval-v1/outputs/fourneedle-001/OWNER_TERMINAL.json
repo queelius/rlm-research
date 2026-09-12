@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "elapsed_seconds": 237.6945939064026,
+  "errors": null,
+  "no_outcome_manipulation_gate": true,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "phase": "fourneedle",
+  "ready_sha256": "5bb409be9a59601772527b052c28d445809b3e0eeb3d40ea6d33a2684de0028c",
+  "recorded": 16,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/RESULT.json",
+  "result_sha256": "03dc162a66f55e33dee514c76c41afb690bb739bfcdd29492f9d8be15fbb49b3",
+  "scientifically_available": 16
+}

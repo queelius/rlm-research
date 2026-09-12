@@ -1,0 +1,17 @@
+{
+  "schema": "fresh8-training-readout-postseal-entry-v1",
+  "ready_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-train-readout-v1/READY.json",
+  "ready_sha256": "8f035e96a8bcf26a1a4a7219aabfdd0f9ed2fab2f0fe965a8f5426c02ca41827",
+  "identity": "59926b4e5f28b92932fae029377b1a118f8b4242772ec82203e8fe99fff06947",
+  "owner_verify": {
+    "returncode": 0,
+    "command": "CUDA_VISIBLE_DEVICES='' PYTHONDONTWRITEBYTECODE=1 /project/alex_phd/envs/prime-rl-5990b1b/bin/python /project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-train-readout-v1/owner.py verify --phase train"
+  },
+  "actual_collector_entry": {
+    "returncode": 0,
+    "scope": "collect.run('train','updated', deliberately absent endpoint path, absent output path, finite deadline) under installed terminal hooks; full actual inner source verification passed, then expected FileNotFoundError at exact endpoint path, before output creation or any request; no verifier mocked",
+    "GPU_calls": 0,
+    "optimizer_steps": 0
+  },
+  "immutable_source_unchanged": true
+}

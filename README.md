@@ -4,7 +4,7 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 12, 2026, 22:16 UTC evidence cutoff.
+Latest partial refresh: September 12, 2026, 22:55 UTC evidence cutoff.
 
 Supervised training on 32 worked examples taught a small controller to find a
 requested reply in a conversation through Python. Its routine transfers within
@@ -25,8 +25,12 @@ with new decoding seeds reversed the result: 25/32 to 22/32, with three losses
 and no gains. The losses added a final line break after correct retrieval.
 These blocks reuse 16 conversations; extra seeds are not independent tasks.
 We retain both blocks and do not present the favorable one as an established
-improvement. A new mixed-reward training batch has produced a completed update,
-but its accuracy readout is beyond this checkpoint's cutoff.
+improvement. A new mixed-reward update left short and longer-input accuracy
+unchanged. Its one extra third/fourth-occurrence success restored two spaces;
+this is not established retrieval or decomposition learning. A generic request
+to inspect source wording also failed to elicit that behavior and reduced
+accuracy. We retain these results to guide the next experiment rather than
+repeating an unproductive prompt or selecting the favorable score.
 
 Extra helpers have not yet established better composition. On 12 multi-document
 questions, extracting quoted relations and simply asking the final model for a

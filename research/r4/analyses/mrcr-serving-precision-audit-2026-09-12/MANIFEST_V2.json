@@ -1,0 +1,7 @@
+{
+  "analysis_sha256": "2e9083d8113242d9136129c1d900dcd1fdb2bf8648cd58652383dda565241a70",
+  "report_sha256": "0a7088dca0c406e9ee0dce996d92f2d99d499ce16f4f3e7c8e298e137e843f4f",
+  "results_sha256": "915650104ec63481057bbd751fd7e4a2b5e84635385731178303aa2b8a6ae2cd",
+  "schema": "mrcr-serving-precision-audit-manifest-v1",
+  "source_files": 33
+}

@@ -1,12 +1,47 @@
 # Live GPU research queue
 
+### Live update September 12, 22:53 UTC
+
+ACTIVE91746 freshRLOO original-training readout32 (8 contexts,4 original seeds),
+READY8f035e96…, no optimizer. Primary held25→25/32/long10→10/16 already flat;
+secondary fourneedle10→11/16 solelytwo-space restoration. No robust RL gain.
+NEXT1 CPU-local: paired training audit and conditional10xLR single-step dose
+comparison from same cp32/batch/seed; not admitted pending training result.
+NEXT2 CPU-post/token: B05 runtime receipt defect and incomplete prompt contract;
+report-only36 held unqualified source attempt002, no launchable READY.
+Attempt002 produced44 native returns/20 unsupported,122.44s released, but missing
+dispatch receipt; all20 parent answers grader-invalid due missing declared status
+literal. Preserve original failures and separate diagnostic transforms from scores.
+Quota30%@22:50; winddown20/pause15. MAIN sole GPU launcher.
+
+### Live update September 12, 22:39 UTC
+
+ACTIVE30338 B05 source-visible attempt002 timing repair, exact READY_V2 identity
+13eea9237d734f55944ac50de35521fe5a3e296a4459afdf3dff9fc5a4ebbca1.
+Attempt001 preserved startup-only42s/0calls; repair removes only premature
+pre-science dispatch-receipt assertion and retains mandatory postscience release+
+dispatch qualification. Independent native outcome analyzer CPU_READY771b6cd4…;
+run once after terminal, no polling. MAIN sole GPU owner.
+
+### Live update September 12, 22:33 UTC
+
+GPU observed released/idle at22:32:58 (1MiB,no processes); MAIN notified and
+retains sole launch ownership. READY B05 source-visible/report-aided feasibility:
+4roots/64coordinates, unadaptedQwen4B,600/700/800caps, READY_RUN identity
+06a6be2032bde24975d8feeb0a79f26631740c1971d0abe78d5978ed04120cd4.
+Five focused CPU tests pass including actual localhost HTTP/native-prefix/schema
+path and explicit unsupported-dependency no-call. Primary true-source correctness;
+report-implied consistency secondary; not report-only or causal. Separate
+report-only36 counterpart CPUprepares against actual source-run child artifacts.
+
 ### Live update September 12, 22:16 UTC
 
 ACTIVE81832 literal-input inspection32, healthy returned calls. ACCEPTED11928
 fresh8-RLOO fixedcp1readout64: short32/new replica seeds, long16/fourneedle16
 original seeds, all phases regardlessscore, no furtheroptimizer.
-NEXT CPU post: small B05 fixed-decomposition/recombination feasibility, native
-tokenbudget8192 and shortcut inspection first. No READY or GPU admission yet.
+NEXT CPU/GPU-review: B05 fixed-decomposition/recombination data and design now
+CPU_READY (identity bafb8c7f…), exact 8192-token audit and 64-call cap; no GPU
+runner/admission yet. Default small overflowed, so existing minimum config frozen.
 CPU local: independent newRLOO three-panel readout and savedgradient mechanism.
 CPU token: fixedRL replica reversal then all32 literal inspection adjudication.
 

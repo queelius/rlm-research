@@ -1,11 +1,38 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T22:16:00Z
+updated_utc: 2026-09-12T22:55:00Z
 status: active_exploratory_research
 claim_level: exploratory_procedure_transfer_and_exact_return_contract_mismatch
 ---
 
 # Research in plain language
+
+## Current interpretation — September 12, 22:55 UTC
+
+The new reward update did not improve the main tests: short answers stayed
+at25/32 and longer-input answers at10/16. Its one additional success on the
+third/fourth-occurrence test restored two spaces, not a new retrieval ability.
+All64 outcomes were available. We are checking the original training attempts
+to determine whether the update learned locally without transferring, or
+barely changed sampled behavior. A possible larger single-step comparison
+would isolate update size; it is not yet a completed experiment.
+
+Merely telling the model to inspect the actual request wording did not make
+it do so. Correct answers fell7→4/32 and correct retrieval24→18/32. The
+instruction used29% more generated tokens. We retire this prompt condition,
+not the idea of learning a useful inspection action.
+
+The decomposition pilot is diagnostic, not a capability result. Its grader
+expected an output status that the prompt failed to name, and an execution
+receipt was absent despite44 physical responses. Those failures are preserved
+and being addressed before another comparison. The question remains useful:
+what must a helper report for the final stage to solve the task, and when can
+the final stage compensate using the original source?
+
+The strongest positive evidence remains supervised procedure transfer within
+the repeated-request task family. Neither new reward recipe establishes a
+replicated RL gain. Publication candidates should target a measured decision
+or information bottleneck, not an isolated favorable score.
 
 ## Current interpretation — September 12, 22:16 UTC
 

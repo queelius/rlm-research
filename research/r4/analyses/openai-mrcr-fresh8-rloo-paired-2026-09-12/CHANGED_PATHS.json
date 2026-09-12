@@ -1,0 +1,1289 @@
+{
+  "GPU_calls": 0,
+  "changed_paths": [
+    {
+      "coordinate": {
+        "context_sha256": "fd961b05d21054c6e2d24b7970fa61a753110643564db05ebde873a73b0cf0bb",
+        "id": "965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538",
+        "ordered_core_sha256": "c4ff3bb6d8555c5f106970fc9e6dc6a8624cc1fa6f4aff84c125b8dbfdf577d5",
+        "phase": "long",
+        "record_id": "omrcr-four-c09fb4c7d672b0d18934",
+        "repeat": 0,
+        "row_index": 6,
+        "seed": 202609260006,
+        "source_row_sha256": "c09fb4c7d672b0d18934ec7aa5a5fa7bd9c22e1a65c698da9b09ba8465d03a89",
+        "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+        "temperature": 0.5
+      },
+      "final_edits": [
+        {
+          "new_bounds": [
+            1258,
+            1260
+          ],
+          "new_codepoints": [
+            32,
+            32
+          ],
+          "old_bounds": [
+            1258,
+            1258
+          ],
+          "old_codepoints": [],
+          "operation": "insert"
+        }
+      ],
+      "gold_characters": 1260,
+      "loss": false,
+      "new_copy_type": "exact",
+      "new_episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538.json",
+      "new_exact": true,
+      "new_final_characters": 1260,
+      "new_missing_only_final_two_spaces": false,
+      "new_official_score": 1.0,
+      "new_programs": [
+        {
+          "AST_sha256": "e79d5f0516309f3ed7ea150b1a041986fd8c05481b8816d9764734a26f460d73",
+          "characters": 685,
+          "code_sha256": "e50ce927c29698254e5bcd35a360d51b130cc4a89a73d91c5c403864ebb9562b",
+          "literal_slots": {
+            "marker": "8Z8Zrr8Wz5",
+            "ordinal": 3,
+            "request_text": "write a poem about nature"
+          }
+        }
+      ],
+      "new_stop": "agent_completed",
+      "observations": [
+        {
+          "characters": 1261,
+          "count": 1,
+          "gold_exact_or_plus_print_newline": true,
+          "hashes": [
+            "8ab76271c397462dd594c67453fc5c16ff9361b96f69070b9131e8c6f1d39c54"
+          ]
+        },
+        {
+          "characters": 1261,
+          "count": 1,
+          "gold_exact_or_plus_print_newline": true,
+          "hashes": [
+            "8ab76271c397462dd594c67453fc5c16ff9361b96f69070b9131e8c6f1d39c54"
+          ]
+        }
+      ],
+      "observations_identical": true,
+      "old_copy_type": "edge_whitespace_difference",
+      "old_episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538.json",
+      "old_exact": false,
+      "old_final_characters": 1258,
+      "old_missing_only_final_two_spaces": true,
+      "old_official_score": 0.9991993594875901,
+      "old_programs": [
+        {
+          "AST_sha256": "e79d5f0516309f3ed7ea150b1a041986fd8c05481b8816d9764734a26f460d73",
+          "characters": 685,
+          "code_sha256": "e50ce927c29698254e5bcd35a360d51b130cc4a89a73d91c5c403864ebb9562b",
+          "literal_slots": {
+            "marker": "8Z8Zrr8Wz5",
+            "ordinal": 3,
+            "request_text": "write a poem about nature"
+          }
+        }
+      ],
+      "old_stop": "agent_completed",
+      "phase": "fourneedle",
+      "programs_identical": true,
+      "turns": [
+        {
+          "action_arrays_identical": true,
+          "new": {
+            "action_sha256": "61213ef3e57555f297ec1ea5a20759aeb39c99c8507239e969078c7b1d63dece",
+            "completion_tail_token_ids": [
+              45151,
+              481,
+              220,
+              16,
+              2467,
+              95642,
+              151658,
+              151645
+            ],
+            "completion_tokens": 209,
+            "finish_reason": "tool_calls",
+            "index": 10,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 1,
+            "prompt_sha256": "8961bf0dde44efa885d5fd95a3d11d7cedda4baea64947eb0e08d3acc20ca300",
+            "prompt_tokens": 771,
+            "status": "returned"
+          },
+          "old": {
+            "action_sha256": "61213ef3e57555f297ec1ea5a20759aeb39c99c8507239e969078c7b1d63dece",
+            "completion_tail_token_ids": [
+              45151,
+              481,
+              220,
+              16,
+              2467,
+              95642,
+              151658,
+              151645
+            ],
+            "completion_tokens": 209,
+            "finish_reason": "tool_calls",
+            "index": 12,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 1,
+            "prompt_sha256": "8961bf0dde44efa885d5fd95a3d11d7cedda4baea64947eb0e08d3acc20ca300",
+            "prompt_tokens": 771,
+            "status": "returned"
+          },
+          "position": 0,
+          "prompt_arrays_identical": true
+        },
+        {
+          "action_arrays_identical": false,
+          "new": {
+            "action_sha256": "8f1d6a5919a7688bda5caf1e877c2e24c9a930f22fd04e6b12070f3a54327215",
+            "completion_tail_token_ids": [
+              6081,
+              279,
+              8189,
+              315,
+              2272,
+              13,
+              256,
+              151645
+            ],
+            "completion_tokens": 318,
+            "finish_reason": "stop",
+            "index": 13,
+            "native_content_characters": 1260,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 0,
+            "prompt_sha256": "baa4aef21820fec229995341cb025bbe3d33cda377af85c52980ce4548622d1d",
+            "prompt_tokens": 1309,
+            "status": "returned"
+          },
+          "old": {
+            "action_sha256": "08b90823d0d598db8240975bc974029f8ba4a522f0df2c26b5e3323d3b66f127",
+            "completion_tail_token_ids": [
+              78419,
+              6081,
+              279,
+              8189,
+              315,
+              2272,
+              13,
+              151645
+            ],
+            "completion_tokens": 317,
+            "finish_reason": "stop",
+            "index": 15,
+            "native_content_characters": 1258,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 0,
+            "prompt_sha256": "baa4aef21820fec229995341cb025bbe3d33cda377af85c52980ce4548622d1d",
+            "prompt_tokens": 1309,
+            "status": "returned"
+          },
+          "position": 1,
+          "prompt_arrays_identical": true
+        }
+      ],
+      "win": true
+    },
+    {
+      "coordinate": {
+        "context_sha256": "a068d5835f5a9e826bb10d6460451c476664872d0a501ab4939fcbd4c2b98f3e",
+        "id": "b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf",
+        "ordered_core_sha256": "d3baf03c95989076fbc8204415399751f895557571fd6d03ff53bce57b341886",
+        "phase": "long",
+        "record_id": "omrcr-four-45e34dc2b87a24884f6b",
+        "repeat": 0,
+        "row_index": 7,
+        "seed": 202609260007,
+        "source_row_sha256": "45e34dc2b87a24884f6b012886b980061e067d69bb4a13d3cd1eee75c098899f",
+        "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+        "temperature": 0.5
+      },
+      "final_edits": [
+        {
+          "new_bounds": [
+            0,
+            0
+          ],
+          "new_codepoints": [],
+          "old_bounds": [
+            0,
+            74
+          ],
+          "old_codepoints": null,
+          "operation": "delete"
+        }
+      ],
+      "gold_characters": 2253,
+      "loss": false,
+      "new_copy_type": "invalid_or_no_final_text",
+      "new_episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf.json",
+      "new_exact": false,
+      "new_final_characters": 0,
+      "new_missing_only_final_two_spaces": false,
+      "new_official_score": 0.0,
+      "new_programs": [],
+      "new_stop": "agent_completed",
+      "observations": [
+        {
+          "characters": 550,
+          "count": 1,
+          "gold_exact_or_plus_print_newline": false,
+          "hashes": [
+            "28cc4d117458c1a77ade86e45af1565ba26babd4fab2b68ffe6575ff375f3a6e"
+          ]
+        },
+        {
+          "characters": 0,
+          "count": 0,
+          "gold_exact_or_plus_print_newline": false,
+          "hashes": []
+        }
+      ],
+      "observations_identical": false,
+      "old_copy_type": "no_clean_target_evidence",
+      "old_episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf.json",
+      "old_exact": false,
+      "old_final_characters": 74,
+      "old_missing_only_final_two_spaces": false,
+      "old_official_score": 0.0,
+      "old_programs": [
+        {
+          "AST_sha256": "bfdd79cb2bef10b4bd64e44e7d318d0b6f21822dbfccc57d2418a58c3c7d1fab",
+          "characters": 690,
+          "code_sha256": "8e4f012834deb827eea6481bf383a4bcd6ecf39e1ac9f7a9730bdb96f0faa538",
+          "literal_slots": {
+            "marker": "rxuiRPiMI1",
+            "ordinal": 3,
+            "request_text": "write a message about pressure"
+          }
+        }
+      ],
+      "old_stop": "agent_completed",
+      "phase": "fourneedle",
+      "programs_identical": false,
+      "turns": [
+        {
+          "action_arrays_identical": false,
+          "new": {
+            "action_sha256": "6ef3e23d51cc272254abf87b26b5984a2e012893e6ec7c61fe37927d7eb32fc3",
+            "completion_tail_token_ids": [
+              10708,
+              72709,
+              936,
+              5638,
+              19961,
+              368,
+              961,
+              11134
+            ],
+            "completion_tokens": 2048,
+            "finish_reason": "length",
+            "index": 11,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 0,
+            "prompt_sha256": "2162de0f51e14568f70727cd4dd00bd025070f8277ef9c3c5879301aac49e9e0",
+            "prompt_tokens": 767,
+            "status": "returned"
+          },
+          "old": {
+            "action_sha256": "0487666bc53b7fb60c4803cf0be167ca2fd6ae04d5123133df3b688d83effd70",
+            "completion_tail_token_ids": [
+              45151,
+              481,
+              220,
+              16,
+              2467,
+              95642,
+              151658,
+              151645
+            ],
+            "completion_tokens": 206,
+            "finish_reason": "tool_calls",
+            "index": 11,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 1,
+            "prompt_sha256": "2162de0f51e14568f70727cd4dd00bd025070f8277ef9c3c5879301aac49e9e0",
+            "prompt_tokens": 767,
+            "status": "returned"
+          },
+          "position": 0,
+          "prompt_arrays_identical": true
+        },
+        {
+          "action_arrays_identical": false,
+          "new": null,
+          "old": {
+            "action_sha256": "9abef0beaa4d8f0e60e5162540f061bdd1927650d9a965abf37b7ecb714d4a27",
+            "completion_tail_token_ids": [
+              1576,
+              279,
+              11223,
+              67948,
+              374,
+              34987,
+              13,
+              151645
+            ],
+            "completion_tokens": 13,
+            "finish_reason": "stop",
+            "index": 14,
+            "native_content_characters": 74,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 0,
+            "prompt_sha256": "9cbf4b63bb461265d28fa880b3ec2b0fd4db20ab3ef5d75b2202cdc1f419c0c3",
+            "prompt_tokens": 1100,
+            "status": "returned"
+          },
+          "position": 1,
+          "prompt_arrays_identical": false
+        }
+      ],
+      "win": false
+    },
+    {
+      "coordinate": {
+        "context_sha256": "777b67501c838ba196542d1cfefe5269f2c0e8294ddec234fb6a2d430d948534",
+        "id": "b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b",
+        "ordered_core_sha256": "ec2c2d913ec47a6a60e2123abfadbe9139f4db923fbe01777da58619ecd84b46",
+        "phase": "long",
+        "record_id": "omrcr-four-c6ef6fdb8d43f3f08137",
+        "repeat": 0,
+        "row_index": 14,
+        "seed": 202609260014,
+        "source_row_sha256": "c6ef6fdb8d43f3f08137f388869ffb5e72a96246fef1eabac6fcb7ed165c99cc",
+        "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+        "temperature": 0.5
+      },
+      "final_edits": [
+        {
+          "new_bounds": [
+            0,
+            1306
+          ],
+          "new_codepoints": null,
+          "old_bounds": [
+            0,
+            0
+          ],
+          "old_codepoints": [],
+          "operation": "insert"
+        }
+      ],
+      "gold_characters": 1308,
+      "loss": false,
+      "new_copy_type": "edge_whitespace_difference",
+      "new_episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b.json",
+      "new_exact": false,
+      "new_final_characters": 1306,
+      "new_missing_only_final_two_spaces": true,
+      "new_official_score": 0.9992289899768697,
+      "new_programs": [
+        {
+          "AST_sha256": "7f1dea6a904d568503977495a2228b31fa4d729529e3ced6b1d548169ee77c6d",
+          "characters": 686,
+          "code_sha256": "3a5a6d488498215305c294fe8394fbb67fe454ecd9ebc23ac4ab2fd3023a9de8",
+          "literal_slots": {
+            "marker": "nMkZNiZASt",
+            "ordinal": 4,
+            "request_text": "write a poem about offices"
+          }
+        }
+      ],
+      "new_stop": "agent_completed",
+      "observations": [
+        {
+          "characters": 0,
+          "count": 0,
+          "gold_exact_or_plus_print_newline": false,
+          "hashes": []
+        },
+        {
+          "characters": 1309,
+          "count": 1,
+          "gold_exact_or_plus_print_newline": true,
+          "hashes": [
+            "667569f78d119894ac83959825881a34273c98810903500b5d3402ba90644f88"
+          ]
+        }
+      ],
+      "observations_identical": false,
+      "old_copy_type": "invalid_or_no_final_text",
+      "old_episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b.json",
+      "old_exact": false,
+      "old_final_characters": 0,
+      "old_missing_only_final_two_spaces": false,
+      "old_official_score": 0.0,
+      "old_programs": [],
+      "old_stop": "agent_completed",
+      "phase": "fourneedle",
+      "programs_identical": false,
+      "turns": [
+        {
+          "action_arrays_identical": false,
+          "new": {
+            "action_sha256": "320304bfffbc2a23c26b095ca8768b35e5a901966c07c873c003c33eed73a674",
+            "completion_tail_token_ids": [
+              45151,
+              481,
+              220,
+              16,
+              2467,
+              95642,
+              151658,
+              151645
+            ],
+            "completion_tokens": 207,
+            "finish_reason": "tool_calls",
+            "index": 27,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 1,
+            "prompt_sha256": "c46f8ffe1a1c8f19ef6546401b8e5d91d26c9c5e929a7a3d22d62b4cc7602eac",
+            "prompt_tokens": 768,
+            "status": "returned"
+          },
+          "old": {
+            "action_sha256": "c50108d5553c988aa846d51cd7f114d8b8a089d86a9e3267087f8918f8ece404",
+            "completion_tail_token_ids": [
+              36014,
+              1124,
+              899,
+              59,
+              77,
+              45151,
+              3142,
+              284
+            ],
+            "completion_tokens": 2048,
+            "finish_reason": "length",
+            "index": 28,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 0,
+            "prompt_sha256": "c46f8ffe1a1c8f19ef6546401b8e5d91d26c9c5e929a7a3d22d62b4cc7602eac",
+            "prompt_tokens": 768,
+            "status": "returned"
+          },
+          "position": 0,
+          "prompt_arrays_identical": true
+        },
+        {
+          "action_arrays_identical": false,
+          "new": {
+            "action_sha256": "d9190c84bae739e004f37f94e6ba5843286668890cd366e129b07536c5c32c1c",
+            "completion_tail_token_ids": [
+              89156,
+              4746,
+              315,
+              264,
+              6094,
+              27514,
+              13,
+              151645
+            ],
+            "completion_tokens": 326,
+            "finish_reason": "stop",
+            "index": 29,
+            "native_content_characters": 1306,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 0,
+            "prompt_sha256": "3c91dcb82ba0c6a12abece3654273436d844828e047e4fe5e08d5594597d6e95",
+            "prompt_tokens": 1313,
+            "status": "returned"
+          },
+          "old": null,
+          "position": 1,
+          "prompt_arrays_identical": false
+        }
+      ],
+      "win": false
+    },
+    {
+      "coordinate": {
+        "context_sha256": "f9e2ce0952092f88431d83d39328c0c6e33bbc4802d1312811199e2fe34d8440",
+        "id": "21bafadd7758f44881b97856f21a1a207c1fedc8e4b5958c91ae7f30b3d94fb8",
+        "ordered_core_sha256": "3975f7b1663f051bef26d006fea4941b43a318e790b7078e9a74e84bcb74e48c",
+        "phase": "held",
+        "record_id": "omrcr-746d5e1512abdfa38878",
+        "repeat": 1,
+        "row_index": 9,
+        "seed": 202609270019,
+        "source_coordinate_id": "60bf760832334a483112c2e66b0a4b9e4d40f002b852df421fab18ccc55a6ea8",
+        "source_row_sha256": "746d5e1512abdfa3887823a27fbc9cd86f821d7fdde34757d572b57e27c376b0",
+        "study": "openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1",
+        "temperature": 0.5
+      },
+      "final_edits": [],
+      "gold_characters": 2394,
+      "loss": false,
+      "new_copy_type": "no_clean_target_evidence",
+      "new_episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/21bafadd7758f44881b97856f21a1a207c1fedc8e4b5958c91ae7f30b3d94fb8.json",
+      "new_exact": false,
+      "new_final_characters": 109,
+      "new_missing_only_final_two_spaces": false,
+      "new_official_score": 0.0,
+      "new_programs": [
+        {
+          "AST_sha256": "4698eebd8865919fab82d1d19572163131348c48d2dc8e32b5b6e44d612401b6",
+          "characters": 688,
+          "code_sha256": "d06fe9775543619de7b5e501660571e7730f569ff5b60167c66b0b3e618f7a06",
+          "literal_slots": {
+            "marker": "oLlc3XKwl0",
+            "ordinal": 2,
+            "request_text": "write a message about stores"
+          }
+        }
+      ],
+      "new_stop": "agent_completed",
+      "observations": [
+        {
+          "characters": 550,
+          "count": 1,
+          "gold_exact_or_plus_print_newline": false,
+          "hashes": [
+            "28cc4d117458c1a77ade86e45af1565ba26babd4fab2b68ffe6575ff375f3a6e"
+          ]
+        },
+        {
+          "characters": 550,
+          "count": 1,
+          "gold_exact_or_plus_print_newline": false,
+          "hashes": [
+            "28cc4d117458c1a77ade86e45af1565ba26babd4fab2b68ffe6575ff375f3a6e"
+          ]
+        }
+      ],
+      "observations_identical": true,
+      "old_copy_type": "no_clean_target_evidence",
+      "old_episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/21bafadd7758f44881b97856f21a1a207c1fedc8e4b5958c91ae7f30b3d94fb8.json",
+      "old_exact": false,
+      "old_final_characters": 109,
+      "old_missing_only_final_two_spaces": false,
+      "old_official_score": 0.0,
+      "old_programs": [
+        {
+          "AST_sha256": "4e596a7e9271d9fee34b5ac095251a0cddca9b9e3e2aebbd2ad7e50494b95d28",
+          "characters": 687,
+          "code_sha256": "bb94d719689204667388d8cb093919c5a5b9d9be3bb64b089ff3a8672dabc234",
+          "literal_slots": {
+            "marker": "oLlc3XKwl0",
+            "ordinal": 2,
+            "request_text": "write an email about stores"
+          }
+        }
+      ],
+      "old_stop": "agent_completed",
+      "phase": "held",
+      "programs_identical": false,
+      "turns": [
+        {
+          "action_arrays_identical": false,
+          "new": {
+            "action_sha256": "0d9863a07902affd450e0ac9ecb751da958737c3e622312a04817c0b5748de53",
+            "completion_tail_token_ids": [
+              45151,
+              481,
+              220,
+              16,
+              2467,
+              95642,
+              151658,
+              151645
+            ],
+            "completion_tokens": 208,
+            "finish_reason": "tool_calls",
+            "index": 37,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 1,
+            "prompt_sha256": "f5007ee3539b99b07dcccba88edc1754ce47598388ef721dac15372dcec80904",
+            "prompt_tokens": 769,
+            "status": "returned"
+          },
+          "old": {
+            "action_sha256": "e6edbd3e013126b727286b24166af0867d98a5f8f92acd6daac4528582de98ec",
+            "completion_tail_token_ids": [
+              45151,
+              481,
+              220,
+              16,
+              2467,
+              95642,
+              151658,
+              151645
+            ],
+            "completion_tokens": 208,
+            "finish_reason": "tool_calls",
+            "index": 33,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 1,
+            "prompt_sha256": "f5007ee3539b99b07dcccba88edc1754ce47598388ef721dac15372dcec80904",
+            "prompt_tokens": 769,
+            "status": "returned"
+          },
+          "position": 0,
+          "prompt_arrays_identical": true
+        },
+        {
+          "action_arrays_identical": true,
+          "new": {
+            "action_sha256": "4c752fd09479066c366fb7cd91e86ba959e51e598f058e06c0ae05bd8a8b34b2",
+            "completion_tail_token_ids": [
+              4396,
+              279,
+              1681,
+              323,
+              2548,
+              1549,
+              13,
+              151645
+            ],
+            "completion_tokens": 21,
+            "finish_reason": "stop",
+            "index": 39,
+            "native_content_characters": 109,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 0,
+            "prompt_sha256": "3fe71d166e602010a3d4566dead803acc7a08f1642b43286344502b266583627",
+            "prompt_tokens": 1104,
+            "status": "returned"
+          },
+          "old": {
+            "action_sha256": "4c752fd09479066c366fb7cd91e86ba959e51e598f058e06c0ae05bd8a8b34b2",
+            "completion_tail_token_ids": [
+              4396,
+              279,
+              1681,
+              323,
+              2548,
+              1549,
+              13,
+              151645
+            ],
+            "completion_tokens": 21,
+            "finish_reason": "stop",
+            "index": 37,
+            "native_content_characters": 109,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 0,
+            "prompt_sha256": "e8f3786eb3e5955bf9a0f597ac035f64a9c6f385ab23917f10cbae2238f41653",
+            "prompt_tokens": 1104,
+            "status": "returned"
+          },
+          "position": 1,
+          "prompt_arrays_identical": false
+        }
+      ],
+      "win": false
+    },
+    {
+      "coordinate": {
+        "context_sha256": "6d805f8fbf3064e3e93921aa7f857384bcffdf936133ba268ac4e0698affba4f",
+        "id": "d61c24ef0fbf9d8bc85152388dc1412e49ba2de80814da3c7b15872dd43943e5",
+        "ordered_core_sha256": "05a12cd31f6141066b93ac212f254ff31fecbb0cb063eb5bf91160ac16f8f2ee",
+        "phase": "long",
+        "record_id": "omrcr-long-508ab438696a81bec39f",
+        "repeat": 0,
+        "row_index": 4,
+        "seed": 202609210004,
+        "source_row_sha256": "508ab438696a81bec39f31a673f80c6de57cdb777362b4f89996124bfcc67c29",
+        "study": "openai-mrcr-long-transfer-eval-v1",
+        "temperature": 0.5
+      },
+      "final_edits": [],
+      "gold_characters": 1998,
+      "loss": false,
+      "new_copy_type": "invalid_or_no_final_text",
+      "new_episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/d61c24ef0fbf9d8bc85152388dc1412e49ba2de80814da3c7b15872dd43943e5.json",
+      "new_exact": false,
+      "new_final_characters": 0,
+      "new_missing_only_final_two_spaces": false,
+      "new_official_score": 0.0,
+      "new_programs": [
+        {
+          "AST_sha256": "e06a56577dd734c0375a7e69faefbfdac302ce619a65cfd1ec64b69290636e9b",
+          "characters": 694,
+          "code_sha256": "982595023a3d505d442f657960835c501878c5b87a635b49ae0bbf95c01f8ba2",
+          "literal_slots": {
+            "marker": "tk02vaPuXX",
+            "ordinal": 2,
+            "request_text": "write a program to find the matrix"
+          }
+        }
+      ],
+      "new_stop": "agent_completed",
+      "observations": [
+        {
+          "characters": 550,
+          "count": 1,
+          "gold_exact_or_plus_print_newline": false,
+          "hashes": [
+            "28cc4d117458c1a77ade86e45af1565ba26babd4fab2b68ffe6575ff375f3a6e"
+          ]
+        },
+        {
+          "characters": 550,
+          "count": 1,
+          "gold_exact_or_plus_print_newline": false,
+          "hashes": [
+            "28cc4d117458c1a77ade86e45af1565ba26babd4fab2b68ffe6575ff375f3a6e"
+          ]
+        }
+      ],
+      "observations_identical": true,
+      "old_copy_type": "invalid_or_no_final_text",
+      "old_episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/d61c24ef0fbf9d8bc85152388dc1412e49ba2de80814da3c7b15872dd43943e5.json",
+      "old_exact": false,
+      "old_final_characters": 0,
+      "old_missing_only_final_two_spaces": false,
+      "old_official_score": 0.0,
+      "old_programs": [
+        {
+          "AST_sha256": "e06a56577dd734c0375a7e69faefbfdac302ce619a65cfd1ec64b69290636e9b",
+          "characters": 694,
+          "code_sha256": "982595023a3d505d442f657960835c501878c5b87a635b49ae0bbf95c01f8ba2",
+          "literal_slots": {
+            "marker": "tk02vaPuXX",
+            "ordinal": 2,
+            "request_text": "write a program to find the matrix"
+          }
+        }
+      ],
+      "old_stop": "agent_completed",
+      "phase": "long",
+      "programs_identical": true,
+      "turns": [
+        {
+          "action_arrays_identical": true,
+          "new": {
+            "action_sha256": "7843e8869c631d9c0d7ca88e04f50e0607e790cd8fec530f3d76585d87d47248",
+            "completion_tail_token_ids": [
+              45151,
+              481,
+              220,
+              16,
+              2467,
+              95642,
+              151658,
+              151645
+            ],
+            "completion_tokens": 208,
+            "finish_reason": "tool_calls",
+            "index": 8,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 1,
+            "prompt_sha256": "7c5d237a3ae9cd875510cf73712ee95d8e40570326f5532c300f899ff1490e83",
+            "prompt_tokens": 769,
+            "status": "returned"
+          },
+          "old": {
+            "action_sha256": "7843e8869c631d9c0d7ca88e04f50e0607e790cd8fec530f3d76585d87d47248",
+            "completion_tail_token_ids": [
+              45151,
+              481,
+              220,
+              16,
+              2467,
+              95642,
+              151658,
+              151645
+            ],
+            "completion_tokens": 208,
+            "finish_reason": "tool_calls",
+            "index": 8,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 1,
+            "prompt_sha256": "7c5d237a3ae9cd875510cf73712ee95d8e40570326f5532c300f899ff1490e83",
+            "prompt_tokens": 769,
+            "status": "returned"
+          },
+          "position": 0,
+          "prompt_arrays_identical": true
+        },
+        {
+          "action_arrays_identical": false,
+          "new": {
+            "action_sha256": "9dfa77fae3ed5945a7c708f9986a754b5c0245c7f73ca1dfd41192b2a7cb273b",
+            "completion_tail_token_ids": [
+              72709,
+              72709,
+              72709,
+              72709,
+              72709,
+              72709,
+              72709,
+              72709
+            ],
+            "completion_tokens": 2048,
+            "finish_reason": "length",
+            "index": 9,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 0,
+            "prompt_sha256": "0513c82da93c754ad8831a091e1a5f67598e42f324a25e3e42f00a414537a1bb",
+            "prompt_tokens": 1104,
+            "status": "returned"
+          },
+          "old": {
+            "action_sha256": "a721f12702735867b915c57a407da5cbc127063f0fc609fa750bbec87aa033d6",
+            "completion_tail_token_ids": [
+              7245,
+              76,
+              62705,
+              59,
+              77,
+              45151,
+              26267,
+              284
+            ],
+            "completion_tokens": 2048,
+            "finish_reason": "length",
+            "index": 9,
+            "native_content_characters": 0,
+            "native_reasoning_characters": 0,
+            "parsed_tool_count": 0,
+            "prompt_sha256": "0513c82da93c754ad8831a091e1a5f67598e42f324a25e3e42f00a414537a1bb",
+            "prompt_tokens": 1104,
+            "status": "returned"
+          },
+          "position": 1,
+          "prompt_arrays_identical": true
+        }
+      ],
+      "win": false
+    }
+  ],
+  "changed_total": 5,
+  "generated_programs_executed": false,
+  "limitation": "All arrays compared inertly against the qualified cp32 controls; changed weights mean these are not clamp-only causal or replication claims. One exposed secondary exact gain is unreplicated.",
+  "paired_path_inventory": {
+    "fourneedle": {
+      "all_native_paths_identical": 13,
+      "first_action_identical": 14,
+      "first_prompt_identical": 16,
+      "observations_identical": 14,
+      "pairs": 16,
+      "programs_identical": 14
+    },
+    "held": {
+      "all_native_paths_identical": 31,
+      "first_action_identical": 31,
+      "first_prompt_identical": 32,
+      "observations_identical": 32,
+      "pairs": 32,
+      "programs_identical": 31
+    },
+    "long": {
+      "all_native_paths_identical": 15,
+      "first_action_identical": 16,
+      "first_prompt_identical": 16,
+      "observations_identical": 16,
+      "pairs": 16,
+      "programs_identical": 16
+    }
+  },
+  "schema": "fresh8-rloo-all-changed-native-paths-v1",
+  "source_readout_sha256": "57f739304d92c03ff704f0edbbc494c8ae4cd4401ff06f9965c038bb3ddf18e3",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fresh8-rloo-paired-2026-09-12/readout-002.json": "57f739304d92c03ff704f0edbbc494c8ae4cd4401ff06f9965c038bb3ddf18e3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/083425db5bf9fd9473589440706f3dc18ab4789ec935c3826878c438d249e4f0.json": "ae0040e9fddd9d4317becc7a725cd4d251f6f697f49cf5d657b74fc4e18b328c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/0bb6fb23ce0c865c83d28c03c67f24473127b518074b8b333f2c9dd8f61c92e9.json": "1ba631a10b589c2c91dca0debda9133fa69fec9e9d0c83cf4c35a3a9f6ddfc10",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/0d883a6c802a851c47daf8428719feb5ada1db7fc257fc17ca005254789498c7.json": "14a976781d0932877b51d9f0390ac713bc85de9fc02d040dc0f85219f03c7292",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/1708cc1b827336579a1c69397379dffdb78ffccf5fe7ff0f58f0c5acf57ea147.json": "e22db034fd32826d6fd27c1a96ed183726528263752fba2227a49329b0651482",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/21bafadd7758f44881b97856f21a1a207c1fedc8e4b5958c91ae7f30b3d94fb8.json": "ea3484257cfe851a0429923277f5438a289d6ad4f9a0786ab2ab2c72a4931632",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/23ac0b09ae33355156bcf65bbb3f5a7bf46a0f99810815b858cda3746f08c38d.json": "cdb6d1aac76cf9d5eb5b0b9d712ba7e34985eda8c6283fd9116930041d2a6b32",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/2a1579ac7dc5460e9b9b403622b6e52676d3ab1e56374218ccc18534926250c7.json": "dba391e2dba6ce0c43fee9662e12fd1c5f1fb057feac529c615686a1eca1ed7c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/415214b542041f1e97354415bed9a2b5c563558b5b53eae17ef0e9f1ab70419e.json": "94da7c2b80f5d755a39781cab50e7aa1a2f2b55f9edfe1590b1415f54c977cef",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/49c3bd2463cd49c4d6cd11f4d6c481372848b5cb741af0f57c670e2763c09d5a.json": "19a74715ec6ea84fc8fc49e49d49f8cc849038b517315d6419c053a3cd0f0ea6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/4d62631724619e164a31502e4acd1bb199287db27e91f7ef53169ce6d3538dfa.json": "302852e5bad0c4be812b2548c29e96b38f039c4babc1b8ed0fc8dd0b4464aec4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/509cfd24ed261ae86ae62ec189c1cb5e346823b683a7f15788f1b46b8ddcba98.json": "c451d25a0930450aa8f8ad8dae9cc1df786f602a719fb577e85c1e6ae24ac8bc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/5c54e111099e9eb4ae0bfb951717497d533a19ba225987c86abfca71fd8c6b77.json": "393082363509f802a1b58329174aad349500395a6e5bfcbf673efab74628c408",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/697ef527cca92fde3cb07bb5d3d1d5bdd7f70ded67f414e9c95faa43014a60a8.json": "7b051e11ad8b6f43e6efc700dd0a69a1700981a76fe08d6c9650f570e89e2912",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/6a790f30d388044a475fed0f27c0a1b32ea0911557b05d283a24ed09c713338f.json": "3d140303cc67bfb594f0ea9a3952be26e34f59206dc8d841503228e9c4581d52",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/6e8e05834f9f26b6dac811754e04f9f8ba68c4b56d82546733d484785d7e6a24.json": "bd77b89b04ab4b8f48c8c4bc6ba440df1a7fc01b032fa8deeee7cda6c7f6c799",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/71a63b277f12c02d64b853905cd120df9fb40cd8474507a72a8745019047680e.json": "85933938bbee7b2177e10fa7866a3e64ea3d43adcb374fadc46f5faa1db7d5f5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/73965c3d422a1cab6dc369539e7e5c30a78840914ef398711b3049b9decaac89.json": "3aba2a43ec20b42aac3b426b46f3fdbf52165695e0168dadb796d74c17ed9a00",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/75744f91039d07aa2c1a7351c8451afe901be7ab3e3759f5645499166b5f0899.json": "946f134ae41505b67c48465f9756b24311cd2ebb6d9cd33fd4e5bf384a4501d4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/7e41a3d497d7111f035f078fd208c58f2be28eb2c73db3d34c235b2ad7e679c5.json": "fa05e9e974504121cfed82cb80819183aa1bd4160c3198b34fcb515e9db0f85e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/828d87d44303080f25bc02d8bc29c5507f081f496b319afa4057e28f7ea99c9c.json": "6e5038ba62bd4ea986e5d7880876708f7c25e5edd5778a0603dad873e3d81c6b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/95e210bc68b25f30a64bdcdefbf253107cd93ad231fffe79c217d066e53f3230.json": "8c2f646842bda0ccfbd1caa2035502a609403ae21a61c0213efd6fa8d57a37b6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/98a686e6ecf5c2622f727db5bc2f8a67847f1efb0106cf50fd7cef9b6779fb3e.json": "6f9fb5aa7e915b6ac12d11e0ffb2f8d91bd5ec9994da24682a6b988c17c7252f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/a26951dcce4605888d78774316d8cf140af8fffbe9346805c8e6a7d9619f16a7.json": "51a04c442b5d9ea169bdd7ef70c390c461886cc51f6fa87c384e54cb3d2457ce",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/aa63a8f3ca5ddf0ba17f9d449e4fbdd5e93c259151691e1e34480f2fcf6dffab.json": "fb268c28be3ff9fcc257f5322ef27425911d1bf6bef67909ac65624961a2086a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/b1175546a6299dfecc456345e870cf2a75b2d775f4412ef96d1533189b98046b.json": "45e992a78b325dfc23112d00d520a2b87d5e1f6638786cdf9689baa2db2bc344",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/bd524ed7300bde89ce96ffcca38e0318609b4ed02802826c1405ee246c5ae519.json": "94a4173592670ef12139c1397d4ea9d82618052bbc207b79e431c85d25708491",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/ca1b565f4270af075c3e593c41bffb9606003f37dabc2a1f04d0c3c7bc7813b6.json": "d0d53f9d6f546045a8b8aa938e145e86bffb4ef27fac19bd7d87064cc90c514a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/db8ddad65bb94893cf34fb8ad2aa0b9f25e8d5286a033a078f105240c9e5605d.json": "159b7013c5fd1d9a40837130d1859a14bab8413fdda4ece737ab90ab7f4c0256",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/dcae2af0fc5e0867b1187135920e221f50856b9ad57b686c5be0c8f256d5d67f.json": "d2a21235634a078b2838ff300172851100171e5f7c37b989c3c5e604a66e9d6f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/ddc4ee3f79548bbd35dde9fe2a2ae277066bcfe4be7d7d4c9e4a1991799da21b.json": "d9bcdb7fa7d018df3605d16efb1fc4f0a6d9dceb9671e7d5cbf23d90986bd3bf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/ec95472e198fed80e483636591879b1a45d105ced7cb230218e222dcc8c05d1a.json": "61b418ea2efade82d9a5aa1b09258ef10023609a7f379208d167b0a1c853b8d9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/episodes/f31f51aa50968bde09a69893414df52c9fd94ee0dbe6b03c95f32afa59f8ce67.json": "6257288509e5cb63b641804ebc66ff34d961f4af0434283af2d92c4b7679d520",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0000-result.json": "2dd82a43af0bd30253ca07f63924e1b522eebb2ad32a1e9598424f7e24bba118",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0001-result.json": "0e856b2cdf00c2a4f4b38a44eb9d9b6c4f827bb90b4259dc0e37c20077003b36",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0002-result.json": "7c75d610b666491648380b077c3567cbc8cebe15cd22554b41ae6179a1d5524d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0003-result.json": "d71b8bed1506381197be50bd2836084d0c0741f8dd83d335c07eed69885931bc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0004-result.json": "8f9691420460526049769b5bf27763446794bc3ba84f1c46dc44b52ca009e68a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0005-result.json": "363da6057cbd7ef42a7a01cb33078daa24e713ecf454aff0e1d68afeec721016",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0006-result.json": "72af52bb8e1f7ecf87adc9377d0cf48280737665c56b603ae943e1e552e8cf03",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0007-result.json": "3ad31abd98803347f5bbb83ea0bfa7a00166150be8cb8719508a5672e681e949",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0008-result.json": "e07bbd48d0cb445e775186eb7fe6c941af897feaf6ad5c63be8dce1b0b34d76e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0009-result.json": "34b2425dff39d8d56fe3268c991eaa41f659a0096ac4afd1074f1b2905f4d446",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0010-result.json": "0a3381e6d168f7f0a6cfa22d59cc09889982f3eeafea7d4897dbe73da8cf3bda",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0011-result.json": "72ce2282ce0deca5e80ca9bd11c5a7d62c551bfac213ebf48e9934e418a162b6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0012-result.json": "51231969d4e153049922fe3fcea271647cafd6e0f58388e21ad4af6f2cc61305",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0013-result.json": "e881cdf1b76710078bff92027de1fc16a4182b7505cfe4d5ee1f02a7b649095a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0014-result.json": "7ea96d222709115cb09a9ce1af0eac15226d704ec2ed8790615f87009e483477",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0015-result.json": "945674660d6a3b6cfef46eec8ec8ec42ce77f3e0c67cdfe0f467de41e746ea2a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0016-result.json": "dc77275b285e9515e07896a834b44e383f1c3b9af6c52d5b55966e5b4525129e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0017-result.json": "20a50d907028b367909805f1162aa672e9dee3ae54f4da0cccddb21f3a6776c7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0018-result.json": "9c1c8d6800f1b0d8fda963242bac892c72a9510bd891e7b1e0aef28d2924c746",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0019-result.json": "10f9bfa1524314aba8df33ff4d478272a48321921254ae83565414faadd8689d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0020-result.json": "37086a5502514b6ff2ac161fdfc61c2a288d3b891529518783427e62d9b66638",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0021-result.json": "4fcc572292b4773cc47be54983fe0dc269e01340a0fc5682246818ba3e0051b4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0022-result.json": "f56762b6e1916c885148775bbadecb1eaa2da419c9045be48f314bd826561572",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0023-result.json": "2a9cc704f28cdab105736a3ed3c6fa7b4421e92404858d649969e6a549d4ea13",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0024-result.json": "78a00b60a226dfb73ad86873bf2660358738be0c4f1c053204a7f042aa389c78",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0025-result.json": "646c8deff7a10efc5afa2b2baa4d1f9a637ac23d8c29a9ba71b6590de5116185",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0026-result.json": "77627756a5fd070150bded27c9f0c7581ab1fb772fa0f5629a6f2d0b6d00a8a8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0027-result.json": "bd2a2528032616a40cea0510e909f838e704cfb00b6e644b17c5a3cd956679b9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0028-result.json": "ff3f587b7f05dfdaf253cfd2c1be2db5eaa3903a309b8204b92d56e4ab53d520",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0029-result.json": "39cef1f4b306b20ede684104e9758e7e8af46fbcf1d20a7280bd9e52390e0534",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0030-result.json": "7285fef64cc577ef4441e907042e2c4e66fda5efc46a8b41004d8f3b1ef0888e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0031-result.json": "ed27c9b0db685c1d4563be9bfb8c270dc135afefd450c5d04c470000f6ed8574",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0032-result.json": "fbee69aa9abee79726698ada79a1b578afbd50b1daee258a6b14039aa05f976c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0033-result.json": "deb681347942ae0c7450f891b5c0cb17dac6ceb07193f04902dcd96f5100c73b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0034-result.json": "2b708db27916a49f33365c15010414858752c601186b36a14676ae3021f9dcf2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0035-result.json": "e41363dd28d521c63e2d0b26e65a2bf8332b1819e58b4aba1ecc6ea571bd2011",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0036-result.json": "18ed466015b2ac0b686b9d57366fac4a66be6370ce5168de3000e3880d125cca",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0037-result.json": "5cbe2e3a004ecbcd8b2698fe0eb4847f38e8b844ad52629415291b10e6170a00",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0038-result.json": "b24d5a163aa0887297ee6582de6c7efbb37ff84f1aa50456ffd77dd76f2a542f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0039-result.json": "0606ad7a81f3164e48b7ea96e2351459ec3f991170ca04a84a61dd5227a14820",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0040-result.json": "68019fe67ae3072cbfa34611af42f8b54820faae08af23daf97bd268a8d9df5b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0041-result.json": "3f8ef4d3f62f7b42e7a87a65eedf0f6a55f8186b206e8d510fba68c90fc206a7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0042-result.json": "5bf901e7a1b61a88100421a4310dc75fc66cc46b617e7f4709fc87adc5a581a2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0043-result.json": "560898ce3a964d64fe6c9d3822438d73f316a962c73ec54c5bf10d51c3e4ec35",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0044-result.json": "17a3b3b4a0e0abe9b8aa0e77cd2c175b3b4f1fdb6371ca17cdccdac6d5c3b502",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0045-result.json": "c2e28e7f7aca95ed4103eb192677eed31a7ff5dacc351310bc4a3f4ff72334fc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0046-result.json": "55326ff084862b3ecf812d737a7dd89002fefc0381212b38c2291fedab8cac30",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0047-result.json": "81c60b37315557e29360639dac33da551b1ca87c423cc78068933a28ac9c0758",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0048-result.json": "3f09d8d6eebf326753c167697387783b13e251fe2072d304792856f8072776d6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0049-result.json": "1d1f3887548f48ab45e0d9eae0806e329fb3976f85a19e119f02cebc94510cfe",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0050-result.json": "5f19e491c1eac8a4119bad74291075f7483638ec731fc459a5e14fcf966851ab",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0051-result.json": "9166698312c35c597a41e1753b81480bf7e6c70667250d512c24e0069d1a2bb4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0052-result.json": "f247c09f5e5721122738a30d1b8f85fb7a5026f482dc0c0a62c4e1a2cbf0f93e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0053-result.json": "3c8bc083d5fad4eb8e35eca591429dfba506a8694ee7f6a4a132fea72696a814",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0054-result.json": "dfd91f20c16f7260127c7514726a387e081a30259bd43be21d39e01437120ae9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0055-result.json": "832e91182a151ff728a82b71485a86f5a04bd7a2103b4bae4b0a13f3b23c2422",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0056-result.json": "aed2cbf427b24a56810f211080162b61843433eaf4d54b0a2639bf3330a4996d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0057-result.json": "18336e860848795be1e2f3e0baffdd745051c1b60a08f9e8d5378def4ae26cf2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0058-result.json": "b407aea1870a1b595a6b52bac37679d49f23327c050727ed52dbd387814a039e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0059-result.json": "1baf43891d09ab986b1c25cb8b860b535757942b2d80865280af338d1af06563",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0060-result.json": "4840ded71fbd0575410ca64752acbb4e3807cd0402252a9deb449a167968166c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0061-result.json": "1e0921f8e3c52d946077b21eac019952604a1f46fc9e64d4ddb593486149c193",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0062-result.json": "1a61240d8b41c861cc13bca4e4ea62d668a8feea49a4a0f35c139695f8edd4f2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/native-calls/0063-result.json": "0dfd8bec311ba241a5bfd76d2a1c1bee96a7d168a49c80431e900347a9032b6a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b.json": "f46b09d9f2abf6bfef57a6da551aeef52e62e48795b1dd82d7ff85eb2c3c9fc2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c.json": "3727c580d04b016d94430a520fbaf0e433839f7bbfd442c30e95d31f649ee12c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61.json": "286ae760ad5d353488f89696779c83c7716273c6d942e0bf9d46f6b4473fc69c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f.json": "597a54a02a57ffe81c8de1d4b52a9d071ca1810362e12887fd671c8f8747a838",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946.json": "8c43ab4b2cd3d2b2032f9532269467a81bfc02daf4389446f2a88e7f92e3632a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370.json": "bb8b7f0e58e643bc81d231a9334842902667281742cfd27dc299823979205050",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2.json": "a42b04488a03b77d4535531482ea64fdeab2f57a6f702d5de1b9adf6d9591646",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538.json": "aceb28eee84fc6202516e1141fa5ae43111b5f781065a554c9d31681801f5b8b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f.json": "1e9aec8579d2034cf3617b5c12dff6b38e940a6cc0b808f32fc3099135a917b5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e.json": "ca336dfd7364f5a2b3e95b397f10e3111cd0bfeab84c08eb5bcba474cd177324",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b.json": "29e1a28f5c639857b576df9ce5f1a222901b1aa1b9e08a8db545f8395856d4ba",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012.json": "41b4a284a8d089680af88c4f0595ba3dbe317c9a5239afb452ec4cf2ee6ce869",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf.json": "f71fdde0c5e8e7ee8564644583a19741a2dada95ebf5080ae85eade57cab3cd3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246.json": "b7badae5075f26f60a5fddfaabb15dd17187933dfb288435ca5ded05d7461863",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831.json": "27e3912b1692cf68a65705ce10e33ba88d582987bb0a71b0db9863e71771baf5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/episodes/fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce.json": "443f2933958947d382cf7d8629d0a513718b3bf41a186f7741a635688e7e39d2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0000-result.json": "93585a8577b0684bbb089ddef53ad4f7557665c4b859baba36d0761d4cf11556",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0001-result.json": "18f7d8df702f85bf3f3bcbfcce827a6e0a9f5b05406d3b21ff815383231e6934",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0002-result.json": "9cc187a1d0070951fc5161be7a9a674935c6438b8ad1a1f1cc1d8e1a1b1d34c7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0003-result.json": "e24741ec8bdc46bcb73d3bcf8e2630947011a1029a163501e8aa5a76c374d85a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0004-result.json": "9d2de477079204a897cfefe467b10940251f305c4404051254bce1a8a8d418ac",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0005-result.json": "c0ee13a7391080eaac2a1b6e5fd5f14c15ac45c0a4f0c7080b6765a20b0e0029",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0006-result.json": "186780f77a36ac58209d4219c4458129847eb9a6c2b4b9fd9eeafadb42d07e52",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0007-result.json": "ae2e75778d9e5e36ff5e217ff29d911eaf9574c9b9e4a8bea05776e1da513965",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0008-result.json": "5a5d16b56647eb066ce77633062c5aaa46dde216ebdd2298b447ffaeec387971",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0009-result.json": "4daa7523f5a3e0af66c8e7dd694c942673766153b798c9faf5bc6dbd26499fbf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0010-result.json": "07793213adba1e5838620efccb4f6e36e6180e1f8ca96d2d65391e9ffa40794f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0011-result.json": "f7378a70127dc038e26fbddb3e611dcb0945727da5afab8da899b1379118f6a8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0012-result.json": "aa91bfc151eab89238cd5d22cc7890c952f440130ea4a965bb625a203938ee83",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0013-result.json": "6106a480015bc268339b893c2e61aeb0dd77e3e3b42b44936dafe959d1c90673",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0014-result.json": "5cf1e318b6c4e397a89ebd0234d32b42ee82c5bf7a280a7ec074d2eca7ee2c95",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0015-result.json": "c12bdf14267119ecefa364fa245cad36124fc75b45ad9d78fe9e91242604152f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0016-result.json": "0b110c7d5160712ceea3287874e9eba8122669c6c0fb4549659ce395077bcc37",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0017-result.json": "147cb8abb38daf7670db3fed57c04646352934fa3c005e2aa63127074befd702",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0018-result.json": "98f41e9cc24c6c7c8f47e0c01ddda1c1b13c97b59de515093f918f29226ed23b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0019-result.json": "1aa41591bdc5c43fff787c94a4571d6da4e39c5b721a9a24aad62e6552abb976",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0020-result.json": "ff91295a99d53c84d399c03cf8608be33ad89b89f32c4c947cf51494357ed81e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0021-result.json": "c64fffb3de99633e09e6b5020f38c8bd9888e2dac3844cc4f098b387f62837bf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0022-result.json": "0b24909218386bff3d02deb5282aa9dad2715f1809d393470da7850780df4d6b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0023-result.json": "c5be61dfcc7f22b29ed4d9958e73ecead8be24af2e2f0c2047f238b79ba11152",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0024-result.json": "0b93835d524c2b55e45fdd9a4a1a5bba8446b2f8e65731f9ddf478c276a0e848",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0025-result.json": "9248f97d62e36ac28e8afab0785b4663deee4977a9f65dd7e3396b35a591608c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0026-result.json": "8f7c9e7de84ff2b2f9fe1e5eed5a9c68d3d1a9c1d297d181a306fced1200daf7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0027-result.json": "8fffe81e43f88020fe1420c7225f44de69bee62754dd1eeb42cf5d3b2936d0c5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0028-result.json": "985a3057a55b53b0f6f94539f54efcaf3c338772975a536f8048cf20638e51f9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0029-result.json": "3037a59407e0310302378cd24ea69a6ca6f7141523eda13211fb2a908571ff9e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/fourneedle-001/science/native-calls/0030-result.json": "745cb23fb74a68a897859c6a082127571057de2bff82a4c464e99ebdb2478daa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/083425db5bf9fd9473589440706f3dc18ab4789ec935c3826878c438d249e4f0.json": "405e6569baa3f157001ac98ce5088433cf3b7b941c02f2c29ee6788fe58a7f64",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/0bb6fb23ce0c865c83d28c03c67f24473127b518074b8b333f2c9dd8f61c92e9.json": "927e240fc23957ba58f14c9d490229fe6531233d7f8b2634f0dc8e1581d5f55a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/0d883a6c802a851c47daf8428719feb5ada1db7fc257fc17ca005254789498c7.json": "d9f44a67376a0b38e454aa8c6a42ee1d72a0f62ad1b60fb8bceb69b10ba2dce1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/1708cc1b827336579a1c69397379dffdb78ffccf5fe7ff0f58f0c5acf57ea147.json": "11f56ea69cd1dd3eb7fbcc4f25fc3cda95cd0cde298dfd005b7ac496ec43678e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/21bafadd7758f44881b97856f21a1a207c1fedc8e4b5958c91ae7f30b3d94fb8.json": "b247eb93cad24f61bd3dd428afe00962b7634693f5e22ff3f39cf33a4b3ab015",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/23ac0b09ae33355156bcf65bbb3f5a7bf46a0f99810815b858cda3746f08c38d.json": "cd4892e8c27c63033ab49ce466cead901d3ac9dedfd113908144bd080ad9ccf0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/2a1579ac7dc5460e9b9b403622b6e52676d3ab1e56374218ccc18534926250c7.json": "0c3e2721263aa65bca45c3bc61c8b3ac4aed93d94d5b90fac2991ebdbc10cc18",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/415214b542041f1e97354415bed9a2b5c563558b5b53eae17ef0e9f1ab70419e.json": "bbca188f18a06cb38e9c19d6821921b1ea2809368cc6c4535c7b56b7366eb816",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/49c3bd2463cd49c4d6cd11f4d6c481372848b5cb741af0f57c670e2763c09d5a.json": "ca0476134cbe532840fadee7b7df042a75baf625e1b952f651e89136c5f8ad7d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/4d62631724619e164a31502e4acd1bb199287db27e91f7ef53169ce6d3538dfa.json": "8beaed12d9465b31c02eafa1a6236e19fe2d360c97acf5828d72104d40c4a88d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/509cfd24ed261ae86ae62ec189c1cb5e346823b683a7f15788f1b46b8ddcba98.json": "37d8869b1ed573617f2da5a9c5df1c9692cca622784c3fa2345a1e75dc1cc7aa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/5c54e111099e9eb4ae0bfb951717497d533a19ba225987c86abfca71fd8c6b77.json": "ca45c0ed90e8140cc371249825f46026596f24cf6149c80791ba1fa584ed15fc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/697ef527cca92fde3cb07bb5d3d1d5bdd7f70ded67f414e9c95faa43014a60a8.json": "5348c040f29a244477cde358610d50ce5e6700aae09ce63e864588235b0581b8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/6a790f30d388044a475fed0f27c0a1b32ea0911557b05d283a24ed09c713338f.json": "aaa8c1f992a39c5dd963ef66d3efc06cacaafc0046d7128826e5fb488b8c8250",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/6e8e05834f9f26b6dac811754e04f9f8ba68c4b56d82546733d484785d7e6a24.json": "90541c83d4b7ceb527b55d1e2f6bc09eccd6cf365905c270d895b95c725035d9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/71a63b277f12c02d64b853905cd120df9fb40cd8474507a72a8745019047680e.json": "c704ee327709d2ce3d2b4b798a76af8b6adc1c9ec54c066f62a77fe840d2debe",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/73965c3d422a1cab6dc369539e7e5c30a78840914ef398711b3049b9decaac89.json": "1b95fe6bdfc4bdb3739798ff81ada4dcf71d06d6e0dfc84f5d3d854ef8c8b58b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/75744f91039d07aa2c1a7351c8451afe901be7ab3e3759f5645499166b5f0899.json": "3fce004423a0e83e1ec3dac893d1f349ceb3a21a589bb363111be78376a91215",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/7e41a3d497d7111f035f078fd208c58f2be28eb2c73db3d34c235b2ad7e679c5.json": "b00e358f56d21aa4f82c1b33f1e999468069f9a8ce558000bafac49be34e5945",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/828d87d44303080f25bc02d8bc29c5507f081f496b319afa4057e28f7ea99c9c.json": "b28a566f651a207df0aca37b6a3557470df647a04340beeb3df53903a2582962",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/95e210bc68b25f30a64bdcdefbf253107cd93ad231fffe79c217d066e53f3230.json": "00f9a0ece56c22b0ded096574b4202103c1899b1a33ce7724c52ce52d869ff2d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/98a686e6ecf5c2622f727db5bc2f8a67847f1efb0106cf50fd7cef9b6779fb3e.json": "02da8da2ab432ae39e0c564bbf3c0ba30a255c4c68e06cf5c594404fae2c5e4d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/a26951dcce4605888d78774316d8cf140af8fffbe9346805c8e6a7d9619f16a7.json": "b1ab8b4f9f0afe0215e4d6b9e8379f376f776c721bb38e224917fc2f3c5c0c49",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/aa63a8f3ca5ddf0ba17f9d449e4fbdd5e93c259151691e1e34480f2fcf6dffab.json": "52cf56268189b92bbf923db07eee616c2991dc92248f023e7f601d135462674a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/b1175546a6299dfecc456345e870cf2a75b2d775f4412ef96d1533189b98046b.json": "3a9124a2da7fda762900e0dad109c1f2a2ea87320527a27729c73c82efd45a34",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/bd524ed7300bde89ce96ffcca38e0318609b4ed02802826c1405ee246c5ae519.json": "9be2ae36c20909eee54dc22683153a3327916c52f65577ba6b87ee3f29f4e024",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/ca1b565f4270af075c3e593c41bffb9606003f37dabc2a1f04d0c3c7bc7813b6.json": "1e65d1bdc3d61e3a66581dc4ef773c058dce269c5bc0b0cba8a3d183c9214fe1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/db8ddad65bb94893cf34fb8ad2aa0b9f25e8d5286a033a078f105240c9e5605d.json": "6c5b26c3b85a12b567ca094c14110678bbaed0e8719e7d9cee26cdf11971563c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/dcae2af0fc5e0867b1187135920e221f50856b9ad57b686c5be0c8f256d5d67f.json": "a1db9dddc701a36f81a7551289d7e6e457fdd19695d313c9590f00a16625bf99",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/ddc4ee3f79548bbd35dde9fe2a2ae277066bcfe4be7d7d4c9e4a1991799da21b.json": "fbcbc3f78108ce5bce2779be3799ca74b51ef509dfcdc154eb0d74dba2258173",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/ec95472e198fed80e483636591879b1a45d105ced7cb230218e222dcc8c05d1a.json": "ef0102ce904014e02ce0d88f175cb10b25351b3fcead73a4dc367ce74bc41ba2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/episodes/f31f51aa50968bde09a69893414df52c9fd94ee0dbe6b03c95f32afa59f8ce67.json": "0e327f5221678ccea7475a379525ac78bceaf987069b05bd00443e901cd7d2bc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0000-result.json": "1f2241c2dcf928737d7a4c7af844a67d6a3433baca2665deb5b7e83962ce9bba",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0001-result.json": "db88b1a1c1f30b9df90a5e8cd4f3505c46da8e274d774f6a4043296543c2ba36",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0002-result.json": "ab199b915fcffdd488f3ec8c49ee7953d2eed2227165c45d2d6d8696d476f960",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0003-result.json": "536c3ad459094412e367f89ee7cba1ce8baf21d26a1d12c6c942abec85a004ed",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0004-result.json": "8400a2671f1f36318159d6f187ae60ba179ddee23e1e7ea97bd9f35f5871e6b6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0005-result.json": "82c586d889c3facb40b28830170f234f0cf0559909cd0e9ff2895eb0b7d7d9e1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0006-result.json": "fb74b3fdec92407ebd5f70dfba9b83dba6c986a7f24324ba6c0ea448dea546c0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0007-result.json": "97018fc615e25152d810a03920c2477de957e1054296ab5c44dc014a624d7989",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0008-result.json": "7b9933b936c2152698a6c4d8452c296e5273edf97f05b4a2d1fc045e622f033e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0009-result.json": "e868f1ddc22aaf6a2c05a3fb8ff154fbc38a77993c2a7531fe8202260234e107",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0010-result.json": "f62f25151d85341ef476317d2f6ca28d1c06f077385841da8d4e28d4658b2d46",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0011-result.json": "3e862990e1f6cc3a8b804726fa8a20ce17122f5f2eba927ac065c92543e11cfc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0012-result.json": "9a2c9fcb5daca8463b3f68dcc230737567a11f0d0a565a27b4f812f86cfba515",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0013-result.json": "4ad879edfe59a1d5f2b54e3b7b7318b192f6ca1bec7fc012ecb8d8ff9409fd24",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0014-result.json": "6dea0dc92a723a3d9a2fad1b8a4271e975073cc2dda6e844176f8beb1e24105b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0015-result.json": "df78e493687b26630e7a3ec5bc833b9c3fb2b950ae54cd63667c018f737ecd8d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0016-result.json": "4d13f33469a8f297ea2ed9c721e55f75e9e07add2abcde16a0e1da86f35bc98a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0017-result.json": "2e79006b0eba5bb860a2dcdffdc6259e0eff3fcc24d6a241a228e1ed2ffe3980",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0018-result.json": "46142478bace9c7fa2e39b9279af4bf81ba17def9a5b23b4a5e01025abb55ac3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0019-result.json": "7fd55df21ab3536da3573e8cf8f424798f6219181608d39cb0ebdd0e7dcab77a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0020-result.json": "0478c81ea904d76972773466220fb052738baa4369fa31c8e494738f68c1f98c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0021-result.json": "b63fd3a3c80bb86cf4450a518d3f54ea12ff2c9ba73f555fc37123d859ef6da4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0022-result.json": "2d7b23ed119b1c7c65c1d5343fd96cb7a827143545191942d67f583a944d25d4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0023-result.json": "e811dd7f320bfee00be5575fec3ec37068bc9f79c1ba12bb6d524d94e4c95fb2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0024-result.json": "d0cd3cc1ce53f5c54963d0246c951a8d8513f71aedc6a284fee980bd75c366ff",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0025-result.json": "20d225f2ac6645453f68f787c5f021b70246b1280c13c7d07f345ba73194d956",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0026-result.json": "76c875017d069d1d3532837cd6fe15d2c7326ab00939e17c880b96398abc64e4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0027-result.json": "f8c7b0c14ad779f3ee8db0a8738d738f6c111931e02d99a83bb22785a485fe1b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0028-result.json": "6545a947a23649591b8bc34aff6aa690f96f79d1d8c6dbbcbde3f27c301c2603",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0029-result.json": "08931f3890495f0782d6e1935a8460bc37bb5e8e362b47f3243e7d2289ddd2be",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0030-result.json": "0e4b5d105b0af4e0be94b0f5c3f0eefc6b3bb8f56ac84ae45510339febd046b5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0031-result.json": "cbec1fccd0785c0918a2c394da3f15eb84d6e031fb9dc6acf3a87eb22a153db6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0032-result.json": "f95d8e2a64f7f39b72f129b7a0419b38611fe53573fc8ba189ad0071b261cb85",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0033-result.json": "5b58ce90164df4bc754cd322fcf7c9d785728c9c09cf5a5c655fef9887297c47",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0034-result.json": "251143e8558e4c8c97463d030abcea7e1133bd4e6a3ad300b5116d1ea0f521e2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0035-result.json": "b9e32930c7defd60619852eca517accf0dba132f8c28be0614118a8155c7df37",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0036-result.json": "c7695b7474b0ad84fb80b8fe10dbcf3d4a5d68d18a0c457ee05845427ba168cc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0037-result.json": "e6e12f75d0b80345108c7976b4f3bd1b077fc6d408526efa553a32c49f9f9a01",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0038-result.json": "397c5f925afc458e3830f3e315a03283bb66665a45199801529af03dfd3b6ee7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0039-result.json": "615e28787d07defb4b5d440b594a24b1d9a3ef208c7ea010b38b22bd5d5268d7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0040-result.json": "bed57890685435c941fcb2181c30a149a20d29747a57dd2ac823336ab026dbdf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0041-result.json": "f8119844690d016eb75ccfc1eea732796b39b1fd66b50f7ebfc989b73d2f2021",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0042-result.json": "bb207075c0a4f7e366e2a5d8684a8c81ea8a1f5d5e047b6e671efb65d2293b03",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0043-result.json": "b72de24bc9e96cecd91cf34a99a571105cc5a75d822ee67e7fc4107ba09c209e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0044-result.json": "6130e9e21c7ebab096e5e4bc0a67edcce4cd30174005c978920e97776ad6ebd2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0045-result.json": "8e21b7d7b0a8eb2e73a1a1081961f9457cf27794c39aeda9c800f3b53de6fe6f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0046-result.json": "2e8ee31aa4b48501c00898377f20e5471ada12f613fd2fcc61a8cdccfb5bbd33",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0047-result.json": "910d4a69d05c2931a2c93cc20c4e8f7dbf4da8a0eb441b4a5d721e6f16883115",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0048-result.json": "19bc85dfce1e7d6fa88b5edfafad1213e34f031bb55bf8d3d8bfaeca58bea087",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0049-result.json": "6d94e85252bad388379b2d0fec21cb777db6a88c9f90322502faefa81fe55dbe",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0050-result.json": "a98f540c2d24a5e1bd34d5486ddb8df46e77107200354d563064594a74011951",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0051-result.json": "f64dcef88046a84476ab813385b8b2491c77dac6aae3fca698e84b4ff2f1eb4e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0052-result.json": "946533a995aa113e1128c2b24d6335288610c1f53c315c3bd85ea97c636c892a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0053-result.json": "c941b6df860a8e8687579d9f139ad2b26641979cc4c1051db9c1da7ba6702dec",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0054-result.json": "50da1c64e1dc0529be6dcb7333986222f569e4f5bc7451359e824f3e0af4c5be",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0055-result.json": "f18a7bbda4e5806b4ce0e12dcd59c8ba91c042f3d495e31dca353dbfffc94b54",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0056-result.json": "f310d97dbaba4ff98c17b54eedefae0c70b869eaefbe15050bbe586c4eea7c9c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0057-result.json": "e2473a2af6f663425a70e52f254dd525cc6ca1781fc258566272a26d036e9d1c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0058-result.json": "f11a7e25d6bde01513ddbbcfed5331fd38db350591b95812877712a428de11a6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0059-result.json": "8f2611f7325e987758aefbaad88946d0dfe8ddf857495fc5a70ebe8d9a0ba4c3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0060-result.json": "baad87afd5a68aa3cbee91209e59f944b0d29a815ca656d887ef2013466ca42c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0061-result.json": "d7acbf9add0b990c47c6e587a459d40c7ed4a9ed7eac0412cee2c6d46e978e7a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0062-result.json": "c693b132e3f3f167c65f2f2f75a0e29117b82f5b0784f8e6624390d7c1a6a1a2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/held-001/science/native-calls/0063-result.json": "a17821779f0d4ec439f13478e8ef8f79e08173ff8c38f84c858d58269c745039",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/080eb9500bf4f0435297ee611c58a82fcd9ef07c070f1284ceebec4f5f861ea7.json": "f975ef0b6a36b5824447a1800cf02d455058ab2fa6c6a0068b4e873e3e4e24b1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/19f4406e2702817b1ab6421af09957c5942675b55bc20c2c3f24aec12d6c302e.json": "a4b32c79a6645ad60d22635d42e5a0d4fa9b04c7538f661d40417e76746552a8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/3c6fcd9ff00619b5c6cb39fcc7f11746f3c7cbf6cbb08759c64b835c6b684cc4.json": "4b2c9a4166e443b2759981cc7ad7fee2293a83a712be2872927a27ecee6df921",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/3cb43f5a97d3ae8a49b1440b0f5d071480b7f303fcb9e94c9bf0d88170405fdc.json": "8d5da835eec83d0b537f3a8f342407219a863732e31ec20f59ba748052360a5e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/4659dde768fd767c6bac44111d526e33d65b0ff55180c78885721c670bc86dcb.json": "6b05d4920e0c45587e06791d9efb06d1cd34bc2229858fe41c83a03c43506227",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/4aea85d1ead6cad0710be32794f49e6599c3a923b8f649c010f91dfd6c9aec81.json": "9f8e1a3b884ff909602d5c0970fa727b97d54d46fddce9f250932acd23a21a91",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/4dc3e11a0ffe5c4d8d25b706064c0997aeb3ee488a3f5158b26cfdd51c6f8799.json": "f4243ccc22bf4208bcc5dcb6a889859048da66b6bf95a5dc140aa89e1ea1e8b2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/519c3e96f5fbe034a88280ad3c061f3569755247324b71e8aa4566f240264f95.json": "4033d950c493ef191574fe6043babb948cafba800b0c0f1fe02e9cfd51c9be16",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/602525839e714a97417ec3730db6ae4e72b82151ba45c840011afc9a40612457.json": "ecca1ac33f6bd2c2ffc123a445abbf895cd453117686b5957be0aefe70f012c2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/8bfed7e946c9547a07ea0ff221c911341a611918dfbc3346dc6ff4320c5895b5.json": "f948928516b67c5268f3ed94022bab055aedecce334490cf054624bb7914f6a4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/b1d81af6f53e08351af8d81771fb8b6f5be1e15f102eaeb1c22888b74912e6e8.json": "686ec98f73ddde1ed2d0f7ad45bd174c6ebd3a09c564ce62c4a1d1937058b877",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/b6f7b8c0dc11a7600eca7b5580ecd2e6df400b5be7984d985afc3df3a1f9ed6e.json": "142d6602304b85e29834dab19d797cdc0353e27c9a85c738bfc124c190327d00",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/be7f308c3a8ef31c2b26b3dc034118d06efaf28937dc94c4e473e22315ad2a71.json": "69c019b0309e48f02f54480a88addf564d25bfc88ddc9ff722c5a32e68d42c5e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/ce4432a5362267eed49965703761ffe80b50274374c0f431bc4246c50961ea7f.json": "a5bad2d6afbafb814f57432f87b282c845a38417ee92d1d24b21e1526d5e32e9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/cee82bdd5028eefcecae2c51fbcd858e613dfe08eb6e650510568b0efc2df04b.json": "bb2237383ab4640a44715ce6a1433cb9f30e0663d99265d27a0822ce217eb0e8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/episodes/d61c24ef0fbf9d8bc85152388dc1412e49ba2de80814da3c7b15872dd43943e5.json": "0aa91d019769fc0676e62b7e55e42102ae94aa2ef3f13f414aafe96e9dbae28d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0000-result.json": "07a9a632ec3b0c86440f677473660edeff4058ee7dd3a66dd9e30beac9daaea6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0001-result.json": "4e06eb1157e68c7b0a4ebd01104f30609d767c520217920901779f61a2924f62",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0002-result.json": "03b39112bc099f3a7a326e670692086821e75a8286f0c7832b23318ffffa94b9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0003-result.json": "7350aed7f8912b805173a852eb37e47e0261b69605f24b0b6d8362f531dc6110",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0004-result.json": "8f33cf7e5eebc17df472a80c2b27c8295e28e3636c9beb56e2f78a49296e0809",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0005-result.json": "d3b1a4e38eb0769e82c3098063f346bd9aa7b8f421ab81cc502e62fedb32de21",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0006-result.json": "f30a4f4a43fa69806502b91822d7fed07e3c09639a55e1b45b9f8b3965b15ac4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0007-result.json": "99030a936decb754d29f9b52f8178949c1a4697213cca26cf7f5124da4280026",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0008-result.json": "b3506ab577c98befefa327006ba6082ec61cde4222541f3efe12253788ec7ab4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0009-result.json": "3dc8dedf0c31fc73408a3fd437532bb3de5c2e3c98540d4ea6bff40147e3442f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0010-result.json": "2762d8a98f5c1bb6c37fcc31773020eb8b1e98a348d2250db50ed6a4f2797509",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0011-result.json": "6b7b5a107fcc6375a08d871e041fdd6ee0b9d3913204d7d5314dd5b4af726721",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0012-result.json": "dcb585733e202d6db0133ae70e4097a0c6cf344198fdf24badb34c66d6ff057a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0013-result.json": "17b4bb22a1968ce6bc47c7e98312fe2d88a0c80cefbb699c0f879f09dbd60c4d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0014-result.json": "6eb703085b91bf503b037d57d7e116c94c886f6bbda79a52cadc889a4dece96a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0015-result.json": "39f9ce5dff5dd7430fb650fd924cd2ec77ee1f7603fa6fd246ccc21c9c6eb680",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0016-result.json": "5f17d95836833d8317bc6054b07c06fa73498836fd08768bfb9dd3d0e7ad8b44",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0017-result.json": "a26572a7fc0103f3b344f47d59dc5e9c380bbf5f688f9f70477f45fcb4b50fa8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0018-result.json": "0fb3cafb37b624def9b09eb8e0325144033d449373336b93b539c3e485898502",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0019-result.json": "47e7086580fcfdc5c16510066da76f38b80c60047b4492f9caf40ade0dcce7e4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0020-result.json": "0f2f1f4ad3acb4ef37cf01f10985d49cf4e94b407c49e24313719bf48ee76b94",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0021-result.json": "d262d1ead184b2281e687990fef5babf49f2b551a200fe66f03b66d2c1eb26ce",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0022-result.json": "0907e9b188535503bd14b345ed2f106f501f931553d8773a82dfc9ab24f186bb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0023-result.json": "5c03e1fb1fae9c1571c79aff36f08f9c316ea04cbeaf26ac7bfef65e3c1683b4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0024-result.json": "a64a66bb31798fd8d62a2db0a1fc5bda2709063396ec36004eafe1d5f3cc3890",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0025-result.json": "308e4fd8ee3d987befa888f9dd6661f1c47eb9a43302483e5d92959a38184887",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0026-result.json": "ae3b125be8fa8279f0bd03aa2a5b9dcfb279481aec4c470a45bcd788913c5fae",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0027-result.json": "1c9ae2c49aab09836e84b5ce4dec09e62472de6fe917457ced1c45ad574e532a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0028-result.json": "650f558dd74a1dcadf126bf2853c193b656e6f7ea254e0f5540a38661723ce37",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0029-result.json": "8699b6108daa8e2f3cacb51f5850df73d8937b889172f963c1d10688549352fc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0030-result.json": "8e27705c399c727e2fe7a5b600a5ca79c7d4422d53563179bec93740640c1f87",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-eval-v1/outputs/long-001/science/native-calls/0031-result.json": "a70389dce8f8b00ffc70ebf0c2dac38036392f37db5ce06d1342e2a130f59556",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b.json": "6a8a4c37422b43713b54ed275fce62df326f221ffb492110657a2bc5172cff08",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c.json": "6cf177ddcab885a8647aec7d5c7a9f22914b5b043f1b2d6730417d9b6a0ad166",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61.json": "3ae2b2377541aff377a229fd818a7dcdd18b47628c1535e9d97e802cbd3d999f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f.json": "ba0bb59311cf6a23efb3641de51e4df070c8e6cc113a108ddb87a82e59855de2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946.json": "1cc9bd4ae4dced96f397aa9fc214aaa5ad5d4c099fa5be8598bb4fd28535592d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370.json": "a4113caeafe26cafb4a11e782ef6d8c173f3024bfe2a58c4c7d086ade126cff5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2.json": "3be36624840d3d32a360f43f75a7914e9542f5f85fa2c18134855d2d61262794",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538.json": "7122971dcd344bba5a334832c2a94c8005e2e0c99b32e5d227c68d2d98b43826",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f.json": "6ea869055a43519da0a59ed3351977656af4b4d92960f2c753fe0d879ca085aa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e.json": "2a1f58fe1644f41782f05af83a87ddf93e0ad54d40fa4ba1cec8ae13ccf810f3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b.json": "8d9f26c67f7ac45918086a8ebbed8226aa4f3c1182edb5848d7cf700c88d5fb5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012.json": "786daa359dad9795de006479af0ec81d40bb060d1ce8af6814d6607be8386ff5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf.json": "1df7bc5aef3f6b9977b2f862b63b3671b6e13230985dcae82c9c2053642c16aa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246.json": "c3acb12836d5e6ec0f9b2c088a25e68c942e928f136e9bb12dbe2d40bd02333f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831.json": "f6e3546889d993042c86273da5d5693cf25c6e292c17e24aae999a16e32e26ce",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce.json": "7292d3061b534c9e4fcb64cfe16aef25b1161baf435bc1dc7871f53232adbbe1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0000-result.json": "2712d38b87d093c7c97028f21145d6391312c8f76dffc802270e879f6fb8ed51",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0001-result.json": "78e87ee36852f70fa9db6628a5be591b93bcf60f8588d9bc726bbae1df8ce913",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0002-result.json": "a26964e50807adb80fcc13f72d54a23bb56088d7e1ceda9c12e3136a0f8968b1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0003-result.json": "250b036d82ebb789e6896994178a3f6de9122af890960a199b457b98fa259fdc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0004-result.json": "6f47bd8f1277abf26e16dd13a42a808c512a1f52cb9618b37ea6f0024fea29b2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0005-result.json": "4460f89d0d76cfa2567e2adc3d746be31cc5c6bb570333b0affe61422dc6f713",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0006-result.json": "bcf40e93a34437c87b90c38ae9b253fb433dbcfec11d9e1d35b24f6df0d3a0a2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0007-result.json": "096dbf555e10b3ae5eec8fc6a886e214bf3974701ff3880ea487e04c45fc6894",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0008-result.json": "d04aea56c217ce3b50c8dc6527d9735c314768d7fc63c7bfd6a8ad30b618189f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0009-result.json": "85799090a9ceeacf97f31f2199961e4b2f2ab240823181d23074bb541c1153dc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0010-result.json": "54106c4b49f5f5b87b9296f34afd49cfb5ca6c515713fff97e9eaf907476f71b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0011-result.json": "72a26a93a54f44587600021bd61f25a1b295819feafcbee6483929447b01ba7d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0012-result.json": "4cede81b484d0cc79ada8e29c59975aae5421a5350adf114ff75ef3e1b7863c9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0013-result.json": "78fa8485433b3f7e15bd15ca7c370b6fa42302b83e805080d8e83abc808d0a69",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0014-result.json": "46a3954bc55ee411731351ad0720cd63a3405a072c03a99eabbcc4696cd23d34",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0015-result.json": "d324344fc884da2fb62e4abd02b4793c4e49d0efc959750c1e59a2be1c8ae366",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0016-result.json": "88acb89c5d90f5ca8e61d1d81c68b2527bf0de2dcb715d435ebe73f3e43af553",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0017-result.json": "79cbd7ca54f68bb4f27e184e15f5b493a05c13382569a2a10844f0bd33f62c33",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0018-result.json": "6eb3a6d8b48e4efee9c8d4180ccfd47afc70ca535e364b6c9e73a9b67127ed29",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0019-result.json": "cafb99d3fd501651987c95df06bf2979fb08de3f5e582faf51f210f924d9fcd5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0020-result.json": "01d009421a15a3cc756f88b34a2d34f718f5d923522825bfec49124ddcffec40",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0021-result.json": "aef3e3051c606142766cdd86472072991d05b22a38539a5a004c229fa6082eef",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0022-result.json": "f3155117869cd48fcf40f22696ad4ef521f14565d96af1faf4313b3d8a840980",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0023-result.json": "692925f30ba97a2c93999b74c9e986329adcbc5bc584f081ea1709ca81c7b3db",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0024-result.json": "c4b27e081005430ddafddadeb885b53d9e5920ac054699ae3b63ccc06709fc72",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0025-result.json": "78870a78881b27a56dde890700fe2957a54a7e1f405a800fa44e6de3e6ee539c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0026-result.json": "0dc027709e3c2cfa24c21e5a93662d6a56a953b429d25d156f4f45f3bc3eae1d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0027-result.json": "7226070951646aa30dca6c41a582076ed3f384da2a2a1e91b878f08d08528e8a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0028-result.json": "a57a9d182a058390ea28ad3caf1db7017dc747a2578b78f437fe06d1ab0b5b6c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0029-result.json": "d1f980ab34e619385b0bfca5356dd546f716b8fc3e2136e43fd9ddb581cd2ac8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0030-result.json": "80380a4d61a303bb4b406b70ecb996099d76bf5c8e2ae50a525c0c018f1d46db",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/080eb9500bf4f0435297ee611c58a82fcd9ef07c070f1284ceebec4f5f861ea7.json": "97848eee6a79c6863375fb154a035614b16cc797acb36647d71027239e4ea133",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/19f4406e2702817b1ab6421af09957c5942675b55bc20c2c3f24aec12d6c302e.json": "065f71960dd0b85b90febee20b293f33debf550a0805af742492fe71ae54472b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/3c6fcd9ff00619b5c6cb39fcc7f11746f3c7cbf6cbb08759c64b835c6b684cc4.json": "16a8415216a00f6b668d1c75ae0b80d764bb77815df01ee6b5c12f9f11362f4f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/3cb43f5a97d3ae8a49b1440b0f5d071480b7f303fcb9e94c9bf0d88170405fdc.json": "8572e66cec443be6df62bf295d0ba2b258e9ee459fb81f80048a01423bccde9a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/4659dde768fd767c6bac44111d526e33d65b0ff55180c78885721c670bc86dcb.json": "149e31621e8fd6b367b36e425ecd481a038f0872a9c8167859acdddbeeea8bd6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/4aea85d1ead6cad0710be32794f49e6599c3a923b8f649c010f91dfd6c9aec81.json": "96558c48ef1a417f179bb98988541abee799740760ceb7aee9ad6c315be37d93",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/4dc3e11a0ffe5c4d8d25b706064c0997aeb3ee488a3f5158b26cfdd51c6f8799.json": "d33f3b61b419933690cc4bc526d76578b5776f58b638a701ac1cdfae9da3789a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/519c3e96f5fbe034a88280ad3c061f3569755247324b71e8aa4566f240264f95.json": "9aad91626542762087f4b657698257de9bd2fdd2378a11ff025ad8f0474215f7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/602525839e714a97417ec3730db6ae4e72b82151ba45c840011afc9a40612457.json": "a148208bddd0b08bbe5f4e74cdf13b914c34f2dc338e760ef4395156aa7f853e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/8bfed7e946c9547a07ea0ff221c911341a611918dfbc3346dc6ff4320c5895b5.json": "c6c31aa262c8608fbf21671f8a2c801723aca2e2e6bc0807cd3e48016f91c8e3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/b1d81af6f53e08351af8d81771fb8b6f5be1e15f102eaeb1c22888b74912e6e8.json": "1978817586dbf05360f164e9748a0a008237af4367ad03b4c86eb93c45112c1f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/b6f7b8c0dc11a7600eca7b5580ecd2e6df400b5be7984d985afc3df3a1f9ed6e.json": "7e320f50d4604fdeb4026317e38f4172f7bf907a6ed6351691de70f6c7178fd3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/be7f308c3a8ef31c2b26b3dc034118d06efaf28937dc94c4e473e22315ad2a71.json": "aaf66d1adfd6d1f6da8e0451faa50bcd09fa62589ad30b74bd4b89b9495335ab",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/ce4432a5362267eed49965703761ffe80b50274374c0f431bc4246c50961ea7f.json": "90f035089b39fd88e78aa5757a86bc314540de0aae890b871d54d5a3fbf4863d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/cee82bdd5028eefcecae2c51fbcd858e613dfe08eb6e650510568b0efc2df04b.json": "ff22936d836eed967abab072f863f5b27f93cbbd4554cdd0840403bdb3f8b4c4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/episodes/d61c24ef0fbf9d8bc85152388dc1412e49ba2de80814da3c7b15872dd43943e5.json": "a2537b91bc5af0d5494291b3cb75a182b413038e9c857756e79ea9fd495ab945",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0000-result.json": "63a68698e5fc739eac09b9ecb85347b2c48f89ef0dd1a4fd5a4e40482890d1c5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0001-result.json": "6a6c78c7cb09caf04cb076378974f88befcd10f346f8e4c38567d1f85ae0cb17",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0002-result.json": "7302497d5cee4f7414793d4d1c993737b9c2406b477c499fbf1b945dc6024561",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0003-result.json": "a3a9537bc906baa1bd8e4c992a3ceeb19b948f5f3d16e4db1310f990a92fdfc0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0004-result.json": "d84e2e1aae206e0226b26cad87c63eb0e9e5ed209a9c74b3beb21644dd494127",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0005-result.json": "145318f186ebf23c8ac0c9f29ed1f9f4bf25b017bf478e05848bad74d41126ec",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0006-result.json": "162af06b678c2c5a98d77723058deddefb253c49b94393022e73a268bdd1742e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0007-result.json": "62a13b89f574366c1374544e009fae8b53a9db6f0bcc834f8feed13d8bc504bd",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0008-result.json": "ce99c8647117534aa953c9d48b651f5af98a447db27ee930506367679c600610",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0009-result.json": "fd984ef805739f3a0539f558d9e2087cb0e1915c6b239c8191ba626e02a5cdaf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0010-result.json": "9caac6e621a34510f8e0e4e6e624c86a538907a4b09a75ec18dac32ae1a48bc4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0011-result.json": "4ffeede37b4393f5a456145714487001fa8353fd431ede866aef3fc46652963f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0012-result.json": "7ead4c1ca2151b250d94ee5ffdce338574233b00844c0bbf37e24c6530236fdf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0013-result.json": "df5310b0cb9d0fec795832888e2da117ce5e9daef96f6e55fb7a98776d0f1213",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0014-result.json": "c848d2363dba2a78631b5e0e0368eba3bfa4cc4db2b89e581ea5514818de04bb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0015-result.json": "c59dc0bf66e9a18ee0a2b7ece7a80c2d6f7d954f44df7012cfb29f0922216a78",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0016-result.json": "14267ad6a28216a178274c21a12e4c6cd02568ad1ae7dd2ae7e499c055d505d9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0017-result.json": "534933d781d681d23f86be5315eb9b5df85ee5d6a43b397d1b6e4f9f5624f4d8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0018-result.json": "2a57708c18bc44ad8d17305bec5edd2b2c19f7afe7ebf5dc7ec936cd8f679690",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0019-result.json": "bf761257aadc2b149ebb329696615906d8ff608ebf54fb769ea7aeefc7ef1940",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0020-result.json": "70e41d40826ceb542d0b7163b3b7f71180916c651810927a6b4917d549e51910",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0021-result.json": "1ff092e10c8dcc803f2555fe72b89889ccc7028afacf42eb6ad00aa23968db9a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0022-result.json": "800bae8b4a418687d997fc53af0352605040cb6a0bf042986c6011c720a22482",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0023-result.json": "833bdea878c2d585c5dc4d3a6ca27448dec4d4269ed04e29e96e124238d5e333",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0024-result.json": "d37744e0a1a624455e119fa521aa0b3a53dab6161e0422372f6468929564e8e6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0025-result.json": "7a5df838e9123963c0c4e51333baf2c8e1d9386e529f17e6b9c66dcbb02bb4f8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0026-result.json": "6005dd3e2d8867fb083dbaeb86d5613c2d7510f955922da260ee5f8405c41bec",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0027-result.json": "095419a88ac080bef498756b186c1af299af900078a384b2b7a2f6886cc56c09",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0028-result.json": "e36789c425995ea7d535fe43d08951af1465617630f4872709718493006890c2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0029-result.json": "bf5c5b3d763a38779f3e57092a6a568fc447609f6a9fec1516c8171fc9ad5231",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0030-result.json": "d7ee9c6c0805e69cb83e44191574d1394a218efb708f0f4ea11686a78f39b535",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/outputs/checkpoint32-002/science/native-calls/0031-result.json": "adfb17cf1d0d80a77b602ca7bc8f8b059e5cb148ea8b0cc6419c0a45de6f344c"
+  }
+}

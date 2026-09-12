@@ -1,0 +1,947 @@
+{
+  "GPU_calls": 0,
+  "active_roots": [
+    "root_9dbd5f1edf00ba",
+    "root_d3cd251c9a9448",
+    "root_1e85ada58d2088",
+    "root_82401d72e4a32c"
+  ],
+  "aggregate": {
+    "active4": {
+      "all_optimal_rows_in_spine": 4,
+      "no_feasible_targets": 0,
+      "root_sufficient_incomplete_local_winner_reports": 2,
+      "roots": 4,
+      "shortcut_exact": {
+        "first_feasible_lex_product": 1,
+        "first_lex_eligible": 1,
+        "first_source_eligible": 0,
+        "first_source_unfiltered": 0,
+        "local_capacity_quality_winner": 2,
+        "maxquality_eligible": 0,
+        "mincost_eligible": 1
+      },
+      "shortcut_feasible": {
+        "first_feasible_lex_product": 4,
+        "first_lex_eligible": 3,
+        "first_source_eligible": 3,
+        "first_source_unfiltered": 1,
+        "local_capacity_quality_winner": 3,
+        "maxquality_eligible": 2,
+        "mincost_eligible": 4
+      }
+    },
+    "reserve4": {
+      "all_optimal_rows_in_spine": 4,
+      "no_feasible_targets": 0,
+      "root_sufficient_incomplete_local_winner_reports": 0,
+      "roots": 4,
+      "shortcut_exact": {
+        "first_feasible_lex_product": 0,
+        "first_lex_eligible": 0,
+        "first_source_eligible": 1,
+        "first_source_unfiltered": 1,
+        "local_capacity_quality_winner": 0,
+        "maxquality_eligible": 0,
+        "mincost_eligible": 0
+      },
+      "shortcut_feasible": {
+        "first_feasible_lex_product": 4,
+        "first_lex_eligible": 2,
+        "first_source_eligible": 1,
+        "first_source_unfiltered": 1,
+        "local_capacity_quality_winner": 1,
+        "maxquality_eligible": 0,
+        "mincost_eligible": 4
+      }
+    }
+  },
+  "all_recombination_roots_use_distinct_synthesis_seeds": true,
+  "all_synthesis_prompts_retain_full_source_tables": true,
+  "control_scope": "Local eligibility/arithmetic is solved exactly from public source before eligible-row heuristics; these isolate root selection shortcuts, not model performance or whole-task difficulty.",
+  "independence_scope": "Candidate two solver implementations plus reviewed third combiner reexecuted, and a separate Cartesian witness/constraint enumeration in this audit; not independent model evaluation.",
+  "input_files_unchanged": true,
+  "model_calls": 0,
+  "reserve_not_selected_from_outcomes": true,
+  "roots": [
+    {
+      "active": true,
+      "dual_child_root_solvers_and_third_combiner_agree": true,
+      "eligible_counts": [
+        3,
+        2,
+        3
+      ],
+      "exact_root_sha256": "6edd9622f0e511ccb98c43241365dabb01f6a77f35c49164df72556c6418fae8",
+      "feasible_triples": 12,
+      "guaranteed_spine_feasible_triples": 8,
+      "independently_enumerated_optimum_agrees": true,
+      "local_winner_singletons": {
+        "child_grades": [
+          "valid_but_wrong",
+          "valid_but_wrong",
+          "valid_but_wrong"
+        ],
+        "root_sufficient": false
+      },
+      "omission_grade_boundary": [
+        {
+          "child_index": 0,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 1,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 2,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        }
+      ],
+      "opaque_ID_renaming_optimum_equivariant": true,
+      "optimum_rows_in_planted_spine": [
+        true,
+        true,
+        true
+      ],
+      "root_id": "root_9dbd5f1edf00ba",
+      "root_sha256": "d731d5ccb76bd084d33e41f6b1ff104e9b9095c9efae4fad2af3f25ed4364459",
+      "shortcuts": {
+        "first_feasible_lex_product": {
+          "exact": true,
+          "feasible": true
+        },
+        "first_lex_eligible": {
+          "exact": true,
+          "feasible": true,
+          "selection_sha256": "d1f69c6b6c4583a1d078f1d3225ddae323a59e6ae232d3ec7bb25e70cec86394",
+          "violations": []
+        },
+        "first_source_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "f98fc6748130a028458474f737e3f687381477c8fcfbb68beedcaf9741904102",
+          "violations": []
+        },
+        "first_source_unfiltered": {
+          "exact": false,
+          "feasible": false,
+          "reason": "a first source row is locally ineligible"
+        },
+        "local_capacity_quality_winner": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "66b2061a949027ea035a510c4bd4f9d05c7d96147755a3a196e519f85fa4030f",
+          "violations": []
+        },
+        "maxquality_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "1d181e43f8c1aab69c066696a4a49f38a2d4b3f24da7fef4610daec75bae5f4d",
+          "violations": [
+            "formats",
+            "cost",
+            "latency",
+            "capacity"
+          ]
+        },
+        "mincost_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "f09e523bd8590952c937cf4927243e03f3cc5608ec34e57ef6412ae6971b3497",
+          "violations": []
+        }
+      },
+      "source_table_reversal_semantics_invariant": true,
+      "top_numeric_objective_ties": 1,
+      "topology": "chain",
+      "triples": 18
+    },
+    {
+      "active": true,
+      "dual_child_root_solvers_and_third_combiner_agree": true,
+      "eligible_counts": [
+        2,
+        3,
+        3
+      ],
+      "exact_root_sha256": "d067288287acc308de51dcc7743b04bf694476dd9c46bb953d05a4e2e334eba2",
+      "feasible_triples": 8,
+      "guaranteed_spine_feasible_triples": 8,
+      "independently_enumerated_optimum_agrees": true,
+      "local_winner_singletons": {
+        "child_grades": [
+          "valid_but_wrong",
+          "valid_but_wrong",
+          "valid_but_wrong"
+        ],
+        "root_sufficient": true
+      },
+      "omission_grade_boundary": [
+        {
+          "child_index": 0,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 1,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 2,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        }
+      ],
+      "opaque_ID_renaming_optimum_equivariant": true,
+      "optimum_rows_in_planted_spine": [
+        true,
+        true,
+        true
+      ],
+      "root_id": "root_d3cd251c9a9448",
+      "root_sha256": "ef3f7b185eaae2a320fdc5bd496dc9d23c176697cf3f9799fd646d7122aa7b28",
+      "shortcuts": {
+        "first_feasible_lex_product": {
+          "exact": false,
+          "feasible": true
+        },
+        "first_lex_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "5d09b4636608add452f799057c753366dc7e0f2103c70fe66d6254232dc6db2a",
+          "violations": []
+        },
+        "first_source_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "507fdb15b79ddb3e240f809cf5a42857f8bc7662820534cc32a069166b5b0042",
+          "violations": []
+        },
+        "first_source_unfiltered": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "507fdb15b79ddb3e240f809cf5a42857f8bc7662820534cc32a069166b5b0042",
+          "violations": []
+        },
+        "local_capacity_quality_winner": {
+          "exact": true,
+          "feasible": true,
+          "selection_sha256": "e9c1b7ad56e5adc164ee71397b469ebe02f1c89a840b093a31e67b6b6d3626b7",
+          "violations": []
+        },
+        "maxquality_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "5d09b4636608add452f799057c753366dc7e0f2103c70fe66d6254232dc6db2a",
+          "violations": []
+        },
+        "mincost_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "96372bcbc1befa8583da4d57768b619e827aa4d474227eeaa35fd5c60d8673f3",
+          "violations": []
+        }
+      },
+      "source_table_reversal_semantics_invariant": true,
+      "top_numeric_objective_ties": 1,
+      "topology": "chain",
+      "triples": 18
+    },
+    {
+      "active": false,
+      "dual_child_root_solvers_and_third_combiner_agree": true,
+      "eligible_counts": [
+        2,
+        3,
+        2
+      ],
+      "exact_root_sha256": "305aa4611acd6f3e8d8c620686cae3e4d854c146306e44b724b2637d34ad6931",
+      "feasible_triples": 8,
+      "guaranteed_spine_feasible_triples": 8,
+      "independently_enumerated_optimum_agrees": true,
+      "local_winner_singletons": {
+        "child_grades": [
+          "valid_but_wrong",
+          "valid_but_wrong",
+          "valid_but_wrong"
+        ],
+        "root_sufficient": false
+      },
+      "omission_grade_boundary": [
+        {
+          "child_index": 0,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 1,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 2,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        }
+      ],
+      "opaque_ID_renaming_optimum_equivariant": true,
+      "optimum_rows_in_planted_spine": [
+        true,
+        true,
+        true
+      ],
+      "root_id": "root_e51ff772da44f5",
+      "root_sha256": "73c7d2bfa2ba11a2ecd9c8f4c38a36633a7526da2dd8b6385b8d3fe00dff58a0",
+      "shortcuts": {
+        "first_feasible_lex_product": {
+          "exact": false,
+          "feasible": true
+        },
+        "first_lex_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "fc0c97054508af3f4e07204e2c2732a412f95680bb8754f688d7018b8496221b",
+          "violations": [
+            "cost"
+          ]
+        },
+        "first_source_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "7524be56debe999ce6f6b60d6e549d8e964f91e9ed7f115276dbff84869243e7",
+          "violations": [
+            "cost"
+          ]
+        },
+        "first_source_unfiltered": {
+          "exact": false,
+          "feasible": false,
+          "reason": "a first source row is locally ineligible"
+        },
+        "local_capacity_quality_winner": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "7524be56debe999ce6f6b60d6e549d8e964f91e9ed7f115276dbff84869243e7",
+          "violations": [
+            "cost"
+          ]
+        },
+        "maxquality_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "7524be56debe999ce6f6b60d6e549d8e964f91e9ed7f115276dbff84869243e7",
+          "violations": [
+            "cost"
+          ]
+        },
+        "mincost_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "53be69be4bce5b33e8c776aae9a21aa0d35a5f8ff306f57d0a0a26879e929746",
+          "violations": []
+        }
+      },
+      "source_table_reversal_semantics_invariant": true,
+      "top_numeric_objective_ties": 1,
+      "topology": "chain",
+      "triples": 12
+    },
+    {
+      "active": false,
+      "dual_child_root_solvers_and_third_combiner_agree": true,
+      "eligible_counts": [
+        3,
+        2,
+        3
+      ],
+      "exact_root_sha256": "48a99b691abd538483d98d8661f14b0e6f63460f0c85912d4b4aa9e346311581",
+      "feasible_triples": 8,
+      "guaranteed_spine_feasible_triples": 8,
+      "independently_enumerated_optimum_agrees": true,
+      "local_winner_singletons": {
+        "child_grades": [
+          "valid_but_wrong",
+          "valid_but_wrong",
+          "valid_but_wrong"
+        ],
+        "root_sufficient": false
+      },
+      "omission_grade_boundary": [
+        {
+          "child_index": 0,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 1,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 2,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        }
+      ],
+      "opaque_ID_renaming_optimum_equivariant": true,
+      "optimum_rows_in_planted_spine": [
+        true,
+        true,
+        true
+      ],
+      "root_id": "root_645da009d34279",
+      "root_sha256": "2298b7f610094329606c764c999264de69e9599840558280c4d16fd22ea24cea",
+      "shortcuts": {
+        "first_feasible_lex_product": {
+          "exact": false,
+          "feasible": true
+        },
+        "first_lex_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "b57fa422f3cf5b6259114e38307f3eece31bc5b7ccba6ec8a9f865ca4a993872",
+          "violations": []
+        },
+        "first_source_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "54a2650aa4a722e3538dff41aa58a8e594b9d6a47f0d4eb8bf568ce2b6bab80b",
+          "violations": [
+            "formats",
+            "cost",
+            "latency",
+            "capacity"
+          ]
+        },
+        "first_source_unfiltered": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "54a2650aa4a722e3538dff41aa58a8e594b9d6a47f0d4eb8bf568ce2b6bab80b",
+          "violations": [
+            "formats",
+            "cost",
+            "latency",
+            "capacity"
+          ]
+        },
+        "local_capacity_quality_winner": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "aa8bccfb08c634d444d9bcc92be894b67cc814b63adc0ad2c5f5afc9aa9232aa",
+          "violations": []
+        },
+        "maxquality_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "54a2650aa4a722e3538dff41aa58a8e594b9d6a47f0d4eb8bf568ce2b6bab80b",
+          "violations": [
+            "formats",
+            "cost",
+            "latency",
+            "capacity"
+          ]
+        },
+        "mincost_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "95ba877c364a7a4d083a68b5d30f9fd3afd9dfe490dad6ef9bc62ec22fd1e132",
+          "violations": []
+        }
+      },
+      "source_table_reversal_semantics_invariant": true,
+      "top_numeric_objective_ties": 1,
+      "topology": "chain",
+      "triples": 18
+    },
+    {
+      "active": true,
+      "dual_child_root_solvers_and_third_combiner_agree": true,
+      "eligible_counts": [
+        3,
+        2,
+        3
+      ],
+      "exact_root_sha256": "99655668f46f06eb82f1749bbef31c066e87a620f6b169a1a7ae35bed49983fe",
+      "feasible_triples": 8,
+      "guaranteed_spine_feasible_triples": 8,
+      "independently_enumerated_optimum_agrees": true,
+      "local_winner_singletons": {
+        "child_grades": [
+          "valid_but_wrong",
+          "valid_but_wrong",
+          "valid_but_wrong"
+        ],
+        "root_sufficient": true
+      },
+      "omission_grade_boundary": [
+        {
+          "child_index": 0,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 1,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 2,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        }
+      ],
+      "opaque_ID_renaming_optimum_equivariant": true,
+      "optimum_rows_in_planted_spine": [
+        true,
+        true,
+        true
+      ],
+      "root_id": "root_1e85ada58d2088",
+      "root_sha256": "cf83fbc747cd564ff767008a501d18e8550682f06449d97cddb7cf94f1c52b0a",
+      "shortcuts": {
+        "first_feasible_lex_product": {
+          "exact": false,
+          "feasible": true
+        },
+        "first_lex_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "a33d33b80c7a28a7b12ff00729e2f7dc4d5b52a930b7c064fedb734e17e22367",
+          "violations": [
+            "latency",
+            "features"
+          ]
+        },
+        "first_source_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "9f3ceb9a16dab187bf3980fa4001d9fd7e3f47bdc364d87dee7e7c59d9d284a3",
+          "violations": [
+            "formats",
+            "cost",
+            "latency",
+            "features"
+          ]
+        },
+        "first_source_unfiltered": {
+          "exact": false,
+          "feasible": false,
+          "reason": "a first source row is locally ineligible"
+        },
+        "local_capacity_quality_winner": {
+          "exact": true,
+          "feasible": true,
+          "selection_sha256": "0177cc1a96d710325396e72b421445e904f844845b452cb9afca688abf3f6f79",
+          "violations": []
+        },
+        "maxquality_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "837544e76a61ae646ff08d440f806677548be0e03b5ed12aacbbd4a827e9c380",
+          "violations": []
+        },
+        "mincost_eligible": {
+          "exact": true,
+          "feasible": true,
+          "selection_sha256": "0177cc1a96d710325396e72b421445e904f844845b452cb9afca688abf3f6f79",
+          "violations": []
+        }
+      },
+      "source_table_reversal_semantics_invariant": true,
+      "top_numeric_objective_ties": 1,
+      "topology": "hub",
+      "triples": 18
+    },
+    {
+      "active": true,
+      "dual_child_root_solvers_and_third_combiner_agree": true,
+      "eligible_counts": [
+        3,
+        2,
+        3
+      ],
+      "exact_root_sha256": "a5433e3305e6652e8b902a1e18095ef5802fdc87c5ef59959daccc7d2d1cd90f",
+      "feasible_triples": 8,
+      "guaranteed_spine_feasible_triples": 8,
+      "independently_enumerated_optimum_agrees": true,
+      "local_winner_singletons": {
+        "child_grades": [
+          "valid_but_wrong",
+          "valid_but_wrong",
+          "valid_but_wrong"
+        ],
+        "root_sufficient": false
+      },
+      "omission_grade_boundary": [
+        {
+          "child_index": 0,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 1,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 2,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        }
+      ],
+      "opaque_ID_renaming_optimum_equivariant": true,
+      "optimum_rows_in_planted_spine": [
+        true,
+        true,
+        true
+      ],
+      "root_id": "root_82401d72e4a32c",
+      "root_sha256": "fde22a3c8cea4cb7759d0a3ed0e0c9b9f9abeab92413ab0aeb7ae5519e4ac36f",
+      "shortcuts": {
+        "first_feasible_lex_product": {
+          "exact": false,
+          "feasible": true
+        },
+        "first_lex_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "ef361bcca6f10bee02c4894f97a621718cc1a372fd00e4d209b3f2fb41e6b21c",
+          "violations": []
+        },
+        "first_source_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "c9eb1fe0b21d2a82f0d2f8ef31f6b49a4a4b4731c72fa17c61272c3c736a1718",
+          "violations": []
+        },
+        "first_source_unfiltered": {
+          "exact": false,
+          "feasible": false,
+          "reason": "a first source row is locally ineligible"
+        },
+        "local_capacity_quality_winner": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "3b964ab008191cff8f1c3b748d44f91213a9b46db347fc9a32c08ca6b73957a0",
+          "violations": [
+            "formats",
+            "cost"
+          ]
+        },
+        "maxquality_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "3b964ab008191cff8f1c3b748d44f91213a9b46db347fc9a32c08ca6b73957a0",
+          "violations": [
+            "formats",
+            "cost"
+          ]
+        },
+        "mincost_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "d35a32b97d394b696b63a2fff89c99281516258a3af52c398c10f1c5d466eb38",
+          "violations": []
+        }
+      },
+      "source_table_reversal_semantics_invariant": true,
+      "top_numeric_objective_ties": 1,
+      "topology": "hub",
+      "triples": 18
+    },
+    {
+      "active": false,
+      "dual_child_root_solvers_and_third_combiner_agree": true,
+      "eligible_counts": [
+        3,
+        3,
+        3
+      ],
+      "exact_root_sha256": "fc170540892ed1c59bdd9eeb84f61859e493a889042b18d556300832cc2f5903",
+      "feasible_triples": 8,
+      "guaranteed_spine_feasible_triples": 8,
+      "independently_enumerated_optimum_agrees": true,
+      "local_winner_singletons": {
+        "child_grades": [
+          "valid_but_wrong",
+          "valid_but_wrong",
+          "valid_but_wrong"
+        ],
+        "root_sufficient": false
+      },
+      "omission_grade_boundary": [
+        {
+          "child_index": 0,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 1,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 2,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        }
+      ],
+      "opaque_ID_renaming_optimum_equivariant": true,
+      "optimum_rows_in_planted_spine": [
+        true,
+        true,
+        true
+      ],
+      "root_id": "root_2e5b607d043cb9",
+      "root_sha256": "792e26e77c5fa6756e970de466c13673c307f562391d35570a3247f23cb854b0",
+      "shortcuts": {
+        "first_feasible_lex_product": {
+          "exact": false,
+          "feasible": true
+        },
+        "first_lex_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "9c298bb6c83b6277542a48ce86add701e647824a8380e4c76adf698c06c38178",
+          "violations": [
+            "formats",
+            "cost",
+            "latency"
+          ]
+        },
+        "first_source_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "9383ffab65fba900142ca82ebd9a727a470932837d8fb4cd7d54b65921a7d568",
+          "violations": [
+            "formats",
+            "cost",
+            "latency"
+          ]
+        },
+        "first_source_unfiltered": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "9383ffab65fba900142ca82ebd9a727a470932837d8fb4cd7d54b65921a7d568",
+          "violations": [
+            "formats",
+            "cost",
+            "latency"
+          ]
+        },
+        "local_capacity_quality_winner": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "d9d488dc72c64592fd0539826527c68859c8b0e93dd11f6143c96a3563680000",
+          "violations": [
+            "formats",
+            "cost",
+            "latency"
+          ]
+        },
+        "maxquality_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "9383ffab65fba900142ca82ebd9a727a470932837d8fb4cd7d54b65921a7d568",
+          "violations": [
+            "formats",
+            "cost",
+            "latency"
+          ]
+        },
+        "mincost_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "76cde9d0e1d0e8ea4793b0bad69e986507df62b93e8d1864e54ca539086e56c1",
+          "violations": []
+        }
+      },
+      "source_table_reversal_semantics_invariant": true,
+      "top_numeric_objective_ties": 1,
+      "topology": "hub",
+      "triples": 27
+    },
+    {
+      "active": false,
+      "dual_child_root_solvers_and_third_combiner_agree": true,
+      "eligible_counts": [
+        3,
+        2,
+        3
+      ],
+      "exact_root_sha256": "5a45c3a8b75726d1e9aa4ecdfae7b03561287876019998fe6b1a54f53fb5c084",
+      "feasible_triples": 8,
+      "guaranteed_spine_feasible_triples": 8,
+      "independently_enumerated_optimum_agrees": true,
+      "local_winner_singletons": {
+        "child_grades": [
+          "valid_but_wrong",
+          "valid_but_wrong",
+          "valid_but_wrong"
+        ],
+        "root_sufficient": false
+      },
+      "omission_grade_boundary": [
+        {
+          "child_index": 0,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 1,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        },
+        {
+          "child_index": 2,
+          "child_status": "valid_but_wrong",
+          "implied_target_changes": true,
+          "source_gold_grade": "correct",
+          "source_gold_grade_against_wrong_reports": "invalid_claim"
+        }
+      ],
+      "opaque_ID_renaming_optimum_equivariant": true,
+      "optimum_rows_in_planted_spine": [
+        true,
+        true,
+        true
+      ],
+      "root_id": "root_760be812b25526",
+      "root_sha256": "948b7db9a069a1071d5815aff80bf3f882cf78995a4f09820c322db762531e70",
+      "shortcuts": {
+        "first_feasible_lex_product": {
+          "exact": false,
+          "feasible": true
+        },
+        "first_lex_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "6ec6adf64606f8349316d206bdedc2e477012361e757ff2035026f6d7e590f95",
+          "violations": []
+        },
+        "first_source_eligible": {
+          "exact": true,
+          "feasible": true,
+          "selection_sha256": "bef2b34d4ca74777157d8b17928dc9c3c5f8ded2e6248888169d2a1ed0ac418b",
+          "violations": []
+        },
+        "first_source_unfiltered": {
+          "exact": true,
+          "feasible": true,
+          "selection_sha256": "bef2b34d4ca74777157d8b17928dc9c3c5f8ded2e6248888169d2a1ed0ac418b",
+          "violations": []
+        },
+        "local_capacity_quality_winner": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "2f72b4a05920f7b274b181853c564f8a7068d2c3bab7071ec1b026da15a684d3",
+          "violations": [
+            "formats",
+            "cost",
+            "latency"
+          ]
+        },
+        "maxquality_eligible": {
+          "exact": false,
+          "feasible": false,
+          "selection_sha256": "2f72b4a05920f7b274b181853c564f8a7068d2c3bab7071ec1b026da15a684d3",
+          "violations": [
+            "formats",
+            "cost",
+            "latency"
+          ]
+        },
+        "mincost_eligible": {
+          "exact": false,
+          "feasible": true,
+          "selection_sha256": "0a62409e9c5b462a403ff04a782d7335f930dc3f889e6e3a298c3704d118b627",
+          "violations": []
+        }
+      },
+      "source_table_reversal_semantics_invariant": true,
+      "top_numeric_objective_ties": 1,
+      "topology": "hub",
+      "triples": 18
+    }
+  ],
+  "schema": "b05-independent-shortcut-and-grading-audit-v1",
+  "source_sha256": {
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/FAMILY.md": "3efae9f9fce94cdeb0b2688ff591826a8be1cae52edaae20e0ac97ad0a32cf2f",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/MODEL_VISIBLE_SCHEMA.md": "d4590066cab5a9374f15753b837791112c7a58fade486dff29bce6948ac6f8ab",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/artifacts/package_manifest.json": "d975b5acd84d2a8323694f6935cc23d3a3cf05309982e1bbf343c105a0887997",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/metadata.json": "e3ffe53fa6cbf57fa234f67e98d0041b6e9bda6f2d1f4b1bdd19245e5233491c",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/__init__.py": "13f15d61b90fb225ab9ed354e2b34510acf0ef3fe21c2bb0c1ea6c9405760adb",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/audits.py": "26af5ce083d560e0ebedd988976530886d46ce7f89b110eb3d852c79405c8dc4",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/canonical.py": "77c4c6d03c91611bdb208810ae79b6b55452f717144eb761957ec44436560dfc",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/claims.py": "9f073537e657fa24d160d782cf4ca02a0cf954822bffb3d8758d1d88a8a3a6b2",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/combiner.py": "2a326f3795203dfd4dde458cb7a61dfe8c4bf3a4f8d0ddf7b4a6c11a650302ef",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/constants.py": "27e03c2421d1dc4770342ea46061638cca8ad813d6d37936ea04a2966cecfd98",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/errors.py": "399baeda46749c7f112065ec20de3e947e3aa92a37b10efa75e5ada2a2ac9f3f",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/exceptions.py": "039e7c840c078c92ac388444cecc57529df2a2eb7a114ad358548c4bbbd16ba1",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/generator.py": "6a99319ee1ce129ef603d1f46d2f9b682ff0290f134c641b497537eaba0171fb",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/grading.py": "539cf5915fad72650ea87f43cc9fe0b7c56c25719925fcad052a498b30959c0b",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/records.py": "32514266a41e142762b11856011d6f65b40fd2d76971af1f94a11930fe0fa2a7",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/render.py": "5f73d5e596d1e980054576a6efd06ffa980a5056ad19d41e64c2d057fba228df",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/solver_independent.py": "23789e4994fd0860161cece85eae6934dfda9479a39892994b1378e4e54087d7",
+    "/project/alex_phd/repos/structured-decomposition-benchmark/data/candidates/sol-generator-tournament-v1/builders/05-program-dataflow-database/src/etl_catalog/solver_reference.py": "2806347b4a8c6fdad638690cf7917420840e237e7f32bf1093fe2f799d733464",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-recombination-admission-independent-2026-09-12/audit.py": "1f3212ba9c91b920f072a2c245a2ef4a37b55f48675cb0f46fd9be5a96909c38",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-recombination-feasibility-v1/CPU_READY.json": "0082940fcb7faf36240abd8f915d5466347363a6b0dc2c886649d259cc18e6b6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-recombination-feasibility-v1/MANIFEST.json": "4443914d2d1242fb7020f1340db42813974ca061ce0707013bdf89230a0d4d1b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-recombination-feasibility-v1/PLAN.json": "6677bd26f87fdc761b3d9d429864893966a6590bf20145d8545ca2cd592c88b5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-recombination-feasibility-v1/SOURCE_RECEIPT.json": "dada3f4878945d34bbe08027b35051c30e80ee4c4be39d827b5a84ee01fd404e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-recombination-feasibility-v1/TOKEN_AUDIT.json": "a8a45e45af9dee8217da2a80348bfe0554cddd3dd975fcae617bb7383d31a83e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-recombination-feasibility-v1/host/HOST.json": "a05599388b5e8aff058441766afe349d6e51f580a684406c9a804691f40ac08d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-recombination-feasibility-v1/inputs/PUBLIC.json": "87f70811cc3e4e5ec1a09c4ca6121c2277936798aa6fb47c5075d1633631f0ae"
+  }
+}

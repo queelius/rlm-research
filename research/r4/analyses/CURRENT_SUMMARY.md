@@ -1,5 +1,21 @@
 # What we know so far
 
+## Current update — September 12, 22:55 UTC
+
+Fresh8 final-only RLOO: short25→25/32, long10→10/16, third/fourth10→11/16;
+64/64 available,59 identical complete native paths. Sole exact win restores
+two spaces. Distinct cases gain/lose valid tool generation without changing
+exactness. No robust RL gain. Original-training readout32 now runs to diagnose
+local behavioral fit; conditional10x single-step preparation is not admitted.
+
+Generic literal-inspection instruction:7→4/32, clean24→18, no inspect-then-use
+action in32; completion tokens+29.4%. Retire this condition, not learnable
+inspection. B05 source-visible pilot44 actual returns/20 unsupported; missing
+dispatch qualification and omitted required status in root prompt compromise
+interpretation. Preserve original grades, repair before model capability claims.
+CPU serving precision audit finds perturbation, not erasure, of actual RL updates.
+Detailed evidence in NOW.md and the dated analyses; historical entries follow.
+
 ## Current update — September 12, 22:16 UTC
 
 The fixed-baseline final-token RL gain failed its fresh-seed check: first
