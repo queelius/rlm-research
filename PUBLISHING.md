@@ -14,8 +14,11 @@ store remains authoritative for raw run outputs.
 
 ## Size budget
 
-- Publication limit: **5 MiB per file** and **50 MiB total exported content** for
-  this initial snapshot. These are our stricter local budgets, not GitHub limits.
+- Publication limit: **5 MiB per file** and **64 MiB total exported content**.
+  The original 50 MiB budget was extended on September 12 to retain completed
+  replication and transfer evidence without deleting earlier research. These
+  are our stricter local budgets, not GitHub limits. Model weights, environments
+  and bulk data remain excluded.
 - Keep Git history small; review history size before each refresh. Repeated small
   snapshots still accumulate history. Revisit storage before history reaches 250 MiB.
 - GitHub blocks ordinary Git files larger than 100 MiB and warns above 50 MiB.

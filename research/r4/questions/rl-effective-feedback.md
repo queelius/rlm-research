@@ -2,9 +2,9 @@
 schema_version: "rlm-question-card-v1"
 id: "rq:rl-effective-feedback"
 title: "Can an RLM learn from its own attempts, and which errors obscure that signal?"
-status: "small_controller_rl_signal_requires_replication"
-updated_utc: "2026-09-12T21:37:00Z"
-evidence_cutoff: "2026-09-12T21:35:00Z"
+status: "fixed_baseline_gain_did_not_replicate_fresh_contrast_readout_pending"
+updated_utc: "2026-09-12T22:16:00Z"
+evidence_cutoff: "2026-09-12T22:16:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -12,6 +12,7 @@ catalog_boundary: "New post-meeting question; the old catalog does not contain t
 related_questions: ["rq:controller", "rq:authenticated-calculation-reward", "rq:counterfactual-credit", "rq:adaptive-decomposition"]
 claim_ids: []
 reports:
+  - "../analyses/openai-mrcr-fixed-rl-decode-replica-2026-09-12/REPORT.md"
   - "../analyses/openai-mrcr-fixed-baseline-rl-paired-2026-09-12/readout-002.md"
   - "../analyses/openai-mrcr-cp32-fixed-baseline-rl-update-audit-2026-09-12/REPORT.md"
   - "../analyses/root-qs6-ag-live-helper-transfer-mechanism-2026-09-12/REPORT.md"
@@ -25,6 +26,28 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Can we turn the model's own attempts into useful learning?
+
+## Decision update — September 12, 22:16 UTC
+
+The fixed-baseline gain did not replicate: the new paired decoding block
+scored25/32 atcp32 and22/32 afterRL,0wins3losses,allavailable. Earlier23→25
+remains a real but inconsistent result, not a checkpoint-selection opportunity.
+All three new losses add finalLF after unchanged correct programs and stdout.
+Five full token paths changed;27 were identical. Two affected context units
+account for the three losses. No generalized RL success claim is justified.
+
+The fresh8 screen yielded7/32 exact,24 clean retrievals,17 copying errors,
+8 literal-selector failures and3 mixed groups. One final-only RLOO update
+completed fromcp32, using12 nonzero finals and20 exactzero rows retained in
+the32 denominator. The update took33.24s and deltaL2 .04046. Its preclip
+gradient norm24.309 is not directly comparable to saved postclip gradients.
+Short32/long16/fourneedle16 evaluation is fixed and accepted regardlessscore.
+Both source batch and reward baseline differ from the previous recipe.
+
+Prioritize informative, verifiable choices rather than merely increasing
+update size. The all-zero email groups cannot teach literal selection through
+group-relative terminal reward. A generic input-inspection instruction is
+currently being tested; a separate compositional-task pilot is in CPU design.
 
 ## Decision update — September 12, 21:37 UTC
 

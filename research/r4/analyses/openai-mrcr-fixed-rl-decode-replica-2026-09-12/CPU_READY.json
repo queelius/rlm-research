@@ -1,0 +1,17 @@
+{
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fixed-baseline-rl-paired-2026-09-12/READY.json": "865df0f472c50d5817c65a0f90cfde44ffe7066a0b48cbfbd32d529b813cee23",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fixed-rl-decode-replica-2026-09-12/CPU_TESTS.json": "394667da3fb026423108c67a7386dbd68cd260613b11fed191e8c286d1adb7a8",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fixed-rl-decode-replica-2026-09-12/RUNBOOK.md": "9ee9992bbcf9f98235147377c6a0c9e7a740ade6c3887398b4bbb361153ad4a8",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fixed-rl-decode-replica-2026-09-12/analyze.py": "6e0dca0b7058b6649695afc17f07d0f5691b5808eada779e1d29df37dad0991f",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fixed-rl-decode-replica-2026-09-12/prepare.py": "c46b9f4960e354f70751531b4d07e255314f12ebf85433e6b5f4cd40bea54ea3",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fixed-rl-decode-replica-2026-09-12/test_analyze.py": "6317c52f1d7d8e65a2f4376c8c223ab3b691dc6fb922483df7b848e59d151ed0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/READY.json": "25d86737b647d1e78815b3b45f6127ff454fad0ba2803acc5a2e5181b967e971"
+  },
+  "created_epoch": 1789250566.9100556,
+  "main_owns_execution": true,
+  "native_or_model_calls": 0,
+  "polling": false,
+  "reused_audit": "Exact reviewed stage function with only arm directory projection; rawdecode/mapping/score/cost code unchanged",
+  "schema": "fixed-rl-decode-replica-analysis-ready-v1"
+}

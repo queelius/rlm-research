@@ -1,0 +1,15 @@
+{
+  "schema": "fresh8-rloo-three-panel-input-test-receipt-v1",
+  "command": ["env", "CUDA_VISIBLE_DEVICES=", "PYTHONDONTWRITEBYTECODE=1", "/project/alex_phd/envs/prime-rl-5990b1b/bin/python", "-m", "pytest", "-q", "-p", "no:cacheprovider", "test_eval.py"],
+  "returncode": 0,
+  "stdout": ".. [100%]\n2 passed in 5.21s\n",
+  "original_red": "Two tests failed before study.py existed.",
+  "actual_environment_constructor_count": 3,
+  "actual_task_setup_count": 64,
+  "all_context_bytes_match_document_sha256": true,
+  "actual_native_model_context_sampling_tested": true,
+  "replay_inventory_fixture_uses_actual_32_training_inputs": true,
+  "missing_nonzero_and_credited_zero_rejected": true,
+  "actual_checkpoint_qualification": "PENDING: performed only by final prepare.py seal",
+  "GPU_calls": 0
+}

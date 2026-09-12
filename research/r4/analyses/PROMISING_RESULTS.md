@@ -1,5 +1,28 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 22:16 UTC
+
+Downgrade the first fixed-baseline RL gain: the fresh paired seed block is
+25→22/32, with three losses and no gains, reversing the earlier23→25. The
+losses add model-generated final line breaks after correct retrieval. This
+one-step recipe is not a replicated improvement. Fresh mixed-group RLOO
+training completed; its accuracy evaluation is pending, not yet a new finding.
+
+Promote narrow occurrence-position transfer: supervised first/second-request
+training extends to third/fourth requests, base0→trained10/16, five gains in
+each position, all outcomes available. Correct selections13/16 leave three
+missing-space copies; other failures are two literal selectors and one token
+exhaustion. The additive native audit verifies83 calls and32 derived traces.
+Combine this with longer-input transfer as a baseline capability result, not
+as evidence of new-task generality, learned recursion or algorithmic novelty.
+
+The cheaper concise-answer instruction matches the quoted helper's5/12 total
+with different wins and less generation. Neither demonstrates recovered facts
+or better relation composition. A promising publication direction remains a
+measured intervention at a specific information/decision bottleneck that works
+on new tasks. A verifiable intermediate-report/join pilot is being prepared to
+move beyond exact-copy reward and generic helper additions.
+
 ## Decision update — September 12, 21:35 UTC
 
 Tentatively promote the first fixed-baseline final-token reward update for

@@ -1,0 +1,19 @@
+{
+  "authority": "MAIN",
+  "baseline_policy": "Qualified new replica cp32/fixedRL short controls and existing long/fourneedle cp32; source batch AND baseline differ versus fixedRL",
+  "checkpoint_policy": "One fixed already completed cp1; persist each native return/episode; no outcome gate or further optimizer",
+  "epoch": 1789251324.364685,
+  "metrics": "Raw exact, availability, clean retrieval, final failure categories, paired context outcomes and physical native usage",
+  "phases": [
+    "held",
+    "long",
+    "fourneedle"
+  ],
+  "question": "Does a final-only RLOO step using fresh mixed-reward groups improve delivery across short, longer and higher-ordinal contexts?",
+  "ready_identity": "9cbe429e0568bb32acf71489aaf314341ead955218790706686e9d5bdabf343a",
+  "ready_sha256": "5bb409be9a59601772527b052c28d445809b3e0eeb3d40ea6d33a2684de0028c",
+  "review": "MAIN read all381 source/test/preparation lines and RUNBOOK. Actual owner verification qualifies cp32 initial tensors, new cp1/Adam/RNG,12 replay and20 zero skips; two focused actual-input/sampler/replay fixtures passed. Native collector seam unchanged.",
+  "seed_policy": "Exact sealed schedules: short fresh replica202609270000..31; original long/fourneedle seeds, T.5/2048/six total actions",
+  "units": "16 contexts per panel; short has2 seeds, other panels1;64 outputs not64 independent contexts",
+  "wrapper_sha256": "cfed6786f17f086d42dca6b6d3a108f8c5210d362cab9a1ed7365522d96c417f"
+}

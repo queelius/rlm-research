@@ -12,6 +12,24 @@ evidence:
 
 # Can a helper interface make decomposition reliable, not merely smaller?
 
+## Decision update — September 12, 22:16 UTC
+
+The cheap direct answer instruction scored5/12, matching the extra quoted
+helper's total but correcting different questions. Only the measurement-unit
+gain overlaps. Both changes mostly rewrite known answer content and reduce
+support exactness2→1/12. Thus neither aggregate establishes better evidence
+composition or faithfully assigned relations. Do not generalize an equal
+score into equivalent behavior or select the best prompt from these12 cases.
+
+A new fixed-decomposition/recombination pilot is in CPU feasibility design,
+using the neighboring benchmark's candidate B05 verifiable ETL joins. This
+candidate is not admitted or model-calibrated. Check actual token budgets
+and planted-feasible-path shortcuts first. The smallest screen should separate
+local-report correctness, report sufficiency and synthesis; exact host reports
+are a nondeployable ceiling, never hidden repair of model reports. Sampling
+and recombining child answers is not yet learning a decomposition planner.
+If no correct/incorrect alternatives exist, do not launch a zero-signal RL job.
+
 ## Decision update — September 12, 21:37 UTC
 
 Flexible source allocation increased annotated-support coverage3→6/12 but exact

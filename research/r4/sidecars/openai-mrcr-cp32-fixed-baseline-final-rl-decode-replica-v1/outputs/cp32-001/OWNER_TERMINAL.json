@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "elapsed_seconds": 424.3202555179596,
+  "errors": null,
+  "no_outcome_manipulation_gate": true,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "phase": "cp32",
+  "ready_sha256": "25d86737b647d1e78815b3b45f6127ff454fad0ba2803acc5a2e5181b967e971",
+  "recorded": 32,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fixed-baseline-final-rl-decode-replica-v1/outputs/cp32-001/science/RESULT.json",
+  "result_sha256": "0261231d43234e07f6b3a798793d854f8b08967d2bed6d55e8e14c92b1491aea",
+  "scientifically_available": 32
+}

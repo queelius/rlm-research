@@ -1,11 +1,40 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T21:31:00Z
+updated_utc: 2026-09-12T22:16:00Z
 status: active_exploratory_research
 claim_level: exploratory_procedure_transfer_and_exact_return_contract_mismatch
 ---
 
 # Research in plain language
+
+## Current interpretation — September 12, 22:16 UTC
+
+The small RL gain did not replicate. The first short-answer comparison was
+23 to 25 correct; two new decoding seeds per conversation gave 25 to 22, with
+three losses and no gains. Both models were run again on every conversation.
+The new losses added a line break after correctly retrieving the answer. We
+therefore have an actual weight update, but no reliable accuracy improvement.
+
+Supervised training remains more promising. The learned Python search routine
+answered 10 of 16 new third/fourth-occurrence questions, versus none for the
+base model. This complements its separate 0-to-10 result on longer inputs.
+These are different panels in the same task family, not general recursion.
+
+New training questions supplied the reward variation missing from familiar
+questions. A group-relative update has completed, and its fixed 64-output
+readout is queued across short, longer and higher-occurrence panels. We will
+not infer success from its gradient size. The GPU currently tests whether
+asking the model to inspect actual request wording repairs literal searches.
+
+An extra quoted-relation helper and a cheaper concise-answer instruction each
+raised exact answers from 3 to 5 out of 12, but corrected different questions.
+Their gains changed wording, not missing facts. To study decomposition itself,
+we are preparing a small task with verifiable intermediate answers and joins.
+The next useful question is what information a helper must retain for another
+stage to succeed, rather than simply whether adding a helper raises a score.
+
+These are post-meeting findings. Earlier entries below preserve the evolving
+interpretation; they do not supersede this update.
 
 ## Current interpretation — September 12, 21:31 UTC
 

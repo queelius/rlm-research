@@ -4,64 +4,44 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 12, 2026, 21:00 UTC evidence cutoff.
-Supervised training on 32 worked examples taught the controller to retrieve
-the requested reply from a Python-accessible conversation. On 16 separate
-conversations with two trials each, exact returned answers rose from 2 to 17.
-The starting model completed 29 of 32 attempts; the trained model completed all
-32. Among the 29 available pairs, training corrected 15 answers and lost none.
-This is exploratory transfer within one task family, not general decomposition.
+Latest partial refresh: September 12, 2026, 22:16 UTC evidence cutoff.
 
-The fixed trained model also answered 10/16 new, longer conversations exactly,
-versus 0/16 for the starting model. It retrieved the right text in 15/16 cases;
-five final answers omitted two required spaces and one program searched for
-the wrong request type. All outcomes were available. These new conversations
-exclude exact core/target overlap with the earlier 48 records, but remain in
-the same retrieval task family. The model accessed their text through Python,
-not through an expanded neural context window.
+Supervised training on 32 worked examples taught a small controller to find a
+requested reply in a conversation through Python. Its routine transfers within
+that task family: on separate panels, exact answers improved from 0/16 to 10/16
+for longer conversations, and from 0/16 to 10/16 when the question asked for the
+third or fourth occurrence rather than the first or second. Every outcome in
+these comparisons was available. This is useful procedure transfer, not yet
+general problem decomposition or learned recursive delegation.
 
-The trained model printed the right text in 30 of 32 attempts. In eight cases
-it also generated the exact final answer, but the runtime removed trailing
-spaces before grading it. The original 17 successes remain unchanged. A new
-run with both terminal whitespace operations disabled scored 23/32: seven
-improvements and one regression. All seven improvements had identical model
-token paths and recovered previously damaged answers. The regression had a
-different final generation. A separate earlier token-level diagnostic found
-25; it was not the result of this intervention. This is a harness improvement,
-not RL, and the panel contains 16 contexts with two attempts each.
+We also found a concrete system defect: the answer path removed spaces that
+the copying task required. Disabling that behavior recovered seven identical
+generated answers. The paired score rose from 17/32 to 23/32, including one
+separate generation-path regression. This is a harness correction, not RL.
 
-RL is not yet the strong result: the first controller evaluation found zero
-exact answers before training, zero after the smaller update, and one after the
-larger update, each with 15 available attempts. A second decoding block gave
-2/15, 1/16, and 1/16 respectively. The small apparent advantage did not persist;
-successes followed broad input dumps, not learned retrieval. Fresh attempts
-from the competent supervised controller answered 28/32 exactly, but every
-question had the same reward across four attempts. That gives group-relative
-RL zero learning signal. An earlier checkpoint restored some reward variation
-but answered only 6/31 available attempts, with one additional unknown outcome.
-We are testing higher temperature and preparing a different fixed-baseline
-reward objective; neither is yet an RL improvement result.
-On another dataset, focused helper follow-up questions, broad
-follow-ups, and stopping each answered the same one of 12 questions correctly;
-reading the full source answered three. Another comparison held selected
-passages fixed: summaries answered 4/12 questions and original passages 3/12.
-It does not establish a general advantage for either representation; the
-strategies also have different natural costs. Source-selection and answer-use
-analysis is ongoing. Flexible allocation of four passages across the helpers
-increased complete annotated-source coverage from 3/12 to 6/12, but both
-policies still answered 3/12 exactly. It used an extra planning call. More
-available evidence did not automatically mean the model combined it correctly.
+The latest RL gain did not replicate. One final-answer reward update initially
+raised short exact answers from 23/32 to 25/32. Running both fixed models again
+with new decoding seeds reversed the result: 25/32 to 22/32, with three losses
+and no gains. The losses added a final line break after correct retrieval.
+These blocks reuse 16 conversations; extra seeds are not independent tasks.
+We retain both blocks and do not present the favorable one as an established
+improvement. A new mixed-reward training batch has produced a completed update,
+but its accuracy readout is beyond this checkpoint's cutoff.
 
-Earlier helper-training claims are also qualified. On fresh news examples,
-varied-data RL scored 427/429 out of 512, repeated-data RL 425, supervised
-training 426, and the starting model 422. The earlier 20-answer advantage of
-variety shrank to two on this panel. Better helper labels also failed to improve
-whole-system answers. The notebook preserves these weakened findings and
-unsuccessful comparisons alongside the promising procedure result.
+Extra helpers have not yet established better composition. On 12 multi-document
+questions, extracting quoted relations and simply asking the final model for a
+concise answer each raised exact scores from 3/12 to 5/12, but corrected different
+questions. The gains changed wording of facts already present. The cheaper
+instruction used fewer model calls; neither fixed missing evidence or reliably
+assigned facts to the correct person. We are preparing a task with checkable
+intermediate answers to study that distinction more directly.
 
-Other records retain their earlier cutoffs; this is not live GPU status. The latest
-plain-language synthesis is also in the
-[September 12 length-transfer and reward-contrast report](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-12-length-transfer-and-reward-contrast.md).
+Earlier helper-training gains also weakened on new examples and did not improve
+whole-system answers. The notebook preserves those results, failures and
+interpretation changes alongside promising findings. Records retain their named
+cutoffs; this is not live GPU status. See the
+[latest plain-language research checkpoint](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-12-small-rl-signal-and-helper-controls.md)
+for methods, limitations and evidence pointers.
 
 ## Start here
 

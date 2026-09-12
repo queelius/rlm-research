@@ -1,5 +1,25 @@
 # What we know so far
 
+## Current update — September 12, 22:16 UTC
+
+The fixed-baseline final-token RL gain failed its fresh-seed check: first
+23→25/32, now25→22/32, all available. The new three losses add terminal line
+breaks after correct retrieval. No replicated RL benefit is established.
+Fresh8 group-relative training completed one real update in33.24 seconds;
+its64-output readout remains pending and changes both data and objective.
+
+Supervised third/fourth-occurrence transfer is0→10/16, all available and
+native-audited. Thirteen correct selections yield10 exact deliveries; the
+remaining failures are3 missing-space copies,2 literal-selector errors and
+1 pre-action token exhaustion. This and longer-input0→10 are same-family
+transfer, not learned recursion. Generic input inspection is currently onGPU.
+
+The direct concise-answer control matches the quoted helper's5/12 total at
+lower cost, but with different wins; both gains are wording changes. Planning
+future experiments around verifiable intermediate information is higher value
+than extending a generic-helper or copying-only sweep. See NOW.md and the
+updated small-RL-signal report for plain-language details and evidence paths.
+
 ## Current update — September 12, 21:35 UTC
 
 A real one-step reward update improved short exact answers23→25/32 and left

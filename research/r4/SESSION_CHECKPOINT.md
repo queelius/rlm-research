@@ -1,5 +1,60 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 22:16 UTC
+
+ACTIVE81832 generic literal-input inspection32, 36 returned native calls/14
+episodes/zero errors at22:14. ACCEPTED11928 new fresh8-RLOO fixed checkpoint
+readout64: short32, long16, fourneedle16, all regardless score. Operation
+`2026-09-12-fresh8-rloo-readout-queue/run.py`, READY5bb409be…, identity9cbe429e…,
+2229pins. MAINread381lines+RUNBOOK, actualowner.verify passed. Sharedflock,
+MAINsole GPU launcher. Caps1200/800/800 external; no new optimizer.
+
+COMPLETE fixedRL replica88381:25→22/32,0wins3losses,allavailable. Earlier23→25
+does NOT replicate. Three new losses add finalLF after identical clean retrieval,
+two context units. Five changed native paths total;27 unchanged. Costs64→66
+calls,70634→73829input,20739→23170output. MAIN verified CPU_READY4a36585c…
+and ran independent replica audit; tokenagent inert mechanism addendum pending.
+
+COMPLETE freshRLOOtrainer19037:UPDATED one step,33.2447s science46.2264s owner,
+deltaL2 .0404606563,12 credited finals/20 zero skips,denominator32,preclipnorm
+24.3091. Saved cp1 STEP_COMMIT a6c80d13…, state89025f42…, bindingc6c1561e….
+This changes source batch AND objective versusoldfixedRL; no isolated objective
+claim. New accuracy unknown. Localagent CPU independent3panel+gradient audit.
+
+Fourneedle fully audited0→10/16,5wins eachordinal3/4;13 clean selections,
+three missing2-spacecopyerrors,two literal-selectorerrors,one pre-action length
+exhaustion. Additive nativev2 validates83calls/32derived traces,0issues.
+Postagent prepares small B05 typed-join recombination CPUfeasibility: actual
+token budgets and feasible-spine shortcut before model admission. Notyetready.
+
+Quota35% at22:10:10 UTC,next22:25;winddown20/pause15/reserve10. Allocation
+endsSep15 17:30UTC. Remotesstill e40a286/7ea9a81; new RLM plainlanguage report
+cutoff22:16 stagedlater, notyetpushed. Continueautonomously; no stopping after
+queue completion. Avoid spending remainingresearch on copying-only refinements.
+
+## Latest resume pointer — September 12, 2026, 21:54 UTC
+
+PUSHES VERIFIED: RLM e40a286daa97ba6dde2571c1b2b3dc03f492851f and research
+notebook7ea9a8166c84b0fddf796b4a1fba6f588d00b431. Plain-language report
+`docs/research-checkpoints/2026-09-12-small-rl-signal-and-helper-controls.md`
+cutoff21:49. Export103 files,total51,033,440bytes;105staged files credential
+scan clean and4026manifest hashes verified. Noweights/privateexacttext. Remote
+source checkpoint is not backup of project weights. Next export has only~1.4MB
+left under the current50MiB documentary cap; extend deliberately if needed,
+not by deleting research sources or model caches.
+
+ACTIVE88381 fixedRLcp32→updated64 newseedreplica, cp32 phase nowrunning.
+Fourneedle67214 complete/released: initial string/prefix analysis0→10/16,
+five wins eachordinal3/4, allavailable, cp32clean13/16. MAINreadoriginal500-line
+analyzer and found its native validation shallower than prior audits. Postagent
+adds immutable native-decode/call-accounting supplement; untilthen describe
+initialanalysis as string/prefix audit, not fully independent token proof.
+Nooriginalsourcechange andGPUqueueunblocked. OriginaloutcomeRESULTS preserved.
+
+Localagent fresh8RLOOoneupdateCPUprep; tokenagent genericliteral-inputinspection
+allfresh8×4 CPUprep; postagent nativeaddon thenbounded reusablebenchmarkdesign.
+Quota37%21:41,next21:56. Continueadaptivework, MAINsoleGPUlauncher.
+
 ## Latest resume pointer — September 12, 2026, 21:49 UTC
 
 ACTIVE67214 four-needle base→cp32 paired16 each, operation

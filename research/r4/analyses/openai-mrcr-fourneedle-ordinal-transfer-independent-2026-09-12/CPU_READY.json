@@ -1,0 +1,21 @@
+{
+  "attempts": {
+    "base": "outputs/base-001",
+    "checkpoint32": "outputs/checkpoint32-001"
+  },
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-ordinal-transfer-independent-2026-09-12/CPU_TESTS.json": "2970ae7c89f10ebc3c6af44f0546982aa8a0f48a1d776906b83abf8b8498c9e8",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-ordinal-transfer-independent-2026-09-12/analyze.py": "5d7108f453422a686bf54677ae780c7abdbbc13ebb0beadb6f2c882441b5e5d2",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-ordinal-transfer-independent-2026-09-12/prepare.py": "b5a03e39422cbc876553646cf1d2e79a9532ce4fedccba4568fc37cb2d6b022d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-ordinal-transfer-independent-2026-09-12/run_if_terminal.py": "7dd0c902b63321eee5e505af1e10d00948541623b4a1aba2a8e964336ee64d8e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-ordinal-transfer-independent-2026-09-12/test_analyze.py": "7416555783d722180607619deddbc678f89e8dabcfa74fca7c5a55395408ae36"
+  },
+  "created_epoch": 1789249779.9994981,
+  "gpu_calls": 0,
+  "identity": "4aed35848565e22be47254b7ed46aa1405b59406d8eb548d06289b4fd2840b4d",
+  "one_shot_after_both_owner_terminals": true,
+  "polling": false,
+  "schema": "openai-mrcr-fourneedle-ordinal-transfer-independent-ready-v1",
+  "source_ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/READY.json",
+  "source_ready_sha256": "02e90c8e7c30a3fc6070a94d03b93b43a14fac3db675d297b84d4b4b8a56324c"
+}

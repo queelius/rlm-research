@@ -1,0 +1,2596 @@
+{
+  "GPU_calls": 0,
+  "context_units": 16,
+  "created_epoch": 1789250007.6139028,
+  "episodes_per_arm": 16,
+  "generated_programs_executed": false,
+  "integrity_errors": [],
+  "limits": [
+    "Sixteen paired context units are grouped by requested third versus fourth occurrence; 32 arm outputs are not 32 independent contexts.",
+    "The official secondary score is marker-gated SequenceMatcher similarity, not rfind or normalized exact.",
+    "Literal-request and ordinal-selection fields are inert static program indicators, not proof that the program selected the right object.",
+    "Clean-target observation is exact stdout evidence; its absence does not prove retrieval did not occur internally.",
+    "A fixed zero-LoRA child is available in both arms; actual child calls and cost are measured rather than assumed zero.",
+    "This is same-task ordinal transfer with common framing and unknown base pretraining exposure, not a new benchmark or learned-routing test."
+  ],
+  "pairing": {
+    "by_target_occurrence": {
+      "3": {
+        "coordinates": 8,
+        "losses": 0,
+        "paired_available": 8,
+        "unknown_pairs": 0,
+        "wins": 5
+      },
+      "4": {
+        "coordinates": 8,
+        "losses": 0,
+        "paired_available": 8,
+        "unknown_pairs": 0,
+        "wins": 5
+      }
+    },
+    "checkpoint32_losses": 0,
+    "checkpoint32_wins": 10,
+    "matched_coordinates": 16,
+    "paired_available": 16,
+    "pairs": [
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": true,
+        "checkpoint32_mechanism": "exact_after_clean_target",
+        "coordinate_id": "089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b",
+        "paired_available": true,
+        "record_id": "omrcr-four-eb401343d31f0c19c390",
+        "target_occurrence": 3
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": false,
+        "checkpoint32_mechanism": "clean_target_copy_failure",
+        "coordinate_id": "27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c",
+        "paired_available": true,
+        "record_id": "omrcr-four-b3bb743aaabfbf3ef49f",
+        "target_occurrence": 4
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": true,
+        "checkpoint32_mechanism": "exact_after_clean_target",
+        "coordinate_id": "31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61",
+        "paired_available": true,
+        "record_id": "omrcr-four-7ef36900e396ff49f6e5",
+        "target_occurrence": 3
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": true,
+        "checkpoint32_mechanism": "exact_after_clean_target",
+        "coordinate_id": "404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f",
+        "paired_available": true,
+        "record_id": "omrcr-four-aa303ed94ba4ecf7bf90",
+        "target_occurrence": 4
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": true,
+        "checkpoint32_mechanism": "exact_after_clean_target",
+        "coordinate_id": "584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946",
+        "paired_available": true,
+        "record_id": "omrcr-four-e802ed0f78b9495de9ac",
+        "target_occurrence": 4
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": false,
+        "checkpoint32_mechanism": "clean_target_copy_failure",
+        "coordinate_id": "5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370",
+        "paired_available": true,
+        "record_id": "omrcr-four-fd626bc88561a8dfe388",
+        "target_occurrence": 3
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": true,
+        "checkpoint32_mechanism": "exact_after_clean_target",
+        "coordinate_id": "868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2",
+        "paired_available": true,
+        "record_id": "omrcr-four-f61eed2051996b816726",
+        "target_occurrence": 4
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": false,
+        "checkpoint32_mechanism": "clean_target_copy_failure",
+        "coordinate_id": "965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538",
+        "paired_available": true,
+        "record_id": "omrcr-four-c09fb4c7d672b0d18934",
+        "target_occurrence": 3
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": true,
+        "checkpoint32_mechanism": "exact_after_clean_target",
+        "coordinate_id": "97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f",
+        "paired_available": true,
+        "record_id": "omrcr-four-a74b4c66fc01bd68de3d",
+        "target_occurrence": 4
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": true,
+        "checkpoint32_mechanism": "exact_after_clean_target",
+        "coordinate_id": "a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e",
+        "paired_available": true,
+        "record_id": "omrcr-four-4f4ea6a28046671244e4",
+        "target_occurrence": 4
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": false,
+        "checkpoint32_mechanism": "no_clean_target_and_wrong_final",
+        "coordinate_id": "b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b",
+        "paired_available": true,
+        "record_id": "omrcr-four-c6ef6fdb8d43f3f08137",
+        "target_occurrence": 4
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": true,
+        "checkpoint32_mechanism": "exact_after_clean_target",
+        "coordinate_id": "b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012",
+        "paired_available": true,
+        "record_id": "omrcr-four-8afc2443653b40ddb288",
+        "target_occurrence": 3
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": false,
+        "checkpoint32_mechanism": "no_clean_target_and_wrong_final",
+        "coordinate_id": "b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf",
+        "paired_available": true,
+        "record_id": "omrcr-four-45e34dc2b87a24884f6b",
+        "target_occurrence": 3
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": false,
+        "checkpoint32_mechanism": "no_clean_target_and_wrong_final",
+        "coordinate_id": "b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246",
+        "paired_available": true,
+        "record_id": "omrcr-four-7cd3a925beb322d2709a",
+        "target_occurrence": 4
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": true,
+        "checkpoint32_mechanism": "exact_after_clean_target",
+        "coordinate_id": "f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831",
+        "paired_available": true,
+        "record_id": "omrcr-four-48c76520dd84ccd6c577",
+        "target_occurrence": 3
+      },
+      {
+        "base_exact": false,
+        "base_mechanism": "no_clean_target_and_wrong_final",
+        "checkpoint32_exact": true,
+        "checkpoint32_mechanism": "exact_after_clean_target",
+        "coordinate_id": "fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce",
+        "paired_available": true,
+        "record_id": "omrcr-four-fe56a62176f39fe1ef93",
+        "target_occurrence": 3
+      }
+    ],
+    "unknown_pairs": 0
+  },
+  "ready_identity": "cabf187d29dbfce11ad2a25f5474e3b5cf962951b7459983833ce23e3d0261f5",
+  "ready_sha256": "02e90c8e7c30a3fc6070a94d03b93b43a14fac3db675d297b84d4b4b8a56324c",
+  "schema": "openai-mrcr-fourneedle-ordinal-transfer-independent-analysis-v1",
+  "source_qualification": {
+    "claim_boundary": "third/fourth request ordinal transfer within the same official task and short length band; not a new benchmark",
+    "data_ready_sha256": "3ff63cf269efaa8e3f9407722cf7c88714f95abf17eca5d2d701e399ab8c1861",
+    "dataset": "openai/mrcr 4needle",
+    "eligible_counts": {
+      "3": 21,
+      "4": 18
+    },
+    "excluded_prior_rows": 72,
+    "fourth_occurrence": 8,
+    "pairwise_and_exposure_conflicts": 0,
+    "records": 16,
+    "selection_uses_model_answers": false,
+    "selection_uses_previous_outcomes": false,
+    "source_revision": "f4c69fae7cf81f7ca26b9fee34b392a50f6b8a1d",
+    "third_occurrence": 8,
+    "unknown_base_pretraining_exposure": true
+  },
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-data-v1/MANIFEST.json": "a7420e85100d37ed11e7819e706fc57c6b7a8289d54e68729f9b956a24b85336",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-data-v1/MODEL_INPUTS.json": "f844416c88ee8bd91047c1aa08e2b54d934e539a427ff27465db6b8c7ca45bb8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-data-v1/SELECTION.json": "8cc72d73e60e0bc242cf99828fe82d597864e736f4e9f85f04488d8ae14660e2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/READY.json": "02e90c8e7c30a3fc6070a94d03b93b43a14fac3db675d297b84d4b4b8a56324c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/inputs/HOST_GOLD.json": "b32f46c74f68fc640ae24e6874d37b7c09df3535694261faaecba8cb480197a8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/inputs/PREFIXES.json": "3a1e8981382d43ad2104f5fcee3d442240db3ad1c49e8893c5aad2643d369989",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/inputs/PUBLIC.json": "794ae9bce1c50a558559db42912c1c16f5b81e3a8712e6cf88d8b69f5ada7ee1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/OWNER_TERMINAL.json": "faf0a69c0bcfe1ea08e02b0ba051b398914bc4730e7c3eebecbf10bcc5e23a8f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/owned-service/BINDING.json": "bb438588fcbd1bb8d93c0ff1708ab1e790d587a664b3d0f625921620804bd6bf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/RESULT.json": "4d8b791572ba0379892a9f7a28acb229c265113455035125709325f4a8e223b5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/TERMINAL_STRIP_CONTRACT.json": "2d69a390898c708e754cc29cef2fae6dbb259cd8e240b683c7158a6b39b4d62f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b.json": "6b839dfc8c98f5b15e4bc5c0644ee9badcabbcbe6852957a41f443b730a5f2cf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c.json": "21f3f542ab2def41997cb83930b2427e117240db61c2fbd6ab5ed829cfe1080c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61.json": "f21cb7db81a5970c6cc2f0d055b9558b5b3292220d2e929a971571f90f819246",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f.json": "3fad66e2d8d29e74ca720e7cc00f2cdf32834e8f8b6ed347294b4700684436ff",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946.json": "60bcd1891e5fe77b05ff85ecfe8c433a12a2528010415ee15d111977297614af",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370.json": "a73d3a6bdf6479d960449b0ebdc05e351452412c9ffc47a35c4a76c3cde25224",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2.json": "4aa18ba31a343acff11651ed8fb87a3d77bcdae4e4cd4fb85c0f1d45f24b7aeb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538.json": "5253302a834f1b6595d079ad3a02633a4381818645cd6b2f6a3b07d4c5e49102",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f.json": "666b9be832cd13524982eb5175bd3c82104f3237ab472aa1d2cc87a46566a7a9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e.json": "c2703a666b25522f8c2dace73144cfd267e7240b312f0a5e45d4a19637848688",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b.json": "87039858b66dd0a52d96b73b39e18e64f2dd360e1e4980ff29b217145ec99f4a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012.json": "a8036e2aa70d747298865dec570716e6ecf77307e25638d9d22ac00683209e4d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf.json": "acef448f212df84b1734af9521c488b77f420ea77100a7446f57a0b87e0ff88d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246.json": "d24400fd5d1560f899dd85345cdedf0189ef3ee211a918877b1bec9bfdaaa445",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831.json": "01ddd260a7db99a0fa8de02c68c0d85e52d3a48372e8ee8605c237d7465253ad",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce.json": "283a45bedcb9ac42f3456c8228a070ff0bb86eab7a8b97fda90941430cec2630",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0000-result.json": "913d7a8f1e7b8febac4b12f29793bbcfd8f3e9fcc83aeeef2904ef5be1fdd668",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0000-start.json": "e8ef2219197ecf8bd2bf21cea25c1879a16355f1f50b1923655e78aebd6738f6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0001-result.json": "58f3a19422712edb1d9cbf26a8dd40470f385befad8ec7ae0d6ea2c069f3283e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0001-start.json": "e53a6d05bdb13b270cefbff535910fd116ff0fcc08d2db9a017e24b1214402fb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0002-result.json": "065265dc1b0ee31a4b8ad48cae79ffb314790bd70c348c8000ceeb0960a23883",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0002-start.json": "7df3585601993e56387b525397790564e869e871045fbe92137ece7eedc149ed",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0003-result.json": "a4c90f698557a3d34aa9316bd8699e3c70922f840a08b9ecb3ecb273f29feeaf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0003-start.json": "7c78432ccbfda3ed49bd35054d363ac6dd47e0f71eba585dd36ae6996e345b9b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0004-result.json": "6dda6e6900907f1961f065ed4e3f0e783242052ec64938a6b71bbbadeed44462",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0004-start.json": "fa4e587407d4283246a298de5ee270fd4f05ca38970acd2028baaee32484f0c6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0005-result.json": "0594e36d1144b88453ffd780d68f6c45da57584fdc5b7d681af136c138bfe17f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0005-start.json": "d6808dcc9145804e213ffa0915ca2733dae126ee6ff90dc1a63e41e1971bc1ce",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0006-result.json": "d346e3b920279589fa2b767d9cd1596ff8d8c9858c4aeff73fe195b6defc32b3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0006-start.json": "93380b0acbad5da3453aedf084eb0e64754f9d5ad97c456c6528616bd5c01f04",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0007-result.json": "71025f2c0888f5d26048a1210f098012f456bf603936ed8644c5e89d106f875d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0007-start.json": "1b104c6a25be0953161450f3584f32ed20115ed243ffe9489e251427c058a257",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0008-result.json": "c8dfa6d1514ef42226e785c7d27bd2387426c8d6968c2cbb81c61c3c86c38206",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0008-start.json": "a7bf3b96e91f9c3c610d09162569714073f20bed9b846098f16c8f9efe24fda6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0009-result.json": "4e77bfa4ad89cbf953cba7d0930424f392f1ec5331182302828553ab39c79154",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0009-start.json": "4bf32fd674d214d3676d7fe548251e60761858518d437f4b428b658b5e8263c4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0010-result.json": "f1567d3d3c7d0d028e0cd32f1f050a488a102b74aff8599d576bebb0113ffeb8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0010-start.json": "0d1fd2c79528c8c81e76a5b038768f3b25967a0669806e817f2354a78366fc75",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0011-result.json": "cae39dbe67d89fcc646528a54a269b96a10204fc6aed31adc493eb2cc3ab2deb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0011-start.json": "78e14b3cbf5087fd2a5b6963ba562d3a16cbe342ba256d5a332adbce391a0c46",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0012-result.json": "6c50343bdfe9ae7858518d7b836f7ff448e3fc995def3901fba77483c484f468",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0012-start.json": "7c0d97d318da9f98fee92cda001c0860341141b655a9a0ed6ecaf775bd4ec1e6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0013-result.json": "fb6fbc858191c3505d9b7070e23ae01aa2a5ec918643599f39e0aac72611d400",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0013-start.json": "5792ad86aac4c9f1edea91fda31868e846017ebdaaa77507b410983d76da2e5c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0014-result.json": "643fd48c5b7554ccdc65f1c19245fb09d7e6422bdc7ea76ccbc28831e1234478",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0014-start.json": "e31405d64684ab09d3f6b6d59570bdb74f22147e84149fcc6ef0061f5e2bbcc1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0015-result.json": "a1fc962523b00682e5f98ef26e06c50dd94ea7281103b5f795b92c47ca235dad",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0015-start.json": "c469bcd214af1ab786741e16037204fe13ba3bf969985e2229c9c3ce29bd24bf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0016-result.json": "76166ba928ce7ad2881dfdd57f5caa4978d5c5edfce735eedb0f02cbfc94cc20",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0016-start.json": "e8db9834e846133a40df5bca437eda612ebad5e7f0592ec5b0e115d7940ceeca",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0017-result.json": "cb777db18075854d0827c3da632976c99c98e852f523109958b9a629940f25d8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0017-start.json": "77ba91011f99debab611aafb5153205d107fa836682f7a891d0ee5e8c7964c76",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0018-result.json": "c8628b362453aca0edd88c00b6c39ded1d61e7ae18105bb6f3fa2642e72baa40",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0018-start.json": "325e6cfbd740100df1001d556d9fffaea2c1389f7a20eddb4e08899f66892b64",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0019-result.json": "f50bbf1a14e53ce8847d6eb45170791a264c8814643f5f6ed14537cb418bdb4d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0019-start.json": "6add544528e963091a266afdf8bcc23fe5325cab0483aa6a041867ac2c507d3c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0020-result.json": "f2e210637744046bcc11a69e2c9bff98e28e76364da75f01f459d60f6264a209",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0020-start.json": "219e4238b8361f527e3f3879ae89d80cf0ae65e821bf89320e97f56a3e696918",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0021-result.json": "e90cb4658733c7af2a4d85f2e98643615da49e37a387c789092741a8666ef55f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0021-start.json": "6145d75ba9305dfaf8c955eb35d2496b59cac7f0244283a22384c8f2519d0ccb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0022-result.json": "b709554458c910df907b2dc384296dfa679bffd1017439ff0d93418ec8140d79",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0022-start.json": "b7449b3e3d60a9dd525794a0e702de3f8dd9729b0601377dd5de7b4ce37bd62b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0023-result.json": "cf2956de5aa49038ec16d363246292bcad65e451a0b0d68d06544dc6231a4cac",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0023-start.json": "176e0c5d0651b2380c704413bb522ddca4551b76ed37bc4751440b25f4327fda",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0024-result.json": "6fc9ef6867d41ec7a1634412d0de1d85642670d73953d8fbe7cd8c37f40d180a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0024-start.json": "dae9005dadda22e0a351da4bcdd42a98a1f8e1a5fc51f4714094f0d807487c0c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0025-result.json": "a7a1dc496ee4f7ce940552d7e3a51b50e170efa7510f2901e5a02bf881de4dc2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0025-start.json": "63a2172ba958626f41fabecf6b94f4042f75e4932370d164b48d41830d5fcddd",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0026-result.json": "dc7d738c77d88f057dbc2e4218477699ec2d31abb76248a96c200573b8a0b35a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0026-start.json": "d39ccff0bd4194881c3cddd1409c834e1cbc4cbd41fedd917a3f12adf2f44867",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0027-result.json": "b0ff07aecbcaa76c4a7fd4c32fd5dd7d222210684fba26e808bbf45d040a9102",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0027-start.json": "f5d8f2f692eb24a892f4b1787959f50db9a99e70ca4e5f16d5298827b13f628d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0028-result.json": "6b750541fb12aa75b3d58ad67121b4c53f3f92e40e092b20e43b9d03adcd5d26",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0028-start.json": "a8da017bb8927c2ba0a3fc0c4005e840c64cae0245019922c9a3fa65dc3c969b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0029-result.json": "ff6a245d4baad6f336c5bc8a6e94357a62dd83cbcc154915adb5b10fe1b4c195",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0029-start.json": "51359a0dc2c467e64c55d720501eb31ad06c63625787ce99b52d9c52c6de1e34",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0030-result.json": "d6e57899ceee65439875436b71641c9031a1ca9bf53a7c43391b84d409a23166",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0030-start.json": "9a4873e5204d4df4fb59354e5c7bab0c1d1f7962d73b22ba65cb7e8fe7863c95",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0031-result.json": "2cd615f9c2da1b32f0ae77969ea4d3371a0aa9d6113e34907936a0415804a356",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0031-start.json": "9d55ab7a3969d7741966a620db934f4e0701bbbe917c071f5bea2bd6c674ac98",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0032-result.json": "50c9e0b9b294852702c1def923ddfc7fa6704a66db09aa36855ee829e60c9e81",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0032-start.json": "aefa6fe4421946d790307472fda2a1474595d28cc0fa04d70360ed5e25c9b7dc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0033-result.json": "c2fa07e64ad54274ee9cf84f295c4c30792c8ba101a17a322b8978cddfd9e0f6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0033-start.json": "3a7d2ca2fc7d7838281b03862fa77116dee5493830554cdb6305fbac4bc9e6bf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0034-result.json": "ba0cfaacef3ce14862e3c74798f942af3c176421fcc68142d6bb74a66119be81",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0034-start.json": "33ed8bb9c3dd5bef28dbded2319716ed8bde9745acb5b7626f515fbd32d00e74",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0035-result.json": "3de5c904e92746b4de51e3933ee752a8cc74fe727806873ffe79b3f1382638c0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0035-start.json": "597643a5c13b3ef7e02ff7ab87e1ed2bbae409b00332ba231b9a7918c3789bf3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0036-result.json": "10c124aba5a3ef957746c58095983936655dab6e04fd58b089525da7338c1804",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0036-start.json": "077271106d05aa6dbfd5753844abb56127fd45c939520bfa67d9e0aa6483afa4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0037-result.json": "c4ad21925835f6054a2a90bbf05640ad0109c08821b53aebb1fa7dcb6d8ab6dc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0037-start.json": "bfacd94d9e5180bdd699a99dfb3a85a94280ba768013ec67a10050b9238113dd",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0038-result.json": "82aceab3b11ad9602db472bbf8ad907e71e1b06b2b3a7054a39ffbbed78b8216",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0038-start.json": "b3e476c14db573c21c441a5335196cdd1ae64c656015f19cb31d1a1c29e110a7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0039-result.json": "6b9d4b976101a1462ec709fa0c6d9ac6a8b0c44e124efb984434a0074da19d38",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0039-start.json": "eef0c14871340be88189e30df11934633998cd8b2d637f55e3adc5d3259afa01",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0040-result.json": "6b648532401b4b6976cfc7725dce873009c4067ddf10a07c792c94595a5c84d6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0040-start.json": "89435bac81b25cbe27af440b26dd1d21b479a4c45989f4ad3d10f5982f29fb4d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0041-result.json": "82a0a4285b1031da56e4c6e87301b36979f4d66bdd2b1987c047559e4a64398d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0041-start.json": "cc6f79e1202b5e4ff8eb2946768bf943a12cda3dbba5bf34e18902b784abc7d3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0042-result.json": "31e18cc4c23c589f9232911c550bc3d5560864e2c6005922160a175d2af5f2c3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0042-start.json": "b2e8a2eff19a336d30adb9fa84e30851c55c2a92476c70499bafeeb88076ea6e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0043-result.json": "6273eac4ca79c1f7e7e876c6e1fd5910e0488a70221e58cc2c3bf02f659e514a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0043-start.json": "581e12a092960ab5bcbd6a0e4df80362565c0fc461b3b4d4ab2f94e4cfb75eaa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0044-result.json": "c579bff0ce3cfb6044788e7fdf894adb310c83d178409b687f9eca4b08453008",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0044-start.json": "7733e6572293fb2f945f71fd00d6330edb1bd963f712be1b03af65b514add29d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0045-result.json": "5731599d4ae1788ec5f3b2c12a8672874aefcbd2a901ac24025902a4126c25e9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0045-start.json": "a28d4e9f152c8c710c806bd127b5807aad1f1f8039a47e56fbf6290b8fe74b67",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0046-result.json": "35d794f327f470e374ddf1e547b12bf97c6c7e33bc24dea0b5ac0fb6edb638d1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0046-start.json": "bcc455179b16b9a684c43a73c9f7f7ee84e9ced259a6723390fcb20d2bac2b09",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0047-result.json": "76325c97562fceb18bd8285840b89b5600d38591d46dd2c28442fbbb9e7aa737",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0047-start.json": "70a8ef094b59fe70302d917baef15bebf8ee914c88c4ee31100a0f886fb4c666",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0048-result.json": "d5f81d318aba261a032f0c754cf8413a9a1731bcf530804a0e8d61047c0d0f07",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0048-start.json": "b5f9c87a7a7f9a7873d97afcce6a27420ecfa3a55352091c10e144925935b74e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0049-result.json": "52a0010f94bd4206ac52c95054cf8b69f1fefafe58c3cd2851831f004492e2d0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0049-start.json": "fa4a8673df8132ba0b0f9e2a78f3217a87d6f95a4baba93810445ddf21060f84",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0050-result.json": "649b936a8109264468721083f973c2390b556ad206898b1a3cb14a6b8540fc52",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0050-start.json": "7bb7a943d006135bc6e0bfdc76950ab671e51af8bbce7c5af07934947cb3f270",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0051-result.json": "f9dc559e9a16f4d80872a0d4b7c21f2ea64dc12cdbb57cb7950fbd92040089b9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/native-calls/0051-start.json": "6421a346842bb1a677437d4f96ce227e4114c0ddf6269ba9f33f4354d4d98eb7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/OWNER_TERMINAL.json": "d829167d30db9568fce43faaa8e4d90129244f95215fda6c64a33e8b07811b46",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/owned-service/BINDING.json": "6462b1322d1f8307fce03dc03549c98587a59119f1d9203486340f4673fd3d3c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/RESULT.json": "467600965e65b6d33b4e9ce8e5619da1dba1480a7477558b76a15955aa83782f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/TERMINAL_STRIP_CONTRACT.json": "2d69a390898c708e754cc29cef2fae6dbb259cd8e240b683c7158a6b39b4d62f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b.json": "6a8a4c37422b43713b54ed275fce62df326f221ffb492110657a2bc5172cff08",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c.json": "6cf177ddcab885a8647aec7d5c7a9f22914b5b043f1b2d6730417d9b6a0ad166",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61.json": "3ae2b2377541aff377a229fd818a7dcdd18b47628c1535e9d97e802cbd3d999f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f.json": "ba0bb59311cf6a23efb3641de51e4df070c8e6cc113a108ddb87a82e59855de2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946.json": "1cc9bd4ae4dced96f397aa9fc214aaa5ad5d4c099fa5be8598bb4fd28535592d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370.json": "a4113caeafe26cafb4a11e782ef6d8c173f3024bfe2a58c4c7d086ade126cff5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2.json": "3be36624840d3d32a360f43f75a7914e9542f5f85fa2c18134855d2d61262794",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538.json": "7122971dcd344bba5a334832c2a94c8005e2e0c99b32e5d227c68d2d98b43826",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f.json": "6ea869055a43519da0a59ed3351977656af4b4d92960f2c753fe0d879ca085aa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e.json": "2a1f58fe1644f41782f05af83a87ddf93e0ad54d40fa4ba1cec8ae13ccf810f3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b.json": "8d9f26c67f7ac45918086a8ebbed8226aa4f3c1182edb5848d7cf700c88d5fb5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012.json": "786daa359dad9795de006479af0ec81d40bb060d1ce8af6814d6607be8386ff5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf.json": "1df7bc5aef3f6b9977b2f862b63b3671b6e13230985dcae82c9c2053642c16aa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246.json": "c3acb12836d5e6ec0f9b2c088a25e68c942e928f136e9bb12dbe2d40bd02333f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831.json": "f6e3546889d993042c86273da5d5693cf25c6e292c17e24aae999a16e32e26ce",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce.json": "7292d3061b534c9e4fcb64cfe16aef25b1161baf435bc1dc7871f53232adbbe1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0000-result.json": "2712d38b87d093c7c97028f21145d6391312c8f76dffc802270e879f6fb8ed51",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0000-start.json": "00ce49cf36af0f27d9991ae0a8e66b01c5d0ddf70901f4ff1bb20d178470e3ff",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0001-result.json": "78e87ee36852f70fa9db6628a5be591b93bcf60f8588d9bc726bbae1df8ce913",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0001-start.json": "52057657c1080fb71ebc4a08f9b43378c71138800bf0192f9bc8186d3d91cec9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0002-result.json": "a26964e50807adb80fcc13f72d54a23bb56088d7e1ceda9c12e3136a0f8968b1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0002-start.json": "9f7a4d71ac93af1cab52c7314b265f306ec848255d193c354506acc6ad42eba2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0003-result.json": "250b036d82ebb789e6896994178a3f6de9122af890960a199b457b98fa259fdc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0003-start.json": "b04ae2b822b74cd636d8ba9ee19b33a9454b6cb1d90e0ace2c5b948bb95b7610",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0004-result.json": "6f47bd8f1277abf26e16dd13a42a808c512a1f52cb9618b37ea6f0024fea29b2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0004-start.json": "4841b2177c4c1b3989d74a08a089067918ad560e24e79c3ad4859066301af939",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0005-result.json": "4460f89d0d76cfa2567e2adc3d746be31cc5c6bb570333b0affe61422dc6f713",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0005-start.json": "07752208731f150272bf1bd34110ae85ca418b39ef8ded8a46be4e217532903f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0006-result.json": "bcf40e93a34437c87b90c38ae9b253fb433dbcfec11d9e1d35b24f6df0d3a0a2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0006-start.json": "cc7c20a35e9800381aad66bbddde8d856a130a10de6f8ac24922ca82d0358ac8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0007-result.json": "096dbf555e10b3ae5eec8fc6a886e214bf3974701ff3880ea487e04c45fc6894",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0007-start.json": "86488030e3f6fc861c5327cb477528a3dbc45237aa63579599c1e57c4c8fa678",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0008-result.json": "d04aea56c217ce3b50c8dc6527d9735c314768d7fc63c7bfd6a8ad30b618189f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0008-start.json": "40a4d83da4b0a3ee5bcb99c8c3c1976dbd239062ed6dda3ea1ac4391a63eccff",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0009-result.json": "85799090a9ceeacf97f31f2199961e4b2f2ab240823181d23074bb541c1153dc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0009-start.json": "c2dd35db9aaae6358279b796e0087e09552d4d5ec3241b36a970d5f6f2af3160",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0010-result.json": "54106c4b49f5f5b87b9296f34afd49cfb5ca6c515713fff97e9eaf907476f71b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0010-start.json": "124ec3d33dd2a3fda0a9ebd4d83ada04ec87c171c1bdc194eae26a7c3c23600e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0011-result.json": "72a26a93a54f44587600021bd61f25a1b295819feafcbee6483929447b01ba7d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0011-start.json": "3c4dae4a6f90224cb8501baa880cece84bdadc73004bb3d4885cac927729ed3e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0012-result.json": "4cede81b484d0cc79ada8e29c59975aae5421a5350adf114ff75ef3e1b7863c9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0012-start.json": "af04d1ad0ef711edd97f4db3460d5a2e91a9c39c18a2f21499f65003c0711e00",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0013-result.json": "78fa8485433b3f7e15bd15ca7c370b6fa42302b83e805080d8e83abc808d0a69",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0013-start.json": "93377d46930c94e59baedf121ebc16eb17e4f2c7cf1521444b23afa12ef964ac",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0014-result.json": "46a3954bc55ee411731351ad0720cd63a3405a072c03a99eabbcc4696cd23d34",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0014-start.json": "240717b5cdbee6ea19630552d704c8ee265ee2f106f3ee2e21776f0b7c3553a2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0015-result.json": "d324344fc884da2fb62e4abd02b4793c4e49d0efc959750c1e59a2be1c8ae366",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0015-start.json": "3591db4d0c0572e8709c026576a1e93d46b6488cabc5cca2f1eb7c228bdcd933",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0016-result.json": "88acb89c5d90f5ca8e61d1d81c68b2527bf0de2dcb715d435ebe73f3e43af553",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0016-start.json": "32892cb4bfda8efdf169bea4c3bd6ac3b80b78f8ce47ab34fe25c911516a9c6d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0017-result.json": "79cbd7ca54f68bb4f27e184e15f5b493a05c13382569a2a10844f0bd33f62c33",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0017-start.json": "4a20b4da386fcb684e8f89ad9d8c61a3db17af7335eea8a9737b209a47e05ae8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0018-result.json": "6eb3a6d8b48e4efee9c8d4180ccfd47afc70ca535e364b6c9e73a9b67127ed29",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0018-start.json": "3979a2304ebbc2beee18912a4e8ae2ace37ee51ff62c9157d54befa46bd145e2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0019-result.json": "cafb99d3fd501651987c95df06bf2979fb08de3f5e582faf51f210f924d9fcd5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0019-start.json": "e40381649b8b3a44b6fa51027071876bfab6e4f30a3c02233ddafc82a0852268",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0020-result.json": "01d009421a15a3cc756f88b34a2d34f718f5d923522825bfec49124ddcffec40",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0020-start.json": "f428baa2d8874fcd456e967eab99c1c5f5557894679e3cc330edffe552526637",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0021-result.json": "aef3e3051c606142766cdd86472072991d05b22a38539a5a004c229fa6082eef",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0021-start.json": "8f751a83c9a004d4391705e5b2d1a2a11a9225e2f0db5cc130d7c47dce220fba",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0022-result.json": "f3155117869cd48fcf40f22696ad4ef521f14565d96af1faf4313b3d8a840980",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0022-start.json": "e43e8ad3fb1fe8a7279f76208c8fc13066488d53f333d2547335ed27f5488981",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0023-result.json": "692925f30ba97a2c93999b74c9e986329adcbc5bc584f081ea1709ca81c7b3db",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0023-start.json": "17654bc3a5a45ac0e704f6ed4aad1678cd36a880e5c4ee8682c747755511091a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0024-result.json": "c4b27e081005430ddafddadeb885b53d9e5920ac054699ae3b63ccc06709fc72",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0024-start.json": "1d3a2192b4c728ac6e2932826ab1fb54291cf99445d507c7c1facbc7b4a3bb30",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0025-result.json": "78870a78881b27a56dde890700fe2957a54a7e1f405a800fa44e6de3e6ee539c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0025-start.json": "876b568a8d08fe1ae1862c69b4471bfdffa6c19c9d39ea961db2e7b5946ff0da",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0026-result.json": "0dc027709e3c2cfa24c21e5a93662d6a56a953b429d25d156f4f45f3bc3eae1d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0026-start.json": "a29b0e187cf3087a327eb50012251a78cb9fc063e73e042cebf227acf98d2b93",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0027-result.json": "7226070951646aa30dca6c41a582076ed3f384da2a2a1e91b878f08d08528e8a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0027-start.json": "f7b04caccb7ab59f85eca8f42585dce3f6ead2f366f8e4795d385a271dee4f57",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0028-result.json": "a57a9d182a058390ea28ad3caf1db7017dc747a2578b78f437fe06d1ab0b5b6c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0028-start.json": "1f8358e82e9c2c0dcedce8c993957f10e80c64b3848b5cff473df0232ca7c671",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0029-result.json": "d1f980ab34e619385b0bfca5356dd546f716b8fc3e2136e43fd9ddb581cd2ac8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0029-start.json": "00660d079e2d0ad86b5429e8c22ca26e850b9e894e106da81e84b4b239796a0a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0030-result.json": "80380a4d61a303bb4b406b70ecb996099d76bf5c8e2ae50a525c0c018f1d46db",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/native-calls/0030-start.json": "afd401b8e1cae6351a626132784669d772733b73932dbd6f090e72470060ae6b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/checkpoint-artifacts/CHECKPOINT_READY.json": "408a2935b103cb173f1a8280147ec96f48ff2a663816d505f2fc3403ebee4d43"
+  },
+  "stages": {
+    "base": {
+      "arm": "base",
+      "binding": {
+        "fixed_child": "Qwen3-4B-Instruct-2507-procedural-eval-zero",
+        "models": {
+          "Qwen3-4B-Instruct-2507-procedural-eval-zero": {
+            "adapter_sha256": "263a1cfeb385a448379ad2dc685f7191aa86f9a65cf635017c8453839ce9067f",
+            "config_sha256": "f4cd1182fd350ca49043995da16bcae7001cc02e6062497ea70d52434ec1214d",
+            "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/checkpoint-artifacts/base-zero-adapter"
+          }
+        },
+        "post_training_or_evaluation_checkpoint_selection": false,
+        "role_map": {
+          "children": [
+            "Qwen3-4B-Instruct-2507-procedural-eval-zero"
+          ],
+          "root": "Qwen3-4B-Instruct-2507-procedural-eval-zero"
+        },
+        "schema": "openai-mrcr-procedural-sft-continue32-fixed-root-child-binding-v1",
+        "selection_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/checkpoint-artifacts/CHECKPOINT_READY.json",
+        "selection_semantics": "fixed checkpoint32 continuation; zero-LoRA released-base transport",
+        "selection_sha256": "408a2935b103cb173f1a8280147ec96f48ff2a663816d505f2fc3403ebee4d43"
+      },
+      "collector_result": {
+        "all_action_caps_respected": true,
+        "all_causal_mappings_complete": true,
+        "all_initial_root_prefixes_verified": true,
+        "arm": "base",
+        "checkpoint_receipt_sha256": "408a2935b103cb173f1a8280147ec96f48ff2a663816d505f2fc3403ebee4d43",
+        "child_actions": 0,
+        "complete": true,
+        "completion_tokens": 14417,
+        "infrastructure_unavailable": 0,
+        "missing_coordinates": [],
+        "normalized_exact": 0,
+        "official_score_sum": 3.1126307470884664,
+        "phase": "long",
+        "planned": 16,
+        "prompt_tokens": 140417,
+        "raw_exact": 0,
+        "ready_identity": "cabf187d29dbfce11ad2a25f5474e3b5cf962951b7459983833ce23e3d0261f5",
+        "recorded": 16,
+        "root_actions": 52,
+        "schema": "openai-mrcr-procedural-sft-readout-result-v1",
+        "scientifically_available": 16,
+        "usage_unknown_calls": 0
+      },
+      "integrity_errors": [],
+      "physical": {
+        "child": {
+          "calls": 0,
+          "completion_tokens": 0,
+          "prompt_tokens": 0
+        },
+        "completion_tokens": 14417,
+        "errors": 0,
+        "prompt_tokens": 140417,
+        "result_records": 52,
+        "returned": 52,
+        "root": {
+          "calls": 52,
+          "completion_tokens": 14417,
+          "prompt_tokens": 140417
+        },
+        "start_only": 0,
+        "started": 52
+      },
+      "records": {
+        "089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b": {
+          "answer_sha256": "abf7e7590211d22033dbcc5b9eb73a9e3e60be130d4ee0bd598e685bc246adbc",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "85a1b7f2492b015419225eca7fc5bd3665c570102d241593d5a945ab1369b12f",
+            "id": "089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b",
+            "ordered_core_sha256": "54cf29c5f6f00ac1d6a9f33507e948d5e8430b6af1fe6e144f46e722c69f50d1",
+            "phase": "long",
+            "record_id": "omrcr-four-eb401343d31f0c19c390",
+            "repeat": 0,
+            "row_index": 2,
+            "seed": 202609260002,
+            "source_row_sha256": "eb401343d31f0c19c390c0e0124c2a0192736cc5ad266a04bb5443d5d579f970",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 4,
+              "completion_tokens": 674,
+              "prompt_tokens": 7967
+            }
+          },
+          "episode_file_sha256": "6b839dfc8c98f5b15e4bc5c0644ee9badcabbcbe6852957a41f443b730a5f2cf",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b.json",
+          "failure_class": null,
+          "first_program_sha256": "4df8693daf7fc552c02b45806e685d6ccbe539a1797680991f128dc71032f1a3",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": true,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 3,
+            "tool_observation_utf8_bytes": 14044,
+            "traceback_observations": 2,
+            "truncated_observations": 0
+          },
+          "native_returned": 4,
+          "neural_initial_prefix_tokens": 770,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "94ed7cbfbaa0c2557c368a4c01a569baf8f2aafc526f9fed3e6b3780da8ef5a1",
+          "source_ordinal": 490,
+          "source_prompt_json_bytes": 31714,
+          "source_prompt_plus_answer_o200k_tokens": 6987,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c": {
+          "answer_sha256": "acc71f7e0419be7f1444d13cc25852e61656b17696b1ee923ba9ecd85b710fb1",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "589c78b2f0c5177d0875df56af4587c76ecb4bccc76129ba930d3390769061d9",
+            "id": "27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c",
+            "ordered_core_sha256": "b113a9b14e18772352cbcee27b756ba4554a08aa6876aa728e7b0bb55ef1d1a3",
+            "phase": "long",
+            "record_id": "omrcr-four-b3bb743aaabfbf3ef49f",
+            "repeat": 0,
+            "row_index": 8,
+            "seed": 202609260008,
+            "source_row_sha256": "b3bb743aaabfbf3ef49fe5c452d4a918bfc7ab33c7be0b82017f4cf089e2183c",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 4,
+              "completion_tokens": 1185,
+              "prompt_tokens": 14430
+            }
+          },
+          "episode_file_sha256": "21f3f542ab2def41997cb83930b2427e117240db61c2fbd6ab5ed829cfe1080c",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c.json",
+          "failure_class": null,
+          "first_program_sha256": "d4f71b1b59afec0100af2b92256268208fedd92e382103a82535147ddb29f510",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": true,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": false,
+            "tool_observation_count": 3,
+            "tool_observation_utf8_bytes": 20600,
+            "traceback_observations": 2,
+            "truncated_observations": 1
+          },
+          "native_returned": 4,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 0.9606946983546618,
+          "raw_exact": false,
+          "root_reply_sha256": "7d83f32c476d13ceb1e96a459bb5058a1bb3226b3b77d3f30c79b298374d5465",
+          "source_ordinal": 412,
+          "source_prompt_json_bytes": 36637,
+          "source_prompt_plus_answer_o200k_tokens": 7645,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61": {
+          "answer_sha256": "8285bd8f84d60a1255b754cf58791c605909d3ab0d682546861c735b73bc6ffa",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "4165e609d716e4983d0b88a1b519938c5c95b3ab0f017ee2d79137b6955a23b5",
+            "id": "31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61",
+            "ordered_core_sha256": "e9719c230cea01fb1d58476e43144f8e750d4231348ca280b5022ef4e21b86f2",
+            "phase": "long",
+            "record_id": "omrcr-four-7ef36900e396ff49f6e5",
+            "repeat": 0,
+            "row_index": 4,
+            "seed": 202609260004,
+            "source_row_sha256": "7ef36900e396ff49f6e5efdfba24e850a28cdd3dd048eb6bfc530149f4a14380",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 1,
+              "completion_tokens": 243,
+              "prompt_tokens": 774
+            }
+          },
+          "episode_file_sha256": "f21cb7db81a5970c6cc2f0d055b9558b5b3292220d2e929a971571f90f819246",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61.json",
+          "failure_class": "model_invalid_terminal",
+          "first_program_sha256": null,
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": false,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": false,
+            "tool_observation_count": 0,
+            "tool_observation_utf8_bytes": 0,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 1,
+          "neural_initial_prefix_tokens": 774,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_ordinal": 448,
+          "source_prompt_json_bytes": 33430,
+          "source_prompt_plus_answer_o200k_tokens": 7689,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f": {
+          "answer_sha256": "9da82a0d12a643c515683f2f924d15511279a4b8d14ec97337334298a3704ed4",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "783ee7e480862f15747e530eb063c09b19354e9f4d6b7b2100bf543e6ddee83f",
+            "id": "404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f",
+            "ordered_core_sha256": "f3f3686402e8be882152cfe2367fce38d9f9debb7af9668427a35c7ae39a18ce",
+            "phase": "long",
+            "record_id": "omrcr-four-aa303ed94ba4ecf7bf90",
+            "repeat": 0,
+            "row_index": 9,
+            "seed": 202609260009,
+            "source_row_sha256": "aa303ed94ba4ecf7bf902d65922dbf6957d3cfe530cf53e7efafb144c343126e",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 1,
+              "completion_tokens": 236,
+              "prompt_tokens": 772
+            }
+          },
+          "episode_file_sha256": "3fad66e2d8d29e74ca720e7cc00f2cdf32834e8f8b6ed347294b4700684436ff",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f.json",
+          "failure_class": "model_invalid_terminal",
+          "first_program_sha256": null,
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": false,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": false,
+            "tool_observation_count": 0,
+            "tool_observation_utf8_bytes": 0,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 1,
+          "neural_initial_prefix_tokens": 772,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_ordinal": 404,
+          "source_prompt_json_bytes": 33026,
+          "source_prompt_plus_answer_o200k_tokens": 6901,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946": {
+          "answer_sha256": "896d7e134dc7bc1914f4bd154823f0538498913aa0ca46b5a3d5a620c0e82901",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "c21cb5bb98af95c50d1c08a7ece0c551909f568ca3202c9b7a4986b96221dd73",
+            "id": "584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946",
+            "ordered_core_sha256": "0315d7bf000751ef700db2f3ae6c167aa4ac007d619d8875f44c476410152c4f",
+            "phase": "long",
+            "record_id": "omrcr-four-e802ed0f78b9495de9ac",
+            "repeat": 0,
+            "row_index": 10,
+            "seed": 202609260010,
+            "source_row_sha256": "e802ed0f78b9495de9ac8c86fff8c7a71f2727c1e6704c86ee527aa4a7719d7f",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 5,
+              "completion_tokens": 1324,
+              "prompt_tokens": 17309
+            }
+          },
+          "episode_file_sha256": "60bcd1891e5fe77b05ff85ecfe8c433a12a2528010415ee15d111977297614af",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946.json",
+          "failure_class": null,
+          "first_program_sha256": "d98965ced6da4d6a3e4ffa51e2df9ca3c6776209daa722fd08cf819165457b07",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": true,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": false,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 4,
+            "tool_observation_utf8_bytes": 21516,
+            "traceback_observations": 2,
+            "truncated_observations": 1
+          },
+          "native_returned": 5,
+          "neural_initial_prefix_tokens": 770,
+          "official_marker_gated_sequence_matcher_similarity": 0.983271375464684,
+          "raw_exact": false,
+          "root_reply_sha256": "27af0ab99f96b8db09dbe8061db86978cffc3b2389729f9afd9061d406cb728d",
+          "source_ordinal": 456,
+          "source_prompt_json_bytes": 29460,
+          "source_prompt_plus_answer_o200k_tokens": 6063,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370": {
+          "answer_sha256": "c01b036b21b6edbb6dac7408045f6997463c4bacb1c87da83c54dd9f1708c52c",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "8881d7701caa433ac0ad8c4693311014aafe770f1483101b163779e088ea8e68",
+            "id": "5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370",
+            "ordered_core_sha256": "ca88818f37a4556d4025ad5873f9d4a5631bcc0bed5f9ef88e03f468a3b34bfa",
+            "phase": "long",
+            "record_id": "omrcr-four-fd626bc88561a8dfe388",
+            "repeat": 0,
+            "row_index": 5,
+            "seed": 202609260005,
+            "source_row_sha256": "fd626bc88561a8dfe388681f549657be6915dbaf9526b6f9c45cc24fa36b6060",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 314,
+              "prompt_tokens": 1876
+            }
+          },
+          "episode_file_sha256": "a73d3a6bdf6479d960449b0ebdc05e351452412c9ffc47a35c4a76c3cde25224",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370.json",
+          "failure_class": null,
+          "first_program_sha256": "70846a35b9b550a4b6d76767d3006fb6433b2cc6a7efec80a679ce8c3013d19d",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 56,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 770,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "e3ebaa16dd9d9b9fc107c42183fb6cf9d22927e1af03dbbdfa0ccc38e4e4ac31",
+          "source_ordinal": 418,
+          "source_prompt_json_bytes": 19638,
+          "source_prompt_plus_answer_o200k_tokens": 4732,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2": {
+          "answer_sha256": "de654fa883b028de3eda0a4e05cd869a5497b2449eb60df0c3b339b59765ed23",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "a0ddcc5509cbb1c6acbe76446b4be8362418585f52fb6b2a7d0636db460743a2",
+            "id": "868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2",
+            "ordered_core_sha256": "22cdd976b8f21077bdb428d14f50974ad4489b8a192bd16b8aa14400922dd42f",
+            "phase": "long",
+            "record_id": "omrcr-four-f61eed2051996b816726",
+            "repeat": 0,
+            "row_index": 15,
+            "seed": 202609260015,
+            "source_row_sha256": "f61eed2051996b8167268688f62af1ece210465fb7c26fb8606d9c23bd406c93",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 4,
+              "completion_tokens": 1426,
+              "prompt_tokens": 14306
+            }
+          },
+          "episode_file_sha256": "4aa18ba31a343acff11651ed8fb87a3d77bcdae4e4cd4fb85c0f1d45f24b7aeb",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2.json",
+          "failure_class": null,
+          "first_program_sha256": "aee5be61c60b841d8ae7f3faab15047c10ab52bdce56c28379efc7712658452f",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": true,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": false,
+            "tool_observation_count": 3,
+            "tool_observation_utf8_bytes": 20605,
+            "traceback_observations": 2,
+            "truncated_observations": 1
+          },
+          "native_returned": 4,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 0.03757632691404415,
+          "raw_exact": false,
+          "root_reply_sha256": "81560436f93aadf159aba21f9cfd923ee0d685e36c57dd138e532c9956f03ada",
+          "source_ordinal": 481,
+          "source_prompt_json_bytes": 22065,
+          "source_prompt_plus_answer_o200k_tokens": 4912,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538": {
+          "answer_sha256": "5a73298535f512feeeebbaf4943bca8a44620b7ce79de476725abd93bebc0ceb",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "fd961b05d21054c6e2d24b7970fa61a753110643564db05ebde873a73b0cf0bb",
+            "id": "965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538",
+            "ordered_core_sha256": "c4ff3bb6d8555c5f106970fc9e6dc6a8624cc1fa6f4aff84c125b8dbfdf577d5",
+            "phase": "long",
+            "record_id": "omrcr-four-c09fb4c7d672b0d18934",
+            "repeat": 0,
+            "row_index": 6,
+            "seed": 202609260006,
+            "source_row_sha256": "c09fb4c7d672b0d18934ec7aa5a5fa7bd9c22e1a65c698da9b09ba8465d03a89",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 4,
+              "completion_tokens": 982,
+              "prompt_tokens": 11390
+            }
+          },
+          "episode_file_sha256": "5253302a834f1b6595d079ad3a02633a4381818645cd6b2f6a3b07d4c5e49102",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538.json",
+          "failure_class": null,
+          "first_program_sha256": "5a943d5b4ebaef9764d2a54e042d764a1b8c112f7733f7c1026db5fdaebb3aef",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": true,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 3,
+            "tool_observation_utf8_bytes": 14789,
+            "traceback_observations": 1,
+            "truncated_observations": 0
+          },
+          "native_returned": 4,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 0.025086505190311418,
+          "raw_exact": false,
+          "root_reply_sha256": "5178aed3652be1b60b6296b0fb6c2d458dc4bd70f6a27e3b905e5d73e696273d",
+          "source_ordinal": 414,
+          "source_prompt_json_bytes": 18445,
+          "source_prompt_plus_answer_o200k_tokens": 4296,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f": {
+          "answer_sha256": "b600ad9e0ca74f864b4f258a2882aa1443d2995e8f6e697a30944cfd9030fcea",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "bef915d02d0b45445c9bd8e5d87e312d6d16ad64c91471e16ab5fb72b2ff50cf",
+            "id": "97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f",
+            "ordered_core_sha256": "67f88a4be65547c8371b145d6bbdb2145f435627872a69d3ef9d05eb2a870fef",
+            "phase": "long",
+            "record_id": "omrcr-four-a74b4c66fc01bd68de3d",
+            "repeat": 0,
+            "row_index": 12,
+            "seed": 202609260012,
+            "source_row_sha256": "a74b4c66fc01bd68de3d16103ac1e5f95125e62d0e6a427af19f15a31061be97",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 6,
+              "completion_tokens": 1909,
+              "prompt_tokens": 26099
+            }
+          },
+          "episode_file_sha256": "666b9be832cd13524982eb5175bd3c82104f3237ab472aa1d2cc87a46566a7a9",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f.json",
+          "failure_class": null,
+          "first_program_sha256": "472a5ba719fea32753d56cc666a9b82d32386c209f7bbb016b28820adf8968c0",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": true,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 5,
+            "tool_observation_utf8_bytes": 21957,
+            "traceback_observations": 5,
+            "truncated_observations": 1
+          },
+          "native_returned": 6,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 0.9933590733590734,
+          "raw_exact": false,
+          "root_reply_sha256": "1145db5d2cd234c18c778d90b00e9ea66817969cedd96a6c65c3fd6084d9b1f3",
+          "source_ordinal": 459,
+          "source_prompt_json_bytes": 25018,
+          "source_prompt_plus_answer_o200k_tokens": 5386,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e": {
+          "answer_sha256": "c612a563f8862d5c6dfa33c8ab65ed6f9fdf25adb7ec5fd34fd0028bf010acbc",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "c5367c2b640203be9820f8c82c8f1b07bcce37ebea62d407dae3bc2f3d2226c1",
+            "id": "a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e",
+            "ordered_core_sha256": "b705323113a6684564ebe4c33171bb0ad72f9267a8861860bceb8ab6a585cd98",
+            "phase": "long",
+            "record_id": "omrcr-four-4f4ea6a28046671244e4",
+            "repeat": 0,
+            "row_index": 13,
+            "seed": 202609260013,
+            "source_row_sha256": "4f4ea6a28046671244e4ab1a7fff151f27ecd245053cef793f4545df044cf555",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 1,
+              "completion_tokens": 222,
+              "prompt_tokens": 772
+            }
+          },
+          "episode_file_sha256": "c2703a666b25522f8c2dace73144cfd267e7240b312f0a5e45d4a19637848688",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e.json",
+          "failure_class": "model_invalid_terminal",
+          "first_program_sha256": null,
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": false,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": false,
+            "tool_observation_count": 0,
+            "tool_observation_utf8_bytes": 0,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 1,
+          "neural_initial_prefix_tokens": 772,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_ordinal": 474,
+          "source_prompt_json_bytes": 34071,
+          "source_prompt_plus_answer_o200k_tokens": 7871,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b": {
+          "answer_sha256": "1022546a7dda955e9010daca408f421447b7cde52f4794565dd58c5fdc210d80",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "777b67501c838ba196542d1cfefe5269f2c0e8294ddec234fb6a2d430d948534",
+            "id": "b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b",
+            "ordered_core_sha256": "ec2c2d913ec47a6a60e2123abfadbe9139f4db923fbe01777da58619ecd84b46",
+            "phase": "long",
+            "record_id": "omrcr-four-c6ef6fdb8d43f3f08137",
+            "repeat": 0,
+            "row_index": 14,
+            "seed": 202609260014,
+            "source_row_sha256": "c6ef6fdb8d43f3f08137f388869ffb5e72a96246fef1eabac6fcb7ed165c99cc",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 1,
+              "completion_tokens": 224,
+              "prompt_tokens": 768
+            }
+          },
+          "episode_file_sha256": "87039858b66dd0a52d96b73b39e18e64f2dd360e1e4980ff29b217145ec99f4a",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b.json",
+          "failure_class": "model_invalid_terminal",
+          "first_program_sha256": null,
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": false,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": false,
+            "tool_observation_count": 0,
+            "tool_observation_utf8_bytes": 0,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 1,
+          "neural_initial_prefix_tokens": 768,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_ordinal": 449,
+          "source_prompt_json_bytes": 19495,
+          "source_prompt_plus_answer_o200k_tokens": 4472,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012": {
+          "answer_sha256": "3e87b6b2b4f32b583d10e53e0248ef338f9b0e88b5a2ce45dcd3590a228f2e42",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "99d7676275f2181bb75f1f6f2c6aa9a01485276c8bbff9b792b68ca29e8759d1",
+            "id": "b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012",
+            "ordered_core_sha256": "86179a7d89a283255b7779b2b2d18395137d83746bcb100f0272453aad4c263e",
+            "phase": "long",
+            "record_id": "omrcr-four-8afc2443653b40ddb288",
+            "repeat": 0,
+            "row_index": 3,
+            "seed": 202609260003,
+            "source_row_sha256": "8afc2443653b40ddb288a91e95cf4b3aeaea0e1f8bf11d3948c23618d8b11980",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 1,
+              "completion_tokens": 206,
+              "prompt_tokens": 771
+            }
+          },
+          "episode_file_sha256": "a8036e2aa70d747298865dec570716e6ecf77307e25638d9d22ac00683209e4d",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012.json",
+          "failure_class": "model_invalid_terminal",
+          "first_program_sha256": null,
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": false,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": false,
+            "tool_observation_count": 0,
+            "tool_observation_utf8_bytes": 0,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 1,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_ordinal": 408,
+          "source_prompt_json_bytes": 29787,
+          "source_prompt_plus_answer_o200k_tokens": 5963,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf": {
+          "answer_sha256": "5a769555efd0f1da92ddc778faa7713e48ecbb4204c6b465cc87c431c96cb76e",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "a068d5835f5a9e826bb10d6460451c476664872d0a501ab4939fcbd4c2b98f3e",
+            "id": "b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf",
+            "ordered_core_sha256": "d3baf03c95989076fbc8204415399751f895557571fd6d03ff53bce57b341886",
+            "phase": "long",
+            "record_id": "omrcr-four-45e34dc2b87a24884f6b",
+            "repeat": 0,
+            "row_index": 7,
+            "seed": 202609260007,
+            "source_row_sha256": "45e34dc2b87a24884f6b012886b980061e067d69bb4a13d3cd1eee75c098899f",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 5,
+              "completion_tokens": 952,
+              "prompt_tokens": 7331
+            }
+          },
+          "episode_file_sha256": "acef448f212df84b1734af9521c488b77f420ea77100a7446f57a0b87e0ff88d",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf.json",
+          "failure_class": null,
+          "first_program_sha256": "383c49d6f593b29f0a288aa72e5b5a5e0f790bad5ca9768d013c2db8efbe474a",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": false,
+            "tool_observation_count": 4,
+            "tool_observation_utf8_bytes": 1454,
+            "traceback_observations": 3,
+            "truncated_observations": 0
+          },
+          "native_returned": 5,
+          "neural_initial_prefix_tokens": 767,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "d1cf15562d9427e23fdad381af1762a915efa2461f5302da11c9f468274bb4a8",
+          "source_ordinal": 457,
+          "source_prompt_json_bytes": 26256,
+          "source_prompt_plus_answer_o200k_tokens": 5634,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246": {
+          "answer_sha256": "49c67ca976a1a1d663b636058880b762cb5051d45b16d3a92f286c32cbfdbe89",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "62103624bdcb76343665e0690598aec52baff14462e547d200049bd4fbe7aa09",
+            "id": "b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246",
+            "ordered_core_sha256": "12054a62921e30392e052cc08999a0697dcf0c1f0ffaaccf956fe958a929bb58",
+            "phase": "long",
+            "record_id": "omrcr-four-7cd3a925beb322d2709a",
+            "repeat": 0,
+            "row_index": 11,
+            "seed": 202609260011,
+            "source_row_sha256": "7cd3a925beb322d2709adac40ea2b7fbd6c4984e06aa463eed31ced68d7a0a2a",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 4,
+              "completion_tokens": 1177,
+              "prompt_tokens": 14476
+            }
+          },
+          "episode_file_sha256": "d24400fd5d1560f899dd85345cdedf0189ef3ee211a918877b1bec9bfdaaa445",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246.json",
+          "failure_class": null,
+          "first_program_sha256": "8c30c864c39c38c1940882706a732f27d5e02baf1ccad869c0dc2d59426ffdf7",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": true,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": false,
+            "tool_observation_count": 3,
+            "tool_observation_utf8_bytes": 20653,
+            "traceback_observations": 2,
+            "truncated_observations": 1
+          },
+          "native_returned": 4,
+          "neural_initial_prefix_tokens": 770,
+          "official_marker_gated_sequence_matcher_similarity": 0.03166986564299424,
+          "raw_exact": false,
+          "root_reply_sha256": "0d7e4d743e8a992a3cb939b61692206cd61462d740ffa119467fc41056cc57ac",
+          "source_ordinal": 400,
+          "source_prompt_json_bytes": 21449,
+          "source_prompt_plus_answer_o200k_tokens": 4523,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831": {
+          "answer_sha256": "6c9614e88be9eb530113202d772411bb1770e355e9c0a1353b0b32b662f71df4",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "1f9b611072d63fca849956b7bee8d8ab4de67e2d3ab1648d38e23e5f67d2bbab",
+            "id": "f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831",
+            "ordered_core_sha256": "625302048ad53ea30170032dc19fc296e39e2931a0ede365d5042ba8f1eca48e",
+            "phase": "long",
+            "record_id": "omrcr-four-48c76520dd84ccd6c577",
+            "repeat": 0,
+            "row_index": 0,
+            "seed": 202609260000,
+            "source_row_sha256": "48c76520dd84ccd6c577be98a2a2712f2366e3511b090add185e5ea815c57635",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 5,
+              "completion_tokens": 1501,
+              "prompt_tokens": 10965
+            }
+          },
+          "episode_file_sha256": "01ddd260a7db99a0fa8de02c68c0d85e52d3a48372e8ee8605c237d7465253ad",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831.json",
+          "failure_class": null,
+          "first_program_sha256": "4225665a63f41f091132833fb6f63b7be84a4a1e5fa5be0d520729a0d9cd4a9e",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": true,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 4,
+            "tool_observation_utf8_bytes": 16956,
+            "traceback_observations": 3,
+            "truncated_observations": 0
+          },
+          "native_returned": 5,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 0.04131175468483816,
+          "raw_exact": false,
+          "root_reply_sha256": "dbb5aa841fec2a1a08c793125cd508874a5172d8bb74e719909ae8faeb0380b4",
+          "source_ordinal": 479,
+          "source_prompt_json_bytes": 22455,
+          "source_prompt_plus_answer_o200k_tokens": 4773,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce": {
+          "answer_sha256": "8ac9aac7b5cc603fa274432d510f33cc982f8d5d0d88b2b65ab7558d3e9dd55a",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "c4ebb13a0a53d279b09913148dfb5ab17c31d5331e9c3e8139b4705e7b9a420f",
+            "id": "fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce",
+            "ordered_core_sha256": "7893d61894ae481bf42546c85b91627730dc0ce9b8c923c4790cf5d9648e0ce1",
+            "phase": "long",
+            "record_id": "omrcr-four-fe56a62176f39fe1ef93",
+            "repeat": 0,
+            "row_index": 1,
+            "seed": 202609260001,
+            "source_row_sha256": "fe56a62176f39fe1ef93a12de53a442ad199156dd692e6d72ccf9face6f1205f",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 4,
+              "completion_tokens": 1842,
+              "prompt_tokens": 10411
+            }
+          },
+          "episode_file_sha256": "283a45bedcb9ac42f3456c8228a070ff0bb86eab7a8b97fda90941430cec2630",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/episodes/fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce.json",
+          "failure_class": null,
+          "first_program_sha256": "bb96cef7930ec0bb77854a5314ec8b8abb0206ff13db4d14700241e063bc401d",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": true,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 3,
+            "tool_observation_utf8_bytes": 19448,
+            "traceback_observations": 2,
+            "truncated_observations": 0
+          },
+          "native_returned": 4,
+          "neural_initial_prefix_tokens": 774,
+          "official_marker_gated_sequence_matcher_similarity": 0.039661147477859066,
+          "raw_exact": false,
+          "root_reply_sha256": "90e2fa7e5a4517c2a6bd3c646011ae5267376c748cf87e8b4e5ec6244c8e9020",
+          "source_ordinal": 482,
+          "source_prompt_json_bytes": 26560,
+          "source_prompt_plus_answer_o200k_tokens": 6348,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        }
+      },
+      "summary": {
+        "available": 16,
+        "by_target_occurrence": {
+          "3": {
+            "available": 8,
+            "mechanisms": {
+              "no_clean_target_and_wrong_final": 8
+            },
+            "planned": 8,
+            "raw_exact": 0,
+            "recorded": 8
+          },
+          "4": {
+            "available": 8,
+            "mechanisms": {
+              "no_clean_target_and_wrong_final": 8
+            },
+            "planned": 8,
+            "raw_exact": 0,
+            "recorded": 8
+          }
+        },
+        "mechanisms": {
+          "no_clean_target_and_wrong_final": 16
+        },
+        "planned": 16,
+        "raw_exact": 0,
+        "recorded": 16
+      },
+      "terminal": {
+        "complete": true,
+        "elapsed_seconds": 264.5811173915863,
+        "errors": null,
+        "no_retry": true,
+        "optimizer_steps": 0,
+        "recorded": 16,
+        "released": true,
+        "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/RESULT.json",
+        "scientifically_available": 16,
+        "stage": "base",
+        "terminal_strip_contract": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/TERMINAL_STRIP_CONTRACT.json"
+      },
+      "terminal_contract": {
+        "condition": "terminal-strip-disabled",
+        "general_lossless_parser": false,
+        "gold_dependent_repair": false,
+        "hook_sha256": "3361c4aa6e3063e7742f5166be45b4bea8b83eb370d8b774da2e08e8924849bf",
+        "parser_change": "final content=text.strip() -> content=text",
+        "reasoning_newline_rule_unchanged": true,
+        "root_storage_change": "successful ACPTurn.reply preserved exactly after original metadata callback",
+        "source_sha256": {
+          "/project/alex_phd/research-cache/repos/prime-rl/deps/renderers/renderers/parsing.py": "4b54e8c82d81e0f00eb3f1b107a79892e2eff45d7b8a8c9ae40ebe4112ba87f4",
+          "/project/alex_phd/research-cache/repos/prime-rl/deps/renderers/renderers/qwen3.py": "75c4d4a96c7fe930b0fe80d83df894133e1319b364b033cf97fbea2d84e8e146",
+          "/project/alex_phd/research-cache/repos/prime-rl/deps/verifiers/verifiers/v1/acp/__init__.py": "c143d95580458c9b8e9c822860e34116e034e00d4325ffdd3b2298dd0c0adfb4",
+          "/project/alex_phd/research-cache/repos/prime-rl/deps/verifiers/verifiers/v1/harnesses/rlm/harness.py": "7256f1efe1d0b44c8488e62edc93c41fa2da1fae95620bc6de4dea2e7d517bfc"
+        },
+        "tool_parsing_unchanged": true
+      }
+    },
+    "checkpoint32": {
+      "arm": "checkpoint32",
+      "binding": {
+        "fixed_child": "Qwen3-4B-Instruct-2507-procedural-eval-zero",
+        "models": {
+          "Qwen3-4B-Instruct-2507-mrcr-procedural-sft-step32": {
+            "adapter_sha256": "020e05b23a065c1f0e3cfe36cbb0e1108acb1d6f3391e003898074556fe2d23a",
+            "config_sha256": "f4cd1182fd350ca49043995da16bcae7001cc02e6062497ea70d52434ec1214d",
+            "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-v1/outputs/attempt-001/checkpoint-0032"
+          },
+          "Qwen3-4B-Instruct-2507-procedural-eval-zero": {
+            "adapter_sha256": "263a1cfeb385a448379ad2dc685f7191aa86f9a65cf635017c8453839ce9067f",
+            "config_sha256": "f4cd1182fd350ca49043995da16bcae7001cc02e6062497ea70d52434ec1214d",
+            "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/checkpoint-artifacts/base-zero-adapter"
+          }
+        },
+        "post_training_or_evaluation_checkpoint_selection": false,
+        "role_map": {
+          "children": [
+            "Qwen3-4B-Instruct-2507-procedural-eval-zero"
+          ],
+          "root": "Qwen3-4B-Instruct-2507-mrcr-procedural-sft-step32"
+        },
+        "schema": "openai-mrcr-procedural-sft-continue32-fixed-root-child-binding-v1",
+        "selection_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-procedural-sft-continue32-eval-v1/checkpoint-artifacts/CHECKPOINT_READY.json",
+        "selection_semantics": "fixed checkpoint32 continuation; zero-LoRA released-base transport",
+        "selection_sha256": "408a2935b103cb173f1a8280147ec96f48ff2a663816d505f2fc3403ebee4d43"
+      },
+      "collector_result": {
+        "all_action_caps_respected": true,
+        "all_causal_mappings_complete": true,
+        "all_initial_root_prefixes_verified": true,
+        "arm": "checkpoint32",
+        "checkpoint_receipt_sha256": "408a2935b103cb173f1a8280147ec96f48ff2a663816d505f2fc3403ebee4d43",
+        "child_actions": 0,
+        "complete": true,
+        "completion_tokens": 10880,
+        "infrastructure_unavailable": 0,
+        "missing_coordinates": [],
+        "normalized_exact": 13,
+        "official_score_sum": 12.997592303319433,
+        "phase": "long",
+        "planned": 16,
+        "prompt_tokens": 33106,
+        "raw_exact": 10,
+        "ready_identity": "cabf187d29dbfce11ad2a25f5474e3b5cf962951b7459983833ce23e3d0261f5",
+        "recorded": 16,
+        "root_actions": 31,
+        "schema": "openai-mrcr-procedural-sft-readout-result-v1",
+        "scientifically_available": 16,
+        "usage_unknown_calls": 0
+      },
+      "integrity_errors": [],
+      "physical": {
+        "child": {
+          "calls": 0,
+          "completion_tokens": 0,
+          "prompt_tokens": 0
+        },
+        "completion_tokens": 10880,
+        "errors": 0,
+        "prompt_tokens": 33106,
+        "result_records": 31,
+        "returned": 31,
+        "root": {
+          "calls": 31,
+          "completion_tokens": 10880,
+          "prompt_tokens": 33106
+        },
+        "start_only": 0,
+        "started": 31
+      },
+      "records": {
+        "089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b": {
+          "answer_sha256": "abf7e7590211d22033dbcc5b9eb73a9e3e60be130d4ee0bd598e685bc246adbc",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "85a1b7f2492b015419225eca7fc5bd3665c570102d241593d5a945ab1369b12f",
+            "id": "089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b",
+            "ordered_core_sha256": "54cf29c5f6f00ac1d6a9f33507e948d5e8430b6af1fe6e144f46e722c69f50d1",
+            "phase": "long",
+            "record_id": "omrcr-four-eb401343d31f0c19c390",
+            "repeat": 0,
+            "row_index": 2,
+            "seed": 202609260002,
+            "source_row_sha256": "eb401343d31f0c19c390c0e0124c2a0192736cc5ad266a04bb5443d5d579f970",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 718,
+              "prompt_tokens": 2269
+            }
+          },
+          "episode_file_sha256": "6a8a4c37422b43713b54ed275fce62df326f221ffb492110657a2bc5172cff08",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/089d4e30ea93e61ca34aafcfe4d2b620a2c7291bf6d245c87b7c8cf955eacc4b.json",
+          "failure_class": null,
+          "first_program_sha256": "bf141079a907d7f60155bb4a56bdf88fabda3be377ca504521fd3029708423c2",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "exact_after_clean_target",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "db1e60749fb4935a39193ea3d7139fa6779dd3f22249fc4bcd8f0bb2a69d67c5",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 2605,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 770,
+          "official_marker_gated_sequence_matcher_similarity": 1.0,
+          "raw_exact": true,
+          "root_reply_sha256": "abf7e7590211d22033dbcc5b9eb73a9e3e60be130d4ee0bd598e685bc246adbc",
+          "source_ordinal": 490,
+          "source_prompt_json_bytes": 31714,
+          "source_prompt_plus_answer_o200k_tokens": 6987,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c": {
+          "answer_sha256": "acc71f7e0419be7f1444d13cc25852e61656b17696b1ee923ba9ecd85b710fb1",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "589c78b2f0c5177d0875df56af4587c76ecb4bccc76129ba930d3390769061d9",
+            "id": "27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c",
+            "ordered_core_sha256": "b113a9b14e18772352cbcee27b756ba4554a08aa6876aa728e7b0bb55ef1d1a3",
+            "phase": "long",
+            "record_id": "omrcr-four-b3bb743aaabfbf3ef49f",
+            "repeat": 0,
+            "row_index": 8,
+            "seed": 202609260008,
+            "source_row_sha256": "b3bb743aaabfbf3ef49fe5c452d4a918bfc7ab33c7be0b82017f4cf089e2183c",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 483,
+              "prompt_tokens": 2037
+            }
+          },
+          "episode_file_sha256": "6cf177ddcab885a8647aec7d5c7a9f22914b5b043f1b2d6730417d9b6a0ad166",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/27b3cb6c6b33218172db86bce70b6bd6a9c6490eeafda240df2e7aa7889b000c.json",
+          "failure_class": null,
+          "first_program_sha256": "3761c69ccd43226f2b6c32af9bab0dcb538fb1be6cdfaa204ae5cf31be38b86d",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "clean_target_copy_failure",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "8bc5319483d7c5992e07b51250419381b1324158d7e2bad286e7366e4dac2a0c",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 1091,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 0.9990732159406858,
+          "raw_exact": false,
+          "root_reply_sha256": "0961cd3bb0a1d882f56fd7e1ae90e4256c6e5d4a9ed5a50b7e5eda1be404477d",
+          "source_ordinal": 412,
+          "source_prompt_json_bytes": 36637,
+          "source_prompt_plus_answer_o200k_tokens": 7645,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61": {
+          "answer_sha256": "8285bd8f84d60a1255b754cf58791c605909d3ab0d682546861c735b73bc6ffa",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "4165e609d716e4983d0b88a1b519938c5c95b3ab0f017ee2d79137b6955a23b5",
+            "id": "31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61",
+            "ordered_core_sha256": "e9719c230cea01fb1d58476e43144f8e750d4231348ca280b5022ef4e21b86f2",
+            "phase": "long",
+            "record_id": "omrcr-four-7ef36900e396ff49f6e5",
+            "repeat": 0,
+            "row_index": 4,
+            "seed": 202609260004,
+            "source_row_sha256": "7ef36900e396ff49f6e5efdfba24e850a28cdd3dd048eb6bfc530149f4a14380",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 858,
+              "prompt_tokens": 2417
+            }
+          },
+          "episode_file_sha256": "3ae2b2377541aff377a229fd818a7dcdd18b47628c1535e9d97e802cbd3d999f",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/31f536e7dc7756c477cc90ec84ed9a3765db5654c93d63769db7c1058bed7b61.json",
+          "failure_class": null,
+          "first_program_sha256": "9f86efadf809e90fe1a8973b76143592a1d2db3eddf001eff5487cbd176924d6",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "exact_after_clean_target",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "8d26c4916d60e01b9dab38a48cc53c182d640ab57d912465a6a0f23a77ed8585",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 2582,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 774,
+          "official_marker_gated_sequence_matcher_similarity": 1.0,
+          "raw_exact": true,
+          "root_reply_sha256": "8285bd8f84d60a1255b754cf58791c605909d3ab0d682546861c735b73bc6ffa",
+          "source_ordinal": 448,
+          "source_prompt_json_bytes": 33430,
+          "source_prompt_plus_answer_o200k_tokens": 7689,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f": {
+          "answer_sha256": "9da82a0d12a643c515683f2f924d15511279a4b8d14ec97337334298a3704ed4",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "783ee7e480862f15747e530eb063c09b19354e9f4d6b7b2100bf543e6ddee83f",
+            "id": "404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f",
+            "ordered_core_sha256": "f3f3686402e8be882152cfe2367fce38d9f9debb7af9668427a35c7ae39a18ce",
+            "phase": "long",
+            "record_id": "omrcr-four-aa303ed94ba4ecf7bf90",
+            "repeat": 0,
+            "row_index": 9,
+            "seed": 202609260009,
+            "source_row_sha256": "aa303ed94ba4ecf7bf902d65922dbf6957d3cfe530cf53e7efafb144c343126e",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 621,
+              "prompt_tokens": 2176
+            }
+          },
+          "episode_file_sha256": "ba0bb59311cf6a23efb3641de51e4df070c8e6cc113a108ddb87a82e59855de2",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/404a2c087e8fdd0cc04511a33dc6d6ef3eb716110c8d99bbdf1a43480421ab5f.json",
+          "failure_class": null,
+          "first_program_sha256": "f63ba7ab337eb6c9cbe3b05f78d4afc652e381e928369d546d4a19dea348e367",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "exact_after_clean_target",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "024c5af98681642d173f835b4785e28822d235e9f8154b0df1f697d4fa57aec7",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 2184,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 772,
+          "official_marker_gated_sequence_matcher_similarity": 1.0,
+          "raw_exact": true,
+          "root_reply_sha256": "9da82a0d12a643c515683f2f924d15511279a4b8d14ec97337334298a3704ed4",
+          "source_ordinal": 404,
+          "source_prompt_json_bytes": 33026,
+          "source_prompt_plus_answer_o200k_tokens": 6901,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946": {
+          "answer_sha256": "896d7e134dc7bc1914f4bd154823f0538498913aa0ca46b5a3d5a620c0e82901",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "c21cb5bb98af95c50d1c08a7ece0c551909f568ca3202c9b7a4986b96221dd73",
+            "id": "584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946",
+            "ordered_core_sha256": "0315d7bf000751ef700db2f3ae6c167aa4ac007d619d8875f44c476410152c4f",
+            "phase": "long",
+            "record_id": "omrcr-four-e802ed0f78b9495de9ac",
+            "repeat": 0,
+            "row_index": 10,
+            "seed": 202609260010,
+            "source_row_sha256": "e802ed0f78b9495de9ac8c86fff8c7a71f2727c1e6704c86ee527aa4a7719d7f",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 340,
+              "prompt_tokens": 1892
+            }
+          },
+          "episode_file_sha256": "1cc9bd4ae4dced96f397aa9fc214aaa5ad5d4c099fa5be8598bb4fd28535592d",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/584579f70b1cfd402b2e482c11429b158b16feff4357e99c10764f8d83b8a946.json",
+          "failure_class": null,
+          "first_program_sha256": "e43c2f79a1bf1db67c47dd23254d13e417aa7b1585efcb97c5023f58546a837e",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "exact_after_clean_target",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "f27dd99b413bd8f8c884ef378f3afbc91b92c57e7f1ea0d4f4f0285f5c89a5f1",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 585,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 770,
+          "official_marker_gated_sequence_matcher_similarity": 1.0,
+          "raw_exact": true,
+          "root_reply_sha256": "896d7e134dc7bc1914f4bd154823f0538498913aa0ca46b5a3d5a620c0e82901",
+          "source_ordinal": 456,
+          "source_prompt_json_bytes": 29460,
+          "source_prompt_plus_answer_o200k_tokens": 6063,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370": {
+          "answer_sha256": "c01b036b21b6edbb6dac7408045f6997463c4bacb1c87da83c54dd9f1708c52c",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "8881d7701caa433ac0ad8c4693311014aafe770f1483101b163779e088ea8e68",
+            "id": "5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370",
+            "ordered_core_sha256": "ca88818f37a4556d4025ad5873f9d4a5631bcc0bed5f9ef88e03f468a3b34bfa",
+            "phase": "long",
+            "record_id": "omrcr-four-fd626bc88561a8dfe388",
+            "repeat": 0,
+            "row_index": 5,
+            "seed": 202609260005,
+            "source_row_sha256": "fd626bc88561a8dfe388681f549657be6915dbaf9526b6f9c45cc24fa36b6060",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 614,
+              "prompt_tokens": 2166
+            }
+          },
+          "episode_file_sha256": "a4113caeafe26cafb4a11e782ef6d8c173f3024bfe2a58c4c7d086ade126cff5",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/5c0fde8ddc2a054b83d1b72384e268f173ece4e7f1edf235c2d5db2200d42370.json",
+          "failure_class": null,
+          "first_program_sha256": "01c4a39413840b85b989a098a301f11567914351487c8f66f61a67d9f5fc5e25",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "clean_target_copy_failure",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "7a2aad2bb4af654ce7f5a15f73516b8103bb3924a83fcae2df2084876683f5e5",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 1482,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 770,
+          "official_marker_gated_sequence_matcher_similarity": 0.9993197278911564,
+          "raw_exact": false,
+          "root_reply_sha256": "c58d63e349df7db60576ac93bc1d89df5f8d856f749e4915088c1a145cba0433",
+          "source_ordinal": 418,
+          "source_prompt_json_bytes": 19638,
+          "source_prompt_plus_answer_o200k_tokens": 4732,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2": {
+          "answer_sha256": "de654fa883b028de3eda0a4e05cd869a5497b2449eb60df0c3b339b59765ed23",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "a0ddcc5509cbb1c6acbe76446b4be8362418585f52fb6b2a7d0636db460743a2",
+            "id": "868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2",
+            "ordered_core_sha256": "22cdd976b8f21077bdb428d14f50974ad4489b8a192bd16b8aa14400922dd42f",
+            "phase": "long",
+            "record_id": "omrcr-four-f61eed2051996b816726",
+            "repeat": 0,
+            "row_index": 15,
+            "seed": 202609260015,
+            "source_row_sha256": "f61eed2051996b8167268688f62af1ece210465fb7c26fb8606d9c23bd406c93",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 620,
+              "prompt_tokens": 2173
+            }
+          },
+          "episode_file_sha256": "3be36624840d3d32a360f43f75a7914e9542f5f85fa2c18134855d2d61262794",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/868cc0ea092317944537f90eda18579ec7d011dd290a964e42457a6d99e5ccd2.json",
+          "failure_class": null,
+          "first_program_sha256": "49d2a6770d597c0cc44415cbcfd67897588216bf3a8a6b41568e56067fccb2ab",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "exact_after_clean_target",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "c6552a0d58a1e59af11f06c5bf2953c9abb5a88683fa8eb355910f890695c62b",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 1933,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 1.0,
+          "raw_exact": true,
+          "root_reply_sha256": "de654fa883b028de3eda0a4e05cd869a5497b2449eb60df0c3b339b59765ed23",
+          "source_ordinal": 481,
+          "source_prompt_json_bytes": 22065,
+          "source_prompt_plus_answer_o200k_tokens": 4912,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538": {
+          "answer_sha256": "5a73298535f512feeeebbaf4943bca8a44620b7ce79de476725abd93bebc0ceb",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "fd961b05d21054c6e2d24b7970fa61a753110643564db05ebde873a73b0cf0bb",
+            "id": "965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538",
+            "ordered_core_sha256": "c4ff3bb6d8555c5f106970fc9e6dc6a8624cc1fa6f4aff84c125b8dbfdf577d5",
+            "phase": "long",
+            "record_id": "omrcr-four-c09fb4c7d672b0d18934",
+            "repeat": 0,
+            "row_index": 6,
+            "seed": 202609260006,
+            "source_row_sha256": "c09fb4c7d672b0d18934ec7aa5a5fa7bd9c22e1a65c698da9b09ba8465d03a89",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 526,
+              "prompt_tokens": 2080
+            }
+          },
+          "episode_file_sha256": "7122971dcd344bba5a334832c2a94c8005e2e0c99b32e5d227c68d2d98b43826",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/965021c876d64d9b57591df66d790e9021cf94aee9dc72d0cb3e28bf308ef538.json",
+          "failure_class": null,
+          "first_program_sha256": "11a390ce8dea7193c636bcabb02e5eb52e5e3684f6dad9913e261398e3ef77c7",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "clean_target_copy_failure",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "08ab944a08d040694ef5dfaa4f6ba82c4990a214a681750aefd9d4c2ba305845",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 1267,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 0.9991993594875901,
+          "raw_exact": false,
+          "root_reply_sha256": "e2463fff4e0a909bff2fe0b7de29e6c934a38f943ae5392d7ea89abb97d3ccbb",
+          "source_ordinal": 414,
+          "source_prompt_json_bytes": 18445,
+          "source_prompt_plus_answer_o200k_tokens": 4296,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f": {
+          "answer_sha256": "b600ad9e0ca74f864b4f258a2882aa1443d2995e8f6e697a30944cfd9030fcea",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "bef915d02d0b45445c9bd8e5d87e312d6d16ad64c91471e16ab5fb72b2ff50cf",
+            "id": "97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f",
+            "ordered_core_sha256": "67f88a4be65547c8371b145d6bbdb2145f435627872a69d3ef9d05eb2a870fef",
+            "phase": "long",
+            "record_id": "omrcr-four-a74b4c66fc01bd68de3d",
+            "repeat": 0,
+            "row_index": 12,
+            "seed": 202609260012,
+            "source_row_sha256": "a74b4c66fc01bd68de3d16103ac1e5f95125e62d0e6a427af19f15a31061be97",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 776,
+              "prompt_tokens": 2329
+            }
+          },
+          "episode_file_sha256": "6ea869055a43519da0a59ed3351977656af4b4d92960f2c753fe0d879ca085aa",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/97bf67d9b3fa7cc146ca7cc828ac291e3a01d128618b5547e373b2b8204f5e8f.json",
+          "failure_class": null,
+          "first_program_sha256": "c6ac8e47eb841e9f5ef64b78154b0abca91b7a7876b1db1f58da466f6b9e8c51",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "exact_after_clean_target",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "942db41249f92e00f4792a43c382859ac66884af0811c6b3b10064902063e3bb",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 3249,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 1.0,
+          "raw_exact": true,
+          "root_reply_sha256": "b600ad9e0ca74f864b4f258a2882aa1443d2995e8f6e697a30944cfd9030fcea",
+          "source_ordinal": 459,
+          "source_prompt_json_bytes": 25018,
+          "source_prompt_plus_answer_o200k_tokens": 5386,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e": {
+          "answer_sha256": "c612a563f8862d5c6dfa33c8ab65ed6f9fdf25adb7ec5fd34fd0028bf010acbc",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "c5367c2b640203be9820f8c82c8f1b07bcce37ebea62d407dae3bc2f3d2226c1",
+            "id": "a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e",
+            "ordered_core_sha256": "b705323113a6684564ebe4c33171bb0ad72f9267a8861860bceb8ab6a585cd98",
+            "phase": "long",
+            "record_id": "omrcr-four-4f4ea6a28046671244e4",
+            "repeat": 0,
+            "row_index": 13,
+            "seed": 202609260013,
+            "source_row_sha256": "4f4ea6a28046671244e4ab1a7fff151f27ecd245053cef793f4545df044cf555",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 828,
+              "prompt_tokens": 2384
+            }
+          },
+          "episode_file_sha256": "2a1f58fe1644f41782f05af83a87ddf93e0ad54d40fa4ba1cec8ae13ccf810f3",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/a767274a236e7828c52b0e7bb2687819e874ce2497a72c22dd5dfe6f6e18046e.json",
+          "failure_class": null,
+          "first_program_sha256": "2b5be87dd9a162b514799957d2beff9ba506d9c5009918208a0f7b40f5403532",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "exact_after_clean_target",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "a377119f5148015e2810719f6f72fe7b64bbe2057fa5a4940d50b68377f4dd62",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 2365,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 772,
+          "official_marker_gated_sequence_matcher_similarity": 1.0,
+          "raw_exact": true,
+          "root_reply_sha256": "c612a563f8862d5c6dfa33c8ab65ed6f9fdf25adb7ec5fd34fd0028bf010acbc",
+          "source_ordinal": 474,
+          "source_prompt_json_bytes": 34071,
+          "source_prompt_plus_answer_o200k_tokens": 7871,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b": {
+          "answer_sha256": "1022546a7dda955e9010daca408f421447b7cde52f4794565dd58c5fdc210d80",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "777b67501c838ba196542d1cfefe5269f2c0e8294ddec234fb6a2d430d948534",
+            "id": "b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b",
+            "ordered_core_sha256": "ec2c2d913ec47a6a60e2123abfadbe9139f4db923fbe01777da58619ecd84b46",
+            "phase": "long",
+            "record_id": "omrcr-four-c6ef6fdb8d43f3f08137",
+            "repeat": 0,
+            "row_index": 14,
+            "seed": 202609260014,
+            "source_row_sha256": "c6ef6fdb8d43f3f08137f388869ffb5e72a96246fef1eabac6fcb7ed165c99cc",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 1,
+              "completion_tokens": 2048,
+              "prompt_tokens": 768
+            }
+          },
+          "episode_file_sha256": "8d9f26c67f7ac45918086a8ebbed8226aa4f3c1182edb5848d7cf700c88d5fb5",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b3848ab4d4c3afa7f8bf76c083da916d11c170861d65a6216a3d98a36f0d1f0b.json",
+          "failure_class": "model_invalid_terminal",
+          "first_program_sha256": null,
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": false,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": false,
+            "literal_request_sha256": null,
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": false,
+            "tool_observation_count": 0,
+            "tool_observation_utf8_bytes": 0,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 1,
+          "neural_initial_prefix_tokens": 768,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_ordinal": 449,
+          "source_prompt_json_bytes": 19495,
+          "source_prompt_plus_answer_o200k_tokens": 4472,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012": {
+          "answer_sha256": "3e87b6b2b4f32b583d10e53e0248ef338f9b0e88b5a2ce45dcd3590a228f2e42",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "99d7676275f2181bb75f1f6f2c6aa9a01485276c8bbff9b792b68ca29e8759d1",
+            "id": "b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012",
+            "ordered_core_sha256": "86179a7d89a283255b7779b2b2d18395137d83746bcb100f0272453aad4c263e",
+            "phase": "long",
+            "record_id": "omrcr-four-8afc2443653b40ddb288",
+            "repeat": 0,
+            "row_index": 3,
+            "seed": 202609260003,
+            "source_row_sha256": "8afc2443653b40ddb288a91e95cf4b3aeaea0e1f8bf11d3948c23618d8b11980",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 527,
+              "prompt_tokens": 2080
+            }
+          },
+          "episode_file_sha256": "786daa359dad9795de006479af0ec81d40bb060d1ce8af6814d6607be8386ff5",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b38dde15585cd48a23249d509b293c8ca784887192d42333306eb4e776fad012.json",
+          "failure_class": null,
+          "first_program_sha256": "f7e428e891b5228b7e3986645568776a3b46a6b0e36690ae6649baf4a19d5406",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "exact_after_clean_target",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "b7e0dec893b64516ff13c1caa02afb1fdd60b3eb4c4e7e309764ac56b684fbff",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 1803,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 1.0,
+          "raw_exact": true,
+          "root_reply_sha256": "3e87b6b2b4f32b583d10e53e0248ef338f9b0e88b5a2ce45dcd3590a228f2e42",
+          "source_ordinal": 408,
+          "source_prompt_json_bytes": 29787,
+          "source_prompt_plus_answer_o200k_tokens": 5963,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf": {
+          "answer_sha256": "5a769555efd0f1da92ddc778faa7713e48ecbb4204c6b465cc87c431c96cb76e",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "a068d5835f5a9e826bb10d6460451c476664872d0a501ab4939fcbd4c2b98f3e",
+            "id": "b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf",
+            "ordered_core_sha256": "d3baf03c95989076fbc8204415399751f895557571fd6d03ff53bce57b341886",
+            "phase": "long",
+            "record_id": "omrcr-four-45e34dc2b87a24884f6b",
+            "repeat": 0,
+            "row_index": 7,
+            "seed": 202609260007,
+            "source_row_sha256": "45e34dc2b87a24884f6b012886b980061e067d69bb4a13d3cd1eee75c098899f",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 219,
+              "prompt_tokens": 1867
+            }
+          },
+          "episode_file_sha256": "1df7bc5aef3f6b9977b2f862b63b3671b6e13230985dcae82c9c2053642c16aa",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b66e01fd3b6699747563d7f6a95e116e4d9b7d434ece8f21808516fe6fdd02bf.json",
+          "failure_class": null,
+          "first_program_sha256": "96cee02ccee948b3456dc8237f58611dbdf2784480d55138b38a9e4a2752cd49",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": true,
+            "literal_request_sha256": "4f366700ca8ffe54192de976f5290e8ec4ad3d89be0d0c7dcd36abb61397e2bd",
+            "ordinal_unavailable_observation": true,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 550,
+            "traceback_observations": 1,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 767,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "47d5a079f6a33fe36cf179d7dda050bcac1d94da623e186b8d5d8880c72cdd03",
+          "source_ordinal": 457,
+          "source_prompt_json_bytes": 26256,
+          "source_prompt_plus_answer_o200k_tokens": 5634,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246": {
+          "answer_sha256": "49c67ca976a1a1d663b636058880b762cb5051d45b16d3a92f286c32cbfdbe89",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "62103624bdcb76343665e0690598aec52baff14462e547d200049bd4fbe7aa09",
+            "id": "b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246",
+            "ordered_core_sha256": "12054a62921e30392e052cc08999a0697dcf0c1f0ffaaccf956fe958a929bb58",
+            "phase": "long",
+            "record_id": "omrcr-four-7cd3a925beb322d2709a",
+            "repeat": 0,
+            "row_index": 11,
+            "seed": 202609260011,
+            "source_row_sha256": "7cd3a925beb322d2709adac40ea2b7fbd6c4984e06aa463eed31ced68d7a0a2a",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 222,
+              "prompt_tokens": 1876
+            }
+          },
+          "episode_file_sha256": "c3acb12836d5e6ec0f9b2c088a25e68c942e928f136e9bb12dbe2d40bd02333f",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/b781cdc54b618f2f15729f2eca7b38d83191e6732f9f14f8590e7ff53eeb5246.json",
+          "failure_class": null,
+          "first_program_sha256": "09c4dbeeccc82b4b6afe07f6f24f2e367e3ff7be08bf80fa0ff97326db05c4d0",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "no_clean_target_and_wrong_final",
+            "clean_target_observed": false,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 0,
+            "literal_request_present": true,
+            "literal_request_sha256": "275a7661dedcb1236835bdbdf18ceee35dc6cf85483f0bc4e55f6985410b096a",
+            "ordinal_unavailable_observation": true,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 550,
+            "traceback_observations": 1,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 770,
+          "official_marker_gated_sequence_matcher_similarity": 0.0,
+          "raw_exact": false,
+          "root_reply_sha256": "9c04a31d45ccf0e3aee958e0eadbd74157f1834e18fd29b6bcb0a4a619d97906",
+          "source_ordinal": 400,
+          "source_prompt_json_bytes": 21449,
+          "source_prompt_plus_answer_o200k_tokens": 4523,
+          "target_occurrence": 4,
+          "terminal_status": "agent_completed"
+        },
+        "f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831": {
+          "answer_sha256": "6c9614e88be9eb530113202d772411bb1770e355e9c0a1353b0b32b662f71df4",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "1f9b611072d63fca849956b7bee8d8ab4de67e2d3ab1648d38e23e5f67d2bbab",
+            "id": "f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831",
+            "ordered_core_sha256": "625302048ad53ea30170032dc19fc296e39e2931a0ede365d5042ba8f1eca48e",
+            "phase": "long",
+            "record_id": "omrcr-four-48c76520dd84ccd6c577",
+            "repeat": 0,
+            "row_index": 0,
+            "seed": 202609260000,
+            "source_row_sha256": "48c76520dd84ccd6c577be98a2a2712f2366e3511b090add185e5ea815c57635",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 646,
+              "prompt_tokens": 2199
+            }
+          },
+          "episode_file_sha256": "f6e3546889d993042c86273da5d5693cf25c6e292c17e24aae999a16e32e26ce",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/f2958acee104a40d8046ebae5644c45a6bea938307fd5f5ac0ddbb76c4329831.json",
+          "failure_class": null,
+          "first_program_sha256": "ca783ba9eba9a1d98820ad776ab4951299824e990da3919726a5d322d871eb09",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "exact_after_clean_target",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "17ae1149abb377b170b1c7b3e9ed379e63e62eebf2770a60b1c59f545a9e6606",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 2417,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 771,
+          "official_marker_gated_sequence_matcher_similarity": 1.0,
+          "raw_exact": true,
+          "root_reply_sha256": "6c9614e88be9eb530113202d772411bb1770e355e9c0a1353b0b32b662f71df4",
+          "source_ordinal": 479,
+          "source_prompt_json_bytes": 22455,
+          "source_prompt_plus_answer_o200k_tokens": 4773,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        },
+        "fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce": {
+          "answer_sha256": "8ac9aac7b5cc603fa274432d510f33cc982f8d5d0d88b2b65ab7558d3e9dd55a",
+          "available": true,
+          "coordinate": {
+            "context_sha256": "c4ebb13a0a53d279b09913148dfb5ab17c31d5331e9c3e8139b4705e7b9a420f",
+            "id": "fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce",
+            "ordered_core_sha256": "7893d61894ae481bf42546c85b91627730dc0ce9b8c923c4790cf5d9648e0ce1",
+            "phase": "long",
+            "record_id": "omrcr-four-fe56a62176f39fe1ef93",
+            "repeat": 0,
+            "row_index": 1,
+            "seed": 202609260001,
+            "source_row_sha256": "fe56a62176f39fe1ef93a12de53a442ad199156dd692e6d72ccf9face6f1205f",
+            "study": "openai-mrcr-fourneedle-ordinal-transfer-eval-v1",
+            "temperature": 0.5
+          },
+          "cost": {
+            "child": {
+              "calls": 0,
+              "completion_tokens": 0,
+              "prompt_tokens": 0
+            },
+            "root": {
+              "calls": 2,
+              "completion_tokens": 834,
+              "prompt_tokens": 2393
+            }
+          },
+          "episode_file_sha256": "7292d3061b534c9e4fcb64cfe16aef25b1161baf435bc1dc7871f53232adbbe1",
+          "episode_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/episodes/fe9f0207ce3e032148f425c0a93975b8cd831d4080f3309bfc8ba0c1a20696ce.json",
+          "failure_class": null,
+          "first_program_sha256": "34be2244743e252d4a195e3d927d2ba12dad2b2256e2c3733f24c89e76d09d23",
+          "initial_prefix_exact": true,
+          "mechanism": {
+            "broad_observation": false,
+            "category": "exact_after_clean_target",
+            "clean_target_observed": true,
+            "first_program_ast_parseable": true,
+            "literal_request_exact_context_matches": 4,
+            "literal_request_present": true,
+            "literal_request_sha256": "fca540b3933493d87902afa0a06cba52819a4dddd13b9680f4abb4bf493c8258",
+            "ordinal_unavailable_observation": false,
+            "program_mentions_requested_ordinal": true,
+            "tool_observation_count": 1,
+            "tool_observation_utf8_bytes": 2603,
+            "traceback_observations": 0,
+            "truncated_observations": 0
+          },
+          "native_returned": 2,
+          "neural_initial_prefix_tokens": 774,
+          "official_marker_gated_sequence_matcher_similarity": 1.0,
+          "raw_exact": true,
+          "root_reply_sha256": "8ac9aac7b5cc603fa274432d510f33cc982f8d5d0d88b2b65ab7558d3e9dd55a",
+          "source_ordinal": 482,
+          "source_prompt_json_bytes": 26560,
+          "source_prompt_plus_answer_o200k_tokens": 6348,
+          "target_occurrence": 3,
+          "terminal_status": "agent_completed"
+        }
+      },
+      "summary": {
+        "available": 16,
+        "by_target_occurrence": {
+          "3": {
+            "available": 8,
+            "mechanisms": {
+              "clean_target_copy_failure": 2,
+              "exact_after_clean_target": 5,
+              "no_clean_target_and_wrong_final": 1
+            },
+            "planned": 8,
+            "raw_exact": 5,
+            "recorded": 8
+          },
+          "4": {
+            "available": 8,
+            "mechanisms": {
+              "clean_target_copy_failure": 1,
+              "exact_after_clean_target": 5,
+              "no_clean_target_and_wrong_final": 2
+            },
+            "planned": 8,
+            "raw_exact": 5,
+            "recorded": 8
+          }
+        },
+        "mechanisms": {
+          "clean_target_copy_failure": 3,
+          "exact_after_clean_target": 10,
+          "no_clean_target_and_wrong_final": 3
+        },
+        "planned": 16,
+        "raw_exact": 10,
+        "recorded": 16
+      },
+      "terminal": {
+        "complete": true,
+        "elapsed_seconds": 264.7088301181793,
+        "errors": null,
+        "no_retry": true,
+        "optimizer_steps": 0,
+        "recorded": 16,
+        "released": true,
+        "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/RESULT.json",
+        "scientifically_available": 16,
+        "stage": "checkpoint32",
+        "terminal_strip_contract": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/checkpoint32-001/science/TERMINAL_STRIP_CONTRACT.json"
+      },
+      "terminal_contract": {
+        "condition": "terminal-strip-disabled",
+        "general_lossless_parser": false,
+        "gold_dependent_repair": false,
+        "hook_sha256": "3361c4aa6e3063e7742f5166be45b4bea8b83eb370d8b774da2e08e8924849bf",
+        "parser_change": "final content=text.strip() -> content=text",
+        "reasoning_newline_rule_unchanged": true,
+        "root_storage_change": "successful ACPTurn.reply preserved exactly after original metadata callback",
+        "source_sha256": {
+          "/project/alex_phd/research-cache/repos/prime-rl/deps/renderers/renderers/parsing.py": "4b54e8c82d81e0f00eb3f1b107a79892e2eff45d7b8a8c9ae40ebe4112ba87f4",
+          "/project/alex_phd/research-cache/repos/prime-rl/deps/renderers/renderers/qwen3.py": "75c4d4a96c7fe930b0fe80d83df894133e1319b364b033cf97fbea2d84e8e146",
+          "/project/alex_phd/research-cache/repos/prime-rl/deps/verifiers/verifiers/v1/acp/__init__.py": "c143d95580458c9b8e9c822860e34116e034e00d4325ffdd3b2298dd0c0adfb4",
+          "/project/alex_phd/research-cache/repos/prime-rl/deps/verifiers/verifiers/v1/harnesses/rlm/harness.py": "7256f1efe1d0b44c8488e62edc93c41fa2da1fae95620bc6de4dea2e7d517bfc"
+        },
+        "tool_parsing_unchanged": true
+      }
+    }
+  },
+  "status": "COMPLETE_RAW_AUDIT"
+}

@@ -1,0 +1,23 @@
+{
+  "CUDA_VISIBLE_DEVICES": "",
+  "actual_source_calls": 66,
+  "actual_source_reward_and_native_decode_recomputed": true,
+  "actual_source_trajectories": 32,
+  "command": [
+    "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "test_train.py"
+  ],
+  "elapsed_seconds": 6.1327993385493755,
+  "original_red": "Two tests failed because train.py was not implemented; preserved in session receipt.",
+  "real_tiny_HF_PEFT": true,
+  "replay_mismatch_no_step": true,
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "..                                                                       [100%]\n2 passed in 4.83s\n",
+  "zero_advantage_skip_and_fixed32_denominator": true
+}

@@ -1,0 +1,13 @@
+{
+  "adapter_delta_l2": 0.04046065626354614,
+  "binding_sha256": "c6c1561efbfa07c7fc10d78560523eb8d82092c228293e816e007790046c56bc",
+  "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-cp32-fresh8-final-rloo-v1/outputs/attempt-001/checkpoint-0001",
+  "elapsed_seconds": 33.244720321148634,
+  "optimizer_steps": 1,
+  "peak_GPU_GiB": 8.813534259796143,
+  "ready_identity": "fbd8853c34e2e3e41c74cbca13db0737feda83121242f85c7c8a0ccd793e65de",
+  "ready_sha256": "3b571aad390285391047644a71416af72f67a01fcbd093c6a97090d1f26f5698",
+  "state_sha256": "89025f427f27b2dbf5178ca8df4792c00a8ca86e435e56b5a9435a3f5ffe715e",
+  "status": "UPDATED",
+  "step_commit_sha256": "a6c80d13b93168cab1a277f822bfc776f60a28c3814bd29c9ab8f51686192c25"
+}

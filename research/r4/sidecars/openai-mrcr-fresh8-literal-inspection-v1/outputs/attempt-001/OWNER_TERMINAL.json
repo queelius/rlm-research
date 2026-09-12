@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "elapsed_seconds": 415.29077792167664,
+  "errors": null,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "recorded": 32,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fresh8-literal-inspection-v1/outputs/attempt-001/science/RESULT.json",
+  "scientifically_available": 32,
+  "terminal_strip_contract": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fresh8-literal-inspection-v1/outputs/attempt-001/science/TERMINAL_STRIP_CONTRACT.json"
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "openai-mrcr-fourneedle-native-validation-receipt-v2",
+  "created_utc": "2026-09-12T22:02:00Z",
+  "status": "COMPLETE_NATIVE_VALIDATION",
+  "gpu_calls": 0,
+  "model_calls": 0,
+  "original_analysis_cpu_ready_sha256": "f2c28c9c305e52136659f9e1e1fa3d6ef8e35259aa76dd49210376d5332264a5",
+  "tests": {
+    "command": "/project/alex_phd/envs/prime-rl-5990b1b/bin/python -m pytest -q /project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-ordinal-transfer-independent-2026-09-12/test_native_validation.py",
+    "passed": 3,
+    "failed": 0,
+    "elapsed_seconds": 0.09
+  },
+  "artifacts": {
+    "native_validation.py": "3732d83ba6210ad5b37ca0409ed1ef57fed0bb90e43409375b18213f4f0ca0b3",
+    "test_native_validation.py": "ab34fe0e41097acc989eb64106b429f3a5dd935c3e1e548aa77a7af84e29487e",
+    "native-validation-v2/RESULTS.json": "63a045ebfba88c043796746e2dbcc7bc5024908fa97782b11d3b80e96bbdacd7",
+    "native-validation-v2/REPORT.md": "06ccee7c77fa4eb57329272a7599a95b199357224ea319484b78a3ae867cff53"
+  }
+}

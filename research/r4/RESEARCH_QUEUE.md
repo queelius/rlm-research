@@ -1,5 +1,30 @@
 # Live GPU research queue
 
+### Live update September 12, 22:16 UTC
+
+ACTIVE81832 literal-input inspection32, healthy returned calls. ACCEPTED11928
+fresh8-RLOO fixedcp1readout64: short32/new replica seeds, long16/fourneedle16
+original seeds, all phases regardlessscore, no furtheroptimizer.
+NEXT CPU post: small B05 fixed-decomposition/recombination feasibility, native
+tokenbudget8192 and shortcut inspection first. No READY or GPU admission yet.
+CPU local: independent newRLOO three-panel readout and savedgradient mechanism.
+CPU token: fixedRL replica reversal then all32 literal inspection adjudication.
+
+FixedRL firstgain23→25 reversed25→22 withnew seeds; no robust RL improvement.
+FreshRLOO trainingcomplete33.24s butaccuracyunknown. Fourneedle SFT0→10/16
+fullynativeaudited, samefamily only. Prioritize verifiable decomposition tasks
+aftercurrent delivery/reward diagnostic; do not repeat whitespace-onlysweeps.
+Quota35%22:10,next22:25; lastremotes e40a286/7ea9a81, report22:16 unpushed.
+
+### Live update September 12, 21:54 UTC
+
+ACTIVE88381 fixedRLdecodingreplica64, baselinecp32phase. Fourneedle67214
+complete, initialstring/prefixaudit0→10/16 with13cleanstdout atcp32; native
+decode supplement pending because originalanalyzertrustedderivedfields.
+NEXT1CPUlocal fresh8final-onlyRLOOonestep;NEXT2CPUtoken literalinputinspection
+allfresh8×4. Postnativeaddonthenexistingbenchmarkdesignforlearneddecomposition.
+GitHubVERIFIED e40a286/7ea9a81,cutoff21:49. Quota37%21:41,next21:56.
+
 ### Live update September 12, 21:49 UTC
 
 ACTIVE67214 fourneedle16 base→cp32,600/700/800seconds perarm. Healthyreturns.

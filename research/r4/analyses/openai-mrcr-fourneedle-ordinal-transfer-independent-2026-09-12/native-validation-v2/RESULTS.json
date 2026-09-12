@@ -1,0 +1,43 @@
+{
+  "all_32_scientifically_available": true,
+  "analysis_cpu_ready_sha256": "f2c28c9c305e52136659f9e1e1fa3d6ef8e35259aa76dd49210376d5332264a5",
+  "gpu_calls": 0,
+  "integrity_issues": [],
+  "model_calls": 0,
+  "reuse_boundary": "collector validate_native_response, inspect_trace, causal mapper, tokenizer renderer, and qualified terminal hook are reused; request/result inventories, contracts, decode equality, and comparisons are computed here",
+  "schema": "openai-mrcr-fourneedle-native-validation-v2",
+  "source_string_audit_sha256": "738eaf192f0c7b34be39bda147940f418ebb790452fbc1fd71f53f9ab637222a",
+  "stages": {
+    "base": {
+      "episodes": 16,
+      "episodes_sha256": "a68ee2e2e7c53dead0048296fff2b8db68bd41b4b730e149ae7acb7684b512e5",
+      "errors": 0,
+      "issues": [],
+      "native_results_sha256": "002bd694912e10740a23bd612416c109aae57310faf636dd2ea13c821e5591b0",
+      "native_starts_sha256": "8351de79fece06b8c7ed45478f5796412e022cf0ca499e8061ab5b77db042f06",
+      "native_terminal_decode_equal": 16,
+      "no_physical_stop_empty_reply": 0,
+      "recomputed_derived_exact": 16,
+      "results": 52,
+      "returned": 52,
+      "scientifically_available": 16,
+      "starts": 52
+    },
+    "checkpoint32": {
+      "episodes": 16,
+      "episodes_sha256": "27521c89a10539063a90e6aeff5ac2e87fce04e77cfa8188f11301a59d958fcd",
+      "errors": 0,
+      "issues": [],
+      "native_results_sha256": "e6c48aa694c71c2e62f6700e9ab717f317b3cee3189dda7b5758c06fb1f54f69",
+      "native_starts_sha256": "a62db59dc089ee63a6bdc466c3336915c518e7b70b1b8741e6470fa9f2f6e51c",
+      "native_terminal_decode_equal": 15,
+      "no_physical_stop_empty_reply": 1,
+      "recomputed_derived_exact": 16,
+      "results": 31,
+      "returned": 31,
+      "scientifically_available": 16,
+      "starts": 31
+    }
+  },
+  "status": "COMPLETE_NATIVE_VALIDATION"
+}

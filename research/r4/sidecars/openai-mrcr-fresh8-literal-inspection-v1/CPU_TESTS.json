@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "test_prefix.py",
+    "--basetemp=/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fresh8-literal-inspection-v1/cpu-fixture-001"
+  ],
+  "returncode": 0,
+  "scope": "Single actual env\u2192role hooks\u2192native HTTP double\u2192parser\u2192ACP fixture; all32 task deltas; no GPU/model or generated tool code.",
+  "stderr": "",
+  "stdout": ".                                                                        [100%]\n=============================== warnings summary ===============================\ntest_prefix.py::test_actual_environment_uses_only_appended_instruction_and_new_frozen_prefix\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_prefix.py::test_actual_environment_uses_only_appended_instruction_and_new_frozen_prefix\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n1 passed, 2 warnings in 53.22s\n"
+}

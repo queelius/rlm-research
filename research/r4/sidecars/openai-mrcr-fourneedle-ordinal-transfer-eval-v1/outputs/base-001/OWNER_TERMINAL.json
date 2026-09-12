@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "elapsed_seconds": 264.5811173915863,
+  "errors": null,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "recorded": 16,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/RESULT.json",
+  "scientifically_available": 16,
+  "stage": "base",
+  "terminal_strip_contract": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-ordinal-transfer-eval-v1/outputs/base-001/science/TERMINAL_STRIP_CONTRACT.json"
+}
