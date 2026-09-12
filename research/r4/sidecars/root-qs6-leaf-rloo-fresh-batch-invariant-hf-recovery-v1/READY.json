@@ -1,0 +1,51 @@
+{
+  "cap_seconds": 360,
+  "claim_boundary": "Recovers only the HF scoring phase over the exact already-collected V2 fresh48 actions after clean native release; it is not a new batch, update authority, or HF/vLLM identity evidence.",
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/CPU_TESTS.json": "45752b8c6de241861e3cb8634ef67c6caa873291abf9716a1d37c40218669cbc",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/outputs/attempt-001/COLLECTION.json": "02c072f7961a8d531cf10716ff2c926eb8f7a999048b108a70f7c9bc92750893",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/outputs/attempt-001/PREPARED.json": "3ebfc082cc59b5372fd625f4db8029a495f47894f4113033863006dbba756ce6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/outputs/attempt-001/SOURCE_INVENTORY.json": "c1156d70ce1f86a14f61d061b813d020a87a737dea1cd70e88b3fd9a846edace",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/outputs/attempt-001/qualification-inputs/DATASET.json": "8faed346252014a404b51fcda70743e93456045ae017a6883cda282a439ae823",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/outputs/attempt-001/qualification-inputs/MASKS.npz": "664afd5c88411d0eff5088c58a1936bba3e4d67b2e35da726b15c08ee0e5e7e3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/outputs/attempt-001/qualification-inputs/MASK_MANIFEST.json": "b0a2d8a9eafc2afb4e92053bcd1c7e93a3954b26899d64e22069f113cbc57e87",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/owner.py": "819d9371d03c8862a6de39a978a17538864af818e5979ccb93a221d025607f08",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/precompute.py": "77a2b9d0d09d32b2950d22ead4c4eaddd009583de2fb00505cb6eb5205170a5a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/score.py": "72907312023da9be3010bb1cbca4b31e516fefa41cbc7573d14c736c975d5ee0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/seal.py": "d5c3040987803840429c710ed5d947085d022b342e1430c9ae5010475201f8b9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/study.py": "fda2875505bdf4420005c0d1002ab0a8a564fc167f802f672203a34d6b3e5f40",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/test_recovery.py": "94f99d92f42f0c5525c8640e0e9373502098333ac7ce54aab4b6beffd74278e2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-qualification-v2/READY.json": "53a379c03a5acb9e04113a0a866c7c734dd1ad62454ba0658b71f81287e8454b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-qualification-v2/outputs/attempt-001/COLLECTION.json": "02c072f7961a8d531cf10716ff2c926eb8f7a999048b108a70f7c9bc92750893",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-qualification-v2/outputs/attempt-001/OWNER_TERMINAL.json": "5a6476afbc0602c3cb88fd4d5691c1102ca522b89bb8ab60d83ac2712b719a02",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-qualification-v2/outputs/attempt-001/service/SERVICE_STOPPED.json": "0f49b0f1e8c045756ea4c1af4b7f8e87167de7a9269452c08b836236859731e1"
+  },
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/owner.py",
+    "run",
+    "--outer-seconds",
+    "360"
+  ],
+  "cpu_tests": {
+    "native": "..                                                                       [100%]\n2 passed in 0.07s",
+    "training_environment": "{\"masks_sha256\": \"664afd5c88411d0eff5088c58a1936bba3e4d67b2e35da726b15c08ee0e5e7e3\", \"optimizer_steps\": 0, \"records\": 48, \"status\": \"PRECOMPUTED_INPUTS_VERIFIED_WITHOUT_XGRAMMAR\"}"
+  },
+  "created_epoch": 1789203105.6628218,
+  "external_timeout_seconds": 420,
+  "failure_action": "persist diagnostics without retry or optimizer step",
+  "failure_status": "NO_UPDATE_LIKELIHOOD_GATE_FAILED",
+  "identity": "1eb7a8a4c9e8d7065c6f492ee676da38d9cbf2d5925abcf3fdea46f55680045c",
+  "native_service_started": false,
+  "optimizer_steps": 0,
+  "output": "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-leaf-rloo-fresh-batch-invariant-hf-recovery-v1/outputs/attempt-001",
+  "pass_status": "QUALIFIED_NO_UPDATE",
+  "prepared_masks_environment": "prime-rl native CPU with xgrammar",
+  "schema": "fresh-batch-invariant-hf-phase-recovery-ready-v1",
+  "scoring_environment": "a100-lora training environment; consumes pinned masks without importing xgrammar",
+  "source_v1_raw_responses_reused": false,
+  "source_v2_actions": 48,
+  "source_v2_ready_identity": "b27457638bfdeaae7b3edbbb12dddff44c0eb9b04a29287f50f3056bd960c346",
+  "source_v2_recollected": false,
+  "status": "CPU_READY_HF_SCORE_ONLY"
+}

@@ -1,0 +1,107 @@
+{
+  "arm": {
+    "isolated_change_from_reference": "temperature",
+    "learning_rate": 1e-05,
+    "name": "t2_lr1e5",
+    "question": "Does temperature2 create more useful within-group feedback diversity?",
+    "temperature": 2.0
+  },
+  "checkpoint_policy": {
+    "automatic_resume": false,
+    "primary_step": 4,
+    "save_each_step": true,
+    "selection_by_eval": false
+  },
+  "claim_boundary": "Exploratory paired perturbation on previously used train contexts and an adaptively reused fixed evaluation panel; not an independent training replication, full factorial, pristine generalization, or root-performance claim.",
+  "closure_sha256": {
+    "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python": "f2654f53c16db79297ad7656fa7a56ef64fa4bc26af22c5874c358c7651f72d5",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3-4B-Instruct-2507--cdbee75f17c01a7cc42f958dc650907174af0554/config.json": "5beea1a4a34c62782bfb2f911c606741a3bab8f92d80a118fa053c28af12e8ba",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/CPU_TESTS.json": "76aecce565d461ebbad9b63774eeaded8263bf80e60b0b6c099fda30c506b3ca",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/EVALUATION_INTERFACE.md": "e82f0027336cf1f68102d63095064100b74433f73a6d8ac6ab128c91d5aa3df8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/arm_runtime.py": "c0fe5d1afcffec7e2642f127ffcc84fe15b92fa2c5dbadfe078bf692c3e0444b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/arms/t2-lr1e5/inputs/GROUPS.json": "f459d1452d9e3a88bf6a8be605ec3e6c3ec1eebfe2a177e2fd5b1e5dda52456b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/arms/t2-lr1e5/inputs/SOURCES.json": "b6ee7198b7e1574fa0d2d4850702804a892ab7ae0c46a5f3c54ddf049da6534a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/arms/t2-lr1e5/inputs/TRAIN_GOLD.json": "d02d5477fd387475ad595915a30062ec0b990f1da3749f8ac2e20c8720e784d5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/seal.py": "90251286baad587f8f8d4dec3879d819aebb1827487a9f251203ea5311c9b68c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/study.py": "8bfc493a7f1ee4fda2616a50953766aaa8839cfd4213bf670764c9349da7fb80",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/test_arms.py": "2604908ee9cfbaba396975754efab81ea54a1ac8ff926cbbb3ebbdee6bb204ce",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/train_arm.py": "4fb9958c00c2ba9e0c30479f1de4063b4cbfa0743a49cd2fc680cdad15336dd6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-v1/READY.json": "1885e3c2b91acb51639aff88e39959dc06ee255662664f27e6b5e753a32d5289",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-v1/core.py": "611be2c1d8fcfa61dfe9e79efebb5fc293ffaa6aec42bb2e6281b8470fb5e6bf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-v1/rng_receipts.py": "9a7369817c2be9be14e572dc7ca3f56694a705c13b5ea6db644a143f6ed6f6b8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-v1/train_four.py": "8ada8b5958e46d73ce6b26eb65ff94658ef93455f5de486e52562ea0804f8c49",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-v1/grammar_client.py": "79f1361a0e2f455a7ade98156fe3eb9956bc154991abafcb93355083ec3c1272",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-v1/grammar_worker.py": "ba351ae44adb1972a0ddb8872eaa9461c21604a576f3e08e37922ab1eb01c0de",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-v1/policy.py": "f5b3b91898ccf98f8fb97560cb9651da69c4f73b586ba84bc5042b6727b22c06",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-v1/train.py": "b6ba680bb328bafe4ff67f4f79ea8b72a47c4a8dd14c242155f95e82e7c0ff04",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-v2/runner.py": "dfd9a900527e30341bd40e38381d0aa3c6eacb4edff1055b505fb0b70fc4abb9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-feedback-diagnostic-v1/outputs/attempt-001/service/BINDING.json": "55090f28299b01c1b9f97f13bd09099f6db164dc23a3e73848db55a11595e23f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/outputs/attempt-001/checkpoint-0128/adapter_config.json": "ec773bc3b9de58af98a7c4dce9a40af795a4d05cd47284dbbfb27eac99b74174",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/outputs/attempt-001/checkpoint-0128/adapter_model.safetensors": "c32de1293c01bba5104eb1f123867649c71dd38e5194661ace4b17dcbbe66ba3"
+  },
+  "command": [
+    "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/train_arm.py",
+    "--arm",
+    "t2_lr1e5",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/arms/t2-lr1e5/outputs/attempt-001",
+    "--cap-seconds",
+    "4200"
+  ],
+  "created_epoch": 1789202949.128485,
+  "evaluation": {
+    "adaptive_reuse_not_pristine_generalization": true,
+    "external_timeout_seconds": 700,
+    "fixed_panel_records": 256,
+    "inner_cap_seconds": 600
+  },
+  "evaluation_interface": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/EVALUATION_INTERFACE.md",
+  "external_timeout_seconds": 4400,
+  "fixed_objective": {
+    "carried_adam_within_arm_only": true,
+    "first4_full_support_tolerance": 1e-05,
+    "fresh_collection_before_each_update": true,
+    "gradient_clip_norm": 1.0,
+    "replay_sequence_tolerance": 0.0001,
+    "replay_token_tolerance": 1e-05,
+    "rloo": "within B4; sequence sum; mean over all128",
+    "weight_decay": 0
+  },
+  "identity": "26c64663c376abafe127ca03ffe44579dc94a227fdce1bb358324afcd5ef3c0a",
+  "inventory": {
+    "actions_per_group": 4,
+    "evaluation_records_in_training": 0,
+    "fresh_actions_per_update": 128,
+    "groups_per_update": 32,
+    "total_fresh_actions": 512,
+    "training_records": 32,
+    "updates": 4
+  },
+  "launch_authority": "MAIN only under shared GPU flock",
+  "metrics": {
+    "live_and_nonforced_position_counts": true,
+    "live_constrained_entropy": "from already-computed sampling logq",
+    "mixed_reward_groups": true,
+    "poststep_extra_forward_sweep": false,
+    "sampled_sequence_logprob_sums": true,
+    "subsequent_collection_match_analysis": "posthoc diagnostic with selection caveat"
+  },
+  "output": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/arms/t2-lr1e5/outputs/attempt-001",
+  "owner_cap_seconds": 4200,
+  "schema": "helper-hf-onpolicy-fourstep-arm-ready-v1",
+  "seeds": {
+    "global": 202609120700,
+    "permutation_base_plus_step": 202609120800,
+    "sampler": 202609120701
+  },
+  "source_reference": {
+    "completed_result_sha256": "d2581a813c62602af018817a98a25e36657918b5a4085600e7cf23872c52accd",
+    "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-v1",
+    "ready_identity": "f0e01f9999652ada7ec1187a59b6efd2694fb89a0bd5d9d2b543d86009e13648",
+    "ready_sha256": "1885e3c2b91acb51639aff88e39959dc06ee255662664f27e6b5e753a32d5289",
+    "reference_is_comparison_not_parent_checkpoint": true
+  },
+  "start": "original c32; never the completed four-step reference",
+  "status": "CPU_READY_MAIN_REVIEW_REQUIRED"
+}

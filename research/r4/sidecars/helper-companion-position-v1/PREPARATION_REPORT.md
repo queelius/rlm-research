@@ -1,0 +1,13 @@
+# Companion/order CPU preparation
+
+Implements the approved64-call, four-arm design without editing any existing sealed source. READY.json contains the immutable source closure, exact command, environment versions and CPU_TESTS.json evidence. No GPU launch occurred here.
+
+`companion_study.py` uses the original size evaluator's public-only arbitrary-record prompt builder. It freezes two independent SHA-seeded per-column row permutations; neighbor records retain their original0..15 slot, not absolute token offset. Per-record provenance records old/new group and slot, retained companions and Jaccard overlap. Reversal retains the original companion set. Fresh controls and all outcomes are fixed before scoring.
+
+Native reuse is deliberately narrow: the sealed targeted sender saves exact wire requests/responses and per-call integrity metadata; its strict actual-token decoder is invoked in full-category mode for every companion arm. Temporary import aliases are restored immediately and neither the source modules nor files are modified. The old96-call owner and targeted metric logic are never executed. The independent owner and paired scorer use64 calls and1024 slots, account for unknown usage and unavailable predictions, and pair by immutable record ID across regrouped requests.
+
+Focused CPU qualification covers exact once-per-arm inventory, reversal, slot preservation and changed companions, ordered schemas and context bounds, hand-scored paired wins/disagreements/missing calls, actual native dependency loading and real-token full-label/non-stop validation. The only warnings are inherited SWIG deprecations. A test-only dummy credential enables CPU loader inspection without starting a service.
+
+The live context is checked against the frozen8192 bound. Pre-exec attestation and a final real EngineCore `batch_invariant.py` trace are both required for runtime qualification. Failures or a900-second cap leave explicit missing slots; complete-panel interpretation additionally requires all1024 predictions available. Source model, panel/exposure, grammar/runtime and prompt hashes are inherited and pinned. No flag-off counts or older service responses are pooled.
+
+MAIN argv: `/project/alex_phd/envs/prime-rl-5990b1b/bin/python /project/alex_phd/runs/rlm-research-r4/sidecars/helper-companion-position-v1/owner.py run --outer-seconds 900`, under shared GPU flock and external timeout1000. Output is `outputs/attempt-001`; an existing attempt is rejected. RESULT.json exposes `by_dataset_arm`, `paired`, `runtime_qualified`, `full_panel_interpretation_eligible`, and separate startup/owner time. Each pair includes planned records, available outcomes, unavailable branches, prediction disagreements and changed-record details.

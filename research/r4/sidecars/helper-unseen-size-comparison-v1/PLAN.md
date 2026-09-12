@@ -1,0 +1,13 @@
+# Frozen new-panel helper size comparison
+
+Question: does smaller-request accuracy transfer beyond verified c32 SFT training records, and what total token/call/time cost does it add? No model training or root call occurs here.
+
+Use the same256 frozen TREC-test/AGNews records, prompt wording, tokenizer wrapper, c32 adapter and ordered label schemas across fresh size16/4/1 arms. Each dataset has128 records in its original frozen order. Divide it into eight16-record blocks; rotate size order16/4/1,4/1/16,1/16/4 across block/dataset positions, evaluating every size even if earlier answers are poor. This schedules336calls and768record-predictions, one prediction per source record per size. Temperature0 and max1024output tokens remain fixed. Use the same new seed within each dataset across every size:202609120730 for TREC and202609120731 for AGNews.
+
+One fresh native service uses the already sealed batch-invariant-v4 launcher with its pre-exec flag attestation. All three arms, including size4, are fresh under that runtime. Do not pool with older flag-off counts or treat historical top-k receipts as training probabilities. The flag's earlier numerical-invariance probe is context, not proof that semantic outputs agree across input partitions.
+
+New files: `size_study.py` freezes requests/provenance and loads existing runtime/validator seams through unique module names; `owner.py` handles336-call execution, raw request/response audits, exact per-dataset/per-size768 accounting and cleanup; `test_size.py` covers schedule/partitions, missing-vs-wrong accounting and actual CPU dependency binding; `seal.py` emits immutable inputs/SCHEDULE, source manifest, CPU_TESTS and READY. Preserve all source collectors and the active four-step trainer.
+
+Report correctness with fixed planned denominators and availability bounds, valid/invalid/request-error/unattempted counts, paired per-record wins/losses between sizes, source-label counts, physical tokens/cache/calls and request time. Three related predictions of each record are not768 independent examples. Keep TREC and AGNews separate. Service startup/owner wall time is separate from summed request times; this is not whole-RLM latency or pricing.
+
+Main-only launch under shared GPU flock:1200second owner cap,1300second outer timeout. Save every attempted call immediately. A cap or infrastructure failure leaves explicit unattempted slots; no result-dependent condition stopping or retry. Release the single service on success, failure or signal. Panel provenance establishes absence from verified c32 SFT/new32, not from base pretraining; it is now research-exposed and this comparison is exploratory.

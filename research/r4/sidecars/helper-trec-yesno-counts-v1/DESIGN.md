@@ -1,0 +1,35 @@
+# TREC target predicates with symmetric yes/no outputs
+
+Status: proposal only, awaiting MAIN approval. No implementation, GPU launch, or mutation of existing closures. Proposed sidecar: `helper-trec-yesno-counts-v1`.
+
+## Evidence and bounded hypothesis
+
+The literal-target/other experiment ended with81 valid calls, one deadline request error and14 unattempted calls. On seven wholly completed TREC blocks, the reusable full map had27/42 exact counts versus20/42 targeted, with summed absolute count error16 versus152. The entity-target request predicted positive for all112 records:21 true positives and91 false positives. On six completed news blocks, both arms had9/24 exact counts, but absolute error was22 full versus38 targeted. These are completed-block partial comparisons, not results for all80 planned tasks. Keep the immutable original results; do not spend a tail continuation to seek a favorable complete score.
+
+Hypothesis: the asymmetry between an SFT-familiar literal category and the novel complementary output `other` contributed to degenerate positive predictions under constrained decoding. This is unproven; instruction interpretation, label priors, token probabilities and prompt format are alternative explanations. Replacing the binary verbalizer with symmetric `yes`/`no` tests output wording/schema calibration, not whether logical decomposition is intrinsically difficult. Both yes/no outputs are also outside the helper's full-category SFT output convention, so improvement is not guaranteed.
+
+## Frozen56-call comparison
+
+Use all128 TREC records from the same frozen public panel, in the same eight16-record blocks. Keep all six predeclared target categories in their existing order/rotation. Fresh full-category maps:8 calls, each reusable across all six targets. Yes/no maps:48 calls. Total56 physical calls,896 physical label slots and48 target-count tasks; each arm yields768 related binary decisions on128 unique records.
+
+Use unchanged c32, tokenizer/wrapper, TREC definitions, target identity, records, ordered keyed schema, temperature0 and model seed202609120820—the original literal experiment's TREC seed. Derive the schedule by filtering the original96-call frozen schedule to TREC; retain its relative target/full ordering, rotations and full-map insertion positions. All8 full maps are newly generated in this job's single shared batch-invariant-v4 service. No historical raw responses are reused as the primary full baseline.
+
+For each targeted prompt, change only the instruction-prefix/output verbalization: `return the target label` becomes `return yes`; each complementary output token reference `other` becomes `no`; allowed output labels become `["yes","no"]`. The target-category name and every category definition remain unchanged. State that yes means membership in the specified target and no means membership in any of the other five listed categories. Apply replacements only to the pre-record instruction section, never question text, IDs or category definitions. Freeze a human-readable exact instruction diff before scoring. Full-map bodies must equal their original frozen TREC bodies. Keyed schema enums are `["yes","no"]`, with the identical16 IDs and key order.
+
+Host scoring maps yes to positive and no to negative for every target; no gold values enter prompts. Do not reconcile independently predicted targets into a forced six-class label or select targets after outcomes.
+
+## Metrics and discriminating outcomes
+
+Primary comparison: yes/no versus this run's fresh full maps over all48 planned block/target tasks. Report per-target TP/FP/TN/FN, positive recall, specificity and balanced accuracy; macro-average the six target-balanced accuracies. Report exact-count tasks, summed absolute count error, signed-error bias, availability and paired task wins/losses. Report per-target predicted-positive counts and constant-positive/constant-negative maps so fixing one collapse cannot hide replacing it with another. Missing maps remain unavailable; never interpret them as zero counts or negative predictions.
+
+Report fair single-requested-target costs and amortized all-six-target costs: uniform-target expected cost is the mean of six yes/no requests versus one full map; all-target cost is their sum versus one reused full map. Keep physical8-versus48 call totals, actual input/output/cache usage, unknown-usage counts, startup and owner time separate. Reuse the prior prospective screen unchanged: exact counts improve, absolute error decreases, macro balanced accuracy does not decline, complete comparable availability, and uniform-target total-token ratio≤1.25. The screen is an exploratory budget decision, not an optimality claim.
+
+Secondary verbalizer diagnostic: on exactly the original seven fully completed TREC blocks, compare old literal/other and new yes/no confusion/counts, prominently labeled as a cross-service, different-cache-history comparison. Report old-versus-new fresh full-control drift on that same subset. Do not treat the old partial run as an additional independent baseline or claim a clean within-service causal verbalizer effect. If yes/no removes entity collapse and improves the matched metrics without merely suppressing positives, this supports further schema/verbalizer calibration tests. If both binary formulations fail relative to their full controls, retain full-category outputs for this helper and deprioritize binary task-targeting. Neither result licenses a general recursion, RL, or adaptive selector claim.
+
+## Runtime and qualification
+
+Proposed owner750seconds, external850seconds, MAIN-only shared GPU flock. This is a new prospective cap, not an extension of the completed literal run. At roughly9seconds per16-record targeted call,56 calls plus startup may fit; output wording changes timing, and a capped run must stay partial. Max1024 output tokens and8192 service context remain unchanged; preflight every prompt+1024 bound. No retries, outcome-based stopping, tail selection, new data or installs.
+
+Freeze READY/source closure, all56 request bodies/token IDs/ordered schemas, category definitions, model/runtime/config, exposure and source-result hashes before launch. Save exact request/response wire, call ID/provider ID, finish reason, decoded actual token IDs, usage and atomic progress per call. Require actual engine pre-exec flag attestation and final real EngineCore batch-invariant marker. Clean release on success, exception or signal.
+
+Implementation, if approved, should reuse the small sealed native lifecycle/wire/token seams with a local yes/no label interpretation; no new framework. Focused CPU checks:56/896 inventory; original full-body equality; instruction-only diff leaves all records/definitions unchanged; strict yes/no schema; same-gold confusion/count fixture including collapse and missing maps; physical full-map costs counted once; context bound. MAIN separately reviews READY before launching. This panel is research-exposed and absent from verified c32 SFT/new32 updates, not necessarily base pretraining.
