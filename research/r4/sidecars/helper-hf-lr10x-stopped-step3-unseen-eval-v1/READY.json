@@ -1,0 +1,55 @@
+{
+  "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/arms/t1-lr1e4/outputs/attempt-001/checkpoint-0003",
+  "checkpoint_state_sha256": "58c33d80d1e8bbafe116a2f965853f043ba044fa11387a55797f1de231ec44cf",
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-fourstep-temperature-lr-unseen-eval-v1/READY_LR10X_V3.json": "55f4402b5bc58a679d5163ec3c54089e75215d17d542bb25913f8915ca7722d9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-fourstep-temperature-lr-unseen-eval-v1/arm_eval_study.py": "d9cc445bed86aa998c0f951a9b8e7e3ba778def57a489df1f3d00a5c5416dfab",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-fourstep-temperature-lr-unseen-eval-v1/arm_eval_study_v2.py": "b9c17bc93ed097c61f1e8360031aff64dd968cd684574008ccbb8579f783f3e0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-fourstep-temperature-lr-unseen-eval-v1/arm_eval_study_v3.py": "5b14d2ce82e3dc3d684b2af74f3388f835e02fa3a3aa87d1a18cb396e1bd0c5d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-lr10x-stopped-step3-unseen-eval-v1/CPU_TESTS.json": "0048975581adbb84cdff9b473945a0273b5a586af9a3d5698eec533df0f8d23f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-lr10x-stopped-step3-unseen-eval-v1/owner.py": "28e6f80580c62d5e8cd5f003766a8b5bb2f7ab9a4c3fd154cc38c9cd066138cb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-lr10x-stopped-step3-unseen-eval-v1/seal.py": "ee9f3b3de3a784da0b6f38b73381061773ab730e7d9900e3f1c78110b43689f8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-lr10x-stopped-step3-unseen-eval-v1/study.py": "bff5eb4dfcbd09831bf6ecc2f43f2f6fc1bf26be2ac39577e7fb548fe6cbeff7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-lr10x-stopped-step3-unseen-eval-v1/test_step3.py": "d203a143d31ae0a4ac7e6453121b42fcb4110a4c030e15bf69604fea2eac52df"
+  },
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-lr10x-stopped-step3-unseen-eval-v1/owner.py",
+    "run",
+    "--outer-seconds",
+    "600"
+  ],
+  "cpu_tests": "..                                                                       [100%]\n2 passed in 4.30s",
+  "created_epoch": 1789210120.155909,
+  "external_timeout_seconds": 700,
+  "identity": "0bd3c5770e9a05d5c15c99a263a3a8732f4ad03da7ed1c24f3e88c5f9fe45907",
+  "inner_cap_seconds": 600,
+  "interpretation": "Adaptive stopped-policy readout; not the prespecified fixed-fourstep primary and not checkpoint selection by evaluation.",
+  "inventory": {
+    "ag_news_test": 128,
+    "batch_size": 4,
+    "physical_calls": 64,
+    "predictions": 256,
+    "root_calls": 0,
+    "training_updates": 0,
+    "trec_test": 128
+  },
+  "question": "What is the fixed256 readout of the exact checkpoint-3 policy at the mechanistic zero-advantage stop?",
+  "reference_eval_ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-fourstep-temperature-lr-unseen-eval-v1/READY_LR10X_V3.json",
+  "reference_eval_ready_sha256": "55f4402b5bc58a679d5163ec3c54089e75215d17d542bb25913f8915ca7722d9",
+  "schedule_sha256": "96709e533cc85b090dd211a6add7b3ef8649b5adeee4e9300f0b0a2bf7e1bd8d",
+  "schema": "helper-hf-lr10x-stopped-step3-unseen-ready-v1",
+  "status": "CPU_READY_CONDITIONAL_EXACT_LR10X_ZERO_ADVANTAGE_STEP3",
+  "training_result_sha256": "bc458bb2332ec66a83c92aad3e2576a0847dfdcb47ccda297f0a7b2c0a71a2d2",
+  "update4_action_evidence": {
+    "all_correct_groups": 30,
+    "all_wrong_groups": 2,
+    "correct_actions": 120,
+    "fresh_actions": 128,
+    "hypothetical_other31_nonzero_actions": 128,
+    "mixed_groups": 0,
+    "probability_qualified_actions": 128,
+    "within_question_rloo_nonzero_actions": 0,
+    "wrong_actions": 8
+  }
+}

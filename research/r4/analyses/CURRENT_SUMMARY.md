@@ -1,5 +1,97 @@
 # What we know so far
 
+## Current update — September 12, 11:24 UTC
+
+The fast48 update is now independently qualified, not merely a checkpoint file:
+all48 differentiable likelihood checks passed exactly, only helper tokens were
+trained, and Adam advanced once. Its256 evaluation labels exactly match the
+reference four-update model. This is a useful faster collection/training route
+to investigate, not an additional quality gain; total acquisition, qualification,
+and evaluation time must be counted separately from36.309s optimizer work.
+See `fresh48-fast-one-update-2026-09-12/REPORT.md`.
+
+The GPU is collecting the actual optional-helper/no-helper comparison. A six-stage
+successor chain is accepted and waiting, covering reward-baseline recovery and
+readouts, singleton inference-shape controls, and numerical inspection-budget
+allocation. CPU analysis will use each outcome to select the next comparison.
+No additional temperature-only or larger-step repeat is planned.
+
+## Current update — September 12, 11:13 UTC
+
+The matched three-update comparison is available: reference120/128 question
+categories and112/128 news, versus larger-learning-rate117/128 and111/128.
+All256answers were available in both. Larger updates did not help this model
+and small familiar training set. The larger arm stopped before update4 because
+the whole batch had zero relative-reward contrast; no fourth checkpoint exists.
+The retained fast48 update path is next on the GPU, and the independent
+optional-helper experiment has an accepted import-isolated recovery owner.
+
+The numerical pilot reached no Python final answers: eight code truncations and
+two timeouts. A followup will first make the inspection budget functional, not
+train on an apparent zero-score architectural result. The fresh classification
+checking result also needs its cheapest comparator: selective checking tied
+the original total across datasets at2.66times the observed token cost, despite
+passing its narrower comparison against three-answer voting.
+
+## Current update — September 12, 11:08 UTC
+
+On 128 fresh examples, selective checking was cheaper than voting over three
+answers and at least as accurate on both datasets. However, the original single
+pass was much cheaper still. Selective checking lost one correct question-category
+answer (61 versus 62 of 64) and gained one news-category answer (56 versus 55).
+This is a useful cost/quality observation, not a demonstrated general advantage
+over the simplest RLM helper policy. All 152 raw responses were decoded by an
+independent analyzer; all policies had complete output and the service released.
+See `helper-adaptive-fresh-independent-2026-09-12/REPORT.md`.
+
+The larger-learning-rate model has three saved updates and awaits its matched
+three-update evaluation. Its fourth batch had no reward contrast, despite some
+different wrong answers: answer diversity and useful reward diversity are not
+the same thing. The paired reward-baseline experiment collected 128 answers but
+failed on an RNG-restoration import before updating either branch; that is a
+software failure, not a negative RL result. A repair will reuse authenticated
+answers when exact-policy replay permits it. The optional-delegation experiment
+also failed during dependency loading before making model calls.
+
+The GPU is currently running the new numerical-data/Python pilot. Four accepted
+readout/update jobs are waiting under the same lock (PTY 75691), while CPU work
+repairs the observed seams and evaluates the next research decisions. Exact
+receipts and limitations are in `../RESEARCH_QUEUE.md`. No meaningful new RL
+improvement is claimed yet.
+
+## Current update — 2026-09-12 10:54:58 UTC
+
+The larger-learning-rate run applied three updates, then stopped because its
+fourth batch had no reward contrast. Thirty questions received four correct
+answers each; two received four wrong answers each. That gives 120/128 correct
+training answers but zero relative-reward advantage for every sample. There is
+no fourth checkpoint and no evaluated quality claim yet. A separate, explicitly
+adaptive readout of checkpoint 3 is prepared, with a matching reference step-3
+control being added. Do not treat the rejected step-4 evaluation as poor accuracy.
+
+The independent training audit also confirms that both earlier T1 and T2 updates
+changed training likelihoods. Their identical evaluation outputs do not mean the
+optimizer did nothing. T2 exposed more right/wrong contrasts without improving
+the fixed evaluation labels. This narrows the next tests to useful reward signal,
+update scale, training coverage, and which part of the RLM should learn.
+
+The GPU is now running the shared-action comparison of two reward baselines.
+A faster 48-action path failed before loading the model because its NumPy seed
+was out of range; a minimal additive repair is ready for review. That setup error
+produced no optimizer update and is not a negative scientific result.
+Fresh-input selective checking, optional-delegation headroom, and a 20-episode
+numerical-data/Python pilot remain accepted successors. The numerical pilot is
+neither RL nor recursive-depth learning; it deliberately changes information access.
+
+Public checkpoints: RLM `54372e5` and research notebook `fb690be`. The latter
+archives selected scripts and findings, not weights or raw external traces.
+Main-account quota was 90% remaining at 10:50 UTC. See `../RESEARCH_QUEUE.md`
+for exact owners, caps and the independent CPU analysis waiters.
+
+Sources: `helper-hf-fourstep-signal-audit-2026-09-12/REPORT.md` and the immutable
+LR arm `RESULT.json`, three checkpoint commits, and update-4 collection/replay
+records under `../sidecars/helper-hf-onpolicy-fourstep-temperature-lr-v1/`.
+
 ## Current update — September 12, 10:08 UTC
 
 The complete yes/no comparison is also negative. Full-category outputs produced

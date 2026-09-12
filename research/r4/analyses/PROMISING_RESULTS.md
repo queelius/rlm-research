@@ -1,5 +1,33 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 11:19 UTC
+
+**Keep the cheapest comparator visible.** Fresh selective checking matched
+three-vote accuracy on TREC and exceeded it on news at lower token cost, but
+was tied with one original pass across128 records at2.66times its token cost.
+It corrected three original answers and damaged three; seven shared errors
+never triggered checking. This does not earn default-policy promotion.
+The useful mechanism question is complementary evidence: does another solver
+offer correct answers that a selector can identify without damaging the strong
+default? A CPU proposal includes agreement controls and a best-of-two ceiling.
+
+**The current simple RL knobs are not a strong paper result.** T2 increased
+mixed rewards without changing256predictions. Larger updates regressed by four
+net answers in the matched-three-update comparison. A qualified fast48 update
+works but its headline evaluation is still120/128TREC and112/128AG. Next test
+training/evaluation request-size mismatch, the paired reward baseline, and then
+broader data; do not keep repeating this small familiar training set unchanged.
+
+**Numerical tasks remain a candidate, not a positive result.** The first pilot
+had zero Python finals because of code/time limits. Its additive followup will
+compare one wide inspection with three narrow ones at a common total budget.
+No RL or generalization claim follows from the failed interface pilot.
+
+The strongest quality/publication leads remain the earlier multi-model keyed
+handoff, task-dependent helper-input effects, and supervised same-task transfer.
+Optional delegation is now being measured directly; a learned recursive-depth
+claim still needs demonstrated choice headroom and a genuinely multi-level task.
+
 ## Decision update — September 12, 09:57 UTC
 
 The exploration-only explanation is weaker. T2 produced 40 mixed training groups

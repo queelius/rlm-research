@@ -1,0 +1,53 @@
+{
+  "arm": "c32",
+  "binding_sha256": "9142d3cb6187dda0408161614364cc141d7022f067939fe06e424916ea94b600",
+  "child_alias": "strict-rlm-qwen3-4b-role-sft-selected-v1",
+  "child_binding": {
+    "adapter_sha256": "c32de1293c01bba5104eb1f123867649c71dd38e5194661ace4b17dcbbe66ba3",
+    "config_sha256": "ec773bc3b9de58af98a7c4dce9a40af795a4d05cd47284dbbfb27eac99b74174",
+    "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/outputs/attempt-001/checkpoint-0128"
+  },
+  "claim_boundary": "Adaptive research-exposed fixed256 singleton-shape interaction; not confirmatory generalization.",
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-fourstep-unseen-eval-v1/READY.json": "8639bda080fe8ec9e0201b7797410027318407a3cc2357ee87896e70eadaacec",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-fourstep-unseen-eval-v1/fourstep_panel_study.py": "4983dfc63342679a6707b985179dbd262e1d6f4dccfa806754664953d5717a21",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-singleton-policy-comparison-v1/CPU_TESTS.json": "95b09489501f2892fd8e69ba6ea1ae1347b5a83f71df70f5d0cd1b45139796b9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-singleton-policy-comparison-v1/DESIGN.yaml": "02a05c8653e53457af1558ed79adfd0007eab38eb91bf648e1e4352d82578b03",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-singleton-policy-comparison-v1/INPUT_MANIFEST.json": "c661efb86bf3c6e78a891accc6f6d277f4adb11491f49cba9ce4c87aa654d626",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-singleton-policy-comparison-v1/QUESTION.md": "57aee9df7067e613dfd16c2ee21910be42ecff0b8f53e892d6129d7ae2f75225",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-singleton-policy-comparison-v1/owner.py": "b255d2c78eaaa576ae8c24f76dbcc90f28fbb321b477866d1043611d06ba5058",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-singleton-policy-comparison-v1/prepare.py": "0bb80bd42ceb332fdb8f2225a64f4a249e832c9cef6d8983b143c398407fdf07",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-singleton-policy-comparison-v1/study.py": "88b745cb9dea06f89adcb2bee45da5ebfbd379fa200dc67ef355806f926fd130",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-singleton-policy-comparison-v1/test_singleton.py": "6622cdbfa821eb44c5fe0dd17ff193b94807ebc578c1adc9cebe479f168a1d0c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-unseen-size-comparison-v1/READY.json": "099ee711b6636f9af117636ac98430bb18e7e2cba7e83da0d608b478aff2f7a1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-unseen-size-comparison-v1/inputs/SCHEDULE.json": "b1328987bf78a277ca02b755a138e4c49dbc3bc2c32b62f7f0dc4b57c0719696",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-unseen-size-comparison-v1/owner.py": "dc6fdea3dc9c3338b85aa6ed99c985b15c5f256805bda415c0bfaa8774e0176d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-unseen-size-comparison-v1/size_study.py": "ea28cc7c240754756cbdec06fdd852d8049488dd8ade551495f83505eea4681f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/outputs/attempt-001/checkpoint-0128/adapter_config.json": "ec773bc3b9de58af98a7c4dce9a40af795a4d05cd47284dbbfb27eac99b74174",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/trec-leaf-sft-v1/outputs/attempt-001/checkpoint-0128/adapter_model.safetensors": "c32de1293c01bba5104eb1f123867649c71dd38e5194661ace4b17dcbbe66ba3"
+  },
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-singleton-policy-comparison-v1/owner.py",
+    "run",
+    "--arm",
+    "c32",
+    "--outer-seconds",
+    "900"
+  ],
+  "cpu_tests": "..                                                                       [100%]\n2 passed in 20.16s",
+  "created_epoch": 1789211968.9527826,
+  "external_cap_seconds": 1000,
+  "identity": "d1265d4dd360b32bd98f13d06bfac5cea8aa4a45b86184d07e9194289c4b1dd1",
+  "input_manifest_sha256": "c661efb86bf3c6e78a891accc6f6d277f4adb11491f49cba9ce4c87aa654d626",
+  "metric": "paired fixed-denominator correct/wrong/unavailable by dataset plus physical cost",
+  "owner_cap_seconds": 900,
+  "physical_calls": 256,
+  "predictions": 256,
+  "question": "Does reference T1/LR1e-5 step4 outperform c32 under the singleton inference shape used in training?",
+  "schedule_sha256": "b940c05608c96e1d95bac60f9cafb01375bfec81885406d68e93e0773b60eacc",
+  "schema": "helper-hf-singleton-policy-comparison-ready-v1",
+  "service_policy": "fresh service per arm; batch-invariant runtime attested; release before next arm",
+  "status": "CPU_READY_MAIN_GPU_LAUNCH_ONLY",
+  "temperature": 0
+}

@@ -1,5 +1,227 @@
 # Live GPU research queue
 
+### Live update September 12 11:24 UTC — feedback and input-shape successors queued
+
+ACTIVE root recursion-headroom V4 started11:15:41 UTC; real native calls are
+flowing and block00-no_child has a saved terminal. Owner PTY78209 remains under
+the shared lock. The second condition is now collecting; partial block counts
+are not the final matched result. Independent attempt002 analyzer PTY98935 waits.
+
+WAITING PTY35857 is a six-stage accepted chain, wrapper
+`operations/2026-09-12-feedback-shape-and-numerical-queue/run.py`, SHA256
+`90dfe0ff3ab51ad3b34e03673de9c3363d55adf2a3de3c0eef87ed0f82e54821`:
+
+1. Paired reward-baseline V2 recovery from the saved128 actions (external2850s).
+2. Conditional RLOO branch evaluation (700s).
+3. Conditional other31 branch evaluation (700s).
+4. New c32 singleton evaluation (256calls,1000s).
+5. Matched reference-step4 singleton evaluation (256calls,1000s).
+6. Numerical budget-shape V2 (30episodes,1900s;70planned maximum researchcalls).
+
+All six exact READY hashes and flat closures verified on CPU before queueing.
+The chain checks release before every successor. It does not require successful
+paired training for the independent singleton and numerical experiments.
+Numerical independent CPU watcher is PTY36335/PID65144; singleton analysis is
+being prepared. Main-account quota88%remaining at11:23:44UTC.
+
+Fast48V2 is fully evaluated and independently audited:36.309s training,48/48
+exact differentiable replay checks, one Adam step, unchanged root. Evaluation
+is120/128TREC and112/128AG, exactly the same256labels as reference4step; one
+changed/corrected TREC label versus c32. Native collection166.766s and HF recovery
+16.827s are separate prior costs, not zero-cost inputs. Do not claim the update
+duration alone as end-to-end speed or a unique quality improvement.
+
+RLM source/report checkpoint51d602b is pushed. Research-notebook refresh underway;
+no model weights or external run outputs are backed up by that push.
+
+### Live update September 12 11:13 UTC — matched three-step results available
+
+The LR-10x stopped checkpoint3 evaluation completed all 64 calls/256 records:
+117/128 TREC and 111/128 AG News. The matched reference checkpoint3 completed
+120/128 and 112/128, identical headline counts to reference checkpoint4.
+Both had zero unavailable predictions. Independent paired raw comparison is
+running on CPU. Larger updates do not currently offer a quality improvement.
+
+AnomalyXL mini finished all20 episode records and released cleanly in485.354s.
+Direct answered10/10; Python reached zero final answers (eight512-token code
+truncations; two45-second timeouts). Treat this as budget/interface diagnosis,
+not a meaningful comparison of functioning Python versus direct policies.
+A bounded additive allocation-of-inspection-budget followup is in preparation.
+
+Four-stage PTY75691 has moved past both readouts to fast48 V2 train/eval.
+Recursion V4 recovery is WAITING PTY78209, same96comparison, attempt002,
+READY SHAac5b4d12022b9b15a80a213912b98f4af20179882b4177aa708300c950b62faf.
+Wrapper `operations/2026-09-12-recursion-headroom-recovery-queue/run.py`
+SHA04221823d08254269fce58ee0c18bdc060084548ff8776dc16d019f6bfa07ac0,
+same1900s externalcap and coordinator lock. Its real fresh-process dependency
+loading and request preparation passed before MAIN acceptance. Independent
+CPU attempt002 analyzer is WAITING PTY98935, four-hourcap/poll30/GPUhidden.
+
+Pair-reward repair preserves the original128 samples:112correct,5mixed groups,
+oneall-wrong group. It is still CPU preparation, not an updated model.
+Main-account quota:89%remaining at11:09:46UTC.
+
+### Live update September 12 11:08 UTC — fresh adaptive complete; numerical pilot active
+
+ACTIVE is AnomalyXL mini, PTY 46323, with 13/20 episodes terminal at its latest
+342-second progress receipt. Both engineering calls qualified Qwen3.5-4B native
+serving and Python execution. No final scientific result is available yet.
+
+Fresh adaptive completed all 152 calls and 128 fresh records with clean release.
+TREC correct counts for original / three-vote / selective / singleton are
+62 / 61 / 61 / 60 of 64; AG News counts are 55 / 54 / 56 / 55 of 64.
+Selective checking saves tokens relative to three-vote, but the original single
+pass is substantially cheaper and has no convincing cross-task accuracy deficit.
+Do not promote the favorable three-vote comparison into a general improvement.
+Independent raw analysis: `analyses/helper-adaptive-fresh-independent-2026-09-12/`.
+
+The paired trainer failed after collecting 128 actions and before either branch
+updated: its imported trainer did not expose `restore_rng`. V1 is preserved;
+an additive V2 will reuse the exact collection only after unchanged-policy replay
+qualification. Its dependent evaluations correctly made no model calls.
+The root recursion pilot V3 also failed before any model call: a generic Python
+module alias resolved to the wrong experiment's `study_v3`. An additive repair
+is in preparation with actual dependency loading in a fresh process.
+
+WAITING PTY 75691 is the accepted four-stage recovery chain:
+LR-10x stopped checkpoint-3 readout; matched reference checkpoint-3 readout;
+fast48 seed-repaired update; conditional fast48 evaluation. External caps are
+700 / 700 / 1000 / 700 seconds. Wrapper is
+`operations/2026-09-12-step3-and-fast-recovery-queue/run.py`, SHA256
+`18f27143d11c2e6fa6b0dfe23115387a9d14e147a454a80e41ecaa2e06cdc5fd`.
+All four READY hashes and flat closures verified before queueing; the reference
+readout uses READY_V2 and the fast48 train/eval use new V2 sidecars.
+The same exclusive GPU lock is used. Queued does not mean running.
+
+Main-account quota: 90% remaining at 10:56:36 UTC. CPU agents are repairing the
+two observed execution seams and analyzing whether selective checking warrants
+a further experiment relative to the cheapest baseline.
+
+### Live update September 12 10:47 UTC — reward-baseline training active; LR stopped on zero signal
+
+ACTIVE GPU owner is the paired RLOO / other-31 trainer in chain PTY 39569.
+Its stage started at 10:46:24 UTC; trainer PID 36394 started at 10:46:35.
+It shares one fresh 128-action collection across two one-update branches from
+identical starting weights. Its two fixed256 evaluators remain in the same chain.
+
+The LR 10x run ended `STOP_ZERO_ADVANTAGE` after three committed updates and
+2,453.52 seconds of owned work. Its fourth collection had 120/128 correct answers:
+30 all-correct groups and two all-wrong groups, with zero mixed groups. No fourth
+optimizer step was applied. The originally specified step-4 evaluator rejected
+this missing checkpoint before service startup. Do not report that rejection as
+a model accuracy result. MAIN has requested an additive, explicitly adaptive
+evaluation of the last committed step 3, conditional on this exact stop state.
+
+The fast48 trainer failed before model loading: the declared master seed exceeded
+NumPy's legacy uint32 range. The original attempt and wrapper EXIT are preserved;
+its evaluator also rejected the missing result before model calls. A bounded V2
+repair will map only NumPy's seed modulo 2**32, retain Python/Torch master seeds,
+reuse the exact qualified 48 actions, and use a new output location. It is not
+yet accepted. No optimizer update or scientific null result came from this failure.
+
+Operations cost: after the first chain ended around 10:44:16, the next chain
+spent roughly 96 seconds repeating source/ancestor checks under the GPU lock
+before the failed fast48 invocation. The paired trainer followed automatically.
+This avoidable preflight cost should be reduced in future queue wrappers by doing
+shared immutable-input verification before acquiring the GPU lock; do not edit
+the active sealed chain to address it. The accelerator was not secretly occupied
+by a second experiment during that gap.
+
+Fresh adaptive (PTY 33899), recursion headroom (PTY 5821), and AnomalyXL mini
+(PTY 46323) are still independent WAITING owners. CPU numerical-pilot analysis is
+WAITING PTY 87448; adaptive analysis is PTY 4903. Both have four-hour caps.
+
+### Live update September 12 10:39 UTC — new-task pilot accepted; three RL checkpoints saved
+
+LR 10x training has saved checkpoints 1–3. Training batch correctness was
+114, 120, and 120 of 128; mixed groups were 4, 4, and 2. These are familiar
+training questions, not an evaluation improvement. The original chained step-4
+evaluation remains the next stage after a successful fourth update.
+
+Additional independent WAITING PTY 46323 is the AnomalyXL mini-pilot, READY SHA256
+`19da99f0a21d4763862bbf03d9cc1d14f2f690883e8f8c4fc460accbc15a0a1f`,
+identity `e275453f9dd88007eaa64d36168c5aa8390542376b08320ce8d301c6d3649a2d`.
+MAIN reviewed the 20-episode owner, native new-model service, executor/data/scorer
+seams, and both focused CPU fixtures; all 128 source/model/data pins verified.
+Wrapper `operations/2026-09-12-anomalyxl-mini-queue/run.py`, SHA256
+`94fb34584dea1a2143f80f2e42d2b5787902cde2db2a2077874cd9ff4d1d8f8d`,
+uses the same lock (18,000-second wait), 1,100-second owner and 1,200-second
+external caps. It translates the receipt's `owner_argv` field without changing it.
+No provider key is required for the new loopback-only service. Exact Qwen3.5
+serving and two engineering calls must qualify before any research episode.
+
+This pilot compares a uniformly subsampled direct view with full-data Python
+inspection. It is a new-task feasibility test, not recursive-depth learning, a
+pure reasoning comparison, or RL. Three inspections are prescribed, not learned.
+The official parser/scorer is retained; strict whole-response JSON is separate.
+
+Independent CPU adaptive analysis is WAITING PTY 4903, bounded to four hours,
+polling every 30 seconds with the GPU hidden. CPU result analyses for the
+recursion and numerical pilots are also being prepared. The fixed256 RL analyzer
+PTY 29848 remains the owner of those comparisons. Do not edit live analyzers.
+
+The independent training-signal report now verifies that model updates changed
+training likelihoods despite identical T1/T2 evaluation outputs. Corrected report
+SHA256 `eabc889c140fe45cd44c70809403051c0243d4d5d65624f3ca2cafdb456e25a5`
+is in `analyses/helper-hf-fourstep-signal-audit-2026-09-12/`. One-to-one matched
+training completions were 262 (T1) and 259 (T2), all with nonzero saved likelihood
+changes; earlier draft prose counts were corrected before publication.
+
+Main-account quota at 10:37 UTC: 91% remaining. Future conditional questions on
+learning new output interfaces and giving deeper children controller capability
+are recorded in `ideas/2026-09-12-learned-interface-and-recursion-role-followups.md`;
+they are not additional admitted GPU jobs.
+
+### Live update September 12 10:31 UTC — direct delegation comparison accepted
+
+Additional independent WAITING owner PTY 5821 is the corrected recursion-headroom
+pilot. Only `root-qs6-recursion-headroom-v1/READY_V3.json` is accepted:
+SHA256 `ebd6570c6b5251a471ced00ddfd2aeab2049ad5b05cf71837c926cac74fe2243`,
+identity `0224d291e305a2db6b178d6457cedbd85c1777b07156a9ddb5c9e4b202b40b53`.
+MAIN reviewed the owner/collector/export/score seams, verified the actual owner and
+all 42 receipt pins, and accepted the five focused CPU fixtures plus fresh-process
+path audit. V1 and V2 never ran and remain retired.
+
+Queue wrapper `operations/2026-09-12-recursion-headroom-queue/run.py`, SHA256
+`66cb7c061f2f720b2f54dfcdd3454dc1928a578427ac28cf5964910b6a2b3d94`,
+uses the shared lock with an 18,000-second wait. It maps the receipt's `fixed_argv`
+field to the existing driver's `command` field without changing the argv or receipt.
+The job has 96 planned episodes, 1,800-second ownership and 1,900-second external
+caps, and a 600-request admission trigger that is explicitly not a hard cap.
+Its results will retain missing outcomes and context clustering. The supplied-family
+router is only a retrospective diagnostic; no learned planner is claimed.
+
+The AG evaluator denominator correction is now CPU-qualified: V2 reports one
+256-record AG dataset, with no negative missing count or phantom TREC dataset.
+MAIN verified all training/evaluation receipt closures and reran the two focused
+summary fixtures (passed). AG remains conditional on the queued mechanics results,
+not an additional accepted GPU job.
+
+### Live update September 12 10:26 UTC — larger-update RL is active; source checkpoint pushed
+
+The LR 10x four-step trainer remains ACTIVE under chain PTY 65206, with two
+optimizer checkpoints saved. This is not yet an evaluated improvement.
+The five-stage fast48 / paired-baseline chain (PTY 39569) and independent fresh
+adaptive comparison (PTY 33899) remain WAITING on the same exclusive GPU lock.
+No additional GPU owner has been started outside that lock.
+
+The recursion-headroom pilot is still in CPU review. Do not launch its original
+READY or READY_V2: stale prefix/export and fresh-process collector bindings were
+caught before GPU calls. An additive corrected owner is being checked. The
+broader AG News trainer is CPU-sealed but conditionally admitted only after the
+mechanics results; its new 256-record evaluator needs a small summary-denominator
+correction before acceptance. These are not completed or running experiments.
+The independent tiny time-series pilot retains its 10:43 UTC preparation stop.
+
+The public research notebook refresh was pushed as `queelius/rlm-research`
+commit `fb690be`: 140 selected files refreshed, 2,973 published files total,
+including recent sealed experiment scripts and readable findings. All manifest
+hashes and refreshed Markdown links were checked. The synthesis remains in RLM
+commit `54372e5`. Neither push backs up model weights or raw external artifacts.
+
+Supported main-account quota at 10:24 UTC: 92% remaining. Account reset is
+observed, not assumed; the allowance remains shared with the other session.
+
 ### Live update September 12 10:07 UTC — LR arm active; fresh adaptive comparison accepted
 
 T2 evaluation completed cleanly: all 256 predictions equal the T1 / LR 1e-5

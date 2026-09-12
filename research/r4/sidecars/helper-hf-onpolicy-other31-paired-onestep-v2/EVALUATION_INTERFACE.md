@@ -1,0 +1,11 @@
+# Additive paired one-step repair handoff
+
+V2 preserves the V1 RLOO-versus-other31 comparison, actions, mask bytes, probabilities, reward math, seeds, c32 starting tensors, exact replay gates, optimizer settings and caps. V1 failed before either branch because restore_rng was not exposed by train_four; the already-existing function from the same sealed rng_receipts module is bound by V2.
+
+The new attempt has a new READY and path-bound commits. shared-collection/COLLECTION.json explicitly records freshly_sampled:false, reused_exact_hf_actions:true, source_sampling_was_fresh:true and zero fresh model calls in the repair. SOURCE_REUSE.json authenticates V1's failure and complete pre-update source inventory. All32 ROLLOUT/MASKS/AFTER_GROUP_RNG files and shared AFTER_COLLECTION_RNG are copied byte-for-byte; no action, token probability, mask, reward or advantage is altered.
+
+Before replay, fresh original-c32 trainable tensors must have exactly the source snapshot identity. Every branch executes initialize_branch: restore model snapshot, restore and compare Python/NumPy/Torch/all-CUDA/sampler RNG state, then create fresh empty AdamW. branches/<branch>/BRANCH_INITIAL_STATE.json records the verified shared tensor/RNG identity and empty state. The original all32 probability qualifications and one-step checkpoint/state/binding/STEP_COMMIT writes are retained.
+
+Paired native evaluation still requires COMPLETED_PAIRED_ONE_STEP, both UPDATED branches, exactly one Adam step each, all128 unchanged actions, all32 gates per branch, identical source collection, original-c32 restoration and an unchanged root binding. The additive helper-hf-onpolicy-other31-paired-unseen-eval-v2 owner additionally authenticates the source-reuse receipt and both actual branch-initial-state receipts. It preserves the original fixed256/64-request schedule, temperatures/seeds, no branch selection, and600/700-second caps.
+
+This is completion of the original interrupted paired experiment, not a fresh training replication. Report V1's288.134-second collection cost separately from new repair/update/evaluation cost. Native outcomes remain exploratory on an already examined panel. MAIN alone launches; no partial branch, missing qualification, source mutation or failed restore can qualify.

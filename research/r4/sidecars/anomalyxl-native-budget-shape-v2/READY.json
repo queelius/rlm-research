@@ -1,0 +1,393 @@
+{
+  "claim_boundary": "Same ten outcome-exposed cases. V2 isolates turn allocation only within the new uniform90/total2048 setting; it changes deadline and prompt from V1, is not a clean Python-vs-direct effect, and provides no generalization or RL claim.",
+  "closure_sha256": {
+    "/home/atowell/.local/share/uv/python/cpython-3.12.12-linux-x86_64-gnu/bin/python3.12": "f2654f53c16db79297ad7656fa7a56ef64fa4bc26af22c5874c358c7651f72d5",
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/inference": "b93075d7b35b51b57cb6905f55f8d73b0db332cb4b76c3f12f4d2308279c18da",
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/__init__.py": "fd3708e5a13abe98c566afd79a6b1987cef70c0548bb19c1218ff6a7f9d43346",
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/model_executor/models/qwen3_5.py": "d5fa8f7c99c5cac89bfb0c0288bab58c846ee27b9733178bf957ca44b9d1392d",
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/model_executor/models/qwen3_5_mtp.py": "08a83fa1f6bd76fee2e0567d8d440fc05191cbb7a019c1a797ccefb63f51346d",
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/model_executor/models/registry.py": "19c4c2142e1269334a43d5a8959c57584c3163a7a9903cee227f6b7ae31d6cfc",
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/sampling_params.py": "73e5bf250cb13803e4ce390407ae059b497898c8b81f9985d2b5c055d4db8f7d",
+    "/project/alex_phd/repos/rlm/src/rlm/__init__.py": "cd01feeac6e8a6c0423f11b2bc517d4c1706d73f4761ad2d37fc997031ca1937",
+    "/project/alex_phd/repos/rlm/src/rlm/abi.py": "1ec7c66f4e0a893a01cee1dc01cd6ebfbb3f413796cfc285e8822902c9ccafab",
+    "/project/alex_phd/repos/rlm/src/rlm/attestation.py": "95d2fe59abe9c16afe78d150235dab379dd600943a851e8ba5b059c1092b101c",
+    "/project/alex_phd/repos/rlm/src/rlm/backend.py": "59431fcc01dc9176b8304b279cf4234c532a3ac320bb1001a5fd462e60a09af7",
+    "/project/alex_phd/repos/rlm/src/rlm/cli.py": "c92aa63c58c8496fa18094eac7b4678c71ff3cc32f37a3bb544ad604251bdcb4",
+    "/project/alex_phd/repos/rlm/src/rlm/config.py": "70aff72c8720e9597117336d132d03e927a3ea6aea93449c8c51bf9c70375ce9",
+    "/project/alex_phd/repos/rlm/src/rlm/engine.py": "20c9714b0b12f81afb573cbcd953b04fe31c197efcc6c3336d57062d72f18459",
+    "/project/alex_phd/repos/rlm/src/rlm/errors.py": "4a1c7cb030511a23b61e1326d6e277cd72e6d8a569b35071e43f25f4e8897d77",
+    "/project/alex_phd/repos/rlm/src/rlm/executor.py": "1bc41f0ca37ab4cd8cc5eafb1a3cf2fc92c8bcc9121b749957ac380b743e5b9f",
+    "/project/alex_phd/repos/rlm/src/rlm/json.py": "fcbbf4344567ff9bd723b750c534abb838381aa39b5f27d64b1e342b769228d1",
+    "/project/alex_phd/repos/rlm/src/rlm/ledger.py": "988e6e26bfa971099ee034c5583be0e0bccd838f879ca788a9d5d51f5a1b914a",
+    "/project/alex_phd/repos/rlm/src/rlm/observation.py": "9ebe483518001e436b1a2da18fad51b6955fa23ed7b11cf420bf4352dcca174b",
+    "/project/alex_phd/repos/rlm/src/rlm/prompts.py": "4c5337bdfde84d0c6d032cad78ad35ddb8a8e59c5db787811e28a55ccd4e6617",
+    "/project/alex_phd/repos/rlm/src/rlm/protocol.py": "8d482d3356d5031f2ccf6e1ff89e9e7f1b9e17a982be5cf16de8ba061315ce5b",
+    "/project/alex_phd/repos/rlm/src/rlm/recovery.py": "4620ea8cf3ef006342401e56da376613bdb259601fddbf44264e7e1fb9672030",
+    "/project/alex_phd/repos/rlm/src/rlm/response.py": "254479d37dc6f9ab4d9532731626f315343df83ecc0c03e4c9a868f911f8df69",
+    "/project/alex_phd/repos/rlm/src/rlm/run_artifacts.py": "701628573fb1ef230aedf1dbdc1d1935787eb59a6390c439f18375eef1d0c530",
+    "/project/alex_phd/repos/rlm/src/rlm/server.py": "38d1dd31c52b9db64e7bd775196a0f644d6faaa9f3a416635261d4caececd924",
+    "/project/alex_phd/repos/rlm/src/rlm/specs.py": "243f0f2fbdc599c8910a4823ae538e4f4df288644a245683cdac663c91c0fc64",
+    "/project/alex_phd/repos/rlm/src/rlm/trace.py": "651fcf4182312b5c593b0240dbfd7cc204268d53eeea1bb4dfa288f8dc6360ee",
+    "/project/alex_phd/repos/rlm/src/rlm/trace_reader.py": "41c5122294793e4692baa56fdb60e1ff53c98e1adb9a1c747d9c212271b4ce5d",
+    "/project/alex_phd/repos/rlm/src/rlm/types.py": "2c9f5ac25c2d922443e44791d18070a3a8d35646c9bd81cda0ff2693a435665c",
+    "/project/alex_phd/research-cache/datasets/anomalyxl-31fcd847-release-seed42/anomalyxl-precise/data.parquet": "23659b11e7181f8aebeb96c4a7f396ea76d33a2ffb86ec66182e712fdcdf20af",
+    "/project/alex_phd/research-cache/datasets/anomalyxl-31fcd847-release-seed42/anomalyxl-precise/manifest.json": "bad97b9d3b07c09537aae510004cf57fcbd92196615f77c63618d8a2edf32d41",
+    "/project/alex_phd/research-cache/datasets/anomalyxl-31fcd847-release-seed42/local-research-manifest.json": "03a37ddc0f455124bc7d0adce23311014c28302372446abff59abcaf7dc9ea09",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/.gitattributes": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/LICENSE": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/README.md": "1406be1b6b8fd8a6545870da516912804756593628a1d0fb0a7965211e82a7bb",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/chat_template.jinja": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/config.json": "ddc63e1c717afa86c865bb5e01313d89d72bb53b97ad4a8a03ba8510c0621670",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/local-research-manifest.json": "7c1cc9dc3dba23a31bff3ccbefbe23ee46b39cb5dd9b2675ac93c806d2c07e90",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/merges.txt": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/model.safetensors-00001-of-00002.safetensors": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/model.safetensors-00002-of-00002.safetensors": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/model.safetensors.index.json": "cf3f798ee02ba45f9622aa8892a47369ab667d0afbf154ee7c2212de42e6302d",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/preprocessor_config.json": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/tokenizer_config.json": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/video_preprocessor_config.json": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3.5-4B--851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/vocab.json": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+    "/project/alex_phd/research-cache/repos/TimeRLM/LICENSE": "5ea1248ec49d94373f41fee35e61ec25fb41edcfc2221a9c74c1070ea483ecfc",
+    "/project/alex_phd/research-cache/repos/TimeRLM/anomalyXL/scripts/generate_anomalyxl_sweep.py": "d48a678a4f592322555222a4f86ed5b39ac73de27c9a7891e79a3f209e3ade0f",
+    "/project/alex_phd/research-cache/repos/TimeRLM/environments/timeseries_qa/tests/test_scorer_parity.py": "c7b8b16746f442152a6645d26bf6429f341ee5861c8636f50cb0842cd72379e4",
+    "/project/alex_phd/research-cache/repos/TimeRLM/environments/timeseries_qa/ts_datasets/anomalyxl.py": "8e5f21bcdd06b6d3351796075463ec5cfa5ae6c34f92c8697fca2d2630ee1bf1",
+    "/project/alex_phd/research-cache/repos/TimeRLM/environments/timeseries_qa/ts_datasets/anomalyxl_coarse.py": "8e2941ea22fd0ccea228264984f190b5df38bf605973b1fcc350235b4dd35438",
+    "/project/alex_phd/research-cache/repos/TimeRLM/sft/tslm/src/datasets/anomaly_xl/scoring.py": "c46e12d3e0675acd7e22d618b729ff53feabbf06a3f388d93af9ef3a34fcab76",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/algorithm.py": "2419eea0245c3074b76798eb3fd9229c09becf651e24ee5687e12a394ce492e2",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/env_server.py": "eb4f6ce3b688ec73a996949ba52574db4f116e7552b8784ca3f78e8853a9ddb9",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/evals.py": "5c233aa95f765a6dbc1542059f83d605336f89cddd20e8a1b2eb5f66372f3620",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/inference.py": "d8b8fcda934254f498b71e9dcdcc527680f0f9e83ee80b2866b3ea26c5be67a0",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/monitors.py": "781a82802c669cfafa0a85b813c1952bcf1900da54b1b842d063839a933fd6e8",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/orchestrator.py": "c3db1369a661f88e7095d80814f92d864dba604afc7f566c447604a13d4b7745",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/rl.py": "f2087298203cae3504fac1359b2af4616c162b180cfeb104084c072da05441ed",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/sft.py": "98c396be6cfc14de827efa15404748e6a536cda44b534d98ae98a0980de3b65c",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/shared.py": "27989216d0fa9cde98466acf497e3fb19b8d43c73daa458dc98a8ab6e3c23ff8",
+    "/project/alex_phd/research-cache/repos/prime-rl/packages/prime-rl-configs/src/prime_rl/configs/trainer.py": "e4ae8642987855cdd051faea0f853ea4bc9d1a14036acfd0b9da78cc360a01db",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/json_logging.py": "61f4177df994afd05f102fdfb802dd6fd2e98d2e530815b7618593be71dca86b",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/patches.py": "20ec10c2b272fa520d0b1d2a2b6bb20325fe40f09f01bf9f601b1c24e96acdc6",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/server.py": "1db4ab45f72c7cfcf27bb23246bfcbbf5eb71b9e8daa34377acc390f281de03a",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/vllm/routed_experts.py": "68746b593de3ee0a6661f29c8644e2d78b8843a4901d36b695d2e5e1976a6ccc",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/vllm/server.py": "8ee2c9803e7464075a8c430ee76c82d775a749867a5ccc1d5096739fa4986678",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/vllm/serving_tokens.py": "14bfef5aed93f73c5611d49378cd98c966fedfba41da0767c14baa0738bfb3fd",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/vllm/worker/__init__.py": "977241f164eb3c0d6d7fe6eeb00f6b4b0aa808936d24179c943635fa98533313",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/vllm/worker/filesystem.py": "1817e325682ea968c4dc61da3b1c04b0b4e1e7896ee762ad4c9c2baef2f720e7",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/vllm/worker/nccl.py": "627dd5678dc859a9455624e723a5e08f39a92257ce82a093a7a83310d81270bb",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/vllm/worker/nixl.py": "644e8b37861b40b6b17c06ac34331c4c7b0d7e0ab00a80d1cea9d248a23fe24f",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/inference/vllm/worker/weight_transfer.py": "c0f9fb1f0e74f413775ae0f923bfb98f206be2ab2f043d82692815168774014d",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/act_offloading.py": "1eb19c7c2fde8ff657ddb718e11f8385f0be756a713a311bb09aebb0f3c1d425",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/async_utils.py": "1c46e3cfb8023bd5059db7b8ab458a82a6bee81120d48e9d1a6bd2f9e46bab26",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/chat_template.py": "467d2c4fc4da6f6ee5e9be8be6514efc2e81a20471870effc7dab66ab2c8f75a",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/cp.py": "51f6095e603794742b87526aa52f9b050ca4f3c7d195d1132ad59dae7408740d",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/heartbeat.py": "112b8079010aed354102e4400c0c3e7857a9c123cd9494c26c765a157ead188f",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/logger.py": "3a9583683cdcc66beedd7bd60f3fb93e23a4100164ebb0a9d6000f276eee3dbc",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/metrics_server.py": "eddd491a6cdfa27d804f5df49ec5dbe1e915f9ebfca773f036aa4b842b5e50c5",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/nccl.py": "eda2799d50df42c638e46fc7bdbac6c30c0cf47c4c7048524301829c509499f5",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/pathing.py": "2d7f946d721dad6acbea238c6e123b56301bdf3e18b4880713f86f1b224ff656",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/process.py": "606d32fb9a534788724777df0f21c76326acdf88c2de935a1115791aff1ea9fd",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/sequence.py": "a03b27989ad2100e781a9c49fdd5f849cb823900f07c5577dff74ddb8c3a085b",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/transformers_compat.py": "8a94173da072e16c4ea628aec6d788b36b0799a21077a2dd95a3eecc0d6b2ba2",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/utils.py": "55076dd3ef8f544fd3bfe4542a71c2ff3ce9f53cffcfaa1984c53c6576b44af9",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/vlm.py": "7ca232b8c6f7604fa4141711c7c2f7515957929111de6639207619dfc8063bbb",
+    "/project/alex_phd/research-cache/repos/prime-rl/src/prime_rl/utils/weights.py": "56f719854416d5153bb7eb56773a5a3f60f1aebfb3b6db33778974a270547859",
+    "/project/alex_phd/runs/rlm-research-r4/ideas/2026-09-12-anomalyxl-native-mini-pilot.md": "e32e0600599964210aee79478cb5c42048e1a5b4febfeb54fd5b413deeaf7597",
+    "/project/alex_phd/runs/rlm-research-r4/shared/environments/timerlm-anomalyxl-31fcd847.json": "c7497cd265881abd6851b0570ae02b45d8276b1330f891ff847365d3da17b1ec",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-budget-shape-v2/CPU_TESTS.json": "0266170a1c6fdd97242e17f1790cfb99529a69249a6cd1abd42f79378722b4b9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-budget-shape-v2/V1_INTERPRETATION.md": "b1218ce86f8bee793a9d2ba5421b0ebd25c297786b36ddc8e7b24737fc53c400",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-budget-shape-v2/budget_study.py": "278c2d7c65c6e80262187dc7d7b559da7e23c5d6d487c7d8e6dd085d33c2b6b8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-budget-shape-v2/owner.py": "958482798f39ef67d3a5eb59774e54fdcc2c00b9c651fd6bb688f666d9490d7a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-budget-shape-v2/seal.py": "e8a4fa5276d1e377b3c82e4ff83a9b7ba23fbc17316701d611bff5628a93e5d9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-budget-shape-v2/test_budget_shape.py": "d4befda64345a3cfe0af5f2616968add9a89ffde1b62185f3e05c5fe583b457b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/CPU_RECEIPT.json": "0a76749ccce16835e26d6fb74830d9e90e49e42e8d2d45e12b7c65bd8473f96d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/ENVIRONMENT.json": "92543f7c09fbaefd7f9dadd0bdad48531cff4383105acff67ba59288e371fa53",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/PLAN.md": "663d10a22058752edddfa321f82203823034297509da5a456ed935a85b36c0c5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/PREPARATION.md": "65ca57ceefd5f1d1b925e5a7ffa83d8faa44631834e7dfa57b1e29a4e5b7cf17",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/READY.json": "19da99f0a21d4763862bbf03d9cc1d14f2f690883e8f8c4fc460accbc15a0a1f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/DIRECT_INVENTORY.json": "fd821f1332224d35305bfa9cfe765410d33f54d63461f3337705173b5027d47c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/EXPECTED_SERVICE_CONFIG.json": "e68a03296dfc8d3a719810442cf4fab83413038762325d06ebf98a1f649c350b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/HOST_GOLD.json": "eb3712c8baca2a1fad69c7fd2fc4a3ea50c021d5caeeda2d9f0feccf48606682",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/PANEL.json": "e1dd004190225b5e8169e06963173627434af113a0cb6bc1f8269ea58e4aa333",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/SCHEDULE.json": "16c15016457c00b004fddea3ae986fbf572a6b0b09df2bbd7c1a9bd09650a1da",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/direct/23c08635db56ea39.json": "693fba881da9fb654731808d6d65471c072661a59d1b646996cd15a128b9e72e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/direct/4d7950f4c80bc576.json": "0a532d1eb5a163cae19bd677a1bf3acb54b7c996d469ca913677a1dbfbf26212",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/direct/4ee0550991e644d2.json": "df2223cb9b664cca5c873c2c02c12069ae065b265156d10e9bc18d5dccec6d37",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/direct/6d7c835a0525818a.json": "19c387581c7f54d5ac2c97374d72a12cb7694e1eee61db2e734619b32dd2d338",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/direct/79869740774651ae.json": "6828141f53c22a5136d2eaa7c0ced6d60a6fcb7b244f48c66a87f3083eb028cf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/direct/9baddc39bf041900.json": "50d6a85707048b30e3d8238b1500306589ae33cd28cb76bbe3cf27aa62a02b85",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/direct/a96dfd244cbda767.json": "03d01e38301e70896af83fc0543530a8d1f9ad561e8102e36abd20fa6efbc3d1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/direct/babb3e7792071431.json": "ed86849c8724de87b93c09e428b0e9391407e8b2fdc199ab03e803cd18e19ff4",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/direct/cf780a864d5032fb.json": "d8f184794f2824628bce001327f7b24032139bcf34a26daffd94a4aed449777a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/direct/e87101a29eb4dcf0.json": "6c413dda8c206ef88d1fbe3d45fb5554916f1edac0e0fb293c5ec8851094ac28",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/public/23c08635db56ea39.json": "3b11f3e4d3a71995be632da21a06a4cab92583d54f59e1b10ed93fe5cf1ab69d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/public/4d7950f4c80bc576.json": "f385e562ec9a727d3e4d06657c14d181137bc5b3ffa08a4fe1938eb88efbb5fd",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/public/4ee0550991e644d2.json": "1f2561673adcd07fb4c229e466578bb90bf688b89d32bce6adbbd9da193ba3e3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/public/6d7c835a0525818a.json": "b9d9a25bc221f5f74539b53f4759efee7d431c883d71224588a6e3ee22e4c57f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/public/79869740774651ae.json": "8897ea0b0c381883d42f03e9ade7562672a1c843c1303de609e0aec4725c5eeb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/public/9baddc39bf041900.json": "be2043979cb89eff7378ce79fc81f1ee9f1e10c4446a9ee033f960cd684e88f7",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/public/a96dfd244cbda767.json": "99c59f633f2ea08a267f79b1b14bf4857cb842baa91ca12625619f6621bd716c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/public/babb3e7792071431.json": "1d63ed06a491e644aacbec5ac8aab42221d226ab20daa9ee257344c9d46ea17f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/public/cf780a864d5032fb.json": "3e32892b7ce8d89e1986cc48a6ef67f73eaa6c461d1c47d334ef89171a40dd90",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/inputs/public/e87101a29eb4dcf0.json": "7c0f34c6c9de3c1fddd8fbd96e1e510053e5052ed47bff5bfdccccb2a1b4d85d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/mini.py": "d7c6f2ca27141f54c9dce37e137bbcf774f744efd0087132bad60316c0a3f112",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/native_service.py": "65661f0fec4f12f3fad6a39e9d1e42b592dde799080e0637f80f0f6739a70269",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/outputs/attempt-001/OWNER_TERMINAL.json": "4b9489abc3ccc8692a4a21a725d7809ba78426f77f27d8199358f4360b6b896b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/outputs/attempt-001/RESULT.json": "68a3667b9da109aa5301fb15aea15f4ebc0aacbb22d79c4807c96ed2f9221ff2",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/owner.py": "cad27c0da8b6e90e81b95b2393e625a7b89d7353ed2f276b419c6296e83e6210",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/seal.py": "69801114258cee12d33f2d054aeae9d9213d348403e8b9dac62231b5c1e6c835",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-mini-v1/test_mini.py": "236320a125a78a619c66ce6c813147d983648be019d38128ace282e8de81b404",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-fixed-helper-top20-batch-invariant-v1/outputs/attempt-003/service/service/inference.json": "cb1d27c1e6fdded69593af1168eaa897dfdab9556392a621c81ddcafc1931d15",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/strict-rlm-temperature-adherence-v1/scripts/launch.py": "d511492f9add5a8bcd7325b7899bf844febe95512aa7c562f0666c9191d6609a"
+  },
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-budget-shape-v2/owner.py",
+    "run",
+    "--outer-seconds",
+    "1800"
+  ],
+  "constants": {
+    "aggregate_output_tokens_per_episode": 2048,
+    "arms": [
+      "direct",
+      "python_wide1",
+      "python_repair3"
+    ],
+    "direct": {
+      "max_tokens": 2048
+    },
+    "episode_cap_seconds_all_arms": 90,
+    "episodes": 30,
+    "executor_unchanged": true,
+    "master_seed": 202609121431,
+    "no_answer_fallback": true,
+    "parser_unchanged": true,
+    "repair3": {
+      "inspection_turns": 3,
+      "max_tokens_each": 512,
+      "minimum_final_tokens": 512
+    },
+    "same_exposed_cases": 10,
+    "scorer_unchanged": true,
+    "temperature": 0,
+    "wide1": {
+      "inspection_turns": 1,
+      "max_tokens_each": 1536,
+      "minimum_final_tokens": 512
+    }
+  },
+  "created_epoch": 1789211653.9864697,
+  "decision": "Promote an allocation only as an interface qualifier if at least 8/10 Python episodes reach a valid final and it has no fewer valid finals than the other allocation. Score is secondary until final-answer coverage is adequate.",
+  "external_cap_seconds": 1900,
+  "gpu_launched": false,
+  "identity": "29d446240e2f09a537535b9ba15268d29f00c31ab52abcd8f5b140732f529f0c",
+  "inventory": {
+    "direct_calls": 10,
+    "engineering_calls": 2,
+    "maximum_research_calls": 70,
+    "repair3_maximum_calls": 40,
+    "wide1_maximum_calls": 20
+  },
+  "launch_authority": "MAIN only under shared GPU flock; no retry or continuation",
+  "output": "/project/alex_phd/runs/rlm-research-r4/sidecars/anomalyxl-native-budget-shape-v2/outputs/attempt-001",
+  "owner_cap_seconds": 1800,
+  "primary_metrics": [
+    "answered Python finals per10",
+    "strict whole JSON per10",
+    "official primary mean and paired deltas",
+    "protocol/length/timeout failures",
+    "actual calls/tokens/time by arm"
+  ],
+  "question": "With the same 2048-token total and 90-second episode cap, does one wide inspection or three narrow inspection/repair turns yield valid Python finals and better official score?",
+  "schedule": [
+    {
+      "arm": "direct",
+      "episode_id": "00-direct",
+      "panel_index": 0,
+      "row_id": "e87101a29eb4dcf0"
+    },
+    {
+      "arm": "python_wide1",
+      "episode_id": "00-python_wide1",
+      "panel_index": 0,
+      "row_id": "e87101a29eb4dcf0"
+    },
+    {
+      "arm": "python_repair3",
+      "episode_id": "00-python_repair3",
+      "panel_index": 0,
+      "row_id": "e87101a29eb4dcf0"
+    },
+    {
+      "arm": "python_wide1",
+      "episode_id": "01-python_wide1",
+      "panel_index": 1,
+      "row_id": "babb3e7792071431"
+    },
+    {
+      "arm": "python_repair3",
+      "episode_id": "01-python_repair3",
+      "panel_index": 1,
+      "row_id": "babb3e7792071431"
+    },
+    {
+      "arm": "direct",
+      "episode_id": "01-direct",
+      "panel_index": 1,
+      "row_id": "babb3e7792071431"
+    },
+    {
+      "arm": "python_repair3",
+      "episode_id": "02-python_repair3",
+      "panel_index": 2,
+      "row_id": "a96dfd244cbda767"
+    },
+    {
+      "arm": "direct",
+      "episode_id": "02-direct",
+      "panel_index": 2,
+      "row_id": "a96dfd244cbda767"
+    },
+    {
+      "arm": "python_wide1",
+      "episode_id": "02-python_wide1",
+      "panel_index": 2,
+      "row_id": "a96dfd244cbda767"
+    },
+    {
+      "arm": "direct",
+      "episode_id": "03-direct",
+      "panel_index": 3,
+      "row_id": "23c08635db56ea39"
+    },
+    {
+      "arm": "python_wide1",
+      "episode_id": "03-python_wide1",
+      "panel_index": 3,
+      "row_id": "23c08635db56ea39"
+    },
+    {
+      "arm": "python_repair3",
+      "episode_id": "03-python_repair3",
+      "panel_index": 3,
+      "row_id": "23c08635db56ea39"
+    },
+    {
+      "arm": "python_wide1",
+      "episode_id": "04-python_wide1",
+      "panel_index": 4,
+      "row_id": "79869740774651ae"
+    },
+    {
+      "arm": "python_repair3",
+      "episode_id": "04-python_repair3",
+      "panel_index": 4,
+      "row_id": "79869740774651ae"
+    },
+    {
+      "arm": "direct",
+      "episode_id": "04-direct",
+      "panel_index": 4,
+      "row_id": "79869740774651ae"
+    },
+    {
+      "arm": "python_repair3",
+      "episode_id": "05-python_repair3",
+      "panel_index": 5,
+      "row_id": "9baddc39bf041900"
+    },
+    {
+      "arm": "direct",
+      "episode_id": "05-direct",
+      "panel_index": 5,
+      "row_id": "9baddc39bf041900"
+    },
+    {
+      "arm": "python_wide1",
+      "episode_id": "05-python_wide1",
+      "panel_index": 5,
+      "row_id": "9baddc39bf041900"
+    },
+    {
+      "arm": "direct",
+      "episode_id": "06-direct",
+      "panel_index": 6,
+      "row_id": "cf780a864d5032fb"
+    },
+    {
+      "arm": "python_wide1",
+      "episode_id": "06-python_wide1",
+      "panel_index": 6,
+      "row_id": "cf780a864d5032fb"
+    },
+    {
+      "arm": "python_repair3",
+      "episode_id": "06-python_repair3",
+      "panel_index": 6,
+      "row_id": "cf780a864d5032fb"
+    },
+    {
+      "arm": "python_wide1",
+      "episode_id": "07-python_wide1",
+      "panel_index": 7,
+      "row_id": "4ee0550991e644d2"
+    },
+    {
+      "arm": "python_repair3",
+      "episode_id": "07-python_repair3",
+      "panel_index": 7,
+      "row_id": "4ee0550991e644d2"
+    },
+    {
+      "arm": "direct",
+      "episode_id": "07-direct",
+      "panel_index": 7,
+      "row_id": "4ee0550991e644d2"
+    },
+    {
+      "arm": "python_repair3",
+      "episode_id": "08-python_repair3",
+      "panel_index": 8,
+      "row_id": "4d7950f4c80bc576"
+    },
+    {
+      "arm": "direct",
+      "episode_id": "08-direct",
+      "panel_index": 8,
+      "row_id": "4d7950f4c80bc576"
+    },
+    {
+      "arm": "python_wide1",
+      "episode_id": "08-python_wide1",
+      "panel_index": 8,
+      "row_id": "4d7950f4c80bc576"
+    },
+    {
+      "arm": "direct",
+      "episode_id": "09-direct",
+      "panel_index": 9,
+      "row_id": "6d7c835a0525818a"
+    },
+    {
+      "arm": "python_wide1",
+      "episode_id": "09-python_wide1",
+      "panel_index": 9,
+      "row_id": "6d7c835a0525818a"
+    },
+    {
+      "arm": "python_repair3",
+      "episode_id": "09-python_repair3",
+      "panel_index": 9,
+      "row_id": "6d7c835a0525818a"
+    }
+  ],
+  "schema": "anomalyxl-native-budget-shape-ready-v2",
+  "source_v1": {
+    "diagnosis": "8 first-turn 512-token mid-code truncations; 2 repair trajectories timed out after valid code turns",
+    "python_final_answers": 0,
+    "ready_identity": "e275453f9dd88007eaa64d36168c5aa8390542376b08320ce8d301c6d3649a2d",
+    "ready_sha256": "19da99f0a21d4763862bbf03d9cc1d14f2f690883e8f8c4fc460accbc15a0a1f",
+    "result_sha256": "68a3667b9da109aa5301fb15aea15f4ebc0aacbb22d79c4807c96ed2f9221ff2"
+  },
+  "status": "CPU_READY_MAIN_REVIEW_REQUIRED"
+}

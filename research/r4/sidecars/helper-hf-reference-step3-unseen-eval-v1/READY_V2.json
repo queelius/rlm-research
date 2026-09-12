@@ -1,0 +1,53 @@
+{
+  "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-onpolicy-fourstep-v1/outputs/attempt-001/checkpoint-0003",
+  "checkpoint_state_sha256": "5d2acecef51b677d0a0112819a08070e93f96c17855261e3edaf5af8fb0f5398",
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-fourstep-unseen-eval-v1/READY.json": "8639bda080fe8ec9e0201b7797410027318407a3cc2357ee87896e70eadaacec",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-fourstep-unseen-eval-v1/fourstep_panel_study.py": "4983dfc63342679a6707b985179dbd262e1d6f4dccfa806754664953d5717a21",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/CPU_TESTS.json": "bb5b4225cd39a227cde4ddec58e1256f623e06ca5a8d7db369590d63a16d7296",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/CPU_TESTS_V2.json": "d185fbdf447f8d0b532abd5c0fe3fcf7e216cb856311bb3f58db5860c4ba4013",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/READY.json": "e0eb42dc947330e727e56d7a21aea75c7a481bdc2e259e98b08b9be9c2aecc91",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/SATURATION_ESCAPE_PROPOSAL.md": "378e47956d4c993a85b94ae117f75ac01a8dd8f5f11f7b460a2854df34aad9a1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/owner.py": "36d7610c3ae1839de6f1622bc55fbdc1b4385adfc97aeafecf5174dc70531fd8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/owner_v2.py": "552cb78ba08a48719e5dedf2deccd1b36f949c843f6c8a4c5774abe6415a3638",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/seal.py": "679ef740256a1b2b2c29a0c18b99afd50bfcb87fa1f9ce3145a18feb65d97026",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/seal_v2.py": "7878a4c936f7905d4a1028e4ae17953a609bae4d774b9d3285888c80dedca7ba",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/study.py": "70ffe9e66141d7c244ef2dde2aa397436eaec78a8535889ba46476335c2765fd",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/study_v2.py": "3c33ce974cafc364b61b9f42c03da084d555d8485fd0e34511af60bf545b887c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/test_reference_step3.py": "0ad8103f1fc052d5cd39ae7018915a57bbf7d9e5ae093cd99983d389114b62ee",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/test_reference_step3_v2.py": "7d5ea795c0c0d5058b56a937e29fd87f75515555f7ac1dc80ee87541f6ca4440"
+  },
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/owner_v2.py",
+    "run",
+    "--outer-seconds",
+    "600"
+  ],
+  "cpu_tests": ".                                                                        [100%]\n1 passed in 0.02s",
+  "created_epoch": 1789210686.4507391,
+  "external_timeout_seconds": 700,
+  "final_checkpoint_state_sha256": "4286d0a1143ea916f1bec8f43606ebecc5b4006709a9246f9b614435f9f160fe",
+  "identity": "d046aa38c4bf8246288f5893946f5ad611ba2a6a5c3d0e320ef49690e707ea40",
+  "inner_cap_seconds": 600,
+  "interpretation": "Matched-update reference checkpoint; not the reference fixed-fourstep primary and not selected by evaluation.",
+  "inventory": {
+    "ag_news_test": 128,
+    "batch_size": 4,
+    "physical_calls": 64,
+    "predictions": 256,
+    "root_calls": 0,
+    "training_updates": 0,
+    "trec_test": 128
+  },
+  "question": "At an equal three applied updates, how does reference T1/LR1e-5 compare with stopped LR10x?",
+  "repair": "Export the exact child alias through the collector study facade and exercise native response normalization.",
+  "schedule_sha256": "96709e533cc85b090dd211a6add7b3ef8649b5adeee4e9300f0b0a2bf7e1bd8d",
+  "schema": "helper-hf-reference-step3-unseen-ready-v2",
+  "source_eval_ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-fourstep-unseen-eval-v1/READY.json",
+  "source_eval_ready_sha256": "8639bda080fe8ec9e0201b7797410027318407a3cc2357ee87896e70eadaacec",
+  "status": "CPU_READY_REFERENCE_MATCHED_THREE_UPDATE_CONTROL_V2",
+  "supersedes_unlaunched_ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-hf-reference-step3-unseen-eval-v1/READY.json",
+  "supersedes_unlaunched_ready_sha256": "e0eb42dc947330e727e56d7a21aea75c7a481bdc2e259e98b08b9be9c2aecc91",
+  "training_result_sha256": "d2581a813c62602af018817a98a25e36657918b5a4085600e7cf23872c52accd"
+}

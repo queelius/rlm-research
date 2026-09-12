@@ -2,9 +2,9 @@
 schema_version: "rlm-question-card-v1"
 id: "rq:rl-effective-feedback"
 title: "Can an RLM learn from its own attempts, and which errors obscure that signal?"
-status: "temperature_increased_diversity_without_eval_change_other_explanations_queued"
-updated_utc: "2026-09-12T09:57:00Z"
-evidence_cutoff: "2026-09-12T09:57:00Z"
+status: "larger_updates_regressed_reward_baseline_and_request_shape_tests_next"
+updated_utc: "2026-09-12T11:19:00Z"
+evidence_cutoff: "2026-09-12T11:19:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -20,6 +20,56 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Can we turn the model's own attempts into useful learning?
+
+## Decision update — September 12, 11:19 UTC
+
+The matched three-update readout is negative for larger steps: reference120/128
+TREC and112/128AG, versus LR10x117/128 and111/128. All256 were available;
+the larger arm had one win and five losses. This makes a simple learning-rate
+increase low priority. Combined with the T2 result, neither more varied answers
+nor larger parameter changes has yielded meaningful improvement on this small
+repeated training set. Both models really changed; this is not a no-op optimizer.
+
+The repaired fast48 method completed one importance-corrected update in36.309s
+of recorded training time (43.101s wrapper), then scored120/128 and112/128.
+The old128-action true-HF and fast48 full-map paths are different workloads;
+do not turn the optimizer timing into an end-to-end or like-for-like speedup.
+Prior collection/qualification cost remains attributable to the fast method.
+Raw output equivalence and all gradient qualifications are being independently
+audited. This is an enabling execution result, not a larger RL quality gain.
+
+Next discriminate a previously untested mismatch: singleton training versus
+four-record evaluation. Evaluate the trained reference and unchanged c32 on
+the exact same singleton inputs; keep the already examined panel explicit.
+The paired reward-baseline comparison is being recovered from its saved fresh
+actions, with no resampling and no prior branch update. Broader AG News training
+remains conditional after the mechanics readouts; a faster grouped-request
+training package is also under CPU feasibility review, not yet admitted.
+
+Independent matched-dose audit:
+`../analyses/helper-hf-lr10x-stopped-vs-reference-step3-2026-09-12/REPORT.json`
+(SHA256 b146bc729d8f01e353db907ae5d56fb666ba2795d71ae458cd85a666ef940e1e).
+
+## Decision update — September 12, 10:50 UTC
+
+The LR 10x arm stopped at three applied updates: its fourth 128-action batch
+contained 30 all-correct and two all-wrong question groups, with no mixed rewards.
+The weights had changed, but the within-question comparison supplied zero
+advantage to every fourth-batch action. Different wrong answer strings can still
+have the same zero reward; answer diversity and reward diversity are distinct.
+
+Evaluate the actual stopped checkpoint and a matching reference checkpoint at
+three updates. Keep the original four-step primary marked unavailable. The active
+shared-action baseline experiment tests whether feedback from other questions
+helps when a question's own attempts all receive the same reward. A potential
+later recovery experiment could reuse the authenticated fourth-batch actions,
+but would need to separate changed reward feedback from Adam momentum alone.
+No recovery optimizer step is currently authorized or claimed.
+
+If these mechanics comparisons remain weak, move to the frozen broader AG News
+training split and the accepted harness decisions; do not indefinitely vary
+temperature or repeat the same familiar 32 questions. The source paths and
+corrected likelihood audit are recorded in `../analyses/CURRENT_SUMMARY.md`.
 
 ## Decision update — September 12, 09:57 UTC
 
