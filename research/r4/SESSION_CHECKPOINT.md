@@ -1,5 +1,92 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 17:42 UTC
+
+Continue autonomously, MAIN sole GPU launcher. MuSiQue48 depth pilot is ACTIVE
+(PTY6630), acquired after repeated128 evaluation, failed released-base launch,
+and failed root-RL qualification. ProceduralSFT4+conditionalreadouts99149 and
+structural-preview32 PTY27460 remain accepted lease waiters. Do not duplicate.
+
+NEW completed repeated128 fixed512:417 correct, base422, varied-dataRL437;
+repeat vsbase2wins7loss, vsvaried3wins23loss, all512available. Independent raw
+audit SHA510c93109e2db100c844086d73d81395cb620326688516f9435bb237452ac9a4.
+Agent learned_recursion prepares additive evaluation of this exactcp8 on existing
+officialfresh512; no new data/checkpoint selection, not yet admitted.
+
+DBpedia4arms complete224availableeach: c32209, RL1209, SFT208, RL2210.
+Compact verified FINDINGS.json SHA
+df123cadf32ff87b209261ae2bf7ccd5c89e5f3b62fabebf669dc190bdc4e746.
+Whole-RLM static mechanism REPORT.json SHA
+360796c0fc10c0b566fcd09eea303cabbb0737f91ee7e6e40886e55a583d7d20:
+unique labels103/128→108/128 but3/16 endpointsboth; four silentreducers, incorrect
+scopealso; all20supportedreducerswithscalarobservationsmatchfinals. ExactQS6
+72episodecorpushas144authoredPythonactions,allprint. Sole newlyexactaggregate
+is labelerrorcancellation, notfaithfulmap improvement. No generatedcode executed.
+
+Corrected syntax audit SHA
+6945d932458cef451a5d1ed1a319a5b22c0e4c159389cafd0401cc34f14155fb:
+endpointplain5/17/2 vs syntax2/19/3 C/W/U, strictinterfaceusable5→0.
+Retire syntax variant; preserve originalallUexport separately.
+
+Released-base attempt001 failed before0calls: dual-LoRA launcher requires
+selection_path absent on truebasebinding. Cleanlyreleased. Agent local_rl_design
+authorized additiveV2repair usingqualifiedbasewrapper+batchinvariant+preexec,
+samefrozeninputs/caps, attempt002, no GPUauthorityuntilMAINreview.
+
+RootshapedRLattempt001 NO_UPDATE_PRESTEP_GATE_FAILED,0optimizersteps;
+allfinite/support andzeroeffectLoRAerror0, butfulltrajectoryESS6.966/24,
+maxnormalizedweight.303,logratios−4.51..+1.94. Not anRLqualityresult.
+Agentpostmeeting investigates pertokenmismatch/settings vsaccumulation and
+principled lower-variance correction; no gate relaxation/admissionyet.
+Movementprobe81148 correctlySKIPPED withoutGPU because no checkpoint.
+Held16pair16186 dependencyfailed; noheldqueries. ItsCPUwatch95339 may await
+terminaluntilcap becausequeuefailed beforecreatingoutput; recordfailureadditively.
+
+Publicreport/notebookupdate17:42cutoff inprogress, latestverifiedremotes still
+RLMdadb0258/notebook22fe9be2. Quota60%17:26:58, nextread17:41:58.
+OneA100allocation5801/an22 endsSep15 17:30:16UTC. OtheragentsCPUonly.
+
+## Latest result addendum — September 12, 2026, 17:18 UTC
+
+Whole-RLM48 completed17:11:30UTC,911.139 owned seconds. Independent raw audit
+complete: nochild0/16, c32helper3/16, RLhelper3/16, all48available. Observed helper
+labels180/224→188/224. All128unique article IDs are covered; repeated maps agree.
+MAIN derives unique labels103/128→108/128 (agent verifying). Correct map aggregates
+5/14→6/14, but the sole newly exact count may be error cancellation from an RL
+misclassification. Count contexts01/04 silently assign variables and show empty
+tool observations before finalAnswer2. Weighted sums often print/use computed
+results, so do not claim the root generally ignores its helper. Agent is auditing
+inert code and QS6 training provenance; do not execute generated trace code.
+Authoritative whole audit SHA b6c2839135a4015c20277555f18daab48cbb29f45241c6863b9fc66a4f87ecbb.
+
+DBpedia four-arm chain5003 ACTIVE, immediately acquired priorlease17:11:30.112UTC.
+c32 completed56calls/224records,213.313ownedseconds, all available/runtimequalified;
+RL8 started17:15:28.433UTC. EmptyGPU intervals here are service handoffs/load,
+not unassignedGPU time. Other accepted jobs unchanged.
+
+NEW structural-preview32 is admitted and waitingPTY27460, external4hflock,
+wrapper operations/2026-09-12-structural-preview-queue/run.py. READY
+7a0fb4f45c0eecbebaae591f5668386a669a6aeb1b4c81fb45b9dbdcf88fe48d,
+identity0c3e99657a4017dfa4134e717fdca57b4ea6ee414ca399e704b6e83b4effc65d.
+MAIN fullsevenfiles/design/actualtwoarmfixture reviewed and79pins verified.
+Static schema detector is heuristic; manual inert review needed for guarded
+branches/aliasing. Collector has characters, not UTF8bytes. No novelty claim.
+
+Syntax call-free corrected audit completed: inherited endpoint C/W/U plain5/17/2,
+syntax2/19/3; syntax1win4loss15tie4unknown pairs. Strict finish interface usable
+5plain/0syntax. Rejected API actions35→8 but endpoint quality did not improve.
+Original all-U export preserved; correction changes only audit-prefix and frozen
+context-to-source-gold mapping, not model outputs. MAIN fullsource/tests reviewed,
+two tests passed. See analyses/root-qs6-budgeted-evidence-syntax-corrected-readout-2026-09-12.
+
+Git confirmed remote RLMdadb0258db4c96980411180586c24f8d46339439 and notebook
+22fe9be2be95976e65a98746e6e265259c36a020 (17:03 evidence cutoff). 3539manifest
+hashes passed; no rawcorpus/nativeepisodes/weights/privateconfigs included.
+New wholeRLM and corrected syntax findings await next completed-result push.
+Quota61%17:11:57UTC. Agents: learned_recursion audits silentcounts/training;
+local prepares proceduralSFT CPU observer; postmeeting implements approved
+conditional training-only policy-movement probe (300/330cap), no GPUadmissionyet.
+
 ## Latest resume pointer — September 12, 2026, 17:03 UTC
 
 Continue the user's autonomous adaptive research turn. MAIN is sole GPU launcher.

@@ -1,5 +1,44 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 17:43 UTC
+
+**Training breadth is now a stronger explanation than update count alone for
+the large same-panel helper gain.** Eight RL updates that repeated the first 128
+articles scored 417/512, below c32 at 422 and far below the broader eight-block RL
+checkpoint at437. All answers were available; repeat128 had2 wins and7 losses
+against c32, and 3 wins and 23 losses against broader RL. This is a controlled
+dose comparison on one research-exposed panel, not yet a transfer result or a
+clean causal estimate of unique-example count. The repeat128 endpoint is fixed;
+its next decision-relevant readout is the already frozen official-test panel,
+using the exact existing 128-call schedule.
+
+## Decision update — September 12, 17:35 UTC
+
+**Better helper labels did not improve the complete RLM in the first fresh whole-task
+screen.** The unchanged QS6 root scored3/16 with c32 and3/16 with RL8, with all16
+paired outcomes tied. After deduplicating context maps reused across questions,
+helper correctness is103/128→108/128. Aggregate exactness is5/14→6/14, but the
+new exact count is label-error cancellation: RL8 changes a genuinely World record
+from c32's correct label to Sci/Tech and lowers that context's label score. Do not
+promote 180/224→188/224 repeated decisions into a whole-system or faithful-map
+gain. [Mechanism audit](root-qs6-ag-live-helper-transfer-mechanism-2026-09-12/REPORT.md).
+
+**Result observability is now a stronger controller target than another helper-only
+micro-update.** Four paired live reducers used silent assignment, returned empty
+Python observations, and then emitted ungrounded final integers; another count
+also used the wrong user scope. Yet20/20 recognized reducers with nonempty scalar
+observations were copied into the final answer. The exact QS6 training corpus had
+144/144 authored Python actions with `print`, so repeating the same print-only
+recipe may test retention but does not by itself address scope mistakes. Compare
+matched correctly scoped demonstrations that differ only in print-then-final
+versus the existing atomic `FINAL_TEXT` return path on new context clusters.
+
+**Retire the one-example syntax variant.** Corrected saved-response adjudication
+gives endpoint correctness5/24 plain versus2/24 syntax. Strict finish-consistent
+usability falls5/24→0/24, and strict correct usability3/24→0/24. The original
+all-U result was a stale-prefix exporter defect; preserving that history does not
+rescue the intervention. [Corrected readout](root-qs6-budgeted-evidence-syntax-corrected-readout-2026-09-12/CORRECTED_REPORT.md).
+
 ## Decision update — September 12, 17:00 UTC
 
 **The new-example comparison downgrades RL superiority to an unresolved,
@@ -21,14 +60,15 @@ observation size and exact answers instead of rewarding this shortcut as
 successful programmatic decomposition.
 [Procedure audit](openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md).
 
-**The syntax endpoint comparison is invalidated by a stale-prefix audit, while
-its raw protocol evidence is still weak.** The exporter marked all48 outcomes
-unavailable because its task table retained old first-prompt IDs; all48 actual
-wire prompts match the frozen condition-specific prefixes. Rejected actions did
-fall35→8, but strict final/local-finish agreement was5/24 in plain and0/24 with
-the example. Five requests exceeded the context limit, and no physical child
-call occurred. Re-authenticate the saved responses before scoring endpoints;
-do not call the original0/24-versus0/24 a model-usability result.
+**Correcting the stale-prefix audit leaves the syntax intervention negative.**
+The original all-U export was invalid: all48 wire prompts match the frozen
+condition prefixes, not the stale copied task IDs. A call-free re-authentication
+of those exact responses gives endpoint C/W/U5/17/2 plain versus2/19/3 syntax;
+paired, syntax has1 win,4 losses,15 ties and4 unknowns. Its rejected actions did
+fall35→8, but stricter finish-consistent usability moved0 wins and5 losses. Five
+requests exceeded the context limit, and no physical child call occurred. Retain
+the original export as failed instrumentation; the corrected result does not
+support the one-example interface intervention.
 [Independent syntax finding](../../../ARTIFACTS.md).
 
 ## Decision update — September 12, 15:10 UTC

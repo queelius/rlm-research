@@ -1,0 +1,7 @@
+{
+  "epoch": 1789234587.6636138,
+  "model_loads": 0,
+  "reason": "no qualifying completed root update",
+  "training_exit_sha256": "ff39c7f7aec50377f6515e9a9b245e3b6526459b5ef835ec79a9a0fe5d352fcd",
+  "training_result_status": "NO_UPDATE_PRESTEP_GATE_FAILED"
+}

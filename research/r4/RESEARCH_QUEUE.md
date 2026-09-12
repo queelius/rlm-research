@@ -1,5 +1,29 @@
 # Live GPU research queue
 
+### Live update September 12, 17:42 UTC — follow the breadth and controller signals
+
+ACTIVE: MuSiQue12×4depthscreen6630. Accepted waiting: proceduralSFT4 plus
+conditionalreadout99149, structural-preview32 27460. GPU continues useful work.
+
+Completed repeat128 fixed512:417, vsbase422 andbroader437; allavailable;
+rawaudit510c93109e2db100c844086d73d81395cb620326688516f9435bb237452ac9a4.
+Prepare exactcp8 on alreadyfrozenfresh512 next (agent learned_recursion), not
+anotherblindlongrun. DBpedia209/209/208/210 provides almostno cross-taskgain.
+WholeRLM3/16 bothhelperarms despite103→108/128unique labels, wrongscope and
+unobservedcalculations constrain endpoints; see staticmechanismREPORT. Syntax
+variant corrected endpoints5→2/24, interfaceusable5→0, RETIRE.
+
+Released-basefailed0calls fromincompatibledualLoRAlauncher; agentlocalprepares
+narrow additiveV2repair, samequestions/caps. RootRL0updates becausefulltrajectory
+IS ESS.29/maxweight.303; agentpostmeeting investigates pertokenmismatch and
+lower-variance objective. Do not misreport either as modelquality. Conditional
+rootmovement81148 skipped,held16dependencyfailed; no duplicateevaluations.
+
+Rank nextdecisions: (1) make actualrootRLupdatepossible without hiding estimator
+bias or numerical mismatch; (2) proceduralSFT/structure/depthoutcomes guidewhich
+componenttrain; (3) freshrepeatcontrol/truebase distinguish breadthandretention.
+Maintain originalfailedartifacts, additiveoutputs, fixedheldpanels, noselection.
+
 ### Live update September 12, 17:03 UTC — fresh transfer weakens the RL claim
 
 Official test512 is complete: c32422, RLseed1427, SFT426, RLseed2429, all available.

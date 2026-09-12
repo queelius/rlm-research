@@ -1,11 +1,56 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T17:00:00Z
+updated_utc: 2026-09-12T17:43:00Z
 status: active_exploratory_research
-claim_level: official_test_transfer_weaker_and_rl_vs_sft_unresolved
+claim_level: helper_gain_not_transferred_and_result_observability_defect
 ---
 
 # Research in plain language
+
+## Training-breadth update — September 12, 17:43 UTC
+
+Repeating the same 128 training articles for eight RL updates did not reproduce
+the broader-data result on the shared research-exposed 512-answer panel. The
+fixed repeat128 checkpoint scored 417/512, versus 422 for c32 and 437 for the
+eight-block broader-data checkpoint; every answer was available. Paired against
+c32 it made 2 corrections and 7 regressions, and against broader RL it made 3
+corrections and 23 regressions. This is evidence that the earlier result was not
+caused by update count alone, but it is still one training run on an already
+examined panel—not an isolated causal estimate of data breadth.
+
+The next fixed test changes no checkpoint, prompt, seed, batching, grammar, or
+scorer: evaluate repeat128 checkpoint 8 on the already frozen official-test 512
+panel and compare it with the saved c32 / RL seed1 / SFT / RL seed2 readouts.
+No new-panel result was used to select this checkpoint.
+
+## Whole-RLM mechanism update — September 12, 17:35 UTC
+
+The broader helper's component improvement did not improve this whole RLM. On
+eight prospectively frozen AG News context groups, c32 and the fixed RL8 helper
+both gave the unchanged QS6 root3/16 correct endpoints; all16 paired outcomes
+tied. Deduplicating helper maps reused by two questions gives103/128 correct
+record labels for c32 and108/128 for RL8, rather than treating the repeated
+180/224→188/224 workload counts as224 independent decisions. Map aggregates
+improved from5/14 to6/14 exact, but the sole new exact aggregate was error
+cancellation: one gold-World record changed from a correct World label to an
+incorrect Sci/Tech label while the context's local label score fell11/16→10/16.
+
+The root mechanism audit found a concrete result-visibility failure. In four
+paired count episodes the generated reducer assigned its integer without
+printing it, so all three Python observations were empty. Context01's trusted
+map count was3 but both roots answered2; context04's code also introduced the
+wrong `u0,u1` scope. This was not taught by the authenticated QS6 corpus: all
+144 authored Python actions across its72 training episodes printed their
+outputs, including all72 reducers. Conversely, all20 live episodes with a
+recognized reducer and nonempty scalar observation produced the matching root
+answer, so the evidence does not say the root always ignores helper results.
+See the [static mechanism audit](root-qs6-ag-live-helper-transfer-mechanism-2026-09-12/REPORT.md).
+
+The corrected syntax result retires that intervention. Plain versus syntax was
+5/24→2/24 endpoint correct. Strict finish-consistent usability was5/24→0/24,
+and strict correct usability was3/24→0/24. Syntax reduced rejected actions but
+did not produce a usable completion; the original all-unavailable export remains
+an instrumentation failure, not the scientific result.
 
 ## Completed transfer and interface update — September 12, 17:00 UTC
 
@@ -29,15 +74,17 @@ observation. This is recovery from a context dump, not successful programmatic
 retrieval. See the [program-versus-terminal audit](openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md)
 (JSON SHA256 `858fb090ea54796da506b1a155461dd7291e0da8022b115238868bfddffbcebb`).
 
-The paired syntax run exposed another instrumentation defect. The legacy exporter
-rejected all48 endpoints against stale first-prompt IDs even though every actual
-wire prefix matches the separately frozen condition-specific prefix. Therefore
-its0/24-versus0/24 primary endpoint comparison is inconclusive, not a model
-failure. Secondary raw evidence remains useful: the syntax example reduced
-rejected actions35→8, but only the plain arm had any strict final matching its
-local finish declaration (5 versus0); five provider requests also exceeded the
-8192-token limit. The run made zero physical child calls. See the [standalone
-syntax finding and cause audit](root-qs6-budgeted-evidence-syntax-findings-2026-09-12/FINDINGS.md).
+The paired syntax run exposed an instrumentation defect, then yielded a recoverable
+result. The legacy exporter rejected all48 endpoints against stale first-prompt
+IDs, although every actual wire prefix matches the frozen condition prefix. A
+call-free audit of the same saved responses corrected only that lookup. Endpoint
+C/W/U is5/17/2 plain versus2/19/3 syntax; paired, syntax has1 win,4 losses,15 ties
+and4 unknowns. Under the stricter finish-consistent interface metric it is3/2/19
+versus0/0/24, or0 syntax usability wins and5 losses. Rejected actions still fell
+35→8, but lower syntax friction did not improve complete behavior. Five requests
+exceeded the8192-token limit; there were zero physical child calls. See the
+[standalone syntax finding](../../../ARTIFACTS.md)
+and [corrected source-to-raw readout](root-qs6-budgeted-evidence-syntax-corrected-readout-2026-09-12/CORRECTED_REPORT.md).
 
 ## New interpretation — September 12, 16:30 UTC
 

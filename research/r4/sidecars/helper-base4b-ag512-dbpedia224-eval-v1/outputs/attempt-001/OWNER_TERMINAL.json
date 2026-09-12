@@ -1,0 +1,17 @@
+{
+  "attempted_calls": 0,
+  "complete": false,
+  "elapsed_seconds": 7.742758512496948,
+  "errors": [
+    {
+      "message": "dual-LoRA launcher failed; see retained log",
+      "stage": "collection",
+      "traceback": "Traceback (most recent call last):\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/owner.py\", line 101, in execute\n    suite.start_service(service, binding, min(started + 285, deadline))\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-post-sft-suite-v1/suite.py\", line 147, in start_service\n    raise RuntimeError('dual-LoRA launcher failed; see retained log')\nRuntimeError: dual-LoRA launcher failed; see retained log\n",
+      "type": "RuntimeError"
+    }
+  ],
+  "planned_calls": 184,
+  "released": true,
+  "result_sha256": "c1285ee0618a02983880a790005171dee621119685a30a05ab7637b4bbc5e8b4",
+  "runtime_qualified": false
+}

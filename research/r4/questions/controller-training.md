@@ -3,9 +3,9 @@ schema_version: "rlm-question-card-v1"
 id: "rq:controller"
 title: "Which limited root-training gains survive new query compositions and faithful native accounting?"
 status: "promising_but_limited"
-updated_utc: "2026-09-12T17:00:00Z"
+updated_utc: "2026-09-12T17:35:00Z"
 evidence_cutoff: "2026-09-09T17:32:51.282711+00:00"
-living_update_cutoff_utc: "2026-09-12T17:00:00Z"
+living_update_cutoff_utc: "2026-09-12T17:35:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -27,6 +27,7 @@ claim_ids:
   - "claim:plan-negative"
   - "claim:query-diagnosis"
 reports:
+  - "/project/alex_phd/runs/rlm-research-r4/analyses/root-qs6-ag-live-helper-transfer-mechanism-2026-09-12/REPORT.md"
   - "/project/alex_phd/runs/rlm-research-r4/analyses/helper-agnews-official-test-transfer-findings-2026-09-12/FINDINGS.md"
   - "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md"
   - "/project/alex_phd/runs/rlm-research-r4/analyses/root-qs6-budgeted-evidence-syntax-findings-2026-09-12/FINDINGS.md"
@@ -67,6 +68,30 @@ publication_readiness: "not_publication_ready"
 
 # Which root-training gains transfer?
 
+## Current decision — September 12, 17:35 UTC
+
+The fresh whole-RLM helper comparison exposes a controller bottleneck rather
+than a whole-system learning gain. The fixed QS6 root scored3/16 with both c32
+and RL8; all16 paired endpoint outcomes tied. The helper did improve from103/128
+to108/128 correct unique record labels after deduplicating maps reused by the
+second question. Its repeated workload totals are180/224→188/224. Aggregate
+exactness moved5/14→6/14, but the new exact count was caused by a correct World
+label becoming incorrectly Sci/Tech, not a more faithful map.
+
+Four count reducers assigned a scalar without printing it and exposed only empty
+tool observations. Their roots then answered2 even when the trusted generated
+value was3 or1. Context04 additionally changed the requested all-record scope to
+`u0,u1`. This live behavior was not copied from the exact QS6 targets: all144
+authored Python actions in72 authenticated training episodes printed, including
+all72 reducers. The positive boundary is equally important: all20 recognized
+live reducers with a nonempty scalar observation had a matching final answer.
+[Whole-RLM mechanism audit](../analyses/root-qs6-ag-live-helper-transfer-mechanism-2026-09-12/REPORT.md).
+
+The syntax illustration is retired. Its corrected endpoint score is5/24 plain
+versus2/24 syntax. Strict finish-consistent usability is5/24→0/24 and strict
+correct usability3/24→0/24. The stale-prefix all-U export remains preserved as
+an instrumentation failure; fewer rejected actions is not a successful interface.
+
 ## Current decision — September 12, 17:00 UTC
 
 Helper learning remains separate from controller learning. On the new local
@@ -86,17 +111,18 @@ decomposition claim now requires correct code selection, bounded observations
 and exact terminal answers. [Program-versus-terminal audit](../analyses/openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md)
 (JSON SHA256 `858fb090ea54796da506b1a155461dd7291e0da8022b115238868bfddffbcebb`).
 
-The completed syntax-interface comparison cannot answer its primary endpoint
-question because of a stale-prefix audit. The generated task table changed each
-task hash but retained the old first-prompt token IDs; all48 actual wire prompts
-instead match the correct frozen condition prefixes. Thus all48 exporter
-unavailable outcomes are instrumentation failures, not model failures. Secondary
-raw behavior remains diagnostic: rejected actions fell35→8, strict finals occurred
-six times per arm, and local finish declarations matched five plain finals but
-zero syntax finals. Five provider requests failed at the8192-token limit. There
-were zero physical child calls. First re-authenticate the saved responses against
-the correct prefixes; do not train or choose an interface from the all-U result.
-[Independent syntax finding](../../../ARTIFACTS.md).
+The completed syntax-interface comparison first exposed a stale-prefix exporter
+bug, then was recovered without new model calls. The generated task table had
+changed each task hash but retained old first-prompt IDs; all48 native requests
+match the correct frozen condition prefixes. Re-authenticating the same responses
+gives endpoint C/W/U5/17/2 plain versus2/19/3 syntax. Across24 pairs, syntax has
+1 endpoint win,4 losses,15 ties and4 unknowns. Under the predeclared stricter
+finish-consistent metric, plain is3/2/19 and syntax0/0/24, with0 syntax usability
+wins and5 losses. Rejected actions fell35→8, so the illustration changed local
+syntax behavior but did not improve the interface. Five provider requests failed
+at the8192-token limit; there were zero physical child calls.
+[Independent syntax finding](../../../ARTIFACTS.md)
+and [corrected readout](../analyses/root-qs6-budgeted-evidence-syntax-corrected-readout-2026-09-12/CORRECTED_REPORT.md).
 
 ## Current decision — September 12, 16:00 UTC
 

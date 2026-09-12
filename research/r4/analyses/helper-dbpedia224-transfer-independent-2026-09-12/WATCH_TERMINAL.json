@@ -1,0 +1,14 @@
+{
+  "comparator_sha256": "d52419ede01c1da56dec08cba613cc02cff630303ecd1c240f1ba6d26191e74b",
+  "elapsed_seconds": 3346.6273601055145,
+  "gpu_calls": 0,
+  "owner_terminal_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-eval-v1/outputs/c32-001/OWNER_TERMINAL.json": "a8de148c26fd86b74bb78aaa70e64b79887c9fada99a697037b2de1b2d88e607",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-eval-v1/outputs/rl_seed2_step8-001/OWNER_TERMINAL.json": "dc0eb6d32ee75cdd427df4ea8d2e73d8f00ee600dcec0873a1a7dfd192f02199",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-eval-v1/outputs/rl_step8-001/OWNER_TERMINAL.json": "7120d0991ceb8042b5c5c065da285a31fc2d4a6903cf30d2c0fdc72b9767b8e5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-dbpedia224-transfer-eval-v1/outputs/sft_step8-001/OWNER_TERMINAL.json": "fdfd60ead6bc297cb29754a06cbd434be4d95b48693af7572a017cffc24119a4"
+  },
+  "returncode": 0,
+  "status": "COMPLETE",
+  "stderr": ""
+}

@@ -4,20 +4,31 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 12, 2026, 17:03 UTC evidence cutoff. RL's earlier
+Latest partial refresh: September 12, 2026, 17:42 UTC evidence cutoff. RL's earlier
 gain repeats across two training seeds, but becomes smaller on fresh news examples:
 427 and 429 correct out of 512, versus 422 before training and 426 after supervised
 training. RL does not clearly beat supervised training on this fresh panel. The
 earlier panel's 437 and 436 remain separate; the methods did not use equal compute.
 This refresh preserves the weaker finding, complete four-arm audit and follow-up
-decisions, not just the encouraging first result.
+decisions, not just the encouraging first result. Repeating the same 128 training
+articles for eight updates reduced the earlier-panel score to 417/512, compared
+with 437/512 using different article groups. This supports investigating data
+variety; the repetition control still needs a fresh-panel check.
+
+On 224 encyclopedia descriptions, the four models scored 209, 209, 208 and 210:
+essentially unchanged. In the complete RLM, helper labels improved from 103 to
+108 correct out of 128 distinct articles, but final answers stayed at 3/16.
+Saved programs expose wrong counting scopes and calculations that returned no
+visible value. Better intermediate labels do not guarantee a better final answer.
 
 The controller investigation also changed our interpretation. Four nearly correct
 conversation answers followed broad printing of the input, not correct Python
 retrieval. We are testing explicit procedural demonstrations and partial-answer
-rewards separately, while inspecting how the answer is obtained. Cross-task helper
-tests, a whole-RLM comparison and a small recursive-depth comparison are queued.
-These are proposed or running experiments, not completed positive results.
+rewards separately, while inspecting how the answer is obtained. The first root-RL
+attempt stopped before any weight update because its probability weights were
+too uneven; this is not a negative learning result. A small recursive-depth
+comparison is running. A syntax-example interface variant reduced invalid actions
+but worsened answers, and is being retired.
 Infrastructure failures and GPU idle time remain visible.
 Other records retain their earlier cutoffs; this is not live GPU status. The latest
 plain-language synthesis is also in the

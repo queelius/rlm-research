@@ -2,9 +2,9 @@
 schema_version: "rlm-question-card-v1"
 id: "rq:rl-effective-feedback"
 title: "Can an RLM learn from its own attempts, and which errors obscure that signal?"
-status: "official_test_signal_weaker_rl_vs_sft_unresolved"
-updated_utc: "2026-09-12T17:00:00Z"
-evidence_cutoff: "2026-09-12T17:00:00Z"
+status: "component_learning_does_not_yet_transfer_through_root"
+updated_utc: "2026-09-12T17:43:00Z"
+evidence_cutoff: "2026-09-12T17:43:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -12,6 +12,7 @@ catalog_boundary: "New post-meeting question; the old catalog does not contain t
 related_questions: ["rq:controller", "rq:authenticated-calculation-reward", "rq:counterfactual-credit", "rq:adaptive-decomposition"]
 claim_ids: []
 reports:
+  - "../analyses/root-qs6-ag-live-helper-transfer-mechanism-2026-09-12/REPORT.md"
   - "../analyses/helper-agnews-official-test-transfer-findings-2026-09-12/FINDINGS.md"
   - "../analyses/openai-mrcr-short32-outcomes-2026-09-12/PROGRAM_VS_TERMINAL_ADDENDUM.md"
   - "../analyses/qs6-onebatch-learning-2026-09-12/REPORT.md"
@@ -22,6 +23,41 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Can we turn the model's own attempts into useful learning?
+
+## Decision update — September 12, 17:43 UTC
+
+Eight updates alone do not explain the broader-data helper result. Repeating
+the first 128 articles for all eight updates scored 417/512 on the shared exposed
+panel, versus 422 for c32 and 437 for the broader eight-block RL checkpoint. The
+repeat arm had 2 paired wins and 7 losses against c32, and 3 wins and 23 losses
+against broader RL; all 512 answers were available. This supports a data-breadth
+hypothesis, but one run and an already examined endpoint panel do not establish
+it causally. A fixed checkpoint 8 readout on the already frozen official-test 512
+panel is the next transfer check; it adds no checkpoint selection.
+
+## Decision update — September 12, 17:35 UTC
+
+The fixed RL8 helper's component signal did not survive its first fresh whole-RLM
+screen. Deduplicated helper correctness improved103/128→108/128, but the same
+QS6 root scored3/16 with both c32 and RL8 and all16 endpoint pairs tied. The one
+new exact map aggregate was an error-cancellation case in which a correct c32
+World label became an incorrect RL Sci/Tech label. This is a sharper example of
+why a larger local reward signal is not automatically useful learning.
+
+Trace evidence separates three failure sources. Helper errors keep most aggregates
+wrong; generated reducers sometimes change scope; and four reducers silently
+assign values so the next model turn receives no scalar. All20 recognized reducers
+with visible scalar output were copied correctly into the endpoint, while all144
+authored Python actions in the actual QS6 SFT corpus printed. A next root-learning
+test should therefore use matched correctly scoped demonstrations and compare
+print-then-final against the already-supported atomic `FINAL_TEXT` path on fresh
+contexts. Repeating print targets alone would not isolate the demonstrated scope
+failure. [Static audit](../analyses/root-qs6-ag-live-helper-transfer-mechanism-2026-09-12/REPORT.md).
+
+Separately, the corrected syntax screen is retired: endpoint correctness fell
+5/24→2/24, strict usable completions5/24→0/24, and strict correct usable
+completions3/24→0/24. The original all-U export was an audit defect, not a model
+result, but correcting it does not make the intervention promising.
 
 ## Decision update — September 12, 17:00 UTC
 
