@@ -1,11 +1,49 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T17:43:00Z
+updated_utc: 2026-09-12T18:23:00Z
 status: active_exploratory_research
 claim_level: helper_gain_not_transferred_and_result_observability_defect
 ---
 
 # Research in plain language
+
+## Current interpretation — September 12, 18:23 UTC
+
+The apparent benefit of varied training examples shrank sharply on the next
+test panel. Repeated128 RL scored 425/512 on the frozen official test, versus
+422 before training, 426 after supervised training, and 427/429 for the two
+varied-data RL seeds. All answers were available. The first varied-versus-repeat
+gap is only two answers here, compared with twenty on the earlier panel. Category
+balance was identical across training blocks; differences in example difficulty,
+the repeated block, and category boundaries remain possible explanations. Do not
+claim a large general breadth effect from the earlier panel.
+
+The controller tests separate access from task understanding. A structural
+preview reduced Python tracebacks from18 to0 but exact answers from1/16 to0/16.
+The model often returned a user request instead of the following reply. Four
+supervised updates on32 verified retrieval demonstrations did not yet teach the
+routine:0 exact,28 available,32 recorded on the training panel. The four missing
+outcomes are three context overflows and one broker timeout, not four wrong
+answers. No held readout ran. A fixed total32-step continuation is being prepared
+with the same examples, prompt, objective and learning rate.
+
+Root RL now has two genuine independent one-step checkpoints. Restoring the same
+initial weights and using the same saved gradient gives the intended10x update
+size. The larger update increases likelihood of both rewarded training attempts
+and lowers five of six penalized attempts. This is likelihood movement, not new
+answer accuracy. A paired starting-model/low-dose/high-dose evaluation on16
+separate conversations is active. Keep all three outcomes, including failures.
+
+The MuSiQue depth screen never called a helper:112 physical root calls, zero
+children. A follow-up fixed graph compares ordinary reports, broad additional
+reports, targeted questions, and the full source. Its first launch failed before
+science because the serving entrypoint overwrote the requested worker extension;
+repair is CPU preparation while the RL evaluation runs. No recursion benefit or
+new architecture claim is supported yet.
+
+See the focused analyses linked below and the new source-repository report
+`docs/research-checkpoints/2026-09-12-controller-learning-and-transfer.md`.
+Older sections are retained as dated history, not the current conclusion.
 
 ## Training-breadth update — September 12, 17:43 UTC
 

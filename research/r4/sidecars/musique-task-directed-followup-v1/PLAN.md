@@ -1,0 +1,12 @@
+# Task-directed MuSiQue report follow-up
+
+Goal: implement MAIN's approved first screen, not the conditional learned selector. Twelve fresh official MuSiQue-Ans train questions, four per hop; two label-blind paragraph halves; identical ordinary reports and root planning reused by stop/broad/targeted branches, plus a full-source reference. Exactly132 planned physical calls and48 terminal slots, 1700-second owner/1800 external cap; no GPU authority for this preparer.
+
+New files only in this external sidecar: `study.py` owns frozen prompts/seed schedule/source identities; `prepare.py` selects and freezes public inputs and separate0600 gold; `collect.py` captures each dynamic native request/response and decodes token evidence; `metrics.py` reuses unchanged official MuSiQue scoring and computes paired outcomes/cost; `owner.py` uses the now-repaired released-base service lifecycle; `test_screen.py`, `seal.py`, `READY.json` and receipts qualify the small boundary. Existing MuSiQue/base/other owners and immutable proposals are not edited.
+
+1. CPU implementation and two focused fixtures: all11 call roles per question, shared-prefix/partition/gold separation, native token/format/missingness and official scoring. Freeze source/archive/tokenizer/prompt/schedule/runtime pins and one attempt path.
+2. MAIN source review and optional GPU admission; preparer never launches GPU. All controls retained, no outcome-selected rows, no retries/answer repair, no learned routing, no host answer/retrieval program.
+
+The proposal is `ideas/2026-09-12-task-directed-report-followup.md` SHA3feac403501813507d4f03fa36196978e1cf3db50b024e9491bdd722add13b25. Additive evidence correction: the authoritative syntax reauthentication reports plain→syntax **5→0 interface-usable endpoints**, and **5→2 endpoint-correct outcomes**; the preserved initial all-unavailable audit was an authentication mismatch. Source: `analyses/root-qs6-budgeted-evidence-syntax-corrected-readout-2026-09-12/CORRECTED_REPORT.md`. No proposal bytes are rewritten.
+
+The completed MuSiQue depth pilot made112 physical root calls and zero child/grandchild calls; depth0/1/2 correct counts2/0/1 do not test benefits of actual recursion. This new report-channel assay supplies paragraph text directly to bounded child/consumer calls to isolate semantic information targeting from the observed Python-access failures. It supplies a partition, not a gold subquestion/support/solver. Existing RLM supports such calls; no architecture/novelty/depth-learning claim is made.

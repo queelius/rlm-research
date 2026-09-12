@@ -1,0 +1,10 @@
+{
+  "delta_cosine": 0.9999999999999534,
+  "delta_norm_ratio": 10.000000730097168,
+  "expected_ratio": 10.0,
+  "high_delta_l2": 0.29682076507906585,
+  "low_delta_l2": 0.02968207434082674,
+  "passed": true,
+  "relative_tolerance": 0.005,
+  "ten_x_residual_l2": 2.3908416542088406e-08
+}

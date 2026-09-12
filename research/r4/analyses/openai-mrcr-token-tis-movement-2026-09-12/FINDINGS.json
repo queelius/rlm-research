@@ -1,0 +1,1506 @@
+{
+  "branch_relation": {
+    "delta_cosine": 0.9999999999999534,
+    "delta_norm_ratio": 10.000000730097168,
+    "expected_ratio": 10.0,
+    "high_delta_l2": 0.29682076507906585,
+    "low_delta_l2": 0.02968207434082674,
+    "passed": true,
+    "relative_tolerance": 0.005,
+    "ten_x_residual_l2": 2.3908416542088406e-08
+  },
+  "branches": {
+    "lr1e-4": {
+      "adapter_delta_l2": 0.2968207650789939,
+      "advantage_weighted_sequence_delta_over24": 0.4419713638376704,
+      "by_advantage": {
+        "negative": {
+          "episodes": 6,
+          "first_turn_mean_per_token_delta": -0.0044195330981951185,
+          "last_turn_mean_per_token_delta": -0.00492433454035084,
+          "mean_episode_per_token_delta": -0.006239674272923401,
+          "mean_sequence_delta": -3.0465517101100077,
+          "sequence_increased": 1
+        },
+        "positive": {
+          "episodes": 2,
+          "first_turn_mean_per_token_delta": 0.010006238924637766,
+          "last_turn_mean_per_token_delta": 0.006353320182656979,
+          "mean_episode_per_token_delta": 0.008337599646743162,
+          "mean_sequence_delta": 7.560761021994082,
+          "sequence_increased": 2
+        },
+        "zero": {
+          "episodes": 16,
+          "first_turn_mean_per_token_delta": -0.0001029900898891013,
+          "last_turn_mean_per_token_delta": 0.0005511806030700442,
+          "mean_episode_per_token_delta": 0.0003197734522034126,
+          "mean_sequence_delta": -0.08988633419270142,
+          "sequence_increased": 8
+        }
+      },
+      "rows": [
+        {
+          "advantage": 0.0,
+          "episode_id": "a83dfba8d28cdf451d69b752f84571d0d8bc492b7ab8988e890bc7750b7b5f12",
+          "group_id": "omrcr-10f8b49fc190c3cd4562",
+          "per_token_delta": -0.0008273317087431288,
+          "reward": 0.0,
+          "sequence_delta": -1.3253853974064924,
+          "tokens": 1602,
+          "turns": [
+            {
+              "per_token_delta": -0.0006201713410897488,
+              "sequence_delta": -0.09302570116346232,
+              "tokens": 150,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.006811229106889518,
+              "sequence_delta": -1.6074500692259264,
+              "tokens": 236,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.004181692090180285,
+              "sequence_delta": -0.6105270451663216,
+              "tokens": 146,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.0009211377739712317,
+              "sequence_delta": 0.9856174181492179,
+              "tokens": 1070,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "d11f4ca671ff8c6991dacb420adb66ceb6844bc827e649b946e4cd50b0f4fd18",
+          "group_id": "omrcr-10f8b49fc190c3cd4562",
+          "per_token_delta": 0.00033429162517970484,
+          "reward": 0.0,
+          "sequence_delta": 0.21595238986608933,
+          "tokens": 646,
+          "turns": [
+            {
+              "per_token_delta": -0.0003670871877841588,
+              "sequence_delta": -0.06974656567899018,
+              "tokens": 190,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.00030231527656128033,
+              "sequence_delta": 0.06348620807786887,
+              "tokens": 210,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0009619599457455007,
+              "sequence_delta": 0.22221274746721065,
+              "tokens": 231,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 15,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "93e48b294989bd127166eb6322d272164d5c9f8c50e4a622e7efd830f0df25c1",
+          "group_id": "omrcr-10f8b49fc190c3cd4562",
+          "per_token_delta": 0.0013706677890569043,
+          "reward": 0.0,
+          "sequence_delta": 0.8827100561526464,
+          "tokens": 644,
+          "turns": [
+            {
+              "per_token_delta": 0.004492557746683516,
+              "sequence_delta": 0.6783762197492109,
+              "tokens": 151,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.00044113884848579984,
+              "sequence_delta": -0.10807901787902097,
+              "tokens": 245,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.001340827700783075,
+              "sequence_delta": 0.31241285428245646,
+              "tokens": 233,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 15,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "57871687a7e3819d78c7ebe0e0d81a4a6a57c0b097eaaffc7e31caa7511b0ca8",
+          "group_id": "omrcr-10f8b49fc190c3cd4562",
+          "per_token_delta": -0.00028043509382031387,
+          "reward": 0.0,
+          "sequence_delta": -0.38111129250180653,
+          "tokens": 1359,
+          "turns": [
+            {
+              "per_token_delta": -0.0017424519531510667,
+              "sequence_delta": -0.28053476445732173,
+              "tokens": 161,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.008980075852500827,
+              "sequence_delta": -0.6645256130850612,
+              "tokens": 74,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0005734290630842128,
+              "sequence_delta": 0.06537091319160027,
+              "tokens": 114,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.000493641754305917,
+              "sequence_delta": 0.4985781718489761,
+              "tokens": 1010,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "77257ac6a0545b667762376de3778c50a7cdfbd5cb919c4693cd3ece319291c1",
+          "group_id": "omrcr-39fbac00a29ae2b82e1f",
+          "per_token_delta": -0.001701850969820346,
+          "reward": 0.0,
+          "sequence_delta": -0.3778109153001168,
+          "tokens": 222,
+          "turns": [
+            {
+              "per_token_delta": -0.001701850969820346,
+              "sequence_delta": -0.3778109153001168,
+              "tokens": 222,
+              "turn_index": 0
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "edaa78d64aa22459320cc33e972007f2c7233e2bdef3fb757706834c697226c5",
+          "group_id": "omrcr-39fbac00a29ae2b82e1f",
+          "per_token_delta": -0.002314434597223038,
+          "reward": 0.0,
+          "sequence_delta": -2.608367791070364,
+          "tokens": 1127,
+          "turns": [
+            {
+              "per_token_delta": -0.007176180062134299,
+              "sequence_delta": -1.7007546747258289,
+              "tokens": 237,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.0005633066898147667,
+              "sequence_delta": -0.24785494351849735,
+              "tokens": 440,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.0015272177167054526,
+              "sequence_delta": -0.6597580536167555,
+              "tokens": 432,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": -6.622737913630772e-09,
+              "sequence_delta": -1.1920928244535389e-07,
+              "tokens": 18,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "0a0ac6ef9fdc859241c6002c98eb3b8161fa45bc92b76ad88d10af1d7b9dde93",
+          "group_id": "omrcr-39fbac00a29ae2b82e1f",
+          "per_token_delta": 0.008837440684059965,
+          "reward": 0.0,
+          "sequence_delta": 2.032611357333792,
+          "tokens": 230,
+          "turns": [
+            {
+              "per_token_delta": 0.008837440684059965,
+              "sequence_delta": 2.032611357333792,
+              "tokens": 230,
+              "turn_index": 0
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "d207a0ae5a47daeb96122117c6a446ae628e64e68a1743e5f99e3a823c3510a9",
+          "group_id": "omrcr-39fbac00a29ae2b82e1f",
+          "per_token_delta": -0.0015846874544767353,
+          "reward": 0.0,
+          "sequence_delta": -0.7115246670600541,
+          "tokens": 449,
+          "turns": [
+            {
+              "per_token_delta": -0.0034432209238705897,
+              "sequence_delta": -0.6438823127638003,
+              "tokens": 187,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.006385574835905982,
+              "sequence_delta": -0.6002440345751623,
+              "tokens": 94,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0031702480968982642,
+              "sequence_delta": 0.5326016802789084,
+              "tokens": 168,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": 0.5,
+          "episode_id": "70442b653ed49239d6a6d878a1fd94c30e301a64f10a1b25fb23d0395b6bcd68",
+          "group_id": "omrcr-76287483be01a7b4d096",
+          "per_token_delta": 0.01061758710897107,
+          "reward": 0.5,
+          "sequence_delta": 7.803926525093736,
+          "tokens": 735,
+          "turns": [
+            {
+              "per_token_delta": 0.007879850453601525,
+              "sequence_delta": 1.3395745771122591,
+              "tokens": 170,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.010486391018951189,
+              "sequence_delta": 3.3766179081022827,
+              "tokens": 322,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.012706724443947302,
+              "sequence_delta": 3.0877340398791944,
+              "tokens": 243,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "91239414f94b3c0bde84b2492bb706bf877524275c3e6c218ec08e202b6247c1",
+          "group_id": "omrcr-76287483be01a7b4d096",
+          "per_token_delta": -0.003132539941361844,
+          "reward": 0.0,
+          "sequence_delta": -2.527959732679008,
+          "tokens": 807,
+          "turns": [
+            {
+              "per_token_delta": -0.001311085739369953,
+              "sequence_delta": -0.25566171917714087,
+              "tokens": 195,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.009681746471239127,
+              "sequence_delta": -1.064992111836304,
+              "tokens": 110,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.0004019377703159612,
+              "sequence_delta": -0.04421315473475573,
+              "tokens": 110,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.001110610421036995,
+              "sequence_delta": 0.12216714631406944,
+              "tokens": 110,
+              "turn_index": 3
+            },
+            {
+              "per_token_delta": -0.008365716587366226,
+              "sequence_delta": -1.1712003222312717,
+              "tokens": 140,
+              "turn_index": 4
+            },
+            {
+              "per_token_delta": -0.0008032364155887706,
+              "sequence_delta": -0.11405957101360542,
+              "tokens": 142,
+              "turn_index": 5
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "ea19079b4db350ed3a00b35368d0e0d43d2a446eeebebb88da766b0d64213f42",
+          "group_id": "omrcr-76287483be01a7b4d096",
+          "per_token_delta": -0.005929815778557535,
+          "reward": 0.0,
+          "sequence_delta": -4.115292150318929,
+          "tokens": 694,
+          "turns": [
+            {
+              "per_token_delta": -0.004538705991177794,
+              "sequence_delta": -0.9258960222002699,
+              "tokens": 204,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.023433983848334887,
+              "sequence_delta": -2.858946029496856,
+              "tokens": 122,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.0032756053457778734,
+              "sequence_delta": -0.5666797248195721,
+              "tokens": 173,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.0012114339805013793,
+              "sequence_delta": 0.236229626197769,
+              "tokens": 195,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "fb64ddad8d1e47b8690bb64d9ef949333265a8ff7609d3ba0cb903ff6aa3c1a9",
+          "group_id": "omrcr-76287483be01a7b4d096",
+          "per_token_delta": -0.0030809886176200786,
+          "reward": 0.0,
+          "sequence_delta": -1.7376775803377242,
+          "tokens": 564,
+          "turns": [
+            {
+              "per_token_delta": -0.003243575280036253,
+              "sequence_delta": -0.6292536043270331,
+              "tokens": 194,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.001687138233216252,
+              "sequence_delta": -0.18389806742057146,
+              "tokens": 109,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.003758235400772844,
+              "sequence_delta": -0.9245259085901196,
+              "tokens": 246,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 15,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "9b345bccfe7d81ec82d532f4e788f8e186b16310beb33f48131f93691c17e96c",
+          "group_id": "omrcr-81962be30bd6c8668637",
+          "per_token_delta": -0.0014093710409692761,
+          "reward": 0.0,
+          "sequence_delta": -0.29878666068548654,
+          "tokens": 212,
+          "turns": [
+            {
+              "per_token_delta": -0.0014093710409692761,
+              "sequence_delta": -0.29878666068548654,
+              "tokens": 212,
+              "turn_index": 0
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "88c30db6bc9256038a8c14f675b4b52996bf0f2a54e7988945201c0925613338",
+          "group_id": "omrcr-81962be30bd6c8668637",
+          "per_token_delta": 0.0011104113234648696,
+          "reward": 0.0,
+          "sequence_delta": 0.6795717299605002,
+          "tokens": 612,
+          "turns": [
+            {
+              "per_token_delta": -0.0018402311012154819,
+              "sequence_delta": -0.46189800640508594,
+              "tokens": 251,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.0037464232146311965,
+              "sequence_delta": 1.142659080462515,
+              "tokens": 305,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -2.1238287445157766e-05,
+              "sequence_delta": -0.001189344096928835,
+              "tokens": 56,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "af15302b7ad6e334d5776495bff3e0e8a3869af6aaf77afccf016e79826f1b55",
+          "group_id": "omrcr-81962be30bd6c8668637",
+          "per_token_delta": 0.0027637051216537777,
+          "reward": 0.0,
+          "sequence_delta": 1.207739138162701,
+          "tokens": 437,
+          "turns": [
+            {
+              "per_token_delta": -0.004014757570341283,
+              "sequence_delta": -0.6704645142469943,
+              "tokens": 167,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.015334302154148537,
+              "sequence_delta": 3.281540660987787,
+              "tokens": 214,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.025059589438894494,
+              "sequence_delta": -1.4033370085780916,
+              "tokens": 56,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "574142574c350ef9f5de2f3e9e5aa1affaa3c61636047898b30e6aefffb2a424",
+          "group_id": "omrcr-81962be30bd6c8668637",
+          "per_token_delta": 0.00020606459267046395,
+          "reward": 0.0,
+          "sequence_delta": 0.07686209306608305,
+          "tokens": 373,
+          "turns": [
+            {
+              "per_token_delta": 0.0040551246831119605,
+              "sequence_delta": 0.6690955727134735,
+              "tokens": 165,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.0030062613180070583,
+              "sequence_delta": -0.5922334796473905,
+              "tokens": 197,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 11,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "c9d3c71b0d4c0ca4d6ea5d47ef97e6e43bea8648c7a15290ff53716db3f0314f",
+          "group_id": "omrcr-83b3037ee21b1b243c0d",
+          "per_token_delta": -0.01381040865356947,
+          "reward": 0.0,
+          "sequence_delta": -4.571245264331495,
+          "tokens": 331,
+          "turns": [
+            {
+              "per_token_delta": -0.012054606726102791,
+              "sequence_delta": -2.1818838174246054,
+              "tokens": 181,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.015929076312712596,
+              "sequence_delta": -2.3893614469068893,
+              "tokens": 150,
+              "turn_index": 1
+            }
+          ]
+        },
+        {
+          "advantage": 0.5,
+          "episode_id": "aa0c670ca4614dd64b2a99f6b7ad232bdada9f9426b75313764f384d4fb71a7c",
+          "group_id": "omrcr-83b3037ee21b1b243c0d",
+          "per_token_delta": 0.006057612184515255,
+          "reward": 0.5,
+          "sequence_delta": 7.317595518894429,
+          "tokens": 1208,
+          "turns": [
+            {
+              "per_token_delta": 0.012132627395674006,
+              "sequence_delta": 1.844159364142449,
+              "tokens": 152,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.014761360430839724,
+              "sequence_delta": 3.646056026417412,
+              "tokens": 247,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.007876847593560374,
+              "sequence_delta": 1.8274286417060068,
+              "tokens": 232,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": -8.407863334347486e-08,
+              "sequence_delta": -4.8513371439184994e-05,
+              "tokens": 577,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "7d481b2713249012d7fb7e6c8bc7b2f2f049cea2e8e0d8d7c77a5ca28e128505",
+          "group_id": "omrcr-83b3037ee21b1b243c0d",
+          "per_token_delta": 0.0007471959769995856,
+          "reward": 0.0,
+          "sequence_delta": 0.31158072240882717,
+          "tokens": 417,
+          "turns": [
+            {
+              "per_token_delta": 0.004010577908827245,
+              "sequence_delta": 0.6777876665918043,
+              "tokens": 169,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.0015784782076852465,
+              "sequence_delta": -0.36620694418297717,
+              "tokens": 232,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 16,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "cd2f2cd55806de999a33bd9062417579d7a4ecf2e534b427aa319cc3a06f7c91",
+          "group_id": "omrcr-83b3037ee21b1b243c0d",
+          "per_token_delta": -0.012231488623431059,
+          "reward": 0.0,
+          "sequence_delta": -5.638716255401718,
+          "tokens": 461,
+          "turns": [
+            {
+              "per_token_delta": -0.009379802761311165,
+              "sequence_delta": -1.6696048915133872,
+              "tokens": 178,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.014025128494305057,
+              "sequence_delta": -3.969111363888331,
+              "tokens": 283,
+              "turn_index": 1
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "8c75c588276ec80f471da4d64d4945d5fbe9e41938982f5ee20454be9feeb70a",
+          "group_id": "omrcr-9f431a2f2bea9f0c243c",
+          "per_token_delta": -0.00021344376799773071,
+          "reward": 0.0,
+          "sequence_delta": -0.05229372315944403,
+          "tokens": 245,
+          "turns": [
+            {
+              "per_token_delta": -0.00021344376799773071,
+              "sequence_delta": -0.05229372315944403,
+              "tokens": 245,
+              "turn_index": 0
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "3e0a43e6927a4af9f197c7c9179af1b256547d9a0e2de82c793d48c9adc5d7b4",
+          "group_id": "omrcr-9f431a2f2bea9f0c243c",
+          "per_token_delta": 0.0001613562267780686,
+          "reward": 0.0,
+          "sequence_delta": 0.14231619201825652,
+          "tokens": 882,
+          "turns": [
+            {
+              "per_token_delta": 0.005196682921289546,
+              "sequence_delta": 0.9925664379663033,
+              "tokens": 191,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.0007624851813853884,
+              "sequence_delta": -0.26076993203380283,
+              "tokens": 342,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.00296586611530994,
+              "sequence_delta": -0.9846675502829001,
+              "tokens": 332,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.023246308021685657,
+              "sequence_delta": 0.39518723636865616,
+              "tokens": 17,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "5aecf3e2c71c699e7e3a16bcd676a19661f845425bdffcdb73386938aa6a0ad9",
+          "group_id": "omrcr-9f431a2f2bea9f0c243c",
+          "per_token_delta": -0.005107767021055073,
+          "reward": 0.0,
+          "sequence_delta": -3.447742739212174,
+          "tokens": 675,
+          "turns": [
+            {
+              "per_token_delta": -0.006495768509631197,
+              "sequence_delta": -1.6369336644270618,
+              "tokens": 252,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.005340160509181617,
+              "sequence_delta": -1.853035696686021,
+              "tokens": 347,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0005556134460645904,
+              "sequence_delta": 0.04222662190090887,
+              "tokens": 76,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "6d9d3cb25bf462a404d5255add29c8836d71bb17fec8ed7342703cf7dfe09478",
+          "group_id": "omrcr-9f431a2f2bea9f0c243c",
+          "per_token_delta": 0.0037717595264964887,
+          "reward": 0.0,
+          "sequence_delta": 2.5270788827526474,
+          "tokens": 670,
+          "turns": [
+            {
+              "per_token_delta": 0.00479488695463457,
+              "sequence_delta": 1.5583382602562352,
+              "tokens": 325,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.0029355776439285216,
+              "sequence_delta": 0.9687406224964121,
+              "tokens": 330,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 15,
+              "turn_index": 2
+            }
+          ]
+        }
+      ]
+    },
+    "lr1e-5": {
+      "adapter_delta_l2": 0.029682074340832573,
+      "advantage_weighted_sequence_delta_over24": 0.017197453782738303,
+      "by_advantage": {
+        "negative": {
+          "episodes": 6,
+          "first_turn_mean_per_token_delta": 0.0009570540148178371,
+          "last_turn_mean_per_token_delta": -0.002066412077100606,
+          "mean_episode_per_token_delta": -0.00023553353988058564,
+          "mean_sequence_delta": -0.10467147183193622,
+          "sequence_increased": 2
+        },
+        "positive": {
+          "episodes": 2,
+          "first_turn_mean_per_token_delta": -0.002622965183111983,
+          "last_turn_mean_per_token_delta": 0.006206934850724385,
+          "mean_episode_per_token_delta": 0.001032201769478947,
+          "mean_sequence_delta": 0.3080674189537831,
+          "sequence_increased": 1
+        },
+        "zero": {
+          "episodes": 16,
+          "first_turn_mean_per_token_delta": -2.9100532180129076e-05,
+          "last_turn_mean_per_token_delta": 0.0010010894143888604,
+          "mean_episode_per_token_delta": -0.00012821112302318263,
+          "mean_sequence_delta": -0.09685590612346529,
+          "sequence_increased": 8
+        }
+      },
+      "rows": [
+        {
+          "advantage": 0.0,
+          "episode_id": "a83dfba8d28cdf451d69b752f84571d0d8bc492b7ab8988e890bc7750b7b5f12",
+          "group_id": "omrcr-10f8b49fc190c3cd4562",
+          "per_token_delta": -0.0005315769044152842,
+          "reward": 0.0,
+          "sequence_delta": -0.8515862008732853,
+          "tokens": 1602,
+          "turns": [
+            {
+              "per_token_delta": -0.004170243189451952,
+              "sequence_delta": -0.6255364784177928,
+              "tokens": 150,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.003854713129891607,
+              "sequence_delta": -0.9097122986544193,
+              "tokens": 236,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0008272622234409391,
+              "sequence_delta": 0.12078028462237711,
+              "tokens": 146,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.000526058216426682,
+              "sequence_delta": 0.5628822915765497,
+              "tokens": 1070,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "d11f4ca671ff8c6991dacb420adb66ceb6844bc827e649b946e4cd50b0f4fd18",
+          "group_id": "omrcr-10f8b49fc190c3cd4562",
+          "per_token_delta": 1.9656857736672873e-05,
+          "reward": 0.0,
+          "sequence_delta": 0.012698330097890675,
+          "tokens": 646,
+          "turns": [
+            {
+              "per_token_delta": -0.0027926314418014746,
+              "sequence_delta": -0.5305999739422802,
+              "tokens": 190,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.0009009430363329262,
+              "sequence_delta": 0.1891980376299145,
+              "tokens": 210,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.001532901586191586,
+              "sequence_delta": 0.3541002664102564,
+              "tokens": 231,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 15,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "93e48b294989bd127166eb6322d272164d5c9f8c50e4a622e7efd830f0df25c1",
+          "group_id": "omrcr-10f8b49fc190c3cd4562",
+          "per_token_delta": -0.0005930245625676219,
+          "reward": 0.0,
+          "sequence_delta": -0.3819078182935485,
+          "tokens": 644,
+          "turns": [
+            {
+              "per_token_delta": -0.004584998497902586,
+              "sequence_delta": -0.6923347731832905,
+              "tokens": 151,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.0030203835214727076,
+              "sequence_delta": 0.7399939627608134,
+              "tokens": 245,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.0018436352269144694,
+              "sequence_delta": -0.4295670078710714,
+              "tokens": 233,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 15,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "57871687a7e3819d78c7ebe0e0d81a4a6a57c0b097eaaffc7e31caa7511b0ca8",
+          "group_id": "omrcr-10f8b49fc190c3cd4562",
+          "per_token_delta": 0.0004210716538360981,
+          "reward": 0.0,
+          "sequence_delta": 0.5722363775632573,
+          "tokens": 1359,
+          "turns": [
+            {
+              "per_token_delta": 0.0012966774914613772,
+              "sequence_delta": 0.20876507612528172,
+              "tokens": 161,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.0007558722331973636,
+              "sequence_delta": 0.055934545256604906,
+              "tokens": 74,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.0008440704025428216,
+              "sequence_delta": -0.09622402588988166,
+              "tokens": 114,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.00039976315056559637,
+              "sequence_delta": 0.4037607820712523,
+              "tokens": 1010,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "77257ac6a0545b667762376de3778c50a7cdfbd5cb919c4693cd3ece319291c1",
+          "group_id": "omrcr-39fbac00a29ae2b82e1f",
+          "per_token_delta": 0.0007897848831080632,
+          "reward": 0.0,
+          "sequence_delta": 0.17533224404999004,
+          "tokens": 222,
+          "turns": [
+            {
+              "per_token_delta": 0.0007897848831080632,
+              "sequence_delta": 0.17533224404999004,
+              "tokens": 222,
+              "turn_index": 0
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "edaa78d64aa22459320cc33e972007f2c7233e2bdef3fb757706834c697226c5",
+          "group_id": "omrcr-39fbac00a29ae2b82e1f",
+          "per_token_delta": 0.0003259724494502915,
+          "reward": 0.0,
+          "sequence_delta": 0.3673709505304785,
+          "tokens": 1127,
+          "turns": [
+            {
+              "per_token_delta": -0.0024644068777766523,
+              "sequence_delta": -0.5840644300330666,
+              "tokens": 237,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.00024557091897791397,
+              "sequence_delta": 0.10805120435028215,
+              "tokens": 440,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0019522784616262626,
+              "sequence_delta": 0.8433842954225454,
+              "tokens": 432,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": -6.622737913630772e-09,
+              "sequence_delta": -1.1920928244535389e-07,
+              "tokens": 18,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "0a0ac6ef9fdc859241c6002c98eb3b8161fa45bc92b76ad88d10af1d7b9dde93",
+          "group_id": "omrcr-39fbac00a29ae2b82e1f",
+          "per_token_delta": 0.001966599358588091,
+          "reward": 0.0,
+          "sequence_delta": 0.4523178524752609,
+          "tokens": 230,
+          "turns": [
+            {
+              "per_token_delta": 0.001966599358588091,
+              "sequence_delta": 0.4523178524752609,
+              "tokens": 230,
+              "turn_index": 0
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "d207a0ae5a47daeb96122117c6a446ae628e64e68a1743e5f99e3a823c3510a9",
+          "group_id": "omrcr-39fbac00a29ae2b82e1f",
+          "per_token_delta": -0.0026787014617334647,
+          "reward": 0.0,
+          "sequence_delta": -1.2027369563183257,
+          "tokens": 449,
+          "turns": [
+            {
+              "per_token_delta": 0.004450725467646021,
+              "sequence_delta": 0.8322856624498058,
+              "tokens": 187,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.006314381630757569,
+              "sequence_delta": -0.5935518732912115,
+              "tokens": 94,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.00858018300879119,
+              "sequence_delta": -1.44147074547692,
+              "tokens": 168,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": 0.5,
+          "episode_id": "70442b653ed49239d6a6d878a1fd94c30e301a64f10a1b25fb23d0395b6bcd68",
+          "group_id": "omrcr-76287483be01a7b4d096",
+          "per_token_delta": 0.003969692678971607,
+          "reward": 0.5,
+          "sequence_delta": 2.9177241190441308,
+          "tokens": 735,
+          "turns": [
+            {
+              "per_token_delta": 0.0009445422155840119,
+              "sequence_delta": 0.16057217664928203,
+              "tokens": 170,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.0008057107961781105,
+              "sequence_delta": -0.2594388763693516,
+              "tokens": 322,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.012413953986683952,
+              "sequence_delta": 3.0165908187642003,
+              "tokens": 243,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "91239414f94b3c0bde84b2492bb706bf877524275c3e6c218ec08e202b6247c1",
+          "group_id": "omrcr-76287483be01a7b4d096",
+          "per_token_delta": -0.0008530935965159465,
+          "reward": 0.0,
+          "sequence_delta": -0.6884465323883688,
+          "tokens": 807,
+          "turns": [
+            {
+              "per_token_delta": -0.0009752742404603218,
+              "sequence_delta": -0.19017847688976275,
+              "tokens": 195,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.003042448481201761,
+              "sequence_delta": -0.3346693329321937,
+              "tokens": 110,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.0007356717013865028,
+              "sequence_delta": -0.0809238871525153,
+              "tokens": 110,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.000279836355591101,
+              "sequence_delta": 0.030781999115021108,
+              "tokens": 110,
+              "turn_index": 3
+            },
+            {
+              "per_token_delta": -0.00017901873819644112,
+              "sequence_delta": -0.025062623347501756,
+              "tokens": 140,
+              "turn_index": 4
+            },
+            {
+              "per_token_delta": -0.0006224944449395523,
+              "sequence_delta": -0.08839421118141644,
+              "tokens": 142,
+              "turn_index": 5
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "ea19079b4db350ed3a00b35368d0e0d43d2a446eeebebb88da766b0d64213f42",
+          "group_id": "omrcr-76287483be01a7b4d096",
+          "per_token_delta": 0.0007949121703962949,
+          "reward": 0.0,
+          "sequence_delta": 0.5516690462550287,
+          "tokens": 694,
+          "turns": [
+            {
+              "per_token_delta": 0.004262420297930551,
+              "sequence_delta": 0.8695337407778325,
+              "tokens": 204,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.0030538623369478685,
+              "sequence_delta": 0.37257120510763997,
+              "tokens": 122,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.00037855076028625844,
+              "sequence_delta": -0.06548928152952271,
+              "tokens": 173,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": -0.0032048544517995956,
+              "sequence_delta": -0.6249466181009211,
+              "tokens": 195,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "fb64ddad8d1e47b8690bb64d9ef949333265a8ff7609d3ba0cb903ff6aa3c1a9",
+          "group_id": "omrcr-76287483be01a7b4d096",
+          "per_token_delta": -0.00035439841370082817,
+          "reward": 0.0,
+          "sequence_delta": -0.1998807053272671,
+          "tokens": 564,
+          "turns": [
+            {
+              "per_token_delta": -0.0023936834615423284,
+              "sequence_delta": -0.4643745915392117,
+              "tokens": 194,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.0027134985357449575,
+              "sequence_delta": 0.29577134039620034,
+              "tokens": 109,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.00012714412270022668,
+              "sequence_delta": -0.03127745418425576,
+              "tokens": 246,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 15,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "9b345bccfe7d81ec82d532f4e788f8e186b16310beb33f48131f93691c17e96c",
+          "group_id": "omrcr-81962be30bd6c8668637",
+          "per_token_delta": -2.4022766510122523e-05,
+          "reward": 0.0,
+          "sequence_delta": -0.005092826500145975,
+          "tokens": 212,
+          "turns": [
+            {
+              "per_token_delta": -2.4022766510122523e-05,
+              "sequence_delta": -0.005092826500145975,
+              "tokens": 212,
+              "turn_index": 0
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "88c30db6bc9256038a8c14f675b4b52996bf0f2a54e7988945201c0925613338",
+          "group_id": "omrcr-81962be30bd6c8668637",
+          "per_token_delta": -0.0005414748287024368,
+          "reward": 0.0,
+          "sequence_delta": -0.3313825951658913,
+          "tokens": 612,
+          "turns": [
+            {
+              "per_token_delta": -0.000896645413384135,
+              "sequence_delta": -0.2250579987594179,
+              "tokens": 251,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.00035238230972238006,
+              "sequence_delta": -0.10747660446532592,
+              "tokens": 305,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 2.0571572479509215e-05,
+              "sequence_delta": 0.0011520080588525161,
+              "tokens": 56,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "af15302b7ad6e334d5776495bff3e0e8a3869af6aaf77afccf016e79826f1b55",
+          "group_id": "omrcr-81962be30bd6c8668637",
+          "per_token_delta": 0.0005441715771013183,
+          "reward": 0.0,
+          "sequence_delta": 0.2378029791932761,
+          "tokens": 437,
+          "turns": [
+            {
+              "per_token_delta": 0.00238061568088395,
+              "sequence_delta": 0.39756281870761967,
+              "tokens": 167,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.0007460884939916325,
+              "sequence_delta": -0.15966293771420936,
+              "tokens": 214,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -1.7303892881110578e-06,
+              "sequence_delta": -9.690180013421923e-05,
+              "tokens": 56,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "574142574c350ef9f5de2f3e9e5aa1affaa3c61636047898b30e6aefffb2a424",
+          "group_id": "omrcr-81962be30bd6c8668637",
+          "per_token_delta": -0.005769691422615501,
+          "reward": 0.0,
+          "sequence_delta": -2.152094900635582,
+          "tokens": 373,
+          "turns": [
+            {
+              "per_token_delta": -0.00885450911568218,
+              "sequence_delta": -1.46099400408756,
+              "tokens": 165,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.003508126378416356,
+              "sequence_delta": -0.6911008965480221,
+              "tokens": 197,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 11,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "c9d3c71b0d4c0ca4d6ea5d47ef97e6e43bea8648c7a15290ff53716db3f0314f",
+          "group_id": "omrcr-83b3037ee21b1b243c0d",
+          "per_token_delta": -0.0017296272053123397,
+          "reward": 0.0,
+          "sequence_delta": -0.5725066049583845,
+          "tokens": 331,
+          "turns": [
+            {
+              "per_token_delta": 0.0030777850813944654,
+              "sequence_delta": 0.5570790997323982,
+              "tokens": 181,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.007530571364605218,
+              "sequence_delta": -1.1295857046907827,
+              "tokens": 150,
+              "turn_index": 1
+            }
+          ]
+        },
+        {
+          "advantage": 0.5,
+          "episode_id": "aa0c670ca4614dd64b2a99f6b7ad232bdada9f9426b75313764f384d4fb71a7c",
+          "group_id": "omrcr-83b3037ee21b1b243c0d",
+          "per_token_delta": -0.0019052891400137123,
+          "reward": 0.5,
+          "sequence_delta": -2.3015892811365646,
+          "tokens": 1208,
+          "turns": [
+            {
+              "per_token_delta": -0.006190472581807978,
+              "sequence_delta": -0.9409518324348127,
+              "tokens": 152,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.005413152918305626,
+              "sequence_delta": -1.3370487708214895,
+              "tokens": 247,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.00010146571249811206,
+              "sequence_delta": -0.023540045299561996,
+              "tokens": 232,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": -8.428523518252004e-08,
+              "sequence_delta": -4.8632580700314065e-05,
+              "tokens": 577,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "7d481b2713249012d7fb7e6c8bc7b2f2f049cea2e8e0d8d7c77a5ca28e128505",
+          "group_id": "omrcr-83b3037ee21b1b243c0d",
+          "per_token_delta": 0.0012485388879353537,
+          "reward": 0.0,
+          "sequence_delta": 0.5206407162690425,
+          "tokens": 417,
+          "turns": [
+            {
+              "per_token_delta": 0.0014622476356593453,
+              "sequence_delta": 0.24711985042642937,
+              "tokens": 169,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.0011789692493216085,
+              "sequence_delta": 0.27352086584261315,
+              "tokens": 232,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 16,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": -0.16666666666666666,
+          "episode_id": "cd2f2cd55806de999a33bd9062417579d7a4ecf2e534b427aa319cc3a06f7c91",
+          "group_id": "omrcr-83b3037ee21b1b243c0d",
+          "per_token_delta": -0.000519533082086048,
+          "reward": 0.0,
+          "sequence_delta": -0.2395047508416681,
+          "tokens": 461,
+          "turns": [
+            {
+              "per_token_delta": 0.00030882877592531096,
+              "sequence_delta": 0.05497152211470535,
+              "tokens": 178,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.0010405522012592702,
+              "sequence_delta": -0.29447627295637346,
+              "tokens": 283,
+              "turn_index": 1
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "8c75c588276ec80f471da4d64d4945d5fbe9e41938982f5ee20454be9feeb70a",
+          "group_id": "omrcr-9f431a2f2bea9f0c243c",
+          "per_token_delta": 0.0012960447163951655,
+          "reward": 0.0,
+          "sequence_delta": 0.31753095551681554,
+          "tokens": 245,
+          "turns": [
+            {
+              "per_token_delta": 0.0012960447163951655,
+              "sequence_delta": 0.31753095551681554,
+              "tokens": 245,
+              "turn_index": 0
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "3e0a43e6927a4af9f197c7c9179af1b256547d9a0e2de82c793d48c9adc5d7b4",
+          "group_id": "omrcr-9f431a2f2bea9f0c243c",
+          "per_token_delta": -0.002746472953599904,
+          "reward": 0.0,
+          "sequence_delta": -2.4223891450751154,
+          "tokens": 882,
+          "turns": [
+            {
+              "per_token_delta": 0.004627392941268694,
+              "sequence_delta": 0.8838320517823206,
+              "tokens": 191,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.004246370942659084,
+              "sequence_delta": -1.4522588623894066,
+              "tokens": 342,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.0067745469001104985,
+              "sequence_delta": -2.2491495708366855,
+              "tokens": 332,
+              "turn_index": 2
+            },
+            {
+              "per_token_delta": 0.023246308021685657,
+              "sequence_delta": 0.39518723636865616,
+              "tokens": 17,
+              "turn_index": 3
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "5aecf3e2c71c699e7e3a16bcd676a19661f845425bdffcdb73386938aa6a0ad9",
+          "group_id": "omrcr-9f431a2f2bea9f0c243c",
+          "per_token_delta": -0.0005769972728374371,
+          "reward": 0.0,
+          "sequence_delta": -0.38947315916527003,
+          "tokens": 675,
+          "turns": [
+            {
+              "per_token_delta": -0.00010061705223465524,
+              "sequence_delta": -0.025355497163133123,
+              "tokens": 252,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": -0.00025609270280392706,
+              "sequence_delta": -0.0888641678729627,
+              "tokens": 347,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": -0.003621756501699661,
+              "sequence_delta": -0.2752534941291742,
+              "tokens": 76,
+              "turn_index": 2
+            }
+          ]
+        },
+        {
+          "advantage": 0.0,
+          "episode_id": "6d9d3cb25bf462a404d5255add29c8836d71bb17fec8ed7342703cf7dfe09478",
+          "group_id": "omrcr-9f431a2f2bea9f0c243c",
+          "per_token_delta": 0.00604728270839515,
+          "reward": 0.0,
+          "sequence_delta": 4.051679414624751,
+          "tokens": 670,
+          "turns": [
+            {
+              "per_token_delta": 0.006614625300510332,
+              "sequence_delta": 2.1497532226658578,
+              "tokens": 325,
+              "turn_index": 0
+            },
+            {
+              "per_token_delta": 0.005763412702905736,
+              "sequence_delta": 1.9019261919588928,
+              "tokens": 330,
+              "turn_index": 1
+            },
+            {
+              "per_token_delta": 0.0,
+              "sequence_delta": 0.0,
+              "tokens": 15,
+              "turn_index": 2
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "derivation_sha256": "fddcc5a80f78659503fc6bb81e461e17c9d0a54f1ac04aee544532a2b8a74ac4",
+  "limitations": [
+    "Likelihoods are recomputed by the training backend on already sampled trajectories.",
+    "Increased likelihood is not increased accuracy or a newly generated answer.",
+    "Only two groups have nonzero advantages; positive trajectories used broad context dumps.",
+    "First and last root turns are positional diagnostics, not verified semantic action classes.",
+    "Token-TIS is an explicitly biased surrogate; parameter movement does not establish estimator validity."
+  ],
+  "new_model_calls": 0,
+  "schema": "mrcr-token-tis-fixed-trajectory-movement-v1",
+  "source_result_sha256": "a6341a66f555a417edb5928e1363651248f2245cf9b78d70d544dd4678e08aaf",
+  "training_only": true
+}

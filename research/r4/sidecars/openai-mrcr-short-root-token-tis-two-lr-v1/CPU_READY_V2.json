@@ -1,0 +1,76 @@
+{
+  "branches": [
+    {
+      "learning_rate": 1e-05,
+      "name": "lr1e-5",
+      "optimizer_steps": 1
+    },
+    {
+      "learning_rate": 0.0001,
+      "name": "lr1e-4",
+      "optimizer_steps": 1
+    }
+  ],
+  "cap_seconds": 900,
+  "closure_sha256": {
+    "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python": "f2654f53c16db79297ad7656fa7a56ef64fa4bc26af22c5874c358c7651f72d5",
+    "/project/alex_phd/research-cache/models/Qwen--Qwen3-4B-Instruct-2507--cdbee75f17c01a7cc42f958dc650907174af0554/local-research-manifest.json": "19619b44b0bd30bf5debe0960e6dfd6acc5be8287c581727456aa5d17699c18f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-root-hf-one-update-preflight-v1/math_core.py": "13e2d36e3ad9c534dfe9f27570c30f6704184d55abee30321f7fc128620bf814",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/mrcr-root-hf-one-update-preflight-v1/train.py": "42d32e58ec36a147234c7b03b207730b14e5ee38576ee26e85d43c01e6d64c20",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-shaped-rl-v1/RUN_READY.json": "0ff060b68b78753b3d44c7acc239955efb3b6c77f5c202cb16d5e59c06c8e1e5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-shaped-rl-v1/TRAIN_INPUTS.json": "0ff08ed62bc99fd054693b0f383f42a42c10227f4bffc14d753d97448293ea2b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-shaped-rl-v1/trainer.py": "3a073a0349f4b081a5ee7f6c0439bc8a746c66ce27e1d2e6f20fdc26246d3171",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/CPU_READY.json": "672578d038c3d8b863395f656793db53df04b53a625c560750a565192b4f8c86",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/DESIGN.md": "474509fcac17746e2fbe7160b03f10d48cff7b86c4ea463fd75b12367420f060",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/QUESTION.yaml": "74863eec8860938854baaf407f9316deb87b296650b0ae9f7146594139d2665e",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/READY_SUPERSESSION.md": "09f5bff7953eca4bb8b64859fb75ea7df2deeacedd45063babf8692044417d12",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/RUNBOOK.md": "f6a61311b8478f0790f9d3412c55d3abcc704a2a09df9f85ee24e8c174ffd6e5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/math_core.py": "bf2f13f07afb8bf9069d514cfb937f7cc96a84cf6a21c114f3f7b546030b37a6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/owner.py": "1b387dd1e0891ca1e21ca0ad1bea50ee35112a408cc17b0239b90d99f9cf1d2c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/prepare.py": "2aba6544864a9ac984799f026236e6c4d95d7ffa2668fa47d72196b745d2dcc0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/study.py": "01318f813cd87260104b7d5850efde360b7dbcfd6a5e42b3c2afbd951324bc97",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/test_token_tis.py": "0f02716541b62429e2d96f298750b6d45a874398ca198fac6a071ef7416b76e5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/trainer.py": "0b1d1c19e4aac8606ab97d06e175ea17039589a0e6e51c1c6ad6a3823bd907d2"
+  },
+  "command": [
+    "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/owner.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/outputs/attempt-001",
+    "--cap-seconds",
+    "900"
+  ],
+  "credentials_required": false,
+  "episodes": 24,
+  "external_cap_seconds": 1000,
+  "finite_and_support_checks_are_gate": true,
+  "full_trajectory_ess_is_gate": false,
+  "gpu_launched": false,
+  "groups": 6,
+  "heldout_queries": 0,
+  "identity": "a1654f6ec577e592da71bb12ef3d7e4d2e0ba357f028380a6081bdcd8f1e864e",
+  "literature_scope": {
+    "interpretation": "token clipping is a biased surrogate, not sequence-level correction",
+    "token_tis_default_cap_from_docs": 2.0,
+    "trust_region_masking_arxiv": "2512.23075",
+    "verl_rollout_correction_docs_commit": "10db40d0da4d59150bb389960b77585f81a89b8d"
+  },
+  "new_generation_calls": 0,
+  "objective": "detached min(exp(HF-native),2) token-TIS sequence-SUM/24",
+  "optimizer": "independent fresh AdamW per branch, weight_decay=0",
+  "output": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/outputs/attempt-001",
+  "pre_and_post_token_logprobs_persisted": true,
+  "root_action_tokens": 15602,
+  "root_turns": 74,
+  "same_initial_lora": true,
+  "same_saved_clipped_gradient": true,
+  "schema": "mrcr-short-root-token-tis-two-lr-ready-v2",
+  "selection": "both fixed branches retained; no best-checkpoint choice",
+  "self_normalized": false,
+  "source_failed_trial_preserved": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-shaped-rl-v1/outputs/attempt-001",
+  "source_failed_trial_result_sha256": "c3666188635bf57049699d2e981a1abf931fe891bc627a3ddda53cc4e9ced561",
+  "status": "CPU_READY_TOKEN_TIS_TWO_LR_V2",
+  "surrogate_unbiased": false,
+  "token_tis_cap": 2.0
+}

@@ -1,0 +1,42 @@
+{
+  "baseline_likelihood_inventory_sha256": "5bd0ea687a24599968f1660d40ea161ce1dfaa069870133dcd2548c405f2b7fc",
+  "branch_optimizer_steps": {
+    "lr1e-4": 1,
+    "lr1e-5": 1
+  },
+  "branch_relation_sha256": "7ceb069fd8f90c3e6d849672c264a135f196d88e86652cf13242b32ba53004bf",
+  "branches": {
+    "lr1e-4": {
+      "adapter_delta_l2": 0.2968207650789939,
+      "branch": "lr1e-4",
+      "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/outputs/attempt-001/branches/lr1e-4/checkpoint-0001",
+      "optimizer_steps": 1,
+      "postupdate_likelihood_inventory_sha256": "7513e6d41aeeeeb8b7fd865eb2624ed5952abc3312e1f865ed8aa7f8d7975562",
+      "state_sha256": "2736ca5f43f5d1add73405ccd9504483892d0f1a88a189db9a364a538ec9f2c5",
+      "status": "UPDATED",
+      "step_commit_sha256": "945b97721035720662de1811f5887b2e60c0b8d8c913f76e3b558daa95e3b161"
+    },
+    "lr1e-5": {
+      "adapter_delta_l2": 0.029682074340832573,
+      "branch": "lr1e-5",
+      "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/outputs/attempt-001/branches/lr1e-5/checkpoint-0001",
+      "optimizer_steps": 1,
+      "postupdate_likelihood_inventory_sha256": "a517b5510c81b37252902982dcce8b1f523f256f9a6d3147e7f63137b59b1da9",
+      "state_sha256": "c980c272ee00afd5c02a4338242c5f59c34a231befae6a660a18b99fb4db99ab",
+      "status": "UPDATED",
+      "step_commit_sha256": "089696c9c145297de151e1cd62533f6e49c57e0b31e228757c0a86642fe64b43"
+    }
+  },
+  "elapsed_seconds": 106.45353629626334,
+  "heldout_queries": 0,
+  "new_generation_calls": 0,
+  "peak_allocated_bytes": 11283999744,
+  "peak_reserved_bytes": 11985223680,
+  "ready_identity": "a1654f6ec577e592da71bb12ef3d7e4d2e0ba357f028380a6081bdcd8f1e864e",
+  "same_initial_trainable_identity_sha256": "6516b5359525c3d9a505b5eff2ee98cf3233564d76ab6e2ee471dc132249912f",
+  "same_saved_gradient_sha256": "528d3dbc8460f47143b0ae7ec37cbffec9e43db306a7755a46f89468edbe1365",
+  "schema": "mrcr-root-token-tis-two-independent-lr-result-v1",
+  "sequential_updates": false,
+  "status": "UPDATED_TWO_INDEPENDENT_BRANCHES",
+  "token_tis_diagnostics_sha256": "8508df5dbe68dbcdc9590253f80773f9ea69db482ba080f36485c272f4a145bc"
+}

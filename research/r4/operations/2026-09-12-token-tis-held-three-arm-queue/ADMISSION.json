@@ -1,0 +1,17 @@
+{
+  "authority": "MAIN",
+  "bias_boundary": "Both doses use the declared biased detached token-TIS surrogate. Native answer evaluation is distinct from training-backend likelihood movement.",
+  "checkpoint_policy": "Persist each physical call, episode and terminal; no retries or missing-as-wrong replacement.",
+  "checkpoint_selection": false,
+  "decision": "APPROVE_ALL_THREE_FIXED_TOKEN_TIS_HELD_ARMS",
+  "episodes_per_arm": 16,
+  "epoch": 1789237340.485827,
+  "external_seconds_each": 700,
+  "owner_seconds_each": 650,
+  "paired_contexts": 16,
+  "prior_exposure_correction": "Parent READY overstates procedural-SFT held evaluation: cp4 train gate failed, so that conditional held phase made no queries. The earlier shaped-RL held dependency also failed before queries. This remains an exploratory reused frozen panel, not a confirmatory claim.",
+  "question": "Does a verified ten-times-larger independent RL update improve answers on conversations not used for its gradient?",
+  "ready_sha256": "fb703d787841976e04a016e69e95841e1aa1ab4003840b0d4afb2cd0f8a0c65d",
+  "review": "MAIN read V4 and inherited owner/study/collector/checkpoint seams and actual test fixtures; own unmocked verify passed. Independent local_rl_design review reproduced4tests, initial/gradient and both actual Adam/state/commit links; no material blocker.",
+  "wrapper_sha256": "50381a6552f8cb3c82dfcb0fa1349a171626f7ccc3c31bc5f743b68ce3e241b6"
+}

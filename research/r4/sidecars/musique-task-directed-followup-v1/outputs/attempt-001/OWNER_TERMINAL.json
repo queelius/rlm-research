@@ -1,0 +1,17 @@
+{
+  "complete": false,
+  "elapsed_seconds": 42.090819120407104,
+  "errors": [
+    {
+      "stage": "owner",
+      "type": "AssertionError"
+    },
+    {
+      "stage": "dispatch_qualification",
+      "type": "FileNotFoundError"
+    }
+  ],
+  "released": true,
+  "result_sha256": "2ec3422c336dad0f81abb5d9edd63f2bae2eba0d6070325f96ee45459c4ed13a",
+  "runtime_qualified": false
+}

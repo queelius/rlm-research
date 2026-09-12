@@ -1,5 +1,98 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 12, 2026, 18:28 UTC
+
+Continue autonomously; MAIN sole GPU launcher. Root token-TIS fixed held16
+three-arm chain is ACTIVE PTY54964, externalflock wrapper
+operations/2026-09-12-token-tis-held-three-arm-queue/run.py. Base finished in
+214.68 owner seconds:16 recorded,15 available,0 raw-exact, original unknown kept.
+Low dose started18:26:00.736UTC; high dose follows regardless of independent-arm
+failure after clean release. Authoritative parent CPU_READY_V4 SHA
+fb703d787841976e04a016e69e95841e1aa1ab4003840b0d4afb2cd0f8a0c65d;
+identityed40682c3b7c5221cfbc3329af936ac550366798987e7d6ad09134960b42f66a.
+MAIN full source/API review and actual unmocked verify plus independent agent
+review passed. All prior V1/V2/V3 readiness attempts are unlaunched, preserved.
+
+Fresh repetition official512 is COMPLETE:425 correct, all512 available, versus
+422 starting,426 supervised,427/429 varied-data RL. The initial20-answer
+varied-versus-repeat gap shrank to2 on this panel. Do not retain the stronger
+17:43 breadth interpretation as current. Raw analyzer RESULT SHA
+6c859e494cdc4bff1260879fda9f2a7e0a70f29a81c077a3b9fc9bd8f67d0df1.
+Updated NOW/PROMISING and new RLM report controller-learning-and-transfer.md
+have18:23 cutoff; next meaningful Git export/push in preparation.
+
+MuSiQue targeted132 PTY77134 FAILED before0science calls in42.09 owner seconds,
+released. Prime server(config) overwrote the proposed worker extension; CPU
+fixture had not covered that override. Agentlocal prepares sealed additiveV2
+actual registry/entrypoint repair, attempt002, unchanged science/caps. No V2
+GPUadmission yet. Inter-stage gap18:20:13.028→18:22:20.599 (127.57seconds)
+recorded in operations/2026-09-12-musique-targeted-report-queue/ATTEMPT_001_NOTE.md.
+
+ProceduralSFT readout CPU analysis supports a dose test: verifiedteachers32/32
+and nativeinitialprefixes32/32, but generated actions do not learn the routine.
+Three unknowns were explicit context overflows, one broker timeout, not merely
+wall-cap missing rows. The original trainer is NOT resumable; agenttoken_tis_review
+prepares additive true adapter/Adam/RNG cp4→32 resumer, samecorpus/LR/objective.
+Agentpostmeeting prepares its fixedcp32train/conditionalheld evaluation. No GPU
+launch yet for either. MAIN admission only. Do not start original fresh4 trainer
+as a purported continuation. No bestcheckpoint selection.
+
+Currentquota55% at18:27:02UTC, next18:42. Currentverifiedremotes remain RLM
+6c9d4bed452bb24deb9fd81eb0c7ecccd4d82fe4 and notebook
+a6543f71e8f7e446b5320a0a39aef00960b6ae8c. GPUallocationunchanged.
+
+## Latest resume pointer — September 12, 2026, 18:16 UTC
+
+Continue the user's autonomous research turn. MAIN is sole GPU launcher. The
+fresh official AG512 evaluation of repeated128 checkpoint8 is ACTIVE, PTY21142,
+through operations/2026-09-12-repeat128-official-transfer-queue/run.py (internal
+lock; do not double-lock). Its CPU analyzer is ready at
+analyses/helper-agnews-repeat128-official-transfer-2026-09-12/CPU_READY.json.
+
+Procedural SFT completed all four updates in 160.75 seconds and sealed cp4;
+adapter SHA c08ba683b316ae425dab2ee81d97b247e14464efcfcf6b065b7e3141d87115db.
+The training readout reached its 420-second cap: 32 recorded, 28 available,
+zero raw-exact answers. This does not qualify for the conditional held readout.
+Operation99149 stopped and released; no held queries. Agent token_tis_review is
+diagnosing saved action behavior and missingness, not launching more GPU work.
+
+Root token-TIS training COMPLETED, PTY74896, in 106.45 seconds. Two independent
+one-step branches restore the same initial weights/RNG and use the same saved
+gradient: LR1e-5 delta L2 0.02968207, LR1e-4 0.29682077, cosine effectively1,
+norm ratio10.0000007. This establishes actual controlled weight movement, not
+answer improvement. All24 likelihood replays matched. Token ESS fraction .99773
+versus full-trajectory .29025; token surrogate is explicitly biased.
+sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/outputs/attempt-001/RESULT.json
+is authoritative. The three-arm held evaluator is NOT admitted: original READY
+977d6c... has nested schedule/API and checkpoint-integrity defects. Agent
+postmeeting_gpu_pilot repairs additively as V2 with actual runtime seam tests.
+Do not launch the original evaluator. Report both fixed doses, never select best.
+
+New completed screens: MuSiQue depth pilot used zero child calls across112
+physical root calls. Depth0 C/W/U2/10/0, depth1 0/12/0, depth2 1/10/1,
+question-only0/12/0. This did not exercise recursion. Structural-preview MRCR
+screen: exact1/16 without preview versus0/16 with preview; tracebacks18→0,
+but the model often selected a request rather than its following answer.
+See analyses/musique-depth-findings-2026-09-12/FINDINGS.md and
+analyses/mrcr-structural-preview-findings-2026-09-12/FINDINGS.md.
+
+Released-base repaired run produced all736 labels: AG423/512, DB204/224, but
+failed its optional-warning log gate. Original complete/runtime flags remain
+false and primary accuracy remains unavailable. CPU source/environment review
+shows the missing marker was an optional Dynamo warning, not a mandatory kernel
+message; no historical in-worker dispatch receipt exists. Additive exploratory
+reference with explicit qualification deviation is acceptable, not a rewritten
+pass. See helper-base4b-ag512-dbpedia224-independent-2026-09-12 addendum.
+Agent local_rl_design prepares MuSiQue132 targeted-versus-broad follow-up screen
+with shared first reports, stop/full-source controls and prospective dispatch
+receipt. CPU preparation only, not GPU admitted yet.
+
+Remote verified source checkpoints: RLM6c9d4bed452bb24deb9fd81eb0c7ecccd4d82fe4,
+notebooka6543f71e8f7e446b5320a0a39aef00960b6ae8c (17:42 evidence cutoff).
+New results above await the next meaningful publication checkpoint. Account
+57% remaining at18:12UTC; next receipt18:27. One A100 allocation5801/an22 ends
+September15 17:30:16UTC. Preserve10% reserve, winddown20%, pause15%.
+
 ## Latest resume pointer — September 12, 2026, 17:42 UTC
 
 Continue autonomously, MAIN sole GPU launcher. MuSiQue48 depth pilot is ACTIVE

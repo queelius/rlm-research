@@ -1,5 +1,54 @@
 # Live GPU research queue
 
+### Live update September 12, 18:28 UTC — current adaptive queue
+
+ACTIVE: fixed held16 token-TIS base/low/high chain54964. Base has0 exact of15
+available,16 recorded; low started18:26UTC, high follows after clean release.
+All fixed branches retained, no outcome-selected dose.
+
+CPU follow-ons: (1) MuSiQue132 unchanged report-targeting screen, narrow additive
+V2 startup repair after the first attempt made zero model queries; (2) actual
+proceduralSFT cp4→32 continuation with Adam/RNG restoration; (3) fixedcp32train
+readout and unchanged conditionalheld gate. MAIN must admit newREADYs. No filler.
+
+COMPLETED fresh repeat128 control:425/512 versus422base,426SFT,427/429variedRL.
+The earlier20-answer breadth contrast is now2 on this panel. Downgrade the broad
+breadth explanation; no more identical helper runs without a sharper hypothesis.
+SFT4 failure was procedure non-acquisition on training material, not transfer.
+TokenTIS likelihood movement is real but not evidence of improved answers.
+
+Source/report checkpoint18:23 being published. Quota55%18:27; reserve thresholds
+unchanged. Older queue entries below are history, not launch authorization.
+
+### Live update September 12, 18:16 UTC — distinguish learning from useful behavior
+
+ACTIVE: repeated128 checkpoint8 on the frozen fresh official512 (PTY21142).
+Next CPU-ready priority: repaired three-arm root token-TIS evaluation. Training
+completed two independent doses; exact10x parameter movement does not yet show
+improved answers. Original held READY is blocked by three reproduced runtime/
+checkpoint defects; agent postmeeting repairs V2. No duplicate training needed.
+
+Procedural SFT4 completed, but the train readout yielded zero exact answers among
+28 available of32 before its cap. Conditional held evaluation did not run. Agent
+token_tis_review diagnoses whether dose, procedure, copying, or runtime is the
+binding issue before another training decision.
+
+MuSiQue depth permissions produced zero delegation. Do not repeat a depth-only
+comparison without a manipulation that actually produces helper calls. Agent
+local prepares a132-call,12-question screen with two shared first helper reports,
+targeted follow-up versus broad follow-up, stop and full-source controls. It asks
+whether choosing what information to request is useful; partition remains fixed.
+
+Structural preview eliminated18 tracebacks but changed exact answers1/16→0/16.
+This separates knowing the input structure from finding the requested response.
+Released-base reference completed736 valid labels, with a declared logging-gate
+deviation diagnosed on CPU; no GPU rerun merely to trigger an optional warning.
+
+After these: use actual policy movement/readout and SFT action traces to choose
+reward, update size, or cold-start changes. Favor new informative comparisons over
+repeating low-diversity root rollouts. Keep both dose results and all controls.
+Account57%18:12UTC. Latest published evidence cutoff17:42; new results pending.
+
 ### Live update September 12, 17:42 UTC — follow the breadth and controller signals
 
 ACTIVE: MuSiQue12×4depthscreen6630. Accepted waiting: proceduralSFT4 plus

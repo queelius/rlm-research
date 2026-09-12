@@ -1,0 +1,1840 @@
+{
+  "CPU_fixture": {
+    "GPU_executed": false,
+    "actual_source_bodies_executed": [
+      "UnquantizedLinearMethod.apply",
+      "init_batch_invariance"
+    ],
+    "flag_on_and_off_branches_passed": true,
+    "scope": "dispatch and initialization regression only; not retrospective device kernel telemetry"
+  },
+  "diagnosis": "The old marker was a Dynamo lru_cache tracing warning. Eager execution disables that tracing path. A warmed Triton kernel also need not emit an inference JIT event; cache hit is plausible but not needed to explain the missing Dynamo warning.",
+  "empirical_repeatability_limit": "No no-LoRA eager batch-invariance equivalence experiment was run. The compiled LoRA probe does not establish bitwise invariance for this configuration.",
+  "future_gate": "Before a new run, replace optional-warning qualification with explicit in-worker state and first real dispatch receipt, retaining preexec/binding/source/clean-release checks. Do not require another warning or claim a CPU sentinel is device evidence.",
+  "mandatory_kernel_log_exists_in_reviewed_matmul_function": false,
+  "missing_log_marker_is_not_evidence_flag_off": true,
+  "original_complete": false,
+  "original_qualification_changed": false,
+  "original_runtime_qualified": false,
+  "owner_elapsed_seconds": 506.0000205039978,
+  "panels": {
+    "ag_news": {
+      "available": 512,
+      "base_to_fixed_models": {
+        "base_vs_c32": {
+          "base_correct_c32_wrong": 18,
+          "changed_labels": 38,
+          "changes": [
+            {
+              "after": "Business",
+              "before": "Sports",
+              "gold": "Sports",
+              "id": "agte0257c70f79de70f4"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte0b31ae9afe0edb44"
+            },
+            {
+              "after": "World",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte11e117f3ed48427f"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte13e3e0f8f050aedf"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte1b66b7eb6e3cbbd3"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte24881364acd915b7"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agte2887cad3722198ba"
+            },
+            {
+              "after": "Sports",
+              "before": "Business",
+              "gold": "Business",
+              "id": "agte33f4bed08bca0fee"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agte3c091e0128f8286e"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte46bbc6e15f271763"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte4d07032462eb8bf7"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte538c42c90bec93c0"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte53f42789c109c715"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte59478b41eb4b07a3"
+            },
+            {
+              "after": "World",
+              "before": "Business",
+              "gold": "World",
+              "id": "agte59778b49032d576d"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte5b67c059a7977326"
+            },
+            {
+              "after": "World",
+              "before": "Business",
+              "gold": "World",
+              "id": "agte65f57c6870bd9209"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte76f3020678bf1484"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte85af6d27725941c9"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte8f45f87c1cb321f1"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte9a82dba2d6dbe01b"
+            },
+            {
+              "after": "Business",
+              "before": "Sports",
+              "gold": "Business",
+              "id": "agtea71b038f712dd5ca"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agtea9f5f19c25d84600"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agtec1ac1a33cd408dc0"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agtec540bc35e4b91d9f"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agtec86e7c94842cc05e"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agtec939453f28c00a9a"
+            },
+            {
+              "after": "World",
+              "before": "Sports",
+              "gold": "Business",
+              "id": "agtecf7bcd1eac520039"
+            },
+            {
+              "after": "World",
+              "before": "Business",
+              "gold": "World",
+              "id": "agted01d36ee1669cf02"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agted032afa8463de002"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agted0cd90277fd43361"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agted35429c085cfb89a"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "Business",
+              "gold": "Business",
+              "id": "agted9d2495ffb4570a4"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agtee9db3e6310515edd"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agteef46e1260f1900ce"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agtef25b14a56dab57c2"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "World",
+              "id": "agtef3bcff1640ffb355"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agtef8d5fc6a23d2b012"
+            }
+          ],
+          "complete_scientific_comparison": false,
+          "correct_after_both_base_and_c32_wrong": 0,
+          "losses": 18,
+          "net": -1,
+          "paired_available": 512,
+          "paired_unavailable": 0,
+          "prior_audit_sha256": "b39f2dc263615812c2831a7f6d6328dde91253fbd4ab5bd3ff257b53f2d0643a",
+          "recovered_base_correct_c32_wrong": 0,
+          "trained_arm_correct": 422,
+          "wins": 17,
+          "wrong_to_different_wrong": 3
+        },
+        "base_vs_rl_seed2_step8": {
+          "base_correct_c32_wrong": 18,
+          "changed_labels": 33,
+          "changes": [
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte0b31ae9afe0edb44"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte13e3e0f8f050aedf"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte24881364acd915b7"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agte2b5207c0cb227609"
+            },
+            {
+              "after": "Sports",
+              "before": "Business",
+              "gold": "Business",
+              "id": "agte33f4bed08bca0fee"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agte3894a024f90d2648"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "Business",
+              "gold": "Sci/Tech",
+              "id": "agte41b65b9dfbf9a5a6"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte443842336a77204c"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte46bbc6e15f271763"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte538c42c90bec93c0"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte53f42789c109c715"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte59478b41eb4b07a3"
+            },
+            {
+              "after": "World",
+              "before": "Business",
+              "gold": "World",
+              "id": "agte59778b49032d576d"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte5b67c059a7977326"
+            },
+            {
+              "after": "World",
+              "before": "Business",
+              "gold": "World",
+              "id": "agte65f57c6870bd9209"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte85af6d27725941c9"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte8f45f87c1cb321f1"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte9a82dba2d6dbe01b"
+            },
+            {
+              "after": "Business",
+              "before": "Sports",
+              "gold": "Business",
+              "id": "agtea71b038f712dd5ca"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agtea9f5f19c25d84600"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "Business",
+              "gold": "Sci/Tech",
+              "id": "agteb70a3a09e556eae8"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agtec1ac1a33cd408dc0"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agtec540bc35e4b91d9f"
+            },
+            {
+              "after": "World",
+              "before": "Sports",
+              "gold": "Business",
+              "id": "agtecf7bcd1eac520039"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agted032afa8463de002"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agted0cd90277fd43361"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agted35429c085cfb89a"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "Business",
+              "gold": "Business",
+              "id": "agted9d2495ffb4570a4"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agtee9db3e6310515edd"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agteef46e1260f1900ce"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agtef25b14a56dab57c2"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "World",
+              "id": "agtef3bcff1640ffb355"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agtef8d5fc6a23d2b012"
+            }
+          ],
+          "complete_scientific_comparison": false,
+          "correct_after_both_base_and_c32_wrong": 4,
+          "losses": 12,
+          "net": 6,
+          "paired_available": 512,
+          "paired_unavailable": 0,
+          "prior_audit_sha256": "b39f2dc263615812c2831a7f6d6328dde91253fbd4ab5bd3ff257b53f2d0643a",
+          "recovered_base_correct_c32_wrong": 7,
+          "trained_arm_correct": 429,
+          "wins": 18,
+          "wrong_to_different_wrong": 3
+        },
+        "base_vs_rl_step8": {
+          "base_correct_c32_wrong": 18,
+          "changed_labels": 37,
+          "changes": [
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte0b31ae9afe0edb44"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte13e3e0f8f050aedf"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agte176a3e6de8ce8b7d"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte24881364acd915b7"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agte2b5207c0cb227609"
+            },
+            {
+              "after": "Sports",
+              "before": "Business",
+              "gold": "Business",
+              "id": "agte33f4bed08bca0fee"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agte3894a024f90d2648"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "Business",
+              "gold": "Sci/Tech",
+              "id": "agte41b65b9dfbf9a5a6"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte443842336a77204c"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte46bbc6e15f271763"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte538c42c90bec93c0"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte53f42789c109c715"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte59478b41eb4b07a3"
+            },
+            {
+              "after": "World",
+              "before": "Business",
+              "gold": "World",
+              "id": "agte59778b49032d576d"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte5b67c059a7977326"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte5c63f8f49f3d431b"
+            },
+            {
+              "after": "World",
+              "before": "Business",
+              "gold": "World",
+              "id": "agte65f57c6870bd9209"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte76f3020678bf1484"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte85af6d27725941c9"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte8f45f87c1cb321f1"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte9a82dba2d6dbe01b"
+            },
+            {
+              "after": "Business",
+              "before": "Sports",
+              "gold": "Business",
+              "id": "agtea71b038f712dd5ca"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agtea9f5f19c25d84600"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "Business",
+              "gold": "Sci/Tech",
+              "id": "agteb70a3a09e556eae8"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "World",
+              "gold": "World",
+              "id": "agtebccfb0b70f4e6eb9"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agtec1ac1a33cd408dc0"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agtec540bc35e4b91d9f"
+            },
+            {
+              "after": "World",
+              "before": "Sports",
+              "gold": "Business",
+              "id": "agtecf7bcd1eac520039"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agted032afa8463de002"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agted0cd90277fd43361"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agted35429c085cfb89a"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "Business",
+              "gold": "Business",
+              "id": "agted9d2495ffb4570a4"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agtee9db3e6310515edd"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agteef46e1260f1900ce"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agtef25b14a56dab57c2"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "World",
+              "id": "agtef3bcff1640ffb355"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agtef8d5fc6a23d2b012"
+            }
+          ],
+          "complete_scientific_comparison": false,
+          "correct_after_both_base_and_c32_wrong": 5,
+          "losses": 15,
+          "net": 4,
+          "paired_available": 512,
+          "paired_unavailable": 0,
+          "prior_audit_sha256": "b39f2dc263615812c2831a7f6d6328dde91253fbd4ab5bd3ff257b53f2d0643a",
+          "recovered_base_correct_c32_wrong": 6,
+          "trained_arm_correct": 427,
+          "wins": 19,
+          "wrong_to_different_wrong": 3
+        },
+        "base_vs_sft_step8": {
+          "base_correct_c32_wrong": 18,
+          "changed_labels": 35,
+          "changes": [
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte0b31ae9afe0edb44"
+            },
+            {
+              "after": "World",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte11e117f3ed48427f"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte13e3e0f8f050aedf"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte24881364acd915b7"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agte2887cad3722198ba"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agte2b5207c0cb227609"
+            },
+            {
+              "after": "Sports",
+              "before": "Business",
+              "gold": "Business",
+              "id": "agte33f4bed08bca0fee"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agte3c091e0128f8286e"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte46bbc6e15f271763"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte538c42c90bec93c0"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte53f42789c109c715"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agte59478b41eb4b07a3"
+            },
+            {
+              "after": "World",
+              "before": "Business",
+              "gold": "World",
+              "id": "agte59778b49032d576d"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agte5b67c059a7977326"
+            },
+            {
+              "after": "World",
+              "before": "Business",
+              "gold": "World",
+              "id": "agte65f57c6870bd9209"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte76f3020678bf1484"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte85af6d27725941c9"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agte8f45f87c1cb321f1"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "World",
+              "id": "agte9a82dba2d6dbe01b"
+            },
+            {
+              "after": "Business",
+              "before": "Sports",
+              "gold": "Business",
+              "id": "agtea71b038f712dd5ca"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agtea9f5f19c25d84600"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Sci/Tech",
+              "id": "agtec1ac1a33cd408dc0"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agtec540bc35e4b91d9f"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agtec86e7c94842cc05e"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agtec939453f28c00a9a"
+            },
+            {
+              "after": "World",
+              "before": "Sports",
+              "gold": "Business",
+              "id": "agtecf7bcd1eac520039"
+            },
+            {
+              "after": "World",
+              "before": "Business",
+              "gold": "World",
+              "id": "agted01d36ee1669cf02"
+            },
+            {
+              "after": "Business",
+              "before": "World",
+              "gold": "Business",
+              "id": "agted032afa8463de002"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agted0cd90277fd43361"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Business",
+              "id": "agted35429c085cfb89a"
+            },
+            {
+              "after": "Sci/Tech",
+              "before": "Business",
+              "gold": "Business",
+              "id": "agted9d2495ffb4570a4"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agtee9db3e6310515edd"
+            },
+            {
+              "after": "Business",
+              "before": "Sci/Tech",
+              "gold": "Sci/Tech",
+              "id": "agteef46e1260f1900ce"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "World",
+              "id": "agtef3bcff1640ffb355"
+            },
+            {
+              "after": "Sports",
+              "before": "World",
+              "gold": "Sports",
+              "id": "agtef8d5fc6a23d2b012"
+            }
+          ],
+          "complete_scientific_comparison": false,
+          "correct_after_both_base_and_c32_wrong": 1,
+          "losses": 15,
+          "net": 3,
+          "paired_available": 512,
+          "paired_unavailable": 0,
+          "prior_audit_sha256": "b39f2dc263615812c2831a7f6d6328dde91253fbd4ab5bd3ff257b53f2d0643a",
+          "recovered_base_correct_c32_wrong": 3,
+          "trained_arm_correct": 426,
+          "wins": 18,
+          "wrong_to_different_wrong": 2
+        }
+      },
+      "correct": 423,
+      "cost": {
+        "cached_prompt_tokens_observed_subtotal": 0,
+        "completion_tokens_observed_subtotal": 10949,
+        "missing_usage_is_not_zero": true,
+        "prompt_tokens_observed_subtotal": 127682,
+        "unknown_usage_calls": {
+          "cached_prompt_tokens": 0,
+          "completion_tokens": 0,
+          "prompt_tokens": 0
+        },
+        "wall_seconds_sum_observed": 321.6778793334961
+      },
+      "original_primary_accuracy": null,
+      "per_class": {
+        "Business": {
+          "accuracy_available": 0.8203125,
+          "available": 128,
+          "confusion": {
+            "Business": 105,
+            "Sci/Tech": 11,
+            "Sports": 2,
+            "World": 10
+          },
+          "correct": 105,
+          "planned": 128,
+          "unavailable": 0
+        },
+        "Sci/Tech": {
+          "accuracy_available": 0.6484375,
+          "available": 128,
+          "confusion": {
+            "Business": 37,
+            "Sci/Tech": 83,
+            "Sports": 0,
+            "World": 8
+          },
+          "correct": 83,
+          "planned": 128,
+          "unavailable": 0
+        },
+        "Sports": {
+          "accuracy_available": 0.9375,
+          "available": 128,
+          "confusion": {
+            "Business": 2,
+            "Sci/Tech": 0,
+            "Sports": 120,
+            "World": 6
+          },
+          "correct": 120,
+          "planned": 128,
+          "unavailable": 0
+        },
+        "World": {
+          "accuracy_available": 0.8984375,
+          "available": 128,
+          "confusion": {
+            "Business": 8,
+            "Sci/Tech": 3,
+            "Sports": 2,
+            "World": 115
+          },
+          "correct": 115,
+          "planned": 128,
+          "unavailable": 0
+        }
+      },
+      "planned": 512
+    },
+    "dbpedia14": {
+      "available": 224,
+      "base_to_fixed_models": {
+        "base_vs_c32": {
+          "base_correct_c32_wrong": 4,
+          "changed_labels": 13,
+          "changes": [
+            {
+              "after": "Athlete",
+              "before": "Artist",
+              "gold": "Artist",
+              "id": "d06e4a3869992d68b"
+            },
+            {
+              "after": "Album",
+              "before": "Plant",
+              "gold": "Album",
+              "id": "d147f5c55b453c1ca"
+            },
+            {
+              "after": "Film",
+              "before": "Village",
+              "gold": "Film",
+              "id": "d50342c72c056c51b"
+            },
+            {
+              "after": "Artist",
+              "before": "WrittenWork",
+              "gold": "Artist",
+              "id": "d51b2f9ab1e758c17"
+            },
+            {
+              "after": "Film",
+              "before": "WrittenWork",
+              "gold": "WrittenWork",
+              "id": "d7537f2308ebbfe45"
+            },
+            {
+              "after": "Company",
+              "before": "MeanOfTransportation",
+              "gold": "Company",
+              "id": "d7fbd9a97455d1884"
+            },
+            {
+              "after": "Film",
+              "before": "WrittenWork",
+              "gold": "WrittenWork",
+              "id": "d9ff5984cadd2ddda"
+            },
+            {
+              "after": "Building",
+              "before": "Company",
+              "gold": "Building",
+              "id": "dbce08c75df52d0a8"
+            },
+            {
+              "after": "WrittenWork",
+              "before": "Animal",
+              "gold": "WrittenWork",
+              "id": "de6c13e86b2bb0a2d"
+            },
+            {
+              "after": "MeanOfTransportation",
+              "before": "Building",
+              "gold": "MeanOfTransportation",
+              "id": "de78708db5212d21a"
+            },
+            {
+              "after": "Artist",
+              "before": "NaturalPlace",
+              "gold": "Artist",
+              "id": "deb349cb891841f0c"
+            },
+            {
+              "after": "NaturalPlace",
+              "before": "Plant",
+              "gold": "NaturalPlace",
+              "id": "df9fbe6c0a6cb3e0e"
+            },
+            {
+              "after": "Athlete",
+              "before": "Artist",
+              "gold": "Artist",
+              "id": "dfd0d08e3bec00dfd"
+            }
+          ],
+          "complete_scientific_comparison": false,
+          "correct_after_both_base_and_c32_wrong": 0,
+          "losses": 4,
+          "net": 5,
+          "paired_available": 224,
+          "paired_unavailable": 0,
+          "prior_audit_sha256": "72526979cf10fbc3e6a94cd93718812a78f9960710147ad5dc040c3e4df2e4ae",
+          "recovered_base_correct_c32_wrong": 0,
+          "trained_arm_correct": 209,
+          "wins": 9,
+          "wrong_to_different_wrong": 0
+        },
+        "base_vs_rl_seed2_step8": {
+          "base_correct_c32_wrong": 4,
+          "changed_labels": 14,
+          "changes": [
+            {
+              "after": "Athlete",
+              "before": "Artist",
+              "gold": "Artist",
+              "id": "d06e4a3869992d68b"
+            },
+            {
+              "after": "Album",
+              "before": "Plant",
+              "gold": "Album",
+              "id": "d147f5c55b453c1ca"
+            },
+            {
+              "after": "Film",
+              "before": "Village",
+              "gold": "Film",
+              "id": "d50342c72c056c51b"
+            },
+            {
+              "after": "Artist",
+              "before": "WrittenWork",
+              "gold": "Artist",
+              "id": "d51b2f9ab1e758c17"
+            },
+            {
+              "after": "Film",
+              "before": "WrittenWork",
+              "gold": "WrittenWork",
+              "id": "d7537f2308ebbfe45"
+            },
+            {
+              "after": "Company",
+              "before": "MeanOfTransportation",
+              "gold": "Company",
+              "id": "d7fbd9a97455d1884"
+            },
+            {
+              "after": "Film",
+              "before": "WrittenWork",
+              "gold": "WrittenWork",
+              "id": "d9ff5984cadd2ddda"
+            },
+            {
+              "after": "Building",
+              "before": "Company",
+              "gold": "Building",
+              "id": "dbce08c75df52d0a8"
+            },
+            {
+              "after": "OfficeHolder",
+              "before": "MeanOfTransportation",
+              "gold": "OfficeHolder",
+              "id": "dd3bee4f7cc24daa4"
+            },
+            {
+              "after": "WrittenWork",
+              "before": "Animal",
+              "gold": "WrittenWork",
+              "id": "de6c13e86b2bb0a2d"
+            },
+            {
+              "after": "MeanOfTransportation",
+              "before": "Building",
+              "gold": "MeanOfTransportation",
+              "id": "de78708db5212d21a"
+            },
+            {
+              "after": "Artist",
+              "before": "NaturalPlace",
+              "gold": "Artist",
+              "id": "deb349cb891841f0c"
+            },
+            {
+              "after": "NaturalPlace",
+              "before": "Plant",
+              "gold": "NaturalPlace",
+              "id": "df9fbe6c0a6cb3e0e"
+            },
+            {
+              "after": "Athlete",
+              "before": "Artist",
+              "gold": "Artist",
+              "id": "dfd0d08e3bec00dfd"
+            }
+          ],
+          "complete_scientific_comparison": false,
+          "correct_after_both_base_and_c32_wrong": 1,
+          "losses": 4,
+          "net": 6,
+          "paired_available": 224,
+          "paired_unavailable": 0,
+          "prior_audit_sha256": "72526979cf10fbc3e6a94cd93718812a78f9960710147ad5dc040c3e4df2e4ae",
+          "recovered_base_correct_c32_wrong": 0,
+          "trained_arm_correct": 210,
+          "wins": 10,
+          "wrong_to_different_wrong": 0
+        },
+        "base_vs_rl_step8": {
+          "base_correct_c32_wrong": 4,
+          "changed_labels": 14,
+          "changes": [
+            {
+              "after": "Athlete",
+              "before": "Artist",
+              "gold": "Artist",
+              "id": "d06e4a3869992d68b"
+            },
+            {
+              "after": "Album",
+              "before": "Plant",
+              "gold": "Album",
+              "id": "d147f5c55b453c1ca"
+            },
+            {
+              "after": "Film",
+              "before": "Village",
+              "gold": "Film",
+              "id": "d50342c72c056c51b"
+            },
+            {
+              "after": "Artist",
+              "before": "WrittenWork",
+              "gold": "Artist",
+              "id": "d51b2f9ab1e758c17"
+            },
+            {
+              "after": "Film",
+              "before": "WrittenWork",
+              "gold": "WrittenWork",
+              "id": "d7537f2308ebbfe45"
+            },
+            {
+              "after": "Company",
+              "before": "MeanOfTransportation",
+              "gold": "Company",
+              "id": "d7fbd9a97455d1884"
+            },
+            {
+              "after": "Film",
+              "before": "WrittenWork",
+              "gold": "WrittenWork",
+              "id": "d9ff5984cadd2ddda"
+            },
+            {
+              "after": "Building",
+              "before": "Company",
+              "gold": "Building",
+              "id": "dbce08c75df52d0a8"
+            },
+            {
+              "after": "Animal",
+              "before": "MeanOfTransportation",
+              "gold": "OfficeHolder",
+              "id": "dd3bee4f7cc24daa4"
+            },
+            {
+              "after": "WrittenWork",
+              "before": "Animal",
+              "gold": "WrittenWork",
+              "id": "de6c13e86b2bb0a2d"
+            },
+            {
+              "after": "MeanOfTransportation",
+              "before": "Building",
+              "gold": "MeanOfTransportation",
+              "id": "de78708db5212d21a"
+            },
+            {
+              "after": "Artist",
+              "before": "NaturalPlace",
+              "gold": "Artist",
+              "id": "deb349cb891841f0c"
+            },
+            {
+              "after": "NaturalPlace",
+              "before": "Plant",
+              "gold": "NaturalPlace",
+              "id": "df9fbe6c0a6cb3e0e"
+            },
+            {
+              "after": "Athlete",
+              "before": "Artist",
+              "gold": "Artist",
+              "id": "dfd0d08e3bec00dfd"
+            }
+          ],
+          "complete_scientific_comparison": false,
+          "correct_after_both_base_and_c32_wrong": 0,
+          "losses": 4,
+          "net": 5,
+          "paired_available": 224,
+          "paired_unavailable": 0,
+          "prior_audit_sha256": "72526979cf10fbc3e6a94cd93718812a78f9960710147ad5dc040c3e4df2e4ae",
+          "recovered_base_correct_c32_wrong": 0,
+          "trained_arm_correct": 209,
+          "wins": 9,
+          "wrong_to_different_wrong": 1
+        },
+        "base_vs_sft_step8": {
+          "base_correct_c32_wrong": 4,
+          "changed_labels": 14,
+          "changes": [
+            {
+              "after": "Athlete",
+              "before": "Artist",
+              "gold": "Artist",
+              "id": "d06e4a3869992d68b"
+            },
+            {
+              "after": "Album",
+              "before": "Plant",
+              "gold": "Album",
+              "id": "d147f5c55b453c1ca"
+            },
+            {
+              "after": "Film",
+              "before": "Village",
+              "gold": "Film",
+              "id": "d50342c72c056c51b"
+            },
+            {
+              "after": "Artist",
+              "before": "WrittenWork",
+              "gold": "Artist",
+              "id": "d51b2f9ab1e758c17"
+            },
+            {
+              "after": "Film",
+              "before": "WrittenWork",
+              "gold": "WrittenWork",
+              "id": "d7537f2308ebbfe45"
+            },
+            {
+              "after": "Company",
+              "before": "MeanOfTransportation",
+              "gold": "Company",
+              "id": "d7fbd9a97455d1884"
+            },
+            {
+              "after": "Film",
+              "before": "WrittenWork",
+              "gold": "WrittenWork",
+              "id": "d9ff5984cadd2ddda"
+            },
+            {
+              "after": "Building",
+              "before": "Company",
+              "gold": "Building",
+              "id": "dbce08c75df52d0a8"
+            },
+            {
+              "after": "Animal",
+              "before": "Village",
+              "gold": "Village",
+              "id": "ddf86f22b7bea9656"
+            },
+            {
+              "after": "WrittenWork",
+              "before": "Animal",
+              "gold": "WrittenWork",
+              "id": "de6c13e86b2bb0a2d"
+            },
+            {
+              "after": "MeanOfTransportation",
+              "before": "Building",
+              "gold": "MeanOfTransportation",
+              "id": "de78708db5212d21a"
+            },
+            {
+              "after": "Artist",
+              "before": "NaturalPlace",
+              "gold": "Artist",
+              "id": "deb349cb891841f0c"
+            },
+            {
+              "after": "NaturalPlace",
+              "before": "Plant",
+              "gold": "NaturalPlace",
+              "id": "df9fbe6c0a6cb3e0e"
+            },
+            {
+              "after": "Athlete",
+              "before": "Artist",
+              "gold": "Artist",
+              "id": "dfd0d08e3bec00dfd"
+            }
+          ],
+          "complete_scientific_comparison": false,
+          "correct_after_both_base_and_c32_wrong": 0,
+          "losses": 5,
+          "net": 4,
+          "paired_available": 224,
+          "paired_unavailable": 0,
+          "prior_audit_sha256": "72526979cf10fbc3e6a94cd93718812a78f9960710147ad5dc040c3e4df2e4ae",
+          "recovered_base_correct_c32_wrong": 0,
+          "trained_arm_correct": 208,
+          "wins": 9,
+          "wrong_to_different_wrong": 0
+        }
+      },
+      "correct": 204,
+      "cost": {
+        "cached_prompt_tokens_observed_subtotal": 0,
+        "completion_tokens_observed_subtotal": 4687,
+        "missing_usage_is_not_zero": true,
+        "prompt_tokens_observed_subtotal": 60945,
+        "unknown_usage_calls": {
+          "cached_prompt_tokens": 0,
+          "completion_tokens": 0,
+          "prompt_tokens": 0
+        },
+        "wall_seconds_sum_observed": 137.6426043510437
+      },
+      "original_primary_accuracy": null,
+      "per_class": {
+        "Album": {
+          "accuracy_available": 0.8125,
+          "available": 16,
+          "confusion": {
+            "Album": 13,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 0,
+            "Film": 1,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 1,
+            "Village": 1,
+            "WrittenWork": 0
+          },
+          "correct": 13,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "Animal": {
+          "accuracy_available": 1.0,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 16,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 0,
+            "Film": 0,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 0,
+            "Village": 0,
+            "WrittenWork": 0
+          },
+          "correct": 16,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "Artist": {
+          "accuracy_available": 0.875,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 14,
+            "Athlete": 0,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 0,
+            "Film": 0,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 1,
+            "OfficeHolder": 0,
+            "Plant": 0,
+            "Village": 0,
+            "WrittenWork": 1
+          },
+          "correct": 14,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "Athlete": {
+          "accuracy_available": 1.0,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 16,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 0,
+            "Film": 0,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 0,
+            "Village": 0,
+            "WrittenWork": 0
+          },
+          "correct": 16,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "Building": {
+          "accuracy_available": 0.8125,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 13,
+            "Company": 2,
+            "EducationalInstitution": 1,
+            "Film": 0,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 0,
+            "Village": 0,
+            "WrittenWork": 0
+          },
+          "correct": 13,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "Company": {
+          "accuracy_available": 0.8125,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 1,
+            "Company": 13,
+            "EducationalInstitution": 0,
+            "Film": 0,
+            "MeanOfTransportation": 2,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 0,
+            "Village": 0,
+            "WrittenWork": 0
+          },
+          "correct": 13,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "EducationalInstitution": {
+          "accuracy_available": 1.0,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 16,
+            "Film": 0,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 0,
+            "Village": 0,
+            "WrittenWork": 0
+          },
+          "correct": 16,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "Film": {
+          "accuracy_available": 0.9375,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 0,
+            "Film": 15,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 0,
+            "Village": 1,
+            "WrittenWork": 0
+          },
+          "correct": 15,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "MeanOfTransportation": {
+          "accuracy_available": 0.9375,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 1,
+            "Company": 0,
+            "EducationalInstitution": 0,
+            "Film": 0,
+            "MeanOfTransportation": 15,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 0,
+            "Village": 0,
+            "WrittenWork": 0
+          },
+          "correct": 15,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "NaturalPlace": {
+          "accuracy_available": 0.875,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 0,
+            "Film": 0,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 14,
+            "OfficeHolder": 0,
+            "Plant": 1,
+            "Village": 1,
+            "WrittenWork": 0
+          },
+          "correct": 14,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "OfficeHolder": {
+          "accuracy_available": 0.9375,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 0,
+            "Film": 0,
+            "MeanOfTransportation": 1,
+            "NaturalPlace": 0,
+            "OfficeHolder": 15,
+            "Plant": 0,
+            "Village": 0,
+            "WrittenWork": 0
+          },
+          "correct": 15,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "Plant": {
+          "accuracy_available": 1.0,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 0,
+            "Film": 0,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 16,
+            "Village": 0,
+            "WrittenWork": 0
+          },
+          "correct": 16,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "Village": {
+          "accuracy_available": 1.0,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 0,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 0,
+            "Film": 0,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 0,
+            "Village": 16,
+            "WrittenWork": 0
+          },
+          "correct": 16,
+          "planned": 16,
+          "unavailable": 0
+        },
+        "WrittenWork": {
+          "accuracy_available": 0.75,
+          "available": 16,
+          "confusion": {
+            "Album": 0,
+            "Animal": 1,
+            "Artist": 0,
+            "Athlete": 0,
+            "Building": 0,
+            "Company": 0,
+            "EducationalInstitution": 1,
+            "Film": 1,
+            "MeanOfTransportation": 0,
+            "NaturalPlace": 0,
+            "OfficeHolder": 0,
+            "Plant": 0,
+            "Village": 1,
+            "WrittenWork": 12
+          },
+          "correct": 12,
+          "planned": 16,
+          "unavailable": 0
+        }
+      },
+      "planned": 224
+    }
+  },
+  "posthoc_evidence_class": "source-and-preexec-environment-supported runtime; device-dispatch not directly recorded",
+  "preexec_attestation": {
+    "VLLM_BATCH_INVARIANT": "1",
+    "credentials_persisted": false,
+    "preexec_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/outputs/attempt-002/service/service/ENGINE_ENV_ATTESTATION.json",
+    "preexec_receipt_sha256": "4bf32eed7fc4bdfc781b665930bbc052ce0c698d1ad2ff7663323f80beb30e90",
+    "server_pid": 511453
+  },
+  "provenance": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/helper-base4b-ag512-dbpedia224-independent-2026-09-12/RESULT.json": "9dc1c6d7483dfc25810b42dfa2fc2ee072bcf532c637162cb244300ea87fa123",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/helper-base4b-ag512-dbpedia224-independent-2026-09-12/WATCH_TERMINAL.json": "c822dd948685ad1fda17074d732133ec220d235b9fb53de0fd743dab85d66ac8",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/helper-base4b-ag512-dbpedia224-independent-2026-09-12/marker_review.py": "8737959a1f2258e5e6e69beaff50140d238c902a84f6c49caa7cc667b42d7512",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/READY_V2.json": "57ffcfdc757a96275ecd94ea8022df394fa747e13711ae82d3495f80d453b5d9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/outputs/attempt-002/BINDING.json": "314a883b6076120d8dd7909d0cdc2a199fefaeef198d59ae8eeffb32d4610973",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/outputs/attempt-002/OWNER_TERMINAL.json": "58ab337147b46ea2f8a5c27f9bf3e1701aa797da21b71d1068e47085df4c14de",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/outputs/attempt-002/RUNTIME.json": "63d933d59bd559155fb5fc782fe0193cde4a24c6f20a2a27e8072a1ced1a3fa5",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/outputs/attempt-002/service/SERVICE_STOPPED.json": "afd332d2d7a6ae6fbe3d216da8c3ca9c9503d9bce6ddce0b5d3258bd9ccbd4d0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/outputs/attempt-002/service/service/ENGINE_ENV_ATTESTATION.json": "4bf32eed7fc4bdfc781b665930bbc052ce0c698d1ad2ff7663323f80beb30e90",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/outputs/attempt-002/service/service/SERVER_START.json": "f787292b2215e015b1375031d60019c224139d90b3f840567bdb633897301ba8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/outputs/attempt-002/service/service/inference.log": "2fa22d08466064a2613541e337ee4c49c7c3f4bb91e9e7279515f57e7b03a72b",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/owner.py": "e6cad36eee78fbc557c98d989bdc7399752e5c91ad22feca8ced0f390c5927e6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/helper-base4b-ag512-dbpedia224-eval-v1/service_base_batch_v2.py": "25d01e68260fc9712c266d7641179736aadaa226ba3abd8e1e5d0afdf195c879",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/root-qs6-fixed-helper-top20-batch-invariant-v1/outputs/attempt-003/service/service/inference.log": "acc6ee8f40129b371330dbaed9b99d5d00586bb1502f59ab372f181b4649297d"
+  },
+  "readout_scope": "All 184 calls/736 labels are available and independently raw-redecoded. Present as an additive exploratory true-base reference with explicit logging-gate deviation; not the unchanged frozen primary.",
+  "reviewed_source_receipts": {
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/env_override.py": {
+      "mtime_ns": 1788374782497297316,
+      "pinned_in_original_READY": false,
+      "sha256": "dd53eb3dee456400515a7001dbbc19119a26fef43f63258a2873d122b46f57d4"
+    },
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/envs.py": {
+      "mtime_ns": 1788374778126297509,
+      "pinned_in_original_READY": false,
+      "sha256": "f596585ba92c05504b6815d24c7e75f6910f925aa5b6c5d57ce898dbed40c4d9"
+    },
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/model_executor/layers/batch_invariant.py": {
+      "mtime_ns": 1788374763923298135,
+      "pinned_in_original_READY": false,
+      "sha256": "2cfcd9ac7d9b954155f012ba44ac21f970ea28ab770248037a00988725176f98"
+    },
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/model_executor/layers/linear.py": {
+      "mtime_ns": 1788374759722298320,
+      "pinned_in_original_READY": false,
+      "sha256": "fc4e96ba5e36895513b801b99e746e2b07959d402e36d56aae7d8ad3f124cfe7"
+    },
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/utils/jit_monitor.py": {
+      "mtime_ns": 1788374782612297311,
+      "pinned_in_original_READY": false,
+      "sha256": "8ba1c1e02472382e986aba2ab583e33c071038d5d24d9ee811f2cfac4555dc98"
+    },
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/v1/engine/utils.py": {
+      "mtime_ns": 1788374779491297448,
+      "pinned_in_original_READY": false,
+      "sha256": "6ce83b0552b6207505c9bd7ac1fd67d2771628eac01572738765923aa91c1c0f"
+    },
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/v1/executor/uniproc_executor.py": {
+      "mtime_ns": 1788374778646297486,
+      "pinned_in_original_READY": false,
+      "sha256": "3cb039b80fe9b03dc1122f93c1f8a4098ef1355104b317ff6df25358f4349494"
+    },
+    "/project/alex_phd/envs/prime-rl-5990b1b/lib/python3.12/site-packages/vllm/v1/worker/gpu_worker.py": {
+      "mtime_ns": 1788374779440297451,
+      "pinned_in_original_READY": false,
+      "sha256": "5e8faf3e00649289c81c2917dd4557a80b0b351c33295d8e0c4b204a304e6552"
+    }
+  },
+  "safe_actual_log_excerpts": [
+    "(APIServer pid=511453) WARNING 09-12 17:51:07 [vllm.py:1285] Enforce eager set, disabling torch.compile and CUDAGraphs. This is equivalent to setting -cc.mode=none -cc.cudagraph_mode=none",
+    "(APIServer pid=511453) WARNING 09-12 17:51:07 [vllm.py:1354] Inductor compilation was disabled by user settings, optimizations settings that are only active during inductor compilation will be ignored.",
+    "(EngineCore pid=511593) INFO 09-12 17:51:32 [jit_monitor.py:85] Kernel JIT monitor activated; monitored JIT compilations during inference will use mode=warn.",
+    "(EngineCore pid=511593) WARNING 09-12 17:51:33 [vllm.py:1285] Enforce eager set, disabling torch.compile and CUDAGraphs. This is equivalent to setting -cc.mode=none -cc.cudagraph_mode=none",
+    "(EngineCore pid=511593) WARNING 09-12 17:51:33 [vllm.py:1354] Inductor compilation was disabled by user settings, optimizations settings that are only active during inductor compilation will be ignored."
+  ],
+  "schema": "released-base-log-marker-diagnosis-v1",
+  "source_limit": "These installed vLLM files were inspected/hash-pinned after the run, not included in its original READY closure. Source-path reasoning and inherited preexec environment strongly support activation but do not replace missing in-worker dispatch telemetry."
+}

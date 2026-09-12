@@ -1,5 +1,31 @@
 # The findings most worth pursuing
 
+## Decision update — September 12, 18:23 UTC
+
+Downgrade the large training-breadth explanation. The fresh fixed repeat128
+checkpoint scored425/512, versus422 starting,426 supervised,427/429 varied RL.
+The20-answer advantage of varied data on the earlier panel is only2 on this one.
+All answers are available. Equal category balance removes one simple confound,
+but not block difficulty or boundary shifts. Do not repeat this recipe blindly.
+
+The most informative new lead is separating access, semantic selection and
+evidence use. Structural preview eliminated18 Python tracebacks but did not
+improve exact answers; procedural SFT4 improved forced fit without teaching the
+routine. The next fixed-dose continuation asks whether the procedure is learnable
+before using its failures to motivate a new model or reward. The depth pilot used
+zero helpers, so the next semantic report comparison must actually supply helper
+reports and contrast targeted versus untargeted information at matched call caps.
+
+Token-TIS made two controlled RL updates and altered saved-action likelihoods;
+this is not yet a quality result. Its held three-arm readout is active. Preserve
+the explicit biased-estimator boundary and the fact that only two training groups
+supplied nonzero advantages. Do not promote a larger adapter norm into success.
+
+The earlier keyed handoff and supplied-operation findings remain separate leads.
+The current training work becomes publication-relevant if an identified component
+intervention improves whole-system answers and transfers, not merely because an
+initial helper benchmark improved. These new screens have not met that bar.
+
 ## Decision update — September 12, 17:43 UTC
 
 **Training breadth is now a stronger explanation than update count alone for
