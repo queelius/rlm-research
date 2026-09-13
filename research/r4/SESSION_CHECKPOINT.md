@@ -1,5 +1,50 @@
 # Research session checkpoint
 
+## Final reserve checkpoint — September 13, 2026, 19:00 UTC
+
+STOP discretionary research; preserve the user's 10% shared account reserve.
+Last quota read: 13% at 18:55 UTC. No new jobs queued for automatic execution.
+The final seed2 owner completed, released, and runtime-qualified in 71.35s:
+`sidecars/b05-vector-credit-held72-seed2-v1/outputs/attempt-001/`.
+Result SHA256 52b4394eb6fe21a8427ec19954781d7c7b940aa791c2433f4f09c19e45e2cfb5.
+
+First held72: base6/24, local8/24 (3W1L), joint7/24 (2W1L).
+New sampling seeds on SAME12 cases: base5/24, local7/24, joint7/24;
+each trained model2W0L, both wins on the same problem. No update or selection
+between readouts. Both panels have all calls available. Invalid answers are
+primary failures; do not compare unmatched per-candidate confusion matrices.
+Small repeated RL signal, not independent-case replication or established
+local-credit superiority. Saved training checkpoints remain in local-v3 and
+joint-v3, checkpoint-0001, including optimizer/RNG state.
+
+Strongest lead remains fresh singleton22/24 vs10/24, about3.7xinput,
+12W0L across7 of12contexts. Confidencek2 does not beat cheap controls.
+Read `operations/2026-09-13-reserve-final/HANDOFF.md` and the RLM plain-language
+report. Older entries below are historical, not an active launch queue.
+
+## Latest resume pointer — September 13, 2026, 18:39 UTC
+
+Account13%@18:37:41; preserve10% underlatestuserinstruction. No newbranches.
+BothV3RLupdates completed:local47.907s deltaL2.294909;joint45.849s delta.288233.
+Same initialtrainableidentity b1a1a56457a4dc4eada173710d4b6638f1fd3a01f800bc23d6c51d079d654788;
+all64replaychecks passed. Local24activeactions/joint22. Fullheldaccuracyunknown.
+Held72V3 attempted PTY68922, failed beforemodel/calls on missingbinding
+selection_path inexistingnative launcher; ownerreleasedtrue/0calls. Agent post
+prepares additiveV4pairedqualificationpath/hash metadata repair. No modeloutcome
+from failedreadout. MAIN will do final72thencheckpointstop; no moreexpansion.
+
+Replica328independentauditcomplete zeroissues:22/24 vs10/24,12W0L across7contexts.
+15matched-valid candidatecorrections/0regressions. RemainingFPsamecandidate twice:
+capacity-4<minimum8. Confidencek2cached followup doesNOTbeat simplecontrols:
+12/24 vsrandomexpected12.064 vsfirst2positions13/24; manyzero-logpties.
+Do not promoteconfidence router; singletonutility remainsreplicated.
+
+Pushverified RLMc343286f419495dcb091493ed7cb1d73c6561d14,
+notebook338331c7b5633b09aeda1e4a424d57270756d4cb. Notebook4677hashes,
+82,482,492bytes,201refreshed,credentialscan0.20blankEOF warnings inimmutable
+copiedsource preserved deliberately, notscientificfailures. Newreportclarity
+andconfidence edits stilllocalpendingfinalpush. All weights remainexternal.
+
 ## Latest resume pointer — September 13, 2026, 18:27 UTC
 
 NEW USER BUDGET:14% remaining, preserve10%; only~4% for consolidation and small

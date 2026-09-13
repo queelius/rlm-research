@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE_RAW_AUDIT",
+  "planned": 72,
+  "available": 72,
+  "paired_units": 24,
+  "matched_semantic_valid_units": 22,
+  "exact_all24": {"base": 6, "local": 8, "joint": 7},
+  "paired_vs_base": {
+    "local": {"wins": 3, "losses": 1, "candidate_corrections": 7, "candidate_regressions": 2, "identical_valid_vectors": 16, "changed_valid_vectors": 6},
+    "joint": {"wins": 2, "losses": 1, "candidate_corrections": 5, "candidate_regressions": 2, "identical_valid_vectors": 18, "changed_valid_vectors": 4}
+  },
+  "matched_valid_confusion": {
+    "base": {"fp": 8, "fn": 15},
+    "local": {"fp": 8, "fn": 10},
+    "joint": {"fp": 8, "fn": 12}
+  },
+  "shared_invalid_coordinates": 2,
+  "invalid_cause": "normal-stop JSON vector contains 19 booleans for a 20-candidate task in all three arms",
+  "invalid_denominator_policy": "failures in primary exact /24; omitted only from candidate confusion because the vector is incomplete; no repair",
+  "context_cells": {"width6_revision1": 2, "width6_revision3": 2, "width12_revision1": 2, "width12_revision3": 2, "width20_revision1": 2, "width20_revision3": 2},
+  "selection_boundary": "both predeclared arms reported; no best-arm selection; fresh-seed replication required"
+}

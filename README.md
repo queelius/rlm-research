@@ -4,7 +4,7 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 13, 2026, 18:30 UTC evidence cutoff.
+Latest partial refresh: September 13, 2026, 19:00 UTC evidence cutoff.
 
 The strongest new finding is fixed one-candidate delegation. On six fresh
 problems answered twice, it improved complete selections from4/12 to10/12.
@@ -19,11 +19,19 @@ it increased input length: raw1/24, grouped4/24, resolved8/24. Shorter output
 alone did not help: whole true/false arrays scored10/24 versus16/24 for lists
 on another panel. Keep the panels separate; they are not a training curve.
 
-Two matched local-versus-whole-answer credit updates have now completed and
-saved checkpoints. Their held-out evaluation is pending; no new RL accuracy
-gain is claimed. Two preceding execution failures occurred before any optimizer
-update and are retained. The user now requests10% shared account reserve, so
-work is limited to this targeted readout and consolidation.
+Two matched RL updates produced small gains on twelve held problems, each
+answered twice: unchanged 6/24, individual-decision feedback 8/24, shared
+whole-answer feedback 7/24. New sampling seeds gave 5/24, 7/24, and 7/24.
+The repeat gains were both attempts at one problem; these are not new test
+cases. The result warrants further work but does not establish broad transfer
+or a winning feedback method. Checkpoints are saved; execution failures before
+updates are retained separately.
+
+An offline confidence-based two-helper shortcut did not beat simple controls
+on the fresh decomposition panel: 12/24 versus random expectation 12.06/24
+and first-two-position checking 13/24. This weakens that routing idea without
+undoing the full-decomposition result. All final GPU jobs released. Research
+is paused to preserve the user's 10% shared account reserve.
 
 ## Earlier findings (01:00 UTC checkpoint)
 

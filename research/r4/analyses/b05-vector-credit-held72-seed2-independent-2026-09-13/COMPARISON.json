@@ -1,0 +1,99 @@
+{
+  "boundary": "Sampling repeatability on the same 12 contexts; not an independent-context replication and no arm is retrospectively selected.",
+  "first": {
+    "arms": {
+      "joint": {
+        "candidate_corrections": 5,
+        "candidate_regressions": 2,
+        "changed_contexts": 4,
+        "changed_valid_vectors": 4,
+        "exact": 7,
+        "identical_valid_vectors": 18,
+        "losses": 1,
+        "wins": 2
+      },
+      "local": {
+        "candidate_corrections": 7,
+        "candidate_regressions": 2,
+        "changed_contexts": 6,
+        "changed_valid_vectors": 6,
+        "exact": 8,
+        "identical_valid_vectors": 16,
+        "losses": 1,
+        "wins": 3
+      }
+    },
+    "available": 72,
+    "cost": {
+      "completion_tokens_observed_subtotal": 1779,
+      "completion_tokens_unknown_calls": 0,
+      "not_started": 0,
+      "physical_started": 72,
+      "planned": 72,
+      "prompt_tokens_observed_subtotal": 167472,
+      "prompt_tokens_unknown_calls": 0,
+      "returned_transport_valid": 72,
+      "sum_observed_call_seconds": 43.6204469203949,
+      "summed_call_seconds_not_concurrent_elapsed": true,
+      "unknown_usage_is_not_zero": true
+    },
+    "exact_base": 6,
+    "valid_by_arm": {
+      "base": 22,
+      "joint": 22,
+      "local": 22
+    }
+  },
+  "independent_contexts": false,
+  "same_contexts": 12,
+  "schema": "b05-vector-credit-two-seed-block-stability-v1",
+  "second": {
+    "arms": {
+      "joint": {
+        "candidate_corrections": 8,
+        "candidate_regressions": 0,
+        "changed_contexts": 2,
+        "changed_valid_vectors": 4,
+        "exact": 7,
+        "identical_valid_vectors": 16,
+        "losses": 0,
+        "wins": 2
+      },
+      "local": {
+        "candidate_corrections": 6,
+        "candidate_regressions": 1,
+        "changed_contexts": 3,
+        "changed_valid_vectors": 5,
+        "exact": 7,
+        "identical_valid_vectors": 14,
+        "losses": 0,
+        "wins": 2
+      }
+    },
+    "available": 72,
+    "cost": {
+      "completion_tokens_observed_subtotal": 1419,
+      "completion_tokens_unknown_calls": 0,
+      "not_started": 0,
+      "physical_started": 72,
+      "planned": 72,
+      "prompt_tokens_observed_subtotal": 167472,
+      "prompt_tokens_unknown_calls": 0,
+      "returned_transport_valid": 72,
+      "sum_observed_call_seconds": 39.56289839744568,
+      "summed_call_seconds_not_concurrent_elapsed": true,
+      "unknown_usage_is_not_zero": true
+    },
+    "exact_base": 5,
+    "valid_by_arm": {
+      "base": 20,
+      "joint": 20,
+      "local": 20
+    }
+  },
+  "seed_blocks": {
+    "first": "frozen prior held seeds 202609470000..23",
+    "second": "prospective 202609520000..23"
+  },
+  "status": "COMPLETE_RAW_AUDIT"
+}

@@ -1,0 +1,20 @@
+{
+  "GPU_calls": 0,
+  "both_checkpoint_qualifiers_passed": true,
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-held72-eval-v4/test_eval.py"
+  ],
+  "identity": "24a9d34296cd0e4b8acc57208305e07dbf7fd9127b5a15a2921035a7b3a9dbeb",
+  "model_calls": 0,
+  "ready_sha256": "94b1abf0ad9730d2b2df3b2dac50a9fe0a7e2fa5a7ff1187d04a328e3cf8999e",
+  "returncode": 0,
+  "schema": "b05-vector-credit-held72-cpu-proof-v1",
+  "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+  "stdout": "..                                                                       [100%]\n=============================== warnings summary ===============================\ntest_eval.py::test_actual_three_alias_http_and_72row_summary\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_eval.py::test_actual_three_alias_http_and_72row_summary\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n2 passed, 2 warnings in 49.68s\n"
+}

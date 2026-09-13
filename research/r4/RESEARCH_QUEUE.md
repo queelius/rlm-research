@@ -1,5 +1,23 @@
 # Live GPU research queue
 
+## Final status — September 13, 19:00 UTC: paused for account reserve
+
+All accepted GPU jobs are complete and released. Do not automatically launch
+older ready plans: user now preserves10% account allowance. Last read13%@18:55.
+Two matched RL updates and both held sampling blocks completed. Base/local/joint
+were6/8/7 of24, then5/7/7 of24 on SAME12cases. No winning objective established.
+
+Ranked proposals for renewed-budget work (not ready jobs):
+1. Transfer the replicated one-candidate-helper advantage to a task that needs
+   model judgment, with whole-input and deterministic baselines.
+2. Compare limited helper budgets against random and simple positional choices;
+   native token confidence did not beat those controls in the cached replica.
+3. Obtain contrasting actions on consistently wrong RL training decisions,
+   then evaluate new held problems. Do not tune further on the exposed12cases.
+
+Each proposal needs a new bounded admission; no GPU filler or automatic sweep.
+Historical queue below is superseded by this status.
+
 ### Live update September 13, 07:16 UTC
 
 Completed: vector48, representation72, singleton176, varied-vector64. All calls

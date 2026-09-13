@@ -1,0 +1,59 @@
+{
+  "joint": {
+    "Adam_formula_max_error": 2.9103830456733704e-11,
+    "all64_replays_pass": true,
+    "binding": {
+      "adapter_config_sha256": "b224a53bcfc9ba1a6eb8e16a420b508b9f5bc465d72c8ddab5c4f37101b12e0d",
+      "adapter_sha256": "257843e5ee1358361a574ef358ef2e78c299504234d46a43592c2ecc173454a6",
+      "alias": "Qwen3-4B-Instruct-2507-b05-vector-credit-joint-step1-v3",
+      "base": "/project/alex_phd/research-cache/models/Qwen--Qwen3-4B-Instruct-2507--cdbee75f17c01a7cc42f958dc650907174af0554",
+      "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-joint-v3/outputs/attempt-001/checkpoint-0001",
+      "credit_mode": "joint",
+      "schema": "b05-vector-credit-checkpoint-binding-v1",
+      "selection": "fixed sole step1; not outcome-selected",
+      "source_ready_sha256": "f07077a70daeefacd7117780678563a8b253ba2ff74061c23f5efe0709c9af71",
+      "state_sha256": "b364dd3fd4444d8ee7a81c3e79adf676160710a91065416933324092271e4763"
+    },
+    "binding_sha256": "2ebd6df1c1ed4000d4ad756f7efd47e272f9e2513ddea2e76af8c79ad635bbbf",
+    "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-joint-v3/outputs/attempt-001/checkpoint-0001",
+    "credit_mode": "joint",
+    "eligible": true,
+    "fixed_sole_step1": true,
+    "initial_trainable_identity": "b1a1a56457a4dc4eada173710d4b6638f1fd3a01f800bc23d6c51d079d654788",
+    "no_accuracy_qualification": true,
+    "ready_identity": "bc88b579d9d4e44047032b3320b9d61826f2dd73794fbc2d3a6ba5d6e0e44d77",
+    "result_sha256": "15882ebafac3412c40cf59a3922afe3e718326e13aac8e785345c1521e502802",
+    "state_sha256": "b364dd3fd4444d8ee7a81c3e79adf676160710a91065416933324092271e4763",
+    "step_commit_sha256": "b5fc05ae1ce9789019087683605b42b230498521e1fd3762e0a6d2e5671e2137"
+  },
+  "local": {
+    "Adam_formula_max_error": 2.9103830456733704e-11,
+    "all64_replays_pass": true,
+    "binding": {
+      "adapter_config_sha256": "f24467d989581061df10aefb1e3c352516e333dcbd76b9278d19355abb915785",
+      "adapter_sha256": "4e302e319a54e52341335d377af20e62c753541f69b29977f8bbbfa05310bea1",
+      "alias": "Qwen3-4B-Instruct-2507-b05-vector-credit-local-step1-v3",
+      "base": "/project/alex_phd/research-cache/models/Qwen--Qwen3-4B-Instruct-2507--cdbee75f17c01a7cc42f958dc650907174af0554",
+      "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001",
+      "credit_mode": "local",
+      "schema": "b05-vector-credit-checkpoint-binding-v1",
+      "selection": "fixed sole step1; not outcome-selected",
+      "source_ready_sha256": "ee4c84418327584da1397b34d45fe187c8908c449c61e91c9e6740cc4c644ec7",
+      "state_sha256": "17c217b1d610d03d91d7ae70a7f6bdcbd68d72f2db15ed80a55a0e6632c0c623"
+    },
+    "binding_sha256": "18166d7f990c251f69b41bedd3c6a6f93250d0556d7598088210de51640d1299",
+    "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001",
+    "credit_mode": "local",
+    "eligible": true,
+    "fixed_sole_step1": true,
+    "initial_trainable_identity": "b1a1a56457a4dc4eada173710d4b6638f1fd3a01f800bc23d6c51d079d654788",
+    "no_accuracy_qualification": true,
+    "ready_identity": "93f61459db1fd08dc7c728e06dcffedb67ed7ad6b814186b74d5752f837afb87",
+    "result_sha256": "382d4da58f76c1f3e75a572ac0e7323e1b7ede6bfeb243a712bcf49010f2a7a3",
+    "state_sha256": "17c217b1d610d03d91d7ae70a7f6bdcbd68d72f2db15ed80a55a0e6632c0c623",
+    "step_commit_sha256": "1cb5db4b16a20a28ef122961f24af2ad8b8b85268ed1b7ea2aadebfb1385f634"
+  },
+  "outcomes_consulted": false,
+  "schema": "b05-vector-credit-paired-checkpoint-qualification-v1",
+  "selection": "both fixed sole step1; no accuracy selection"
+}

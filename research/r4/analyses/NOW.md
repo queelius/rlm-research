@@ -1,11 +1,29 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-13T18:27:00Z
-status: targeted_consolidation_preserve_ten_percent
+updated_utc: 2026-09-13T19:00:00Z
+status: completed_consolidation_preserve_ten_percent
 claim_level: exploratory_fixed_decomposition_replication
 ---
 
 # Research in plain language
+
+## Final consolidation — September 13, 19:00 UTC
+
+The strongest finding is replicated fixed decomposition: complete answers
+10/24 to22/24 on twelve fresh problems, at about3.7times the input tokens.
+The independent audit is complete. This is one generated task family, not
+learned routing or general recursive planning. A cheap confidence-based
+two-helper alternative did not beat random expectation or the first-two control.
+
+Matched reward-training updates now have two completed held sampling blocks:
+unchanged/local/shared feedback6/8/7 of24, then5/7/7 of24. The small gain survived
+resampling, but the repeat gains came from one problem answered twice. There
+are still only12held problems, and neither feedback method is established as
+better. All144readout calls returned; malformed answers remain primary failures.
+Checkpoints are saved, GPU owners released, and discretionary work is paused
+for the user's10% account reserve. Read the final handoff before any new run.
+
+The older interpretations below are retained as research history.
 
 ## Current interpretation — September 13, 18:27 UTC
 

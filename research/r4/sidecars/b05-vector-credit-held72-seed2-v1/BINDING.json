@@ -1,0 +1,27 @@
+{
+  "actual_released_base_model": "/project/alex_phd/research-cache/models/Qwen--Qwen3-4B-Instruct-2507--cdbee75f17c01a7cc42f958dc650907174af0554",
+  "base_control_adapter": null,
+  "models": {
+    "Qwen3-4B-Instruct-2507-b05-vector-credit-joint-step1-v3": {
+      "adapter_sha256": "257843e5ee1358361a574ef358ef2e78c299504234d46a43592c2ecc173454a6",
+      "config_sha256": "b224a53bcfc9ba1a6eb8e16a420b508b9f5bc465d72c8ddab5c4f37101b12e0d",
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-joint-v3/outputs/attempt-001/checkpoint-0001"
+    },
+    "Qwen3-4B-Instruct-2507-b05-vector-credit-local-step1-v3": {
+      "adapter_sha256": "4e302e319a54e52341335d377af20e62c753541f69b29977f8bbbfa05310bea1",
+      "config_sha256": "f24467d989581061df10aefb1e3c352516e333dcbd76b9278d19355abb915785",
+      "path": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001"
+    }
+  },
+  "role_map": {
+    "children": [
+      "Qwen3-4B-Instruct-2507-b05-vector-credit-local-step1-v3",
+      "Qwen3-4B-Instruct-2507-b05-vector-credit-joint-step1-v3"
+    ],
+    "root": "Qwen3-4B-Instruct-2507-b05-vector-credit-local-step1-v3"
+  },
+  "schema": "b05-vector-credit-held72-dual-adapter-binding-v1",
+  "selection": "both fixed sole step1; no accuracy selection",
+  "selection_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-held72-seed2-v1/CHECKPOINT_QUALIFICATION.json",
+  "selection_sha256": "dc33f27a8bb04458b75e4967e448e7edfdf7e32817f20c34c378f901ee5cc325"
+}

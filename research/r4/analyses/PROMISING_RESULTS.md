@@ -1,5 +1,22 @@
 # The findings most worth pursuing
 
+## Final ranking — September 13, 19:00 UTC
+
+1. **Replicated smaller helper decisions:** fresh panel22/24 vs10/24,
+   12wins/no losses across7contexts, about3.7xinput. Strong within-family
+   engineering lead; needs a task where an ordinary rule program is not enough.
+2. **Separate bookkeeping from judgment:** raw/grouped/resolved1/4/8 of24;
+   grouping helps despite longer input. Representation and wording are not
+   fully isolated, so avoid a pure causal compression claim.
+3. **Small RL signal survives sampling repeat:** base/local/joint6/8/7 of24,
+   then5/7/7 of24. Same12held cases; repeat gain is one problem twice.
+   No evidence that local credit reliably beats shared credit. Investigate
+   consistently wrong actions with no training-sample variation.
+
+Demote native-confidence routing: cached two-helper policy12/24 versus random
+expectation12.06 and first-two13/24 on fresh decomposition panel. Offline reuse,
+not an online policy trial. No more discretionary work before budget renewal.
+
 ## Decision update — September 13, 07:20 UTC
 
 Promote fixed singleton decomposition to the strongest immediate replication

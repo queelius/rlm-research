@@ -1,5 +1,14 @@
 # What we know so far
 
+## Latest — September 13, 19:00 UTC
+
+See `NOW.md` for the final reserve checkpoint. Fresh fixed decomposition
+replicated22/24 vs10/24 at3.7xinput. Two matched RL updates gave small held
+gains6/8/7 of24, repeated5/7/7 on the same12cases with new seeds. This is
+sampling stability, not new-case transfer. Confidence-based cheap routing did
+not beat simple controls. All accepted GPU work completed; preserve10% reserve.
+Earlier summaries below are historical and do not describe active jobs.
+
 ## Current update — September 13, 01:00 UTC
 
 All accepted GPU jobs and independent saved-output audits are complete.

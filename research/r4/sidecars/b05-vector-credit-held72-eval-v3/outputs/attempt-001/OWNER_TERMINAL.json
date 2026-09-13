@@ -1,0 +1,15 @@
+{
+  "complete": false,
+  "elapsed_seconds": 19.463901042938232,
+  "errors": [
+    {
+      "detail": "dual-LoRA launcher failed; see retained log",
+      "stage": "owner",
+      "traceback": "Traceback (most recent call last):\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-held72-eval-v1/owner.py\", line 15, in execute\n    suite=s.dependencies();suite.start_service(directory,binding,min(started+285,end-90));service=directory/\"service\"\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-post-sft-suite-v1/suite.py\", line 147, in start_service\n    raise RuntimeError('dual-LoRA launcher failed; see retained log')\nRuntimeError: dual-LoRA launcher failed; see retained log\n",
+      "type": "RuntimeError"
+    }
+  ],
+  "released": true,
+  "result_sha256": "8d057b7284a39a5fe980924b30979b4c95df79b069243e077ada4c81dca87a0d",
+  "runtime_qualified": false
+}
