@@ -2,9 +2,9 @@
 schema_version: "rlm-question-card-v1"
 id: "rq:rl-effective-feedback"
 title: "Can an RLM learn from its own attempts, and which errors obscure that signal?"
-status: "larger_dose_learns_delivery_fresh_context_check_preparing"
-updated_utc: "2026-09-12T23:37:00Z"
-evidence_cutoff: "2026-09-12T23:37:00Z"
+status: "narrow_delivery_transfer_selection_dose_tradeoff_not_general_improvement"
+updated_utc: "2026-09-13T01:00:00Z"
+evidence_cutoff: "2026-09-13T01:00:00Z"
 source_catalog:
   path: "/project/alex_phd/runs/rlm-research-r4/analyses/research-factory-2026-09-09/CATALOG.json"
   sha256: "e0fa23412505eee178d27041816e84f7931d6da01b02e13f664393a6586ff39c"
@@ -12,6 +12,10 @@ catalog_boundary: "New post-meeting question; the old catalog does not contain t
 related_questions: ["rq:controller", "rq:authenticated-calculation-reward", "rq:counterfactual-credit", "rq:adaptive-decomposition"]
 claim_ids: []
 reports:
+  - "../analyses/b05-flat-selection-rl-independent-2026-09-13/FINDINGS.md"
+  - "../analyses/b05-flat-selection-rl-dose10-independent-2026-09-13/FINDINGS.md"
+  - "../analyses/b05-selection-id-renaming-audit-2026-09-13/REPORT.md"
+  - "../analyses/openai-mrcr-fourneedle-balanced32-dose-transfer-2026-09-12/outcome-002/RESULTS.md"
   - "../analyses/2026-09-12-evening-decision-update.md"
   - "../analyses/openai-mrcr-fresh8-rloo-dose10-paired-2026-09-12/readout-001.md"
   - "../analyses/openai-mrcr-fresh8-rloo-training-readout-2026-09-12/FINDINGS.md"
@@ -31,6 +35,49 @@ publication_readiness: "not_publication_ready"
 ---
 
 # Can we turn the model's own attempts into useful learning?
+
+## Decision update — September 13, 01:00 UTC
+
+Selection training and both fixed readouts are complete. At LR1e-4 the mean
+balanced-accuracy effect is +4.065 points on 17 matched valid training attempts,
+but -0.511 points on 18 held attempts; complete-set accuracy does not improve.
+Renaming IDs removes the local advantage on the 17 common-valid coordinates
+while changing both models' sets strongly: name/token sensitivity, not proof
+of memorization. LR1e-3 from the identical initial adapter worsens local fit by
+5.604 points. Held reward improves 2.806 points while recall falls 79.1% to
+67.6% and complete-set success stays 0/18. Shorter selections remove bad and
+good candidates. All calls returned; invalid-known and matched populations
+are reported separately. Each dose uses its own fresh control.
+
+This distinguishes update magnitude from the usefulness of the resulting
+behavior: a larger step changes selection substantially, but not toward
+reliably complete answers. Graded rewards supplied contrast where exact rewards
+were uniform; they did not guarantee the intended tradeoff. Only four of nine
+training pairs had contrast, and ID-name sensitivity limits the local signal.
+Further fixed-batch dose sweeps are deprioritized. Next test decision accounting
+separately, then varied policy/state data and decision-local credit. No new
+training job is admitted during account-reserve wind-down.
+
+## Decision update — September 13, 00:18 UTC
+
+The fixed LR1e-4 update transferred a small exact-answer gain to32 previously
+unused project conversations:24→27,5W2L, all available and independently audited.
+Clean retrieval and normalized exact both remain29/32. Four wins follow unchanged
+retrieved information; one improves retrieval, offset by a regression before a
+tool action. Output17583→21302 tokens. This supports a narrow delivery-learning
+signal, not generalized search or recursive decomposition. The fresh panel is
+balanced across requested occurrences1–4; per-ordinal counts are6→8,4→6,7→6,7→7
+of8. Small exploratory subgroups must not become new claims of learned ordinal skill.
+
+The next training experiment now targets actual selection, with a fresh adapter
+on the released base rather than the retrieval SFT checkpoint. On nine pairs
+of sampled ID lists, binary exact reward has zero contrast everywhere. Present-
+class balanced accuracy has four mixed pairs and avoids the all-IDs advantage of
+F1/Jaccard on this batch. One LR1e-4 G2 update completed; denominator18 includes
+ten zero-advantage actions. Loss covers sampled ID-array spans, not host gold IDs.
+Fixed training18 and fresh held18 before/after evaluation is pending. This is
+a different task/reward/mask/start recipe, not an isolated causal comparison
+against the final-copy update. No accuracy claim follows from a nonzero gradient.
 
 ## Decision update — September 12, 23:37 UTC
 

@@ -4,7 +4,28 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 12, 2026, 23:45 UTC evidence cutoff.
+Latest partial refresh: September 13, 2026, 01:00 UTC evidence cutoff.
+
+The strongest new harness result is organizing records before the model chooses
+from them. Python combines public updates and latest checks without filtering
+candidates or deciding eligibility. On twelve fresh cases answered twice, this
+raised complete selections from 1/24 to 9/24 and cut input tokens by 52%. All
+exact successes were on six-candidate cases; larger cases remain unsolved.
+These are correct sets regardless of order; strict sorted successes were only
+0 versus 2. This is a replicated same-family engineering lead, not learned
+decomposition or an established novel method.
+
+New selection-RL comparisons changed behavior but did not solve that task. A
+small update fit some training decisions without better complete answers on
+separate cases. A larger update improved its graded held score while omitting
+seventeen more good candidates. Renaming IDs also revealed strong name/token
+sensitivity. We therefore prioritize explicit decisions about every candidate
+and more varied training, not further fixed-batch learning-rate sweeps.
+
+All accepted experiments and independent saved-output audits at this cutoff are
+complete. The GPU was released; no training remained running. Optional research
+was winding down at 19% account allowance to preserve the user's reserve.
+Below is the broader experimental history, including negative results.
 
 Supervised training on 32 worked examples taught a small controller to find a
 requested reply in a conversation through Python. Its routine transfers within
@@ -31,8 +52,11 @@ Increasing that update's learning rate tenfold reached24/32 on training and
 28/32 versus25/32 on the already examined evaluation panel. The latter included
 five gains and two losses; gains corrected final copying after unchanged
 retrieval. This is promising answer-delivery learning, not established retrieval
-or decomposition learning. A fixed fresh-conversation comparison is being
-prepared to check transfer. A generic request
+or decomposition learning. A fixed fresh-conversation comparison subsequently
+scored 24/32 before RL and 27/32 after, with five wins and two losses. Both models
+found the clean target in 29 cases; most gains delivered already-found text.
+This is a narrow transfer signal on new project examples in the same public
+task family, not proof of improved general retrieval. A generic request
 to inspect source wording also failed to elicit that behavior and reduced
 accuracy. We retain these results to guide the next experiment rather than
 repeating an unproductive prompt or selecting the favorable score.
@@ -54,7 +78,7 @@ Earlier helper-training gains also weakened on new examples and did not improve
 whole-system answers. The notebook preserves those results, failures and
 interpretation changes alongside promising findings. Records retain their named
 cutoffs; this is not live GPU status. See the
-[latest plain-language research checkpoint](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-12-rl-dose-and-local-delegation.md)
+[latest plain-language research checkpoint](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-13-from-answer-delivery-to-information-selection.md)
 for methods, limitations and evidence pointers.
 
 ## Start here

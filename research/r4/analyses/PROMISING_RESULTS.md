@@ -1,5 +1,32 @@
 # The findings most worth pursuing
 
+## Decision update — September 13, 01:00 UTC
+
+Promote public-state preparation as the strongest new harness lead. Combining
+public updates and latest checks before selection, without deciding eligibility,
+improved complete ID sets 0/18 to 4/18 initially and 1/24 to 9/24 on twelve fresh
+cases answered twice. Fresh input tokens fell 52%; all exact gains were at six
+candidates, not twelve or twenty. Order-insensitive scoring is explicit; strict
+fresh gains are only 0 to 2. This is same-family replication of a hand-designed
+transform, not established novelty or learned recursion.
+
+Retain narrow delivery-RL transfer: fresh conversations 24/32 to 27/32, five
+wins and two losses, clean retrieval and whitespace-normalized accuracy both
+29/32 before and after. Most gains deliver already-found text. Do not erase
+the earlier failed recipe replication or promote general reasoning improvement.
+
+Do not promote selection-RL as solved: lower dose improves local reward without
+held exact gains, renaming removes the local advantage on common-valid cases,
+and higher dose increases held reward while sharply reducing recall. This
+metric/behavior mismatch is valuable mechanism evidence, not an accuracy win.
+
+Publication direction: separate public bookkeeping, candidate decisions, and
+answer delivery; measure what the harness should do and what the model should
+learn. Need controlled representations, new task families, varied training and
+an actual learned decision policy before a strong methods claim. The actionable
+[question card](../questions/public-state-and-decision-accounting.md) ranks these.
+All completed native outcomes are audited; previous entries remain historical.
+
 ## Decision update — September 12, 22:55 UTC
 
 Do not promote fresh8 RLOO as a meaningful gain: primary short/long panels are

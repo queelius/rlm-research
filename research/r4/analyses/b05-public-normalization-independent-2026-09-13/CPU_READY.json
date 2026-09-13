@@ -1,0 +1,112 @@
+{
+  "GPU_calls": 0,
+  "argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/analyze.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/outcome-001"
+  ],
+  "model_calls": 0,
+  "one_shot_no_polling": true,
+  "public_transform_checks": [
+    {
+      "candidate_count": 6,
+      "eligibility_computed": false,
+      "every_public_candidate_and_effective_field_matches": true,
+      "normalized_view_sha256": "2034551ada2d6a22bca8db09d768117e9ac4fda1d60b3b539432a40cb8319ced",
+      "raw_view_sha256": "fa7e73e254f06de5c74b7d7b2fc9d714d423aa80832bfa5eff6155f911334f00",
+      "root_id": "root_5b6abad4190621",
+      "width": 6
+    },
+    {
+      "candidate_count": 6,
+      "eligibility_computed": false,
+      "every_public_candidate_and_effective_field_matches": true,
+      "normalized_view_sha256": "24b3e0381ac3dc53f06a872940e98000a4768b174eeeeaf15181051881579b33",
+      "raw_view_sha256": "044134dc6b606fe94d246765cb0aba1a206fb96ca23c82523dc096a90b70b050",
+      "root_id": "root_3b55ef23e40dea",
+      "width": 6
+    },
+    {
+      "candidate_count": 6,
+      "eligibility_computed": false,
+      "every_public_candidate_and_effective_field_matches": true,
+      "normalized_view_sha256": "1356e3b6f00aa9445dd113a4de2f8c66952d3b453c2107395e579f4d1c2e9f6f",
+      "raw_view_sha256": "193e0d70c95e3003082daf38bb3a9855411d2589d61695cb90681ce00d3b67a2",
+      "root_id": "root_3a96f2bcc0b496",
+      "width": 6
+    },
+    {
+      "candidate_count": 12,
+      "eligibility_computed": false,
+      "every_public_candidate_and_effective_field_matches": true,
+      "normalized_view_sha256": "6ac501bda433306438eea21001ea1e5f39d6839c6f0bbccfef81429817441bb1",
+      "raw_view_sha256": "fa3e326c7d328cebe38e5976b752e9abb7174d7b423b25376a5937f69221c30e",
+      "root_id": "root_4d622901f2285d",
+      "width": 12
+    },
+    {
+      "candidate_count": 12,
+      "eligibility_computed": false,
+      "every_public_candidate_and_effective_field_matches": true,
+      "normalized_view_sha256": "077e19709f0af2e284ef552d74a69e2c00705c4f71f503fd1d8ed5811764b6a7",
+      "raw_view_sha256": "d28ede62fdb3c30b056e64b869891ead6c562d9adf44cb6318535215be7be5df",
+      "root_id": "root_33ca83880db0c7",
+      "width": 12
+    },
+    {
+      "candidate_count": 12,
+      "eligibility_computed": false,
+      "every_public_candidate_and_effective_field_matches": true,
+      "normalized_view_sha256": "f6425a61d9828b977863d4dcd1aff72c05c15e64c05bf54e12addecd860284e0",
+      "raw_view_sha256": "5a28359d8b0e467b5cd571bf5d40f3be19267927811e0f3fdf063005884fde88",
+      "root_id": "root_81a3b6f141854a",
+      "width": 12
+    },
+    {
+      "candidate_count": 20,
+      "eligibility_computed": false,
+      "every_public_candidate_and_effective_field_matches": true,
+      "normalized_view_sha256": "8c319be8f57d089007257d009537ac4685634cdfef3cee62cf09f6c7a20caaa1",
+      "raw_view_sha256": "33d71ac6ac48587d53da30aa2058815418e92af1075d869414d320f56cf853b7",
+      "root_id": "root_cec12b35e126c3",
+      "width": 20
+    },
+    {
+      "candidate_count": 20,
+      "eligibility_computed": false,
+      "every_public_candidate_and_effective_field_matches": true,
+      "normalized_view_sha256": "b058b99aea04a00f6667abc280865cd246776c725005c1f43e2eb329088ee38f",
+      "raw_view_sha256": "fd0fad4b1d8c68273eba53f18bb5010c61d1f3ccca532e193949a4afd2a5f091",
+      "root_id": "root_a8815208d53ada",
+      "width": 20
+    },
+    {
+      "candidate_count": 20,
+      "eligibility_computed": false,
+      "every_public_candidate_and_effective_field_matches": true,
+      "normalized_view_sha256": "6e8934727322983c5ca33cf4618eb21f12262dff9d766a6cac75d691327b6fb1",
+      "raw_view_sha256": "2cb99d4216952cf32d14681fc5c6f5675dd99dee8c27bdbe9b56ca216248e1e1",
+      "root_id": "root_5f8ef53952b1fa",
+      "width": 20
+    }
+  ],
+  "schema": "normalization36-independent-audit-ready-v1",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/RUNBOOK.md": "d6c1ea26bf5298dea052de24c6977ae538cc3b0b69944c3a332cc24a2f9188c4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/analyze.py": "62e59881f03d604c3c9cb9df7635880d08655a35877d9597c31eef0bd24168fd",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/test_audit.py": "68bb2fee2ca0ee0987aba3019d81cd0162aa0c9db1989b46b9092fc37d6b60c0",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-2026-09-12/analyze.py": "b66ec8d1df8fc99a2066c2ee41b1d1158ff51d36853bb0f7199c697ecae189df",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/analyze.py": "3f305e59305e082a73074343384916a4385eaf7376d6489156e37bf2dd773877",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-public-normalization-held9-v1/CPU_READY.json": "c604f3e4de142862bf8ab62d5be6a948a9ff168bccb6e02c94837452f412584a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-public-normalization-held9-v1/HOST_GOLD.json": "db5c590eb9a868f2b66e1ca7a6c0da73c32a8316002dff030a0d947142b3ede3",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-public-normalization-held9-v1/PUBLIC_INPUTS.json": "d8f8e1c0e5e47f1722fd9e32f897486e5111126e781a28e49077e0976f0aefd9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-public-normalization-held9-v1/normalize.py": "515fed6eece6948951a4f9c6f3b25fc5f6f9f3feb124b62d8c5348a0d1038bda"
+  },
+  "tests": {
+    "returncode": 0,
+    "stderr": "",
+    "stdout": ".                                                                        [100%]\n1 passed in 0.10s\n"
+  }
+}

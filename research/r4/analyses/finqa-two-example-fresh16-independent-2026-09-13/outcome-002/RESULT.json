@@ -1,0 +1,197 @@
+{
+  "all_labels_retained_no_filter": true,
+  "fresh_DSL_error_counts": {
+    "malformed_json": 2,
+    "nonnumeric_arithmetic_operand": 1,
+    "table_second_argument_not_none": 1,
+    "unknown_table_row": 3,
+    "wrong_step_arity": 1
+  },
+  "fresh_arms": {
+    "direct_scalar": {
+      "available": 16,
+      "correct": 1,
+      "cost": {
+        "completion_tokens_observed": 155,
+        "completion_tokens_unknown_calls": 0,
+        "prompt_tokens_observed": 19678,
+        "prompt_tokens_unknown_calls": 0,
+        "total_tokens_observed": 19833,
+        "total_tokens_unknown_calls": 0
+      },
+      "planned": 16,
+      "valid": 16
+    },
+    "restricted_dsl": {
+      "available": 16,
+      "correct": 2,
+      "cost": {
+        "completion_tokens_observed": 460,
+        "completion_tokens_unknown_calls": 0,
+        "prompt_tokens_observed": 24414,
+        "prompt_tokens_unknown_calls": 0,
+        "total_tokens_observed": 24874,
+        "total_tokens_unknown_calls": 0
+      },
+      "planned": 16,
+      "valid": 8
+    }
+  },
+  "fresh_context_units": 16,
+  "fresh_owner_seconds": 56.615949630737305,
+  "fresh_pair_outcomes": {
+    "DSL_win": 1,
+    "both_correct": 1,
+    "both_wrong": 14
+  },
+  "fresh_pairs": [
+    {
+      "example_id": "IP/2005/page_19.pdf-3",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300000
+    },
+    {
+      "example_id": "LMT/2015/page_54.pdf-1",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300001
+    },
+    {
+      "example_id": "AES/2002/page_46.pdf-2",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300002
+    },
+    {
+      "example_id": "RE/2017/page_159.pdf-4",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300003
+    },
+    {
+      "example_id": "DRE/2002/page_40.pdf-2",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300004
+    },
+    {
+      "example_id": "APD/2019/page_48.pdf-2",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300005
+    },
+    {
+      "example_id": "IP/2007/page_31.pdf-3",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300006
+    },
+    {
+      "example_id": "PNC/2011/page_87.pdf-3",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300007
+    },
+    {
+      "example_id": "IPG/2015/page_48.pdf-2",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300008
+    },
+    {
+      "example_id": "CNP/2010/page_31.pdf-1",
+      "outcome": "DSL_win",
+      "paired_known": true,
+      "seed": 202609300009
+    },
+    {
+      "example_id": "LMT/2005/page_40.pdf-2",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300010
+    },
+    {
+      "example_id": "ANSS/2013/page_55.pdf-1",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300011
+    },
+    {
+      "example_id": "PNC/2013/page_62.pdf-1",
+      "outcome": "both_correct",
+      "paired_known": true,
+      "seed": 202609300012
+    },
+    {
+      "example_id": "IPG/2008/page_62.pdf-1",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300013
+    },
+    {
+      "example_id": "MSI/2009/page_65.pdf-1",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300014
+    },
+    {
+      "example_id": "CDNS/2018/page_31.pdf-3",
+      "outcome": "both_wrong",
+      "paired_known": true,
+      "seed": 202609300015
+    }
+  ],
+  "issues": [],
+  "natural_calls_per_answer_each_arm": 1,
+  "new_physical_calls": 32,
+  "no_weight_learning_or_automatic_prompt_variant": true,
+  "old_panel_separate_descriptive_only": {
+    "DSL_ratio_cancellation_caveat": true,
+    "arms": {
+      "direct_scalar": {
+        "available": 16,
+        "correct": 1,
+        "cost": {
+          "completion_tokens_observed": 139,
+          "completion_tokens_unknown_calls": 0,
+          "prompt_tokens_observed": 20032,
+          "prompt_tokens_unknown_calls": 0,
+          "total_tokens_observed": 20171,
+          "total_tokens_unknown_calls": 0
+        },
+        "planned": 16,
+        "valid": 16
+      },
+      "restricted_dsl": {
+        "available": 16,
+        "correct": 3,
+        "cost": {
+          "completion_tokens_observed": 636,
+          "completion_tokens_unknown_calls": 0,
+          "prompt_tokens_observed": 24768,
+          "prompt_tokens_unknown_calls": 0,
+          "total_tokens_observed": 25404,
+          "total_tokens_unknown_calls": 0
+        },
+        "planned": 16,
+        "valid": 7
+      }
+    },
+    "context_units": 16,
+    "different_pages_and_seed_namespace": true,
+    "not_an_old_vs_new_paired_effect": true,
+    "sha256": "daf449499a172d4528f7d22f2ac741df1eb6e930df7ed8b911e09d6ed2ff9103",
+    "source": "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-independent-2026-09-12/outcome-001/native/REPORT.json"
+  },
+  "schema": "finqa-fresh16-independent-within-panel-result-v1",
+  "sources_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-fresh16-independent-2026-09-13/CPU_READY.json": "80af2ae4101bff0e11b11084554c977893cd647e5009d6e6992de16143e272ca",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-fresh16-independent-2026-09-13/outcome-002/native/REPORT.json": "921492b89dc728d536c54a368587affefd2f6718800fcf0ffd0e75c18edb6c0a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-two-example-fresh16-v1/outputs/attempt-001/OWNER_TERMINAL.json": "5076a698afa8df4c0d99160667ff0d8a7c166a53323d5ebb4172568ac52edb83",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-two-example-fresh16-v1/outputs/attempt-001/RESULT.json": "e245140628d68664ddbd785951f9716d34490b3b2b9f083dc72a7b2b65156b27"
+  },
+  "supplied_targets_not_semantic_truth": true,
+  "token_costs_not_matched": true,
+  "unknown_is_not_wrong": true
+}

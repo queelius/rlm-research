@@ -1,5 +1,22 @@
 # What we know so far
 
+## Current update — September 13, 01:00 UTC
+
+All accepted GPU jobs and independent saved-output audits are complete.
+Public-state preparation replicated on fresh generated cases: complete selected
+sets 1/24 to 9/24, eight wins/no losses in five of twelve cases, input -52%.
+Every candidate remains in view; the model, not Python, decides eligibility.
+All exact successes are at six candidates; wider cases remain unsolved.
+
+Actual selection RL has no robust complete-answer gain. Smaller dose fits some
+training decisions but does not transfer; larger dose improves held balanced
+accuracy through shorter lists, missing seventeen more eligible records.
+ID renaming reveals substantial name/token sensitivity. Narrow copy-RL transfer
+does survive a new 32-conversation panel, 24 to 27 exact, without improved
+aggregate clean retrieval. FinQA prompt examples partially repair an unfamiliar
+calculation interface but accuracy remains low. See [NOW](NOW.md) for plain
+language and links; earlier dated interpretations below are preserved history.
+
 ## Current update — September 12, 22:55 UTC
 
 Fresh8 final-only RLOO: short25→25/32, long10→10/16, third/fourth10→11/16;

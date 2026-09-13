@@ -1,5 +1,221 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 13, 2026, 01:00 UTC
+
+ALL ACCEPTED GPU JOBS AND RAW-NATIVE AUDITS COMPLETE. No active/queued training
+or evaluation; GPU released and idle. Prior55520 and31676 are terminal, do not
+relaunch them. Main sole launcher; CPU agents done. Account19%@00:58/01:03 UTC,
+winddown20/pause15/reserve10; actual resetSep19 08:09:56 UTC, notsoon.
+Allocation5801/an22 oneA10040GBMIG endsSep15 17:30:16 UTC. Do not launch filler
+or spend the account reserve merely because GPU time remains.
+
+Freshnormalization48 completed117.622s: allknown/runtimequalified/released.
+Unorderedexact1→9/24,8W0L in5/12cases; allsuccesseswidth6,9/10 there,0/10width12,
+0/4width20. Strictsorted0→2. TP130→150,FP76→35,FN28→8,TN26→67,
+BA.5690476→.8779266,input101706→48798. New history1/3 groups DIFFERENTinstances,
+notcausalhistoryeffect. All130publiccandidates retained, noeligibilitydecision
+in54linenormalizer. NativeauditREPORT14f5b5835cbbc04f3cc55769c807dc2d18c00aedafc1b0fd14ac1877082243a1,
+SUMMARYeacae8f02e7189116e12fdc21e186c2619eaf253999f88c5c3c34b1592038f7f,
+FINDINGS8f68fc76f0e364c2feb0c825b7f58375691923aa81ae2db67ba37f7f8f997f7b.
+analyses/b05-public-normalization-fresh12-independent-2026-09-13/outcome-001.
+
+Selectiondose10eval72 completed99.741s, allavailable/released. Raw audit
+6536e9e7d284caf0971d3f132ddb3018512aa8f8b5fb767cb28a72ed078898eb,
+FINDINGS7a94414d7eb99ef38175bf06ada3ef989a9f37bfa75d467b97a8edc6463845d2.
+Matched17trainBA.629646→.573611 (−5.604pp), semanticexact2→1/18.
+Held18BA.630147→.658205 (+2.806pp) BUT TP117→100,FP54→43,recall79.1→67.6%,
+exact0both,F1/Jaccardfall. Shorter lists, notrobustselectiongain. Trainbase2paths
+driftacrossdose runs; heldbaseall18identical. Keep ownfreshcontrols/denominators.
+
+IDrenaming36 independentlyaudited,RESULT2746841f88735462cf6bd436b2fa9a9215df69f50458d916d1d8f3668eb91376.
+Common17: originalBA.625024→.665675,renamed.638756both. Neither model's17renamed
+sets reverse-matches original; strongname/tokenizationsensitivity, NOTmemorizationproof.
+AuditREPORT uses 'strict/semantic2/2' as two COUNTS, not a sample denominator:
+bothgrades2successesoutof18 for eachmodel, sameonecontextbothrepeats.
+
+MAINread fresh48 anddose72FINDINGS fully andactual terminalresults; publicreport,
+NOW, CURRENT_SUMMARY, PROMISING_RESULTS andquestioncards updated with01:00cutoff.
+New ranked futurequestion: questions/public-state-and-decision-accounting.md.
+No furtheroptimizer/promptvariantprepared; close unproductive dosebranch.
+
+Publishing underway in operations/2026-09-13-selection-and-state-checkpoint/.
+Latest VERIFIED remote remains84e5b84 RLM/e940231 notebook until push receipt.
+Newreport: docs/research-checkpoints/2026-09-13-from-answer-delivery-to-information-selection.md.
+Exporter uses explicitsources/compactauditdata; totalcap96MiB,perfile5MiB,
+noinputs/weights/secrets. Preserveoldreadinessfailures andownedcleanupreceipts.
+GPU gaps andstartup time are operationscost, notscience. Historicaldeckunchanged.
+
+## Latest resume pointer — September 13, 2026, 00:50 UTC
+
+ACTIVE/QUEUED:55520 fixedselectionLR1e-3 readout72, READY56355c1d19c43ae742f5dbd40e6cdf19e06f836648a1270c001e3d63c5239cc0,
+op2026-09-13-selection-dose10-readout. Then31676 freshnormalization48,
+READY109f3f0e1ea54bc53dbb0dd52a9544cd97e8292d15c0851f04e5e6c43992f5c0,
+op2026-09-13-normalization-fresh12. Both explicitflock; allconditions regardlessscore.
+Fresh12:6history1 widths6/12/20,6history3 widths6/12; checkrevisions1. Gen
+202609360000..11,decodes202609370000..23, all48prefixesfit. MAIN read181newlines
+andunchanged54linenormalizer. Thisalreadyacceptedprep finishes at20%winddown.
+CPU token freshaudit; local doseaudit; post IDrenamingaudit. No newbroadbranches.
+
+COMPLETE53655 selectiondose10 training47.887s owner,34.778strainer, exactoriginal
+zero-Binitializationpassed,delta2.9638119474. STEPd93564fc5c541646711b1aff3ac14aa6c6074b8516ca1c017de4f8b2fa41072a,
+state6cc8aed20f9b4ef511fe945a0a36f42140468d8f62594c61bc333662d905a34f,
+binding0de34173266b49342fff485a560ccd33864be6a90101070d71c918c3ca37045c.
+Readoutstillpending atthischeckpoint; newdosefromoriginalbase, notcontinuation.
+
+COMPLETE78178 originalLR1e-4 IDrenaming36,78.092s/allavailable/released,
+RESULT2b0e3b2f2b69d523d6f9297765d3af46cc08fd78932590e1476a0bbc948c12d9.
+Rawcollector: exact2/18both, BA.626468→.638373 over18valid, TP125both/FP55→52.
+Originaltrainingreadout17valid had+.04065BA; newrenaming+.01190 needscommonvalid
+andnativeauditor (postworking). Cannotconcludememorization fromdifferenttokens.
+
+COMPLETE57303 normalization36 then8B8. Normalization119.826s/allasvalid,
+independentauditREPORT9c1a82841c9eccfb2f18aa27cf8c3cf9e710dd8bbd66a1c16d84528af03b06be,
+mechanism46eb9c6fc379a0a953bdf31b199125cc44956b0f364d97357bb2fe20e6ae5dbc.
+All114publiccandidatesretained/effectivefieldsverified. Semanticexact0→4/18,
+4W0L fromTWOwidth6contexts atbothseeds. Allfourwinsunsorted; strictexact0both.
+TP116→138,FP53→49,FN32→10,TN27→31;BA.63198→.73514;input71236→41298.
+Width12/20remain0exact; twoothercontextsloseBA duefalsechecks/allcandidateoutput.
+Studycounts9cases,not18IID. No eligibility or gold used by publicnormalizer.
+
+8Battempt003 completed104.167s/runtimequalified/released;0/4direct+0/4oracle,
+all8nativeavailable, sixunsortedfeatures/twowitnessarithmeticerrors. Inertpublic
+witnessrecompute preservingpredictedIDs makes6validwrong/2stillinvalid;0optima.
+AuditRESULT94bf50562119c1fc3971e06f1d3c8a8a510d57c606686ce8b3747a46dcc55775,
+ADDENDUM76f70552315c5c7195931e04b329c3035bde43aa2ea38f7233db214c4de36537.
+Notpurecapacitycomparison, no automaticfurther8Bruns. Failed002remainsUNKNOWN8.
+
+Selectionoriginal72 audit7cb6d668226700b10ad63aac7284c071b93e6100e192742b362a52a9542593e3:
+train5FPremovalsalllatest-checkfailures,3oncreditedgroup2onzeroadvantagegroups;
+2eligibleadditionsoffset2omissions,notnoindividualharm. Sameout-of-shardinvalid
+traincoordinatebothmodels. Trainsemantic2both/17validBA+.04065,heldsemantic0both
+/18validBA-.00511. Actualsetmovement, notformatonly; nosolidheldRLgainyet.
+
+Quota20%@00:48:28, next01:03:28;winddownoptionalnow, pause15/reserve10.
+AccountresetSep19notsoon. MAINsoleGPUlauncher. LastGitHub84e5b84/e940231 at23:53;
+newpublicreportdraft00:18 NEEDSUPDATING/publishingwithabovefindings; mainNOWtop00:18.
+Finishacceptedreadouts/audits, conciseclaim/researchquestionupdates, GitHubcheckpoint,
+thenpreservehandoffbeforebudgetthreshold. GPUgapsandfailedstartupnotcountedscience.
+
+## Latest resume pointer — September 13, 2026, 00:26 UTC
+
+ACTIVE71207 selection72 fixed base/cp1 train18+held18, explicitflock, operation
+`2026-09-13-selection-rl-readout/run.py`. READY SHA
+a32cae2ac08ec93327805eef6afc886e8f15e20fd00361bff90488db614b2d52,
+identityea128a68…,2208pins. MAIN read all359 newsource lines, actual collector,
+runtime binding and full cp1 qualification; actual CPU owner entry reached guard.
+Uses current runtime-an22-5801-v1 wrapper and lifecycle, true base path/solecp1.
+No pooling older width-service controls. Stored FP32 LoRA casts to BF16 in service.
+CPU local preparing saved-native audit, token preparing public-state normalization36.
+Normalization question: ideas/2026-09-13-normalize-public-state-before-delegation.md.
+
+COMPLETE55177 both independent jobs: BA18 trained48.085s owned/35.182s trainer,
+deltaL2.2963813, peak10.416GiB, cp1STEP6dd1a23adb98232665e86cdbb60c6020cf2d24efef297dce1f6ee6aa459efb70,
+state4ec0d1979f8f205d50d7d5ee8887cf6152057dfcb925ef8a3e825748489dbe8c.
+No learning claim until72 readout. FinQA fresh32 completed56.616s, allavailable,
+direct1/16,DSL2/16/valid8,1W0L plus1bothcorrect, independentaudit0issues.
+Resultaf5cce0efab3866e86deb0f7b7f7fcae61eef84c4b65f8a02a5961e8143ee3fa,
+FINDINGS31bbb5aa…,MECHANISM93ce3a69… underfresh16-independent-2026-09-13/outcome-002.
+SoleDSLwinfaithfulcustomer share; sharedwinmortgagechange; anothercorrectsource
+mean1899 mismatches erroneousprovided2850 target, primarynotrepaired. No further
+FinQAprompt tuning currently justified.
+
+COMPLETE30359 freshMRCRaudited:24→27exact,5W2L,32newcontexts; normalized29both,
+clean29both,22/32fullpathsidentical. Fourwins samecleaninfo,onepathretrievalgain;
+lossonepreaction/oneboundary. Byoccurrence1–4:6→8,4→6,7→6,7→7 of8.
+Allavailable/costknown; samepublicfamily, developmentselectedLR, notbroadRLclaim.
+
+FAILED67658 optional8Battempt002 beforeanyscience; UNKNOWN8not0accuracy.
+Missing study.now caught/fixed BEFOREGPU via additiveREADYf388ec59…, but live
+owner inherited wrong claim_service expected directinference command instead of
+actualengine_entry_v2. Automaticreleasealsofailed. MAIN verified savedPID1166392
+startticks1106281859/UID/group/directCUDAchild1166536 and SIGTERMed onlyownedgroup
+underflock. All3PIDs gone andGPUempty before00:24. Oldterminalfalsepreserved,
+no filesremoved. Receipts2026-09-13-b05-alternative-model/{OWNED_SIGTERM.json,
+terminate_owned.py,CLEANUP.md}. CPU post prepares onlythinexistinglifecycle_v3
+binding correction/actualstart→claim→release fixture; noGPU authority.
+
+Quota22%@00:26:02,next00:41:02;winddown20/pause15/reserve10. Main sharedbucket.
+LatestverifiedGitHubstill84e5b84/e940231; newplainreport00:18 isdraft/unpushed:
+docs/research-checkpoints/2026-09-13-from-answer-delivery-to-information-selection.md.
+NOW/questioncardupdated00:18. Historicalmeetingdeckunchanged. GPUpreparation/
+portrepairgap00:15–00:26 is recordedoperationscost, notscientificutilization;
+8Ballocatedmemoryduringfailedstartup was not useful model evaluation.
+
+## Latest resume pointer — September 13, 2026, 00:16 UTC
+
+ACTIVE55177 operation `2026-09-13-selection-rl-and-fresh-finqa/run.py`, explicit
+flock, MAIN sole GPU launcher. BA18 actual-selection training began: GPU trainer
+PID1162051 observed at9.8GB. READY7a2fe51f53402604ad3c3f437fd61d96ff347423417859b99916e720c85d6aa5.
+Released base plus fresh zero-B LoRA, one LR1e-4 update, balanced-accuracy G2,
+18 denominator/eight credited/ten zero actions. Fixed train18+fresh held18 tasks
+frozen before training; local agent preparing separate conditional 72-call evaluator.
+Next in same accepted queue: unchanged two-example FinQA on next16 unseen pages,
+32 calls READY6fb1607ad82554dcccdf761fdff781ae939d6feda414bbdcaf0c57b6d227107f.
+This independent stage proceeds after training release regardless training outcome.
+
+COMPLETE30359 repaired freshMRCR32 both models: all64 scientific outcomes available,
+released. Primary raw exact cp32 24/32 versus LR1e-4 27/32; normalized exact29/32
+both. Native input67556→66095, output17583→21302, rootcalls64→63, zero childcalls.
+Not yet independently paired/path-audited; post agent executing prepared one-shot
+auditor now. Do not call the net3 exact gain improved reasoning/retrieval.
+Failed attempt001 remains startup-only UNKNOWN, not wrong answers.
+
+CPU_READY alternative-model calibration: cached post-trained Qwen3-8B nonthinking,
+same four B05 direct plus four perfect-report oracle questions/seeds/graders.
+READYd9265b8625f8e40b9199dfe68035951014720a21a0ec1e7a77a8d96d1b802b0e,
+300/450/550 caps. MAIN read all250 new Python lines + design; final inherited
+collector seam inspection underway. Not a pure model-size effect; cached model's
+frontmatter parent had been misread as Base identity. Additive correction saved.
+
+Quota23%@00:11:08; next00:26:08, winddown20/pause15/reserve10. Latest verified
+GitHub remains RLM84e5b84/notebooke940231 at23:53; later findings not yet pushed.
+CPU token preparing independent freshFinQA audit. No agent GPU launch allowed.
+
+## Latest resume pointer — September 12, 2026, 23:59 UTC
+
+ACTIVE30359 freshMRCRbalanced32×2models repair, operation
+`2026-09-12-fresh32-dose-transfer-repair/run.py`, explicitflock. Run gate
+RUN_READY_SERVICE_REPAIR SHA284d965c6b23da9d17d2b319dbc798d44950347b9381b10d41fec2c67a33ced4,
+identityce1011fe…,3231pins. Exactscience unchanged, outputs{cp32,lr1e4}-002.
+ActualdualloRA runtime-an22-5801-v1 wrapper nowstarted, requirehealthyactualcalls
+beforeclaiming science. Earlier73765 attempt001bothmodelsfailed~17s each
+beforeanyscience: inheriteddependency chosebase-onlywrapper andrejectedvalid
+LoRAbindings. Bothreleased, outcomesUNKNOWNnot0correct. MAINreviewedrepair
+andactualsuite.start_serviceargv/bothbindingfixture. No waiver/overwrites.
+Independentfreshauditor CPU_READY_V2 SHA007ac22cc8ffee670a03f85c4c29f4ff5f3726185c78a53770fb81a6f5610599
+inanalyses/openai-mrcr-fourneedle-balanced32-dose-transfer-2026-09-12, readyunrun.
+
+COMPLETE73949 FinQA2demo32:60.037s,released/runtimequalified,RESULTf9bd927a….
+IndependentauditCOMPARISON SHAa0983659d9d7622b9aed65a61ffee057a3b780bc33754a74d58016cc0376026f,
+analyses/finqa-two-example-independent-2026-09-12/outcome-001. Direct1/16,
+DSL3/16valid7,invalid9;3W1L,newarmsallavailable. Zero-shotDSLvalid0. Literal#i
+13→0;twoDSLwinsfaithfularithmetic,thirdratio-cancellationwithduplicatedtotals.
+Directgain2000source-supported,nohiddenreasoningclaim. No weighttraining.
+CPUtokenpreparesfreshnext16pages32paired unchangedcondition/demos384/T.5,
+newseeds202609300000+i, noannotation/op/difficultyfilter.
+
+Width126fullyaudited: unorderedk1/2/4exact2/0/2 over18;k4vsflat2W2L.
+Bothsuccessfulcaseunitswidth6;posthocperfectchooser4/18(notlearnedpolicy).
+All48strict-invalidphysicalrepliesorderingonly,nolength/unknownscopeerrors.
+FINDINGS16549d84…,readout1fd4008b…,REWARD_CONTRAST3f8d92ad….
+CPUlocalactivelypreparesB05flatselectionRL18,question/planapproved:
+freshseededrank8alpha16zero-BLoRA onbase4B (NOTcp32),balancedaccuracy
+meanrecallofpresentclasses,G2all18denom8credited10zero,LR1e-4oneupdate,
+sampledarray-spanmasknotgoldtokenmask,clip1/TIS2biased/checkpointAdamRNG.
+Binaryexactall9groupszero;BA4mixedpairs. AllIDsbaselineBA.5556vsmodel.6215;
+Jaccard/F1modelworse thanallIDs, motivatingBA. Newheld9stages×2 frozenbefore
+update, freshbothmodels train18+held18=72calls. CPUprep20-30min;notGPUadmitted.
+
+VERIFIEDGitHub23:53: RLM84e5b8455889f987e18763e452aab37987e050ee,
+notebooke9402314577caecf1ba3935849665badededed0d, bothclean. Cutoff23:45,
+4263manifesthashesverified,108filesstaged,63,804,661bytes,credentialscan0.
+Newdoc2026-09-12-rl-dose-and-local-delegation.md,olddeckunchanged.
+Exportoperation2026-09-12-dose-and-delegation-checkpoint/export.py SHA0bd2ff05…;
+firstpre-widthscriptarchivedasexport_pre_width.py withoriginalSHA2256794f….
+Quota24%@23:53:35,next00:08:35;winddown20/pause15/reserve10. Allocationunchanged.
+GPUidlepreflight/repair/readinessgaps areactualoperationscost, do notlabelscience.
+MAINsoleGPUlauncher;allagentsCPUonly;no blockinguserquestions.
+
 ## Latest resume pointer — September 12, 2026, 23:37 UTC
 
 ACTIVE96539 B05width126 under explicitflock, operation2026-09-12-b05-width-queue.

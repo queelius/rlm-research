@@ -1,0 +1,44 @@
+{
+  "authority": "MAIN",
+  "epoch": 1789259020.489756,
+  "external_flock": true,
+  "files_removed": 0,
+  "group_leader": {
+    "pgid": 1166392,
+    "pid": 1166392,
+    "ppid": 1,
+    "start_ticks": 1106281859,
+    "state": "S",
+    "uid": 1523821556
+  },
+  "members": [
+    {
+      "pgid": 1166392,
+      "pid": 1166392,
+      "ppid": 1,
+      "start_ticks": 1106281859,
+      "state": "S",
+      "uid": 1523821556
+    },
+    {
+      "pgid": 1166392,
+      "pid": 1166535,
+      "ppid": 1166392,
+      "start_ticks": 1106283382,
+      "state": "S",
+      "uid": 1523821556
+    },
+    {
+      "pgid": 1166392,
+      "pid": 1166536,
+      "ppid": 1166392,
+      "start_ticks": 1106283383,
+      "state": "S",
+      "uid": 1523821556
+    }
+  ],
+  "ownership_receipt": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-qwen3-8b-direct-oracle-v1/outputs/attempt-002/service/OWNED_PROCESSES/1166392-1106281859.json",
+  "ownership_sha256": "2e81bcbd7a51b0b3c5ce2403ed0ad87488103f99a08a29ae3ec1132623d61e48",
+  "reason": "New8B launcher spawned owned group, but inherited service claim rejected its launcher binding and release failed before scientific calls.",
+  "signal": "SIGTERM"
+}

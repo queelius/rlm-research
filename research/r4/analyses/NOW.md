@@ -1,11 +1,81 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-12T23:37:00Z
-status: active_exploratory_research
-claim_level: exploratory_procedure_transfer_and_exact_return_contract_mismatch
+updated_utc: 2026-09-13T01:00:00Z
+status: completed_batch_account_reserve_wind_down
+claim_level: exploratory_public_state_preparation_and_narrow_delivery_learning
 ---
 
 # Research in plain language
+
+## Current interpretation — September 13, 01:00 UTC
+
+The strongest new harness result is organizing public records before asking the
+model to select candidates. Python combines updates and latest checks, retains
+every candidate, and never computes eligibility. On twelve fresh cases, each
+answered twice, correct complete selections rose from 1/24 to 9/24, with eight
+wins and no losses across five cases. Input tokens fell by 52%. All successes
+were on six-candidate cases; twelve- and twenty-candidate cases remained
+imperfect. Sorting is separate: strict-format successes rose only from 0 to 2.
+The [fresh audit](b05-public-normalization-fresh12-independent-2026-09-13/outcome-001/FINDINGS.md)
+checks every case, all 130 retained candidates, and all 48 actual calls.
+
+This follows an initial 0/18 to 4/18 result on nine different cases. The panels
+are not pooled. Longer histories occur in the fresh panel, but on different
+instances; we have not isolated history length or input length causally.
+This is a useful hand-designed harness change, not learned decomposition.
+
+Actual-selection RL now has two completed dose comparisons. The smaller update
+improved its training score but not separate-case exact selection. Consistent
+ID renaming removed its advantage on the seventeen common-valid comparisons.
+The larger step reduced local fit. Its separate-case reward rose by 2.8 points,
+but it missed seventeen more good candidates and exact selection remained 0/18.
+The [dose audit](b05-flat-selection-rl-dose10-independent-2026-09-13/FINDINGS.md)
+shows why a higher graded reward need not mean a better complete answer.
+
+The fresh conversation result remains a narrow positive RL signal: 24/32 to
+27/32 exact answers, but both models found the correct text in 29 cases.
+Most gains concern copying already retrieved information. Financial-question
+tests show partial interface learning from prompt examples, not weight training:
+on sixteen new pages, programs matched 2 targets versus 1 direct answer, with
+only 8 executable programs. Target annotation problems remain visible.
+
+Next priorities are explicit yes/no decisions for every candidate, varied
+selection training, and choosing when to reorganize or split information.
+See the [ranked question card](../questions/public-state-and-decision-accounting.md).
+All accepted jobs and audits are complete. GPU released and idle; no further
+job is admitted. Account 19% at 00:58 UTC, winding down to preserve the reserve.
+Earlier dated interpretations below are historical, not current run status.
+
+## Current interpretation — September 13, 00:18 UTC
+
+The larger reward update improved exact copying on a new32-conversation panel:
+24 to27 correct, with five gains and two losses. Both models found the clean
+target in29 cases, and both scored29 when edge whitespace was ignored. Four
+of the five gains followed the same retrieved information; one changed the
+search path. This is a small fresh-context answer-delivery signal, not evidence
+that the model generally decomposes problems better. Every outcome was available;
+the independent native audit found no discrepancies. The learning rate was
+chosen using earlier development results, and this is still the same task family.
+
+We changed the next learning target. A48-second owned run has completed one
+reward update on actual record selections. The reward values both finding eligible
+items and rejecting ineligible ones, rather than encouraging a list of everything.
+An all-or-nothing reward would give no contrast in any of the nine sampled pairs;
+the graded reward gives useful contrast in four. A separate before/after readout
+on training stages and nine fresh stages is being prepared. Changed weights alone
+are not a result about accuracy.
+
+Two examples in the financial-question prompt helped the model use a calculation
+interface. On new16 pages,8 programs were executable and2 matched the supplied
+target, versus1 direct answer. All32 calls were available. These remain very low
+scores, and some supplied targets disagree with the source. This is prompt-based
+interface calibration, not SFT/RL or evidence of general arithmetic competence.
+
+Our next harness comparison asks Python to combine public updates and current
+checks before delegating eligibility decisions. It keeps every candidate and
+does not tell the model which ones qualify. This isolates bookkeeping from the
+selection decision; it is hand-designed assistance, not learned decomposition.
+Earlier entries below preserve the changing interpretation.
 
 ## Current interpretation — September 12, 23:37 UTC
 

@@ -1,0 +1,42 @@
+{
+  "GPU_calls": 0,
+  "all16_retained": true,
+  "argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-independent-2026-09-12/analyze.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-independent-2026-09-12/outcome-001"
+  ],
+  "model_calls": 0,
+  "no_automatic_prompt_variant": true,
+  "no_parser_or_metric_changes": true,
+  "one_shot_no_polling": true,
+  "pytest": {
+    "command": [
+      "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-independent-2026-09-12/test_compare.py"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": ".                                                                        [100%]\n1 passed in 0.09s\n"
+  },
+  "schema": "finqa-fewshot32-independent-comparison-ready-v1",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-scalar-vs-dsl-independent-2026-09-12/analyze.py": "82f6987a096494d496341f0f62b5ee11590b021381f7f697778511f74d367be4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-scalar-vs-dsl-independent-2026-09-12/outcome-002/REPORT.json": "7c8f16330afae29cbc9936a863fa07ced913c5c5cc484513936b8ef913b22d58",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-independent-2026-09-12/RUNBOOK.md": "2f5fa2009ab2bc0df6fd7f0db568bd3d606fdfa3e7be8df95b27305743aef02e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-independent-2026-09-12/analyze.py": "2ed56991d85e96209d328fbd23ca6ab02ce08e89d8a1ce314853fd85ea3ba551",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-independent-2026-09-12/test_compare.py": "81fcaca90c3c084469c474ec960bb84ee851124446a164f367f48d7c3212b734",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-scalar-vs-dsl-v1/HOST_TARGETS.json": "e8f8def6cec593e33c3b4fce5853181227eaaf520746bfe3eff875d31b744c68",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-scalar-vs-dsl-v1/PUBLIC_INPUTS.json": "af2f78e5731578e9f12e4c33b8410c5e01b38b383c727c14e5cc1e43f17f4452",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-two-example-interface-v1/CPU_READY.json": "c7866cd040797d4fbb08cd0f6c36b41fcecb80cb6da0bbf3139007a4f327ede6",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-two-example-interface-v1/HOST_TARGETS.json": "e8f8def6cec593e33c3b4fce5853181227eaaf520746bfe3eff875d31b744c68",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-two-example-interface-v1/PUBLIC_INPUTS.json": "2b15811ee118c0e1e1ea740596e7c5b1717607bdc82fc7676da7e2a2f37c5c49",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-two-example-interface-v1/TOKEN_AUDIT.json": "c646a0a9b68e54ba7ec17d5afda5c08f4d4d87f7d0c97d325be7c9b8f0e5ed17"
+  },
+  "status": "CPU_READY_NO_OUTCOME_CHECK"
+}

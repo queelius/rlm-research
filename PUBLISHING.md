@@ -14,10 +14,13 @@ store remains authoritative for raw run outputs.
 
 ## Size budget
 
-- Publication limit: **5 MiB per file** and **64 MiB total exported content**.
+- Publication limit: **5 MiB per file** and **96 MiB total exported content**.
   The original 50 MiB budget was extended on September 12 to retain completed
   replication and transfer evidence without deleting earlier research. These
-  are our stricter local budgets, not GitHub limits. Model weights, environments
+  are our stricter local budgets, not GitHub limits. On September 13 the total
+  cap was extended to 96 MiB for compact completed selection-training, fresh
+  replication and harness evidence, preserving the earlier negative findings.
+  The per-file cap and exclusions are unchanged. Model weights, environments
   and bulk data remain excluded.
 - Keep Git history small; review history size before each refresh. Repeated small
   snapshots still accumulate history. Revisit storage before history reaches 250 MiB.

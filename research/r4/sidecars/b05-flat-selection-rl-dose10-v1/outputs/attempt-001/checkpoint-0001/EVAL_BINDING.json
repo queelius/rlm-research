@@ -1,0 +1,11 @@
+{
+  "adapter_config_sha256": "50834c5538488c60016336be82369608e9822ce0d6f5e634b69a2b4da3598e1f",
+  "adapter_sha256": "9fcdba00e8dc165a6d690e061bca40533df456f616bd22df112f556be8fa9a52",
+  "alias": "Qwen3-4B-Instruct-2507-b05-flat-BA18-dose10-step1",
+  "base": "/project/alex_phd/research-cache/models/Qwen--Qwen3-4B-Instruct-2507--cdbee75f17c01a7cc42f958dc650907174af0554",
+  "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-dose10-v1/outputs/attempt-001/checkpoint-0001",
+  "schema": "b05-flat-BA18-checkpoint-binding-v1",
+  "selection": "fixed sole step1; not outcome-selected",
+  "source_ready_sha256": "f845658e39448ab0f7836f0da09f8a8e9a5518400450ede7d513c28b7ef6da2b",
+  "state_sha256": "6cc8aed20f9b4ef511fe945a0a36f42140468d8f62594c61bc333662d905a34f"
+}

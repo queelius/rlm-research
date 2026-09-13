@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "elapsed_seconds": 411.10403537750244,
+  "errors": null,
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "recorded": 32,
+  "released": true,
+  "result": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-balanced32-transfer-eval-v1/outputs/cp32-002/science/RESULT.json",
+  "scientifically_available": 32,
+  "stage": "cp32",
+  "terminal_strip_contract": "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-balanced32-transfer-eval-v1/outputs/cp32-002/science/TERMINAL_STRIP_CONTRACT.json"
+}

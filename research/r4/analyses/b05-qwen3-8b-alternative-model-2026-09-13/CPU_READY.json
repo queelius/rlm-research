@@ -1,0 +1,27 @@
+{
+  "GPU_calls": 0,
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-qwen3-8b-alternative-model-2026-09-13/CPU_TESTS.json": "4fc08c41ada9e82d44bd6b7d4676a2d0d77b85ff39a2276bf9fb67bc2215a9f6",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-qwen3-8b-alternative-model-2026-09-13/analyze.py": "8d0fbc2a147707db613f9e6375e4a59b99b323eb2c55a11d6be35d385e3a308b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-qwen3-8b-alternative-model-2026-09-13/prepare.py": "751c5bbea39a28d2a85d9d71a3c5c3acd9f9b055cad5879a7a265c7627b224ba",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-qwen3-8b-alternative-model-2026-09-13/test_analyze.py": "addbd4a0377cd1702b4d81ffad15e7d1874f5bd2e126fb75807fbaeccb0e5231",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-qwen3-8b-direct-oracle-v1/INPUTS.json": "1676ddf41b453d6f9337798385683b11388a00774c421617499c288a4b1f1c38",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-qwen3-8b-direct-oracle-v1/READY_LIFECYCLE_REPAIR.json": "8b2ab88a037e7fd4e84c3a077011884c3cd1bbcd2566de58078a0a844c31862b"
+  },
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-qwen3-8b-alternative-model-2026-09-13/analyze.py",
+    "check",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-qwen3-8b-alternative-model-2026-09-13/RESULTS.json"
+  ],
+  "created_epoch": 1789259281.8663447,
+  "identity": "c9161f7df6b5754db9e229f2d426302047bf32023347dc41d0a1e141fc75731d",
+  "model_calls": 0,
+  "planned": 8,
+  "schema": "b05-qwen3-8b-alternative-model-audit-ready-v1",
+  "source_attempt": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-qwen3-8b-direct-oracle-v1/outputs/attempt-003",
+  "source_ready": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-qwen3-8b-direct-oracle-v1/READY_LIFECYCLE_REPAIR.json",
+  "source_ready_sha256": "8b2ab88a037e7fd4e84c3a077011884c3cd1bbcd2566de58078a0a844c31862b",
+  "status": "CPU_READY_ONE_SHOT_NO_POLL"
+}

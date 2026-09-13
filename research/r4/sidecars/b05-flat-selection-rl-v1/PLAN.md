@@ -1,0 +1,5 @@
+Goal: one actual-selection BA-RLOO update from released base on the frozen flat18, then fixed train/held readout. MAIN approved the bounded design; only MAIN may admit GPU work.
+
+Task1: new study.py/core.py/train.py/owner.py/prepare.py plus two focused fixtures, frozen training/mask and held manifests, CPU receipts and READY. Reuse reviewed native and HF math/scoring seams, no live/sealed edits or new environment. Tests cover real zero-B init/HF gradients/Adam-RNG and actual native token-span provenance. Preserve denominator18, eight credited/ten zero actions, fixed present-class reward rule, one optimizer step and no data or outcome-selected masks. Checkpoint weights/Adam/RNG plus exact parent/source/gradient bindings.
+
+Task2: MAIN review/admission. Prepare conditional fixedcp1 native train18+held18 and released-base controls under existing LoRA runtime; 72 planned replies, all phases regardless score, no checkpoint selection. If runtime binding grows beyond a thin adapter, report the seam and defer that work rather than build a framework. No subagent GPU launch.

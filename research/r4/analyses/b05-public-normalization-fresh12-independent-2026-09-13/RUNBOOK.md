@@ -1,0 +1,11 @@
+# Fresh normalization48 independent one-shot audit
+
+Reuses the qualified normalization36 native auditor, with only fresh sidecar/output bindings, 48-call inventory, 12/24 unit counts and schema changed. Independently regenerates all prospectively frozen public roots from the exact seeds/config; verifies no prior root/ID overlap, all stage/width/history selections, exact raw rendering, every effective field and retained candidate, and every frozen request. The normalizer and this public audit compute no eligibility. Known outputs are independently decoded and graded only after the terminal qualifies.
+
+Actual native checks preserve model/base/no-adapter, tokenizer prefix, seed/decoding settings, full saved prompts, request bytes, canonical JSON versus raw response hash distinction, completion token/logprob/text binding, score/unknown/cost denominators, worker dispatch/lifecycle and release. No generated code execution, gold prompt use, eligibility repair, model calls, or GPU access. The sole `exec` compiles pinned reviewed audit source for a thin binding adapter, never a model reply.
+
+Two focused tests exercise an actual archived HTTP fixture pair and hand-derived history/unknown grouping. The sealed public audit includes all 130 retained candidate records. Run the CPU_READY argv once. Missing terminal writes PENDING; unqualified terminal writes HOLD; neither is polled. A later MAIN wake may choose a new immutable output directory.
+
+REPORT is the full native/public audit. SUMMARY adds all 12 context cases, 24 paired seeds, history/width groups and distinct-context wins/losses. Keep the prior exposed held9 result separate. The history-depth groups use different new instances and widths; their score difference is not an isolated causal history effect. History depth varies change rows only, not check revisions. Strict sorting is separate from unordered semantic exact; invalid and unknown remain separate. BA averages valid sets; precision/recall denominators are explicit. Natural calls are one per answer in both arms; input/output token costs are not matched.
+
+After completion, manually adjudicate all cases from saved IDs/public facts, record concise findings and obvious future questions only. No new runner, prompt variant, experiment preparation or GPU fan-out during wind-down.

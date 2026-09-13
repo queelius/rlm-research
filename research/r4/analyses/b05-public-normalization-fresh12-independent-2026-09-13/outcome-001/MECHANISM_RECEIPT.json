@@ -1,0 +1,11 @@
+{
+  "GPU_calls": 0,
+  "host_only_no_output_repair": true,
+  "model_calls": 0,
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-fresh12-independent-2026-09-13/CPU_READY.json": "64dd14d8a213eebf8ed7555506bc7466b02bd8454e56f01651ca6a0fa67f9bb4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-fresh12-independent-2026-09-13/mechanism.py": "11039f728a23b7bd012ed7a281584aaffa893c1f8d9cb05514258586f7b30c5d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-fresh12-independent-2026-09-13/outcome-001/MECHANISM_REVIEW.json": "7ce7f1d787cc76372de62ac04aee93025021b21cf0e7d062520af531356811ad",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/mechanism.py": "ff8a87a91263fc7c294fca25c993fb27da16356dfeedf041b19599e1850a70dd"
+  }
+}

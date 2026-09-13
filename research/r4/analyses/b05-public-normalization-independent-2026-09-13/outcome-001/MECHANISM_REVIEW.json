@@ -1,0 +1,4571 @@
+{
+  "cases": [
+    {
+      "pairs": [
+        {
+          "BA_change": -0.125,
+          "added_eligible": [
+            "impl_ba41a85dad25"
+          ],
+          "gold_ids": [
+            "impl_05a0a8376916",
+            "impl_2cd68f64bd6f",
+            "impl_5a876bff6d8d",
+            "impl_ba41a85dad25"
+          ],
+          "normalized_false_positives": {
+            "impl_0a8841657576": [
+              "latest_check:schema"
+            ]
+          },
+          "normalized_ids": [
+            "impl_05a0a8376916",
+            "impl_0a8841657576",
+            "impl_2cd68f64bd6f",
+            "impl_5a876bff6d8d",
+            "impl_ba41a85dad25"
+          ],
+          "normalized_missed": [],
+          "outcome": "both_wrong",
+          "raw_false_positives": {},
+          "raw_ids": [
+            "impl_05a0a8376916",
+            "impl_2cd68f64bd6f",
+            "impl_5a876bff6d8d"
+          ],
+          "raw_missed": [
+            "impl_ba41a85dad25"
+          ],
+          "removed_eligible": [],
+          "repeat": 0,
+          "root_id": "root_5b6abad4190621",
+          "seed": 202609330000,
+          "width": 6
+        },
+        {
+          "BA_change": -0.125,
+          "added_eligible": [
+            "impl_ba41a85dad25"
+          ],
+          "gold_ids": [
+            "impl_05a0a8376916",
+            "impl_2cd68f64bd6f",
+            "impl_5a876bff6d8d",
+            "impl_ba41a85dad25"
+          ],
+          "normalized_false_positives": {
+            "impl_0a8841657576": [
+              "latest_check:schema"
+            ]
+          },
+          "normalized_ids": [
+            "impl_05a0a8376916",
+            "impl_0a8841657576",
+            "impl_2cd68f64bd6f",
+            "impl_5a876bff6d8d",
+            "impl_ba41a85dad25"
+          ],
+          "normalized_missed": [],
+          "outcome": "both_wrong",
+          "raw_false_positives": {},
+          "raw_ids": [
+            "impl_05a0a8376916",
+            "impl_2cd68f64bd6f",
+            "impl_5a876bff6d8d"
+          ],
+          "raw_missed": [
+            "impl_ba41a85dad25"
+          ],
+          "removed_eligible": [],
+          "repeat": 1,
+          "root_id": "root_5b6abad4190621",
+          "seed": 202609330001,
+          "width": 6
+        }
+      ],
+      "policy": {
+        "max_cost": 55,
+        "max_latency": 45,
+        "min_capacity": 8,
+        "min_quality": 4,
+        "required_checks": [
+          "schema",
+          "security"
+        ]
+      },
+      "public_facts": {
+        "impl_05a0a8376916": {
+          "effective": {
+            "capacity": 32,
+            "cost": 18,
+            "features": [
+              "deduplication",
+              "encryption"
+            ],
+            "implementation_id": "impl_05a0a8376916",
+            "input_format": "csv",
+            "latency": 9,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "json",
+            "quality": 13
+          },
+          "violations": []
+        },
+        "impl_0a8841657576": {
+          "effective": {
+            "capacity": 32,
+            "cost": 23,
+            "features": [
+              "audit",
+              "deduplication",
+              "encryption"
+            ],
+            "implementation_id": "impl_0a8841657576",
+            "input_format": "csv",
+            "latency": 9,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "json",
+            "quality": 18
+          },
+          "violations": [
+            "latest_check:schema"
+          ]
+        },
+        "impl_2cd68f64bd6f": {
+          "effective": {
+            "capacity": 36,
+            "cost": 13,
+            "features": [
+              "deduplication",
+              "encryption"
+            ],
+            "implementation_id": "impl_2cd68f64bd6f",
+            "input_format": "csv",
+            "latency": 9,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "json",
+            "quality": 17
+          },
+          "violations": []
+        },
+        "impl_5a876bff6d8d": {
+          "effective": {
+            "capacity": 38,
+            "cost": 45,
+            "features": [
+              "audit",
+              "lineage"
+            ],
+            "implementation_id": "impl_5a876bff6d8d",
+            "input_format": "csv",
+            "latency": 23,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "json",
+            "quality": 29
+          },
+          "violations": []
+        },
+        "impl_ba41a85dad25": {
+          "effective": {
+            "capacity": 31,
+            "cost": 46,
+            "features": [
+              "compression",
+              "lineage"
+            ],
+            "implementation_id": "impl_ba41a85dad25",
+            "input_format": "json",
+            "latency": 30,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "json",
+            "quality": 26
+          },
+          "violations": []
+        },
+        "impl_e05f0d025db9": {
+          "effective": {
+            "capacity": 39,
+            "cost": 45,
+            "features": [
+              "compression",
+              "lineage",
+              "validation"
+            ],
+            "implementation_id": "impl_e05f0d025db9",
+            "input_format": "csv",
+            "latency": 7,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "json",
+            "quality": 42
+          },
+          "violations": [
+            "latest_check:schema"
+          ]
+        }
+      },
+      "root_id": "root_5b6abad4190621",
+      "stage_index": 0,
+      "width": 6
+    },
+    {
+      "pairs": [
+        {
+          "BA_change": 0.09999999999999998,
+          "added_eligible": [
+            "impl_7bdb9141a67f"
+          ],
+          "gold_ids": [
+            "impl_24ed25c1993c",
+            "impl_2ab0510408d9",
+            "impl_2ef94fd81113",
+            "impl_7bdb9141a67f",
+            "impl_894cfd171cbe"
+          ],
+          "normalized_false_positives": {},
+          "normalized_ids": [
+            "impl_894cfd171cbe",
+            "impl_2ef94fd81113",
+            "impl_24ed25c1993c",
+            "impl_2ab0510408d9",
+            "impl_7bdb9141a67f"
+          ],
+          "normalized_missed": [],
+          "outcome": "win",
+          "raw_false_positives": {},
+          "raw_ids": [
+            "impl_24ed25c1993c",
+            "impl_2ef94fd81113",
+            "impl_894cfd171cbe",
+            "impl_2ab0510408d9"
+          ],
+          "raw_missed": [
+            "impl_7bdb9141a67f"
+          ],
+          "removed_eligible": [],
+          "repeat": 0,
+          "root_id": "root_3b55ef23e40dea",
+          "seed": 202609330002,
+          "width": 6
+        },
+        {
+          "BA_change": 0.09999999999999998,
+          "added_eligible": [
+            "impl_7bdb9141a67f"
+          ],
+          "gold_ids": [
+            "impl_24ed25c1993c",
+            "impl_2ab0510408d9",
+            "impl_2ef94fd81113",
+            "impl_7bdb9141a67f",
+            "impl_894cfd171cbe"
+          ],
+          "normalized_false_positives": {},
+          "normalized_ids": [
+            "impl_894cfd171cbe",
+            "impl_2ef94fd81113",
+            "impl_24ed25c1993c",
+            "impl_2ab0510408d9",
+            "impl_7bdb9141a67f"
+          ],
+          "normalized_missed": [],
+          "outcome": "win",
+          "raw_false_positives": {},
+          "raw_ids": [
+            "impl_24ed25c1993c",
+            "impl_2ef94fd81113",
+            "impl_894cfd171cbe",
+            "impl_2ab0510408d9"
+          ],
+          "raw_missed": [
+            "impl_7bdb9141a67f"
+          ],
+          "removed_eligible": [],
+          "repeat": 1,
+          "root_id": "root_3b55ef23e40dea",
+          "seed": 202609330003,
+          "width": 6
+        }
+      ],
+      "policy": {
+        "max_cost": 55,
+        "max_latency": 45,
+        "min_capacity": 8,
+        "min_quality": 4,
+        "required_checks": [
+          "schema",
+          "security"
+        ]
+      },
+      "public_facts": {
+        "impl_0958791e2916": {
+          "effective": {
+            "capacity": 6,
+            "cost": 43,
+            "features": [
+              "validation"
+            ],
+            "implementation_id": "impl_0958791e2916",
+            "input_format": "rowset",
+            "latency": 16,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 15
+          },
+          "violations": [
+            "latest_check:schema",
+            "latest_check:security",
+            "capacity"
+          ]
+        },
+        "impl_24ed25c1993c": {
+          "effective": {
+            "capacity": 44,
+            "cost": 48,
+            "features": [
+              "audit",
+              "encryption"
+            ],
+            "implementation_id": "impl_24ed25c1993c",
+            "input_format": "csv",
+            "latency": 26,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 16
+          },
+          "violations": []
+        },
+        "impl_2ab0510408d9": {
+          "effective": {
+            "capacity": 46,
+            "cost": 14,
+            "features": [
+              "audit",
+              "lineage",
+              "validation"
+            ],
+            "implementation_id": "impl_2ab0510408d9",
+            "input_format": "csv",
+            "latency": 25,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 26
+          },
+          "violations": []
+        },
+        "impl_2ef94fd81113": {
+          "effective": {
+            "capacity": 42,
+            "cost": 44,
+            "features": [
+              "lineage"
+            ],
+            "implementation_id": "impl_2ef94fd81113",
+            "input_format": "csv",
+            "latency": 24,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 40
+          },
+          "violations": []
+        },
+        "impl_7bdb9141a67f": {
+          "effective": {
+            "capacity": 23,
+            "cost": 14,
+            "features": [
+              "deduplication"
+            ],
+            "implementation_id": "impl_7bdb9141a67f",
+            "input_format": "csv",
+            "latency": 16,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 25
+          },
+          "violations": []
+        },
+        "impl_894cfd171cbe": {
+          "effective": {
+            "capacity": 40,
+            "cost": 22,
+            "features": [
+              "compression"
+            ],
+            "implementation_id": "impl_894cfd171cbe",
+            "input_format": "csv",
+            "latency": 14,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 15
+          },
+          "violations": []
+        }
+      },
+      "root_id": "root_3b55ef23e40dea",
+      "stage_index": 1,
+      "width": 6
+    },
+    {
+      "pairs": [
+        {
+          "BA_change": 0.375,
+          "added_eligible": [
+            "impl_014c2297f449"
+          ],
+          "gold_ids": [
+            "impl_014c2297f449",
+            "impl_732db941ca81",
+            "impl_c0f8e4a255ed",
+            "impl_d7472e651827"
+          ],
+          "normalized_false_positives": {},
+          "normalized_ids": [
+            "impl_014c2297f449",
+            "impl_c0f8e4a255ed",
+            "impl_d7472e651827",
+            "impl_732db941ca81"
+          ],
+          "normalized_missed": [],
+          "outcome": "win",
+          "raw_false_positives": {
+            "impl_d763b6ecc5e5": [
+              "latest_check:security"
+            ]
+          },
+          "raw_ids": [
+            "impl_d763b6ecc5e5",
+            "impl_c0f8e4a255ed",
+            "impl_d7472e651827",
+            "impl_732db941ca81"
+          ],
+          "raw_missed": [
+            "impl_014c2297f449"
+          ],
+          "removed_eligible": [],
+          "repeat": 0,
+          "root_id": "root_3a96f2bcc0b496",
+          "seed": 202609330004,
+          "width": 6
+        },
+        {
+          "BA_change": 0.375,
+          "added_eligible": [
+            "impl_014c2297f449"
+          ],
+          "gold_ids": [
+            "impl_014c2297f449",
+            "impl_732db941ca81",
+            "impl_c0f8e4a255ed",
+            "impl_d7472e651827"
+          ],
+          "normalized_false_positives": {},
+          "normalized_ids": [
+            "impl_014c2297f449",
+            "impl_c0f8e4a255ed",
+            "impl_d7472e651827",
+            "impl_732db941ca81"
+          ],
+          "normalized_missed": [],
+          "outcome": "win",
+          "raw_false_positives": {
+            "impl_d763b6ecc5e5": [
+              "latest_check:security"
+            ]
+          },
+          "raw_ids": [
+            "impl_d763b6ecc5e5",
+            "impl_c0f8e4a255ed",
+            "impl_d7472e651827",
+            "impl_732db941ca81"
+          ],
+          "raw_missed": [
+            "impl_014c2297f449"
+          ],
+          "removed_eligible": [],
+          "repeat": 1,
+          "root_id": "root_3a96f2bcc0b496",
+          "seed": 202609330005,
+          "width": 6
+        }
+      ],
+      "policy": {
+        "max_cost": 55,
+        "max_latency": 45,
+        "min_capacity": 8,
+        "min_quality": 4,
+        "required_checks": [
+          "schema",
+          "security"
+        ]
+      },
+      "public_facts": {
+        "impl_014c2297f449": {
+          "effective": {
+            "capacity": 41,
+            "cost": 14,
+            "features": [
+              "encryption"
+            ],
+            "implementation_id": "impl_014c2297f449",
+            "input_format": "columnar",
+            "latency": 7,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 30
+          },
+          "violations": []
+        },
+        "impl_732db941ca81": {
+          "effective": {
+            "capacity": 12,
+            "cost": 47,
+            "features": [
+              "compression",
+              "deduplication",
+              "lineage",
+              "validation"
+            ],
+            "implementation_id": "impl_732db941ca81",
+            "input_format": "columnar",
+            "latency": 35,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "json",
+            "quality": 27
+          },
+          "violations": []
+        },
+        "impl_c0f8e4a255ed": {
+          "effective": {
+            "capacity": 33,
+            "cost": 19,
+            "features": [
+              "lineage"
+            ],
+            "implementation_id": "impl_c0f8e4a255ed",
+            "input_format": "columnar",
+            "latency": 10,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 29
+          },
+          "violations": []
+        },
+        "impl_d7472e651827": {
+          "effective": {
+            "capacity": 57,
+            "cost": 32,
+            "features": [
+              "encryption",
+              "lineage",
+              "validation"
+            ],
+            "implementation_id": "impl_d7472e651827",
+            "input_format": "columnar",
+            "latency": 37,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 15
+          },
+          "violations": []
+        },
+        "impl_d763b6ecc5e5": {
+          "effective": {
+            "capacity": 36,
+            "cost": 21,
+            "features": [
+              "audit",
+              "compression",
+              "lineage"
+            ],
+            "implementation_id": "impl_d763b6ecc5e5",
+            "input_format": "json",
+            "latency": 24,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 33
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_d94bb9425792": {
+          "effective": {
+            "capacity": 35,
+            "cost": 17,
+            "features": [
+              "audit",
+              "lineage"
+            ],
+            "implementation_id": "impl_d94bb9425792",
+            "input_format": "columnar",
+            "latency": 27,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 19
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        }
+      },
+      "root_id": "root_3a96f2bcc0b496",
+      "stage_index": 2,
+      "width": 6
+    },
+    {
+      "pairs": [
+        {
+          "BA_change": 0.125,
+          "added_eligible": [],
+          "gold_ids": [
+            "impl_3def79e7db8a",
+            "impl_8c71f95952cf",
+            "impl_99321983aa2d",
+            "impl_9961f2e08bb2",
+            "impl_a05e855db78e",
+            "impl_b491503623e1",
+            "impl_bbf6eceb279e",
+            "impl_dc05609312ec"
+          ],
+          "normalized_false_positives": {
+            "impl_4f77636a0584": [
+              "latest_check:security"
+            ],
+            "impl_539059365a39": [
+              "latest_check:schema"
+            ]
+          },
+          "normalized_ids": [
+            "impl_539059365a39",
+            "impl_9961f2e08bb2",
+            "impl_a05e855db78e",
+            "impl_b491503623e1",
+            "impl_dc05609312ec",
+            "impl_8c71f95952cf",
+            "impl_3def79e7db8a",
+            "impl_99321983aa2d",
+            "impl_bbf6eceb279e",
+            "impl_4f77636a0584"
+          ],
+          "normalized_missed": [],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_539059365a39": [
+              "latest_check:schema"
+            ],
+            "impl_5ce8fca33b66": [
+              "latest_check:security"
+            ],
+            "impl_a8115c669f27": [
+              "latest_check:schema"
+            ]
+          },
+          "raw_ids": [
+            "impl_3def79e7db8a",
+            "impl_539059365a39",
+            "impl_5ce8fca33b66",
+            "impl_8c71f95952cf",
+            "impl_99321983aa2d",
+            "impl_9961f2e08bb2",
+            "impl_a05e855db78e",
+            "impl_a8115c669f27",
+            "impl_b491503623e1",
+            "impl_bbf6eceb279e",
+            "impl_dc05609312ec"
+          ],
+          "raw_missed": [],
+          "removed_eligible": [],
+          "repeat": 0,
+          "root_id": "root_4d622901f2285d",
+          "seed": 202609330006,
+          "width": 12
+        },
+        {
+          "BA_change": 0.125,
+          "added_eligible": [],
+          "gold_ids": [
+            "impl_3def79e7db8a",
+            "impl_8c71f95952cf",
+            "impl_99321983aa2d",
+            "impl_9961f2e08bb2",
+            "impl_a05e855db78e",
+            "impl_b491503623e1",
+            "impl_bbf6eceb279e",
+            "impl_dc05609312ec"
+          ],
+          "normalized_false_positives": {
+            "impl_4f77636a0584": [
+              "latest_check:security"
+            ],
+            "impl_539059365a39": [
+              "latest_check:schema"
+            ]
+          },
+          "normalized_ids": [
+            "impl_539059365a39",
+            "impl_9961f2e08bb2",
+            "impl_a05e855db78e",
+            "impl_b491503623e1",
+            "impl_dc05609312ec",
+            "impl_8c71f95952cf",
+            "impl_3def79e7db8a",
+            "impl_99321983aa2d",
+            "impl_bbf6eceb279e",
+            "impl_4f77636a0584"
+          ],
+          "normalized_missed": [],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_539059365a39": [
+              "latest_check:schema"
+            ],
+            "impl_5ce8fca33b66": [
+              "latest_check:security"
+            ],
+            "impl_a8115c669f27": [
+              "latest_check:schema"
+            ]
+          },
+          "raw_ids": [
+            "impl_3def79e7db8a",
+            "impl_539059365a39",
+            "impl_5ce8fca33b66",
+            "impl_8c71f95952cf",
+            "impl_99321983aa2d",
+            "impl_9961f2e08bb2",
+            "impl_a05e855db78e",
+            "impl_a8115c669f27",
+            "impl_b491503623e1",
+            "impl_bbf6eceb279e",
+            "impl_dc05609312ec"
+          ],
+          "raw_missed": [],
+          "removed_eligible": [],
+          "repeat": 1,
+          "root_id": "root_4d622901f2285d",
+          "seed": 202609330007,
+          "width": 12
+        }
+      ],
+      "policy": {
+        "max_cost": 55,
+        "max_latency": 45,
+        "min_capacity": 8,
+        "min_quality": 4,
+        "required_checks": [
+          "schema",
+          "security"
+        ]
+      },
+      "public_facts": {
+        "impl_3def79e7db8a": {
+          "effective": {
+            "capacity": 37,
+            "cost": 19,
+            "features": [
+              "compression",
+              "deduplication"
+            ],
+            "implementation_id": "impl_3def79e7db8a",
+            "input_format": "columnar",
+            "latency": 15,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 24
+          },
+          "violations": []
+        },
+        "impl_4f77636a0584": {
+          "effective": {
+            "capacity": 38,
+            "cost": 24,
+            "features": [
+              "audit"
+            ],
+            "implementation_id": "impl_4f77636a0584",
+            "input_format": "columnar",
+            "latency": 36,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 18
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_539059365a39": {
+          "effective": {
+            "capacity": 11,
+            "cost": 17,
+            "features": [
+              "audit"
+            ],
+            "implementation_id": "impl_539059365a39",
+            "input_format": "columnar",
+            "latency": 29,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 34
+          },
+          "violations": [
+            "latest_check:schema"
+          ]
+        },
+        "impl_5ce8fca33b66": {
+          "effective": {
+            "capacity": 53,
+            "cost": 37,
+            "features": [
+              "deduplication",
+              "lineage"
+            ],
+            "implementation_id": "impl_5ce8fca33b66",
+            "input_format": "columnar",
+            "latency": 12,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 37
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_8c71f95952cf": {
+          "effective": {
+            "capacity": 49,
+            "cost": 30,
+            "features": [
+              "compression",
+              "deduplication"
+            ],
+            "implementation_id": "impl_8c71f95952cf",
+            "input_format": "columnar",
+            "latency": 19,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 26
+          },
+          "violations": []
+        },
+        "impl_99321983aa2d": {
+          "effective": {
+            "capacity": 43,
+            "cost": 21,
+            "features": [
+              "compression",
+              "validation"
+            ],
+            "implementation_id": "impl_99321983aa2d",
+            "input_format": "columnar",
+            "latency": 30,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 39
+          },
+          "violations": []
+        },
+        "impl_9961f2e08bb2": {
+          "effective": {
+            "capacity": 13,
+            "cost": 22,
+            "features": [
+              "compression",
+              "deduplication",
+              "lineage",
+              "validation"
+            ],
+            "implementation_id": "impl_9961f2e08bb2",
+            "input_format": "columnar",
+            "latency": 12,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 13
+          },
+          "violations": []
+        },
+        "impl_a05e855db78e": {
+          "effective": {
+            "capacity": 53,
+            "cost": 23,
+            "features": [
+              "compression",
+              "encryption",
+              "lineage"
+            ],
+            "implementation_id": "impl_a05e855db78e",
+            "input_format": "columnar",
+            "latency": 19,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 15
+          },
+          "violations": []
+        },
+        "impl_a8115c669f27": {
+          "effective": {
+            "capacity": 32,
+            "cost": 20,
+            "features": [
+              "lineage"
+            ],
+            "implementation_id": "impl_a8115c669f27",
+            "input_format": "columnar",
+            "latency": 13,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 6
+          },
+          "violations": [
+            "latest_check:schema"
+          ]
+        },
+        "impl_b491503623e1": {
+          "effective": {
+            "capacity": 45,
+            "cost": 15,
+            "features": [
+              "audit",
+              "compression",
+              "deduplication"
+            ],
+            "implementation_id": "impl_b491503623e1",
+            "input_format": "rowset",
+            "latency": 23,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 19
+          },
+          "violations": []
+        },
+        "impl_bbf6eceb279e": {
+          "effective": {
+            "capacity": 20,
+            "cost": 44,
+            "features": [
+              "validation"
+            ],
+            "implementation_id": "impl_bbf6eceb279e",
+            "input_format": "columnar",
+            "latency": 9,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 38
+          },
+          "violations": []
+        },
+        "impl_dc05609312ec": {
+          "effective": {
+            "capacity": 24,
+            "cost": 23,
+            "features": [
+              "compression",
+              "encryption"
+            ],
+            "implementation_id": "impl_dc05609312ec",
+            "input_format": "columnar",
+            "latency": 8,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 25
+          },
+          "violations": []
+        }
+      },
+      "root_id": "root_4d622901f2285d",
+      "stage_index": 0,
+      "width": 12
+    },
+    {
+      "pairs": [
+        {
+          "BA_change": 0.0,
+          "added_eligible": [
+            "impl_8a58dd010ed4",
+            "impl_b2d572b12ceb"
+          ],
+          "gold_ids": [
+            "impl_4f7b5185c219",
+            "impl_7539a16e9833",
+            "impl_8a58dd010ed4",
+            "impl_a7abb0ad3a58",
+            "impl_b2d572b12ceb",
+            "impl_ee691ae1cf32"
+          ],
+          "normalized_false_positives": {
+            "impl_190e408f24e6": [
+              "quality"
+            ],
+            "impl_b06596b80fb9": [
+              "quality"
+            ]
+          },
+          "normalized_ids": [
+            "impl_4f7b5185c219",
+            "impl_b06596b80fb9",
+            "impl_8a58dd010ed4",
+            "impl_b2d572b12ceb",
+            "impl_190e408f24e6",
+            "impl_7539a16e9833",
+            "impl_a7abb0ad3a58",
+            "impl_ee691ae1cf32"
+          ],
+          "normalized_missed": [],
+          "outcome": "both_wrong",
+          "raw_false_positives": {},
+          "raw_ids": [
+            "impl_4f7b5185c219",
+            "impl_7539a16e9833",
+            "impl_a7abb0ad3a58",
+            "impl_ee691ae1cf32"
+          ],
+          "raw_missed": [
+            "impl_8a58dd010ed4",
+            "impl_b2d572b12ceb"
+          ],
+          "removed_eligible": [],
+          "repeat": 0,
+          "root_id": "root_33ca83880db0c7",
+          "seed": 202609330008,
+          "width": 12
+        },
+        {
+          "BA_change": 0.2499999999999999,
+          "added_eligible": [],
+          "gold_ids": [
+            "impl_4f7b5185c219",
+            "impl_7539a16e9833",
+            "impl_8a58dd010ed4",
+            "impl_a7abb0ad3a58",
+            "impl_b2d572b12ceb",
+            "impl_ee691ae1cf32"
+          ],
+          "normalized_false_positives": {
+            "impl_190e408f24e6": [
+              "quality"
+            ],
+            "impl_b06596b80fb9": [
+              "quality"
+            ]
+          },
+          "normalized_ids": [
+            "impl_4f7b5185c219",
+            "impl_b06596b80fb9",
+            "impl_8a58dd010ed4",
+            "impl_b2d572b12ceb",
+            "impl_190e408f24e6",
+            "impl_7539a16e9833",
+            "impl_a7abb0ad3a58",
+            "impl_ee691ae1cf32"
+          ],
+          "normalized_missed": [],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_190e408f24e6": [
+              "quality"
+            ],
+            "impl_1b30c92a9c73": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_95a94b6dcf2e": [
+              "latest_check:security"
+            ],
+            "impl_a08f1e89aadf": [
+              "latest_check:security"
+            ],
+            "impl_b06596b80fb9": [
+              "quality"
+            ]
+          },
+          "raw_ids": [
+            "impl_190e408f24e6",
+            "impl_4f7b5185c219",
+            "impl_7539a16e9833",
+            "impl_a08f1e89aadf",
+            "impl_a7abb0ad3a58",
+            "impl_b06596b80fb9",
+            "impl_b2d572b12ceb",
+            "impl_ee691ae1cf32",
+            "impl_8a58dd010ed4",
+            "impl_95a94b6dcf2e",
+            "impl_1b30c92a9c73"
+          ],
+          "raw_missed": [],
+          "removed_eligible": [],
+          "repeat": 1,
+          "root_id": "root_33ca83880db0c7",
+          "seed": 202609330009,
+          "width": 12
+        }
+      ],
+      "policy": {
+        "max_cost": 55,
+        "max_latency": 45,
+        "min_capacity": 8,
+        "min_quality": 4,
+        "required_checks": [
+          "schema",
+          "security"
+        ]
+      },
+      "public_facts": {
+        "impl_190e408f24e6": {
+          "effective": {
+            "capacity": 46,
+            "cost": 30,
+            "features": [
+              "lineage"
+            ],
+            "implementation_id": "impl_190e408f24e6",
+            "input_format": "json",
+            "latency": 21,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 3
+          },
+          "violations": [
+            "quality"
+          ]
+        },
+        "impl_1b30c92a9c73": {
+          "effective": {
+            "capacity": 21,
+            "cost": 13,
+            "features": [
+              "encryption",
+              "lineage"
+            ],
+            "implementation_id": "impl_1b30c92a9c73",
+            "input_format": "avro",
+            "latency": 40,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 13
+          },
+          "violations": [
+            "latest_check:schema",
+            "latest_check:security"
+          ]
+        },
+        "impl_2c97a59a5d36": {
+          "effective": {
+            "capacity": 49,
+            "cost": 24,
+            "features": [
+              "validation"
+            ],
+            "implementation_id": "impl_2c97a59a5d36",
+            "input_format": "rowset",
+            "latency": 8,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 8
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_4f7b5185c219": {
+          "effective": {
+            "capacity": 51,
+            "cost": 23,
+            "features": [
+              "validation"
+            ],
+            "implementation_id": "impl_4f7b5185c219",
+            "input_format": "json",
+            "latency": 11,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 42
+          },
+          "violations": []
+        },
+        "impl_7539a16e9833": {
+          "effective": {
+            "capacity": 31,
+            "cost": 21,
+            "features": [
+              "audit"
+            ],
+            "implementation_id": "impl_7539a16e9833",
+            "input_format": "json",
+            "latency": 13,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 31
+          },
+          "violations": []
+        },
+        "impl_8a58dd010ed4": {
+          "effective": {
+            "capacity": 42,
+            "cost": 18,
+            "features": [
+              "encryption"
+            ],
+            "implementation_id": "impl_8a58dd010ed4",
+            "input_format": "json",
+            "latency": 11,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 37
+          },
+          "violations": []
+        },
+        "impl_95a94b6dcf2e": {
+          "effective": {
+            "capacity": 20,
+            "cost": 22,
+            "features": [
+              "deduplication",
+              "encryption",
+              "validation"
+            ],
+            "implementation_id": "impl_95a94b6dcf2e",
+            "input_format": "json",
+            "latency": 19,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 28
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_a08f1e89aadf": {
+          "effective": {
+            "capacity": 45,
+            "cost": 24,
+            "features": [
+              "validation"
+            ],
+            "implementation_id": "impl_a08f1e89aadf",
+            "input_format": "json",
+            "latency": 14,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 27
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_a7abb0ad3a58": {
+          "effective": {
+            "capacity": 44,
+            "cost": 30,
+            "features": [
+              "audit",
+              "compression",
+              "deduplication",
+              "validation"
+            ],
+            "implementation_id": "impl_a7abb0ad3a58",
+            "input_format": "json",
+            "latency": 36,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 38
+          },
+          "violations": []
+        },
+        "impl_b06596b80fb9": {
+          "effective": {
+            "capacity": 47,
+            "cost": 25,
+            "features": [
+              "audit",
+              "deduplication",
+              "encryption"
+            ],
+            "implementation_id": "impl_b06596b80fb9",
+            "input_format": "json",
+            "latency": 16,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 2
+          },
+          "violations": [
+            "quality"
+          ]
+        },
+        "impl_b2d572b12ceb": {
+          "effective": {
+            "capacity": 31,
+            "cost": 13,
+            "features": [
+              "lineage"
+            ],
+            "implementation_id": "impl_b2d572b12ceb",
+            "input_format": "json",
+            "latency": 7,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "avro",
+            "quality": 18
+          },
+          "violations": []
+        },
+        "impl_ee691ae1cf32": {
+          "effective": {
+            "capacity": 51,
+            "cost": 10,
+            "features": [
+              "audit",
+              "encryption"
+            ],
+            "implementation_id": "impl_ee691ae1cf32",
+            "input_format": "json",
+            "latency": 17,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 22
+          },
+          "violations": []
+        }
+      },
+      "root_id": "root_33ca83880db0c7",
+      "stage_index": 1,
+      "width": 12
+    },
+    {
+      "pairs": [
+        {
+          "BA_change": -0.18571428571428572,
+          "added_eligible": [
+            "impl_22df0c559551",
+            "impl_3605c842f0d7",
+            "impl_de4c012a9992"
+          ],
+          "gold_ids": [
+            "impl_22df0c559551",
+            "impl_2e89c6bc2a12",
+            "impl_3605c842f0d7",
+            "impl_8e521b83d62e",
+            "impl_de4c012a9992",
+            "impl_e175ae874fe2",
+            "impl_e9bbff30d274"
+          ],
+          "normalized_false_positives": {
+            "impl_03133ffdf0ad": [
+              "latest_check:schema"
+            ],
+            "impl_2fd4f8e5fc9e": [
+              "latest_check:security"
+            ],
+            "impl_306b88958a09": [
+              "latest_check:security"
+            ],
+            "impl_740c18384080": [
+              "latest_check:security"
+            ],
+            "impl_e155fe795172": [
+              "latest_check:security"
+            ]
+          },
+          "normalized_ids": [
+            "impl_2fd4f8e5fc9e",
+            "impl_de4c012a9992",
+            "impl_2e89c6bc2a12",
+            "impl_3605c842f0d7",
+            "impl_03133ffdf0ad",
+            "impl_740c18384080",
+            "impl_306b88958a09",
+            "impl_e155fe795172",
+            "impl_22df0c559551",
+            "impl_8e521b83d62e",
+            "impl_e9bbff30d274",
+            "impl_e175ae874fe2"
+          ],
+          "normalized_missed": [],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_306b88958a09": [
+              "latest_check:security"
+            ]
+          },
+          "raw_ids": [
+            "impl_2e89c6bc2a12",
+            "impl_306b88958a09",
+            "impl_8e521b83d62e",
+            "impl_e9bbff30d274",
+            "impl_e175ae874fe2"
+          ],
+          "raw_missed": [
+            "impl_22df0c559551",
+            "impl_3605c842f0d7",
+            "impl_de4c012a9992"
+          ],
+          "removed_eligible": [],
+          "repeat": 0,
+          "root_id": "root_81a3b6f141854a",
+          "seed": 202609330010,
+          "width": 12
+        },
+        {
+          "BA_change": -0.18571428571428572,
+          "added_eligible": [
+            "impl_22df0c559551",
+            "impl_3605c842f0d7",
+            "impl_de4c012a9992"
+          ],
+          "gold_ids": [
+            "impl_22df0c559551",
+            "impl_2e89c6bc2a12",
+            "impl_3605c842f0d7",
+            "impl_8e521b83d62e",
+            "impl_de4c012a9992",
+            "impl_e175ae874fe2",
+            "impl_e9bbff30d274"
+          ],
+          "normalized_false_positives": {
+            "impl_03133ffdf0ad": [
+              "latest_check:schema"
+            ],
+            "impl_2fd4f8e5fc9e": [
+              "latest_check:security"
+            ],
+            "impl_306b88958a09": [
+              "latest_check:security"
+            ],
+            "impl_740c18384080": [
+              "latest_check:security"
+            ],
+            "impl_e155fe795172": [
+              "latest_check:security"
+            ]
+          },
+          "normalized_ids": [
+            "impl_2fd4f8e5fc9e",
+            "impl_de4c012a9992",
+            "impl_2e89c6bc2a12",
+            "impl_3605c842f0d7",
+            "impl_03133ffdf0ad",
+            "impl_740c18384080",
+            "impl_306b88958a09",
+            "impl_e155fe795172",
+            "impl_22df0c559551",
+            "impl_8e521b83d62e",
+            "impl_e9bbff30d274",
+            "impl_e175ae874fe2"
+          ],
+          "normalized_missed": [],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_306b88958a09": [
+              "latest_check:security"
+            ]
+          },
+          "raw_ids": [
+            "impl_2e89c6bc2a12",
+            "impl_306b88958a09",
+            "impl_8e521b83d62e",
+            "impl_e9bbff30d274",
+            "impl_e175ae874fe2"
+          ],
+          "raw_missed": [
+            "impl_22df0c559551",
+            "impl_3605c842f0d7",
+            "impl_de4c012a9992"
+          ],
+          "removed_eligible": [],
+          "repeat": 1,
+          "root_id": "root_81a3b6f141854a",
+          "seed": 202609330011,
+          "width": 12
+        }
+      ],
+      "policy": {
+        "max_cost": 55,
+        "max_latency": 45,
+        "min_capacity": 8,
+        "min_quality": 4,
+        "required_checks": [
+          "schema",
+          "security"
+        ]
+      },
+      "public_facts": {
+        "impl_03133ffdf0ad": {
+          "effective": {
+            "capacity": 35,
+            "cost": 22,
+            "features": [
+              "audit",
+              "compression",
+              "lineage"
+            ],
+            "implementation_id": "impl_03133ffdf0ad",
+            "input_format": "columnar",
+            "latency": 32,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 24
+          },
+          "violations": [
+            "latest_check:schema"
+          ]
+        },
+        "impl_22df0c559551": {
+          "effective": {
+            "capacity": 9,
+            "cost": 12,
+            "features": [
+              "deduplication",
+              "encryption",
+              "lineage"
+            ],
+            "implementation_id": "impl_22df0c559551",
+            "input_format": "columnar",
+            "latency": 21,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 42
+          },
+          "violations": []
+        },
+        "impl_2e89c6bc2a12": {
+          "effective": {
+            "capacity": 43,
+            "cost": 11,
+            "features": [
+              "compression",
+              "deduplication",
+              "encryption",
+              "validation"
+            ],
+            "implementation_id": "impl_2e89c6bc2a12",
+            "input_format": "columnar",
+            "latency": 32,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 30
+          },
+          "violations": []
+        },
+        "impl_2fd4f8e5fc9e": {
+          "effective": {
+            "capacity": 47,
+            "cost": 28,
+            "features": [
+              "lineage"
+            ],
+            "implementation_id": "impl_2fd4f8e5fc9e",
+            "input_format": "columnar",
+            "latency": 23,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 41
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_306b88958a09": {
+          "effective": {
+            "capacity": 45,
+            "cost": 22,
+            "features": [
+              "deduplication",
+              "encryption"
+            ],
+            "implementation_id": "impl_306b88958a09",
+            "input_format": "parquet",
+            "latency": 20,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 16
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_3605c842f0d7": {
+          "effective": {
+            "capacity": 46,
+            "cost": 45,
+            "features": [
+              "encryption",
+              "validation"
+            ],
+            "implementation_id": "impl_3605c842f0d7",
+            "input_format": "parquet",
+            "latency": 39,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 38
+          },
+          "violations": []
+        },
+        "impl_740c18384080": {
+          "effective": {
+            "capacity": 39,
+            "cost": 11,
+            "features": [
+              "encryption",
+              "validation"
+            ],
+            "implementation_id": "impl_740c18384080",
+            "input_format": "columnar",
+            "latency": 34,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 31
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_8e521b83d62e": {
+          "effective": {
+            "capacity": 38,
+            "cost": 19,
+            "features": [
+              "audit"
+            ],
+            "implementation_id": "impl_8e521b83d62e",
+            "input_format": "columnar",
+            "latency": 17,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 18
+          },
+          "violations": []
+        },
+        "impl_de4c012a9992": {
+          "effective": {
+            "capacity": 47,
+            "cost": 18,
+            "features": [
+              "encryption",
+              "lineage"
+            ],
+            "implementation_id": "impl_de4c012a9992",
+            "input_format": "columnar",
+            "latency": 27,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 31
+          },
+          "violations": []
+        },
+        "impl_e155fe795172": {
+          "effective": {
+            "capacity": 40,
+            "cost": 23,
+            "features": [
+              "compression",
+              "encryption",
+              "validation"
+            ],
+            "implementation_id": "impl_e155fe795172",
+            "input_format": "parquet",
+            "latency": 10,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 30
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_e175ae874fe2": {
+          "effective": {
+            "capacity": 37,
+            "cost": 10,
+            "features": [
+              "deduplication"
+            ],
+            "implementation_id": "impl_e175ae874fe2",
+            "input_format": "columnar",
+            "latency": 17,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 20
+          },
+          "violations": []
+        },
+        "impl_e9bbff30d274": {
+          "effective": {
+            "capacity": 49,
+            "cost": 22,
+            "features": [
+              "audit",
+              "deduplication",
+              "lineage"
+            ],
+            "implementation_id": "impl_e9bbff30d274",
+            "input_format": "columnar",
+            "latency": 19,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 42
+          },
+          "violations": []
+        }
+      },
+      "root_id": "root_81a3b6f141854a",
+      "stage_index": 2,
+      "width": 12
+    },
+    {
+      "pairs": [
+        {
+          "BA_change": 0.18131868131868134,
+          "added_eligible": [
+            "impl_dd9dc51002c8"
+          ],
+          "gold_ids": [
+            "impl_1c6b84697230",
+            "impl_38dea2558a81",
+            "impl_3f5ec1435c2a",
+            "impl_4e44005bfa80",
+            "impl_7bdad39f1787",
+            "impl_a2549b55badf",
+            "impl_bff351d6c874",
+            "impl_c2d391dffc2a",
+            "impl_dd9dc51002c8",
+            "impl_de92a8214523",
+            "impl_e702bf67be72",
+            "impl_ecc2dff0d376",
+            "impl_fa3e74777401"
+          ],
+          "normalized_false_positives": {
+            "impl_341839e1c64f": [
+              "latest_check:security"
+            ],
+            "impl_53b4f88c15ed": [
+              "quality"
+            ],
+            "impl_a59fd43fe6ec": [
+              "latest_check:schema"
+            ]
+          },
+          "normalized_ids": [
+            "impl_a59fd43fe6ec",
+            "impl_c2d391dffc2a",
+            "impl_341839e1c64f",
+            "impl_4e44005bfa80",
+            "impl_e702bf67be72",
+            "impl_dd9dc51002c8",
+            "impl_38dea2558a81",
+            "impl_53b4f88c15ed",
+            "impl_fa3e74777401",
+            "impl_de92a8214523",
+            "impl_7bdad39f1787",
+            "impl_a2549b55badf",
+            "impl_1c6b84697230",
+            "impl_ecc2dff0d376",
+            "impl_3f5ec1435c2a"
+          ],
+          "normalized_missed": [
+            "impl_bff351d6c874"
+          ],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_341839e1c64f": [
+              "latest_check:security"
+            ],
+            "impl_53b4f88c15ed": [
+              "quality"
+            ],
+            "impl_582f6ff65ac4": [
+              "latest_check:schema"
+            ],
+            "impl_a59fd43fe6ec": [
+              "latest_check:schema"
+            ],
+            "impl_d48d072eba0e": [
+              "latest_check:security",
+              "quality"
+            ]
+          },
+          "raw_ids": [
+            "impl_a2549b55badf",
+            "impl_a59fd43fe6ec",
+            "impl_c2d391dffc2a",
+            "impl_de92a8214523",
+            "impl_d48d072eba0e",
+            "impl_e702bf67be72",
+            "impl_ecc2dff0d376",
+            "impl_1c6b84697230",
+            "impl_341839e1c64f",
+            "impl_38dea2558a81",
+            "impl_4e44005bfa80",
+            "impl_53b4f88c15ed",
+            "impl_582f6ff65ac4",
+            "impl_7bdad39f1787",
+            "impl_fa3e74777401",
+            "impl_3f5ec1435c2a"
+          ],
+          "raw_missed": [
+            "impl_bff351d6c874",
+            "impl_dd9dc51002c8"
+          ],
+          "removed_eligible": [],
+          "repeat": 0,
+          "root_id": "root_cec12b35e126c3",
+          "seed": 202609330012,
+          "width": 20
+        },
+        {
+          "BA_change": 0.31868131868131866,
+          "added_eligible": [],
+          "gold_ids": [
+            "impl_1c6b84697230",
+            "impl_38dea2558a81",
+            "impl_3f5ec1435c2a",
+            "impl_4e44005bfa80",
+            "impl_7bdad39f1787",
+            "impl_a2549b55badf",
+            "impl_bff351d6c874",
+            "impl_c2d391dffc2a",
+            "impl_dd9dc51002c8",
+            "impl_de92a8214523",
+            "impl_e702bf67be72",
+            "impl_ecc2dff0d376",
+            "impl_fa3e74777401"
+          ],
+          "normalized_false_positives": {
+            "impl_53b4f88c15ed": [
+              "quality"
+            ],
+            "impl_a59fd43fe6ec": [
+              "latest_check:schema"
+            ]
+          },
+          "normalized_ids": [
+            "impl_a59fd43fe6ec",
+            "impl_c2d391dffc2a",
+            "impl_38dea2558a81",
+            "impl_4e44005bfa80",
+            "impl_e702bf67be72",
+            "impl_dd9dc51002c8",
+            "impl_53b4f88c15ed",
+            "impl_fa3e74777401",
+            "impl_de92a8214523",
+            "impl_7bdad39f1787",
+            "impl_a2549b55badf",
+            "impl_1c6b84697230",
+            "impl_ecc2dff0d376",
+            "impl_3f5ec1435c2a"
+          ],
+          "normalized_missed": [
+            "impl_bff351d6c874"
+          ],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_21a3cc0cdc09": [
+              "latest_check:schema",
+              "latest_check:security",
+              "capacity"
+            ],
+            "impl_341839e1c64f": [
+              "latest_check:security"
+            ],
+            "impl_53b4f88c15ed": [
+              "quality"
+            ],
+            "impl_582f6ff65ac4": [
+              "latest_check:schema"
+            ],
+            "impl_5862d9ed2261": [
+              "latest_check:security"
+            ],
+            "impl_a59fd43fe6ec": [
+              "latest_check:schema"
+            ],
+            "impl_d48d072eba0e": [
+              "latest_check:security",
+              "quality"
+            ]
+          },
+          "raw_ids": [
+            "impl_1c6b84697230",
+            "impl_21a3cc0cdc09",
+            "impl_341839e1c64f",
+            "impl_38dea2558a81",
+            "impl_4e44005bfa80",
+            "impl_53b4f88c15ed",
+            "impl_582f6ff65ac4",
+            "impl_5862d9ed2261",
+            "impl_a2549b55badf",
+            "impl_a59fd43fe6ec",
+            "impl_bff351d6c874",
+            "impl_c2d391dffc2a",
+            "impl_dd9dc51002c8",
+            "impl_de92a8214523",
+            "impl_d48d072eba0e",
+            "impl_e702bf67be72",
+            "impl_ecc2dff0d376",
+            "impl_fa3e74777401",
+            "impl_3f5ec1435c2a",
+            "impl_7bdad39f1787"
+          ],
+          "raw_missed": [],
+          "removed_eligible": [
+            "impl_bff351d6c874"
+          ],
+          "repeat": 1,
+          "root_id": "root_cec12b35e126c3",
+          "seed": 202609330013,
+          "width": 20
+        }
+      ],
+      "policy": {
+        "max_cost": 55,
+        "max_latency": 45,
+        "min_capacity": 8,
+        "min_quality": 4,
+        "required_checks": [
+          "schema",
+          "security"
+        ]
+      },
+      "public_facts": {
+        "impl_1c6b84697230": {
+          "effective": {
+            "capacity": 12,
+            "cost": 17,
+            "features": [
+              "compression"
+            ],
+            "implementation_id": "impl_1c6b84697230",
+            "input_format": "columnar",
+            "latency": 15,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 39
+          },
+          "violations": []
+        },
+        "impl_21a3cc0cdc09": {
+          "effective": {
+            "capacity": 4,
+            "cost": 33,
+            "features": [],
+            "implementation_id": "impl_21a3cc0cdc09",
+            "input_format": "columnar",
+            "latency": 20,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 4
+          },
+          "violations": [
+            "latest_check:schema",
+            "latest_check:security",
+            "capacity"
+          ]
+        },
+        "impl_341839e1c64f": {
+          "effective": {
+            "capacity": 12,
+            "cost": 32,
+            "features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "implementation_id": "impl_341839e1c64f",
+            "input_format": "columnar",
+            "latency": 36,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 37
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_38dea2558a81": {
+          "effective": {
+            "capacity": 38,
+            "cost": 22,
+            "features": [
+              "compression",
+              "deduplication",
+              "validation"
+            ],
+            "implementation_id": "impl_38dea2558a81",
+            "input_format": "rowset",
+            "latency": 12,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 21
+          },
+          "violations": []
+        },
+        "impl_3f5ec1435c2a": {
+          "effective": {
+            "capacity": 43,
+            "cost": 13,
+            "features": [
+              "encryption"
+            ],
+            "implementation_id": "impl_3f5ec1435c2a",
+            "input_format": "columnar",
+            "latency": 18,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 33
+          },
+          "violations": []
+        },
+        "impl_4e44005bfa80": {
+          "effective": {
+            "capacity": 46,
+            "cost": 31,
+            "features": [
+              "validation"
+            ],
+            "implementation_id": "impl_4e44005bfa80",
+            "input_format": "columnar",
+            "latency": 11,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 44
+          },
+          "violations": []
+        },
+        "impl_53b4f88c15ed": {
+          "effective": {
+            "capacity": 49,
+            "cost": 37,
+            "features": [
+              "lineage"
+            ],
+            "implementation_id": "impl_53b4f88c15ed",
+            "input_format": "columnar",
+            "latency": 34,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 1
+          },
+          "violations": [
+            "quality"
+          ]
+        },
+        "impl_582f6ff65ac4": {
+          "effective": {
+            "capacity": 33,
+            "cost": 21,
+            "features": [
+              "audit",
+              "validation"
+            ],
+            "implementation_id": "impl_582f6ff65ac4",
+            "input_format": "parquet",
+            "latency": 34,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 44
+          },
+          "violations": [
+            "latest_check:schema"
+          ]
+        },
+        "impl_5862d9ed2261": {
+          "effective": {
+            "capacity": 32,
+            "cost": 22,
+            "features": [
+              "validation"
+            ],
+            "implementation_id": "impl_5862d9ed2261",
+            "input_format": "columnar",
+            "latency": 23,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 7
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_7bdad39f1787": {
+          "effective": {
+            "capacity": 36,
+            "cost": 42,
+            "features": [
+              "validation"
+            ],
+            "implementation_id": "impl_7bdad39f1787",
+            "input_format": "columnar",
+            "latency": 17,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 12
+          },
+          "violations": []
+        },
+        "impl_a2549b55badf": {
+          "effective": {
+            "capacity": 8,
+            "cost": 37,
+            "features": [
+              "deduplication",
+              "validation"
+            ],
+            "implementation_id": "impl_a2549b55badf",
+            "input_format": "columnar",
+            "latency": 23,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 29
+          },
+          "violations": []
+        },
+        "impl_a59fd43fe6ec": {
+          "effective": {
+            "capacity": 26,
+            "cost": 11,
+            "features": [
+              "deduplication",
+              "encryption",
+              "lineage"
+            ],
+            "implementation_id": "impl_a59fd43fe6ec",
+            "input_format": "columnar",
+            "latency": 34,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 24
+          },
+          "violations": [
+            "latest_check:schema"
+          ]
+        },
+        "impl_bff351d6c874": {
+          "effective": {
+            "capacity": 34,
+            "cost": 35,
+            "features": [
+              "deduplication"
+            ],
+            "implementation_id": "impl_bff351d6c874",
+            "input_format": "columnar",
+            "latency": 33,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 22
+          },
+          "violations": []
+        },
+        "impl_c2d391dffc2a": {
+          "effective": {
+            "capacity": 56,
+            "cost": 30,
+            "features": [
+              "lineage"
+            ],
+            "implementation_id": "impl_c2d391dffc2a",
+            "input_format": "columnar",
+            "latency": 11,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 28
+          },
+          "violations": []
+        },
+        "impl_d48d072eba0e": {
+          "effective": {
+            "capacity": 34,
+            "cost": 26,
+            "features": [
+              "audit"
+            ],
+            "implementation_id": "impl_d48d072eba0e",
+            "input_format": "columnar",
+            "latency": 36,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 2
+          },
+          "violations": [
+            "latest_check:security",
+            "quality"
+          ]
+        },
+        "impl_dd9dc51002c8": {
+          "effective": {
+            "capacity": 24,
+            "cost": 19,
+            "features": [
+              "encryption",
+              "validation"
+            ],
+            "implementation_id": "impl_dd9dc51002c8",
+            "input_format": "columnar",
+            "latency": 13,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 23
+          },
+          "violations": []
+        },
+        "impl_de92a8214523": {
+          "effective": {
+            "capacity": 44,
+            "cost": 35,
+            "features": [
+              "compression",
+              "deduplication",
+              "lineage"
+            ],
+            "implementation_id": "impl_de92a8214523",
+            "input_format": "columnar",
+            "latency": 34,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 28
+          },
+          "violations": []
+        },
+        "impl_e702bf67be72": {
+          "effective": {
+            "capacity": 30,
+            "cost": 21,
+            "features": [
+              "audit",
+              "validation"
+            ],
+            "implementation_id": "impl_e702bf67be72",
+            "input_format": "columnar",
+            "latency": 11,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 23
+          },
+          "violations": []
+        },
+        "impl_ecc2dff0d376": {
+          "effective": {
+            "capacity": 33,
+            "cost": 31,
+            "features": [
+              "lineage"
+            ],
+            "implementation_id": "impl_ecc2dff0d376",
+            "input_format": "rowset",
+            "latency": 6,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 35
+          },
+          "violations": []
+        },
+        "impl_fa3e74777401": {
+          "effective": {
+            "capacity": 42,
+            "cost": 43,
+            "features": [
+              "deduplication",
+              "validation"
+            ],
+            "implementation_id": "impl_fa3e74777401",
+            "input_format": "columnar",
+            "latency": 22,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 32
+          },
+          "violations": []
+        }
+      },
+      "root_id": "root_cec12b35e126c3",
+      "stage_index": 0,
+      "width": 20
+    },
+    {
+      "pairs": [
+        {
+          "BA_change": 0.04545454545454547,
+          "added_eligible": [
+            "impl_ff262d40cfe7"
+          ],
+          "gold_ids": [
+            "impl_48a977db0759",
+            "impl_6bcb6d305542",
+            "impl_8413c065daa1",
+            "impl_92f655913274",
+            "impl_95a07ff563bd",
+            "impl_98225eb2e9c1",
+            "impl_aa6cb10bafc3",
+            "impl_ac0530de7f63",
+            "impl_c8fa2fe4a0ed",
+            "impl_d0aeb3122d9b",
+            "impl_ff262d40cfe7"
+          ],
+          "normalized_false_positives": {
+            "impl_0360d92e2e4d": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_15c00f88c9a3": [
+              "latest_check:schema"
+            ],
+            "impl_217cc130ac6d": [
+              "latest_check:security"
+            ],
+            "impl_7fd38d5d0604": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_9b96b630244c": [
+              "latest_check:security"
+            ],
+            "impl_e29d1a2f0a07": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_e620d96cd43e": [
+              "latest_check:security"
+            ],
+            "impl_e9f42b0de841": [
+              "latest_check:security"
+            ],
+            "impl_faca9fe4df9a": [
+              "latest_check:security"
+            ]
+          },
+          "normalized_ids": [
+            "impl_6bcb6d305542",
+            "impl_95a07ff563bd",
+            "impl_92f655913274",
+            "impl_48a977db0759",
+            "impl_8413c065daa1",
+            "impl_0360d92e2e4d",
+            "impl_e620d96cd43e",
+            "impl_7fd38d5d0604",
+            "impl_9b96b630244c",
+            "impl_15c00f88c9a3",
+            "impl_faca9fe4df9a",
+            "impl_217cc130ac6d",
+            "impl_98225eb2e9c1",
+            "impl_d0aeb3122d9b",
+            "impl_ac0530de7f63",
+            "impl_aa6cb10bafc3",
+            "impl_e29d1a2f0a07",
+            "impl_e9f42b0de841",
+            "impl_ff262d40cfe7",
+            "impl_c8fa2fe4a0ed"
+          ],
+          "normalized_missed": [],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_0360d92e2e4d": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_15c00f88c9a3": [
+              "latest_check:schema"
+            ],
+            "impl_217cc130ac6d": [
+              "latest_check:security"
+            ],
+            "impl_7fd38d5d0604": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_9b96b630244c": [
+              "latest_check:security"
+            ],
+            "impl_e29d1a2f0a07": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_e620d96cd43e": [
+              "latest_check:security"
+            ],
+            "impl_e9f42b0de841": [
+              "latest_check:security"
+            ],
+            "impl_faca9fe4df9a": [
+              "latest_check:security"
+            ]
+          },
+          "raw_ids": [
+            "impl_6bcb6d305542",
+            "impl_95a07ff563bd",
+            "impl_92f655913274",
+            "impl_48a977db0759",
+            "impl_8413c065daa1",
+            "impl_0360d92e2e4d",
+            "impl_e620d96cd43e",
+            "impl_7fd38d5d0604",
+            "impl_9b96b630244c",
+            "impl_15c00f88c9a3",
+            "impl_faca9fe4df9a",
+            "impl_217cc130ac6d",
+            "impl_98225eb2e9c1",
+            "impl_d0aeb3122d9b",
+            "impl_ac0530de7f63",
+            "impl_aa6cb10bafc3",
+            "impl_e29d1a2f0a07",
+            "impl_e9f42b0de841",
+            "impl_c8fa2fe4a0ed"
+          ],
+          "raw_missed": [
+            "impl_ff262d40cfe7"
+          ],
+          "removed_eligible": [],
+          "repeat": 0,
+          "root_id": "root_a8815208d53ada",
+          "seed": 202609330014,
+          "width": 20
+        },
+        {
+          "BA_change": 0.04545454545454547,
+          "added_eligible": [
+            "impl_ff262d40cfe7"
+          ],
+          "gold_ids": [
+            "impl_48a977db0759",
+            "impl_6bcb6d305542",
+            "impl_8413c065daa1",
+            "impl_92f655913274",
+            "impl_95a07ff563bd",
+            "impl_98225eb2e9c1",
+            "impl_aa6cb10bafc3",
+            "impl_ac0530de7f63",
+            "impl_c8fa2fe4a0ed",
+            "impl_d0aeb3122d9b",
+            "impl_ff262d40cfe7"
+          ],
+          "normalized_false_positives": {
+            "impl_0360d92e2e4d": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_15c00f88c9a3": [
+              "latest_check:schema"
+            ],
+            "impl_217cc130ac6d": [
+              "latest_check:security"
+            ],
+            "impl_7fd38d5d0604": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_9b96b630244c": [
+              "latest_check:security"
+            ],
+            "impl_e29d1a2f0a07": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_e620d96cd43e": [
+              "latest_check:security"
+            ],
+            "impl_e9f42b0de841": [
+              "latest_check:security"
+            ],
+            "impl_faca9fe4df9a": [
+              "latest_check:security"
+            ]
+          },
+          "normalized_ids": [
+            "impl_6bcb6d305542",
+            "impl_95a07ff563bd",
+            "impl_92f655913274",
+            "impl_48a977db0759",
+            "impl_8413c065daa1",
+            "impl_0360d92e2e4d",
+            "impl_e620d96cd43e",
+            "impl_7fd38d5d0604",
+            "impl_9b96b630244c",
+            "impl_15c00f88c9a3",
+            "impl_faca9fe4df9a",
+            "impl_217cc130ac6d",
+            "impl_98225eb2e9c1",
+            "impl_d0aeb3122d9b",
+            "impl_ac0530de7f63",
+            "impl_aa6cb10bafc3",
+            "impl_e29d1a2f0a07",
+            "impl_e9f42b0de841",
+            "impl_ff262d40cfe7",
+            "impl_c8fa2fe4a0ed"
+          ],
+          "normalized_missed": [],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_0360d92e2e4d": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_15c00f88c9a3": [
+              "latest_check:schema"
+            ],
+            "impl_217cc130ac6d": [
+              "latest_check:security"
+            ],
+            "impl_7fd38d5d0604": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_9b96b630244c": [
+              "latest_check:security"
+            ],
+            "impl_e29d1a2f0a07": [
+              "latest_check:schema",
+              "latest_check:security"
+            ],
+            "impl_e620d96cd43e": [
+              "latest_check:security"
+            ],
+            "impl_e9f42b0de841": [
+              "latest_check:security"
+            ],
+            "impl_faca9fe4df9a": [
+              "latest_check:security"
+            ]
+          },
+          "raw_ids": [
+            "impl_6bcb6d305542",
+            "impl_95a07ff563bd",
+            "impl_92f655913274",
+            "impl_48a977db0759",
+            "impl_8413c065daa1",
+            "impl_0360d92e2e4d",
+            "impl_e620d96cd43e",
+            "impl_7fd38d5d0604",
+            "impl_9b96b630244c",
+            "impl_15c00f88c9a3",
+            "impl_faca9fe4df9a",
+            "impl_217cc130ac6d",
+            "impl_98225eb2e9c1",
+            "impl_d0aeb3122d9b",
+            "impl_ac0530de7f63",
+            "impl_aa6cb10bafc3",
+            "impl_e29d1a2f0a07",
+            "impl_e9f42b0de841",
+            "impl_c8fa2fe4a0ed"
+          ],
+          "raw_missed": [
+            "impl_ff262d40cfe7"
+          ],
+          "removed_eligible": [],
+          "repeat": 1,
+          "root_id": "root_a8815208d53ada",
+          "seed": 202609330015,
+          "width": 20
+        }
+      ],
+      "policy": {
+        "max_cost": 55,
+        "max_latency": 45,
+        "min_capacity": 8,
+        "min_quality": 4,
+        "required_checks": [
+          "schema",
+          "security"
+        ]
+      },
+      "public_facts": {
+        "impl_0360d92e2e4d": {
+          "effective": {
+            "capacity": 38,
+            "cost": 8,
+            "features": [
+              "deduplication",
+              "encryption"
+            ],
+            "implementation_id": "impl_0360d92e2e4d",
+            "input_format": "parquet",
+            "latency": 6,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 15
+          },
+          "violations": [
+            "latest_check:schema",
+            "latest_check:security"
+          ]
+        },
+        "impl_15c00f88c9a3": {
+          "effective": {
+            "capacity": 40,
+            "cost": 31,
+            "features": [
+              "audit",
+              "compression",
+              "deduplication"
+            ],
+            "implementation_id": "impl_15c00f88c9a3",
+            "input_format": "csv",
+            "latency": 24,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "parquet",
+            "quality": 26
+          },
+          "violations": [
+            "latest_check:schema"
+          ]
+        },
+        "impl_217cc130ac6d": {
+          "effective": {
+            "capacity": 19,
+            "cost": 41,
+            "features": [
+              "deduplication",
+              "validation"
+            ],
+            "implementation_id": "impl_217cc130ac6d",
+            "input_format": "csv",
+            "latency": 25,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 19
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_48a977db0759": {
+          "effective": {
+            "capacity": 49,
+            "cost": 42,
+            "features": [
+              "compression"
+            ],
+            "implementation_id": "impl_48a977db0759",
+            "input_format": "parquet",
+            "latency": 12,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 12
+          },
+          "violations": []
+        },
+        "impl_6bcb6d305542": {
+          "effective": {
+            "capacity": 51,
+            "cost": 38,
+            "features": [
+              "compression",
+              "deduplication"
+            ],
+            "implementation_id": "impl_6bcb6d305542",
+            "input_format": "csv",
+            "latency": 38,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 15
+          },
+          "violations": []
+        },
+        "impl_7fd38d5d0604": {
+          "effective": {
+            "capacity": 31,
+            "cost": 17,
+            "features": [
+              "audit",
+              "deduplication",
+              "lineage"
+            ],
+            "implementation_id": "impl_7fd38d5d0604",
+            "input_format": "csv",
+            "latency": 5,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 24
+          },
+          "violations": [
+            "latest_check:schema",
+            "latest_check:security"
+          ]
+        },
+        "impl_8413c065daa1": {
+          "effective": {
+            "capacity": 53,
+            "cost": 39,
+            "features": [
+              "audit",
+              "deduplication"
+            ],
+            "implementation_id": "impl_8413c065daa1",
+            "input_format": "csv",
+            "latency": 21,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 8
+          },
+          "violations": []
+        },
+        "impl_92f655913274": {
+          "effective": {
+            "capacity": 54,
+            "cost": 23,
+            "features": [
+              "audit",
+              "compression",
+              "encryption"
+            ],
+            "implementation_id": "impl_92f655913274",
+            "input_format": "csv",
+            "latency": 36,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 40
+          },
+          "violations": []
+        },
+        "impl_95a07ff563bd": {
+          "effective": {
+            "capacity": 53,
+            "cost": 50,
+            "features": [
+              "audit",
+              "deduplication",
+              "lineage"
+            ],
+            "implementation_id": "impl_95a07ff563bd",
+            "input_format": "csv",
+            "latency": 9,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 10
+          },
+          "violations": []
+        },
+        "impl_98225eb2e9c1": {
+          "effective": {
+            "capacity": 30,
+            "cost": 19,
+            "features": [
+              "encryption"
+            ],
+            "implementation_id": "impl_98225eb2e9c1",
+            "input_format": "csv",
+            "latency": 15,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 20
+          },
+          "violations": []
+        },
+        "impl_9b96b630244c": {
+          "effective": {
+            "capacity": 18,
+            "cost": 16,
+            "features": [
+              "compression",
+              "lineage"
+            ],
+            "implementation_id": "impl_9b96b630244c",
+            "input_format": "columnar",
+            "latency": 31,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 26
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_aa6cb10bafc3": {
+          "effective": {
+            "capacity": 29,
+            "cost": 20,
+            "features": [
+              "encryption"
+            ],
+            "implementation_id": "impl_aa6cb10bafc3",
+            "input_format": "csv",
+            "latency": 7,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 17
+          },
+          "violations": []
+        },
+        "impl_ac0530de7f63": {
+          "effective": {
+            "capacity": 19,
+            "cost": 22,
+            "features": [
+              "compression",
+              "validation"
+            ],
+            "implementation_id": "impl_ac0530de7f63",
+            "input_format": "csv",
+            "latency": 8,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 23
+          },
+          "violations": []
+        },
+        "impl_c8fa2fe4a0ed": {
+          "effective": {
+            "capacity": 26,
+            "cost": 28,
+            "features": [
+              "deduplication",
+              "encryption",
+              "lineage"
+            ],
+            "implementation_id": "impl_c8fa2fe4a0ed",
+            "input_format": "csv",
+            "latency": 29,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 14
+          },
+          "violations": []
+        },
+        "impl_d0aeb3122d9b": {
+          "effective": {
+            "capacity": 19,
+            "cost": 25,
+            "features": [
+              "compression",
+              "encryption",
+              "validation"
+            ],
+            "implementation_id": "impl_d0aeb3122d9b",
+            "input_format": "csv",
+            "latency": 37,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 38
+          },
+          "violations": []
+        },
+        "impl_e29d1a2f0a07": {
+          "effective": {
+            "capacity": 49,
+            "cost": 25,
+            "features": [
+              "audit",
+              "validation"
+            ],
+            "implementation_id": "impl_e29d1a2f0a07",
+            "input_format": "columnar",
+            "latency": 28,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 30
+          },
+          "violations": [
+            "latest_check:schema",
+            "latest_check:security"
+          ]
+        },
+        "impl_e620d96cd43e": {
+          "effective": {
+            "capacity": 24,
+            "cost": 44,
+            "features": [
+              "audit",
+              "encryption",
+              "lineage"
+            ],
+            "implementation_id": "impl_e620d96cd43e",
+            "input_format": "csv",
+            "latency": 28,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 24
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_e9f42b0de841": {
+          "effective": {
+            "capacity": 16,
+            "cost": 20,
+            "features": [
+              "deduplication"
+            ],
+            "implementation_id": "impl_e9f42b0de841",
+            "input_format": "csv",
+            "latency": 23,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 39
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_faca9fe4df9a": {
+          "effective": {
+            "capacity": 44,
+            "cost": 11,
+            "features": [
+              "deduplication"
+            ],
+            "implementation_id": "impl_faca9fe4df9a",
+            "input_format": "csv",
+            "latency": 20,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 43
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_ff262d40cfe7": {
+          "effective": {
+            "capacity": 37,
+            "cost": 40,
+            "features": [
+              "validation"
+            ],
+            "implementation_id": "impl_ff262d40cfe7",
+            "input_format": "csv",
+            "latency": 16,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "columnar",
+            "quality": 38
+          },
+          "violations": []
+        }
+      },
+      "root_id": "root_a8815208d53ada",
+      "stage_index": 1,
+      "width": 20
+    },
+    {
+      "pairs": [
+        {
+          "BA_change": 0.21875,
+          "added_eligible": [
+            "impl_66955425d394",
+            "impl_87b518acf76a",
+            "impl_df1f408c43a5",
+            "impl_e5508ca84d8f"
+          ],
+          "gold_ids": [
+            "impl_05c6ddd4d925",
+            "impl_098863885437",
+            "impl_1bea2c52848e",
+            "impl_66287f4b4e8a",
+            "impl_66955425d394",
+            "impl_7569ef89c659",
+            "impl_76ffa2a9447e",
+            "impl_77710fed1ad6",
+            "impl_87921368ccf7",
+            "impl_87b518acf76a",
+            "impl_9bb33040b42c",
+            "impl_a3ef26d6ef72",
+            "impl_db09b536fed0",
+            "impl_df1f408c43a5",
+            "impl_e5508ca84d8f",
+            "impl_f9fd876b7874"
+          ],
+          "normalized_false_positives": {
+            "impl_43c1d3f9fd33": [
+              "latest_check:security"
+            ],
+            "impl_92bf500a1ebc": [
+              "latest_check:schema"
+            ],
+            "impl_98a34310eb9c": [
+              "latest_check:schema",
+              "latest_check:security"
+            ]
+          },
+          "normalized_ids": [
+            "impl_05c6ddd4d925",
+            "impl_098863885437",
+            "impl_66287f4b4e8a",
+            "impl_66955425d394",
+            "impl_7569ef89c659",
+            "impl_76ffa2a9447e",
+            "impl_77710fed1ad6",
+            "impl_87921368ccf7",
+            "impl_87b518acf76a",
+            "impl_92bf500a1ebc",
+            "impl_98a34310eb9c",
+            "impl_e5508ca84d8f",
+            "impl_df1f408c43a5",
+            "impl_1bea2c52848e",
+            "impl_43c1d3f9fd33"
+          ],
+          "normalized_missed": [
+            "impl_9bb33040b42c",
+            "impl_a3ef26d6ef72",
+            "impl_db09b536fed0",
+            "impl_f9fd876b7874"
+          ],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_43c1d3f9fd33": [
+              "latest_check:security"
+            ],
+            "impl_5b59f642c1e0": [
+              "latest_check:security"
+            ],
+            "impl_92bf500a1ebc": [
+              "latest_check:schema"
+            ],
+            "impl_98a34310eb9c": [
+              "latest_check:schema",
+              "latest_check:security"
+            ]
+          },
+          "raw_ids": [
+            "impl_05c6ddd4d925",
+            "impl_098863885437",
+            "impl_1bea2c52848e",
+            "impl_43c1d3f9fd33",
+            "impl_5b59f642c1e0",
+            "impl_66287f4b4e8a",
+            "impl_7569ef89c659",
+            "impl_76ffa2a9447e",
+            "impl_77710fed1ad6",
+            "impl_87921368ccf7",
+            "impl_92bf500a1ebc",
+            "impl_98a34310eb9c",
+            "impl_db09b536fed0"
+          ],
+          "raw_missed": [
+            "impl_66955425d394",
+            "impl_87b518acf76a",
+            "impl_9bb33040b42c",
+            "impl_a3ef26d6ef72",
+            "impl_df1f408c43a5",
+            "impl_e5508ca84d8f",
+            "impl_f9fd876b7874"
+          ],
+          "removed_eligible": [
+            "impl_db09b536fed0"
+          ],
+          "repeat": 0,
+          "root_id": "root_5f8ef53952b1fa",
+          "seed": 202609330016,
+          "width": 20
+        },
+        {
+          "BA_change": 0.21875,
+          "added_eligible": [
+            "impl_66955425d394",
+            "impl_87b518acf76a",
+            "impl_df1f408c43a5",
+            "impl_e5508ca84d8f"
+          ],
+          "gold_ids": [
+            "impl_05c6ddd4d925",
+            "impl_098863885437",
+            "impl_1bea2c52848e",
+            "impl_66287f4b4e8a",
+            "impl_66955425d394",
+            "impl_7569ef89c659",
+            "impl_76ffa2a9447e",
+            "impl_77710fed1ad6",
+            "impl_87921368ccf7",
+            "impl_87b518acf76a",
+            "impl_9bb33040b42c",
+            "impl_a3ef26d6ef72",
+            "impl_db09b536fed0",
+            "impl_df1f408c43a5",
+            "impl_e5508ca84d8f",
+            "impl_f9fd876b7874"
+          ],
+          "normalized_false_positives": {
+            "impl_43c1d3f9fd33": [
+              "latest_check:security"
+            ],
+            "impl_92bf500a1ebc": [
+              "latest_check:schema"
+            ],
+            "impl_98a34310eb9c": [
+              "latest_check:schema",
+              "latest_check:security"
+            ]
+          },
+          "normalized_ids": [
+            "impl_05c6ddd4d925",
+            "impl_098863885437",
+            "impl_66287f4b4e8a",
+            "impl_66955425d394",
+            "impl_7569ef89c659",
+            "impl_76ffa2a9447e",
+            "impl_77710fed1ad6",
+            "impl_87921368ccf7",
+            "impl_87b518acf76a",
+            "impl_92bf500a1ebc",
+            "impl_98a34310eb9c",
+            "impl_e5508ca84d8f",
+            "impl_df1f408c43a5",
+            "impl_1bea2c52848e",
+            "impl_43c1d3f9fd33"
+          ],
+          "normalized_missed": [
+            "impl_9bb33040b42c",
+            "impl_a3ef26d6ef72",
+            "impl_db09b536fed0",
+            "impl_f9fd876b7874"
+          ],
+          "outcome": "both_wrong",
+          "raw_false_positives": {
+            "impl_43c1d3f9fd33": [
+              "latest_check:security"
+            ],
+            "impl_5b59f642c1e0": [
+              "latest_check:security"
+            ],
+            "impl_92bf500a1ebc": [
+              "latest_check:schema"
+            ],
+            "impl_98a34310eb9c": [
+              "latest_check:schema",
+              "latest_check:security"
+            ]
+          },
+          "raw_ids": [
+            "impl_05c6ddd4d925",
+            "impl_098863885437",
+            "impl_1bea2c52848e",
+            "impl_43c1d3f9fd33",
+            "impl_5b59f642c1e0",
+            "impl_66287f4b4e8a",
+            "impl_7569ef89c659",
+            "impl_76ffa2a9447e",
+            "impl_77710fed1ad6",
+            "impl_87921368ccf7",
+            "impl_92bf500a1ebc",
+            "impl_98a34310eb9c",
+            "impl_db09b536fed0"
+          ],
+          "raw_missed": [
+            "impl_66955425d394",
+            "impl_87b518acf76a",
+            "impl_9bb33040b42c",
+            "impl_a3ef26d6ef72",
+            "impl_df1f408c43a5",
+            "impl_e5508ca84d8f",
+            "impl_f9fd876b7874"
+          ],
+          "removed_eligible": [
+            "impl_db09b536fed0"
+          ],
+          "repeat": 1,
+          "root_id": "root_5f8ef53952b1fa",
+          "seed": 202609330017,
+          "width": 20
+        }
+      ],
+      "policy": {
+        "max_cost": 55,
+        "max_latency": 45,
+        "min_capacity": 8,
+        "min_quality": 4,
+        "required_checks": [
+          "schema",
+          "security"
+        ]
+      },
+      "public_facts": {
+        "impl_05c6ddd4d925": {
+          "effective": {
+            "capacity": 42,
+            "cost": 24,
+            "features": [
+              "compression",
+              "deduplication"
+            ],
+            "implementation_id": "impl_05c6ddd4d925",
+            "input_format": "avro",
+            "latency": 9,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 39
+          },
+          "violations": []
+        },
+        "impl_098863885437": {
+          "effective": {
+            "capacity": 36,
+            "cost": 29,
+            "features": [
+              "audit",
+              "compression",
+              "validation"
+            ],
+            "implementation_id": "impl_098863885437",
+            "input_format": "csv",
+            "latency": 34,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 24
+          },
+          "violations": []
+        },
+        "impl_1bea2c52848e": {
+          "effective": {
+            "capacity": 37,
+            "cost": 40,
+            "features": [
+              "deduplication",
+              "encryption",
+              "lineage"
+            ],
+            "implementation_id": "impl_1bea2c52848e",
+            "input_format": "avro",
+            "latency": 10,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 24
+          },
+          "violations": []
+        },
+        "impl_43c1d3f9fd33": {
+          "effective": {
+            "capacity": 24,
+            "cost": 34,
+            "features": [
+              "audit",
+              "validation"
+            ],
+            "implementation_id": "impl_43c1d3f9fd33",
+            "input_format": "rowset",
+            "latency": 15,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 20
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_5b59f642c1e0": {
+          "effective": {
+            "capacity": 27,
+            "cost": 39,
+            "features": [
+              "audit"
+            ],
+            "implementation_id": "impl_5b59f642c1e0",
+            "input_format": "avro",
+            "latency": 11,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 18
+          },
+          "violations": [
+            "latest_check:security"
+          ]
+        },
+        "impl_66287f4b4e8a": {
+          "effective": {
+            "capacity": 40,
+            "cost": 16,
+            "features": [
+              "compression"
+            ],
+            "implementation_id": "impl_66287f4b4e8a",
+            "input_format": "avro",
+            "latency": 15,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 26
+          },
+          "violations": []
+        },
+        "impl_66955425d394": {
+          "effective": {
+            "capacity": 13,
+            "cost": 45,
+            "features": [
+              "audit",
+              "deduplication",
+              "encryption"
+            ],
+            "implementation_id": "impl_66955425d394",
+            "input_format": "avro",
+            "latency": 13,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "csv",
+            "quality": 29
+          },
+          "violations": []
+        },
+        "impl_7569ef89c659": {
+          "effective": {
+            "capacity": 40,
+            "cost": 15,
+            "features": [
+              "audit",
+              "encryption",
+              "lineage"
+            ],
+            "implementation_id": "impl_7569ef89c659",
+            "input_format": "avro",
+            "latency": 13,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 17
+          },
+          "violations": []
+        },
+        "impl_76ffa2a9447e": {
+          "effective": {
+            "capacity": 29,
+            "cost": 16,
+            "features": [
+              "audit",
+              "deduplication",
+              "encryption"
+            ],
+            "implementation_id": "impl_76ffa2a9447e",
+            "input_format": "avro",
+            "latency": 33,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 21
+          },
+          "violations": []
+        },
+        "impl_77710fed1ad6": {
+          "effective": {
+            "capacity": 37,
+            "cost": 16,
+            "features": [
+              "deduplication"
+            ],
+            "implementation_id": "impl_77710fed1ad6",
+            "input_format": "avro",
+            "latency": 9,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 32
+          },
+          "violations": []
+        },
+        "impl_87921368ccf7": {
+          "effective": {
+            "capacity": 35,
+            "cost": 27,
+            "features": [
+              "compression",
+              "encryption",
+              "lineage"
+            ],
+            "implementation_id": "impl_87921368ccf7",
+            "input_format": "avro",
+            "latency": 26,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 18
+          },
+          "violations": []
+        },
+        "impl_87b518acf76a": {
+          "effective": {
+            "capacity": 48,
+            "cost": 13,
+            "features": [
+              "lineage"
+            ],
+            "implementation_id": "impl_87b518acf76a",
+            "input_format": "avro",
+            "latency": 8,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 17
+          },
+          "violations": []
+        },
+        "impl_92bf500a1ebc": {
+          "effective": {
+            "capacity": 29,
+            "cost": 23,
+            "features": [
+              "audit",
+              "compression",
+              "deduplication"
+            ],
+            "implementation_id": "impl_92bf500a1ebc",
+            "input_format": "rowset",
+            "latency": 23,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 40
+          },
+          "violations": [
+            "latest_check:schema"
+          ]
+        },
+        "impl_98a34310eb9c": {
+          "effective": {
+            "capacity": 13,
+            "cost": 20,
+            "features": [
+              "deduplication",
+              "lineage"
+            ],
+            "implementation_id": "impl_98a34310eb9c",
+            "input_format": "avro",
+            "latency": 18,
+            "latest_required_checks": {
+              "schema": {
+                "passed": false,
+                "revision": 1
+              },
+              "security": {
+                "passed": false,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 18
+          },
+          "violations": [
+            "latest_check:schema",
+            "latest_check:security"
+          ]
+        },
+        "impl_9bb33040b42c": {
+          "effective": {
+            "capacity": 12,
+            "cost": 6,
+            "features": [
+              "audit",
+              "compression"
+            ],
+            "implementation_id": "impl_9bb33040b42c",
+            "input_format": "avro",
+            "latency": 19,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 24
+          },
+          "violations": []
+        },
+        "impl_a3ef26d6ef72": {
+          "effective": {
+            "capacity": 8,
+            "cost": 31,
+            "features": [
+              "audit",
+              "validation"
+            ],
+            "implementation_id": "impl_a3ef26d6ef72",
+            "input_format": "avro",
+            "latency": 27,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 13
+          },
+          "violations": []
+        },
+        "impl_db09b536fed0": {
+          "effective": {
+            "capacity": 43,
+            "cost": 32,
+            "features": [
+              "audit",
+              "lineage"
+            ],
+            "implementation_id": "impl_db09b536fed0",
+            "input_format": "csv",
+            "latency": 40,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 20
+          },
+          "violations": []
+        },
+        "impl_df1f408c43a5": {
+          "effective": {
+            "capacity": 31,
+            "cost": 29,
+            "features": [
+              "compression",
+              "deduplication",
+              "lineage"
+            ],
+            "implementation_id": "impl_df1f408c43a5",
+            "input_format": "avro",
+            "latency": 39,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 34
+          },
+          "violations": []
+        },
+        "impl_e5508ca84d8f": {
+          "effective": {
+            "capacity": 21,
+            "cost": 45,
+            "features": [
+              "audit",
+              "compression"
+            ],
+            "implementation_id": "impl_e5508ca84d8f",
+            "input_format": "avro",
+            "latency": 21,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 32
+          },
+          "violations": []
+        },
+        "impl_f9fd876b7874": {
+          "effective": {
+            "capacity": 46,
+            "cost": 47,
+            "features": [
+              "audit",
+              "lineage"
+            ],
+            "implementation_id": "impl_f9fd876b7874",
+            "input_format": "csv",
+            "latency": 21,
+            "latest_required_checks": {
+              "schema": {
+                "passed": true,
+                "revision": 1
+              },
+              "security": {
+                "passed": true,
+                "revision": 1
+              }
+            },
+            "output_format": "rowset",
+            "quality": 6
+          },
+          "violations": []
+        }
+      },
+      "root_id": "root_5f8ef53952b1fa",
+      "stage_index": 2,
+      "width": 20
+    }
+  ],
+  "false_positive_policy_violations_nonexclusive": {
+    "normalized": {
+      "latest_check:schema": 20,
+      "latest_check:security": 31,
+      "quality": 6
+    },
+    "raw": {
+      "capacity": 1,
+      "latest_check:schema": 22,
+      "latest_check:security": 37,
+      "quality": 6
+    }
+  },
+  "host_only_adjudication": true,
+  "model_calls": 0,
+  "no_model_reasoning_inferred": true,
+  "schema": "b05-normalization9-post-outcome-mechanism-v1",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/mechanism.py": "ff8a87a91263fc7c294fca25c993fb27da16356dfeedf041b19599e1850a70dd",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/outcome-001/REPORT.json": "9c1a82841c9eccfb2f18aa27cf8c3cf9e710dd8bbd66a1c16d84528af03b06be",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-public-normalization-held9-v1/PUBLIC_INPUTS.json": "d8f8e1c0e5e47f1722fd9e32f897486e5111126e781a28e49077e0976f0aefd9"
+  }
+}

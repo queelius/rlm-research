@@ -1,0 +1,19 @@
+{
+  "complete": false,
+  "elapsed_seconds": 3.0846035480499268,
+  "errors": [
+    {
+      "message": "dual-LoRA launcher failed; see retained log",
+      "traceback": "Traceback (most recent call last):\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-long-transfer-eval-v1/owner.py:balanced32-v2\", line 110, in execute\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-post-sft-suite-v1/suite.py\", line 147, in start_service\n    raise RuntimeError('dual-LoRA launcher failed; see retained log')\nRuntimeError: dual-LoRA launcher failed; see retained log\n",
+      "type": "RuntimeError"
+    }
+  ],
+  "no_retry": true,
+  "optimizer_steps": 0,
+  "recorded": null,
+  "released": true,
+  "result": null,
+  "scientifically_available": null,
+  "stage": "lr1e4",
+  "terminal_strip_contract": null
+}

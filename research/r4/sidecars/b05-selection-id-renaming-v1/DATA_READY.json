@@ -1,0 +1,16 @@
+{
+  "GPU_calls": 0,
+  "all_numeric_policy_history_and_check_facts_unchanged": true,
+  "host_gold_sha256": "80856462c969df565f2670ff4bf2a31ecf5e16715cdb9f76cb1e7d28416db7f9",
+  "mapping_sha256": "a37bf806808629b0e5db0fa4d88b6a3cbc53132806a6beb1e90909e690d80742",
+  "model_calls": 0,
+  "models": 2,
+  "only_implementation_id_strings_changed": true,
+  "planned_calls": 36,
+  "schema": "b05-id-renaming-data-ready-v1",
+  "source_eval_tasks_sha256": "ffbef2a61800f44554f28c4c4f7ef79adaeaaa2f46876b0651aea1a7cea4fd00",
+  "source_host_gold_sha256": "1bc9bcbacb43b4563b05c956383188f78f98387a477390179016a9a77916e31b",
+  "stage_contexts": 9,
+  "tasks": 18,
+  "tasks_sha256": "aeb456bb27af64f982fc06d0f79f7b39a9c70cbf1ba7b958aaa28c70bdd07433"
+}

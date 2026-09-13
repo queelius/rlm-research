@@ -1,0 +1,113 @@
+{
+  "GPU_calls": 0,
+  "interpretation": "Public eligible-row lookup and deterministic witness arithmetic only; does not alter emitted IDs, eligibility, selection, or official score.",
+  "model_calls": 0,
+  "official_primary_preserved": {
+    "correct": 0,
+    "planned": 8
+  },
+  "rebuilt_witness_status_counts": {
+    "invalid_claim": 2,
+    "valid_but_wrong": 6
+  },
+  "rows": [
+    {
+      "all_three_ids_lookup_to_unique_eligible_rows": true,
+      "call_id": "call_d86a66c1fe9ecdbf1d44",
+      "host_arithmetic_diagnostic_not_output_repair": true,
+      "kind": "direct",
+      "official_reason": "covered_features must be sorted and unique",
+      "official_status": "invalid_claim",
+      "rebuilt_witness_reason": null,
+      "rebuilt_witness_status": "valid_but_wrong",
+      "root_id": "root_9dbd5f1edf00ba",
+      "selection_matches_true_optimum": false
+    },
+    {
+      "all_three_ids_lookup_to_unique_eligible_rows": true,
+      "call_id": "call_b2d869d217010eabee55",
+      "host_arithmetic_diagnostic_not_output_repair": true,
+      "kind": "oracle_exact_report_synthesis",
+      "official_reason": "covered_features must be sorted and unique",
+      "official_status": "invalid_claim",
+      "rebuilt_witness_reason": null,
+      "rebuilt_witness_status": "valid_but_wrong",
+      "root_id": "root_9dbd5f1edf00ba",
+      "selection_matches_true_optimum": false
+    },
+    {
+      "all_three_ids_lookup_to_unique_eligible_rows": true,
+      "call_id": "call_03d1b9ea5343c52c975b",
+      "host_arithmetic_diagnostic_not_output_repair": true,
+      "kind": "direct",
+      "official_reason": "root witness field is inconsistent: bottleneck_capacity",
+      "official_status": "invalid_claim",
+      "rebuilt_witness_reason": null,
+      "rebuilt_witness_status": "valid_but_wrong",
+      "root_id": "root_d3cd251c9a9448",
+      "selection_matches_true_optimum": false
+    },
+    {
+      "all_three_ids_lookup_to_unique_eligible_rows": true,
+      "call_id": "call_35973c640c17bbd08632",
+      "host_arithmetic_diagnostic_not_output_repair": true,
+      "kind": "oracle_exact_report_synthesis",
+      "official_reason": "covered_features must be sorted and unique",
+      "official_status": "invalid_claim",
+      "rebuilt_witness_reason": null,
+      "rebuilt_witness_status": "valid_but_wrong",
+      "root_id": "root_d3cd251c9a9448",
+      "selection_matches_true_optimum": false
+    },
+    {
+      "all_three_ids_lookup_to_unique_eligible_rows": true,
+      "call_id": "call_d5c17c78e735e41c6e88",
+      "host_arithmetic_diagnostic_not_output_repair": true,
+      "kind": "direct",
+      "official_reason": "covered_features must be sorted and unique",
+      "official_status": "invalid_claim",
+      "rebuilt_witness_reason": null,
+      "rebuilt_witness_status": "valid_but_wrong",
+      "root_id": "root_1e85ada58d2088",
+      "selection_matches_true_optimum": false
+    },
+    {
+      "all_three_ids_lookup_to_unique_eligible_rows": true,
+      "call_id": "call_899474783c5cbac824cf",
+      "host_arithmetic_diagnostic_not_output_repair": true,
+      "kind": "oracle_exact_report_synthesis",
+      "official_reason": "root witness field is inconsistent: bottleneck_capacity",
+      "official_status": "invalid_claim",
+      "rebuilt_witness_reason": "selected rows exceed the global latency cap",
+      "rebuilt_witness_status": "invalid_claim",
+      "root_id": "root_1e85ada58d2088",
+      "selection_matches_true_optimum": false
+    },
+    {
+      "all_three_ids_lookup_to_unique_eligible_rows": true,
+      "call_id": "call_ca7bb559336b420bcd0c",
+      "host_arithmetic_diagnostic_not_output_repair": true,
+      "kind": "direct",
+      "official_reason": "covered_features must be sorted and unique",
+      "official_status": "invalid_claim",
+      "rebuilt_witness_reason": "selected rows are format-incompatible",
+      "rebuilt_witness_status": "invalid_claim",
+      "root_id": "root_82401d72e4a32c",
+      "selection_matches_true_optimum": false
+    },
+    {
+      "all_three_ids_lookup_to_unique_eligible_rows": true,
+      "call_id": "call_30b2b9ffab2dad097037",
+      "host_arithmetic_diagnostic_not_output_repair": true,
+      "kind": "oracle_exact_report_synthesis",
+      "official_reason": "covered_features must be sorted and unique",
+      "official_status": "invalid_claim",
+      "rebuilt_witness_reason": null,
+      "rebuilt_witness_status": "valid_but_wrong",
+      "root_id": "root_82401d72e4a32c",
+      "selection_matches_true_optimum": false
+    }
+  ],
+  "schema": "b05-qwen3-8b-selection-witness-inert-diagnostic-v1",
+  "source_results_sha256": "94bf50562119c1fc3971e06f1d3c8a8a510d57c606686ce8b3747a46dcc55775"
+}

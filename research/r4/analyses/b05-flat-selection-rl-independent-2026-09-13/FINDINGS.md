@@ -1,0 +1,13 @@
+# BA18: local ID selection moves, held transfer does not
+
+Raw audit COMPLETE: all72 calls available and authenticated, no discrepancies. `readout-001.json` SHA `7cb6d668226700b10ad63aac7284c071b93e6100e192742b362a52a9542593e3`. Native model/prefix/seed/raw response/tokens/usage and runtime bindings match. This is independent saved-output scoring using the reviewed decoder, not independent training replication.
+
+Train: unordered exact2→2/18; BA.625024→.665675 over the same17 valid outputs. FP46→41, FN21→21. The single invalid coordinate is identical in both arms (`root_f98f12f66497c2`, repeat0): a known transport-valid response containing an out-of-shard ID. It is not unavailable and is not treated as an empty set. Thirteen of18 native token paths are identical; all five changes alter selected sets, none is ordering-only.
+
+All five removed false positives fail their latest schema and/or security check. Three removals occur in credited training group `root_e796c4a10df108` repeat0; the other two occur in zero-advantage training groups. That credited response also omits one truly eligible ID. Elsewhere two correct additions offset two correct omissions overall. The width20 credited group adds an eligible ID in one repeat and removes the same ID in the other, net zero. Thus BA improves through genuine local selection changes, but not through uniformly correct predicate execution or exclusive improvement on directly credited groups.
+
+Held: unordered exact0→0/18; BA.630147→.625034, all18 valid. TP117→116, FP54→54;16/18 native paths identical. One width12 answer newly includes an implementation failing its security check. The changed width20 answer mixes beneficial ineligible removals with eligible omissions and an ineligible addition. There is no held selection gain and no sorting explanation for the null. Nine material contexts/split and one seed limit inference.
+
+Physical cost:72 calls,284,332 input tokens and11,480 output tokens, no unknown usage; owner101.4136s. These fresh paired arms use the current LoRA-capable service; older width/base outputs are not pooled.
+
+One prospectively fixed LR1e-3 step from the EXACT original zero-B initialization and same18 frozen actions is a reasonable bounded dose/overshoot test: behavior already moves in-sample, so it can distinguish stronger local fit from destructive movement and ask whether any transfer emerges. It does not establish insufficient LR as the cause. Preserve original initialization/seed/Adam/masks/TIS/all18 denominator; do not continue cp1, add data, sweep LRs, or condition the fixed train18+held18 readout on training score. MAIN alone may admit GPU work.

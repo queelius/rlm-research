@@ -1,0 +1,7 @@
+# Independent normalization36 outcome audit
+
+Seal runs one public-transform/semantic-format regression and independently checks every candidate's effective fields, feature sets, latest/missing required checks and retained order against original public tables. It pins reviewed native wire/runtime auditors plus source READY/public payload/host labels. The independent transform uses no eligibility predicate, reference solver or host labels.
+
+Run CPU_READY argv once after MAIN reports completion. One terminal check writes PENDING/HOLD or audits all36 calls. No active polling/model/GPU. Saved source/raw prompts and both newly frozen prefixes, seeds, requests, model/no-LoRA/runtime, completion IDs/decodes, canonical and raw response hashes, all independent unordered/strict-format grades, valid-set BA/precision/recall denominators and usage are checked. Every nine stage/two-seed pair and width6/12/20 summary is retained. Unknown is not wrong. No output or gold repair.
+
+REPORT.json includes full raw artifact hashes, independent public transform checks, scores and per-stage/per-width changes. Inspect all gains/losses, not selected successes. Any improvement is deterministic mechanical preprocessing with different input length/explanatory wording, not learned decomposition or equal-token-cost evidence. A possible later replication needs fresh public histories/widths or a tighter mechanism control; this analyzer neither creates nor launches one.

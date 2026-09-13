@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "elapsed_seconds": 47.88702203147113,
+  "error": null,
+  "owned_process_reaped": true,
+  "ready_identity": "d77ef3bad0361e8e7748d10137fbc6e7d4afa5230e0652338f70fc471409d468",
+  "ready_sha256": "f845658e39448ab0f7836f0da09f8a8e9a5518400450ede7d513c28b7ef6da2b",
+  "result_sha256": "db1e8766770dea93adce707e635c84ceb72264f0985a77fae88f6fe246c92422",
+  "subprocess_exit_code": 0
+}

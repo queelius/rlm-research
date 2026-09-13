@@ -1,0 +1,19 @@
+{
+  "complete": false,
+  "elapsed_seconds": 3.1736536026000977,
+  "errors": [
+    {
+      "message": "SERVER_START/config/launcher binding does not authenticate this owned service",
+      "traceback": "Traceback (most recent call last):\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/b05-qwen3-8b-direct-oracle-v1/owner.py\", line 33, in execute\n    suite.start_service(service,binding,min(start+285,end-50));descriptor=study.read(service/'service/endpoint-original.json');endpoint=f\"http://{descriptor['host']}:{descriptor['port']}/inference/v1/generate\"\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-post-sft-suite-v1/suite.py\", line 144, in start_service\n    observe_service(directory)\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/leaf-post-sft-suite-v1/suite.py\", line 122, in observe_service\n    return life.claim_service(directory/'service')\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/root-rlvr-campaign-v1/campaign_lifecycle_v2.py:free-id-attempt002-wrapper\", line 22, in claim_service\n    def verify_amendment():\n            ^^^^^^^^^^^^^^^^\nValueError: SERVER_START/config/launcher binding does not authenticate this owned service\n",
+      "type": "ValueError"
+    },
+    {
+      "message": "SERVER_START/config/launcher binding does not authenticate this owned service",
+      "stage": "release",
+      "type": "ValueError"
+    }
+  ],
+  "released": false,
+  "result_sha256": "9aa78ab8aee134df903b6125664ea7420cd1522857f66e4352f67b3c84c15f0d",
+  "runtime_qualified": false
+}

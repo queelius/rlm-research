@@ -1,5 +1,73 @@
 # Live GPU research queue
 
+### Live update September 13, 01:00 UTC — accepted batch complete
+
+No GPU job is active or admitted. Both selection doses, their 72-call readouts,
+ID-renaming36, normalization36 and fresh48, freshMRCR64, freshFinQA32, and the
+qualified 8B8-call diagnostic completed. Independent saved-native audits finished.
+GPU released; subsequent idleness is real, not scientific utilization. Account
+19% at00:58/01:03 UTC: winding down optional branches to preserve the reserve.
+
+New strongest lead: normalized public records, retaining all candidates and no
+eligibility computation, improved fresh unordered exact1→9/24 (five cases,
+allwidth6), input−52%. Widercases still0exact; strictsorted0→2. Selectiondose10
+raisesheldBA2.806points butrecall79.1→67.6% andexact0both, notrobustlearning.
+Smallerdosename-renamingremoveslocaladvantage on17commonvalid coordinates.
+
+Ranked next work, NOT run-ready or admitted:
+1. Same normalized input, selected-ID list versus explicit per-candidate yes/no
+   decisions; twelve NEW cases, two seeds,48calls, proposed600science-secondcap.
+2. Raw, compact-unresolved and resolved representations; isolate why preparation
+   helps,72calls/proposed900cap; keep independent of interface comparison.
+3. Varied candidate/policy/state training with new structural holdouts and
+   decision-local credit; define immutable recipe before starting, not another
+   fixed-batch dose sweep. Later choose whether/where to split or recurse.
+
+Design, promotion/retirement rules and open uncertainties:
+questions/public-state-and-decision-accounting.md.
+Completed report/publication handoff:
+operations/2026-09-13-selection-and-state-checkpoint/HANDOFF.md.
+Keep earlier queue entries as history; they are NOT instructions to rerun jobs.
+
+### Live update September 13, 00:50 UTC
+
+55520 selectiondose10fixed72 active;31676 freshnormalization48 next underflock.
+BothCPU/GPUadmittedbefore/at20%winddown; finishacceptedwork, no newbroadbranches.
+CompletedIDrename36 originalcp1: rawBA+.01190 over18valid, exact2both; auditpending.
+Completednormalization36: exact0→4/18 (two width6 cases repeated), recall78→93%,
+input−42%, butwidercasesstill0exact. Fresh12adds newhistory1/3cases, notnewdataset.
+8Battempt003all8available0rootcorrect; publicwitnessfixstillnooptima. No further8B.
+CPUaudits: postrenaming, localdose, tokenfreshnormalizer. Quota20%@00:48,
+winddownnow/pause15/reserve10. Publishresearchcheckpoint/handoffnext.
+
+### Live update September 13, 00:26 UTC
+
+ACTIVE71207 selection72 READY a32cae2ac08ec93327805eef6afc886e8f15e20fd00361bff90488db614b2d52,
+fixed newbase/cp1 eachtrain18+held18, allconditions regardlessscore, currentdualLoRA
+wrapper/lifecycle. CPU local savednativeaudit; no furtheroptimizer admittedyet.
+NEXT1 CPUtoken: publicstate-normalization36 onfreshheld9×2, rawvsnormalized
+bothfreshbase, noeligibilityfilter/goldintransform, same384/T.5;offloadmechanical
+joins andlatestchecks butmodelstillselects. NEXT2 CPUpost: optional8B8callport
+thinlifecycle correction only. Failed002 UNKNOWN8, orphanownedgroupterminated
+andGPUreleasedbefore00:24; no accuracyclaim. No GPUagent authority.
+FreshFinQA16 done1direct/2DSL,valid8,1W0L, sparseusefularithmetic/notstronggain;
+retireadditionalprompttuning fornow. FreshMRCR32verified24→27,5W2L,mostlycopying,
+clean29→29. Quota22%@00:26;winddown20/pause15/reserve10.
+
+### Live update September 13, 00:16 UTC
+
+ACTIVE55177: actual-selection BA18 single update, then new16-page FinQA32 under
+one explicit flock. Training READY7a2fe51f…, FinQA READY6fb1607a…. Both MAIN-reviewed;
+second independent stage proceeds after first release regardless training score.
+NEXT1 conditional learned-selection checkpoint/base readout72 (local CPU preparing).
+NEXT2 cached post-trained Qwen3-8B direct/perfect-report calibration8,
+READYd9265b86…, MAIN source review nearly complete. No child/depth or capacity claim.
+Fresh MRCR32×2 completed:24→27 exact,29→29 normalized; independent paired audit now
+running on CPU. This is a promising answer-delivery signal, not established improved
+reasoning. FinQA two-example old16: direct1/DSL3, validDSL7; new16 replication now
+accepted rather than additional prompt tuning on the same questions.
+Quota23%@00:11, winddown20/pause15/reserve10. MAIN sole GPU launcher.
+
 ### Live update September 12, 23:45 UTC
 
 NEXT GPU: fixedcp32/LR1e-4 freshbalanced32×2, CPUentryrepair inprogress;

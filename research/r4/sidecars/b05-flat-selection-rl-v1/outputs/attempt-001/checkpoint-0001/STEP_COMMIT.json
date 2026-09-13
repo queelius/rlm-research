@@ -1,0 +1,22 @@
+{
+  "artifacts_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/INITIAL.json": "bccf017a7d611de6430ae4f5c959a412520477dadbac50a5c3a6f6c1dfdb2af8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/PRESTEP_LOGPS.json": "db922bd51c4a778b12fc721c8ac0e960b8fba9b80bc081bcc37f1243c8278f14",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/PRESTEP_QUALIFICATION.json": "d88154da8f796da0c52929691f88c6085ce3a44df5b64ddecac72084cd07c952",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/REPLAY.json": "d93085cee2979bd71f6ec2631708ad1247491a2dbe095da95e65ca646b8cd2a1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/checkpoint-0001/EVAL_BINDING.json": "eac749a33b8f6c3f9d77eb09032ab6fdbd3a555007183c7a95cc30e79cfe2835",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/checkpoint-0001/adapter_config.json": "9b586206d6fd1916b915f2ca80f097e2ae151b6f64d6375b2e313e4933469a09",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/checkpoint-0001/adapter_model.safetensors": "b20bed7491e1831698657a0e991da31f6119d3bc7095460af5a3c5745407fe19",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/checkpoint-0001/optimizer.pt": "22390821fd764068a0f9847f1d081c5d9830632f7c1bfec1ad6c30afa82e475c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/checkpoint-0001/rng.pt": "d3c3018098653ea2efe4a8b25fd75008e16845bb93480f167bc8e25a8b209151",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/checkpoint-0001/state.json": "4ec0d1979f8f205d50d7d5ee8887cf6152057dfcb925ef8a3e825748489dbe8c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/checkpoint-0001/trainable.pt": "f3926096eb27e97d9e0cdb5ef49dff65b7f42b87a3a39033432592c96eb2dd61",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/gradients.pt": "24452c78afa246e6f075786cca4593bfe008e54a7ddd75d989c09c55c44dfa4f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/initial-rng.pt": "a8c61d16b63d8da7d097f7e6d75cb5c228255a17dda43f91e5e8f2ee3aca6538",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-flat-selection-rl-v1/outputs/attempt-001/initial-trainable.pt": "23325e738b275b14d90b2184ef2e92bec0930fd5fb097501024f28a9a14d205b"
+  },
+  "input_sha256": "a21efdbcc0da6e545255b17c93beabb6059ca4217333ee5c23edfa57f81cbf2f",
+  "optimizer_steps": 1,
+  "schema": "b05-flat18-single-step-commit-v1",
+  "source_ready_sha256": "7a2fe51f53402604ad3c3f437fd61d96ff347423417859b99916e720c85d6aa5"
+}

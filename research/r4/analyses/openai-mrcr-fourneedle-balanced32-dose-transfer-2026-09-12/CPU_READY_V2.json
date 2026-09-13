@@ -1,0 +1,22 @@
+{
+  "GPU_calls": 0,
+  "attempt": "002",
+  "closure_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-balanced32-dose-transfer-2026-09-12/CPU_READY.json": "94920657ac03c70507e087b25d1f24921e4196e32ca89e33c5f3c5cb263bd54b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-balanced32-dose-transfer-2026-09-12/analyze.py": "208b736af43a6d336f09c0836803815c04171009a717c0dc4eda148bca94cb1e",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-balanced32-dose-transfer-2026-09-12/analyze_v2.py": "2c28f80a0206cdf610f7f01a5771df43f8133ef16d5ec9bf5db4342f56952ebb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-fourneedle-balanced32-transfer-eval-v1/RUN_READY_SERVICE_REPAIR.json": "284d965c6b23da9d17d2b319dbc798d44950347b9381b10d41fec2c67a33ced4"
+  },
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-balanced32-dose-transfer-2026-09-12/analyze_v2.py",
+    "check",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/openai-mrcr-fourneedle-balanced32-dose-transfer-2026-09-12/outcome-002/RESULTS.json"
+  ],
+  "identity": "982672181d4799b0f1411278946cf93b5ad594f29e5c7f1da99c9792b403dc78",
+  "planned_per_arm": 32,
+  "polling": false,
+  "schema": "mrcr-balanced32-dose-transfer-audit-ready-v2",
+  "source_repair_ready_sha256": "284d965c6b23da9d17d2b319dbc798d44950347b9381b10d41fec2c67a33ced4"
+}

@@ -1,0 +1,34 @@
+{
+  "GPU_calls": 0,
+  "all16_planned": true,
+  "argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-fresh16-independent-2026-09-13/analyze.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-fresh16-independent-2026-09-13/outcome-001"
+  ],
+  "model_calls": 0,
+  "no_metric_or_parser_change": true,
+  "old_panel_not_paired_with_new": true,
+  "one_shot_no_polling": true,
+  "schema": "finqa-fresh16-independent-audit-ready-v1",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-scalar-vs-dsl-independent-2026-09-12/analyze.py": "82f6987a096494d496341f0f62b5ee11590b021381f7f697778511f74d367be4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-fresh16-independent-2026-09-13/OLD_PANEL_SUMMARY.md": "df50b35e3c13412904ef1d04fbb22c8b1cdbe982f31cd8165c0afad49205a15a",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-fresh16-independent-2026-09-13/RUNBOOK.md": "24d9de59693a8a7f453389a172f8e0b058858bb285f44f32021735f838677f45",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-fresh16-independent-2026-09-13/analyze.py": "927897d803a8893646cba0f4511b959f93b58336c3c769ec5ab98feb7e8de705",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-fresh16-independent-2026-09-13/test_audit.py": "3c7e8d35cf7d0b7dc14ca2395756a9010167dc3201c51a0b16f956b3facd716d",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/finqa-two-example-independent-2026-09-12/outcome-001/native/REPORT.json": "daf449499a172d4528f7d22f2ac741df1eb6e930df7ed8b911e09d6ed2ff9103",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-two-example-fresh16-v1/CPU_READY.json": "6fb1607ad82554dcccdf761fdff781ae939d6feda414bbdcaf0c57b6d227107f",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-two-example-fresh16-v1/HOST_TARGETS.json": "f17f380d3fcb41650e1ed8c33e513aaa3bcbf86293c11d9a68bf6d3ac2db8175",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-two-example-fresh16-v1/PUBLIC_INPUTS.json": "74f75aa9d8b95b74ad9726ce28f7d75ea4d9a8a0081eb48e3b83b387edcd4faf",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/finqa-two-example-fresh16-v1/TOKEN_AUDIT.json": "29fa036f4ba64e58dca40b1c8fe19f21ccb01806b7a7640e9061e74d12fe4da1"
+  },
+  "status": "CPU_READY",
+  "tests": {
+    "returncode": 0,
+    "stderr": "",
+    "stdout": ".                                                                        [100%]\n1 passed in 0.09s\n"
+  }
+}
