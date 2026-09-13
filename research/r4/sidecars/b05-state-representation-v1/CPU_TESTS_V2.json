@@ -1,0 +1,19 @@
+{
+  "GPU_calls": 0,
+  "actual_three_view_native_http_path": true,
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/test_screen.py"
+  ],
+  "model_calls": 0,
+  "real_public_transform_fixture": true,
+  "returncode": 0,
+  "schema": "b05-state-representation-cpu-tests-v1",
+  "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+  "stdout": "..                                                                       [100%]\n=============================== warnings summary ===============================\ntest_screen.py::test_actual_native_http_path_for_all_three_views\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_screen.py::test_actual_native_http_path_for_all_three_views\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n2 passed, 2 warnings in 7.19s\n"
+}

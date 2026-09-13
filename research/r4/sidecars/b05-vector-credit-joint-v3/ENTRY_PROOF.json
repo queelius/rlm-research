@@ -1,0 +1,27 @@
+{
+  "GPU_calls": 0,
+  "actual_CPU_guard_reached": true,
+  "actual_scorer_all_logprobs_and_diagnostics": true,
+  "actual_train_preflight_unmocked": true,
+  "closure_files": 2181,
+  "command": [
+    "/project/alex_phd/repos/rlm-bootstrap/.worktrees/a100-lora-roundtrip/gpu/training/.venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-shared-v3/test_scorer_interface.py",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-joint-v3/test_arm.py"
+  ],
+  "credit_mode": "joint",
+  "identity": "bc88b579d9d4e44047032b3320b9d61826f2dd73794fbc2d3a6ba5d6e0e44d77",
+  "model_calls": 0,
+  "output_absent": true,
+  "ready_sha256": "f07077a70daeefacd7117780678563a8b253ba2ff74061c23f5efe0709c9af71",
+  "returncode": 0,
+  "schema": "b05-vector-credit-entry-proof-v2",
+  "stderr": "",
+  "stdout": "..                                                                       [100%]\n2 passed in 18.70s\n",
+  "subprocess_cuda_visible_devices": ""
+}

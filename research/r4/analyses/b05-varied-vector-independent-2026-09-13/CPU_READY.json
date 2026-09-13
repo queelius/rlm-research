@@ -1,0 +1,227 @@
+{
+  "GPU_calls": 0,
+  "argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-varied-vector-independent-2026-09-13/analyze.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-varied-vector-independent-2026-09-13/outcome-001"
+  ],
+  "one_shot_no_polling": true,
+  "public_checks": [
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "2fc3d245a4fc58591aed0006dcf63ce9eef7c5be1ad0d066beaa3b5034b282ed",
+      "root_id": "root_f98585cb708789",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "8c619771ef09292310817560fafae0d05f8ef3426d0dea00e694a57dac4f9dab",
+      "root_id": "root_80b031692d7b74",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "31c27a93c40a4ce6c5ec02ba4bae72621e31f51db41f0f00ecf886afdd9a938d",
+      "root_id": "root_7af77d61fdcb80",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "7eaee31638e862c2b46fbb54e89d1ed424750f3324870ac97eb99a3451ab0aad",
+      "root_id": "root_c6f3d7721ad840",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "8700f3232f4403c43ce0ba81305a48bb081b14ff36249a400156c640ad341406",
+      "root_id": "root_cad29474572c4b",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "65cec0fa772762cb8abcb4d9f5bbb042c00354c695af605148abaff9c9fdb888",
+      "root_id": "root_b9793fdd64bd8b",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "5e66eb25e270ba71b49aeb3287e83cf8184453dae299ebb9114baf295b6ed2e7",
+      "root_id": "root_dc29bbe9570c21",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "f607e2996b45de8f0bfe72d200a34db874f136c142ecbc24f21ffbda5ed27e92",
+      "root_id": "root_326df977fa228b",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "152b47a5aa75dd615a83aee232f503b6512ed349240a1eb760212f3d3a58ddf4",
+      "root_id": "root_222ecef3cfd04e",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "1b74d3cbc42734e854c978bf0026a7e67c6c397eec58231cd94e99f68db4039c",
+      "root_id": "root_d7fad122ad5bde",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "0870dbfceb7da0f7589aa0a08cd1ccd10d6030e9af43ae928c3bb64ccab0752d",
+      "root_id": "root_cd5359418db6a5",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "c9176551328ef912b095a5afd4dbc46ee96c00af624c438ef0d63442daca8d8c",
+      "root_id": "root_e748d8e26ebb44",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "ad4adac0835dc539432ea938e00144c258bed3fe2822791031accbfe4fdc0915",
+      "root_id": "root_5072e2052d1561",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "9ccee3221c43bb24461ebabd45d928df57db37749112860874d0e63f0bba23bf",
+      "root_id": "root_42bee96c14222d",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "1c2f5217497b5d65c9b6d3d3efb384fb794d36bdfd025d6d0a01170145a6b580",
+      "root_id": "root_fa42b509b187e5",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "1eb2eaaee86e3c90bd83ffe59332bc8c7ff9097e106420e6cde1a0513e36816c",
+      "root_id": "root_6f565c8a6598be",
+      "source_and_effective_fields_match": true,
+      "split": "train"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "88646dc7fd666331b4da32d18196dbb26c44e845061eea5740c3e00ee4e2e692",
+      "root_id": "root_04d5086ae43bb8",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "4103484d3613e72b8c526bb9bc422d3e8a2cbb6195ead4c686ae1ef145d016e2",
+      "root_id": "root_84f8ae20438329",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "a9d29b8adfa45be361e89f68900462c70700089035c25a86eec08d592bca10de",
+      "root_id": "root_924325b29605d3",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 6,
+      "public_order_sha256": "b99ea3247258b99273e38f7fda468b90f6af3b81972edabba7683cecf134968e",
+      "root_id": "root_653d5ec746e89e",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "d3af5b06466e3bba24d551bb4b97f90b1c4f56beb2ea10de49c4c52837d41b9f",
+      "root_id": "root_a03e089e3983f1",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "54d72eec39a336d705e28192aa82589d60a5679823497c78c8fb9d441f9cee99",
+      "root_id": "root_751a0880c4848b",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "d81496e427327403652be87fd266d477a5d7e2c9b34811830acee1346c63ce15",
+      "root_id": "root_1ce6ccabfe978d",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 12,
+      "public_order_sha256": "5f5630f807470a53cb75208a3ed2767b070a9859a75ae387d9093fa0ca3f52b3",
+      "root_id": "root_45f8c9f9d032c1",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 20,
+      "public_order_sha256": "87cdb81a3a8f1a40323a11b6dece2d722e61062677661c85d6059a0ea6bc7c1e",
+      "root_id": "root_d42c521fb2bb5f",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 20,
+      "public_order_sha256": "3b79d4a7194b91e0c5b34dab51cdf83117bccd65e368a2bd383d3642f78d48fd",
+      "root_id": "root_637ee9474442f7",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 20,
+      "public_order_sha256": "e3d23daa416c50a6b56546c660e6f312edc386ad2290b51ceba54035fd175c8a",
+      "root_id": "root_eaf57ca31d9966",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    },
+    {
+      "candidate_count": 20,
+      "public_order_sha256": "1dbe5e3a4adbb334f33086b4542243432ce56faa4c2dc384a7fd651c7d5f919d",
+      "root_id": "root_f01200e5d44979",
+      "source_and_effective_fields_match": true,
+      "split": "held"
+    }
+  ],
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-decision-vector-independent-2026-09-13/analyze.py": "11e7c8b2913ebc4c7068f3598962062a3c94370a302d85b438c5202fb4a6a4cf",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/analyze.py": "62e59881f03d604c3c9cb9df7635880d08655a35877d9597c31eef0bd24168fd",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-2026-09-12/analyze.py": "b66ec8d1df8fc99a2066c2ee41b1d1158ff51d36853bb0f7199c697ecae189df",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/analyze.py": "3f305e59305e082a73074343384916a4385eaf7376d6489156e37bf2dd773877",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-varied-vector-independent-2026-09-13/RUNBOOK.md": "374ce196daff690a7a7d4de71ee0651e719fc4177575f9f92ac109da57c5fcc4",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-varied-vector-independent-2026-09-13/analyze.py": "018a56f8e076f1a4e90b784f70181bcd6b7ebc7cf4ef2d57b4a035e20c5f4a10",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-varied-vector-independent-2026-09-13/test_audit.py": "d5e72cd84982ee3c95f8fcfdb7c9378f31a6c58d43b72067f3d0e879c46b9133",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-varied-vector-rollouts-v1/CPU_READY.json": "a20b568cd8ee3d49cbd65b3e5aab41003c31921be91f7ed5669be5df69733c8d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-varied-vector-rollouts-v1/HELD_PUBLIC.json": "134b2ae8e54f69f3a2bb0416c8f5cebb6259936e88489bc0d3d3387f63c971c8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-varied-vector-rollouts-v1/HOST_GOLD.json": "593bea3df47b28a4c353b8bf11aa4ca8d3119a0b641cc413b8251fc16bb09278",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-varied-vector-rollouts-v1/TRAIN_PUBLIC.json": "b3ab0e8b89add2cd8a5cc45021c78f1ec3d969a303bcb134974172d372b0cb6a"
+  },
+  "tests": {
+    "returncode": 0,
+    "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+    "stdout": "..                                                                       [100%]\n=============================== warnings summary ===============================\nruns/rlm-research-r4/analyses/b05-varied-vector-independent-2026-09-13/test_audit.py::test_independent_native_positions_and_four_way_rewards\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\nruns/rlm-research-r4/analyses/b05-varied-vector-independent-2026-09-13/test_audit.py::test_independent_native_positions_and_four_way_rewards\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n2 passed, 2 warnings in 6.96s\n"
+  }
+}

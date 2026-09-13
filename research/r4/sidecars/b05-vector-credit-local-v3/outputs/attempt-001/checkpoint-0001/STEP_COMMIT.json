@@ -1,0 +1,23 @@
+{
+  "artifacts_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/INITIAL.json": "4e8b11581d7aa2f37560084fc651c69c4a42aec7f1a6657d5913f4641c08a951",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/PRESTEP_LOGPS.json": "feb24e65d8936e6549f35bdf1128ed152d570ddc3a766a970a396be781eea790",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/PRESTEP_QUALIFICATION.json": "86052faa54a837e579c055743f9b57769a327058a1f6353e500dede7c6314a24",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/REPLAY.json": "a7c19fa3638c4ebd92d35c094c3ba45bd1720b91999c28f08a761abbd6d99a12",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001/EVAL_BINDING.json": "18166d7f990c251f69b41bedd3c6a6f93250d0556d7598088210de51640d1299",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001/adapter_config.json": "f24467d989581061df10aefb1e3c352516e333dcbd76b9278d19355abb915785",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001/adapter_model.safetensors": "4e302e319a54e52341335d377af20e62c753541f69b29977f8bbbfa05310bea1",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001/optimizer.pt": "fe3313853837a8c9459c3c1312920374215cd87aae9c0a78e449ef4ead914282",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001/rng.pt": "3fdf192f470979d826d239cd63884744fa630238a707f9cffe7aa1c8f924c88a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001/state.json": "17c217b1d610d03d91d7ae70a7f6bdcbd68d72f2db15ed80a55a0e6632c0c623",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001/trainable.pt": "6ba92fc37679c79659663c7910aa832656cf9b4bce683a9dc5dd1226ee6558c9",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/gradients.pt": "bde6886fc6c3ac33f04f0858946ebcad31812fdc4aa9123070850d79282fb2d8",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/initial-rng.pt": "17b828e616fed9ad7c3bc1c594e35157144a3ea05be45c2cea1e5c2a185bc6aa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/initial-trainable.pt": "e6b7fcb6f6dc2512f42975046af7b57d32178a15575bf959b7a2dd23fcf766d6"
+  },
+  "credit_mode": "local",
+  "input_sha256": "aa06431105486806e3006ed2e31ef3c276599277d3480db3453ce543e6dcc578",
+  "optimizer_steps": 1,
+  "schema": "b05-vector-credit-step1-commit-v1",
+  "source_ready_sha256": "ee4c84418327584da1397b34d45fe187c8908c449c61e91c9e6740cc4c644ec7"
+}

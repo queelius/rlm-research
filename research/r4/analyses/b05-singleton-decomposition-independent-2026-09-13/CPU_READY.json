@@ -1,0 +1,82 @@
+{
+  "GPU_calls": 0,
+  "argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-decomposition-independent-2026-09-13/analyze.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-decomposition-independent-2026-09-13/outcome-001"
+  ],
+  "model_calls": 0,
+  "no_polling": true,
+  "public_checks": [
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "46808004012c1d73f9f50e446efbfa29984a94a9dcf2c3c0b53874c631965323",
+      "root_id": "root_51ed2248d23342",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 6
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "b3b5df4a4452ea83cbe82515a31b26fafbae4c13c5e61c697b713149e2a399cf",
+      "root_id": "root_e9f80c0eb09dd0",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 6
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "09d9269d1b91f5c8b47ba0a62edc273ffe296697e6838e309211c955302c2e09",
+      "root_id": "root_d610ff85733de9",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 12
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "b3b785a24b6e0295ece44e5e6b0c4c9b9c448c6820bb151efb2595f6befab54b",
+      "root_id": "root_7798d39cef3f30",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 12
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "c1746b19b7db3cf4ea4544f7fc570d0eec59f59f379b1ebb7ab8479d5e0edd78",
+      "root_id": "root_5e999479a0b451",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 20
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "7b4d44d5038646c2f0d7b88d78ae33771a0cc294342faa4ab12fd582c976998a",
+      "root_id": "root_6e8a848db35a46",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 20
+    }
+  ],
+  "schema": "singleton176-independent-audit-ready-v1",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-decision-vector-independent-2026-09-13/analyze.py": "11e7c8b2913ebc4c7068f3598962062a3c94370a302d85b438c5202fb4a6a4cf",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/analyze.py": "62e59881f03d604c3c9cb9df7635880d08655a35877d9597c31eef0bd24168fd",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-decomposition-independent-2026-09-13/RUNBOOK.md": "6926db06830c7b569e1abf38290dc7f3ff051e0154e581533221a29238d31f57",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-decomposition-independent-2026-09-13/analyze.py": "6d91b442b44635927c05c4bf4f833bd1f12f7a0281031a09f563a6add68c044b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-decomposition-independent-2026-09-13/test_audit.py": "3a8bf8efbda50b83363fd1ed280e7c80513e5372448995bcc7b0471acb0134e8",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-2026-09-12/analyze.py": "b66ec8d1df8fc99a2066c2ee41b1d1158ff51d36853bb0f7199c697ecae189df",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/analyze.py": "3f305e59305e082a73074343384916a4385eaf7376d6489156e37bf2dd773877",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-singleton-decomposition-v1/CPU_READY.json": "06d962c024298d58cb87abefb54f03d2019fdbe5fd298cfd47c38edcbda2094c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-singleton-decomposition-v1/EXCLUSIONS.json": "1ece9ad78e076e815c0acf1ad0a0475487597d82a3b66b3517b6458c138c140c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-singleton-decomposition-v1/HOST_GOLD.json": "6d5d7fb4a68fd85f88931659bc8cb58fb5f50e782695f4f260483d59054b19e0",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-singleton-decomposition-v1/PUBLIC_INPUTS.json": "c03a856c54e973659dd19e566ba6dc0e8913e21ef9f6d1f9937cff7263934620",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-singleton-decomposition-v1/PUBLIC_ROOTS.json": "4c9e5fc30f4100a8e48f17e6f117412d16148f61feed2d7cb516de6b0135103e"
+  },
+  "tests": {
+    "returncode": 0,
+    "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+    "stdout": "..                                                                       [100%]\n=============================== warnings summary ===============================\ntest_audit.py::test_archived_actual_native_projection_fixture\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_audit.py::test_archived_actual_native_projection_fixture\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n2 passed, 2 warnings in 6.60s\n"
+  }
+}

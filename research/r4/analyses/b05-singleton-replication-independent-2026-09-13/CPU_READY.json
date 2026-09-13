@@ -1,0 +1,131 @@
+{
+  "GPU_calls": 0,
+  "argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-replication-independent-2026-09-13/analyze.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-replication-independent-2026-09-13/outcome-001"
+  ],
+  "model_calls": 0,
+  "no_polling": true,
+  "public_checks": [
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "e26b3c3c5d8028e6dfb9efb37fff6bff34f6368638e25c6633d84c924aa98e92",
+      "root_id": "root_347dd630ac2224",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 6
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "2a5810bd761367970c35b98cceecc7e3349a7679ce393302d395f63e4bff4a56",
+      "root_id": "root_a88cced12b5a9b",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 6
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "04b3deb0ec663884b61a7fd6afda9227abaa54275e166a0df562845c53008274",
+      "root_id": "root_b9284091fe4143",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 6
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "f795402cd8a60953c9612b46f1e5e6d12bd1ad6f6a286406568b653f1444dbd6",
+      "root_id": "root_3fcc94aeee4417",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 6
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "e3c41a481fa7560029a9ce06ae9e46227dc269122eb5036298d20805078de487",
+      "root_id": "root_39669eb3e130ae",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 12
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "ef43cd4c86f1e10a87fbe98d45d1f1ff4e77288f1309a503339851f1b40a5611",
+      "root_id": "root_f396ecb6aae718",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 12
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "437f68db9953238af29e920b757ec38eccd0429846d412237772d2590c420453",
+      "root_id": "root_311bbfdb508e44",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 12
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "a339f69edf6af9db7daf1dcf6b41407ab0e764893441daa0daab2f56bbae292d",
+      "root_id": "root_465c1efd63320e",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 12
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "4fb1d11ea349b227f48e6d5082bd1a03cfa9326ec2db858978d8bebd37f7e008",
+      "root_id": "root_5c9d1abf0dfe8a",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 20
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "9510cb54388f09a88ee403c79b6dafb1eff193439d64bf1ff3f85b0a73e179ac",
+      "root_id": "root_a2c6bd021f308c",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 20
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "c5f42d6db3510c40ee5030eeb15ce2c205f96f5095b1faf33b896c6f7282d2ba",
+      "root_id": "root_d9460992336ce8",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 20
+    },
+    {
+      "both_source_solvers_match": true,
+      "every_effective_candidate_independently_recomputed": true,
+      "public_order_sha256": "02b31343456e03d8df932cc70985c644066f33dbc4a3824e0a6443f193c45fe3",
+      "root_id": "root_0659f3cdcf2378",
+      "singleton_projection_same_facts_and_policy": true,
+      "width": 20
+    }
+  ],
+  "schema": "singleton328-independent-audit-ready-v1",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-decision-vector-independent-2026-09-13/analyze.py": "11e7c8b2913ebc4c7068f3598962062a3c94370a302d85b438c5202fb4a6a4cf",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/analyze.py": "62e59881f03d604c3c9cb9df7635880d08655a35877d9597c31eef0bd24168fd",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-decomposition-independent-2026-09-13/analyze.py": "6d91b442b44635927c05c4bf4f833bd1f12f7a0281031a09f563a6add68c044b",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-replication-independent-2026-09-13/RUNBOOK.md": "d8e0978a95ddcbdcd8528e75a32ad5ab9e352689611d029de6a1c493986eee6f",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-replication-independent-2026-09-13/analyze.py": "3521c7130237448ec14fadce8c3c72cac7b4173bcc1c85f9655ebf3784ae85ae",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-singleton-replication-independent-2026-09-13/test_audit.py": "a983684a84f9b1f288e685cce7d35651f5cd8ff94476b1b33851afc7390a0853",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-2026-09-12/analyze.py": "b66ec8d1df8fc99a2066c2ee41b1d1158ff51d36853bb0f7199c697ecae189df",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/analyze.py": "3f305e59305e082a73074343384916a4385eaf7376d6489156e37bf2dd773877",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-singleton-decomposition-replica-v1/CPU_READY.json": "df551ff0160dab37511a9e58406470885f1bedc47d36fba7c8668ca271a3d1eb",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-singleton-decomposition-replica-v1/EXCLUSIONS.json": "24a68be21c4a7c3e0bd3606fd25819b45a2a66545ea4e202b448095f8ef6066d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-singleton-decomposition-replica-v1/HOST_GOLD.json": "8f02898ae468bec06312a077ad522ea394a83c39df8c163b2cce4d4821664e19",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-singleton-decomposition-replica-v1/PUBLIC_INPUTS.json": "48d41f0cf01af5e2619416b207846a9162a8b90ca74108eac862573e91c79637",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-singleton-decomposition-replica-v1/PUBLIC_ROOTS.json": "78542157f8af463021a2c28311fcbe3f9b96c8852fd363e6c4c8b37656975a0a"
+  },
+  "tests": {
+    "returncode": 0,
+    "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+    "stdout": ".                                                                        [100%]\n=============================== warnings summary ===============================\ntest_audit.py::test_actual_twelve_cells_and_archived_native_fixture\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_audit.py::test_actual_twelve_cells_and_archived_native_fixture\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n1 passed, 2 warnings in 6.92s\n"
+  }
+}

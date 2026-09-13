@@ -1,5 +1,135 @@
 # Research session checkpoint
 
+## Latest resume pointer — September 13, 2026, 18:27 UTC
+
+NEW USER BUDGET:14% remaining, preserve10%; only~4% for consolidation and small
+targeted experiments. This supersedes previous reserve-spending override.
+Quota14%@18:25:43; nextcheck18:40 orbeforeexpansion. No new researchbranches.
+Large wallclockgap since07:27 was not productiveGPUtime; currentGPU wasempty.
+
+Paired V3training ACTIVE PTY66004 underflock operation
+2026-09-13-paired-vector-credit-v3/run.py. LocalREADY
+ee4c84418327584da1397b34d45fe187c8908c449c61e91c9e6740cc4c644ec7;
+jointREADYf07077a70daeefacd7117780678563a8b253ba2ff74061c23f5efe0709c9af71.
+MAIN reviewed exact directoryexist_ok repair and CPU sentinel fixture; math
+unchanged. EarlierV2ownercreateddir caused trainerFileExistsError beforemodel;
+V2failedattempt preserved. V1failure beforeoptimizer also preserved.
+Agent postmeeting prepares held-only72readout (base/local/joint,12held×2), CPUonly.
+Agent local auditingreplica328, prior capacityerror restarted. Tokenagentdone.
+
+Replica328 COMPLETE/qualified/released: wholevector10/24, singleton22/24,12W0L.
+All304scalars valid,302/304correct, FN0 FP2. Input56088→207004. Independent
+auditpending. Originalsingletonauditpassed; tokenconfidenceposthoc k2captures7/10
+corrections vsrandomexpected1.467, but2exactwins onecontext/zero-logptiesmany;
+not a testedadaptivepolicy. No confidenceGPUexperiment authorized undernewbudget.
+
+## Latest resume pointer — September 13, 2026, 07:16 UTC
+
+All four accepted generation jobs complete:48+72+176+64=360 real native calls.
+Singleton176 independently audited with zeroissues:10/12 versus4/12 list/vector,
+six wins on three independent contexts, no losses.150/152 decisions correct.
+New report pushed and ls-remote verified RLM77d3896a769b873a095e96c40e3d4d9de06dfd55.
+Notebook archive still previouscheckpoint; raw external artifacts preserved.
+
+Varied64 complete/qualified/released,33/64exact, all64valid/native spans qualified.
+Six variable G4groups. Actual tokenization merges commas/spaces with booleans:
+',true'248, ' true'137, ',false'70, ' false'63. MAIN approves whole native
+single-decision token weight1, same masks bothRLarms; standalone punctuation/EOS
+and cross-decision tokens zero. No fractional character weighting or retokenization.
+
+Postmeeting agent's CPUtest accidentally inherited CUDA and loaded4B9.14s,
+then failed missing study.TEMPERATURE before likelihood/gradient/optimizer.
+Local-v1READY and failedattempt001 preserved; MAIN verified optimizersteps0 and
+GPUempty. New shared/local/joint-v2 corrective sources required, no sealedV1edits.
+MAIN also found inherited diagnostics demand reward/advantage fields; agent fixes
+with focused tinyCPU end-to-end scorer test and explicit device isolation.
+No training currently admitted. localagent prepares fresh singleton328replica;
+tokenagent auditsvaried64. Currentready queue details at RESEARCH_QUEUEtop.
+
+Account16%@07:07,next07:22; useroverride permitsresearch belowoldreserve.
+No assumedreset. MAINsoleGPUlauncher; GPUcurrentlyidle on criticalCPUpreparation.
+
+## Latest resume pointer — September 13, 2026, 07:09 UTC
+
+Singleton176 ACTIVE under MAIN flock, PTY33139, operation
+2026-09-13-singleton-decomposition/run.py. Six new contexts, three interfaces,
+176 calls; caps900/1000/1100. Agent local_rl_design independently audits terminal.
+Varied-vector64 READY a20b568cd8ee3d49cbd65b3e5aab41003c31921be91f7ed5669be5df69733c8d;
+MAIN read all new source and fixtures, prepared operation
+2026-09-13-varied-vector-rollouts/run.py; launch only after singleton release.
+Postmeeting agent prepares matched local/joint credit trainer CPU only; no optimizer admitted.
+
+Representation72 COMPLETE/qualified/released: raw1, grouped4, resolved8 complete
+sets out of24 each. Grouping wins3 loses0 versus raw despite longer input;
+resolution wins4 loses0 versus grouping. Twelve independent cases, two repeats.
+Independent REPORT_V2 issues empty; original optional-field audit false alarms
+preserved. Vector48 independently confirmed16 list versus10 vector; all9 losses
+occurred on valid vectors. No semantic promotion of vector formatting.
+
+Account16% at07:07:29; September12 user override permits research below old
+reserve thresholds. Next quota check07:22. Actual resetSeptember19, not imminent.
+Latest GitHub checkpoint remains01:11; new results need publication checkpoint.
+
+## Latest resume pointer — September 13, 2026, 06:50 UTC
+
+ACTIVE36713 representation72 underflock; READY e4d9bb044e40a71423bf3a2bb27a09a1cccc9405b8aed7bee8ca446fc402165a,
+identity63b358aa468a2f36c4749d14e80b78f8fd5104434e9a0ba3ad8585a6a6c275ae.
+op2026-09-13-state-representation/run.py;900/1000/1100caps. MAINreadallnewsource,
+publicgroupingandunchangednormalizer, originalplusadditiveactual3response/scoring
+fixture. No newsourceafterseal; checkfirstscientificresponses promptly.
+CPUpostone-shotnative/publicaudit; localpreparessingleton176; tokenauditsvector48.
+
+COMPLETE46987 vector48 READY992d7159904040919776081d768adb6fe89f3f556cb2c05e4bef3402fa19999c,
+identity2a4106a6c38e61936628423e28428acf527bae275ecc8333c799712d53596ad7.
+MAINread282newlines+RUNBOOK/2focusedtests6.77s. Fullinputmax3340/3374,alloutputs
+fit384. Actualstartupcheck47/48validreturns/0errors at41safterfirstrequest.
+Terminalcomplete/all48/qualified/released. Rawlist16→vector10of24,3W9L,
+list24valid/vector21valid, output3403→505. Differentvaliddenominators; tokenagent
+audit17cb9b8a28eec315adf22c922af741fb4262af9aadfc9dd2b002efbc016647db inprogress.
+InitialMAINoperatorSyntaxError extra')' beforeadmission/GPU; fixedonecharand
+py_compilepassed. LAUNCH_REPAIR.md preservesnotmodeloutcome.
+
+Userproceed/on-diskAGENTSSept12override supersedesold20/15reservewinddown.
+Account18%@06:47:14,next07:02; resetSep19stillunchanged, allocationSep15end.
+Previous5h23idleafter01:11pausewasrealopportunitycost; don'trepeatoldpause.
+AllagentsCPUonly; MAINsoleGPUlauncher. Next176designseeds/caps inRESEARCH_QUEUE.
+Newprimaryliteratureidea2026-09-13-local-credit-prior-art.md: SCRL2605.22074v1
+subproblemspancredit closepriorart, notoursnovelty; CrEST2608.13179v1 scalar
+signpreservationnotaggregategradientguarantee. Bothprimarymethodsectionsread.
+Latestremotecheckpointstill68d83f0/d2f3e8a at01:11; newresearchnotyetpublished.
+
+## Resumed — September 13, 2026, 06:35 UTC
+
+User said proceed. Current on-disk AGENTS September12 quota override permits
+remaining19% research incloldreserve; prior01:11winddown usedhistoricalpolicy.
+Do not repeat that pause solely at20/15%. Mainaccount19%@06:34:58,resetSep19
+08:09:56 UTC, no resetassumption. GPU idle1MiB/no processes;5h23sinceprior
+checkpoint is acknowledged opportunitycost, notbackgroundwork.
+MAIN soleGPUlauncher; tokenpreparesvector48, postpreparesrepresentation72,
+localpreparesconditionalvariedRLdesign. Exactseeds/caps inRESEARCH_QUEUEtop.
+No newGPUjobadmittedyet; startupactualresponsecheck must follow launch.
+Previouscompletedjobs mustnotrerun; new source kept in newsidecars.
+
+## Remote checkpoint verified — September 13, 2026, 01:11 UTC
+
+RLM main68d83f06616466ba3874a1c6d0981c5339dbd334 and research notebook main
+d2f3e8a0d55b98d6733ee9c5a8d2fb03bd5cf424 are pushed and ls-remote verified;
+both worktrees clean. Detailedreceipt:
+operations/2026-09-13-selection-and-state-checkpoint/PUSH_RECEIPT.json.
+4483manifesthashes verified,74,504,147bytes,227refreshedfiles,credentialscan0.
+13blank-at-EOFwarnings in immutable copiedsource intentionallyretained;
+nootherwhitespaceerrors. Newreport peerreviewtightened unorderedvsstrictscores,
+dev-selecteddeliveryRLclaim and17-valid resampledtraining-contextdenominator.
+No originalsealedsource orprivateartifactmodified forpublication.
+
+All acceptedGPUjobs/audits finished; actualcompute-processlist empty atfinal
+precommitcheck. Dose10readout72 andfreshnormalization48 bothcomplete/qualified/
+released. No queuedjobpending, no furtheragentwork. Newquestioncard contains
+rankedproposals, NOTreadyjobs. Account19%@01:11:14 UTC; winddownoptionalbranches
+at20, pause15/reserve10. No exhausted-quota claim: winding down at a completed
+researchcheckpoint ratherthan openingnewbranches thatriskthereserve. GPUidle
+is an acknowledged opportunitycost, notongoingtraining. Full resumecontext below.
+
 ## Latest resume pointer — September 13, 2026, 01:00 UTC
 
 ALL ACCEPTED GPU JOBS AND RAW-NATIVE AUDITS COMPLETE. No active/queued training

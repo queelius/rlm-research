@@ -1,0 +1,12 @@
+{
+  "adapter_delta_l2": 0.2949092034012552,
+  "binding_sha256": "18166d7f990c251f69b41bedd3c6a6f93250d0556d7598088210de51640d1299",
+  "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-local-v3/outputs/attempt-001/checkpoint-0001",
+  "credit_mode": "local",
+  "elapsed_seconds": 47.90693976171315,
+  "optimizer_steps": 1,
+  "ready_sha256": "ee4c84418327584da1397b34d45fe187c8908c449c61e91c9e6740cc4c644ec7",
+  "state_sha256": "17c217b1d610d03d91d7ae70a7f6bdcbd68d72f2db15ed80a55a0e6632c0c623",
+  "status": "UPDATED",
+  "step_commit_sha256": "1cb5db4b16a20a28ef122961f24af2ad8b8b85268ed1b7ea2aadebfb1385f634"
+}

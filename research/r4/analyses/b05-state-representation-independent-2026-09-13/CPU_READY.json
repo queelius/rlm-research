@@ -1,0 +1,156 @@
+{
+  "GPU_calls": 0,
+  "argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-state-representation-independent-2026-09-13/analyze.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-state-representation-independent-2026-09-13/outcome-001"
+  ],
+  "model_calls": 0,
+  "one_shot_no_polling": true,
+  "public_checks": [
+    {
+      "candidate_count": 6,
+      "history_depth": 1,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_0fd3618d3b24bb",
+      "stage_index": 0,
+      "unresolved_lossless_public_grouping": true,
+      "width": 6
+    },
+    {
+      "candidate_count": 6,
+      "history_depth": 1,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_06c02d7555a5e5",
+      "stage_index": 1,
+      "unresolved_lossless_public_grouping": true,
+      "width": 6
+    },
+    {
+      "candidate_count": 12,
+      "history_depth": 1,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_250ea0827fb729",
+      "stage_index": 2,
+      "unresolved_lossless_public_grouping": true,
+      "width": 12
+    },
+    {
+      "candidate_count": 12,
+      "history_depth": 1,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_b152bb5f0d6595",
+      "stage_index": 0,
+      "unresolved_lossless_public_grouping": true,
+      "width": 12
+    },
+    {
+      "candidate_count": 20,
+      "history_depth": 1,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_29eed70e85d569",
+      "stage_index": 1,
+      "unresolved_lossless_public_grouping": true,
+      "width": 20
+    },
+    {
+      "candidate_count": 20,
+      "history_depth": 1,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_ea319bce952e40",
+      "stage_index": 2,
+      "unresolved_lossless_public_grouping": true,
+      "width": 20
+    },
+    {
+      "candidate_count": 6,
+      "history_depth": 3,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_d832f6a8404885",
+      "stage_index": 0,
+      "unresolved_lossless_public_grouping": true,
+      "width": 6
+    },
+    {
+      "candidate_count": 6,
+      "history_depth": 3,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_741ed08a71b3d5",
+      "stage_index": 1,
+      "unresolved_lossless_public_grouping": true,
+      "width": 6
+    },
+    {
+      "candidate_count": 6,
+      "history_depth": 3,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_186ad874fbdf3d",
+      "stage_index": 2,
+      "unresolved_lossless_public_grouping": true,
+      "width": 6
+    },
+    {
+      "candidate_count": 12,
+      "history_depth": 3,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_d45173a61f8fad",
+      "stage_index": 0,
+      "unresolved_lossless_public_grouping": true,
+      "width": 12
+    },
+    {
+      "candidate_count": 12,
+      "history_depth": 3,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_962b660f095b97",
+      "stage_index": 1,
+      "unresolved_lossless_public_grouping": true,
+      "width": 12
+    },
+    {
+      "candidate_count": 12,
+      "history_depth": 3,
+      "no_prior_or_vector_root_or_candidate_id_overlap": true,
+      "resolved_matches_pinned_normalizer": true,
+      "root_id": "root_6c529e82785cdc",
+      "stage_index": 2,
+      "unresolved_lossless_public_grouping": true,
+      "width": 12
+    }
+  ],
+  "schema": "b05-state-representation-independent-audit-ready-v1",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/analyze.py": "62e59881f03d604c3c9cb9df7635880d08655a35877d9597c31eef0bd24168fd",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-2026-09-12/analyze.py": "b66ec8d1df8fc99a2066c2ee41b1d1158ff51d36853bb0f7199c697ecae189df",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/analyze.py": "3f305e59305e082a73074343384916a4385eaf7376d6489156e37bf2dd773877",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-state-representation-independent-2026-09-13/RUNBOOK.md": "647b5dc254076a1df9f4f5250c214ec42aaed71e4913962cc1dd645fed578811",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-state-representation-independent-2026-09-13/analyze.py": "89f893a30b08031505ec090528ed8676e43447aea020dbe58df894b6cb190f46",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-state-representation-independent-2026-09-13/test_audit.py": "81a291589120f109b7452364c8bf78368406a19d501a9e024a3163e445d6d1aa",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-public-normalization-held9-v1/normalize.py": "515fed6eece6948951a4f9c6f3b25fc5f6f9f3feb124b62d8c5348a0d1038bda",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/CROSS_PANEL_AUDIT.json": "4a230c1ee5602dd270206d472fc24f2179caf8183f942e01e297256ef5e14b8a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/HOST_GOLD.json": "13f7eb9792f82332d0b05fb7c91b569c4372e267264f76c5a2d62f370b190954",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/PUBLIC_INPUTS.json": "7b5b712bfbae5638eb52a6710ae1d67db5357d9b0e26185c969e2137331cc3ae",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/PUBLIC_ROOTS.json": "74010385be5f88efcd8f3e12821024fa013dc2898dc10834e9ebcb4d75d1524d",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/READY.json": "e4d9bb044e40a71423bf3a2bb27a09a1cccc9405b8aed7bee8ca446fc402165a",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/TRANSPORT_SCORING_ADDENDUM.json": "537f5e6ae1099959f08fc73087116ac12d18abd1b6c5246032c4a22cb4ee0b69",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/represent.py": "54239e8e2054f7a5b176ad5903572df9f0e655699a209893984f681bc4ee9f8a"
+  },
+  "tests": {
+    "returncode": 0,
+    "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+    "stdout": ".                                                                        [100%]\n=============================== warnings summary ===============================\ntest_audit.py::test_regenerates_frozen_three_view_public_plan\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_audit.py::test_regenerates_frozen_three_view_public_plan\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n1 passed, 2 warnings in 6.93s\n"
+  }
+}

@@ -1,5 +1,34 @@
 # The findings most worth pursuing
 
+## Decision update — September 13, 07:20 UTC
+
+Promote fixed singleton decomposition to the strongest immediate replication
+target:10/12 complete sets versus4/12 for either whole-list or whole-vector
+controls on six fresh contexts, each answered twice. Six paired gains in three
+contexts, no losses.150/152 individual decisions correct; same quality-threshold
+mistake twice. Independent audit zeroissues. Matched-valid candidate corrections
+show this is not just output-format recovery. Input cost3.75x list; fixed
+separable delegation, not learned routing or new-dataset transfer.
+
+Controlled representation followup supports more than shorter input: raw1/24,
+grouped-but-unresolved4/24, resolved8/24. Grouped input is longer than raw.
+Twelve fresh contexts;3 then4 paired gains, no exact losses. Wording confounded,
+not every candidate-level metric improves. Keep all errors and full denominators.
+
+Do not promote boolean vectors alone: list16/24 versusvector10/24 on different
+fresh12panel,3W9L; all9 losses on valid arrays. Shorter output is not better
+selection. No cross-panel pooling.
+
+Varied64 provides new RL training signal, not an RL gain:33/64exact, six G4
+groups vary on11candidate positions. Compare local versusjoint decision credit
+with identicalnativeactions/masks/init/LR/denom. Corrected CPU preparation is
+pending after an accidental deviceinheritance load failed beforeoptimizer;
+preserve failure and do not claim trainingcompleted.
+
+Next: fresh328-call singleton replication; paired RL training and heldreadout;
+then fixedbudget targeted versusrandom helper queries if replicationholds.
+Primary literature notes in ideas/2026-09-13-learned-routing-after-singletons.md.
+
 ## Decision update — September 13, 01:00 UTC
 
 Promote public-state preparation as the strongest new harness lead. Combining

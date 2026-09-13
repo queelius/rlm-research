@@ -1,0 +1,30 @@
+{
+  "GPU_calls": 0,
+  "asserted_available": 3,
+  "asserted_current_owner_import_bindings": true,
+  "asserted_physical_records": 3,
+  "asserted_semantic_valid_empty_set_per_arm": 1,
+  "asserted_transport_valid": 3,
+  "asserted_unknown": 69,
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/test_transport_scoring_addendum.py"
+  ],
+  "created_utc": "2026-09-13T06:47:06.565946+00:00",
+  "model_calls": 0,
+  "ready_identity": "63b358aa468a2f36c4749d14e80b78f8fd5104434e9a0ba3ad8585a6a6c275ae",
+  "ready_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/READY.json",
+  "ready_sha256": "e4d9bb044e40a71423bf3a2bb27a09a1cccc9405b8aed7bee8ca446fc402165a",
+  "returncode": 0,
+  "schema": "b05-state-representation-transport-scoring-addendum-v1",
+  "sealed_ready_unchanged": true,
+  "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+  "stdout": ".                                                                        [100%]\n=============================== warnings summary ===============================\ntest_transport_scoring_addendum.py::test_existing_http_fixture_is_transport_valid_and_semantically_scored\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_transport_scoring_addendum.py::test_existing_http_fixture_is_transport_valid_and_semantically_scored\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n1 passed, 2 warnings in 7.13s\n",
+  "test_path": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-state-representation-v1/test_transport_scoring_addendum.py",
+  "test_sha256": "635bf7365103320ddaebc6e2525c2c6150845d4faf78a92b98018091c9b8656c"
+}

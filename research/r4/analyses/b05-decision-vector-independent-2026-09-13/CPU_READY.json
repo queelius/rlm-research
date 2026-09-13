@@ -1,0 +1,177 @@
+{
+  "GPU_calls": 0,
+  "argv": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-decision-vector-independent-2026-09-13/analyze.py",
+    "run",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-decision-vector-independent-2026-09-13/outcome-001"
+  ],
+  "model_calls": 0,
+  "one_shot_no_polling": true,
+  "public_checks": [
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 6,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 1,
+      "normalized_view_sha256": "5e81052d8a2c6613c715872f2d785c51d87a3e79bcbc09d4e0129aee3f285a2e",
+      "public_order_sha256": "0339bb18f51e8d79d1bd30c72225afd152cb0e96c586d558baa491b2971408fb",
+      "root_id": "root_076e66142e5aa6",
+      "same_records_policy_order_both_arms": true,
+      "width": 6
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 6,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 1,
+      "normalized_view_sha256": "790ad5e8786bd25a17102bcb3902056f3983fba0671e487d2df6a47465e4b33b",
+      "public_order_sha256": "a3091e74730e79e7161da3ff07991e7355f793c03d3841fc8ab2087d4e44d756",
+      "root_id": "root_39c786d6900b9c",
+      "same_records_policy_order_both_arms": true,
+      "width": 6
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 12,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 1,
+      "normalized_view_sha256": "2a24d4b7a3826caf59331727abfd5883465d00e852adf1839f202b4afa0258ef",
+      "public_order_sha256": "d4eeb4215227a1d92b4a2ac039e46d62c314a0ddb1f9441250ccd9e02254e20a",
+      "root_id": "root_028de76a4236cf",
+      "same_records_policy_order_both_arms": true,
+      "width": 12
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 12,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 1,
+      "normalized_view_sha256": "7647b5301b804f8b088292b4c137013aeed585355b0fcf83bd3fc97e512764bd",
+      "public_order_sha256": "cc667d1f16d8e591420a2aabbbf3fd34a6c8c5b7b9c5381567b81b1dca1d9584",
+      "root_id": "root_5fceb69e86a64c",
+      "same_records_policy_order_both_arms": true,
+      "width": 12
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 20,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 1,
+      "normalized_view_sha256": "4b385ae665d3f9cebe2a2955ddd541bbdb9efbb48da25fc121b75e85ed794bf9",
+      "public_order_sha256": "eead833035e20857ff36ccdd891e359504a5b37398f21af70884ec090fad53d4",
+      "root_id": "root_0209b2184b6d5d",
+      "same_records_policy_order_both_arms": true,
+      "width": 20
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 20,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 1,
+      "normalized_view_sha256": "7f5bfaec0f66917a7deb89001bcfa33527fd98d53eefa4798f52de01f8387b51",
+      "public_order_sha256": "e355667f0cbe7072d252ab612e317c72f0261d20e61d39ac5aaf3d39c6ce3490",
+      "root_id": "root_97d18be3bd06ec",
+      "same_records_policy_order_both_arms": true,
+      "width": 20
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 6,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 3,
+      "normalized_view_sha256": "48a02692e788370f5a76447e2bdecd5bc5215ce4d6cdf94e1b927b026cc81f12",
+      "public_order_sha256": "c1f0870840710ec74a361cf4df62b9f7340243a978e55bdf67c464fdb5c6fb53",
+      "root_id": "root_50f0503c7defa6",
+      "same_records_policy_order_both_arms": true,
+      "width": 6
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 6,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 3,
+      "normalized_view_sha256": "d83c1111c1ef6c9c352afa5e27e6375ad38cfb6f11a98f9c171def5c00aed42c",
+      "public_order_sha256": "ace45e64967b0259212ec3cc9d55bfe1b22fe5632c0a7189335f9e70f6094567",
+      "root_id": "root_61b96937cee04f",
+      "same_records_policy_order_both_arms": true,
+      "width": 6
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 6,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 3,
+      "normalized_view_sha256": "85fea417142a7973021baa33e7810670a172b3f3e5fef830d4ee876dbdd109ac",
+      "public_order_sha256": "70f717738fae71b986a086a1d8683a6a44ecda61bfd8bf03ab4b006ecbc41e7c",
+      "root_id": "root_1ce4825b3d609c",
+      "same_records_policy_order_both_arms": true,
+      "width": 6
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 12,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 3,
+      "normalized_view_sha256": "96872dce16739c442a0049437ea4f23a2dbc9e81570a738bd6e80bbeec5e122e",
+      "public_order_sha256": "e14b96010c7d988fe1b21be1250a0d31d23b1b679320930658c95563b65bcb1c",
+      "root_id": "root_ea27d8014b1fa4",
+      "same_records_policy_order_both_arms": true,
+      "width": 12
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 12,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 3,
+      "normalized_view_sha256": "c3eb71eea0ccef32d9ef25799ea518e9cc50c594f951315376f3a2db883a2c42",
+      "public_order_sha256": "ff5f44d21095285cd68eb8e07c6c454e098d369cde12159f3651d67ab83ca849",
+      "root_id": "root_d7692972a0cc5e",
+      "same_records_policy_order_both_arms": true,
+      "width": 12
+    },
+    {
+      "all_candidates_and_effective_fields_match": true,
+      "candidate_count": 12,
+      "eligibility_computed": false,
+      "fresh_public_generation_matches": true,
+      "history_depth": 3,
+      "normalized_view_sha256": "565e1f34dc29aa5ce6ad46204ee8475df7223a1bc1c93fd427308f35799b3fb1",
+      "public_order_sha256": "8bb89e3808048deacd3d6a5426b42ea1410078acd2a12e24bae47c284f1cee6a",
+      "root_id": "root_de0b8639ce91c6",
+      "same_records_policy_order_both_arms": true,
+      "width": 12
+    }
+  ],
+  "schema": "decision-vector48-independent-audit-ready-v1",
+  "source_sha256": {
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-decision-vector-independent-2026-09-13/RUNBOOK.md": "32cdaea5c9586698ec40e0a2ebeaf8a08587ff1aaab50e98841ecea358dee9c6",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-decision-vector-independent-2026-09-13/analyze.py": "11e7c8b2913ebc4c7068f3598962062a3c94370a302d85b438c5202fb4a6a4cf",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-decision-vector-independent-2026-09-13/test_audit.py": "5cbdd8c7c51b789f5693fa28d3bef4bfbd5612b126c11e6c5abe1835e8590761",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-public-normalization-independent-2026-09-13/analyze.py": "62e59881f03d604c3c9cb9df7635880d08655a35877d9597c31eef0bd24168fd",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-2026-09-12/analyze.py": "b66ec8d1df8fc99a2066c2ee41b1d1158ff51d36853bb0f7199c697ecae189df",
+    "/project/alex_phd/runs/rlm-research-r4/analyses/b05-source-visible-native-outcome-v3-2026-09-12/analyze.py": "3f305e59305e082a73074343384916a4385eaf7376d6489156e37bf2dd773877",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-decision-vector-v1/CPU_READY.json": "992d7159904040919776081d768adb6fe89f3f556cb2c05e4bef3402fa19999c",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-decision-vector-v1/HOST_GOLD.json": "0eb56f9f872e2c4c63eb690f5d99aee75c0fdd6059fb77a28c1bfbc4b18ccd19",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-decision-vector-v1/PUBLIC_INPUTS.json": "08ff2a67ce19f9d8e361b0844432f26ddec3ef0ac7ae89fa0863ec61c9d57986",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-decision-vector-v1/PUBLIC_ROOTS.json": "07b528aadc75d4d8fb9971f251ecbc32665a100d644c4704d8eb29797d009290",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-decision-vector-v1/interface.py": "5f7420ebfbf7c47d59af2547dbad078b6c23e285fbad01c8103acafc4189fdf4"
+  },
+  "tests": {
+    "returncode": 0,
+    "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+    "stdout": "..                                                                       [100%]\n=============================== warnings summary ===============================\nruns/rlm-research-r4/analyses/b05-decision-vector-independent-2026-09-13/test_audit.py::test_archived_actual_native_fixture\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\nruns/rlm-research-r4/analyses/b05-decision-vector-independent-2026-09-13/test_audit.py::test_archived_actual_native_fixture\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n2 passed, 2 warnings in 6.71s\n"
+  }
+}

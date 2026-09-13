@@ -1,11 +1,38 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-13T01:00:00Z
-status: completed_batch_account_reserve_wind_down
-claim_level: exploratory_public_state_preparation_and_narrow_delivery_learning
+updated_utc: 2026-09-13T18:27:00Z
+status: targeted_consolidation_preserve_ten_percent
+claim_level: exploratory_fixed_decomposition_replication
 ---
 
 # Research in plain language
+
+## Current interpretation — September 13, 18:27 UTC
+
+Giving each helper one candidate is the strongest new lead. The initial screen
+improved complete sets from4/12 to10/12. A fresh12-case replication returned
+22/24 correct complete sets versus10/24 when one call decided about all records.
+It used304 helper calls versus24 whole calls and about3.7times the input.
+The replication raw result is complete; independent audit is finishing. Both
+panels are within the same generated, separable selection task, not broad task
+transfer or learned decomposition. The host resolves records but never eligibility.
+
+Grouping unchanged records also helped even when it increased input length:
+raw1/24, grouped4/24, resolved8/24 on a separate paired12-case test. Conversely,
+changing only the answer to a true/false array reduced accuracy16/24 to10/24.
+This makes input organization and helper scope more promising than output
+format simplification alone. Never compare these separate panels as a training curve.
+
+The new local-versus-joint RL test uses64 identical native sampled actions,
+six groups with varying decisions, fresh matching adapters, and one update each.
+Corrected V3training is now admitted; no new RL gain has been measured. Two
+execution failures before any optimizer update are preserved, not discarded.
+
+User now explicitly requests10% account reserve. At18:25,14% remained. Finish
+the small training/readout if feasible, consolidate/push and stop discretionary
+research before10%; this supersedes the earlier instruction to spend the reserve.
+No new research branches. Current source report is in RLM docs/research-checkpoints/
+2026-09-13-decision-interfaces-and-record-grouping.md; raw artifacts remain external.
 
 ## Current interpretation — September 13, 01:00 UTC
 

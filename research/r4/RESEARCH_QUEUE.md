@@ -1,5 +1,87 @@
 # Live GPU research queue
 
+### Live update September 13, 07:16 UTC
+
+Completed: vector48, representation72, singleton176, varied-vector64. All calls
+available and native owners released. Singleton independent audit found zero
+issues:10/12 complete versus4/12 whole list/vector; six gains on three contexts,
+150/152 correct candidate decisions. Input cost3.75x list. One systematic quality
+threshold error remains. This is fixed separable decomposition, not learned depth.
+
+Ready preparation priority:
+1. Paired local-versus-joint decision-credit RL on fixed64 native actions.
+   Six variable groups; all64valid. Same initialization/LR1e-4/oneupdate/64denom.
+   Native tokens merge commas/spaces with boolean values: assign whole token
+   to its sole decision, no arbitrary character-fraction weights. Shared masks.
+   CPU preparation accidentally inherited CUDA and loaded model9.14s, failed
+   before optimizer on missing TEMPERATURE. Preserve local-v1failed attempt;
+   corrected NEW v2 source and explicit CPUdevice isolation required.
+   MAIN also found missing reward/advantage diagnostic fields before nextGPU.
+2. Fresh singleton replication12 new cases across widths6/12/20, histories1/3,
+   checks1/3:328 calls=304singletons+24vectors. Gen202609490000..11, rootseeds
+   202609500000..23. Width32 exceeds stock generator contract, deferred.
+3. After RL checkpoints, paired base/local/joint readout on frozen12held×2 and
+   fresh draws16train×2=168calls; trainnewseeds202609510000..31. Not ready yet.
+
+MAIN soleGPUlauncher; no useful ready job currently awaiting launch. CPUprep is
+critical path; avoidable idle time acknowledged. Account16%@07:07 next07:22.
+Research report pushed77d3896a769b873a095e96c40e3d4d9de06dfd55; externalartifact
+archive not yet updated. Do not confuse GitHub report with checkpoint backup.
+
+### Live update September 13, 06:50 UTC
+
+ACTIVE36713 state-representation72, explicitflock, operation
+2026-09-13-state-representation/run.py. READY e4d9bb044e40a71423bf3a2bb27a09a1cccc9405b8aed7bee8ca446fc402165a.
+MAIN read allnewsource+losslesspublicgrouping andadditive3returnHTTP/scoringfixture;
+bothnewpanelsroot/candidateIDsdisjoint. Ownerchecksclosure, no repeatedmainwalk.
+CPUpost auditingallthreeviewsafterterminal. Startupactualresponsecheckpending.
+
+COMPLETE46987 decision-vector48,allavailable/qualified/released; rawcollector:
+list16/24correct versusvector10/24,3wins9losses. List24valid; vector21valid/3invalid.
+ListTP177/FP29/FN3/TN51; vectorVALIDONLYTP132/FP5/FN12/TN51, doNOTcomparedifferent
+conditionaldenominators. Output3403→505; formatting/positionalerrorsneedtokenaudit.
+Tokenagent native/publicauditsealed17cb9b8a28eec315adf22c922af741fb4262af9aadfc9dd2b002efbc016647db.
+Liststrictsorted0,vectorstrictcorrect10; semanticcomparisonremains16→10.
+
+NEXT CPUlocal authorized b05-singleton-decomposition-v1, conditionalfailurebranch:
+6NEWcases (twoeachwidth6/12/20),2seeds,176calls=152singleton+12wholelist+12vector.
+Eachsingleton seesonepubliccandidate+samepolicy, returnsstrictscalarboolean;
+noeligibilityfiltering/labelleak. 16tokensperhelper (at20helpers320<=384whole),
+4workers/T.5,900/1000/1100caps. Gen202609420000..5;rootdecode202609430000..11,
+helperseed=rootseed+1000+index. Allcallsand repeatedpolicycost counted; not
+compute-matchedorlearneddecompositionclaim. NoGPUs untilREADYreview.
+VariedRL deferreduntildecisioncompetency/contrast observed, notretired.
+
+Account18%@06:47, overridepermitscontinuedresearch; nextquota~07:02.
+Initialvectoroperator extra-parenthesisfailedbeforeGPUandwasfixed/compilechecked;
+LAUNCH_REPAIR.md preservesfailure. No sealedexperimentdata/source changed.
+
+### Resumed September 13, 06:35 UTC — decision interfaces and public state
+
+User explicitly said proceed. On-disk AGENTS.md contains a September12 override
+authorizing use of the remaining research allowance, including the prior reserve.
+The earlier wind-down applied historical thresholds and is superseded for this
+resumption. Main account remains19%, resetSeptember19 08:09:56 UTC; continue
+monitoring without assuming a reset. GPU was idle at06:34 (1MiB/no processes).
+This idle interval is real lost opportunity, not ongoing training.
+
+CPU preparation running, MAIN sole GPU launcher:
+1. token_tis_review: b05-decision-vector-v1, twelve NEW contexts, same normalized
+   public input, selected IDs versus complete positional boolean decisions,
+   two paired seeds,48calls,T.5/384,600/700/800science/owner/externalcaps.
+   Generation202609380000..11,decoding202609390000..23. No missing-vector repair;
+   primary complete semantic sets with invalid-known and unknown separately.
+2. postmeeting_gpu_pilot: b05-state-representation-v1, twelve NEW contexts,
+   raw tables versus compact-unresolved versus resolved public records,
+   two paired seeds,72calls,T.5/384,900/1000/1100caps. All candidates retained;
+   gen202609400000..11,decode202609410000..23. No token-matched causal claim.
+3. local_rl_design: bounded conditional varied-decision RL design, no new code
+   or GPU yet. Plan next training from vector results, not another fixed-batch dose.
+
+These are preparation tasks, not launched jobs. Reuse the qualified native
+owner and verify actual scientific responses promptly after startup. No broad
+tests, no repeated ancestry hashing under the GPU lock, no sealed-source edits.
+
 ### Live update September 13, 01:00 UTC — accepted batch complete
 
 No GPU job is active or admitted. Both selection doses, their 72-call readouts,

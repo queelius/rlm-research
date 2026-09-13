@@ -1,0 +1,18 @@
+# Fixed singleton decomposition: genuine local-rule improvement, at extra input cost
+
+Independent source-to-native audit passed: all176 calls available, exact frozen seeds/prefixes/model/usage verified, actual runtime qualified and released. Semantic complete-set accuracy is **4/12 list, 4/12 vector, 10/12 singleton**. Singleton wins six stage/repeat comparisons and loses none against either control; these are both repeats of three contexts, not six independent replications. The six contexts contain76 unique candidates. Scalar accuracy is150/152 repeated decisions, with no missing, malformed or omitted scalar decision.
+
+By width, singleton exact is4/4 at6,2/4 at12,4/4 at20. Both full controls are4/4 at6 and0/4 at12/20. Whole-list validity is10/12; vector11/12. Some complete-set gains therefore include interface recovery, but it is **not only a formatting effect**:
+
+- On the ten list-valid matched tasks, exact4→8 and18 candidate decisions change, all toward gold:16 failed-check false positives removed and two eligible omissions recovered. FP18→2, FN2→0, TP66→68, TN26→42.
+- On the eleven vector-valid matched tasks, exact4→9 and ten decisions change, all toward gold: five failed-check false positives removed and five eligible omissions recovered. FP7→2, FN5→0, TP76→81, TN44→49.
+
+The two scalar errors are the **same candidate in both repeats**, shared by all three arms: `impl_bf004c56cbd8`, index10 of the width12 stage `root_d610ff85733de9`. Its public quality is3 below the required minimum4; cost35≤55, latency6≤45, capacity33≥8, and both required checks pass. The remaining failure is a numeric predicate error, not missing history, ID copying, or candidate enumeration. This factual diagnosis is not a claim about internal reasoning.
+
+Costs: singleton152 calls versus12 per full arm; input103,002 versus27,446(list)/27,850(vector), about3.75×/3.70×. Output912 versus1,927/376; total103,914 versus29,373/28,226, about3.54×/3.68×. All usage is known. The combined owner took100.610s: startup46.080s, science53.442s, cleanup1.031s. Summed per-call durations (list69.23s/vector15.11s/singleton45.38s) are overlapping request-time totals, **not isolated arm GPU wall times**.
+
+The result establishes useful fixed decomposition headroom on this small within-family sample, not learned delegation, new-dataset transfer, or equal-compute superiority. Candidates are computationally independent under the local policy; the host performs only the scheduled union. Normalization already resolves public history/check state, so this does not establish learned latest-revision selection.
+
+Strongest next action is the approved fresh12-cell vector/singleton replication across widths6/12/20, histories1/3 and check revisions1/3, with no outcome-based selection. Width32 is unsupported by the pinned generator and remains deferred. If the gain persists, the next mechanism question is whether saved parent signals can target a **small fixed number of helper calls** better than random same-budget calls on new cases. That would test when additional decomposition is worthwhile; this audit does not implement or evaluate an oracle-selected routing rule. Do not start RL merely because the scalar interface is accurate: fresh groups must demonstrate useful success/failure alternatives.
+
+Evidence: `REPORT.json` SHA256 `88270ee4fd26e37f0c1faab147c0418606e688fbb5fd25bc407638866d59bd06`; report retains full raw-response hashes, candidate mappings, matched denominators, public-fact checks and source closure. Native decoder/runtime primitives are reused from reviewed auditors; scalar union and outcome aggregation are independently recomputed, not an independent protocol implementation.

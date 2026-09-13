@@ -1,0 +1,12 @@
+{
+  "credit_mode": "local",
+  "elapsed_seconds": 9.141151955351233,
+  "error": {
+    "message": "module 'study' has no attribute 'TEMPERATURE'",
+    "traceback": "Traceback (most recent call last):\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-shared-v1/trainer.py\", line 65, in run\n    enabled = model_core.selected_logprobs(model, first, require_grad=False)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/project/alex_phd/runs/rlm-research-r4/sidecars/openai-mrcr-short-root-token-tis-two-lr-v1/trainer.py\", line 35, in selected_logprobs\n    ).logits.float() / study.TEMPERATURE\n                       ^^^^^^^^^^^^^^^^^\nAttributeError: module 'study' has no attribute 'TEMPERATURE'\n",
+    "type": "AttributeError"
+  },
+  "optimizer_steps": 0,
+  "ready_sha256": "f7738de14386ee286573639e927946a87f59c3aa9bafd63bdb47d7583e955e84",
+  "status": "FAILED"
+}

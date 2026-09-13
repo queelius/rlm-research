@@ -4,7 +4,28 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 13, 2026, 01:00 UTC evidence cutoff.
+Latest partial refresh: September 13, 2026, 18:30 UTC evidence cutoff.
+
+The strongest new finding is fixed one-candidate delegation. On six fresh
+problems answered twice, it improved complete selections from4/12 to10/12.
+A second twelve-problem panel improved from10/24 to22/24, with twelve wins
+and no losses across seven problems. Independent audits checked every response.
+The trade-off is about3.7times the input tokens and many more calls. This is
+replication within a separable generated selection task, not learned routing,
+recursive depth, or cross-dataset transfer.
+
+A separate comparison found that grouping unchanged records helped even when
+it increased input length: raw1/24, grouped4/24, resolved8/24. Shorter output
+alone did not help: whole true/false arrays scored10/24 versus16/24 for lists
+on another panel. Keep the panels separate; they are not a training curve.
+
+Two matched local-versus-whole-answer credit updates have now completed and
+saved checkpoints. Their held-out evaluation is pending; no new RL accuracy
+gain is claimed. Two preceding execution failures occurred before any optimizer
+update and are retained. The user now requests10% shared account reserve, so
+work is limited to this targeted readout and consolidation.
+
+## Earlier findings (01:00 UTC checkpoint)
 
 The strongest new harness result is organizing records before the model chooses
 from them. Python combines public updates and latest checks without filtering
@@ -78,7 +99,7 @@ Earlier helper-training gains also weakened on new examples and did not improve
 whole-system answers. The notebook preserves those results, failures and
 interpretation changes alongside promising findings. Records retain their named
 cutoffs; this is not live GPU status. See the
-[latest plain-language research checkpoint](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-13-from-answer-delivery-to-information-selection.md)
+[latest plain-language research checkpoint](https://github.com/queelius/rlm/blob/main/docs/research-checkpoints/2026-09-13-decision-interfaces-and-record-grouping.md)
 for methods, limitations and evidence pointers.
 
 ## Start here

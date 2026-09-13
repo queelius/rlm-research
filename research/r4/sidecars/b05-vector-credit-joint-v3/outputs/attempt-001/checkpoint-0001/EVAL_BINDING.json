@@ -1,0 +1,12 @@
+{
+  "adapter_config_sha256": "b224a53bcfc9ba1a6eb8e16a420b508b9f5bc465d72c8ddab5c4f37101b12e0d",
+  "adapter_sha256": "257843e5ee1358361a574ef358ef2e78c299504234d46a43592c2ecc173454a6",
+  "alias": "Qwen3-4B-Instruct-2507-b05-vector-credit-joint-step1-v3",
+  "base": "/project/alex_phd/research-cache/models/Qwen--Qwen3-4B-Instruct-2507--cdbee75f17c01a7cc42f958dc650907174af0554",
+  "checkpoint": "/project/alex_phd/runs/rlm-research-r4/sidecars/b05-vector-credit-joint-v3/outputs/attempt-001/checkpoint-0001",
+  "credit_mode": "joint",
+  "schema": "b05-vector-credit-checkpoint-binding-v1",
+  "selection": "fixed sole step1; not outcome-selected",
+  "source_ready_sha256": "f07077a70daeefacd7117780678563a8b253ba2ff74061c23f5efe0709c9af71",
+  "state_sha256": "b364dd3fd4444d8ee7a81c3e79adf676160710a91065416933324092271e4763"
+}

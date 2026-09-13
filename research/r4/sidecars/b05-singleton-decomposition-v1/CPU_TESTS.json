@@ -1,0 +1,17 @@
+{
+  "GPU_calls": 0,
+  "actual_HTTP_native_fixture": true,
+  "command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "test_singleton.py",
+    "--basetemp=cpu-fixture-seal-001"
+  ],
+  "model_calls": 0,
+  "red_receipt": "First parser/union test failed before interface.py existed; then passed after implementation.",
+  "returncode": 0,
+  "stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+  "stdout": "..                                                                       [100%]\n=============================== warnings summary ===============================\ntest_singleton.py::test_actual_http_scalar_caps_projection_and_partial_stage_accounting\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_singleton.py::test_actual_http_scalar_caps_projection_and_partial_stage_accounting\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n2 passed, 2 warnings in 7.41s\n"
+}
