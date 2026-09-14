@@ -1,0 +1,50 @@
+{
+  "artifact": "unattended breadth-screen frozen cases v2",
+  "created_utc": "2026-09-14",
+  "additive_to": "cases.jsonl and MANIFEST.json remain unchanged",
+  "generator": {
+    "path": "prepare_v2.py",
+    "sha256": "532557f7423563b2a816c569f2301cb8cf45ff05aaa42d3219978f1bb1670568",
+    "seed": 20260914,
+    "python": "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "command": "CUDA_VISIBLE_DEVICES='' /project/alex_phd/envs/prime-rl-5990b1b/bin/python prepare_v2.py"
+  },
+  "output": {
+    "path": "cases-v2.jsonl",
+    "sha256": "356301e5a85a420ed1b740208031b3dbcb9cd5018fac57618bd392e83b144783",
+    "records": 2277,
+    "counts": {"musique": 512, "finqa": 512, "boolq": 512, "ag_news": 238, "longbench_v2": 503},
+    "gold_handling": "answer is null and metadata.gold is scorer-only; supporting annotations and decompositions are absent from question/documents."
+  },
+  "v2_changes": {
+    "musique": {
+      "input_member": "data/musique_ans_v1.0_dev.jsonl",
+      "answerable_only": true,
+      "public_document_format": "title + newline + original paragraph_text when title is supplied",
+      "aliases": "metadata.answer_aliases",
+      "source_row_index": "preserved before deterministic shuffle"
+    },
+    "finqa": {
+      "input": "/project/alex_phd/research-cache/repos/FinQA-0f16e2867befa6840783e58be38c9efb9229d742/dataset/dev.json",
+      "answer_typing": "decimal/scientific notation and percent values -> number; yes/no/true/false -> boolean; other values -> string",
+      "selected_512_receipt": {"number": 508, "boolean": 4, "string": 0, "excluded": 0},
+      "selected_number_gold_format_receipt": {"percent_strings": 0, "comma_strings": 0, "scientific_notation_strings": 1},
+      "annotation_status": "exploratory prior-exposed; raw exe_ans preserved and known annotation limitations are recorded per case"
+    },
+    "boolq": "metadata.source_row_index is the validation parquet row before shuffle",
+    "ag_news": "metadata.source_row_index is the list of test parquet row indices before shuffle for each disjoint group",
+    "longbench_v2": "unchanged from v1: official HF snapshot zai-org/LongBench-v2 revision 2b48e494f2c7a2f0af81aae178e05c7e1dde0fe9, Apache-2.0, no context truncation"
+  },
+  "tests": {
+    "path": "test_prepare_v2.py",
+    "sha256": "d0f50003503eaf4fa0f65d6eacc69309ced5cf36e97d96b5279397a1b790e16b",
+    "command": "CUDA_VISIBLE_DEVICES='' /project/alex_phd/envs/prime-rl-5990b1b/bin/python -m pytest test_prepare_v2.py -q",
+    "result": "2 passed"
+  },
+  "limitations": [
+    "Exploratory breadth screen only; MuSiQue and FinQA are prior-exposed, not unexposed confirmatory evaluation.",
+    "LongBench v2 original contexts are intentionally untruncated; the runner owns any tokenizer cap.",
+    "AG News has 238, not 512, disjoint mixed-size groups because 7,600 source articles constrain 8/24/64 groups."
+    ,"FinQA number gold is preserved as a string; this selected slice has no percent/comma strings but has one scientific-notation string, so a float-only scorer needs explicit normalization."
+  ]
+}

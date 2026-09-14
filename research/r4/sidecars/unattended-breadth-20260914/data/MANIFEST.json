@@ -1,0 +1,63 @@
+{
+  "artifact": "unattended breadth-screen frozen cases",
+  "created_utc": "2026-09-14",
+  "generator": {
+    "path": "prepare.py",
+    "sha256": "53570e3289298f6573d84b0e28a89972154a14941bc080a1aff2d6af49c3b803",
+    "seed": 20260914,
+    "python": "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "command": "CUDA_VISIBLE_DEVICES='' /project/alex_phd/envs/prime-rl-5990b1b/bin/python prepare.py"
+  },
+  "outputs": {
+    "cases.jsonl": {
+      "sha256": "2b8a1b5081bfadc8b5185e5eac07126c8db6ffb13c00f58190875d50a186124f",
+      "records": 2277,
+      "counts": {"musique": 512, "finqa": 512, "boolq": 512, "ag_news": 238, "longbench_v2": 503},
+      "tiers": {"pilot": 80, "screen": 1246, "reserve": 951},
+      "schema": "id,dataset,split,question,documents,answer,answer_type,metadata",
+      "gold_handling": "answer is null; scorer-only gold is metadata.gold. Supporting facts and decompositions are omitted."
+    },
+    "test_prepare.py": "c7450897acfafdd9c257568d366361a24417a17f34b21ff8d803c0c56d2e818a"
+  },
+  "provenance": {
+    "musique": {
+      "source": "official MuSiQue v1.0 archive",
+      "cached_input": "/project/alex_phd/research-cache/datasets/musique-v1.0-922ac98f19a201998dbdae6d7f2887a5258dbdeb/musique_data_v1.0.zip",
+      "split": "musique_full_v1.0_dev.jsonl",
+      "status": "exploratory prior-exposed evaluation"
+    },
+    "finqa": {
+      "source": "official FinQA repository",
+      "cached_input": "/project/alex_phd/research-cache/repos/FinQA-0f16e2867befa6840783e58be38c9efb9229d742/dataset/dev.json",
+      "split": "dev",
+      "status": "exploratory prior-exposed evaluation; raw exe_ans preserved, including annotation limitations"
+    },
+    "boolq": {
+      "source": "BoolQ Hugging Face cache",
+      "cached_input": "/project/alex_phd/research-cache/datasets/boolq-20260911/validation.parquet",
+      "split": "validation"
+    },
+    "ag_news": {
+      "source": "fancyzhx/ag_news Hugging Face cache",
+      "cached_input": "/project/alex_phd/research-cache/datasets/fancyzhx--ag_news--eb185aade064a813bc0b7f42de02595523103ca4/test.parquet",
+      "split": "test",
+      "groups": "238 seeded disjoint groups cycling sizes 8/24/64; each asks for a named class count and hides article labels"
+    },
+    "longbench_v2": {
+      "source": "https://huggingface.co/datasets/THUDM/LongBench-v2 (official project: https://github.com/THUDM/LongBench)",
+      "resolved_repository": "zai-org/LongBench-v2",
+      "revision": "2b48e494f2c7a2f0af81aae178e05c7e1dde0fe9",
+      "license": "Apache-2.0",
+      "cached_input": "/project/alex_phd/research-cache/datasets/zai-org--LongBench-v2--2b48e494f2c7a2f0af81aae178e05c7e1dde0fe9/data.json",
+      "input_sha256": "15d61c22d92c96900b3c4948b6aeea218d3214b676a65df48e7b8555604c7fe2",
+      "split": "train (503 records)",
+      "handling": "choices are embedded in the question; original context is one untruncated document; runner owns tokenizer cap"
+    }
+  },
+  "limitations": [
+    "This is an exploratory breadth screen, not an unexposed or confirmatory benchmark claim.",
+    "LongBench v2 contexts can be very large (up to roughly 2M words); no preparation-time truncation is performed.",
+    "AG News has 7,600 source articles, so 238 disjoint mixed-size groups are possible, not 512 groups.",
+    "JSONL consumers must iterate physical newline records; Unicode U+2028 can occur inside a JSON string and is not a record delimiter."
+  ]
+}

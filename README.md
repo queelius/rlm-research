@@ -4,7 +4,20 @@ This repository makes the small, readable part of our recursive language model
 research available outside the GPU cluster. It is a publication snapshot, not a
 backup of the working filesystem and not a claim that every experiment succeeded.
 
-Latest partial refresh: September 13, 2026, 19:00 UTC evidence cutoff.
+Latest operational update: September 14, 2026, 06:49 UTC. A detached, bounded
+evaluation campaign is now running across MuSiQue, FinQA, BoolQ, AG News, and
+LongBench v2. It compares direct answers with fixed helper-summary and
+fact-preserving helper approaches, with a calculator condition for numerical
+FinQA examples. Two base models are queued in sequence. This is an exploratory
+evaluation screen, not new RL training or a learned decomposition policy.
+The pilot returned 54 model calls; the main campaign had returned 20 calls with
+zero transport errors at this checkpoint. It stops by September 15, 17:20 UTC,
+or earlier if its finite queue finishes. Source and resume instructions are in
+[the campaign handoff](research/r4/sidecars/unattended-breadth-20260914/README.md).
+The later operational update supersedes the paused status below; the scientific
+findings below retain their September 13, 19:00 UTC evidence cutoff.
+
+Latest analyzed-results refresh: September 13, 2026, 19:00 UTC evidence cutoff.
 
 The strongest new finding is fixed one-candidate delegation. On six fresh
 problems answered twice, it improved complete selections from4/12 to10/12.

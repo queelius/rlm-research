@@ -1,11 +1,21 @@
 ---
 schema: research-current-brief-v1
-updated_utc: 2026-09-13T19:00:00Z
-status: completed_consolidation_preserve_ten_percent
+updated_utc: 2026-09-14T06:49:00Z
+status: unattended_breadth_collection_preserve_ten_percent
 claim_level: exploratory_fixed_decomposition_replication
 ---
 
 # Research in plain language
+
+## Current operation — September14, 06:49UTC
+
+A user-approved local script is collecting varied-dataset harness comparisons
+without Codex. See SESSION_CHECKPOINT.md and the unattended-breadth-20260914
+sidecar. The successful technical pilot returned54model calls; first detached
+phase returned20with0errors at this cutoff. No new scientific gain or training
+result is claimed yet. The completed September13findings below remain current.
+Account11%; optional Codex work pauses after publishing while local GPU work
+continues toward its September15 17:20UTC deadline.
 
 ## Final consolidation — September 13, 19:00 UTC
 

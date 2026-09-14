@@ -1,5 +1,23 @@
 # Live GPU research queue
 
+## ACTIVE unattended breadth screen — September14, 06:49UTC
+
+The user approved this finite campaign after discussing dataset variety.
+`sidecars/unattended-breadth-20260914/LAUNCH.json` authenticates detached
+supervisor1366840. Current4B pilot-stage collection has20returns/0errors;
+the preliminary technical pilot completed54calls. New4B/8B dataset blocks
+are queued by campaign_v3.py under the existing exclusive GPU lock.
+
+Five datasets; direct, summary, fact-preserving delegation, and numeric FinQA
+calculation; later four-way division. Follow-on blocks use declared dataset
+signal gates; no new ideas or training are invented while unattended. No Codex
+calls. DeadlineSeptember15 17:20UTC or useful queue exhaustion. Inspect actual
+returned counts in outputs/campaign-001/STATUS.json, not just occupied memory.
+
+No additional GPU jobs may be launched concurrently. Preserve10% account
+reserve (11% at06:49); local accepted jobs continue while Codex pauses.
+Previous queues/statuses below are historical and superseded.
+
 ## Final status — September 13, 19:00 UTC: paused for account reserve
 
 All accepted GPU jobs are complete and released. Do not automatically launch

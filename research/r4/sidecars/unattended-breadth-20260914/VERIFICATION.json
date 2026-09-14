@@ -1,0 +1,35 @@
+{
+  "checked": 1789368545.9228647,
+  "tests_command": [
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "-m",
+    "pytest",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/unattended-breadth-20260914/test_runner.py",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/unattended-breadth-20260914/test_campaign_v2.py",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/unattended-breadth-20260914/test_runner_v2.py",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/unattended-breadth-20260914/data/test_prepare_v2.py",
+    "-q"
+  ],
+  "returncode": 0,
+  "tests_stdout": "...........                                                              [100%]\n=============================== warnings summary ===============================\nruns/rlm-research-r4/sidecars/unattended-breadth-20260914/test_runner_v2.py::test_actual_tokenizer_returns_plain_json_serializable_prefix\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\nruns/rlm-research-r4/sidecars/unattended-breadth-20260914/test_runner_v2.py::test_actual_tokenizer_returns_plain_json_serializable_prefix\n  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n11 passed, 2 warnings in 22.38s\n",
+  "tests_stderr": "sys:1: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n",
+  "pilot_calls": 54,
+  "available_calls": 54,
+  "pilot_episodes": 32,
+  "excluded_episodes": 6,
+  "available_episodes": 26,
+  "valid_episodes": 26,
+  "pilot_status_sha256": "034b656dd5c03f020f8678be66d96c7e03bfff787a68d799f15d80eee6c7050e",
+  "source_sha256": {
+    "campaign_v2.py": "73dc5083b4ec9b0fc679fd55669bf5ed2df02765e46ed158d99404b75235b6eb",
+    "test_runner.py": "77a598caebc5cf59d3ed09f12741bfe446a1ce8826b963c203c7a11761611a1a",
+    "launch_detached.py": "6cf701ce47862cd8897eb373f0451acefa72d09f3289e7b8240c150aa7e0fd3c",
+    "runner.py": "df1fcef621aa40603b0ff4849f1c7bcbaf79527630e1dfcdd9d8c19717fcc154",
+    "test_runner_v2.py": "53c2c0cd2b94654a646ac7061348353e9e065b9e70056f1c0cb3ff32f588b395",
+    "runner_v2.py": "23f8cd14aab63a478d06fb22ba3bcdfb1d9c37af5f168f71427b2b2668c6cfa6",
+    "campaign_v3.py": "dce17ae4c69ea7a7f8755b3051a1371c6c6bdbca2bddc1271f17f87534b3d904",
+    "verify.py": "a0f0ebaedfd69c737c6cde180fd475a5aa602423e75f1c07ad010e970b5049a1",
+    "test_campaign_v2.py": "97e01fe9d01637e1bbb0ad439d502b72abf79e10ff9525edd040d5298bf64779",
+    "campaign.py": "d9117b2ec84a95ea52b65bace5bb2570c7a8bf46ac91261f5376d2d67c051b31"
+  }
+}

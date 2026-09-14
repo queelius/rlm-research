@@ -1,0 +1,27 @@
+{
+  "pid": 1366840,
+  "create_time": 1789368441.32,
+  "started": 1789368441.6574006,
+  "deadline": 1789492816,
+  "command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=120",
+    "124374",
+    "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/unattended-breadth-20260914/campaign_v3.py",
+    "--output",
+    "/project/alex_phd/runs/rlm-research-r4/sidecars/unattended-breadth-20260914/outputs/campaign-001",
+    "--hours",
+    "36"
+  ],
+  "log": "/project/alex_phd/runs/rlm-research-r4/sidecars/unattended-breadth-20260914/detached-83189cc4a52d.log",
+  "output": "/project/alex_phd/runs/rlm-research-r4/sidecars/unattended-breadth-20260914/outputs/campaign-001",
+  "python": "/project/alex_phd/envs/prime-rl-5990b1b/bin/python",
+  "packages": {
+    "torch": "2.13.0+cu130",
+    "vllm": "0.28.0",
+    "transformers": "5.6.2",
+    "psutil": "7.2.2"
+  }
+}

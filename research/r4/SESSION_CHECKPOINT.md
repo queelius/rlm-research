@@ -1,5 +1,29 @@
 # Research session checkpoint
 
+## ACTIVE unattended campaign — September14, 2026, 06:49UTC
+
+User approved a varied-dataset unattended collection campaign on September14.
+Detached supervisor PID1366840 is authenticated by create_time in
+`sidecars/unattended-breadth-20260914/LAUNCH.json`. At06:49 the first4B phase
+had20actual native responses and0transport errors. The successful preceding
+pilot had54/54responses; all focused tests passed. Both earlier failed pilots
+remain recorded. Do not launch another GPU owner while this campaign is live.
+
+Current source: campaign_v3.py + runner_v2.py (hash-bound earlier sources).
+Data: cases-v2.jsonl SHA356301e5a85a420ed1b740208031b3dbcb9cd5018fac57618bd392e83b144783.
+The finite queue spans MuSiQue, FinQA, BoolQ, AG News and admissible LongBench v2,
+direct/summary/fact-return/calculator conditions, released4B/8B, two/four-way
+division. No new optimizer or unrestricted root-policy training in this screen.
+Raw model calls and episode scores persist under outputs/campaign-001/models/.
+STATUS.json and SUMMARY.json expose progress. DeadlineSeptember15 17:20UTC.
+
+Account11%@06:49; preserve10%. Already accepted local jobs should continue
+without Codex generation. After publishing the source/handoff, pause optional
+model work. Use launch_detached.py --resume only after authenticating that the
+old owner is no longer running and clearing an intentional STOP marker if any.
+This source push does not back up external data/model weights. The older pause
+entries below remain history, not a description of the now-active GPU queue.
+
 ## Final reserve checkpoint — September 13, 2026, 19:00 UTC
 
 STOP discretionary research; preserve the user's 10% shared account reserve.
